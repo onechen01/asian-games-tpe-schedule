@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T10:50:38.724Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/normalized/schedule-2026-09-18-AUTO.json",
+      "generatedAt": "2026-09-18T10:47:07.756Z",
+      "coverage": {
+        "sports": [
+          "BKB",
+          "CKT",
+          "FBL",
+          "HOC",
+          "MPN",
+          "TEQ",
+          "TST",
+          "VVO",
+          "HBL"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-09-18",
+            "2026-09-19"
+          ],
+          "targets": [
+            {
+              "code": "BKB",
+              "date": "2026-09-18",
+              "medalDay": false
+            },
+            {
+              "code": "CKT",
+              "date": "2026-09-18",
+              "medalDay": false
+            },
+            {
+              "code": "FBL",
+              "date": "2026-09-18",
+              "medalDay": false
+            },
+            {
+              "code": "HOC",
+              "date": "2026-09-18",
+              "medalDay": false
+            },
+            {
+              "code": "MPN",
+              "date": "2026-09-18",
+              "medalDay": false
+            },
+            {
+              "code": "TEQ",
+              "date": "2026-09-18",
+              "medalDay": false
+            },
+            {
+              "code": "TST",
+              "date": "2026-09-18",
+              "medalDay": false
+            },
+            {
+              "code": "VVO",
+              "date": "2026-09-18",
+              "medalDay": false
+            },
+            {
+              "code": "BKB",
+              "date": "2026-09-19",
+              "medalDay": false
+            },
+            {
+              "code": "HBL",
+              "date": "2026-09-19",
+              "medalDay": false
+            },
+            {
+              "code": "TEQ",
+              "date": "2026-09-19",
+              "medalDay": false
+            }
+          ]
+        },
+        "missing": [
+          {
+            "kind": "schedule-daily",
+            "disciplineCode": "TEQ",
+            "endpoint": "https://back.results.asiangames2026.org/s/AG2026/en/TEQ/schedule/daily/2026-09-18",
+            "date": "2026-09-18",
+            "http_status": 200,
+            "error": "Non-JSON Content-Type"
+          }
+        ],
+        "fetchComplete": false,
+        "participationComplete": false
+      }
+    },
+    "tpenoc": {
+      "path": "data/normalized/tpenoc-2026-09-18.json",
+      "generatedAt": "2026-09-18T10:31:21.076Z",
+      "sourceFileName": "2026名古屋亞運每日賽程表0918(0917_1800).pdf",
+      "updatedAtJst": "2026-09-17T18:00:00+09:00"
+    }
+  },
+  "date": "2026-09-18",
+  "rows": [
+    {
+      "date": "2026-09-18",
+      "startTimeTaipei": "2026-09-18T08:00:00+08:00",
+      "startTimeJst": "2026-09-18T09:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Men's Team",
+      "phase": "Men's Team Group C",
+      "unit": "Men's Team Group C Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "YU Kai-wen",
+        "LIN Wei-chieh",
+        "CHEN Po-yi",
+        "CHEN Yu-hsun",
+        "CHANG Yu-sung"
+      ],
+      "opponent": "Mongolia",
+      "opponentCode": "MGL",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.GPC-.00010000",
+          "id": "TST:M.TEAM--------------.GPC-.00010000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "startTimeTaipei": "2026-09-18T08:00:00+08:00",
+      "startTimeJst": "2026-09-18T09:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Women's Team",
+      "phase": "Women's Team Group B",
+      "unit": "Women's Team Group B Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "ZHOU Yan-zhen",
+        "CHIANG Min-yu",
+        "LO Shu-ting",
+        "HSU Chiao-ying",
+        "HUANG Shih-yuan"
+      ],
+      "opponent": "Thailand",
+      "opponentCode": "THA",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM--------------.GPB-.00010000",
+          "id": "TST:W.TEAM--------------.GPB-.00010000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "startTimeTaipei": "2026-09-18T10:00:00+08:00",
+      "startTimeJst": "2026-09-18T11:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Men's Team",
+      "phase": "Men's Team Group C",
+      "unit": "Men's Team Group C Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "YU Kai-wen",
+        "LIN Wei-chieh",
+        "CHEN Po-yi",
+        "CHEN Yu-hsun",
+        "CHANG Yu-sung"
+      ],
+      "opponent": "India",
+      "opponentCode": "IND",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.GPC-.00030000",
+          "id": "TST:M.TEAM--------------.GPC-.00030000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "startTimeTaipei": "2026-09-18T10:00:00+08:00",
+      "startTimeJst": "2026-09-18T11:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Women's Team",
+      "phase": "Women's Team Group B",
+      "unit": "Women's Team Group B Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "ZHOU Yan-zhen",
+        "CHIANG Min-yu",
+        "LO Shu-ting",
+        "HSU Chiao-ying",
+        "HUANG Shih-yuan"
+      ],
+      "opponent": "Mongolia",
+      "opponentCode": "MGL",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM--------------.GPB-.00030000",
+          "id": "TST:W.TEAM--------------.GPB-.00030000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "startTimeTaipei": "2026-09-18T12:00:00+08:00",
+      "startTimeJst": "2026-09-18T13:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Women's Team",
+      "phase": "Women's Team Group B",
+      "unit": "Women's Team Group B Match 5",
+      "athletes": [
+        "黃詩媛",
+        "徐巧楹",
+        "周宴甄",
+        "江旻育",
+        "羅舒婷"
+      ],
+      "athletesEn": [
+        "ZHOU Yan-zhen",
+        "CHIANG Min-yu",
+        "LO Shu-ting",
+        "HSU Chiao-ying",
+        "HUANG Shih-yuan"
+      ],
+      "opponent": "菲律賓",
+      "opponentCode": "PHI",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": "名古屋市東山公園網球中心",
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": "B組：泰國、菲律賓、蒙古",
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "MATCHED",
+      "matchConfidence": "high",
+      "matchSignals": [
+        "discipline",
+        "gender",
+        "opponent",
+        "timeDiffers"
+      ],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM--------------.GPB-.00050000",
+          "id": "TST:W.TEAM--------------.GPB-.00050000"
+        },
+        "tpenoc": {
+          "sport": "軟式網球",
+          "timeJst": "11:00"
+        }
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "startTimeTaipei": "2026-09-18T12:00:00+08:00",
+      "startTimeJst": "2026-09-18T13:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Men's Team",
+      "phase": "Men's Team Group C",
+      "unit": "Men's Team Group C Match 6",
+      "athletes": [
+        "陳郁勲",
+        "陳柏邑",
+        "余凱文",
+        "林韋傑",
+        "張祐菘"
+      ],
+      "athletesEn": [
+        "YU Kai-wen",
+        "LIN Wei-chieh",
+        "CHEN Po-yi",
+        "CHEN Yu-hsun",
+        "CHANG Yu-sung"
+      ],
+      "opponent": "寮國",
+      "opponentCode": "LAO",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": "名古屋市東山公園網球中心",
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": "C組：蒙古、印度、寮國",
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "MATCHED",
+      "matchConfidence": "high",
+      "matchSignals": [
+        "discipline",
+        "gender",
+        "opponent"
+      ],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.GPC-.00060000",
+          "id": "TST:M.TEAM--------------.GPC-.00060000"
+        },
+        "tpenoc": {
+          "sport": "軟式網球",
+          "timeJst": "13:00"
+        }
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "startTimeTaipei": "2026-09-18T12:00:00+08:00",
+      "startTimeJst": "2026-09-18T13:00:00+09:00",
+      "disciplineCode": "HOC",
+      "sportZh": "曲棍球",
+      "sportEn": "Hockey",
+      "event": "Women",
+      "phase": "Women Pool A",
+      "unit": "Women Pool A Match 1",
+      "athletes": [
+        "姚雯瑄",
+        "楊婉雯",
+        "范惠雲",
+        "王詩涵",
+        "蔡辰蔚",
+        "廖浿珊",
+        "陳亭君",
+        "張芝賢",
+        "張子菱",
+        "黃鈺婷",
+        "毛宜暄",
+        "卜令美",
+        "王語裘",
+        "朱怡君",
+        "黃珮綸",
+        "羅紫茵",
+        "賴雅涵",
+        "葉舒琴",
+        "李采翊",
+        "王文岑"
+      ],
+      "athletesEn": [
+        "WANG Yu-chiu",
+        "TSAI Chen-wei",
+        "LIAO Pei-shan",
+        "HUANG Pei-Lun",
+        "CHEN Ting-Chun",
+        "PU AGUSTIN Linmey",
+        "FAN Hui-Yun",
+        "LAI Ya-Han",
+        "CHANG Tzu-ling",
+        "MAO I-Hsuan",
+        "HUANG Yu-ting",
+        "ZHU Yi-Chun",
+        "LO Tzu-Yin",
+        "WANG Shih-Han",
+        "YE Shu-Qin",
+        "CHANG Chih-Hsien",
+        "WANG Wen-Tsen",
+        "YAO Wen-Xuan"
+      ],
+      "opponent": "南韓",
+      "opponentCode": "KOR",
+      "venue": "Gifu Prefectural Green Stadium(Gifu)",
+      "venueZh": "岐阜縣綠地體育場",
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1",
+        "opponent": "3",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": "A組：韓國、馬來西亞、哈薩\n克、孟加拉、中國",
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "MATCHED",
+      "matchConfidence": "high",
+      "matchSignals": [
+        "discipline",
+        "gender",
+        "opponent"
+      ],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM11------------.GPA-.000100--",
+          "id": "HOC:W.TEAM11------------.GPA-.000100--"
+        },
+        "tpenoc": {
+          "sport": "曲棍球",
+          "timeJst": "13:00"
+        }
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "startTimeTaipei": "2026-09-18T12:00:00+08:00",
+      "startTimeJst": "2026-09-18T13:00:00+09:00",
+      "disciplineCode": "BKB",
+      "sportZh": "籃球(5*5)",
+      "sportEn": "Basketball",
+      "event": "Women",
+      "phase": "Women Group Phase - Group C",
+      "unit": "Women Group Phase - Group C Game 2",
+      "athletes": [
+        "彭曉彤",
+        "劉惠茹",
+        "彭詩晴",
+        "陳晏宇",
+        "林蝶",
+        "林育庭",
+        "黃鈴娟",
+        "韓雅恩",
+        "林文佑",
+        "蕭豫玟",
+        "鄭伊秀",
+        "黃湘婷"
+      ],
+      "athletesEn": [
+        "CHEN Yen-Yu",
+        "LIU Hui-Ju",
+        "LIN Wen-Yu",
+        "HAN Ya-En",
+        "HSIAO Yu-Wen",
+        "HUANG Hsiang-Ting",
+        "CHENG I-Hsiu",
+        "HUANG Ling-Chuan",
+        "LIN Yu-Ting",
+        "PENG Szu-Chin",
+        "LIN Tieh",
+        "PENG Hsiao-Tong"
+      ],
+      "opponent": "蒙古",
+      "opponentCode": "MGL",
+      "venue": "Aichi International Arena",
+      "venueZh": "愛知國際競技場",
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "76",
+        "opponent": "67",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": "C組：蒙古、馬來西亞、韓國",
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "MATCHED",
+      "matchConfidence": "high",
+      "matchSignals": [
+        "discipline",
+        "gender",
+        "opponent"
+      ],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM5-------------.GPC-.000200--",
+          "id": "BKB:W.TEAM5-------------.GPC-.000200--"
+        },
+        "tpenoc": {
+          "sport": "籃球(5*5)",
+          "timeJst": "13:00"
+        }
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "startTimeTaipei": "2026-09-18T18:00:00+08:00",
+      "startTimeJst": "2026-09-18T19:00:00+09:00",
+      "disciplineCode": "VVO",
+      "sportZh": "排球",
+      "sportEn": "Volleyball",
+      "event": "Women",
+      "phase": "Women's Preliminary Round - Pool C",
+      "unit": "Match 18",
+      "athletes": [
+        "廖苡任",
+        "洪家瑤",
+        "蔡幼群",
+        "許甄軒",
+        "許恆芸",
+        "林書荷",
+        "温以勤",
+        "甘可慧",
+        "吳紫華",
+        "張稦豈",
+        "陳 潔",
+        "許菀芸"
+      ],
+      "athletesEn": [
+        "LIAO Yi-jen",
+        "HSU Wan-yun",
+        "CHEN Chieh",
+        "XU Zhen-xuan",
+        "CHANG Yi-chi",
+        "LIN Shu-ho",
+        "TSAI Yu-chun",
+        "WU Tzu-hua",
+        "HUNG Chia-yao",
+        "KAN Ko-hui",
+        "WEN Yi-chin",
+        "HSU Heng-yun"
+      ],
+      "opponent": "泰國",
+      "opponentCode": "THA",
+      "venue": "Okazaki Chuo Sogo Park Gymnasium",
+      "venueZh": "岡崎中央綜合公園體育館",
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": "C組：蒙古、吉爾吉斯、泰國\n目前小組賽戰績2勝0負",
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "MATCHED",
+      "matchConfidence": "high",
+      "matchSignals": [
+        "discipline",
+        "gender",
+        "opponent"
+      ],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM6-------------.GPC-.000600--",
+          "id": "VVO:W.TEAM6-------------.GPC-.000600--"
+        },
+        "tpenoc": {
+          "sport": "排球",
+          "timeJst": "19:00"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "matched": 5,
+    "tpenocOnly": 0,
+    "resultsOnly": 4,
+    "unresolvedTbd": 0,
+    "warnings": 5
+  },
+  "warnings": [
+    {
+      "code": "TIME_DIFFERS",
+      "message": "軟式網球：中華奧會 10:00，Results 12:00（台灣時間），兩者都保留",
+      "row": "軟式網球 11:00"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Men's Team Group C Match 1",
+      "row": "TST:M.TEAM--------------.GPC-.00010000"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Team Group B Match 1",
+      "row": "TST:W.TEAM--------------.GPB-.00010000"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 10:00 Men's Team Group C Match 3",
+      "row": "TST:M.TEAM--------------.GPC-.00030000"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 10:00 Women's Team Group B Match 3",
+      "row": "TST:W.TEAM--------------.GPB-.00030000"
+    }
+  ]
+}

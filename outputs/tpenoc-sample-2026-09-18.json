@@ -1,0 +1,161 @@
+{
+ "note": "中華奧會每日賽程 PDF 的格式樣本，供 parser 設計參考；非正式資料來源，未整合進同步器。",
+ "sourceFileName": "2026名古屋亞運每日賽程表0918(0917_1800).pdf",
+ "sourceUrl": "https://drive.google.com/file/d/1DduyDv-74EmJlL5WoPm9TjMLFys2DhlM/view",
+ "downloadUrl": "https://drive.google.com/uc?export=download&id=1DduyDv-74EmJlL5WoPm9TjMLFys2DhlM",
+ "fetchedAt": "2026-09-18T10:20:00Z",
+ "bytes": 194452,
+ "contentType": "application/octet-stream (PDF 1.7)",
+ "documentDate": "2026-09-18",
+ "documentUpdatedAt": "2026-09-17T18:00:00+09:00",
+ "timezoneOfTimes": "Asia/Tokyo (欄位標示「日本名古屋當地時間」)",
+ "columns": [
+  "運動種類",
+  "日本名古屋當地時間",
+  "項目(量級)及階段",
+  "參賽選手(姓名)",
+  "對手國",
+  "成績(比數)",
+  "地點",
+  "名次",
+  "備註"
+ ],
+ "emptyColumnsInThisSample": [
+  "成績(比數)",
+  "名次"
+ ],
+ "rows": [
+  {
+   "sport": "軟式網球",
+   "timeJst": "11:00",
+   "event": "女子團體小組賽-B組",
+   "athletes": [
+    "黃詩媛",
+    "徐巧楹",
+    "周宴甄",
+    "江旻育",
+    "羅舒婷"
+   ],
+   "opponent": "菲律賓",
+   "result": null,
+   "venue": "名古屋市東山公園網球中心",
+   "rank": null,
+   "note": "B組：泰國、菲律賓、蒙古",
+   "noteLines": [
+    "B組：泰國、菲律賓、蒙古"
+   ]
+  },
+  {
+   "sport": "軟式網球",
+   "timeJst": "13:00",
+   "event": "男子團體小組賽-C組",
+   "athletes": [
+    "陳郁勲",
+    "陳柏邑",
+    "余凱文",
+    "林韋傑",
+    "張祐菘"
+   ],
+   "opponent": "寮國",
+   "result": null,
+   "venue": "名古屋市東山公園網球中心",
+   "rank": null,
+   "note": "C組：蒙古、印度、寮國",
+   "noteLines": [
+    "C組：蒙古、印度、寮國"
+   ]
+  },
+  {
+   "sport": "曲棍球",
+   "timeJst": "13:00",
+   "event": "女子A組",
+   "athletes": [
+    "姚雯瑄",
+    "楊婉雯",
+    "范惠雲",
+    "王詩涵",
+    "蔡辰蔚",
+    "廖浿珊",
+    "陳亭君",
+    "張芝賢",
+    "張子菱",
+    "黃鈺婷",
+    "毛宜暄",
+    "卜令美",
+    "王語裘",
+    "朱怡君",
+    "黃珮綸",
+    "羅紫茵",
+    "賴雅涵",
+    "葉舒琴",
+    "李采翊",
+    "王文岑"
+   ],
+   "opponent": "南韓",
+   "result": null,
+   "venue": "岐阜縣綠地體育場",
+   "rank": null,
+   "note": "A組：韓國、馬來西亞、哈薩\n克、孟加拉、中國",
+   "noteLines": [
+    "A組：韓國、馬來西亞、哈薩",
+    "克、孟加拉、中國"
+   ]
+  },
+  {
+   "sport": "籃球(5*5)",
+   "timeJst": "13:00",
+   "event": "女子小組賽-C組",
+   "athletes": [
+    "彭曉彤",
+    "劉惠茹",
+    "彭詩晴",
+    "陳晏宇",
+    "林蝶",
+    "林育庭",
+    "黃鈴娟",
+    "韓雅恩",
+    "林文佑",
+    "蕭豫玟",
+    "鄭伊秀",
+    "黃湘婷"
+   ],
+   "opponent": "蒙古",
+   "result": null,
+   "venue": "愛知國際競技場",
+   "rank": null,
+   "note": "C組：蒙古、馬來西亞、韓國",
+   "noteLines": [
+    "C組：蒙古、馬來西亞、韓國"
+   ]
+  },
+  {
+   "sport": "排球",
+   "timeJst": "19:00",
+   "event": "女子小組賽C組",
+   "athletes": [
+    "廖苡任",
+    "洪家瑤",
+    "蔡幼群",
+    "許甄軒",
+    "許恆芸",
+    "林書荷",
+    "温以勤",
+    "甘可慧",
+    "吳紫華",
+    "張稦豈",
+    "陳 潔",
+    "許菀芸"
+   ],
+   "opponent": "泰國",
+   "result": null,
+   "venue": "岡崎中央綜合公園體育館",
+   "rank": null,
+   "note": "C組：蒙古、吉爾吉斯、泰國\n目前小組賽戰績2勝0負",
+   "noteLines": [
+    "C組：蒙古、吉爾吉斯、泰國",
+    "目前小組賽戰績2勝0負"
+   ]
+  }
+ ],
+ "noteRepresentation": "note 逐行保留原 PDF 換行；換行可能是同一句折行，也可能是另一則備註，無法可靠區分，故不合併。"
+}

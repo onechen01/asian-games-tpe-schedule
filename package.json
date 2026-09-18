@@ -1,0 +1,22 @@
+{
+  "name": "asian-games-tw",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.15.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.ts",
+    "har": "node scripts/import-har.ts",
+    "health": "node scripts/test-api.ts",
+    "fetch:schedule": "node scripts/fetch-schedule.ts",
+    "sync": "node scripts/fetch-schedule.ts",
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "start": "npm --prefix web run start",
+    "test:web": "node --test web/test/*.test.ts",
+    "fetch:disciplines": "node scripts/fetch-disciplines.ts",
+    "fetch:tpenoc": "node scripts/fetch-tpenoc.ts",
+    "merge:daily": "node scripts/merge-daily.ts"
+  }
+}

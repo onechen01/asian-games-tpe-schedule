@@ -1,0 +1,76 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFile,mkdir,writeFile} from 'node:fs/promises';import path from 'node:path';
+import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily} from '../lib/schedule.ts';
+import type {Daily,Row} from '../lib/schedule.ts';
+import {loadSchedule} from '../lib/load.ts';
+
+const daily = async ()=>parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-18.json','utf8')),'2026-09-18');
+const row = (r:Partial<Row>):Row=>({date:'2026-09-18',startTimeTaipei:null,startTimeJst:null,disciplineCode:null,
+  sportZh:null,sportEn:null,event:null,phase:null,unit:null,athletes:[],athletesEn:[],opponent:null,opponentCode:null,
+  venue:null,venueZh:null,status:null,result:null,tpenocResult:null,rank:null,note:null,
+  participationState:'TPE_CONFIRMED',matchStatus:'MATCHED',matchConfidence:'high',matchSignals:[],sources:{},...r});
+
+test('Taiwan calendar day and displayed times are independent of the host timezone',()=>{
+  assert.equal(taipeiDate(new Date('2026-09-18T17:00:00Z')),'2026-09-19');
+  assert.equal(formatTaipei('2026-09-18T12:00:00+08:00'),'12:00');
+});
+
+test('only Chinese Taipei rows are shown, never confirmed non-TPE matches',async()=>{
+  const data = await daily();
+  const shown = taiwanRows(data);
+  assert.equal(shown.length,9);
+  assert.ok(shown.every(r=>r.participationState==='TPE_CONFIRMED'));
+  assert.deepEqual([...new Set(shown.map(r=>r.matchStatus))].sort(),['MATCHED','RESULTS_ONLY']);
+  assert.equal(pendingRows(data).length,0);
+});
+
+test('the basketball card carries Chinese names, the official score and the venue',async()=>{
+  const data = await daily();
+  const bkb = taiwanRows(data).find(r=>r.disciplineCode==='BKB')!;
+  assert.equal(nameList(bkb).length,12);
+  assert.equal(nameList(bkb)[0],'彭曉彤');
+  assert.equal(bkb.athletesEn.length,12);
+  assert.equal(statusLabel(bkb),'已結束');
+  assert.deepEqual([bkb.result?.tpe,bkb.result?.opponent],['76','67']);
+  assert.equal(formatTaipei(bkb.startTimeTaipei),'12:00');
+});
+
+test('a source time conflict surfaces on its own card only',async()=>{
+  const data = await daily();
+  const flagged = taiwanRows(data).filter(r=>hasTimeConflict(data,r));
+  assert.equal(flagged.length,1);
+  assert.equal(flagged[0].disciplineCode,'TST');
+  assert.equal(flagged[0].opponent,'菲律賓');
+});
+
+test('status codes translate only when recognised',()=>{
+  assert.equal(statusLabel(row({status:'OFFICIAL'})),'已結束');
+  assert.equal(statusLabel(row({status:'RUNNING'})),'比賽中');
+  assert.equal(statusLabel(row({status:'START_LIST'})),'尚未開始');
+  assert.equal(statusLabel(row({status:'SOMETHING_NEW'})),'SOMETHING_NEW');
+  assert.equal(statusLabel(row({status:null})),null);
+});
+
+test('a TPENOC-only row keeps its Chinese names with no invented status or score',()=>{
+  const only = row({matchStatus:'TPENOC_ONLY',athletes:['林蝶'],sportZh:'籃球(5*5)'});
+  assert.deepEqual(nameList(only),['林蝶']);
+  assert.deepEqual(nameList(row({athletes:[],athletesEn:['CHEN Yu-hsun']})),[]);
+  assert.equal(statusLabel(only),null);
+  assert.equal(only.result,null);
+});
+
+test('pending participation is listed separately and never dropped',()=>{
+  const data = {schemaVersion:1,date:'2026-09-18',generatedAt:'2026-09-18T00:00:00.000Z',timezone:'Asia/Taipei',
+    rows:[row({participationState:'PARTICIPANTS_TBD',matchStatus:'RESULTS_ONLY'})],warnings:[],
+    summary:{matched:0,tpenocOnly:0,resultsOnly:0,unresolvedTbd:1,warnings:0},sources:{}} as unknown as Daily;
+  assert.equal(taiwanRows(data).length,0);
+  assert.equal(pendingRows(data).length,1);
+});
+
+test('missing, invalid date and damaged files stay distinct states',async()=>{
+  const folder=path.resolve('outputs/mvp-test-fixtures');
+  await mkdir(folder,{recursive:true});
+  await writeFile(path.join(folder,'daily-2026-09-20.json'),'{invalid test fixture');
+  assert.equal((await loadSchedule('2026-09-20',folder)).kind,'error');
+  assert.equal((await loadSchedule('2026-09-19',folder)).kind,'missing');
+  assert.equal((await loadSchedule('../../',folder)).kind,'invalid');
+});

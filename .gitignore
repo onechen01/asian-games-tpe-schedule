@@ -1,0 +1,14 @@
+node_modules/
+*.har
+.env*
+data/cache/
+data/cache-v2/
+data/raw/
+data/normalized/*
+# The deployed site reads these; everything else under normalized/ stays local.
+!data/normalized/daily-*.json
+outputs/har-import.json
+outputs/har-import-v2.json
+
+web/.next/
+web/tsconfig.tsbuildinfo
