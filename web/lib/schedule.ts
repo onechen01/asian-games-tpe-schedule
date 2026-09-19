@@ -37,7 +37,6 @@ import {chineseNamesFor} from './roster.ts';
 import type {Roster} from './roster.ts';
 
 export const sportLabel=(row:Row)=>row.sportZh||row.sportEn||row.disciplineCode||'運動待確認';
-export const venueLabel=(row:Row)=>row.venueZh||row.venue||null;
 // Chinese names are the headline. When only the English roster exists it stays in the data
 // and is shown as secondary detail instead, so no name is invented or dropped.
 export const nameList=(row:Row)=>row.athletes;

@@ -9,7 +9,16 @@ export type ResultsRow = {
   competitors?:Competitor[];
   result?:{ sourceStatus?:string; competitors?:Competitor[] };
 };
-export type Competitor = { org?:string | null; name?:string | null; result?:string | null; members?:{ name?:string | null }[] };
+export type Competitor = { org?:string | null; name?:string | null; result?:string | null;
+  registration?:string | null; members?:{ name?:string | null }[] };
+// A competitor is one person when it carries no member list and its registration is the
+// numeric athlete id. A team slot instead carries a structured id such as
+// "BBLMTEAM9------TPE01", and its name is the delegation, not a person.
+const isIndividual = (c:Competitor)=>!(c.members ?? []).length
+  && typeof c.registration === 'string' && /^\d+$/.test(c.registration)
+  && !!c.name && c.name !== 'Chinese Taipei';
+// The roster of a team entry; empty for an individual competitor.
+const memberNames = (c:Competitor)=>(c.members ?? []).map(m=>m.name ?? '').filter(Boolean);
 export type TpenocMatch = {
   sport:string; timeJst:string; timeTaipei:string; startTimeJst:string; startTimeTaipei:string;
   event:string; athletes:string[]; opponent:string | null; result:string | null;
@@ -229,8 +238,10 @@ function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | 
     unit:results?.unitName ?? null,
     // Chinese names come from the committee sheet; the English roster is kept separately.
     athletes:tpenoc?.athletes ?? [],
+    // Team entries publish a member list; individual events publish the athlete as the
+    // competitor itself, which used to be dropped and left those cards without a name.
     athletesEn:(results ? competitors(results) : []).filter(c=>c.org === 'TPE')
-      .flatMap(c=>(c.members ?? []).map(m=>m.name ?? '').filter(Boolean)),
+      .flatMap(c=>memberNames(c).length ? memberNames(c) : isIndividual(c) ? [c.name as string] : []),
     opponent:tpenoc?.opponent ?? other?.name ?? null,
     opponentCode:other?.org ?? (tpenoc?.opponent ? NOC_BY_ZH[tpenoc.opponent] ?? null : null),
     venue:results?.venueName ?? tpenoc?.venue ?? null,

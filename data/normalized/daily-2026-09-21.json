@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T04:43:30.950Z",
+  "generatedAt": "2026-09-19T09:20:03.438Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
@@ -482,7 +482,9 @@
       "phase": "Men's Taijiquan & Taijijian",
       "unit": "Taijiquan",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "SUN Chia-hung"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
@@ -1205,7 +1207,9 @@
       "phase": "Men's Taijiquan & Taijijian",
       "unit": "Taijijian Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "SUN Chia-hung"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",

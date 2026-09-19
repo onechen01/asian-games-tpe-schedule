@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T04:43:23.070Z",
+  "generatedAt": "2026-09-19T09:19:58.612Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
@@ -338,7 +338,9 @@
       "phase": "Men's Changquan",
       "unit": "Changquan",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHENG Yu-hsuan"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
@@ -454,7 +456,11 @@
       "phase": "10m Air Rifle Women Individual Qualification",
       "unit": "10m Air Rifle Women Individual - Qualification",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "SUNG Yu-Ting",
+        "LIN Ying-Shin",
+        "CHOU Ya-Hsuan"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
@@ -677,7 +683,9 @@
       "phase": "Women's Taijiquan & Taijijian",
       "unit": "Taijiquan",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIU Pei-hsun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
@@ -1049,7 +1057,9 @@
       "phase": "Women's Taijiquan & Taijijian",
       "unit": "Taijijian Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIU Pei-hsun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
@@ -1166,7 +1176,9 @@
       "phase": "Women's 52kg",
       "unit": "Match 8",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Si-yun"
+      ],
       "opponent": "CHAN Tsz Ching",
       "opponentCode": "HKG",
       "venue": "Aichi Prefectural Martial Arts Hall",
@@ -1249,7 +1261,9 @@
       "phase": "Men's 75kg",
       "unit": "Match 5",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "ZHANG Huan-yi"
+      ],
       "opponent": "JUMAMYRADOV Muhammet",
       "opponentCode": "TKM",
       "venue": "Aichi Prefectural Martial Arts Hall",

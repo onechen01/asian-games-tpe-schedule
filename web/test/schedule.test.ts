@@ -1,7 +1,8 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFile,mkdir,writeFile} from 'node:fs/promises';import path from 'node:path';
 import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames} from '../lib/schedule.ts';
 import type {Daily,Row} from '../lib/schedule.ts';
-import {loadSchedule,loadRoster} from '../lib/load.ts';
+import {loadSchedule,loadRoster,loadDisplayNames} from '../lib/load.ts';
+import {orgLabel,venueLabel,parseDisplayNames} from '../lib/display-names.ts';
 
 const daily = async ()=>parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-18.json','utf8')),'2026-09-18');
 const row = (r:Partial<Row>):Row=>({date:'2026-09-18',startTimeTaipei:null,startTimeJst:null,disciplineCode:null,
@@ -128,4 +129,36 @@ test('entered athletes keep official English names when no verified Chinese mapp
   const names = entryNames(swim,roster);
   assert.deepEqual(names,swim.enteredAthletes);
   assert.ok(names.every(n=>/^[A-Za-z]/.test(n)),'沒有可靠中文對照時保留官方英文');
+});
+
+test('countries and venues display in Chinese and fall back to the official text',async()=>{
+  const names = await loadDisplayNames();
+  assert.equal(Object.keys(names.orgs).length,46);
+  assert.equal(names.orgs.KOR,'南韓');
+  assert.equal(names.orgs.PRK,'北韓');
+  assert.equal(names.orgs.TPE,'台灣');
+  assert.equal(Object.keys(names.venues).length,8);
+  assert.equal(venueLabel(null,'SKY HALL TOYOTA',names),'豐田天空館');
+  // Still under review, so the official English stands.
+  assert.equal(venueLabel(null,'Ichinomiya City Municipal Gymnasium',names),'Ichinomiya City Municipal Gymnasium');
+  assert.equal(orgLabel('ZZZ','Some Country',names),'Some Country');
+  assert.equal(venueLabel('名古屋市東山公園網球中心','Nagoya City Higashiyama Park Tennis Center',names),'名古屋市東山公園網球中心');
+  // Missing or broken files leave everything in English rather than breaking the page.
+  const empty = parseDisplayNames(null,'not json');
+  assert.deepEqual(empty,{orgs:{},venues:{}});
+  assert.equal(orgLabel('KOR','Republic of Korea',empty),'Republic of Korea');
+});
+
+test('the 9/20 page shows every opponent and venue in Chinese',async()=>{
+  const [day,names] = await Promise.all([
+    parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-20.json','utf8')),'2026-09-20'),
+    loadDisplayNames()]);
+  const rows = taiwanRows(day);
+  const opponents = rows.map(r=>orgLabel(r.opponentCode,r.opponent,names)).filter(Boolean) as string[];
+  assert.ok(opponents.length > 0);
+  assert.ok(opponents.every(o=>!/[A-Za-z]{2,}/.test(o)),'對手應全為中文：'+opponents.filter(o=>/[A-Za-z]{2,}/.test(o)));
+  const venues = rows.map(r=>venueLabel(r.venueZh,r.venue,names)).filter(Boolean) as string[];
+  const english = venues.filter(v=>/[A-Za-z]{2,}/.test(v));
+  // Only the venue still under review stays in English.
+  assert.deepEqual([...new Set(english)],['Ichinomiya City Municipal Gymnasium']);
 });

@@ -3,6 +3,8 @@ import path from 'node:path';
 import {parseDaily,validDate} from './schedule.ts';
 import {parseRoster} from './roster.ts';
 import type {Roster} from './roster.ts';
+import {parseDisplayNames} from './display-names.ts';
+import type {DisplayNames} from './display-names.ts';
 
 // The working directory differs between `next start` from the repo root, `next start` inside
 // web/, and a deployed serverless function, so data/ is located by probing instead of being
@@ -49,4 +51,11 @@ export async function loadRoster(file?:string):Promise<Roster|null>{
   const text=file?await readFile(file,'utf8'):await readFirst('reference/tpe-roster-2026.json');
   return text?parseRoster(JSON.parse(text)):null;
  }catch{return null;}
+}
+
+// Display-only Chinese for NOC codes and venues. Missing or malformed means the page keeps the
+// official English, never a crash.
+export async function loadDisplayNames():Promise<DisplayNames>{
+ const [noc,venue]=await Promise.all([readFirst('reference/noc-zh.json'),readFirst('reference/venue-zh.json')]);
+ return parseDisplayNames(noc,venue);
 }

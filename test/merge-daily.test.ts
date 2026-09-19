@@ -204,3 +204,32 @@ test('a half-drawn unit keeps the event pending instead of ruling Chinese Taipei
   const settled = mergeDaily(day([bothKnown]), null, swimEntries);
   assert.equal(settled.rows.length,0);
 });
+
+const unit = (competitors:unknown[]):ResultsRow=>({ id:'test-only-unit', disciplineCode:'WSU',
+  eventName:"Men's Changquan", startTimeTaipei:'2026-09-20T08:00:00+08:00', hasTpe:true,
+  orgs:['TPE'], sourceStatus:'START_LIST',
+  result:{ sourceStatus:'START_LIST', competitors:competitors as never } });
+
+test('an individual competitor is the athlete; a team slot is not a person',()=>{
+  const individual = mergeDaily(day([unit([{ org:'TPE', name:'CHENG Yu-hsuan', registration:'607139' }])]),null,null);
+  assert.deepEqual(individual.rows[0].athletesEn,['CHENG Yu-hsuan']);
+  // A team slot carries a structured registration and the delegation's name, never a person.
+  const team = mergeDaily(day([unit([{ org:'TPE', name:'Chinese Taipei', registration:'BBLMTEAM9------TPE01' }])]),null,null);
+  assert.deepEqual(team.rows[0].athletesEn,[]);
+  // Team entries with a published roster keep listing the roster, as before.
+  const roster = mergeDaily(day([unit([{ org:'TPE', name:'Chinese Taipei', registration:'KABMTEAM7------TPE01',
+    members:[{name:'A One'},{name:'B Two'}] }])]),null,null);
+  assert.deepEqual(roster.rows[0].athletesEn,['A One','B Two']);
+  // No registration at all is not enough to call something a person.
+  const nameless = mergeDaily(day([unit([{ org:'TPE', name:'Someone' }])]),null,null);
+  assert.deepEqual(nameless.rows[0].athletesEn,[]);
+});
+
+test('the real 9/20 individual units now carry their official English names',async()=>{
+  const day20 = JSON.parse(await readFile('data/normalized/daily-2026-09-20.json','utf8'));
+  const named = day20.rows.filter((r:any)=>r.participationState === 'TPE_CONFIRMED' && r.athletesEn.length);
+  assert.ok(named.some((r:any)=>r.athletesEn.includes('CHENG Yu-hsuan')));
+  assert.ok(named.some((r:any)=>r.athletesEn.includes('SUNG Yu-Ting') && r.athletesEn.includes('CHOU Ya-Hsuan')));
+  // The delegation name must never appear as an athlete.
+  assert.ok(day20.rows.every((r:any)=>!r.athletesEn.includes('Chinese Taipei')));
+});

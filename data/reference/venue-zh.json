@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "title": "場館繁體中文顯示名稱",
+ "metadata": {
+  "displayOnly": true,
+  "purpose": "只供畫面顯示。canonical 保留 Results API 的官方英文場館名稱；查不到對照時顯示官方英文。",
+  "rule": "只收錄與 Results 官方英文唯一配對成功、且中文寫法無疑義的場館。",
+  "pending": [
+   {
+    "officialEn": "Ichinomiya City Municipal Gymnasium",
+    "tpenocText": "一宮市総合体育館",
+    "status": "NEEDS_REVIEW",
+    "reason": "中華奧會原文使用日文漢字「総合体育館」，專案內查無正式繁體寫法，未自行改寫"
+   }
+  ]
+ },
+ "venues": {
+  "Aichi Prefectural Martial Arts Hall": {
+   "zh": "愛知縣武道館",
+   "provenance": { "source": "TPENOC", "snapshotId": "2026-09-20_2026-09-19T000000+0900_6cf6365e33d2", "method": "reconciliation-pair" }
+  },
+  "Nagoya City Higashiyama Park Tennis Center": {
+   "zh": "名古屋市東山公園網球中心",
+   "provenance": { "source": "TPENOC", "snapshotId": "2026-09-20_2026-09-19T000000+0900_6cf6365e33d2", "method": "reconciliation-pair" }
+  },
+  "Tokyo Aquatics Centre": {
+   "zh": "東京水上運動中心",
+   "provenance": { "source": "TPENOC", "snapshotId": "2026-09-20_2026-09-19T000000+0900_6cf6365e33d2", "method": "reconciliation-pair" }
+  },
+  "SKY HALL TOYOTA": {
+   "zh": "豐田天空館",
+   "provenance": { "source": "TPENOC", "snapshotId": "2026-09-20_2026-09-19T000000+0900_6cf6365e33d2", "method": "reconciliation-pair" }
+  },
+  "Aichi Prefectural General Shooting Gallery": {
+   "zh": "愛知縣綜合射擊場",
+   "provenance": { "source": "TPENOC", "snapshotId": "2026-09-20_2026-09-19T000000+0900_6cf6365e33d2", "method": "reconciliation-pair" }
+  },
+  "Toyohashi Gymnasium": {
+   "zh": "愛知縣豐橋市綜合體育館",
+   "provenance": { "source": "TPENOC", "snapshotId": "2026-09-20_2026-09-19T000000+0900_6cf6365e33d2", "method": "reconciliation-pair" }
+  },
+  "Nagoya City Inae Sports Center": {
+   "zh": "名古屋市稻永運動中心",
+   "provenance": { "source": "TPENOC", "snapshotId": "2026-09-20_2026-09-19T000000+0900_6cf6365e33d2", "method": "reconciliation-pair" }
+  },
+  "Park Arena Komaki": {
+   "zh": "小牧市公園競技場",
+   "provenance": { "source": "TPENOC", "snapshotId": "2026-09-20_2026-09-19T000000+0900_6cf6365e33d2", "method": "reconciliation-pair" }
+  }
+ }
+}
