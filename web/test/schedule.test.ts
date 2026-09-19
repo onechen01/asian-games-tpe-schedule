@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFile,mkdir,writeFile} from 'node:fs/promises';import path from 'node:path';
-import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily} from '../lib/schedule.ts';
+import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState} from '../lib/schedule.ts';
 import type {Daily,Row} from '../lib/schedule.ts';
 import {loadSchedule} from '../lib/load.ts';
 
@@ -73,4 +73,27 @@ test('missing, invalid date and damaged files stay distinct states',async()=>{
   assert.equal((await loadSchedule('2026-09-20',folder)).kind,'error');
   assert.equal((await loadSchedule('2026-09-19',folder)).kind,'missing');
   assert.equal((await loadSchedule('../../',folder)).kind,'invalid');
+});
+
+const emptyDay=(extra:Partial<Daily>)=>({schemaVersion:1,date:'2026-09-11',generatedAt:'2026-09-18T00:00:00.000Z',
+  timezone:'Asia/Taipei',rows:[],warnings:[],
+  summary:{matched:0,tpenocOnly:0,resultsOnly:0,unresolvedTbd:0,warnings:0},sources:{},...extra} as unknown as Daily);
+
+test('an empty day distinguishes a confirmed rest day from missing or partial data',async()=>{
+  assert.equal(emptyState(emptyDay({officialNoCompetition:true,coverageComplete:true})),'confirmed-none');
+  assert.equal(emptyState(emptyDay({officialNoCompetition:false,coverageComplete:false})),'incomplete');
+  assert.equal(emptyState(emptyDay({officialNoCompetition:false,coverageComplete:true})),'none-found');
+  // A file written before the flags existed must never claim a confirmed rest day.
+  assert.equal(emptyState(emptyDay({})),'none-found');
+});
+
+test('the real 9/11 and 9/15 files are confirmed rest days, 9/18 is not',async()=>{
+  for (const date of ['2026-09-11','2026-09-15']) {
+    const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-'+date+'.json','utf8')),date);
+    assert.equal(day.rows.length,0);
+    assert.equal(emptyState(day),'confirmed-none');
+  }
+  const busy = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-18.json','utf8')),'2026-09-18');
+  assert.equal(busy.rows.length,9);
+  assert.equal(busy.officialNoCompetition,false);
 });

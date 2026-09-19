@@ -32,6 +32,10 @@ const output = `data/normalized/daily-${date}.json`;
 await save(output, report);
 
 console.log(`${date} 中華隊每日整合（台灣時間）`);
+if (merged.officialNoCompetition) console.log('官方資料已完整同步，這一天沒有中華隊賽事。');
+else if (!merged.coverageComplete) console.log(merged.rows.length
+  ? '注意：這一天的 Results 同步未完整，以下只是已取得的部分。'
+  : '注意：這一天的 Results 同步未完整，0 場不代表沒有賽事。');
 const s = merged.summary;
 console.log(`matched ${s.matched}｜tpenocOnly ${s.tpenocOnly}｜resultsOnly ${s.resultsOnly}｜unresolvedTbd ${s.unresolvedTbd}｜warnings ${s.warnings}`);
 for (const row of merged.rows.filter(r=>r.matchStatus !== 'RESULTS_ONLY' || r.participationState === 'TPE_CONFIRMED')) {

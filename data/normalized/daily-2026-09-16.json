@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T15:48:15.066Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/normalized/schedule-2026-09-16-AUTO.json",
+      "generatedAt": "2026-09-18T15:41:57.288Z",
+      "coverage": {
+        "sports": [
+          "BKB",
+          "FBL",
+          "MPN",
+          "VVO",
+          "CKT",
+          "TEQ"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-09-16",
+            "2026-09-17"
+          ],
+          "targets": [
+            {
+              "code": "BKB",
+              "date": "2026-09-16",
+              "medalDay": false
+            },
+            {
+              "code": "FBL",
+              "date": "2026-09-16",
+              "medalDay": false
+            },
+            {
+              "code": "MPN",
+              "date": "2026-09-16",
+              "medalDay": false
+            },
+            {
+              "code": "VVO",
+              "date": "2026-09-16",
+              "medalDay": false
+            },
+            {
+              "code": "BKB",
+              "date": "2026-09-17",
+              "medalDay": false
+            },
+            {
+              "code": "CKT",
+              "date": "2026-09-17",
+              "medalDay": false
+            },
+            {
+              "code": "FBL",
+              "date": "2026-09-17",
+              "medalDay": false
+            },
+            {
+              "code": "MPN",
+              "date": "2026-09-17",
+              "medalDay": false
+            },
+            {
+              "code": "TEQ",
+              "date": "2026-09-17",
+              "medalDay": false
+            },
+            {
+              "code": "VVO",
+              "date": "2026-09-17",
+              "medalDay": false
+            }
+          ]
+        },
+        "missing": [],
+        "fetchComplete": true,
+        "participationComplete": true
+      }
+    },
+    "tpenoc": null
+  },
+  "date": "2026-09-16",
+  "rows": [
+    {
+      "date": "2026-09-16",
+      "startTimeTaipei": "2026-09-16T18:00:00+08:00",
+      "startTimeJst": "2026-09-16T19:00:00+09:00",
+      "disciplineCode": "VVO",
+      "sportZh": "排球",
+      "sportEn": "Volleyball",
+      "event": "Women",
+      "phase": "Women's Preliminary Round - Pool C",
+      "unit": "Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "LIAO Yi-jen",
+        "HSU Wan-yun",
+        "CHEN Chieh",
+        "XU Zhen-xuan",
+        "CHANG Yi-chi",
+        "LIN Shu-ho",
+        "TSAI Yu-chun",
+        "WU Tzu-hua",
+        "HUNG Chia-yao",
+        "KAN Ko-hui",
+        "WEN Yi-chin",
+        "HSU Heng-yun"
+      ],
+      "opponent": "Kyrgyzstan",
+      "opponentCode": "KGZ",
+      "venue": "Okazaki Chuo Sogo Park Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM6-------------.GPC-.000200--",
+          "id": "VVO:W.TEAM6-------------.GPC-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "startTimeTaipei": "2026-09-16T18:20:00+08:00",
+      "startTimeJst": "2026-09-16T19:20:00+09:00",
+      "disciplineCode": "BKB",
+      "sportZh": "籃球(5*5)",
+      "sportEn": "Basketball",
+      "event": "Men",
+      "phase": "Men Quarterfinals",
+      "unit": "Men Quarterfinals Game 1",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Ting-Chien",
+        "MA Chien-Hao",
+        "YU Ai-Che",
+        "CHEN Ying-Chun",
+        "HU Long-Mao",
+        "LI Chia-Kang",
+        "MANU Samuel",
+        "GILBECK Brandon",
+        "LU Chun-Hsiang",
+        "MORRISON Jonah",
+        "CHEN Kuan-Chuan",
+        "TSENG Hsiang-chun"
+      ],
+      "opponent": "Japan",
+      "opponentCode": "JPN",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "78",
+        "opponent": "85",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM5-------------.QFNL.000100--",
+          "id": "BKB:M.TEAM5-------------.QFNL.000100--"
+        }
+      }
+    }
+  ],
+  "coverageComplete": true,
+  "officialNoCompetition": false,
+  "summary": {
+    "matched": 0,
+    "tpenocOnly": 0,
+    "resultsOnly": 2,
+    "unresolvedTbd": 0,
+    "warnings": 2
+  },
+  "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：VVO 18:00 Match 6",
+      "row": "VVO:W.TEAM6-------------.GPC-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKB 18:20 Men Quarterfinals Game 1",
+      "row": "BKB:M.TEAM5-------------.QFNL.000100--"
+    }
+  ]
+}

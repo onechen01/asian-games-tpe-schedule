@@ -1,5 +1,5 @@
 import {loadSchedule,loadRoster} from '../lib/load';
-import {taipeiDate,shiftDate,validDate,formatTaipei,sportLabel,venueLabel,displayNames,
+import {taipeiDate,shiftDate,validDate,formatTaipei,sportLabel,venueLabel,displayNames,emptyState,
  statusLabel,isFinished,taiwanRows,pendingRows,hasTimeConflict} from '../lib/schedule';
 import type {Daily,Row} from '../lib/schedule';
 import type {Roster} from '../lib/roster';
@@ -28,7 +28,10 @@ export default async function Page({searchParams}:{searchParams:Promise<{date?:s
  <div className="list-heading"><h2>中華隊出賽</h2>{data&&<span>{rows.length} 場</span>}</div>
  {loaded.kind==='error'?<section className="empty" role="alert"><h3>這一天的資料暫時無法讀取</h3><p>本機檔案格式有誤，請重新整理資料後再查看；這不代表沒有賽事。</p></section>
  :!data?<section className="empty"><span className="empty-symbol">—</span><h3>這一天的中華隊賽程資料尚未更新</h3><p>目前沒有可顯示的資料，並非中華隊沒有參賽。</p>{loaded.dates.length>0&&<div className="available"><span>已有資料的日期</span>{loaded.dates.map(d=><a key={d} href={'/?date='+d}>{d.slice(5).replace('-','/')}</a>)}</div>}</section>
- :rows.length===0&&pending.length===0?<section className="empty"><span className="empty-symbol">—</span><h3>這一天尚無已確認的中華隊賽事</h3><p>僅限已取得的項目，不能據此判定當天沒有中華隊出賽。</p></section>
+ :rows.length===0&&pending.length===0?<section className="empty"><span className="empty-symbol">—</span>{(()=>{const state=emptyState(data);
+  if(state==='confirmed-none')return <><h3>這一天中華隊沒有賽程</h3><p>已與官方資料核對。</p></>;
+  if(state==='incomplete')return <><h3>目前查到 0 場，但這天的資料同步未完成</h3><p>不能據此判定當天沒有中華隊出賽。</p></>;
+  return <><h3>這一天尚無已確認的中華隊賽事</h3><p>僅限已取得的項目，不能據此判定當天沒有中華隊出賽。</p></>;})()}</section>
  :<div className="matches">{rows.map(row=><Card key={row.sources.results?.id||row.sources.tpenoc?.sport+'-'+row.startTimeTaipei} row={row} conflict={hasTimeConflict(data,row)} roster={roster}/>)}{pending.map(row=><Card key={'tbd-'+(row.sources.results?.id||row.startTimeTaipei)} row={row} conflict={false} pending roster={roster}/>)}</div>}
  <footer><span>資料來源：亞運官方 Results ＋ 中華奧會每日賽程</span><span>本機 MVP・非官方網站・手動同步</span></footer></main>
 }

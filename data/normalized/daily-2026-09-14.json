@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T15:48:06.792Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/normalized/schedule-2026-09-14-AUTO.json",
+      "generatedAt": "2026-09-18T15:41:27.328Z",
+      "coverage": {
+        "sports": [
+          "BKB",
+          "FBL"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-09-14",
+            "2026-09-15"
+          ],
+          "targets": [
+            {
+              "code": "BKB",
+              "date": "2026-09-14",
+              "medalDay": false
+            },
+            {
+              "code": "FBL",
+              "date": "2026-09-14",
+              "medalDay": false
+            },
+            {
+              "code": "FBL",
+              "date": "2026-09-15",
+              "medalDay": false
+            }
+          ]
+        },
+        "missing": [],
+        "fetchComplete": true,
+        "participationComplete": true
+      }
+    },
+    "tpenoc": null
+  },
+  "date": "2026-09-14",
+  "rows": [
+    {
+      "date": "2026-09-14",
+      "startTimeTaipei": "2026-09-14T15:00:00+08:00",
+      "startTimeJst": "2026-09-14T16:00:00+09:00",
+      "disciplineCode": "FBL",
+      "sportZh": null,
+      "sportEn": "Football",
+      "event": "Women",
+      "phase": "Women Group E",
+      "unit": "Women Group E",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Yu-ting",
+        "CHANG Chi-lan",
+        "PAN Shin-yu",
+        "LIN Jing-xuan",
+        "LIAO Jie-ning",
+        "CHUAN Tzu-yu",
+        "WAKABAYASHI Minori",
+        "TANAKA Maho",
+        "HSU Yi-yun",
+        "MATSUNAGA Saki",
+        "HE Jia-shiuan",
+        "LIN Hsin-hui",
+        "PAN Yen-hsin",
+        "WU Kai-ching",
+        "TSENG Yun-ching",
+        "LIU Yu-chiao",
+        "CHEN Jin-wen",
+        "CHENG Ssu-yu",
+        "SU Yu-hsuan",
+        "CHEN Ying-hui",
+        "CHEN Yu-chin",
+        "HUANG Ke-sin",
+        "LIU Ying-chia"
+      ],
+      "opponent": "Vietnam",
+      "opponentCode": "VIE",
+      "venue": "Shizuoka Stadium Ecopa",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM11------------.GPE-.000100--",
+          "id": "FBL:W.TEAM11------------.GPE-.000100--"
+        }
+      }
+    }
+  ],
+  "coverageComplete": true,
+  "officialNoCompetition": false,
+  "summary": {
+    "matched": 0,
+    "tpenocOnly": 0,
+    "resultsOnly": 1,
+    "unresolvedTbd": 0,
+    "warnings": 1
+  },
+  "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FBL 15:00 Women Group E",
+      "row": "FBL:W.TEAM11------------.GPE-.000100--"
+    }
+  ]
+}

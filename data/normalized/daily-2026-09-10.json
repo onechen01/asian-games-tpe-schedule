@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T15:47:48.590Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/normalized/schedule-2026-09-10-AUTO.json",
+      "generatedAt": "2026-09-18T15:40:54.151Z",
+      "coverage": {
+        "sports": [
+          "BKB"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-09-10",
+            "2026-09-11"
+          ],
+          "targets": [
+            {
+              "code": "BKB",
+              "date": "2026-09-10",
+              "medalDay": false
+            },
+            {
+              "code": "BKB",
+              "date": "2026-09-11",
+              "medalDay": false
+            }
+          ]
+        },
+        "missing": [],
+        "fetchComplete": true,
+        "participationComplete": true
+      }
+    },
+    "tpenoc": null
+  },
+  "date": "2026-09-10",
+  "rows": [
+    {
+      "date": "2026-09-10",
+      "startTimeTaipei": "2026-09-10T12:00:00+08:00",
+      "startTimeJst": "2026-09-10T13:00:00+09:00",
+      "disciplineCode": "BKB",
+      "sportZh": "籃球(5*5)",
+      "sportEn": "Basketball",
+      "event": "Men",
+      "phase": "Men Group Phase - Group B",
+      "unit": "Men Group Phase - Group B Game 2",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Ting-Chien",
+        "MA Chien-Hao",
+        "YU Ai-Che",
+        "CHEN Ying-Chun",
+        "HU Long-Mao",
+        "LI Chia-Kang",
+        "MANU Samuel",
+        "GILBECK Brandon",
+        "LU Chun-Hsiang",
+        "MORRISON Jonah",
+        "CHEN Kuan-Chuan",
+        "TSENG Hsiang-chun"
+      ],
+      "opponent": "Jordan",
+      "opponentCode": "JOR",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "83",
+        "opponent": "80",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM5-------------.GPB-.000200--",
+          "id": "BKB:M.TEAM5-------------.GPB-.000200--"
+        }
+      }
+    }
+  ],
+  "coverageComplete": true,
+  "officialNoCompetition": false,
+  "summary": {
+    "matched": 0,
+    "tpenocOnly": 0,
+    "resultsOnly": 1,
+    "unresolvedTbd": 0,
+    "warnings": 1
+  },
+  "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKB 12:00 Men Group Phase - Group B Game 2",
+      "row": "BKB:M.TEAM5-------------.GPB-.000200--"
+    }
+  ]
+}

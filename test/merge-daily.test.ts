@@ -91,3 +91,13 @@ test('a committee row with no Results counterpart is kept as TPENOC_ONLY',()=>{
 test('mismatched dates fail closed',()=>{
   assert.throws(()=>mergeDaily({ date:'2026-09-18', rows:[] }, { scheduleDate:'2026-09-19', matches:[] }),/日期不一致/);
 });
+
+test('a confirmed rest day needs a clean sync, zero gaps, zero errors and zero rows',()=>{
+  const clean = { date:'2026-09-11', rows:[], coverage:{ fetchComplete:true, missing:[] }, errors:[] };
+  assert.equal(mergeDaily(clean,null).officialNoCompetition,true);
+  assert.equal(mergeDaily({...clean,coverage:{fetchComplete:false,missing:[]}},null).officialNoCompetition,false);
+  assert.equal(mergeDaily({...clean,coverage:{fetchComplete:true,missing:[{}]}},null).officialNoCompetition,false);
+  assert.equal(mergeDaily({...clean,errors:[{}]},null).officialNoCompetition,false);
+  // A day with Chinese Taipei events is never a rest day.
+  assert.equal(mergeDaily({...clean,rows:[scored]},null).officialNoCompetition,false);
+});

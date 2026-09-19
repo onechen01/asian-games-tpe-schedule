@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T15:48:02.534Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/normalized/schedule-2026-09-13-AUTO.json",
+      "generatedAt": "2026-09-18T15:41:18.192Z",
+      "coverage": {
+        "sports": [
+          "BKB",
+          "FBL"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-09-13",
+            "2026-09-14"
+          ],
+          "targets": [
+            {
+              "code": "BKB",
+              "date": "2026-09-13",
+              "medalDay": false
+            },
+            {
+              "code": "BKB",
+              "date": "2026-09-14",
+              "medalDay": false
+            },
+            {
+              "code": "FBL",
+              "date": "2026-09-14",
+              "medalDay": false
+            }
+          ]
+        },
+        "missing": [],
+        "fetchComplete": true,
+        "participationComplete": true
+      }
+    },
+    "tpenoc": null
+  },
+  "date": "2026-09-13",
+  "rows": [
+    {
+      "date": "2026-09-13",
+      "startTimeTaipei": "2026-09-13T12:00:00+08:00",
+      "startTimeJst": "2026-09-13T13:00:00+09:00",
+      "disciplineCode": "BKB",
+      "sportZh": "籃球(5*5)",
+      "sportEn": "Basketball",
+      "event": "Men",
+      "phase": "Men Group Phase - Group B",
+      "unit": "Men Group Phase - Group B Game 6",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Ting-Chien",
+        "MA Chien-Hao",
+        "YU Ai-Che",
+        "CHEN Ying-Chun",
+        "HU Long-Mao",
+        "LI Chia-Kang",
+        "MANU Samuel",
+        "GILBECK Brandon",
+        "LU Chun-Hsiang",
+        "MORRISON Jonah",
+        "CHEN Kuan-Chuan",
+        "TSENG Hsiang-chun"
+      ],
+      "opponent": "Qatar",
+      "opponentCode": "QAT",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "91",
+        "opponent": "69",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM5-------------.GPB-.000600--",
+          "id": "BKB:M.TEAM5-------------.GPB-.000600--"
+        }
+      }
+    }
+  ],
+  "coverageComplete": true,
+  "officialNoCompetition": false,
+  "summary": {
+    "matched": 0,
+    "tpenocOnly": 0,
+    "resultsOnly": 1,
+    "unresolvedTbd": 0,
+    "warnings": 1
+  },
+  "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKB 12:00 Men Group Phase - Group B Game 6",
+      "row": "BKB:M.TEAM5-------------.GPB-.000600--"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T10:50:38.724Z",
+  "generatedAt": "2026-09-18T15:48:46.656Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
@@ -613,6 +613,8 @@
       }
     }
   ],
+  "coverageComplete": false,
+  "officialNoCompetition": false,
   "summary": {
     "matched": 5,
     "tpenocOnly": 0,

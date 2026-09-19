@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T15:47:58.002Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/normalized/schedule-2026-09-12-AUTO.json",
+      "generatedAt": "2026-09-18T15:41:09.555Z",
+      "coverage": {
+        "sports": [
+          "BKB"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-09-12",
+            "2026-09-13"
+          ],
+          "targets": [
+            {
+              "code": "BKB",
+              "date": "2026-09-12",
+              "medalDay": false
+            },
+            {
+              "code": "BKB",
+              "date": "2026-09-13",
+              "medalDay": false
+            }
+          ]
+        },
+        "missing": [],
+        "fetchComplete": true,
+        "participationComplete": true
+      }
+    },
+    "tpenoc": null
+  },
+  "date": "2026-09-12",
+  "rows": [
+    {
+      "date": "2026-09-12",
+      "startTimeTaipei": "2026-09-12T09:00:00+08:00",
+      "startTimeJst": "2026-09-12T10:00:00+09:00",
+      "disciplineCode": "BKB",
+      "sportZh": "籃球(5*5)",
+      "sportEn": "Basketball",
+      "event": "Men",
+      "phase": "Men Group Phase - Group B",
+      "unit": "Men Group Phase - Group B Game 3",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Ting-Chien",
+        "MA Chien-Hao",
+        "YU Ai-Che",
+        "CHEN Ying-Chun",
+        "HU Long-Mao",
+        "LI Chia-Kang",
+        "MANU Samuel",
+        "GILBECK Brandon",
+        "LU Chun-Hsiang",
+        "MORRISON Jonah",
+        "CHEN Kuan-Chuan",
+        "TSENG Hsiang-chun"
+      ],
+      "opponent": "Islamic Republic of Iran",
+      "opponentCode": "IRI",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "69",
+        "opponent": "72",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM5-------------.GPB-.000300--",
+          "id": "BKB:M.TEAM5-------------.GPB-.000300--"
+        }
+      }
+    }
+  ],
+  "coverageComplete": true,
+  "officialNoCompetition": false,
+  "summary": {
+    "matched": 0,
+    "tpenocOnly": 0,
+    "resultsOnly": 1,
+    "unresolvedTbd": 0,
+    "warnings": 1
+  },
+  "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKB 09:00 Men Group Phase - Group B Game 3",
+      "row": "BKB:M.TEAM5-------------.GPB-.000300--"
+    }
+  ]
+}

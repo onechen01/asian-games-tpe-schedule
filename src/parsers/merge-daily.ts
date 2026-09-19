@@ -30,8 +30,14 @@ export type DailyRow = {
   matchSignals:string[]; sources:{ results?:{ unitId?:string; id:string }; tpenoc?:{ sport:string; timeJst:string } };
 };
 export type MergeWarning = { code:string; message:string; row?:string };
+export type ResultsSnapshot = { date:string; rows:ResultsRow[];
+  coverage?:{ fetchComplete?:boolean; missing?:unknown[] }; errors?:unknown[] };
 export type DailyReport = {
   date:string; rows:DailyRow[];
+  // True only when the official sync finished cleanly and still found nobody: a day with no
+  // Chinese Taipei event, as opposed to a day whose data is missing or incomplete.
+  officialNoCompetition:boolean;
+  coverageComplete:boolean;
   summary:{ matched:number; tpenocOnly:number; resultsOnly:number; unresolvedTbd:number; warnings:number };
   warnings:MergeWarning[];
 };
@@ -55,7 +61,7 @@ const competitors = (row:ResultsRow)=>row.result?.competitors ?? row.competitors
 const tpeSide = (row:ResultsRow)=>competitors(row).find(c=>c.org === 'TPE') ?? null;
 const otherSide = (row:ResultsRow)=>competitors(row).find(c=>c.org && c.org !== 'TPE') ?? null;
 
-export function mergeDaily(results:{ date:string; rows:ResultsRow[] }, tpenoc:{ scheduleDate:string; matches:TpenocMatch[] } | null): DailyReport {
+export function mergeDaily(results:ResultsSnapshot, tpenoc:{ scheduleDate:string; matches:TpenocMatch[] } | null): DailyReport {
   const date = results.date;
   if (tpenoc && tpenoc.scheduleDate !== date) throw new Error(`日期不一致：Results ${date}，中華奧會 ${tpenoc.scheduleDate}`);
   const warnings:MergeWarning[] = [];
@@ -110,7 +116,13 @@ export function mergeDaily(results:{ date:string; rows:ResultsRow[] }, tpenoc:{ 
   for (const row of tbdRows) rows.push(canonical(date, row, null, 'RESULTS_ONLY', 'none', []));
 
   rows.sort((a,b)=>(a.startTimeTaipei ?? '').localeCompare(b.startTimeTaipei ?? ''));
+  // Every condition must hold; a single failed endpoint means the day is unknown, not empty.
+  const coverageComplete = results.coverage?.fetchComplete === true
+    && (results.coverage?.missing?.length ?? 0) === 0
+    && (results.errors?.length ?? 0) === 0;
   return { date, rows,
+    coverageComplete,
+    officialNoCompetition:coverageComplete && rows.length === 0,
     summary:{ matched:rows.filter(r=>r.matchStatus === 'MATCHED').length,
       tpenocOnly:rows.filter(r=>r.matchStatus === 'TPENOC_ONLY').length,
       resultsOnly:rows.filter(r=>r.matchStatus === 'RESULTS_ONLY' && r.participationState === 'TPE_CONFIRMED').length,

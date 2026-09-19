@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T15:47:53.333Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/normalized/schedule-2026-09-11-AUTO.json",
+      "generatedAt": "2026-09-18T15:41:01.473Z",
+      "coverage": {
+        "sports": [
+          "BKB"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-09-11",
+            "2026-09-12"
+          ],
+          "targets": [
+            {
+              "code": "BKB",
+              "date": "2026-09-11",
+              "medalDay": false
+            },
+            {
+              "code": "BKB",
+              "date": "2026-09-12",
+              "medalDay": false
+            }
+          ]
+        },
+        "missing": [],
+        "fetchComplete": true,
+        "participationComplete": true
+      }
+    },
+    "tpenoc": null
+  },
+  "date": "2026-09-11",
+  "rows": [],
+  "coverageComplete": true,
+  "officialNoCompetition": true,
+  "summary": {
+    "matched": 0,
+    "tpenocOnly": 0,
+    "resultsOnly": 0,
+    "unresolvedTbd": 0,
+    "warnings": 0
+  },
+  "warnings": []
+}

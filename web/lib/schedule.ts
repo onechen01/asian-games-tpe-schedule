@@ -14,6 +14,8 @@ export type Row = {
 export type Warning = { code:string; message:string; row?:string };
 export type Daily = {
   schemaVersion:number; date:string; generatedAt:string; timezone:string;
+  // Set by the merge step only when the official sync finished cleanly and found nobody.
+  officialNoCompetition?:boolean; coverageComplete?:boolean;
   rows:Row[]; warnings:Warning[];
   summary:{ matched:number; tpenocOnly:number; resultsOnly:number; unresolvedTbd:number; warnings:number };
   sources:{ results?:{ path:string; coverage?:{ sports?:string[]; fetchComplete?:boolean } } | null;
@@ -65,6 +67,12 @@ export function taiwanRows(daily:Daily){
     .sort((a,b)=>(a.startTimeTaipei||'').localeCompare(b.startTimeTaipei||''));
 }
 export function pendingRows(daily:Daily){return daily.rows.filter(isPending);}
+// An empty day means three different things; the page must not blur them together.
+export function emptyState(daily:Daily):'confirmed-none'|'incomplete'|'none-found'{
+ if(daily.officialNoCompetition===true)return 'confirmed-none';
+ if(daily.coverageComplete===false)return 'incomplete';
+ return 'none-found';
+}
 
 // A source time conflict must not be swallowed: the card carries a short, non-technical hint.
 const rowKey=(row:Row)=>row.sources.tpenoc?`${row.sources.tpenoc.sport} ${row.sources.tpenoc.timeJst}`:row.sources.results?.id;
