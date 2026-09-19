@@ -233,3 +233,40 @@ test('the real 9/20 individual units now carry their official English names',asy
   // The delegation name must never appear as an athlete.
   assert.ok(day20.rows.every((r:any)=>!r.athletesEn.includes('Chinese Taipei')));
 });
+
+// Both soft tennis semifinals are against Korea, so the opponent alone cannot tell them apart.
+const semi = (event:string, phase:string, time:string):ResultsRow=>({ id:'test-only-'+event+time,
+  disciplineCode:'TST', eventName:event, phaseName:phase, startTimeTaipei:`2026-09-20T${time}:00+08:00`,
+  hasTpe:true, orgs:['KOR','TPE'], sourceStatus:'SCHEDULED',
+  result:{ sourceStatus:'SCHEDULED', competitors:[{org:'TPE'},{org:'KOR',name:'Republic of Korea'}] } });
+const sheet = (event:string, timeJst:string, timeTaipei:string):TpenocMatch=>({ sport:'軟式網球',
+  timeJst, timeTaipei, startTimeJst:`2026-09-20T${timeJst}:00+09:00`,
+  startTimeTaipei:`2026-09-20T${timeTaipei}:00+08:00`, event, athletes:['測試'], opponent:'南韓',
+  result:null, venue:null, rank:null, note:null });
+
+test('two semifinals against the same country are told apart, not paired by luck',()=>{
+  const results = { date:'2026-09-20', coverage:{fetchComplete:true,missing:[]}, errors:[],
+    rows:[semi("Women's Team","Women's Team Semifinals",'08:00'), semi("Men's Team","Men's Team Semifinals",'10:30')] };
+  const merged = mergeDaily(results, { scheduleDate:'2026-09-20', matches:[
+    sheet('女子團體準決賽','09:00','08:00'), sheet('男子團體準決賽','11:00','10:00')] }, null);
+  const women = merged.rows.find(r=>r.event === "Women's Team")!;
+  const men = merged.rows.find(r=>r.event === "Men's Team")!;
+  assert.equal(women.matchStatus,'MATCHED');
+  assert.equal(men.matchStatus,'MATCHED');
+  // The women's times agree; the men's differ by 30 minutes, not by two hours.
+  assert.ok(!merged.warnings.some(w=>w.code === 'TIME_DIFFERS' && w.message.includes('08:00')));
+  const timeWarning = merged.warnings.find(w=>w.code === 'TIME_DIFFERS');
+  assert.ok(timeWarning && timeWarning.message.includes('10:00') && timeWarning.message.includes('10:30'));
+});
+
+test('when the候選 cannot be narrowed to one, nothing is paired',()=>{
+  // Same discipline, same gender, same opponent, same time: genuinely ambiguous.
+  const results = { date:'2026-09-20', coverage:{fetchComplete:true,missing:[]}, errors:[],
+    rows:[semi("Women's Team","Group A",'08:00'), semi("Women's Team","Group B",'08:00')] };
+  const merged = mergeDaily(results, { scheduleDate:'2026-09-20',
+    matches:[sheet('女子團體賽','09:00','08:00')] }, null);
+  assert.ok(merged.warnings.some(w=>w.code === 'AMBIGUOUS_MATCH'));
+  assert.equal(merged.rows.filter(r=>r.matchStatus === 'MATCHED').length,0);
+  // Both official rows survive on their own.
+  assert.equal(merged.rows.filter(r=>r.matchStatus === 'RESULTS_ONLY').length,2);
+});

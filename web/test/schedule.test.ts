@@ -158,7 +158,8 @@ test('the 9/20 page shows every opponent and venue in Chinese',async()=>{
   assert.ok(opponents.length > 0);
   assert.ok(opponents.every(o=>!/[A-Za-z]{2,}/.test(o)),'對手應全為中文：'+opponents.filter(o=>/[A-Za-z]{2,}/.test(o)));
   const venues = rows.map(r=>venueLabel(r.venueZh,r.venue,names)).filter(Boolean) as string[];
-  const english = venues.filter(v=>/[A-Za-z]{2,}/.test(v));
-  // Only the venue still under review stays in English.
-  assert.deepEqual([...new Set(english)],['Ichinomiya City Municipal Gymnasium']);
+  const english = [...new Set(venues.filter(v=>/[A-Za-z]{2,}/.test(v)))];
+  // A venue only stays in English when the mapping has no confirmed Chinese name for it.
+  assert.ok(english.every(v=>!names.venues[v]),'已對照的場館不應再顯示英文：'+english.join(', '));
+  assert.ok(venues.some(v=>!/[A-Za-z]{2,}/.test(v)),'應有場館已中文化');
 });

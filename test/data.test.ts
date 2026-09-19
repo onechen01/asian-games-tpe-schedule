@@ -1,8 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
 import { deflateSync } from 'node:zlib';
 import { decode, safeData } from '../src/api/asianGames.ts';
 import { normalize, parseDaily } from '../src/parsers/schedule.ts';
+import { offsetOf, readAtVenueOffset } from '../src/utils/timezone.ts';
 import { parseMatrix, activeDisciplines, activeDisciplineDays } from '../src/parsers/matrix.ts';
 import { parseTime, taipeiTime, nextDay, validateDate } from '../src/utils/timezone.ts';
 const source={url:'https://example.invalid/fixture'};
@@ -65,4 +67,73 @@ test('schedule matrix marks competition days per discipline and unions two Japan
   assert.deepEqual(activeDisciplineDays(matrix,['2026-10-04']).unlistedDays,['2026-10-04']);
   assert.throws(()=>parseMatrix({dates:['2026-09-18'],matrix:[{Disc:{Key:'BKB',Desc:'Basketball'},Dates:['0','0']}]}));
   assert.throws(()=>parseMatrix({dates:['2026-09-18'],matrix:[{Disc:{Key:'BKB',Desc:'Basketball'},Dates:['X']}]}));
+});
+
+const unitAt = (raw:string)=>({ Key:'M.T77KG-------------.8FNL.000700--', Disc:'MMA',
+  Orgs:['TPE','KAZ'], DateTimeRaw:raw, Status:'START_LIST', EventDesc:"Men's Traditional -77kg" });
+const src = { url:'https://example.invalid/fixture' };
+
+test('a venue-offset timestamp is read as before',()=>{
+  const row = normalize(unitAt('2026-09-20T10:50:00+09:00'), src, { requestedDate:'2026-09-20' });
+  assert.equal(row.timezoneAnomaly,null);
+  assert.equal(row.startTimeTaipei,'2026-09-20T09:50:00+08:00');
+  assert.equal(row.originalStartTime,'2026-09-20T10:50:00+09:00');
+});
+
+test('a wrong offset never moves a unit to another day in silence',()=>{
+  // No evidence of the competition day: the unit cannot be placed, and says so.
+  const row = normalize(unitAt('2026-09-20T10:50:00-12:00'), src, {});
+  assert.equal(row.timezoneAnomaly?.code,'SUSPECT_TIMEZONE');
+  assert.equal(row.timezoneAnomaly?.sourceOffset,'-12:00');
+  assert.equal(row.startTimeTaipei,null,'不得換算出台灣時間');
+  assert.equal(row.startTimeUtc,null);
+  // Reading it naively would have pushed this unit to 2026-09-21 in Taipei.
+  assert.equal(new Date('2026-09-20T10:50:00-12:00').toISOString().slice(0,10),'2026-09-20');
+  assert.equal(row.originalStartTime,'2026-09-20T10:50:00-12:00','原始字串必須保留');
+});
+
+test('the official day proves the reading, and the raw value is still kept',()=>{
+  const row = normalize(unitAt('2026-09-20T10:50:00-12:00'), src,
+    { requestedDate:'2026-09-20', officialDays:['2026-09-20','2026-09-21','2026-09-22'] });
+  assert.equal(row.timezoneAnomaly?.code,'RECOVERED_OFFICIAL_TIME');
+  assert.equal(row.timezoneAnomaly?.recoveredStartTime,'2026-09-20T10:50:00+09:00');
+  assert.equal(row.startTimeTaipei,'2026-09-20T09:50:00+08:00');
+  assert.equal(row.originalStartTime,'2026-09-20T10:50:00-12:00','官方原始字串不得被改寫');
+  assert.equal(row.timezoneAnomaly?.evidence?.venueTimeZoneSource,'config.venueTimeZone');
+  assert.deepEqual(row.timezoneAnomaly?.evidence?.officialDays,['2026-09-20','2026-09-21','2026-09-22']);
+});
+
+test('recovery is refused when the day cannot be proved',()=>{
+  // The wall-clock day is not the day that was requested: nothing proves which day is right.
+  const mismatch = normalize(unitAt('2026-09-21T10:50:00-12:00'), src,
+    { requestedDate:'2026-09-20', officialDays:['2026-09-20'] });
+  assert.equal(mismatch.timezoneAnomaly?.code,'SUSPECT_TIMEZONE');
+  assert.equal(mismatch.startTimeTaipei,null);
+  // The day is not one the discipline competes on.
+  const offDay = normalize(unitAt('2026-09-20T10:50:00-12:00'), src,
+    { requestedDate:'2026-09-20', officialDays:['2026-09-23'] });
+  assert.equal(offDay.timezoneAnomaly?.code,'SUSPECT_TIMEZONE');
+});
+
+test('the real 9/20 mixed martial arts units are recovered, not dropped',async()=>{
+  const day = JSON.parse(await readFile('data/normalized/schedule-2026-09-20-AUTO.json','utf8'));
+  const mma = day.taiwan.filter((r:any)=>r.disciplineCode === 'MMA');
+  assert.equal(mma.length,3,'三場中華隊綜合格鬥賽事必須留在 9/20');
+  for (const row of mma) {
+    assert.equal(row.timezoneAnomaly.code,'RECOVERED_OFFICIAL_TIME');
+    assert.ok(row.originalStartTime.endsWith('-12:00'),'原始 offset 必須保留');
+    assert.equal(row.startTimeTaipei.slice(0,10),'2026-09-20');
+  }
+  assert.deepEqual(mma.map((r:any)=>r.startTimeTaipei.slice(11,16)).sort(),['09:50','14:10','17:00']);
+  // A day carrying anomalies is not reported as cleanly complete.
+  assert.ok(day.coverage.timezoneAnomalies.length > 0);
+});
+
+test('offset helpers read the source string without editing it',()=>{
+  assert.equal(offsetOf('2026-09-20T10:50:00-12:00'),'-12:00');
+  assert.equal(offsetOf('2026-09-20T10:50:00+09:00'),'+09:00');
+  assert.equal(offsetOf('2026-09-20T10:50:00Z'),'+00:00');
+  assert.equal(offsetOf('nonsense'),null);
+  assert.equal(readAtVenueOffset('2026-09-20T10:50:00-12:00'),'2026-09-20T10:50:00+09:00');
+  assert.equal(readAtVenueOffset(null),null);
 });

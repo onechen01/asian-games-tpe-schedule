@@ -33,11 +33,13 @@ async function autoTargets(): Promise<Target[]> {
   const { data, meta } = await get('ALL/schedule/matrix');
   requests.push(meta);
   const matrix = parseMatrix(data);
+  for (const discipline of matrix.disciplines) officialDays.set(discipline.code, discipline.dates);
   const { targets, unlistedDays } = activeDisciplineDays(matrix, days);
   if (unlistedDays.length) throw new Error(`Matrix has no entry for ${unlistedDays.join(', ')}; refusing to assume no competition`);
   matrixNote = `matrix（日本日期 ${days.join('、')}）判定 ${new Set(targets.map(t=>t.code)).size} 項運動、${targets.length} 個運動×日期組合有賽事`;
   return targets;
 }
+const officialDays = new Map<string,string[]>();
 const auto = argument === 'AUTO' ? await autoTargets() : null;
 const sports = auto ? [...new Set(auto.map(t=>t.code))]
   : argument === 'ALL' ? known : [...new Set(argument.split(','))];
@@ -52,6 +54,11 @@ const errors:Failure[] = [], rows = new Map<string,Row>(), unresolved:Row[] = []
 type Missing = { kind:'schedule-daily' | 'results'; disciplineCode:string; endpoint:string;
   date?:string; unitId?:string; http_status:number | null; error:string };
 const missing:Missing[] = [];
+// Units whose official offset is not the venue's; recovered ones are placed correctly, the
+// rest stay out of the day and are reported rather than disappearing.
+type Anomaly = { disciplineCode:string; date:string; unitId?:string; code:string;
+  sourceOffset:string | null; originalStartTime:string | null; recoveredStartTime:string | null };
+const anomalies:Anomaly[] = [];
 // One endpoint failing is recorded and skipped; the remaining endpoints still run in the
 // original order, without retrying the failed one and without changing request spacing.
 async function attempt<T>(path:string, run:()=>Promise<T>): Promise<{ok:true;value:T} | {ok:false;failure:Failure}> {
@@ -69,7 +76,9 @@ for (const { code:sport, date:day } of targets) {
     const outcome = await attempt(path, async()=>{
       const {data,meta} = await get(path);
       requests.push(meta);
-      return parseDaily(data,{mode:'api',...meta});
+      // The requested day and the discipline's official competition days are what let a
+      // wrong timezone offset be recovered instead of silently moving a unit to another day.
+      return parseDaily(data,{mode:'api',...meta},{ requestedDate:day, officialDays:officialDays.get(sport) });
     });
     if (!outcome.ok) {
       missing.push({ kind:'schedule-daily',disciplineCode:sport,endpoint:BASE+path,date:day,
@@ -77,6 +86,11 @@ for (const { code:sport, date:day } of targets) {
       continue;
     }
     for (const row of outcome.value) {
+      if (row.timezoneAnomaly) {
+        anomalies.push({ disciplineCode:sport, date:day, unitId:row.unitId,
+          code:row.timezoneAnomaly.code, sourceOffset:row.timezoneAnomaly.sourceOffset,
+          originalStartTime:row.originalStartTime, recoveredStartTime:row.timezoneAnomaly.recoveredStartTime });
+      }
       if (!row.startTimeTaipei) { unresolved.push(row); continue; }
       if (row.startTimeTaipei.slice(0,10)===date) rows.set(row.id,row);
     }
@@ -110,7 +124,11 @@ const report = { schemaVersion:2,generatedAt:new Date().toISOString(),date,timez
   editorialVerification:'pending',coverage:{sports,allSports:argument === 'ALL',
     selection:{ mode:argument === 'AUTO' ? 'schedule-matrix' : argument === 'ALL' ? 'all' : 'explicit',
       japaneseDays:days, targets },missing,
-    fetchComplete:errors.length===0 && missing.length===0,
+    timezoneAnomalies:anomalies,
+    unrecoveredTimezone:anomalies.filter(a=>a.code !== 'RECOVERED_OFFICIAL_TIME').length,
+    // A day is only complete when nothing failed and no unit was left unplaceable.
+    fetchComplete:errors.length===0 && missing.length===0
+      && anomalies.every(a=>a.code === 'RECOVERED_OFFICIAL_TIME'),
     participationComplete:errors.length===0 && missing.length===0 && unknown.length===0 && unresolved.length===0},
   errors,requests,count:all.length,taiwan,unknownParticipation:unknown,unresolvedTime:unresolved,rows:all };
 const output = `data/normalized/schedule-${date}-${label}.json`;
@@ -125,6 +143,11 @@ for (const row of taiwan) {
 if (!taiwan.length) console.log('此查詢範圍尚無可確認 TPE 的資料；不代表中華隊當天沒有賽事。');
 console.log(`全部 ${all.length} 筆；TPE ${taiwan.length} 筆；參賽國未知 ${unknown.length} 筆；時間待確認 ${unresolved.length} 筆。`);
 console.log(`保存：${output}；每筆原始資料路徑見 source.raw_file。`);
+if (anomalies.length) {
+  const recovered = anomalies.filter(a=>a.code === 'RECOVERED_OFFICIAL_TIME').length;
+  console.error(`${anomalies.length} 筆官方時間的時區與場館不符（已依官方證據還原 ${recovered} 筆）：`);
+  for (const a of anomalies.slice(0,5)) console.error(`  ${a.disciplineCode} ${a.unitId ?? ''} ${a.originalStartTime} → ${a.recoveredStartTime ?? '無法還原'}`);
+}
 if (missing.length) {
   console.error(`有 ${missing.length} 個端點未取得，已記錄並跳過，未重試：`);
   for (const m of missing) console.error(`  ${m.endpoint}  [${m.http_status ?? 'no status'}] ${m.error}`);

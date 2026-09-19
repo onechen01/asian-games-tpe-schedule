@@ -1,4 +1,17 @@
 export const DISPLAY_TIMEZONE = 'Asia/Taipei';
+// Every 2026 venue is in Japan and the official config publishes this as venueTimeZone.
+export const VENUE_OFFSET = '+09:00';
+export const offsetOf = (raw:unknown): string | null =>
+  typeof raw === 'string' ? /([+-]\d{2}:\d{2})$/.exec(raw)?.[1] ?? (raw.endsWith('Z') ? '+00:00' : null) : null;
+// Re-reads the wall clock at the venue's own offset. The source string is never edited; this
+// only produces an alternative reading for a timestamp whose offset is known to be wrong.
+export function readAtVenueOffset(raw:unknown): string | null {
+  if (typeof raw !== 'string') return null;
+  const wall = /^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2})?)/.exec(raw)?.[1];
+  if (!wall) return null;
+  const withSeconds = wall.length === 16 ? wall + ':00' : wall;
+  return `${withSeconds}${VENUE_OFFSET}`;
+}
 const formatter = new Intl.DateTimeFormat('en-CA', {
   timeZone: DISPLAY_TIMEZONE, year: 'numeric', month: '2-digit', day: '2-digit',
   hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23'

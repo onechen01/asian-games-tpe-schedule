@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T09:20:03.438Z",
+  "generatedAt": "2026-09-19T14:35:05.075Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/normalized/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-19T04:39:47.574Z",
+      "generatedAt": "2026-09-19T14:34:53.848Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -298,6 +298,171 @@
           ]
         },
         "missing": [],
+        "timezoneAnomalies": [
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "M.M60KG-------------.SFNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T10:00:00-12:00",
+            "recoveredStartTime": "2026-09-21T10:00:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "W.M54KG-------------.SFNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T10:10:00-12:00",
+            "recoveredStartTime": "2026-09-21T10:10:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "M.T65KG-------------.SFNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T10:20:00-12:00",
+            "recoveredStartTime": "2026-09-21T10:20:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "W.T60KG-------------.SFNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T10:30:00-12:00",
+            "recoveredStartTime": "2026-09-21T10:30:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "M.M71KG-------------.SFNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T10:40:00-12:00",
+            "recoveredStartTime": "2026-09-21T10:40:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "M.T77KG-------------.SFNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T10:50:00-12:00",
+            "recoveredStartTime": "2026-09-21T10:50:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "M.M60KG-------------.SFNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T11:00:00-12:00",
+            "recoveredStartTime": "2026-09-21T11:00:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "W.M54KG-------------.SFNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T11:10:00-12:00",
+            "recoveredStartTime": "2026-09-21T11:10:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "M.T65KG-------------.SFNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T11:20:00-12:00",
+            "recoveredStartTime": "2026-09-21T11:20:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "W.T60KG-------------.SFNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T11:30:00-12:00",
+            "recoveredStartTime": "2026-09-21T11:30:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "M.M71KG-------------.SFNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T11:40:00-12:00",
+            "recoveredStartTime": "2026-09-21T11:40:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-21",
+            "unitId": "M.T77KG-------------.SFNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-21T11:50:00-12:00",
+            "recoveredStartTime": "2026-09-21T11:50:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-22",
+            "unitId": "M.M60KG-------------.FNL-.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-22T14:00:00-12:00",
+            "recoveredStartTime": "2026-09-22T14:00:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-22",
+            "unitId": "W.M54KG-------------.FNL-.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-22T14:10:00-12:00",
+            "recoveredStartTime": "2026-09-22T14:10:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-22",
+            "unitId": "M.T65KG-------------.FNL-.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-22T14:20:00-12:00",
+            "recoveredStartTime": "2026-09-22T14:20:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-22",
+            "unitId": "W.T60KG-------------.FNL-.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-22T14:30:00-12:00",
+            "recoveredStartTime": "2026-09-22T14:30:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-22",
+            "unitId": "M.M71KG-------------.FNL-.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-22T14:40:00-12:00",
+            "recoveredStartTime": "2026-09-22T14:40:00+09:00"
+          },
+          {
+            "disciplineCode": "MMA",
+            "date": "2026-09-22",
+            "unitId": "M.T77KG-------------.FNL-.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "-12:00",
+            "originalStartTime": "2026-09-22T14:50:00-12:00",
+            "recoveredStartTime": "2026-09-22T14:50:00+09:00"
+          }
+        ],
+        "unrecoveredTimezone": 0,
         "fetchComplete": true,
         "participationComplete": false
       }
@@ -428,51 +593,6 @@
     },
     {
       "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T08:30:00+08:00",
-      "startTimeJst": "2026-09-21T09:30:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Team",
-      "phase": "Men's Team Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 5,
-      "enteredAthletes": [
-        "CHI Yu-jen",
-        "CHIU Hsiang-chieh",
-        "CHOU Tien-chen",
-        "LEE Jhe-huei",
-        "LIN Chun-yi",
-        "LIU Kuang-heng",
-        "WANG Chi-lin",
-        "WANG Tzu-wei",
-        "YANG Po-hsuan",
-        "YE Hong-wei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|M.TEAM--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T08:53:00+08:00",
       "startTimeJst": "2026-09-21T09:53:00+09:00",
       "disciplineCode": "WSU",
@@ -511,18 +631,18 @@
     {
       "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T09:00:00+08:00",
-      "startTimeJst": "2026-09-21T10:00:00+09:00",
-      "disciplineCode": "KTE",
-      "sportZh": "空手道",
-      "sportEn": "Karate",
-      "event": "Men's Individual Kata",
-      "phase": "Men's Individual Kata Round of 32",
+      "startTimeJst": "2026-09-21T10:00:00-12:00",
+      "disciplineCode": "MMA",
+      "sportZh": "綜合格鬥",
+      "sportEn": "Mixed Martial Arts",
+      "event": "Men's Modern -60kg",
+      "phase": "Men's Modern -60kg Semifinals",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "Toyohashi Gymnasium",
+      "venue": "Nagoya City Inae Sports Center",
       "venueZh": null,
       "status": null,
       "result": null,
@@ -531,16 +651,16 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 38,
+      "unitCount": 2,
       "enteredAthletes": [
-        "TU Cheng-han"
+        "CHANG Li"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
         "entries": {
-          "eventId": "KTE|M.KATA--------------"
+          "eventId": "MMA|M.M60KG-------------"
         }
       }
     },
@@ -664,44 +784,7 @@
       "sportZh": "游泳",
       "sportEn": "Swimming",
       "event": "Men's 50m Backstroke",
-      "phase": "Men's 50m Backstroke - Heats",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokyo Aquatics Centre",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHUANG Mu-lun",
-        "HUANG Yu-teng"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SWM|M.50MBA-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:08:00+08:00",
-      "startTimeJst": "2026-09-21T10:08:00+09:00",
-      "disciplineCode": "SWM",
-      "sportZh": "游泳",
-      "sportEn": "Swimming",
-      "event": "Women's 50m Backstroke",
-      "phase": "Women's 50m Backstroke - Heats",
+      "phase": "Men's 50m Backstroke Heats",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -717,6 +800,43 @@
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
       "unitCount": 5,
+      "enteredAthletes": [
+        "CHUANG Mu-lun",
+        "HUANG Yu-teng"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SWM|M.50MBA-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:06:00+08:00",
+      "startTimeJst": "2026-09-21T10:06:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 50m Backstroke",
+      "phase": "Women's 50m Backstroke Heats",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 6,
       "enteredAthletes": [
         "CHANG Ya-jia"
       ],
@@ -737,7 +857,7 @@
       "sportZh": "游泳",
       "sportEn": "Swimming",
       "event": "Men's 50m Freestyle",
-      "phase": "Men's 50m Freestyle - Heats",
+      "phase": "Men's 50m Freestyle Heats",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -752,7 +872,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 8,
+      "unitCount": 7,
       "enteredAthletes": [
         "LIN Yi-cheng",
         "YANG Yu-xiang"
@@ -768,13 +888,86 @@
     },
     {
       "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:20:00+08:00",
+      "startTimeJst": "2026-09-21T10:20:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Individual Kata",
+      "phase": "Men's Individual Kata Quarterfinals",
+      "unit": "Men's Individual Kata Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "TU Cheng-han"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.KATA--------------.QFNL.000100--",
+          "id": "KTE:M.KATA--------------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:30:00+08:00",
+      "startTimeJst": "2026-09-21T10:30:00-12:00",
+      "disciplineCode": "MMA",
+      "sportZh": "綜合格鬥",
+      "sportEn": "Mixed Martial Arts",
+      "event": "Women's Traditional -60kg",
+      "phase": "Women's Traditional -60kg Semifinals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "LIN Yu-fen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "MMA|W.T60KG-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T09:36:00+08:00",
       "startTimeJst": "2026-09-21T10:36:00+09:00",
       "disciplineCode": "SWM",
       "sportZh": "游泳",
       "sportEn": "Swimming",
       "event": "Men's 100m Breaststroke",
-      "phase": "Men's 100m Breaststroke - Heats",
+      "phase": "Men's 100m Breaststroke Heats",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -805,13 +998,49 @@
     },
     {
       "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:48:00+08:00",
-      "startTimeJst": "2026-09-21T10:48:00+09:00",
+      "startTimeTaipei": "2026-09-21T09:50:00+08:00",
+      "startTimeJst": "2026-09-21T10:50:00-12:00",
+      "disciplineCode": "MMA",
+      "sportZh": "綜合格鬥",
+      "sportEn": "Mixed Martial Arts",
+      "event": "Men's Traditional -77kg",
+      "phase": "Men's Traditional  -77kg Semifinals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "LIN Ming-dian"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "MMA|M.T77KG-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:52:00+08:00",
+      "startTimeJst": "2026-09-21T10:52:00+09:00",
       "disciplineCode": "SWM",
       "sportZh": "游泳",
       "sportEn": "Swimming",
       "event": "Women's 200m Individual Medley",
-      "phase": "Women's 200m Individual Medley - Heats",
+      "phase": "Women's 200m Individual Medley Heats",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -971,78 +1200,6 @@
     },
     {
       "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T10:00:00+08:00",
-      "startTimeJst": "2026-09-21T11:00:00+09:00",
-      "disciplineCode": "MMA",
-      "sportZh": "綜合格鬥",
-      "sportEn": "Mixed Martial Arts",
-      "event": "Men's Modern -60kg",
-      "phase": "Men's Modern -60kg Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHANG Li"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "MMA|M.M60KG-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T10:40:00+08:00",
-      "startTimeJst": "2026-09-21T11:40:00+09:00",
-      "disciplineCode": "KTE",
-      "sportZh": "空手道",
-      "sportEn": "Karate",
-      "event": "Men's Kumite -67kg",
-      "phase": "Men's Kumite -67kg Round of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Toyohashi Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 38,
-      "enteredAthletes": [
-        "SHIH Cheng-chung"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "KTE|M.67KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T11:00:00+08:00",
       "startTimeJst": "2026-09-21T12:00:00+09:00",
       "disciplineCode": "BOX",
@@ -1081,17 +1238,17 @@
       "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T11:30:00+08:00",
       "startTimeJst": "2026-09-21T12:30:00+09:00",
-      "disciplineCode": "MMA",
-      "sportZh": "綜合格鬥",
-      "sportEn": "Mixed Martial Arts",
-      "event": "Women's Traditional -60kg",
-      "phase": "Women's Traditional -60kg Semifinals",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Kumite -67kg",
+      "phase": "Men's Kumite -67kg Round of 32",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
+      "venue": "Toyohashi Gymnasium",
       "venueZh": null,
       "status": null,
       "result": null,
@@ -1100,16 +1257,16 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 16,
       "enteredAthletes": [
-        "LIN Yu-fen"
+        "SHIH Cheng-chung"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
         "entries": {
-          "eventId": "MMA|W.T60KG-------------"
+          "eventId": "KTE|M.67KG--------------"
         }
       }
     },
@@ -1157,42 +1314,6 @@
       "sources": {
         "entries": {
           "eventId": "VVO|W.TEAM6-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T12:30:00+08:00",
-      "startTimeJst": "2026-09-21T13:30:00+09:00",
-      "disciplineCode": "MMA",
-      "sportZh": "綜合格鬥",
-      "sportEn": "Mixed Martial Arts",
-      "event": "Men's Traditional -77kg",
-      "phase": "Men's Traditional  -77kg Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LIN Ming-dian"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "MMA|M.T77KG-------------"
         }
       }
     },
@@ -1318,42 +1439,6 @@
         "results": {
           "unitId": "W.TEAM3-------------.GP02.000300--",
           "id": "BK3:W.TEAM3-------------.GP02.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T17:00:00+08:00",
-      "startTimeJst": "2026-09-21T18:00:00+09:00",
-      "disciplineCode": "WSU",
-      "sportZh": "武術",
-      "sportEn": "Wushu",
-      "event": "Women's 60kg",
-      "phase": "Women's 60kg",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 7,
-      "enteredAthletes": [
-        "LIN Tsai-mei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "WSU|W.60KG--------------"
         }
       }
     },
@@ -1612,10 +1697,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 16,
-    "entered": 17,
+    "resultsOnly": 17,
+    "entered": 14,
     "unresolvedTbd": 0,
-    "warnings": 17
+    "warnings": 19
   },
   "warnings": [
     {
@@ -1637,6 +1722,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:53 Taijiquan",
       "row": "WSU:M.TAIJ--------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:20 Men's Individual Kata Quarterfinal",
+      "row": "KTE:M.KATA--------------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1697,6 +1787,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 19:10 Men Round Robin Pool C Game 1",
       "row": "BK3:M.TEAM3-------------.GP03.000100--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "KTE|M.KATA--------------",
+      "message": "KTE Men's Individual Kata 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

@@ -1,4 +1,4 @@
-import { parseTime, DISPLAY_TIMEZONE } from '../utils/timezone.ts';
+import { parseTime, DISPLAY_TIMEZONE, VENUE_OFFSET, offsetOf, readAtVenueOffset } from '../utils/timezone.ts';
 
 export type RawMember = { Name?: string; Org?: string; Bib?: string; FuncDesc?: string; PosDesc?: string };
 export type RawCompetitor = {
@@ -39,11 +39,22 @@ export function assertRow(value: unknown): asserts value is RawSchedule {
     if (c != null && (typeof c !== 'object' || Array.isArray(c))) throw new Error(`Schema change: ${name}`);
   }
 }
-export function normalize(value: unknown, source: Source) {
+// Recovery is only allowed when the Results API itself proves the competition day: the day
+// the row was requested for, which must also be one of the discipline's official days.
+export type DayEvidence = { requestedDate?: string; officialDays?: string[] };
+export function normalize(value: unknown, source: Source, evidence: DayEvidence = {}) {
   assertRow(value);
   const row = value;
   const orgs = [...new Set([...(row.Orgs || []), row.Home?.Org, row.Away?.Org, row.Org].filter((x): x is string => !!x))];
-  const parsed = parseTime(row.DateTimeRaw);
+  // An offset other than the venue's is a source defect: read as-is it silently moves a unit
+  // to the wrong calendar day. The raw string is kept and the anomaly is reported either way.
+  const sourceOffset = offsetOf(row.DateTimeRaw);
+  const suspectTimezone = sourceOffset !== null && sourceOffset !== VENUE_OFFSET;
+  const wallDate = typeof row.DateTimeRaw === 'string' ? row.DateTimeRaw.slice(0,10) : null;
+  const dayProven = !!wallDate && !!evidence.requestedDate && wallDate === evidence.requestedDate
+    && (!evidence.officialDays || evidence.officialDays.includes(wallDate));
+  const recovered = suspectTimezone && dayProven ? readAtVenueOffset(row.DateTimeRaw) : null;
+  const parsed = parseTime(recovered ?? row.DateTimeRaw);
   const participation = orgs.includes('TPE') ? 'confirmed' : orgs.length ? 'not_listed' : 'unknown';
   const statusMap: Record<string,string> = { RUNNING:'in_progress', OFFICIAL:'finished',
     SCHEDULED:'not_started', START_LIST:'not_started', PROVISIONAL:'not_started' };
@@ -53,8 +64,14 @@ export function normalize(value: unknown, source: Source) {
     disciplineCode: row.Disc, disciplineName: row.DiscDesc ?? null,
     eventName: row.EventDesc ?? null, phaseName: row.PhaseDesc ?? null,
     unitName: row.UnitDesc || row.UnitDescA || row.PhaseDesc || null,
-    originalStartTime: row.DateTimeRaw ?? null, startTimeUtc: parsed?.utc ?? null,
-    startTimeTaipei: row.HideStartDate ? null : parsed?.taipei ?? null,
+    // The official string is never rewritten; a recovered reading is recorded beside it.
+    originalStartTime: row.DateTimeRaw ?? null, sourceOffset,
+    timezoneAnomaly: suspectTimezone ? { code: recovered ? 'RECOVERED_OFFICIAL_TIME' : 'SUSPECT_TIMEZONE',
+      sourceOffset, venueOffset: VENUE_OFFSET, recoveredStartTime: recovered,
+      evidence: recovered ? { requestedDate: evidence.requestedDate ?? null,
+        officialDays: evidence.officialDays ?? null, venueTimeZoneSource: 'config.venueTimeZone' } : null } : null,
+    startTimeUtc: suspectTimezone && !recovered ? null : parsed?.utc ?? null,
+    startTimeTaipei: row.HideStartDate || (suspectTimezone && !recovered) ? null : parsed?.taipei ?? null,
     displayTimezone: DISPLAY_TIMEZONE, timeHidden: row.HideStartDate === true, estimated: row.Estimated === true,
     venueCode: row.Venue ?? null, venueName: row.HideLocation ? null : row.VenueDesc ?? null,
     status: statusMap[row.Status || ''] || 'unknown', sourceStatus: row.Status ?? null,
@@ -66,8 +83,8 @@ export function normalize(value: unknown, source: Source) {
     checkedAt: source.checked_at ?? source.captured_at ?? null, source
   };
 }
-export function parseDaily(data: unknown, source: Source) {
+export function parseDaily(data: unknown, source: Source, evidence: DayEvidence = {}) {
   if (!Array.isArray(data)) throw new Error('Schema change: daily schedule must be an array');
-  return data.map(row => normalize(row, source));
+  return data.map(row => normalize(row, source, evidence));
 }
 export type Schedule = ReturnType<typeof normalize>;
