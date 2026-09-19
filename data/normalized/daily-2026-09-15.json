@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T15:48:10.897Z",
+  "generatedAt": "2026-09-19T04:36:14.559Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
@@ -54,7 +54,11 @@
         "participationComplete": true
       }
     },
-    "tpenoc": null
+    "tpenoc": null,
+    "entries": {
+      "path": "data/normalized/tpe-entries.json",
+      "events": 248
+    }
   },
   "date": "2026-09-15",
   "rows": [],
@@ -64,6 +68,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 0,
+    "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 0
   },

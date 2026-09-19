@@ -5,6 +5,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { mergeDaily } from '../src/parsers/merge-daily.ts';
+import { parseTpeEntries, entryIndex } from '../src/parsers/entries.ts';
 import { validateDate } from '../src/utils/timezone.ts';
 import { save, ROOT } from '../src/utils/storage.ts';
 
@@ -16,17 +17,24 @@ const tpenocPath = `data/normalized/tpenoc-${date}.json`;
 let results;
 try { results = await read(resultsPath); }
 catch { throw new Error(`找不到 ${resultsPath}；請先執行 npm run fetch:schedule -- ${date} AUTO`); }
+// Without a usable entry list the merge runs entry-blind: unseeded units stay unresolved
+// rather than being reported as "no Chinese Taipei event".
+let entries = null;
+const entriesPath = 'data/normalized/tpe-entries.json';
+try { entries = entryIndex(parseTpeEntries(await read(entriesPath))); }
+catch { console.error(`注意：沒有可用的 ${entriesPath}，未編組場次維持待確認；請先執行 npm run fetch:entries。`); }
 let tpenoc = null;
 try { tpenoc = await read(tpenocPath); }
 catch { console.error(`注意：沒有 ${tpenocPath}，本次只有 Results 單一來源，中文姓名與中華奧會核對缺席。`); }
 
-const merged = mergeDaily(results, tpenoc);
+const merged = mergeDaily(results, tpenoc, entries);
 const report = { schemaVersion:1, generatedAt:new Date().toISOString(), timezone:'Asia/Taipei',
   editorialVerification:'pending',
   sources:{
     results:{ path:resultsPath, generatedAt:results.generatedAt, coverage:results.coverage },
     tpenoc:tpenoc ? { path:tpenocPath, generatedAt:tpenoc.generatedAt,
-      sourceFileName:tpenoc.sourceFileName, updatedAtJst:tpenoc.updatedAtJst } : null },
+      sourceFileName:tpenoc.sourceFileName, updatedAtJst:tpenoc.updatedAtJst } : null,
+    entries:entries ? { path:entriesPath, events:entries.size } : null },
   ...merged };
 const output = `data/normalized/daily-${date}.json`;
 await save(output, report);
@@ -37,8 +45,13 @@ else if (!merged.coverageComplete) console.log(merged.rows.length
   ? '注意：這一天的 Results 同步未完整，以下只是已取得的部分。'
   : '注意：這一天的 Results 同步未完整，0 場不代表沒有賽事。');
 const s = merged.summary;
-console.log(`matched ${s.matched}｜tpenocOnly ${s.tpenocOnly}｜resultsOnly ${s.resultsOnly}｜unresolvedTbd ${s.unresolvedTbd}｜warnings ${s.warnings}`);
-for (const row of merged.rows.filter(r=>r.matchStatus !== 'RESULTS_ONLY' || r.participationState === 'TPE_CONFIRMED')) {
+console.log(`matched ${s.matched}｜tpenocOnly ${s.tpenocOnly}｜resultsOnly ${s.resultsOnly}｜entered ${s.entered}｜unresolvedTbd ${s.unresolvedTbd}｜warnings ${s.warnings}`);
+for (const row of merged.rows.filter(r=>r.participationState !== 'PARTICIPANTS_TBD')) {
+  if (row.participationState === 'TPE_ENTERED') {
+    console.log(`  ${row.startTimeTaipei?.slice(11,16) ?? '--:--'}起 ${row.sportZh ?? row.sportEn ?? row.disciplineCode}`
+      + `  ${row.event ?? ''}  [報名待編組・當日 ${row.unitCount} 場次]  ${row.enteredAthletes.join('、')}`);
+    continue;
+  }
   const score = row.result ? `${row.result.tpe ?? '-'}:${row.result.opponent ?? '-'}` : '尚無';
   console.log(`  ${row.startTimeTaipei?.slice(11,16) ?? '--:--'}  ${row.sportZh ?? row.sportEn ?? row.disciplineCode}`
     + `  ${row.event ?? ''} ${row.phase ?? ''}`.trimEnd()

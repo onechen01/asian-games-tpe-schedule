@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T15:48:19.709Z",
+  "generatedAt": "2026-09-19T04:36:28.264Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
@@ -103,7 +103,11 @@
         "participationComplete": true
       }
     },
-    "tpenoc": null
+    "tpenoc": null,
+    "entries": {
+      "path": "data/normalized/tpe-entries.json",
+      "events": 248
+    }
   },
   "date": "2026-09-17",
   "rows": [
@@ -112,7 +116,7 @@
       "startTimeTaipei": "2026-09-17T15:00:00+08:00",
       "startTimeJst": "2026-09-17T16:00:00+09:00",
       "disciplineCode": "FBL",
-      "sportZh": null,
+      "sportZh": "足球",
       "sportEn": "Football",
       "event": "Women",
       "phase": "Women Group E",
@@ -157,6 +161,9 @@
       "rank": null,
       "note": null,
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
@@ -206,6 +213,9 @@
       "rank": null,
       "note": null,
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
@@ -223,6 +233,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 2,
+    "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 2
   },

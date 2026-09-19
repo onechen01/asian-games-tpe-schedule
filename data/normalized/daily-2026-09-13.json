@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T15:48:02.534Z",
+  "generatedAt": "2026-09-19T04:36:00.829Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
@@ -42,7 +42,11 @@
         "participationComplete": true
       }
     },
-    "tpenoc": null
+    "tpenoc": null,
+    "entries": {
+      "path": "data/normalized/tpe-entries.json",
+      "events": 248
+    }
   },
   "date": "2026-09-13",
   "rows": [
@@ -51,7 +55,7 @@
       "startTimeTaipei": "2026-09-13T12:00:00+08:00",
       "startTimeJst": "2026-09-13T13:00:00+09:00",
       "disciplineCode": "BKB",
-      "sportZh": "籃球(5*5)",
+      "sportZh": "籃球",
       "sportEn": "Basketball",
       "event": "Men",
       "phase": "Men Group Phase - Group B",
@@ -85,6 +89,9 @@
       "rank": null,
       "note": null,
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
@@ -102,6 +109,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 1,
+    "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 1
   },

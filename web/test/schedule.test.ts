@@ -1,7 +1,7 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFile,mkdir,writeFile} from 'node:fs/promises';import path from 'node:path';
-import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState} from '../lib/schedule.ts';
+import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames} from '../lib/schedule.ts';
 import type {Daily,Row} from '../lib/schedule.ts';
-import {loadSchedule} from '../lib/load.ts';
+import {loadSchedule,loadRoster} from '../lib/load.ts';
 
 const daily = async ()=>parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-18.json','utf8')),'2026-09-18');
 const row = (r:Partial<Row>):Row=>({date:'2026-09-18',startTimeTaipei:null,startTimeJst:null,disciplineCode:null,
@@ -96,4 +96,36 @@ test('the real 9/11 and 9/15 files are confirmed rest days, 9/18 is not',async()
   const busy = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-18.json','utf8')),'2026-09-18');
   assert.equal(busy.rows.length,9);
   assert.equal(busy.officialNoCompetition,false);
+});
+
+test('an entered event is listed but never counted as a confirmed start',async()=>{
+  const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-21.json','utf8')),'2026-09-21');
+  const shown = taiwanRows(day);
+  const entered = shown.filter(isEntered);
+  assert.ok(entered.length > 0,'9/21 應有待確認項目');
+  for (const row of entered) {
+    assert.equal(row.participationState,'TPE_ENTERED');
+    assert.equal(row.entryLevel,'event');
+    assert.ok((row.unitCount ?? 0) >= 1);
+    assert.ok((row.enteredAthletes ?? []).length > 0);
+    // A pending event has no opponent, score or status to show.
+    assert.equal(row.opponent,null);
+    assert.equal(row.result,null);
+    assert.equal(row.status,null);
+  }
+  // Swimming: one row per event, never one per heat.
+  const swimming = entered.filter(r=>r.disciplineCode === 'SWM');
+  assert.equal(new Set(swimming.map(r=>r.event)).size, swimming.length);
+  assert.ok(swimming.some(r=>(r.unitCount ?? 0) >= 5),'應保留當日場次數');
+  // Confirmed rows on the same day stay unit-level.
+  assert.ok(shown.filter(r=>!isEntered(r)).every(r=>r.entryLevel === 'unit'));
+});
+
+test('entered athletes keep official English names when no verified Chinese mapping exists',async()=>{
+  const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-21.json','utf8')),'2026-09-21');
+  const swim = taiwanRows(day).find(r=>isEntered(r) && r.disciplineCode === 'SWM')!;
+  const roster = await loadRoster();
+  const names = entryNames(swim,roster);
+  assert.deepEqual(names,swim.enteredAthletes);
+  assert.ok(names.every(n=>/^[A-Za-z]/.test(n)),'沒有可靠中文對照時保留官方英文');
 });

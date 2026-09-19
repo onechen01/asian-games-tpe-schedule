@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-19T04:40:11.968Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/normalized/schedule-2026-09-19-AUTO.json",
+      "generatedAt": "2026-09-19T04:37:22.894Z",
+      "coverage": {
+        "sports": [
+          "BKB",
+          "HBL",
+          "TEQ",
+          "BDM",
+          "CKT",
+          "CRD",
+          "FBL",
+          "HOC",
+          "KTE",
+          "MMA",
+          "MPN",
+          "SHO",
+          "SPK",
+          "SWM",
+          "TRI",
+          "TST",
+          "TTE",
+          "VBV",
+          "VVO",
+          "WPO",
+          "WSU"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-09-19",
+            "2026-09-20"
+          ],
+          "targets": [
+            {
+              "code": "BKB",
+              "date": "2026-09-19",
+              "medalDay": false
+            },
+            {
+              "code": "HBL",
+              "date": "2026-09-19",
+              "medalDay": false
+            },
+            {
+              "code": "TEQ",
+              "date": "2026-09-19",
+              "medalDay": false
+            },
+            {
+              "code": "BDM",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "BKB",
+              "date": "2026-09-20",
+              "medalDay": true
+            },
+            {
+              "code": "CKT",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "CRD",
+              "date": "2026-09-20",
+              "medalDay": true
+            },
+            {
+              "code": "FBL",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "HBL",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "HOC",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "KTE",
+              "date": "2026-09-20",
+              "medalDay": true
+            },
+            {
+              "code": "MMA",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "MPN",
+              "date": "2026-09-20",
+              "medalDay": true
+            },
+            {
+              "code": "SHO",
+              "date": "2026-09-20",
+              "medalDay": true
+            },
+            {
+              "code": "SPK",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "SWM",
+              "date": "2026-09-20",
+              "medalDay": true
+            },
+            {
+              "code": "TEQ",
+              "date": "2026-09-20",
+              "medalDay": true
+            },
+            {
+              "code": "TRI",
+              "date": "2026-09-20",
+              "medalDay": true
+            },
+            {
+              "code": "TST",
+              "date": "2026-09-20",
+              "medalDay": true
+            },
+            {
+              "code": "TTE",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "VBV",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "VVO",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "WPO",
+              "date": "2026-09-20",
+              "medalDay": false
+            },
+            {
+              "code": "WSU",
+              "date": "2026-09-20",
+              "medalDay": true
+            }
+          ]
+        },
+        "missing": [
+          {
+            "kind": "schedule-daily",
+            "disciplineCode": "HBL",
+            "endpoint": "https://back.results.asiangames2026.org/s/AG2026/en/HBL/schedule/daily/2026-09-19",
+            "date": "2026-09-19",
+            "http_status": 200,
+            "error": "Non-JSON Content-Type"
+          }
+        ],
+        "fetchComplete": false,
+        "participationComplete": false
+      }
+    },
+    "tpenoc": null,
+    "entries": {
+      "path": "data/normalized/tpe-entries.json",
+      "events": 248
+    }
+  },
+  "date": "2026-09-19",
+  "rows": [],
+  "coverageComplete": false,
+  "officialNoCompetition": false,
+  "summary": {
+    "matched": 0,
+    "tpenocOnly": 0,
+    "resultsOnly": 0,
+    "entered": 0,
+    "unresolvedTbd": 0,
+    "warnings": 0
+  },
+  "warnings": []
+}

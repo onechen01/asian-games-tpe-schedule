@@ -17,6 +17,7 @@
     "test:web": "node --test web/test/*.test.ts",
     "fetch:disciplines": "node scripts/fetch-disciplines.ts",
     "fetch:tpenoc": "node scripts/fetch-tpenoc.ts",
-    "merge:daily": "node scripts/merge-daily.ts"
+    "merge:daily": "node scripts/merge-daily.ts",
+    "fetch:entries": "node scripts/fetch-entries.ts"
   }
 }

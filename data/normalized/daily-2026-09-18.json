@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T15:48:46.656Z",
+  "generatedAt": "2026-09-19T04:43:17.504Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
@@ -103,6 +103,10 @@
       "generatedAt": "2026-09-18T10:31:21.076Z",
       "sourceFileName": "2026名古屋亞運每日賽程表0918(0917_1800).pdf",
       "updatedAtJst": "2026-09-17T18:00:00+09:00"
+    },
+    "entries": {
+      "path": "data/normalized/tpe-entries.json",
+      "events": 248
     }
   },
   "date": "2026-09-18",
@@ -139,6 +143,9 @@
       "rank": null,
       "note": null,
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
@@ -181,6 +188,9 @@
       "rank": null,
       "note": null,
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
@@ -223,6 +233,9 @@
       "rank": null,
       "note": null,
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
@@ -265,6 +278,9 @@
       "rank": null,
       "note": null,
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
@@ -313,6 +329,9 @@
       "rank": null,
       "note": "B組：泰國、菲律賓、蒙古",
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "MATCHED",
       "matchConfidence": "high",
       "matchSignals": [
@@ -370,6 +389,9 @@
       "rank": null,
       "note": "C組：蒙古、印度、寮國",
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "MATCHED",
       "matchConfidence": "high",
       "matchSignals": [
@@ -454,6 +476,9 @@
       "rank": null,
       "note": "A組：韓國、馬來西亞、哈薩\n克、孟加拉、中國",
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "MATCHED",
       "matchConfidence": "high",
       "matchSignals": [
@@ -477,7 +502,7 @@
       "startTimeTaipei": "2026-09-18T12:00:00+08:00",
       "startTimeJst": "2026-09-18T13:00:00+09:00",
       "disciplineCode": "BKB",
-      "sportZh": "籃球(5*5)",
+      "sportZh": "籃球",
       "sportEn": "Basketball",
       "event": "Women",
       "phase": "Women Group Phase - Group C",
@@ -524,6 +549,9 @@
       "rank": null,
       "note": "C組：蒙古、馬來西亞、韓國",
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "MATCHED",
       "matchConfidence": "high",
       "matchSignals": [
@@ -594,6 +622,9 @@
       "rank": null,
       "note": "C組：蒙古、吉爾吉斯、泰國\n目前小組賽戰績2勝0負",
       "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "MATCHED",
       "matchConfidence": "high",
       "matchSignals": [
@@ -619,6 +650,7 @@
     "matched": 5,
     "tpenocOnly": 0,
     "resultsOnly": 4,
+    "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 5
   },

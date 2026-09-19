@@ -6,7 +6,8 @@ export type Row = {
   athletes:string[]; athletesEn:string[]; opponent:string | null; opponentCode:string | null;
   venue:string | null; venueZh:string | null; status:string | null; result:Result | null;
   tpenocResult:string | null; rank:string | null; note:string | null;
-  participationState:'TPE_CONFIRMED' | 'PARTICIPANTS_TBD';
+  participationState:'TPE_CONFIRMED' | 'TPE_ENTERED' | 'PARTICIPANTS_TBD';
+  entryLevel?:'unit' | 'event'; unitCount?:number | null; enteredAthletes?:string[];
   matchStatus:'MATCHED' | 'TPENOC_ONLY' | 'RESULTS_ONLY';
   matchConfidence:string; matchSignals:string[];
   sources:{ results?:{ unitId?:string; id:string }; tpenoc?:{ sport:string; timeJst:string } };
@@ -49,6 +50,14 @@ export function displayNames(row:Row,roster:Roster|null):{names:string[];fromRef
  const {names,complete}=chineseNamesFor(row.athletesEn,row.disciplineCode,roster);
  return complete?{names,fromReference:true}:{names:[],fromReference:false};
 }
+// Entered rows carry the officially registered athletes in English. Chinese is shown only when
+// every name resolves through the verified mapping; otherwise the official English stands.
+export function entryNames(row:Row,roster:Roster|null):string[]{
+ const official=row.enteredAthletes??[];
+ if(!roster||!official.length)return official;
+ const {names,complete}=chineseNamesFor(official,row.disciplineCode,roster);
+ return complete?names:official;
+}
 export const hasChineseNames=(row:Row)=>row.athletes.length>0;
 
 const STATUS:Record<string,string>={OFFICIAL:'已結束',FINISHED:'已結束',RUNNING:'比賽中',LIVE:'比賽中',
@@ -60,7 +69,9 @@ export function statusLabel(row:Row){
 }
 export const isFinished=(row:Row)=>row.status==='OFFICIAL'||row.status==='FINISHED';
 
-export const isTaiwanRow=(row:Row)=>row.participationState==='TPE_CONFIRMED';
+export const isTaiwanRow=(row:Row)=>row.participationState==='TPE_CONFIRMED'||row.participationState==='TPE_ENTERED';
+// Entered means the delegation registered for the event; the draw has not placed anyone yet.
+export const isEntered=(row:Row)=>row.participationState==='TPE_ENTERED';
 export const isPending=(row:Row)=>row.participationState==='PARTICIPANTS_TBD';
 export function taiwanRows(daily:Daily){
   return daily.rows.filter(isTaiwanRow)
