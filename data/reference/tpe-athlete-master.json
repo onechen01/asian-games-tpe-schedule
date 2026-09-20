@@ -168,6 +168,150 @@
     "method": "human-checked",
     "confirmedAt": "2026-09-18"
    }
+  },
+  {
+   "reg": "9589159",
+   "officialEn": "CHIEN Hui-hsuan",
+   "zh": "簡慧萱",
+   "gender": "W",
+   "disciplines": [
+    "KTE"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+    "method": "sole-athlete-in-event",
+    "confirmedAt": "2026-09-20"
+   }
+  },
+  {
+   "reg": "16725",
+   "officialEn": "ZENG Ke-xin",
+   "zh": "曾可妡",
+   "gender": "W",
+   "disciplines": [
+    "CRD"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+    "method": "sole-athlete-in-event",
+    "confirmedAt": "2026-09-20"
+   }
+  },
+  {
+   "reg": "1725668",
+   "officialEn": "TU Chih-hao",
+   "zh": "杜志濠",
+   "gender": "M",
+   "disciplines": [
+    "CRD"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+    "method": "sole-athlete-in-event",
+    "confirmedAt": "2026-09-20"
+   }
+  },
+  {
+   "reg": "4299904",
+   "officialEn": "LIN Ming-dian",
+   "zh": "林明典",
+   "gender": "M",
+   "disciplines": [
+    "MMA"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+    "method": "sole-athlete-in-event",
+    "confirmedAt": "2026-09-20"
+   }
+  },
+  {
+   "reg": "4295381",
+   "officialEn": "CHANG Li",
+   "zh": "張立",
+   "gender": "M",
+   "disciplines": [
+    "MMA"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+    "method": "sole-athlete-in-event",
+    "confirmedAt": "2026-09-20"
+   }
+  },
+  {
+   "reg": "5936448",
+   "officialEn": "LIN Yu-fen",
+   "zh": "林郁芬",
+   "gender": "W",
+   "disciplines": [
+    "MMA"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+    "method": "sole-athlete-in-event",
+    "confirmedAt": "2026-09-20"
+   }
+  },
+  {
+   "reg": "477449",
+   "officialEn": "HAN An-chi",
+   "zh": "韓安齊",
+   "gender": "W",
+   "disciplines": [
+    "SWM"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+    "method": "sole-athlete-in-event",
+    "confirmedAt": "2026-09-20"
+   }
+  },
+  {
+   "reg": "16383619",
+   "officialEn": "LIN Yi-cheng",
+   "zh": "林怡成",
+   "gender": "M",
+   "disciplines": [
+    "SWM"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+    "method": "sole-athlete-in-event",
+    "confirmedAt": "2026-09-20"
+   }
+  },
+  {
+   "reg": "465030",
+   "officialEn": "CHANG Kai-yueh",
+   "zh": "張愷岳",
+   "gender": "M",
+   "disciplines": [
+    "SWM"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+    "method": "sole-athlete-in-event",
+    "confirmedAt": "2026-09-20"
+   }
   }
  ]
 }
