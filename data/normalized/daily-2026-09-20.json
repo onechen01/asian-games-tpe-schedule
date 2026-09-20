@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T11:23:01.767Z",
+  "generatedAt": "2026-09-20T12:02:39.323Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-20/schedule-2026-09-20-AUTO.json",
-      "generatedAt": "2026-09-20T11:23:01.626Z",
+      "generatedAt": "2026-09-20T12:02:39.193Z",
       "coverage": {
         "sports": [
           "BDM",
@@ -1251,12 +1251,8 @@
       "opponentCode": "NEP",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "3",
-        "opponent": "0",
-        "source": "results"
-      },
+      "status": "CANCELED",
+      "result": null,
       "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
@@ -1844,10 +1840,10 @@
       "opponentCode": "JPN",
       "venue": "Park Arena Komaki",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "2",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1870,8 +1866,8 @@
     },
     {
       "date": "2026-09-20",
-      "startTimeTaipei": "2026-09-20T19:50:00+08:00",
-      "startTimeJst": "2026-09-20T20:50:00+09:00",
+      "startTimeTaipei": "2026-09-20T19:38:08+08:00",
+      "startTimeJst": "2026-09-20T20:38:08+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
@@ -1880,14 +1876,18 @@
       "unit": "Match 5",
       "athletes": [],
       "athletesEn": [
-        "ZHANG Huan-yi"
+        "ZHANG Huan yi"
       ],
       "opponent": "JUMAMYRADOV Muhammet",
       "opponentCode": "TKM",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
@@ -2090,7 +2090,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 19:50 Match 5",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 19:38 Match 5",
       "row": "WSU:M.75KG--------------.8FNL.000500--"
     }
   ]
