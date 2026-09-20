@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T10:53:18.408Z",
+  "generatedAt": "2026-09-20T11:23:01.767Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-20/schedule-2026-09-20-AUTO.json",
-      "generatedAt": "2026-09-20T10:53:18.271Z",
+      "generatedAt": "2026-09-20T11:23:01.626Z",
       "coverage": {
         "sports": [
           "BDM",
@@ -382,6 +382,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -427,6 +428,7 @@
         "opponent": "1",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -468,6 +470,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -506,11 +509,27 @@
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "626.6",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHOU Ya-Hsuan",
+          "registration": "7717730",
+          "result": "626.6",
+          "rank": "23"
+        },
+        {
+          "name": "SUNG Yu-Ting",
+          "registration": "7719153",
+          "result": "626.6",
+          "rank": "24"
+        },
+        {
+          "name": "LIN Ying-Shin",
+          "registration": "13705579",
+          "result": "620.6",
+          "rank": "41"
+        }
+      ],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -554,6 +573,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -595,6 +615,7 @@
         "opponent": "1",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -636,6 +657,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -681,6 +703,7 @@
         "opponent": "0",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -722,6 +745,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -763,6 +787,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -804,6 +829,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -845,6 +871,7 @@
         "opponent": "1",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -886,6 +913,7 @@
         "opponent": "3",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -927,6 +955,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -968,6 +997,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1009,6 +1039,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1050,6 +1081,7 @@
         "opponent": "5",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1091,6 +1123,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1132,6 +1165,7 @@
         "opponent": "1",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1177,6 +1211,7 @@
         "opponent": "1",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1222,6 +1257,7 @@
         "opponent": "0",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1263,6 +1299,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1308,6 +1345,7 @@
         "opponent": "2",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1349,6 +1387,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1390,6 +1429,7 @@
         "opponent": "3",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1435,6 +1475,7 @@
         "opponent": "3",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1476,6 +1517,7 @@
         "opponent": null,
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1513,11 +1555,21 @@
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "2:01.21",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "WANG Hsing-hao",
+          "registration": "3559226",
+          "result": "2:01.21",
+          "rank": "8"
+        },
+        {
+          "name": "FU Kun-ming",
+          "registration": "8599764",
+          "result": "2:02.07",
+          "rank": "9"
+        }
+      ],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1563,6 +1615,7 @@
         "opponent": "2",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1604,6 +1657,7 @@
         "opponent": "3",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1641,11 +1695,21 @@
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "31.62",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "LIN Pei-wun",
+          "registration": "8624726",
+          "result": "31.62",
+          "rank": "6"
+        },
+        {
+          "name": "CHIU Yi-chen",
+          "registration": "478795",
+          "result": "32.32",
+          "rank": "10"
+        }
+      ],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1691,6 +1755,7 @@
         "opponent": "0",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1732,6 +1797,7 @@
         "opponent": "2",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1781,9 +1847,10 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1821,6 +1888,7 @@
       "venueZh": null,
       "status": "START_LIST",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
