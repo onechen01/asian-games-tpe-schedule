@@ -9,6 +9,7 @@ export const PROVIDER = { providerId:'elta', providerName:'愛爾達',
 export type BroadcastRecord = {
   date:string; providerId:string; providerName:string; broadcastStartTimeTaipei:string;
   disciplineCode:string; title:string|null; feed:'main'|'original'|null; note:string|null;
+  channelId:string|null; channelName:string|null; isLive:boolean|null;
   sourceUrl:string|null; capturedAt:string|null; matchLevel:'unit'|'discipline';
   matchHint:{ opponentCodes?:string[]; athleteNames?:string[]; phaseKeywords?:string[]; eventKeywords?:string[] };
 };
@@ -41,28 +42,32 @@ export function extractScheduleList(html:string):Record<string,Record<string,unk
 
 // "中國VS中華" names one opponent; anything vaguer stays discipline-level rather than being
 // pinned to a competition it may not be.
-const opponentOf = (title:string):string|null => {
+const opponentOf = (title:string, nocByZh:Record<string,string>):string|null => {
   const m = title.match(/([\u4e00-\u9fff]{2,6})\s*VS\s*([\u4e00-\u9fff]{2,6})/i);
   if (!m) return null;
   const sides = [m[1],m[2]];
   if (!sides.some(s=>s === '中華' || s === '台灣')) return null;
   const other = sides.find(s=>s !== '中華' && s !== '台灣');
-  return other ? NOC_BY_ZH[other] ?? null : null;
+  return other ? nocByZh[other] ?? NOC_BY_ZH[other] ?? null : null;
 };
 
 type Programme = { format_s_time?:unknown; start_datetime?:unknown; program_desc?:unknown;
-  is_taipei_team?:unknown; sport_item?:{ sp_name?:unknown } };
+  is_taipei_team?:unknown; sport_item?:{ sp_name?:unknown };
+  cl_num?:unknown; cl_title?:unknown; live_type?:unknown };
 
 // A programme title often names the athlete ("甘家葳 拳擊 男子70公斤級預賽"). When exactly one
 // verified athlete is named, that is a safe hint; two or none stays discipline-level.
+// One programme may name several athletes ("張立/林郁芬"); every verified name found is a
+// hint, and a row matches when it features any one of them.
 export function athleteHint(title:string, byZh:Map<string,string>):string[] {
   const found = new Set<string>();
   for (const [zh,en] of byZh) if (title.includes(zh)) found.add(en);
-  return found.size === 1 ? [...found] : [];
+  return [...found];
 }
 
 export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
-  options:{ capturedAt:string; dates?:string[]; athletesByZh?:Map<string,string> }):{ records:BroadcastRecord[]; unresolved:Unresolved[] } {
+  options:{ capturedAt:string; dates?:string[]; athletesByZh?:Map<string,string>;
+    nocByZh?:Record<string,string> }):{ records:BroadcastRecord[]; unresolved:Unresolved[] } {
   const records:BroadcastRecord[] = [], unresolved:Unresolved[] = [];
   const seen = new Set<string>();
   for (const [date, programmes] of Object.entries(scheduleList)) {
@@ -89,10 +94,17 @@ export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
       }
       const startsOn = raw.slice(0,10);
       const broadcastStartTimeTaipei = `${startsOn}T${raw.slice(11,16)}:00+08:00`;
-      const opponent = opponentOf(title);
+      const opponent = opponentOf(title, options.nocByZh ?? {});
       const named = opponent ? [] : athleteHint(title, options.athletesByZh ?? new Map());
+      // The channel is part of "where to watch", so it travels with the record; the field is
+      // generic because another provider will have its own channels or services.
+      const channelId = p.cl_num === undefined || p.cl_num === null ? null : String(p.cl_num);
+      const rawChannel = typeof p.cl_title === 'string' ? p.cl_title.replace(/\s+/g,'') : '';
+      const liveType = typeof p.live_type === 'string' ? p.live_type.toUpperCase() : '';
       const record:BroadcastRecord = {
         date:startsOn, ...PROVIDER, broadcastStartTimeTaipei, disciplineCode,
+        channelId, channelName:rawChannel ? `${PROVIDER.providerName}${rawChannel}` : null,
+        isLive:liveType ? liveType === 'LIVE' : null,
         title, feed:/原音/.test(title) ? 'original' : 'main',
         note:/原音/.test(title) ? '原音' : null,
         capturedAt:options.capturedAt,

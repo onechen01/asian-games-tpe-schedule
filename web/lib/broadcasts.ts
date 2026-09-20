@@ -4,6 +4,8 @@
 export type Broadcast = {
   date:string; providerId:string; providerName:string; broadcastStartTimeTaipei:string;
   disciplineCode:string; title:string|null; feed:'main'|'original'|null; note:string|null;
+  // Where to watch: a channel, service or stream name, whatever the provider publishes.
+  channelId?:string|null; channelName?:string|null; isLive?:boolean|null;
   sourceUrl:string|null; capturedAt:string|null;
   matchLevel:'unit'|'discipline';
   matchHint?:{ athleteNames?:string[]; opponentCodes?:string[]; opponentNames?:string[];

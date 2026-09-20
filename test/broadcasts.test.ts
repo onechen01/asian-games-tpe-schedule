@@ -5,8 +5,8 @@ const page = (json:string)=>`<html><script>\n let schedule_list = ${json};\n</sc
 const programme = (o:Record<string,unknown>)=>({ is_taipei_team:1, ...o });
 const day = (list:Record<string,unknown>[])=>page(JSON.stringify(
   { '2026-09-21':Object.fromEntries(list.map((p,i)=>[String(i),p])) }));
-const parse = (html:string, athletesByZh?:Map<string,string>)=>
-  toBroadcasts(extractScheduleList(html),{ capturedAt:'2026-09-20', athletesByZh });
+const parse = (html:string, athletesByZh?:Map<string,string>, nocByZh?:Record<string,string>)=>
+  toBroadcasts(extractScheduleList(html),{ capturedAt:'2026-09-20', athletesByZh, nocByZh });
 
 test('a Chinese Taipei programme becomes one record in the shared schema',()=>{
   const { records } = parse(day([programme({ format_s_time:'2026-09-21 17:20:00',
@@ -42,7 +42,8 @@ test('a named athlete gives a unit hint, an unnamed session stays at discipline 
   const swim = records.find(r=>r.disciplineCode === 'SWM')!;
   assert.equal(swim.matchLevel,'discipline');
   // Two names in one title is not a safe hint.
-  assert.deepEqual(athleteHint('杜承翰/甘家葳 空手道',byZh),[]);
+  // Two named athletes are both kept; a session with no name gives nothing.
+  assert.equal(athleteHint('杜承翰/甘家葳 空手道',byZh).length,2);
   assert.deepEqual(athleteHint('中華隊 游泳 預賽',byZh),[]);
 });
 
@@ -88,4 +89,40 @@ test('the gate holds an empty, duplicated, malformed or collapsed batch',()=>{
 test('a page that stopped publishing the schedule fails loudly',()=>{
   assert.throws(()=>extractScheduleList('<html>no data</html>'),/schedule_list/);
   assert.throws(()=>extractScheduleList(page('{}')),/empty/);
+});
+
+test('the channel and live type are kept as generic fields',()=>{
+  const { records } = parse(day([programme({ format_s_time:'2026-09-20 08:50:00', cl_num:545,
+    cl_title:'體育MAX6台', live_type:'LIVE', program_desc:'亞運 林明典 綜合格鬥 預賽 9/20(原音) LIVE',
+    sport_item:{ sp_name:'綜合格鬥' } })]));
+  const r = records[0];
+  assert.equal(r.channelId,'545');
+  assert.equal(r.channelName,'愛爾達體育MAX6台');
+  assert.equal(r.isLive,true);
+  assert.equal(r.feed,'original');
+  // A delayed broadcast is still a broadcast, just not live.
+  const delayed = parse(day([programme({ format_s_time:'2026-09-21 20:30:00', cl_num:101,
+    cl_title:'體育 1 台', live_type:'D-LIVE', program_desc:'亞運 甘家葳 拳擊 9/21 D-LIVE',
+    sport_item:{ sp_name:'拳擊' } })])).records[0];
+  assert.equal(delayed.isLive,false);
+  assert.equal(delayed.channelName,'愛爾達體育1台');
+});
+
+test('an opponent named in Chinese resolves through the shared NOC table',()=>{
+  const nocByZh = { 尼泊爾:'NEP', 北韓:'PRK' };
+  const { records } = parse(day([
+    programme({ format_s_time:'2026-09-20 11:25:00', program_desc:'亞運 中華VS尼泊爾 桌球 男團預賽 9/20 LIVE',
+      sport_item:{ sp_name:'桌球' } }),
+    programme({ format_s_time:'2026-09-20 14:55:00', program_desc:'亞運 中華VS北韓 桌球 女團預賽 9/20 LIVE',
+      sport_item:{ sp_name:'桌球' } })]),undefined,nocByZh);
+  assert.deepEqual(records.map(r=>r.matchHint.opponentCodes?.[0]),['NEP','PRK']);
+  assert.ok(records.every(r=>r.matchLevel === 'unit'));
+});
+
+test('a programme naming two athletes keeps both as hints',()=>{
+  const byZh = new Map([['張立','CHANG Li'],['林郁芬','LIN Yu-fen']]);
+  const { records } = parse(day([programme({ format_s_time:'2026-09-20 13:50:00',
+    program_desc:'亞運 張立/林郁芬 綜合格鬥 八強 9/20(原音) LIVE', sport_item:{ sp_name:'綜合格鬥' } })]),byZh);
+  assert.deepEqual(records[0].matchHint.athleteNames,['CHANG Li','LIN Yu-fen']);
+  assert.equal(records[0].matchLevel,'unit');
 });

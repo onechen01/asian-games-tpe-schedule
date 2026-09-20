@@ -32,9 +32,16 @@ const athletesByZh = new Map((master.athletes ?? [])
   .filter(a=>a.confidence === 'VERIFIED' && a.zh && a.officialEn)
   .map(a=>[a.zh as string, a.officialEn as string]));
 
+// Opponent names are matched against the same Chinese NOC table the site displays.
+const nocDoc = JSON.parse(await readFile(resolve(ROOT,'data/reference/noc-zh.json'),'utf8')) as
+  { orgs?:Record<string,string> } & Record<string,unknown>;
+const orgs = (nocDoc.orgs ?? nocDoc) as Record<string,string>;
+const nocByZh = Object.fromEntries(Object.entries(orgs)
+  .filter(([,zh])=>typeof zh === 'string').map(([code,zh])=>[zh,code]));
+
 let batch;
 try { batch = toBroadcasts(extractScheduleList(html),
-  { capturedAt:new Date().toISOString().slice(0,10), dates, athletesByZh }); }
+  { capturedAt:new Date().toISOString().slice(0,10), dates, athletesByZh, nocByZh }); }
 catch (error) {
   console.error(`${provider} parse failed: ${(error as Error).message}；保留既有資料`);
   process.exit(1);
