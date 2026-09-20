@@ -92,3 +92,34 @@ test('a future day with no Taiwan event still accepts one once the official data
   assert.equal(confirmed[0].opponentCode,'JPN');
   assert.notEqual(later.officialNoCompetition,true);
 });
+
+import { isAutomationFailure, runExitCode } from '../src/parsers/publish-gate.ts';
+import { readFile as readFileAsync } from 'node:fs/promises';
+
+test('a day that produced nothing is an automation failure, not a quiet no-change',()=>{
+  assert.equal(isAutomationFailure(['daily-missing']),true);
+  assert.equal(isAutomationFailure(['fetch-failed: Missing data/normalized/disciplines.json']),true);
+  assert.equal(isAutomationFailure(['merge-failed: boom']),true);
+  // An incomplete official sync is the safe, expected outcome.
+  assert.equal(isAutomationFailure(['coverageComplete-false','missing-1','errors-1']),false);
+  const allBroken = [1,2,3].map(n=>({date:`2026-09-2${n}`,reasons:['daily-missing']}));
+  assert.equal(runExitCode(allBroken,3,0),1);
+  const apiHeld = [{date:'2026-09-22',reasons:['missing-1','errors-1']}];
+  assert.equal(runExitCode(apiHeld,3,2),0,'部分日期官方資料不完整仍保留舊 canonical，屬正常');
+  assert.equal(runExitCode([{date:'x',reasons:['daily-missing']}],3,2),0);
+});
+
+test('the updater fetches its generated inputs instead of trusting an untracked working copy',async()=>{
+  const script = await readFileAsync('scripts/update-results.ts','utf8');
+  const ignored = await readFileAsync('.gitignore','utf8');
+  // These inputs are gitignored, so a fresh checkout has neither; both must be rebuildable.
+  for (const [file,builder] of [['data/normalized/disciplines.json','scripts/fetch-disciplines.ts'],
+    ['data/normalized/tpe-entries.json','scripts/fetch-entries.ts']]) {
+    assert.ok(script.includes(file) && script.includes(builder),`${file} 未在 updater 自動補齊`);
+    await readFileAsync(builder,'utf8');
+  }
+  assert.ok(ignored.includes('data/normalized/*'));
+  // Child failures are reported, never swallowed into a silent success.
+  assert.ok(script.includes('process.exit(1)'));
+  assert.ok(script.includes('runExitCode'));
+});

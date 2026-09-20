@@ -39,3 +39,18 @@ export function stableContent(value:unknown):unknown {
 }
 export const changed = (next:unknown, previous:unknown)=>
   JSON.stringify(stableContent(next)) !== JSON.stringify(stableContent(previous));
+
+// A day can be held for two very different reasons, and they must not look alike in a log or
+// in an exit code: the official data was incomplete (safe, keep the previous canonical), or
+// the updater never produced anything to check (automation failure).
+export const AUTOMATION_FAILURES = ['daily-missing','schedule-missing','fetch-failed','merge-failed','inputs-missing'];
+export const isAutomationFailure = (reasons:string[])=>
+  reasons.some(r=>AUTOMATION_FAILURES.some(f=>r === f || r.startsWith(f + ':')));
+// Non-zero only when nothing ran at all; a day whose official sync was incomplete is a
+// normal, safe outcome that keeps whatever production already had.
+export function runExitCode(held:{date:string;reasons:string[]}[], attempted:number, publishedOrUnchanged:number){
+  if (!attempted) return 0;
+  const automation = held.filter(h=>isAutomationFailure(h.reasons)).length;
+  if (automation === attempted) return 1;
+  return publishedOrUnchanged === 0 && automation > 0 ? 1 : 0;
+}

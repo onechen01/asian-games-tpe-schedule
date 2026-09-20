@@ -6,7 +6,7 @@ import { spawnSync } from 'node:child_process';
 import { readFile, rm } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { save, ROOT } from '../src/utils/storage.ts';
-import { qualityGate, changed } from '../src/parsers/publish-gate.ts';
+import { qualityGate, changed, isAutomationFailure, runExitCode } from '../src/parsers/publish-gate.ts';
 import { nextDay } from '../src/utils/timezone.ts';
 
 // The official schedule matrix spans these venue days; outside them the Games are over and
@@ -31,11 +31,27 @@ const future:string[] = [];
 for (let d = shift(today,2); d <= GAMES_LAST; d = nextDay(d)) future.push(d);
 const dates = explicit ? explicit.split(',') : discovery ? [...live, ...future] : live;
 
-const run = (script:string, args:string[], env:Record<string,string>)=>
+const run = (script:string, args:string[], env:Record<string,string> = {})=>
   spawnSync(process.execPath,[script,...args],{cwd:ROOT,env:{...process.env,...env},encoding:'utf8'});
 const read = async (relative:string)=>{
   try { return JSON.parse(await readFile(resolve(ROOT,relative),'utf8')); } catch { return null; }
 };
+
+// A fresh checkout has none of the generated inputs (they are gitignored), so the updater
+// fetches them itself instead of assuming a working copy that has been used before.
+const REQUIRED_INPUTS:[string,string][] = [
+  ['data/normalized/disciplines.json','scripts/fetch-disciplines.ts'],
+  ['data/normalized/tpe-entries.json','scripts/fetch-entries.ts'],
+];
+for (const [file, script] of REQUIRED_INPUTS) {
+  if (await read(file)) continue;
+  console.log(`缺少 ${file}，先向官方取得。`);
+  const built = run(script,[]);
+  if (built.status !== 0 || !(await read(file))) {
+    console.error(`無法產生 ${file}：${(built.stderr || built.stdout || '').trim().slice(-300)}`);
+    process.exit(1);
+  }
+}
 
 const published:string[] = [], held:{date:string;reasons:string[]}[] = [], unchanged:string[] = [];
 for (const date of dates) {
@@ -77,5 +93,9 @@ if (held.length) {
   console.error(`品質檢查未通過、保留既有 canonical 的日期：`);
   for (const h of held) console.error(`  ${h.date}  ${h.reasons.join(', ')}`);
 }
-// A failed day is a held day, not a broken run: the other days still publish.
+const automation = held.filter(h=>isAutomationFailure(h.reasons));
+if (automation.length) console.error(`其中 ${automation.length} 天是 automation 失敗（不是官方資料不完整）：`
+  + automation.map(h=>h.date).join('、'));
+// A day held by the quality gate is a safe outcome; a day that never produced anything is not.
 console.log(published.length ? 'CHANGED' : 'NO_CHANGE');
+process.exitCode = runExitCode(held, dates.length, published.length + unchanged.length);
