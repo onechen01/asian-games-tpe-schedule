@@ -1,0 +1,64 @@
+name: Update broadcast schedules
+
+# Broadcast listings change far more slowly than results, so once an hour is enough.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 * * * *'
+
+permissions:
+  contents: write
+
+# Its own group: a broadcast run must never cancel, or be cancelled by, the results updater.
+concurrency:
+  group: update-broadcasts
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+        working-directory: web
+      - name: Update broadcast records
+        run: npm run fetch:broadcasts -- --provider=elta
+      - name: Commit only the broadcast data, and only when it changed
+        run: |
+          set -e
+          FILE=data/reference/broadcasts.json
+          if [ -n "$(git status --porcelain -- . ':!'"$FILE")" ]; then
+            echo "Unexpected files changed; refusing to commit:"
+            git status --porcelain
+            exit 1
+          fi
+          if git diff --quiet -- "$FILE"; then
+            echo "NO_CHANGE: broadcast records are unchanged."
+            exit 0
+          fi
+          node -e "const d=require('./$FILE');if(d.schemaVersion!==1||!Array.isArray(d.records)||!d.records.length)throw new Error('broadcasts.json failed validation');console.log('validated',d.records.length,'records')"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$FILE"
+          git commit -m "Update broadcast schedules"
+          # The results bot pushes to the same branch, so a rejected push is rebased and
+          # retried a few times rather than forced.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            git fetch origin main
+            git rebase origin/main
+            if [ -n "$(git diff --name-only origin/main -- . ':!'"$FILE")" ]; then
+              echo "Rebase brought in changes outside $FILE; stopping without pushing."
+              exit 1
+            fi
+          done
+          echo "Could not push after 3 attempts."
+          exit 1
