@@ -81,5 +81,12 @@ export default async function Page({searchParams}:{searchParams:Promise<{date?:s
    {groups.map(([code,items])=>{const label=rows.concat(pending).find(r=>r.disciplineCode===code);
     return <div key={code} className="broadcast-sport"><h3>{label?sportLabel(label):code}</h3>
      <BroadcastList items={items} heading="轉播時段"/></div>;})}</section>;})()}
- <footer><span>資料來源：亞運官方 Results ＋ 中華奧會每日賽程 ＋ 各轉播平台公告</span><span>本機 MVP・非官方網站・手動同步</span></footer></main>
+ <footer>
+  <p className="source">資料來源：亞運官方 Results ＋ 中華奧會每日賽程 ＋ 各轉播平台公告</p>
+  <div className="legal">
+   <p><b>免責聲明</b>　本網站為個人製作的非官方亞運賽程整理工具，賽程、比賽時間、參賽名單、比賽結果、獎牌及轉播資訊可能因大會或轉播單位調整而變動，實際資訊請以官方最新公告為準。</p>
+   <p><b>版權聲明</b>　本網站之程式、介面設計與原創內容 © 2026 Cony。賽事名稱、標誌、比賽資料及其他第三方內容之權利均屬其原權利人所有。本網站與愛知・名古屋2026亞洲運動會主辦單位及相關官方機構無隸屬或合作關係。</p>
+  </div>
+  <p className="author">製作：Cony</p>
+ </footer></main>
 }
