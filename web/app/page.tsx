@@ -35,8 +35,8 @@ function Card({row,conflict,pending,master,names:display,shows=[]}:{row:Row;conf
 function BroadcastList({items,heading='轉播'}:{items:Broadcast[];heading?:string}){
  if(!items.length)return null;
  return <div className="broadcast"><span>{heading}（非比賽時間）</span><ul>{items.map(b=>
-  <li key={b.providerId+b.broadcastStartTimeTaipei+(b.title??'')}><b>{formatTaipei(b.broadcastStartTimeTaipei)}</b>
-   <span className="provider">{b.channelName||b.providerName}</span>{feedLabel(b.feed)&&<i>{feedLabel(b.feed)}</i>}
+  <li key={b.providerId+b.broadcastStartTimeTaipei+(b.title??'')}><b>{formatTaipei(b.broadcastStartTimeTaipei)}{b.broadcastEndTimeTaipei?`–${formatTaipei(b.broadcastEndTimeTaipei)}`:''}</b>
+   <span className="provider">{b.channelName||b.providerName}</span>{feedLabel(b.feed)&&<i>{feedLabel(b.feed)}</i>}{b.isLive===false&&<i>D-LIVE</i>}
    {b.title&&<span className="programme">{b.title}</span>}</li>)}</ul></div>;
 }
 

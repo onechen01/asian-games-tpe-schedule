@@ -21,6 +21,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-10T14:21:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -42,6 +43,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-12T11:11:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -63,6 +65,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-13T14:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -84,6 +87,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-14T17:03:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -105,6 +109,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-16T20:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -126,6 +131,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-16T20:24:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -147,6 +153,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-17T17:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -168,6 +175,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-17T17:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -189,6 +197,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-18T14:04:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -210,6 +219,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-18T13:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -231,6 +241,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-18T20:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -252,6 +263,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-20T11:22:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -273,6 +285,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-20T11:45:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -294,8 +307,17 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-20T10:30:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
     },
     {
       "date": "2026-09-20",
@@ -311,6 +333,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-20T14:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -332,6 +355,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-20T18:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -354,6 +378,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-20T17:50:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -375,8 +400,13 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-20T18:15:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
+        ]
+      }
     },
     {
       "date": "2026-09-20",
@@ -392,6 +422,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-20T20:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -413,6 +444,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T10:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -434,8 +466,17 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T10:30:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
     },
     {
       "date": "2026-09-21",
@@ -451,6 +492,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T11:25:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -472,8 +514,17 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T11:50:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
     },
     {
       "date": "2026-09-21",
@@ -489,6 +540,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T16:35:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -510,6 +562,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T14:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -531,8 +584,14 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T15:55:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "phaseKeywords": [
+          "Qualification",
+          "Final"
+        ]
+      }
     },
     {
       "date": "2026-09-21",
@@ -548,6 +607,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T16:50:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -569,6 +629,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T17:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -590,8 +651,17 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T20:00:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
     },
     {
       "date": "2026-09-21",
@@ -607,6 +677,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T20:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -628,6 +699,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T18:20:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -649,6 +721,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T20:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -670,6 +743,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T21:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -691,6 +765,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-21T21:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -712,6 +787,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-22T12:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -733,6 +809,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-22T13:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -754,8 +831,14 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-22T12:55:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "phaseKeywords": [
+          "Qualification",
+          "Final"
+        ]
+      }
     },
     {
       "date": "2026-09-22",
@@ -771,6 +854,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-22T17:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -792,6 +876,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-22T21:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -813,6 +898,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-20",
+      "broadcastEndTimeTaipei": "2026-09-23T20:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [

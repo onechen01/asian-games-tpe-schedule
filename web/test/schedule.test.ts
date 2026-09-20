@@ -270,7 +270,13 @@ test('swimming heats keep their own official times, and the session programme st
   const day = await day21();
   const swims = taiwanRows(day).filter(r=>r.disciplineCode === 'SWM');
   assert.ok(swims.length > 1);
-  for (const row of swims) assert.deepEqual(broadcastsForRow(shows,'2026-09-21',row),[]);
+  // Heats may now be covered by the session programme, but only inside its official window.
+  for (const row of swims) {
+    for (const b of broadcastsForRow(shows,'2026-09-21',row)) {
+      assert.ok(Date.parse(row.startTimeTaipei!) >= Date.parse(b.broadcastStartTimeTaipei));
+      assert.ok(Date.parse(row.startTimeTaipei!) < Date.parse(b.broadcastEndTimeTaipei!));
+    }
+  }
   assert.deepEqual(new Set(swims.map(r=>r.startTimeTaipei)).size,swims.length);
   const grouped = disciplineBroadcasts(shows,'2026-09-21',taiwanRows(day));
   assert.ok((grouped.get('SWM')?.length ?? 0) >= 1,'游泳整場節目留在運動層級');
@@ -322,4 +328,79 @@ test('unknown or malformed broadcast data degrades to nothing, never to a wrong 
   assert.deepEqual(parseBroadcasts(null).records,[]);
   assert.deepEqual(parseBroadcasts('{"schemaVersion":2,"records":[]}').records,[]);
   assert.deepEqual(parseBroadcasts('{"schemaVersion":1,"records":[{"date":"x"}]}').records,[]);
+});
+
+const windowShow = (over:Record<string,unknown> = {})=>parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+  { date:'2026-09-20',providerId:'elta',providerName:'愛爾達',channelId:'101',channelName:'愛爾達體育1台',
+    isLive:true,broadcastStartTimeTaipei:'2026-09-20T08:55:00+08:00',
+    broadcastEndTimeTaipei:'2026-09-20T10:30:00+08:00',disciplineCode:'SWM',title:'中華隊 游泳 預賽',
+    feed:'main',matchLevel:'discipline',matchHint:{phaseKeywords:['Heats']},...over }]}));
+const swimRow = (time:string, phase='Men\'s 100m Freestyle Heats')=>
+  ({ disciplineCode:'SWM', opponentCode:null, athletesEn:[], startTimeTaipei:`2026-09-20T${time}:00+08:00`, phase });
+
+test('a session programme covers the units inside the official window, and nothing outside it',()=>{
+  const shows = windowShow();
+  const attached = (time:string)=>broadcastsForRow(shows,'2026-09-20',swimRow(time)).length;
+  assert.equal(attached('08:50'),0,'早於開播');
+  assert.equal(attached('08:55'),1);
+  assert.equal(attached('09:20'),1);
+  assert.equal(attached('10:29'),1);
+  assert.equal(attached('10:30'),0,'結束時間本身不含');
+  assert.equal(attached('10:40'),0);
+  // A different phase in the same window is not covered by a heats programme.
+  assert.equal(broadcastsForRow(shows,'2026-09-20',swimRow('09:20',"Men's 100m Freestyle Final")).length,0);
+});
+
+test('time alone is never evidence, and a delayed session stays off the cards',()=>{
+  const noHint = windowShow({ matchHint:{} });
+  assert.equal(broadcastsForRow(noHint,'2026-09-20',swimRow('09:20')).length,0);
+  const delayed = windowShow({ isLive:false });
+  assert.equal(broadcastsForRow(delayed,'2026-09-20',swimRow('09:20')).length,0);
+});
+
+test('an athlete or opponent match survives a competition outside the broadcast window',()=>{
+  const strong = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-20',providerId:'elta',providerName:'愛爾達',isLive:false,
+      broadcastStartTimeTaipei:'2026-09-20T20:30:00+08:00',broadcastEndTimeTaipei:'2026-09-20T22:00:00+08:00',
+      disciplineCode:'BOX',title:'甘家葳 拳擊',feed:'main',matchLevel:'unit',matchHint:{athleteNames:['KAN Chia-wei']} },
+    { date:'2026-09-20',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-20T18:10:00+08:00',broadcastEndTimeTaipei:'2026-09-20T20:00:00+08:00',
+      disciplineCode:'VVO',title:'日本VS中華 排球',feed:'main',matchLevel:'unit',matchHint:{opponentCodes:['JPN']} }]}));
+  const box = broadcastsForRow(strong,'2026-09-20',
+    { disciplineCode:'BOX', opponentCode:null, athletesEn:['KAN Chia-wei'], startTimeTaipei:'2026-09-20T16:45:00+08:00' });
+  assert.equal(box.length,1,'延誤或 D-LIVE 都不該讓強配對消失');
+  assert.equal(box[0].isLive,false);
+  const volley = broadcastsForRow(strong,'2026-09-20',
+    { disciplineCode:'VVO', opponentCode:'JPN', athletesEn:[], startTimeTaipei:'2026-09-20T23:30:00+08:00' });
+  assert.equal(volley.length,1);
+});
+
+test('the real 9/20 swimming session covers its heats only, and finals only in their own window',async()=>{
+  const shows = await loadBroadcasts();
+  const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-20.json','utf8')),'2026-09-20');
+  const swims = taiwanRows(day).filter(r=>r.disciplineCode === 'SWM');
+  for (const row of swims) {
+    const found = broadcastsForRow(shows,'2026-09-20',row);
+    if (!found.length) continue;
+    for (const b of found) {
+      assert.ok(Date.parse(row.startTimeTaipei!) >= Date.parse(b.broadcastStartTimeTaipei));
+      assert.ok(Date.parse(row.startTimeTaipei!) < Date.parse(b.broadcastEndTimeTaipei!));
+      assert.ok(b.matchHint?.phaseKeywords?.some(k=>row.phase?.includes(k)));
+    }
+  }
+  // The competition times themselves are untouched by any of this.
+  assert.ok(swims.every(r=>!Object.keys(r).some(k=>/broadcast/i.test(k))));
+});
+
+test('several channels at the same time coexist',()=>{
+  const two = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-20',providerId:'elta',providerName:'愛爾達',channelId:'105',channelName:'愛爾達體育2台',
+      isLive:true,broadcastStartTimeTaipei:'2026-09-20T14:55:00+08:00',broadcastEndTimeTaipei:'2026-09-20T17:50:00+08:00',
+      disciplineCode:'TTE',title:'中華VS北韓',feed:'main',matchLevel:'unit',matchHint:{opponentCodes:['PRK']} },
+    { date:'2026-09-20',providerId:'other',providerName:'其他平台',channelId:'9',channelName:'其他平台頻道',
+      isLive:true,broadcastStartTimeTaipei:'2026-09-20T14:55:00+08:00',broadcastEndTimeTaipei:'2026-09-20T17:50:00+08:00',
+      disciplineCode:'TTE',title:'中華VS北韓',feed:'original',matchLevel:'unit',matchHint:{opponentCodes:['PRK']} }]}));
+  const found = broadcastsForRow(two,'2026-09-20',{ disciplineCode:'TTE', opponentCode:'PRK', athletesEn:[], startTimeTaipei:'2026-09-20T15:00:00+08:00' });
+  assert.equal(found.length,2);
+  assert.deepEqual(new Set(found.map(b=>b.channelName)),new Set(['愛爾達體育2台','其他平台頻道']));
 });

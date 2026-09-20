@@ -8,6 +8,8 @@ export const PROVIDER = { providerId:'elta', providerName:'愛爾達',
 
 export type BroadcastRecord = {
   date:string; providerId:string; providerName:string; broadcastStartTimeTaipei:string;
+  // The broadcaster publishes its own end; it is never derived from the next programme.
+  broadcastEndTimeTaipei:string|null;
   disciplineCode:string; title:string|null; feed:'main'|'original'|null; note:string|null;
   channelId:string|null; channelName:string|null; isLive:boolean|null;
   sourceUrl:string|null; capturedAt:string|null; matchLevel:'unit'|'discipline';
@@ -51,9 +53,28 @@ const opponentOf = (title:string, nocByZh:Record<string,string>):string|null => 
   return other ? nocByZh[other] ?? NOC_BY_ZH[other] ?? null : null;
 };
 
+// Epoch seconds as published, read at the Taipei offset the whole site uses.
+export const taipeiFromEpoch = (seconds:unknown):string|null => {
+  const value = Number(seconds);
+  if (!Number.isFinite(value) || value <= 0) return null;
+  return new Date((value + 8*3600) * 1000).toISOString().replace('T',' ').slice(0,19)
+    .replace(' ','T') + '+08:00';
+};
+
+// A session programme says which phase it covers; that is what lets it cover several units.
+const PHASE_WORDS:[RegExp,string[]][] = [
+  [/預賽/, ['Heats','Preliminar','Qualification','Round Robin','Group']],
+  [/資格賽/, ['Qualification']],
+  [/決賽/, ['Final']],
+];
+export const phaseHint = (title:string)=>{
+  const words = PHASE_WORDS.filter(([pattern])=>pattern.test(title)).flatMap(([,keys])=>keys);
+  return words.length ? [...new Set(words)] : [];
+};
+
 type Programme = { format_s_time?:unknown; start_datetime?:unknown; program_desc?:unknown;
   is_taipei_team?:unknown; sport_item?:{ sp_name?:unknown };
-  cl_num?:unknown; cl_title?:unknown; live_type?:unknown };
+  cl_num?:unknown; cl_title?:unknown; live_type?:unknown; end_time?:unknown };
 
 // A programme title often names the athlete ("甘家葳 拳擊 男子70公斤級預賽"). When exactly one
 // verified athlete is named, that is a safe hint; two or none stays discipline-level.
@@ -108,8 +129,13 @@ export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
         title, feed:/原音/.test(title) ? 'original' : 'main',
         note:/原音/.test(title) ? '原音' : null,
         capturedAt:options.capturedAt,
+        broadcastEndTimeTaipei:taipeiFromEpoch(p.end_time),
+        // A session programme is still discipline-level; the phase hint plus the official
+        // window is what allows it to cover several units, never the time alone.
         matchLevel:opponent || named.length ? 'unit' : 'discipline',
-        matchHint:opponent ? { opponentCodes:[opponent] } : named.length ? { athleteNames:named } : {},
+        matchHint:opponent ? { opponentCodes:[opponent] }
+          : named.length ? { athleteNames:named }
+          : phaseHint(title).length ? { phaseKeywords:phaseHint(title) } : {},
       };
       const key = [record.date,record.broadcastStartTimeTaipei,record.disciplineCode,record.title].join('|');
       if (seen.has(key)) continue;

@@ -126,3 +126,16 @@ test('a programme naming two athletes keeps both as hints',()=>{
   assert.deepEqual(records[0].matchHint.athleteNames,['CHANG Li','LIN Yu-fen']);
   assert.equal(records[0].matchLevel,'unit');
 });
+
+test('the official end time is taken as published, never derived',()=>{
+  const { records } = parse(day([programme({ format_s_time:'2026-09-20 08:55:00',
+    start_time:1789865700, end_time:1789871400, cl_num:101, cl_title:'體育 1 台', live_type:'LIVE',
+    program_desc:'亞運 中華隊 游泳 預賽 9/20 LIVE', sport_item:{ sp_name:'游泳' } })]));
+  assert.equal(records[0].broadcastStartTimeTaipei,'2026-09-20T08:55:00+08:00');
+  assert.equal(records[0].broadcastEndTimeTaipei,'2026-09-20T10:30:00+08:00');
+  assert.deepEqual(records[0].matchHint.phaseKeywords?.includes('Heats'),true);
+  // A programme without an end keeps null rather than borrowing the next one's start.
+  const open = parse(day([programme({ format_s_time:'2026-09-20 08:55:00',
+    program_desc:'亞運 中華隊 游泳 預賽', sport_item:{ sp_name:'游泳' } })])).records[0];
+  assert.equal(open.broadcastEndTimeTaipei,null);
+});
