@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T12:12:37.698Z",
+  "generatedAt": "2026-09-20T12:32:40.400Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-20/schedule-2026-09-20-AUTO.json",
-      "generatedAt": "2026-09-20T12:12:37.572Z",
+      "generatedAt": "2026-09-20T12:32:40.256Z",
       "coverage": {
         "sports": [
           "BDM",
@@ -1886,7 +1886,7 @@
       "opponentCode": "TKM",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "0",
