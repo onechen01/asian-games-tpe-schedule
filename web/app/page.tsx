@@ -7,6 +7,7 @@ import type {AthleteMaster} from '../lib/athletes';
 import {orgLabel,venueLabel} from '../lib/display-names';
 import {loadBroadcasts,loadMedals,loadLaterRows} from '../lib/load';
 import {advanceFor} from '../lib/progression';
+import {medalOf,medalLabel} from '../lib/medal-match';
 import {broadcastsForRow,disciplineBroadcasts,feedLabel} from '../lib/broadcasts';
 import type {Broadcast,Broadcasts} from '../lib/broadcasts';
 import {eventLabel,phaseLabel} from '../lib/event-names';
@@ -25,11 +26,13 @@ function Card({row,conflict,pending,master,names:display,shows=[],advance}:{row:
  const {names}=displayNames(row,master),status=statusLabel(row),score=row.result;
  // An individual event can carry several Chinese Taipei entrants; each keeps their own mark.
  const solo=row.tpeEntrants??[];
+ // Only an official gold or bronze medal match decides this; everything else stays silent.
+ const medal=medalOf(row);
  const venue=venueLabel(row.venueZh,row.venue,display);
  const opponent=orgLabel(row.opponentCode,row.opponent,display);
  const tpe=orgLabel('TPE','Chinese Taipei',display);
  return <article className="match"><div className="match-time"><time>{formatTaipei(row.startTimeTaipei)}</time><span>台灣時間</span></div><div className="match-main"><div className="match-top"><span className="sport">{sportLabel(row)}</span>{status&&<span className={'badge '+(isFinished(row)?'finished':'')}>{status}</span>}</div><h3>{names.length?names.join('、'):tpe}</h3>{opponent&&<p className="opponent">對手：{opponent}</p>}<dl><div><dt>比賽項目</dt><dd>{eventLabel(row.event)||'待確認'}</dd></div><div><dt>階段</dt><dd>{phaseLabel(row.phase,row.event)||'待確認'}</dd></div>{venue&&<div><dt>場館</dt><dd>{venue}</dd></div>}</dl>{solo.length>1?<div className="result solo"><span>官方已公布成績（每人各自計分）</span>{solo.map(e=><strong key={e.registration??e.name}>{athleteLabel(e.name??'',master,{reg:e.registration,discipline:row.disciplineCode})} <b>{e.result??'尚無成績'}</b>{e.rank?<i>第 {e.rank} 名</i>:null}</strong>)}</div>
-  :score&&(score.tpe!==null||score.opponent!==null)?<div className="result"><span>官方已公布成績</span><strong>{tpe} <b>{score.tpe??'-'}</b></strong><strong>{opponent||'對手'} <b>{score.opponent??'-'}</b></strong></div>:<p className="result-pending">賽果尚無資料</p>}{advance&&<p className="advance">✓ 晉級{advance.stage}{advance.nextTimeTaipei?`・下一場 ${advance.nextDate===row.date?'':advance.nextDate.slice(5).replace('-','/')+' '}${formatTaipei(advance.nextTimeTaipei)}`:''}</p>}{conflict&&<p className="result-pending">官方來源時間不一致，請以最新公告為準。</p>}{pending&&<p className="result-pending">這場的參賽資訊待確認，尚未確定台灣是否出賽。</p>}<BroadcastList items={shows}/>{row.athletesEn.length>0&&<details className="roster"><summary>查看英文名單</summary><p>{row.athletesEn.join('、')}</p></details>}{row.note&&<details className="roster"><summary>查看分組與備註</summary><p>{row.note}</p></details>}</div></article>
+  :score&&(score.tpe!==null||score.opponent!==null)?<div className="result"><span>官方已公布成績</span><strong>{tpe} <b>{score.tpe??'-'}</b></strong><strong>{opponent||'對手'} <b>{score.opponent??'-'}</b></strong></div>:<p className="result-pending">賽果尚無資料</p>}{medal&&<p className="medal-result">{medalLabel(medal)}</p>}{advance&&<p className="advance">✓ 晉級{advance.stage}{advance.nextTimeTaipei?`・下一場 ${advance.nextDate===row.date?'':advance.nextDate.slice(5).replace('-','/')+' '}${formatTaipei(advance.nextTimeTaipei)}`:''}</p>}{conflict&&<p className="result-pending">官方來源時間不一致，請以最新公告為準。</p>}{pending&&<p className="result-pending">這場的參賽資訊待確認，尚未確定台灣是否出賽。</p>}<BroadcastList items={shows}/>{row.athletesEn.length>0&&<details className="roster"><summary>查看英文名單</summary><p>{row.athletesEn.join('、')}</p></details>}{row.note&&<details className="roster"><summary>查看分組與備註</summary><p>{row.note}</p></details>}</div></article>
 }
 // Any provider, any number of them: the list never assumes a single broadcaster, and a
 // broadcast time is always labelled as such so it is not read as the competition start.

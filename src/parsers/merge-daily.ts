@@ -41,6 +41,9 @@ export type DailyRow = {
   // Several Chinese Taipei athletes can start in one unit of an individual event. Each one
   // owns their own mark and place, so they are listed separately instead of sharing one.
   tpeEntrants:{ name:string | null; registration:string | null; result:string | null; rank:string | null }[];
+  // Just enough of the official unit to let the display layer recognise a medal match:
+  // how many sides competed and where Chinese Taipei placed. Nothing is interpreted here.
+  tpeRank:string | null; orgCount:number;
   tpenocResult:string | null; rank:string | null; note:string | null;
   participationState:Participation; entryLevel:EntryLevel;
   // Event-level rows only: how many units of this event run that day, and who is entered.
@@ -268,6 +271,8 @@ function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | 
     result:results && scored && entrants.length < 2 && (tpe?.result ?? other?.result) != null
       ? { tpe:tpe?.result ?? null, opponent:other?.result ?? null, source:'results' } : null,
     tpeEntrants:entrants,
+    tpeRank:(typeof tpe?.rank === 'string' && tpe.rank.trim()) ? tpe.rank.trim() : null,
+    orgCount:results ? new Set(competitors(results).map(c=>c.org).filter(Boolean)).size : 0,
     tpenocResult:tpenoc?.result ?? null,
     rank:tpenoc?.rank ?? null,
     note:tpenoc?.note ?? null,

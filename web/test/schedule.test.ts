@@ -404,3 +404,36 @@ test('several channels at the same time coexist',()=>{
   assert.equal(found.length,2);
   assert.deepEqual(new Set(found.map(b=>b.channelName)),new Set(['愛爾達體育2台','其他平台頻道']));
 });
+
+import {medalOf,medalLabel} from '../lib/medal-match.ts';
+const medalRow = (o:Record<string,unknown>)=>({ status:'OFFICIAL', orgCount:2, ...o });
+
+test('only an official two-sided medal match decides a medal',()=>{
+  assert.equal(medalOf(medalRow({ unit:"Women's Team Finals Gold Medal Match", tpeRank:'1' })),'GOLD');
+  assert.equal(medalOf(medalRow({ unit:"Men's Team Finals Gold Medal Match", tpeRank:'2' })),'SILVER');
+  assert.equal(medalOf(medalRow({ unit:"Women's Individual Kata Bronze Medal Bout B", tpeRank:'1' })),'BRONZE');
+  assert.equal(medalOf(medalRow({ unit:"Women's Individual Kata Bronze Medal Bout B", tpeRank:'2' })),null);
+  assert.equal(medalLabel('BRONZE'),'🥉 銅牌');
+});
+
+test('anything the officials did not name a medal match stays undecided',()=>{
+  // Not yet official.
+  assert.equal(medalOf(medalRow({ unit:"Men's Team Finals Gold Medal Match", tpeRank:'1', status:'SCHEDULED' })),null);
+  // An ordinary final, a semifinal and a multi-competitor final decide nothing here.
+  assert.equal(medalOf(medalRow({ unit:"Men's 200m Individual Medley Final", phase:"Men's 200m Individual Medley Final", tpeRank:'1' })),null);
+  assert.equal(medalOf(medalRow({ unit:"Women's Team Semifinals Match 2", tpeRank:'1' })),null);
+  assert.equal(medalOf(medalRow({ unit:'10m Air Rifle Women Team - Final', tpeRank:'11', orgCount:16 })),null);
+  assert.equal(medalOf(medalRow({ unit:'Gold Medal Match', tpeRank:null })),null);
+});
+
+test('the real 9/20 medal matches derive a bronze and a silver, and nothing else',async()=>{
+  const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-20.json','utf8')),'2026-09-20');
+  const medals = taiwanRows(day).map(r=>({ r, m:medalOf(r) })).filter(x=>x.m);
+  for (const { r, m } of medals) {
+    assert.ok(/gold medal (match|bout)|bronze medal (match|bout)/i.test(`${r.unit} ${r.phase}`));
+    assert.equal(r.status,'OFFICIAL');
+    assert.ok(m === 'GOLD' || m === 'SILVER' || m === 'BRONZE');
+  }
+  // No medal may come from a rank in an ordinary final.
+  assert.ok(taiwanRows(day).every(r=>medalOf(r) === null || (r.orgCount ?? 0) === 2));
+});
