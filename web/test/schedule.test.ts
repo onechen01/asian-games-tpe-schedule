@@ -212,3 +212,34 @@ test('the 9/20 page shows every opponent and venue in Chinese',async()=>{
   assert.ok(english.every(v=>!names.venues[v]),'已對照的場館不應再顯示英文：'+english.join(', '));
   assert.ok(venues.some(v=>!/[A-Za-z]{2,}/.test(v)),'應有場館已中文化');
 });
+
+import {eventLabel,phaseLabel,localizeName} from '../lib/event-names.ts';
+
+test('event and phase names display in Chinese, and an unknown one stays official English',()=>{
+  assert.equal(eventLabel("Women's Individual Time Trial"),'女子個人計時賽');
+  assert.equal(eventLabel("Men's 200m Individual Medley"),'男子200公尺個人混合式');
+  assert.equal(eventLabel("Women's Team"),'女子團體');
+  assert.equal(localizeName('Skeet Men Team'),'男子雙向飛靶團體');
+  assert.equal(phaseLabel("Women's Team Semifinals",null),'女子團體準決賽');
+  assert.equal(phaseLabel("Men's Singles Quarterfinals",null),'男子單打8強賽');
+  assert.equal(phaseLabel("Women's 200m Butterfly Heats",null),'女子200公尺蝶式預賽');
+  assert.equal(phaseLabel("Men's Individual Kata Round of 16",null),'男子個人型16強賽');
+  // A name that cannot be translated in full is shown exactly as the officials published it.
+  const esport = 'MOBA [League of Legends]';
+  assert.equal(eventLabel(esport),esport);
+  assert.equal(eventLabel(null),null);
+});
+
+test('the phase does not repeat the event that is already on screen',()=>{
+  assert.equal(phaseLabel("Women's Team Semifinals","Women's Team"),'準決賽');
+  assert.equal(phaseLabel("Women's Team","Women's Team"),'女子團體');
+  assert.equal(phaseLabel("Men's Singles Round of 16","Men's Singles"),'16強賽');
+});
+
+test('the existing venue, country and athlete Chinese mappings do not regress',async()=>{
+  const names = await loadDisplayNames();
+  assert.equal(names.orgs.TPE,'台灣');
+  assert.equal(names.venues['Aichi Prefectural Martial Arts Hall'],'愛知縣武道館');
+  const master = await loadAthletes();
+  assert.equal(athleteLabel('CHENG I-ching',master,{discipline:'TTE'}),'鄭怡靜');
+});
