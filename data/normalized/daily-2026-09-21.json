@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T08:43:58.414Z",
+  "generatedAt": "2026-09-20T11:04:03.912Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-20T08:43:58.273Z",
+      "generatedAt": "2026-09-20T11:04:03.763Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1264,78 +1264,6 @@
     },
     {
       "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T11:30:00+08:00",
-      "startTimeJst": "2026-09-21T12:30:00+09:00",
-      "disciplineCode": "MMA",
-      "sportZh": "綜合格鬥",
-      "sportEn": "Mixed Martial Arts",
-      "event": "Women's Traditional -60kg",
-      "phase": "Women's Traditional -60kg Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LIN Yu-fen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "MMA|W.T60KG-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T11:50:00+08:00",
-      "startTimeJst": "2026-09-21T12:50:00+09:00",
-      "disciplineCode": "MMA",
-      "sportZh": "綜合格鬥",
-      "sportEn": "Mixed Martial Arts",
-      "event": "Men's Traditional -77kg",
-      "phase": "Men's Traditional  -77kg Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LIN Ming-dian"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "MMA|M.T77KG-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T12:00:00+08:00",
       "startTimeJst": "2026-09-21T13:00:00+09:00",
       "disciplineCode": "VVO",
@@ -1524,7 +1452,7 @@
       "opponentCode": "PLE",
       "venue": "Nishio Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "SCHEDULED",
       "result": null,
       "tpenocResult": null,
       "rank": null,
@@ -1799,7 +1727,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 29,
-    "entered": 4,
+    "entered": 2,
     "unresolvedTbd": 0,
     "warnings": 36
   },
