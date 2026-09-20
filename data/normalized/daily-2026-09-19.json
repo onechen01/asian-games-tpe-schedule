@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T09:19:53.054Z",
+  "generatedAt": "2026-09-20T07:44:01.977Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
-      "path": "data/normalized/schedule-2026-09-19-AUTO.json",
-      "generatedAt": "2026-09-19T04:37:22.894Z",
+      "path": "data/staging/2026-09-19/schedule-2026-09-19-AUTO.json",
+      "generatedAt": "2026-09-20T07:44:00.651Z",
       "coverage": {
         "sports": [
           "BKB",
@@ -161,18 +161,11 @@
             }
           ]
         },
-        "missing": [
-          {
-            "kind": "schedule-daily",
-            "disciplineCode": "HBL",
-            "endpoint": "https://back.results.asiangames2026.org/s/AG2026/en/HBL/schedule/daily/2026-09-19",
-            "date": "2026-09-19",
-            "http_status": 200,
-            "error": "Non-JSON Content-Type"
-          }
-        ],
-        "fetchComplete": false,
-        "participationComplete": false
+        "missing": [],
+        "timezoneAnomalies": [],
+        "unrecoveredTimezone": 0,
+        "fetchComplete": true,
+        "participationComplete": true
       }
     },
     "tpenoc": null,
@@ -183,8 +176,8 @@
   },
   "date": "2026-09-19",
   "rows": [],
-  "coverageComplete": false,
-  "officialNoCompetition": false,
+  "coverageComplete": true,
+  "officialNoCompetition": true,
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,

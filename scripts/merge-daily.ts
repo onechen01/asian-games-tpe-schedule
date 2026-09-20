@@ -11,7 +11,8 @@ import { save, ROOT } from '../src/utils/storage.ts';
 
 const date = validateDate(process.argv[2]);
 const read = async (relative:string)=>JSON.parse(await readFile(resolve(ROOT,relative),'utf8'));
-const resultsPath = `data/normalized/schedule-${date}-AUTO.json`;
+const scheduleDir = process.env.SCHEDULE_OUT_DIR ?? 'data/normalized';
+const resultsPath = `${scheduleDir}/schedule-${date}-AUTO.json`;
 const tpenocPath = `data/normalized/tpenoc-${date}.json`;
 
 let results;
@@ -36,7 +37,7 @@ const report = { schemaVersion:1, generatedAt:new Date().toISOString(), timezone
       sourceFileName:tpenoc.sourceFileName, updatedAtJst:tpenoc.updatedAtJst } : null,
     entries:entries ? { path:entriesPath, events:entries.size } : null },
   ...merged };
-const output = `data/normalized/daily-${date}.json`;
+const output = `${process.env.DAILY_OUT_DIR ?? 'data/normalized'}/daily-${date}.json`;
 await save(output, report);
 
 console.log(`${date} 中華隊每日整合（台灣時間）`);

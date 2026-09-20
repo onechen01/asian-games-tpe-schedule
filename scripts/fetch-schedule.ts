@@ -131,7 +131,10 @@ const report = { schemaVersion:2,generatedAt:new Date().toISOString(),date,timez
       && anomalies.every(a=>a.code === 'RECOVERED_OFFICIAL_TIME'),
     participationComplete:errors.length===0 && missing.length===0 && unknown.length===0 && unresolved.length===0},
   errors,requests,count:all.length,taiwan,unknownParticipation:unknown,unresolvedTime:unresolved,rows:all };
-const output = `data/normalized/schedule-${date}-${label}.json`;
+// The automated updater points this at a staging directory so an incomplete sync never
+// replaces a good production file.
+const outDir = process.env.SCHEDULE_OUT_DIR ?? 'data/normalized';
+const output = `${outDir}/schedule-${date}-${label}.json`;
 await save(output,report);
 console.log(`${date.replaceAll('-','/')} 中華隊賽程（台灣時間）`);
 if (matrixNote) console.log(matrixNote);

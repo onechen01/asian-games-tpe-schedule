@@ -115,27 +115,30 @@ test('recovery is refused when the day cannot be proved',()=>{
   assert.equal(offDay.timezoneAnomaly?.code,'SUSPECT_TIMEZONE');
 });
 
-test('the real 9/20 mixed martial arts units are recovered, not dropped',async()=>{
+test('the real 9/20 mixed martial arts units stay on their Taiwan day, anomaly or not',async()=>{
   const day = JSON.parse(await readFile('data/normalized/schedule-2026-09-20-AUTO.json','utf8'));
   const mma = day.taiwan.filter((r:any)=>r.disciplineCode === 'MMA');
   assert.equal(mma.length,3,'三場中華隊綜合格鬥賽事必須留在 9/20');
   for (const row of mma) {
+    assert.equal(row.startTimeTaipei.slice(0,10),'2026-09-20');
+    // The official side published a wrong offset here once and has since corrected it. The
+    // guard must hold either way: a correct offset is read as published, and a wrong one is
+    // kept verbatim and recovered as the wall clock minus one hour.
+    if (!row.timezoneAnomaly) {
+      assert.equal(row.originalStartTime.slice(-6),'+09:00');
+      continue;
+    }
     assert.equal(row.timezoneAnomaly.code,'RECOVERED_OFFICIAL_TIME');
-    // The official side has already changed this offset once (-12:00 then -09:00); what
-    // matters is that whatever it publishes is kept verbatim and is not the venue offset.
     assert.ok(!row.originalStartTime.endsWith('+09:00'),'原始 offset 必須保留');
     assert.equal(row.originalStartTime.slice(-6),row.timezoneAnomaly.sourceOffset);
-    assert.equal(row.startTimeTaipei.slice(0,10),'2026-09-20');
-  }
-  // Exact start times move as the official schedule is revised; what must hold is that the
-  // recovered reading is the wall clock minus one hour, on the same Taiwan day.
-  for (const row of mma) {
     const wall = row.originalStartTime.slice(11,16);
     const hour = String(Number(wall.slice(0,2)) - 1).padStart(2,'0');
     assert.equal(row.startTimeTaipei.slice(11,16), hour + wall.slice(2));
   }
-  // A day carrying anomalies is not reported as cleanly complete.
-  assert.ok(day.coverage.timezoneAnomalies.length > 0);
+  // A day carrying anomalies is never reported as cleanly complete.
+  if (day.coverage.timezoneAnomalies.length) assert.equal(day.coverage.fetchComplete,
+    day.coverage.timezoneAnomalies.every((a:any)=>a.code === 'RECOVERED_OFFICIAL_TIME')
+      && day.errors.length === 0 && day.coverage.missing.length === 0);
 });
 
 test('offset helpers read the source string without editing it',()=>{

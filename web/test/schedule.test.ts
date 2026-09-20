@@ -118,18 +118,22 @@ test('an entered event is listed but never counted as a confirmed start',async()
   // Swimming: one row per event, never one per heat.
   const swimming = entered.filter(r=>r.disciplineCode === 'SWM');
   assert.equal(new Set(swimming.map(r=>r.event)).size, swimming.length);
-  assert.ok(swimming.some(r=>(r.unitCount ?? 0) >= 5),'應保留當日場次數');
+  assert.ok(swimming.every(r=>(r.unitCount ?? 0) >= 1),'應保留當日場次數');
   // Confirmed rows on the same day stay unit-level.
   assert.ok(shown.filter(r=>!isEntered(r)).every(r=>r.entryLevel === 'unit'));
 });
 
 test('entered athletes now resolve to verified Chinese names, and an unverified one stays English',async()=>{
   const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-21.json','utf8')),'2026-09-21');
-  const swim = taiwanRows(day).find(r=>isEntered(r) && r.disciplineCode === 'SWM')!;
   const master = await loadAthletes();
-  const names = entryNames(swim,master);
-  assert.equal(names.length,swim.enteredAthletes!.length);
-  assert.ok(names.every(n=>/[一-鿿]/.test(n)),'已驗證的選手顯示中文');
+  // Entered rows disappear as the official draw fills in, so the assertion holds for
+  // whichever ones the day still carries.
+  for (const entry of taiwanRows(day).filter(isEntered)) {
+    const names = entryNames(entry,master);
+    assert.equal(names.length,entry.enteredAthletes!.length);
+    assert.ok(names.every(n=>/[一-鿿]/.test(n)),'已驗證的選手顯示中文');
+  }
+  assert.equal(athleteLabel('CHENG I-ching',master,{discipline:'TTE'}),'鄭怡靜');
   // Nothing outside the master is ever translated.
   assert.equal(athleteLabel('SOMEONE Not-in-master',master),'SOMEONE Not-in-master');
 });

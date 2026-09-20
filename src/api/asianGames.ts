@@ -53,8 +53,30 @@ export async function saveRaw(path: string, decoded: ReturnType<typeof decode>, 
   return file;
 }
 
+// The official API intermittently answers 200 with a body that is not JSON. That is a
+// transport fault, never "no competition", so a request is retried a bounded number of
+// times before it is recorded as missing.
+export const RETRY_DELAYS = [2000, 5000, 10000];
+export const MAX_ATTEMPTS = 3;
+export async function withRetry<T>(run:(attempt:number)=>Promise<T>,
+  options:{ delays?:number[]; attempts?:number; sleep?:(ms:number)=>Promise<unknown> } = {}): Promise<T> {
+  const delays = options.delays ?? RETRY_DELAYS;
+  const attempts = options.attempts ?? MAX_ATTEMPTS;
+  const sleep = options.sleep ?? ((ms:number)=>pause(ms));
+  let last: unknown;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try { return await run(attempt); }
+    catch (error) {
+      last = error;
+      if (attempt === attempts) break;
+      await sleep(delays[attempt-1] ?? delays[delays.length-1]);
+    }
+  }
+  throw last;
+}
+
 let lastRequest = 0;
-export async function get(path: string, options: {conditional?:boolean} = {}): Promise<{data:unknown; meta:Meta}> {
+export async function get(path: string, options: {conditional?:boolean; attempts?:number} = {}): Promise<{data:unknown; meta:Meta}> {
   // ALL/disc/list is the discipline index the official Results front end itself requests.
   // Discipline codes are accepted generically, but callers must take them from that list
   // rather than guessing them.
@@ -71,13 +93,14 @@ export async function get(path: string, options: {conditional?:boolean} = {}): P
   }
   const headers: Record<string,string> = { Accept:'application/json' };
   if (cache?.meta.etag) headers['If-None-Match'] = cache.meta.etag;
-  const delay = 1000 - (Date.now()-lastRequest);
-  if (delay>0) await pause(delay);
-  lastRequest = Date.now();
-  const started = performance.now();
   let status: number | null = null;
   try {
-    const response = await fetch(url,{headers,redirect:'error',signal:AbortSignal.timeout(20000)});
+    return await withRetry(async()=>{
+      const started = performance.now();
+      const delay = 1000 - (Date.now()-lastRequest);
+      if (delay>0) await pause(delay);
+      lastRequest = Date.now();
+      const response = await fetch(url,{headers,redirect:'error',signal:AbortSignal.timeout(20000)});
     status = response.status;
     const checked = new Date().toISOString();
     if (status === 304) {
@@ -85,7 +108,7 @@ export async function get(path: string, options: {conditional?:boolean} = {}): P
       return { data:cache.data, meta:{...cache.meta,http_status:304,checked_at:checked,
         elapsed_ms:Math.round(performance.now()-started),bytes:null,content_type:response.headers.get('content-type'),cache_revalidated:true} };
     }
-    if (!response.ok) { await response.body?.cancel(); throw new Error(`HTTP ${status}; stopped without retry`); }
+    if (!response.ok) { await response.body?.cancel(); throw new Error(`HTTP ${status}`); }
     const body = Buffer.from(await response.arrayBuffer());
     if (!response.headers.get('content-type')?.includes('application/json')) throw new Error('Non-JSON Content-Type');
     const decoded = decode(body);
@@ -97,6 +120,7 @@ export async function get(path: string, options: {conditional?:boolean} = {}): P
     const data = safeData(path,decoded.data);
     await save(cachePath,{data,meta});
     return {data,meta};
+    }, { attempts:options.attempts });
   } catch(error) {
     const err = error as Error & {cause?:{code?:string}};
     throw new ApiError(await recordFailure(url,status,new Error(err.cause?.code ? `${err.message}: ${err.cause.code}` : err.message)));

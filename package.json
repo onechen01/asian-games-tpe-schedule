@@ -18,6 +18,7 @@
     "fetch:disciplines": "node scripts/fetch-disciplines.ts",
     "fetch:tpenoc": "node scripts/fetch-tpenoc.ts",
     "merge:daily": "node scripts/merge-daily.ts",
-    "fetch:entries": "node scripts/fetch-entries.ts"
+    "fetch:entries": "node scripts/fetch-entries.ts",
+    "update:results": "node scripts/update-results.ts"
   }
 }

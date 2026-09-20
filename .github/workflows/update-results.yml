@@ -1,0 +1,54 @@
+name: Update Asian Games results
+
+# Live refresh every 15 minutes; the same job also walks the rest of the Games every 3 hours,
+# so a newly published Taiwan match appears without anyone running anything by hand.
+on:
+  workflow_dispatch:
+    inputs:
+      discovery:
+        description: Also re-check every remaining day of the Games
+        type: boolean
+        default: false
+  schedule:
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-results
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Decide whether this run includes future discovery
+        id: mode
+        run: |
+          hour=$(TZ=Asia/Taipei date +%H)
+          minute=$(TZ=Asia/Taipei date +%M)
+          if [ "${{ github.event.inputs.discovery }}" = "true" ] || { [ $((10#$hour % 3)) -eq 0 ] && [ $((10#$minute)) -lt 15 ]; }; then
+            echo "flag=--discovery" >> "$GITHUB_OUTPUT"
+          else
+            echo "flag=" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Update canonical daily files
+        run: npm run update:results -- ${{ steps.mode.outputs.flag }}
+      - name: Commit only when the canonical data actually changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/normalized
+          if git diff --cached --quiet; then
+            echo "No canonical change; nothing to commit."
+            exit 0
+          fi
+          git commit -m "Update Asian Games results"
+          git push
