@@ -28,7 +28,11 @@ jobs:
         with:
           node-version: '24'
           cache: npm
+          # The only lock file lives with the Next.js app; the data scripts at the repo root
+          # run on plain Node with no dependencies.
+          cache-dependency-path: web/package-lock.json
       - run: npm ci
+        working-directory: web
       - name: Decide whether this run includes future discovery
         id: mode
         run: |
