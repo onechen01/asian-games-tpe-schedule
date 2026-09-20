@@ -1,0 +1,12 @@
+name: Schedule heartbeat
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3,13,23,33,43,53 * * * *'
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub schedule heartbeat triggered"
