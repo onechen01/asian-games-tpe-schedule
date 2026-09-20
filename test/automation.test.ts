@@ -123,3 +123,14 @@ test('the updater fetches its generated inputs instead of trusting an untracked 
   assert.ok(script.includes('process.exit(1)'));
   assert.ok(script.includes('runExitCode'));
 });
+
+test('a day that produced nothing carries the child process reason, never a bare label',async()=>{
+  const script = await readFileAsync('scripts/update-results.ts','utf8');
+  // The hold reason for a broken day must include the child's own output.
+  assert.ok(/reasons:broken \? \[\.\.\.gate\.reasons, `\$\{label\}: \$\{why\}`\]/.test(script));
+  assert.ok(script.includes('fetch-failed(exit'));
+  assert.ok(script.includes('merge-failed(exit'));
+  // Bootstrap verifies the file is really on disk before the daily loop starts.
+  assert.ok(script.includes('existsSync(resolve(ROOT,file))'));
+  assert.ok(script.includes('bootstrap 失敗'));
+});

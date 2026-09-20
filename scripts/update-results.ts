@@ -3,6 +3,7 @@
 // rebuilt in a staging directory, checked, and only then swapped in. A day that fails the
 // check keeps whatever production already had.
 import { spawnSync } from 'node:child_process';
+import { existsSync } from 'node:fs';
 import { readFile, rm } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { save, ROOT } from '../src/utils/storage.ts';
@@ -44,11 +45,17 @@ const REQUIRED_INPUTS:[string,string][] = [
   ['data/normalized/tpe-entries.json','scripts/fetch-entries.ts'],
 ];
 for (const [file, script] of REQUIRED_INPUTS) {
-  if (await read(file)) continue;
-  console.log(`缺少 ${file}，先向官方取得。`);
+  if (existsSync(resolve(ROOT,file)) && await read(file)) continue;
+  console.log(`缺少 ${file}，先向官方取得（${script}）。`);
   const built = run(script,[]);
-  if (built.status !== 0 || !(await read(file))) {
-    console.error(`無法產生 ${file}：${(built.stderr || built.stdout || '').trim().slice(-300)}`);
+  const tail = (out?:string)=>(out ?? '').trim().slice(-600);
+  console.log(`  ${script} exit=${built.status}`);
+  if (tail(built.stdout)) console.log(`  stdout: ${tail(built.stdout)}`);
+  if (tail(built.stderr)) console.error(`  stderr: ${tail(built.stderr)}`);
+  const exists = existsSync(resolve(ROOT,file));
+  console.log(`  ${file} exists=${exists}`);
+  if (built.status !== 0 || !exists || !(await read(file))) {
+    console.error(`bootstrap 失敗，無法產生 ${file}；不進入每日更新。`);
     process.exit(1);
   }
 }
@@ -65,10 +72,13 @@ for (const date of dates) {
   const daily = merged?.status === 0 ? await read(`${stage}/daily-${date}.json`) : null;
   const gate = qualityGate({ daily, schedule });
   if (!gate.pass) {
+    // When nothing was produced, the child's own message is the only explanation there is,
+    // so it is always carried into the log instead of being reduced to "daily-missing".
     const child = schedule ? merged : fetched;
-    const why = (child?.stderr || child?.stdout || '').trim().slice(-300);
-    held.push({ date, reasons:gate.reasons.length ? gate.reasons
-      : [`${fetched.status === 0 ? 'merge-failed' : 'fetch-failed'}: ${why.slice(0,300)}`] });
+    const why = (child?.stderr || child?.stdout || '').trim().slice(-400);
+    const broken = !schedule || !daily;
+    const label = !schedule ? `fetch-failed(exit ${fetched.status})` : `merge-failed(exit ${merged?.status})`;
+    held.push({ date, reasons:broken ? [...gate.reasons, `${label}: ${why}`] : gate.reasons });
     await rm(resolve(ROOT,stage),{recursive:true,force:true});
     continue;
   }
