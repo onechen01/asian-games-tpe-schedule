@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T12:32:40.400Z",
+  "generatedAt": "2026-09-20T16:17:07.233Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-20/schedule-2026-09-20-AUTO.json",
-      "generatedAt": "2026-09-20T12:32:40.256Z",
+      "generatedAt": "2026-09-20T16:17:07.082Z",
       "coverage": {
         "sports": [
           "BDM",
@@ -383,6 +383,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "9",
+      "orgCount": 15,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -429,6 +431,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -471,6 +475,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "21",
+      "orgCount": 18,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -530,6 +536,8 @@
           "rank": "41"
         }
       ],
+      "tpeRank": "23",
+      "orgCount": 21,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -574,6 +582,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "11",
+      "orgCount": 16,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -616,6 +626,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -658,6 +670,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 7,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -704,6 +718,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -746,6 +762,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "10",
+      "orgCount": 12,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -788,6 +806,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "4",
+      "orgCount": 9,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -830,6 +850,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 8,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -872,6 +894,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -914,6 +938,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "9",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -956,6 +982,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "6",
+      "orgCount": 8,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -998,6 +1026,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 8,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1040,6 +1070,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "3",
+      "orgCount": 8,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1082,6 +1114,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1124,6 +1158,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 7,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1166,6 +1202,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1212,6 +1250,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1258,6 +1298,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1300,6 +1342,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 18,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1346,6 +1390,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1388,6 +1434,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "8",
+      "orgCount": 12,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1430,6 +1478,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1476,6 +1526,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1518,6 +1570,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "10",
+      "orgCount": 7,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1570,6 +1624,8 @@
           "rank": "9"
         }
       ],
+      "tpeRank": "8",
+      "orgCount": 6,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1616,6 +1672,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1658,6 +1716,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1710,6 +1770,8 @@
           "rank": "10"
         }
       ],
+      "tpeRank": "6",
+      "orgCount": 7,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1756,6 +1818,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1798,6 +1862,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1851,6 +1917,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1893,6 +1961,8 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
