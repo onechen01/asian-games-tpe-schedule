@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T08:47:35.791Z",
+  "generatedAt": "2026-09-20T10:53:18.408Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-20/schedule-2026-09-20-AUTO.json",
-      "generatedAt": "2026-09-20T08:47:35.650Z",
+      "generatedAt": "2026-09-20T10:53:18.271Z",
       "coverage": {
         "sports": [
           "BDM",
@@ -1429,10 +1429,10 @@
       "opponentCode": "PRK",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "2",
+        "tpe": "1",
+        "opponent": "3",
         "source": "results"
       },
       "tpenocResult": null,
@@ -1557,10 +1557,10 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpenocResult": null,
@@ -1598,8 +1598,12 @@
       "opponentCode": "UZB",
       "venue": "Nagoya City Inae Sports Center",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1629,15 +1633,19 @@
       "unit": "Women's 50m Breaststroke Final",
       "athletes": [],
       "athletesEn": [
-        "CHIU Yi-chen",
-        "LIN Pei-wun"
+        "LIN Pei-wun",
+        "CHIU Yi-chen"
       ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "31.62",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1677,8 +1685,12 @@
       "opponentCode": "BRN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1698,8 +1710,8 @@
     },
     {
       "date": "2026-09-20",
-      "startTimeTaipei": "2026-09-20T18:00:00+08:00",
-      "startTimeJst": "2026-09-20T19:00:00+09:00",
+      "startTimeTaipei": "2026-09-20T17:54:05+08:00",
+      "startTimeJst": "2026-09-20T18:54:05+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
@@ -1708,14 +1720,18 @@
       "unit": "Match 8",
       "athletes": [],
       "athletesEn": [
-        "CHEN Si-yun"
+        "CHEN Si yun"
       ],
       "opponent": "CHAN Tsz Ching",
       "opponentCode": "HKG",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1762,8 +1778,12 @@
       "opponentCode": "JPN",
       "venue": "Park Arena Komaki",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1992,7 +2012,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 18:00 Match 8",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 17:54 Match 8",
       "row": "WSU:W.52KG--------------.8FNL.000800--"
     },
     {
