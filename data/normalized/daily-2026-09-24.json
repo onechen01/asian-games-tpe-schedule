@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T13:07:13.077Z",
+  "generatedAt": "2026-09-20T16:06:21.813Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-20T13:07:12.875Z",
+      "generatedAt": "2026-09-20T16:06:21.666Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -934,8 +934,8 @@
       "entryLevel": "event",
       "unitCount": 2,
       "enteredAthletes": [
-        "HSIEH Hsiang-chen",
-        "YEH Ting-wei"
+        "HSIEH Hsiang-Chen",
+        "YEH Ting-Wei"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1088,8 +1088,8 @@
       "entryLevel": "event",
       "unitCount": 2,
       "enteredAthletes": [
-        "LEE Meng-yuan",
-        "LO Chien-ya"
+        "LEE Meng-Yuan",
+        "LO Chien-Ya"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T13:14:29.378Z",
+  "generatedAt": "2026-09-20T16:15:27.221Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-09-20T13:14:29.222Z",
+      "generatedAt": "2026-09-20T16:15:27.110Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -427,7 +427,8 @@
       "unitCount": 1,
       "enteredAthletes": [
         "CHEN Hung-shen",
-        "CHEN Yu-lung"
+        "CHEN Yu-lung",
+        "WANG Chong-hao"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",

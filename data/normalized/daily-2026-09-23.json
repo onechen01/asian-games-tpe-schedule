@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T13:06:20.574Z",
+  "generatedAt": "2026-09-20T16:05:29.365Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-20T13:06:20.372Z",
+      "generatedAt": "2026-09-20T16:05:29.219Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -1169,9 +1169,9 @@
       "entryLevel": "event",
       "unitCount": 2,
       "enteredAthletes": [
-        "LEE Meng-yuan",
-        "WANG Han-tsun",
-        "ZHANG Feng-qi"
+        "LEE Meng-Yuan",
+        "WANG Han-Tsun",
+        "ZHANG Feng-Qi"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1208,9 +1208,9 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
-        "LEE Meng-yuan",
-        "WANG Han-tsun",
-        "ZHANG Feng-qi"
+        "LEE Meng-Yuan",
+        "WANG Han-Tsun",
+        "ZHANG Feng-Qi"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1247,7 +1247,7 @@
       "entryLevel": "event",
       "unitCount": 2,
       "enteredAthletes": [
-        "LO Chien-ya"
+        "LO Chien-Ya"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
