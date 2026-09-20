@@ -1,317 +1,1089 @@
 {
- "schemaVersion": 1,
- "title": "中華隊選手主檔（Reg 為主鍵）",
- "metadata": {
-  "displayOnly": true,
-  "purpose": "只提供中文姓名顯示。canonical 與 Results 原始資料一律保留官方英文姓名，不得被中文覆寫。",
-  "keyRule": "reg 是 Results 的官方選手識別碼，為長期主鍵；officialEn 供沒有 reg 的來源比對。",
-  "confidenceRule": "只有 VERIFIED 可以顯示在網站上。zh 為 null 代表尚未確認，保留官方英文。",
-  "capturedAt": "2026-09-20"
- },
- "athletes": [
-  {
-   "reg": "3483464",
-   "officialEn": "CHEN Yu-hsun",
-   "zh": "陳郁勲",
-   "gender": "M",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
+  "schemaVersion": 1,
+  "title": "中華隊選手主檔（Reg 為主鍵）",
+  "metadata": {
+    "displayOnly": true,
+    "purpose": "只提供中文姓名顯示。canonical 與 Results 原始資料一律保留官方英文姓名，不得被中文覆寫。",
+    "keyRule": "reg 是 Results 的官方選手識別碼，為長期主鍵；officialEn 供沒有 reg 的來源比對。",
+    "confidenceRule": "只有 VERIFIED 可以顯示在網站上。zh 為 null 代表尚未確認，保留官方英文。",
+    "capturedAt": "2026-09-20",
+    "athleteCount": 52,
+    "verifiedCount": 52
   },
-  {
-   "reg": "13758863",
-   "officialEn": "CHEN Po-yi",
-   "zh": "陳柏邑",
-   "gender": "M",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
-  },
-  {
-   "reg": "13655436",
-   "officialEn": "YU Kai-wen",
-   "zh": "余凱文",
-   "gender": "M",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
-  },
-  {
-   "reg": "13656004",
-   "officialEn": "LIN Wei-chieh",
-   "zh": "林韋傑",
-   "gender": "M",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
-  },
-  {
-   "reg": "3589239",
-   "officialEn": "CHANG Yu-sung",
-   "zh": "張祐菘",
-   "gender": "M",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
-  },
-  {
-   "reg": "3607367",
-   "officialEn": "HUANG Shih-yuan",
-   "zh": "黃詩媛",
-   "gender": "W",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
-  },
-  {
-   "reg": "3500721",
-   "officialEn": "HSU Chiao-ying",
-   "zh": "徐巧楹",
-   "gender": "W",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
-  },
-  {
-   "reg": "13768472",
-   "officialEn": "ZHOU Yan-zhen",
-   "zh": "周宴甄",
-   "gender": "W",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
-  },
-  {
-   "reg": "13770907",
-   "officialEn": "CHIANG Min-yu",
-   "zh": "江旻育",
-   "gender": "W",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
-  },
-  {
-   "reg": "13778200",
-   "officialEn": "LO Shu-ting",
-   "zh": "羅舒婷",
-   "gender": "W",
-   "disciplines": [
-    "TST"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
-    "method": "human-checked",
-    "confirmedAt": "2026-09-18"
-   }
-  },
-  {
-   "reg": "9589159",
-   "officialEn": "CHIEN Hui-hsuan",
-   "zh": "簡慧萱",
-   "gender": "W",
-   "disciplines": [
-    "KTE"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
-    "method": "sole-athlete-in-event",
-    "confirmedAt": "2026-09-20"
-   }
-  },
-  {
-   "reg": "16725",
-   "officialEn": "ZENG Ke-xin",
-   "zh": "曾可妡",
-   "gender": "W",
-   "disciplines": [
-    "CRD"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
-    "method": "sole-athlete-in-event",
-    "confirmedAt": "2026-09-20"
-   }
-  },
-  {
-   "reg": "1725668",
-   "officialEn": "TU Chih-hao",
-   "zh": "杜志濠",
-   "gender": "M",
-   "disciplines": [
-    "CRD"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
-    "method": "sole-athlete-in-event",
-    "confirmedAt": "2026-09-20"
-   }
-  },
-  {
-   "reg": "4299904",
-   "officialEn": "LIN Ming-dian",
-   "zh": "林明典",
-   "gender": "M",
-   "disciplines": [
-    "MMA"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
-    "method": "sole-athlete-in-event",
-    "confirmedAt": "2026-09-20"
-   }
-  },
-  {
-   "reg": "4295381",
-   "officialEn": "CHANG Li",
-   "zh": "張立",
-   "gender": "M",
-   "disciplines": [
-    "MMA"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
-    "method": "sole-athlete-in-event",
-    "confirmedAt": "2026-09-20"
-   }
-  },
-  {
-   "reg": "5936448",
-   "officialEn": "LIN Yu-fen",
-   "zh": "林郁芬",
-   "gender": "W",
-   "disciplines": [
-    "MMA"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
-    "method": "sole-athlete-in-event",
-    "confirmedAt": "2026-09-20"
-   }
-  },
-  {
-   "reg": "477449",
-   "officialEn": "HAN An-chi",
-   "zh": "韓安齊",
-   "gender": "W",
-   "disciplines": [
-    "SWM"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
-    "method": "sole-athlete-in-event",
-    "confirmedAt": "2026-09-20"
-   }
-  },
-  {
-   "reg": "16383619",
-   "officialEn": "LIN Yi-cheng",
-   "zh": "林怡成",
-   "gender": "M",
-   "disciplines": [
-    "SWM"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
-    "method": "sole-athlete-in-event",
-    "confirmedAt": "2026-09-20"
-   }
-  },
-  {
-   "reg": "465030",
-   "officialEn": "CHANG Kai-yueh",
-   "zh": "張愷岳",
-   "gender": "M",
-   "disciplines": [
-    "SWM"
-   ],
-   "confidence": "VERIFIED",
-   "aliases": [],
-   "provenance": {
-    "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
-    "method": "sole-athlete-in-event",
-    "confirmedAt": "2026-09-20"
-   }
-  }
- ]
+  "athletes": [
+    {
+      "reg": "3483464",
+      "officialEn": "CHEN Yu-hsun",
+      "zh": "陳郁勲",
+      "gender": "M",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "13758863",
+      "officialEn": "CHEN Po-yi",
+      "zh": "陳柏邑",
+      "gender": "M",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "13655436",
+      "officialEn": "YU Kai-wen",
+      "zh": "余凱文",
+      "gender": "M",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "13656004",
+      "officialEn": "LIN Wei-chieh",
+      "zh": "林韋傑",
+      "gender": "M",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "3589239",
+      "officialEn": "CHANG Yu-sung",
+      "zh": "張祐菘",
+      "gender": "M",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "3607367",
+      "officialEn": "HUANG Shih-yuan",
+      "zh": "黃詩媛",
+      "gender": "W",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "3500721",
+      "officialEn": "HSU Chiao-ying",
+      "zh": "徐巧楹",
+      "gender": "W",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "13768472",
+      "officialEn": "ZHOU Yan-zhen",
+      "zh": "周宴甄",
+      "gender": "W",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "13770907",
+      "officialEn": "CHIANG Min-yu",
+      "zh": "江旻育",
+      "gender": "W",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "13778200",
+      "officialEn": "LO Shu-ting",
+      "zh": "羅舒婷",
+      "gender": "W",
+      "disciplines": [
+        "TST"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+        "method": "human-checked",
+        "confirmedAt": "2026-09-18"
+      }
+    },
+    {
+      "reg": "9589159",
+      "officialEn": "CHIEN Hui-hsuan",
+      "zh": "簡慧萱",
+      "gender": "W",
+      "disciplines": [
+        "KTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "16725",
+      "officialEn": "ZENG Ke-xin",
+      "zh": "曾可妡",
+      "gender": "W",
+      "disciplines": [
+        "CRD"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "1725668",
+      "officialEn": "TU Chih-hao",
+      "zh": "杜志濠",
+      "gender": "M",
+      "disciplines": [
+        "CRD"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "4299904",
+      "officialEn": "LIN Ming-dian",
+      "zh": "林明典",
+      "gender": "M",
+      "disciplines": [
+        "MMA"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "4295381",
+      "officialEn": "CHANG Li",
+      "zh": "張立",
+      "gender": "M",
+      "disciplines": [
+        "MMA"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "5936448",
+      "officialEn": "LIN Yu-fen",
+      "zh": "林郁芬",
+      "gender": "W",
+      "disciplines": [
+        "MMA"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "477449",
+      "officialEn": "HAN An-chi",
+      "zh": "韓安齊",
+      "gender": "W",
+      "disciplines": [
+        "SWM"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "16383619",
+      "officialEn": "LIN Yi-cheng",
+      "zh": "林怡成",
+      "gender": "M",
+      "disciplines": [
+        "SWM"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "465030",
+      "officialEn": "CHANG Kai-yueh",
+      "zh": "張愷岳",
+      "gender": "M",
+      "disciplines": [
+        "SWM"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "607139",
+      "officialEn": "CHENG Yu-hsuan",
+      "zh": "鄭郁咺",
+      "gender": "M",
+      "disciplines": [
+        "WSU"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "16501985",
+      "officialEn": "LIU Pei-hsun",
+      "zh": "劉佩勳",
+      "gender": "W",
+      "disciplines": [
+        "WSU"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "657902",
+      "officialEn": "CHEN Si-yun",
+      "zh": "陳思芸",
+      "gender": "W",
+      "disciplines": [
+        "WSU"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "1813658",
+      "officialEn": "ZHANG Huan-yi",
+      "zh": "張煥宜",
+      "gender": "M",
+      "disciplines": [
+        "WSU"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900",
+        "method": "sole-athlete-in-event",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "7717730",
+      "officialEn": "CHOU Ya-Hsuan",
+      "zh": "周亞瑄",
+      "gender": "W",
+      "disciplines": [
+        "SHO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "results-unit-startlist(START_TIME 11:45) + tpenoc-snapshot:2026-09-20_2026-09-19T235000+0900(資格賽第2組)",
+        "method": "sole-athlete-in-qualification-group",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "3559226",
+      "officialEn": "WANG Hsing-hao",
+      "zh": "王星皓",
+      "gender": "M",
+      "disciplines": [
+        "SWM"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "tpe-athlete-reference-2026-09-20.json (CORROBORATED_BILINGUAL: tpenoc roster + eltaott.tv/asg2026/taipei_team/40 + sports.gov.tw PDF) + results entries Reg 3559226 (SWM, M) unique English match",
+        "method": "corroborated-bilingual-unique-reg",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "8624726",
+      "officialEn": "LIN Pei-wun",
+      "zh": "林姵彣",
+      "gender": "W",
+      "disciplines": [
+        "SWM"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "provenance": {
+        "source": "tpe-athlete-reference-2026-09-20.json (CORROBORATED_BILINGUAL: tpenoc roster + eltaott.tv/asg2026/taipei_team/40) + results entries Reg 8624726 (SWM, W) unique English match",
+        "method": "corroborated-bilingual-unique-reg",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "7719153",
+      "officialEn": "SUNG Yu-Ting",
+      "zh": "宋諭婷",
+      "gender": "W",
+      "disciplines": [
+        "SHO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://www.shootingsport.org.tw/ezfiles/713/1713/img/9817/207877050.pdf",
+          "note": "射擊賽事文件同列 SUNG Yu-Ting／宋諭婷"
+        },
+        {
+          "type": "current_roster",
+          "url": "https://www.tpenoc.net/game/achi-nagoya-2026/",
+          "note": "2026亞運中華奧會代表團中文名單"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "13705579",
+      "officialEn": "LIN Ying-Shin",
+      "zh": "林穎欣",
+      "gender": "W",
+      "disciplines": [
+        "SHO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://eltaott.tv/asg2026/taipei_team/30",
+          "note": "愛爾達亞運選手介紹直接列 林穎欣 Lin Ying-Shin"
+        },
+        {
+          "type": "current_roster",
+          "url": "https://www.tpenoc.net/game/achi-nagoya-2026/",
+          "note": "2026亞運中華奧會代表團中文名單"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "4735886",
+      "officialEn": "LIN Yun-ju",
+      "zh": "林昀儒",
+      "gender": "M",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://eltaott.tv/asg2026/taipei_team/8",
+          "note": "愛爾達直接列 林昀儒 Lin Yun-Ju"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "665537",
+      "officialEn": "CHENG I-ching",
+      "zh": "鄭怡靜",
+      "gender": "W",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://eltaott.tv/asg2026/taipei_team/8",
+          "note": "愛爾達直接列 鄭怡靜 Cheng I-Ching"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "2008192",
+      "officialEn": "CHEN Szu-yu",
+      "zh": "陳思羽",
+      "gender": "W",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://eltaott.tv/asg2026/taipei_team/8",
+          "note": "愛爾達直接列 陳思羽 Chen Szu-Yu"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "15753718",
+      "officialEn": "YEH Yi-tian",
+      "zh": "葉伊恬",
+      "gender": "W",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://www.butterfly.co.jp/players/detail/yeh-yi-tian.html",
+          "note": "選手頁直接列 葉伊恬 YEH Yi-Tian"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "4767662",
+      "officialEn": "PENG Yu-han",
+      "zh": "彭郁涵",
+      "gender": "W",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://rallys.online/forplayers/player/pengyu-han/",
+          "note": "選手頁直接列 彭郁涵 PENG Yu-Han"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "15725713",
+      "officialEn": "FENG Yi-hsin",
+      "zh": "馮翊新",
+      "gender": "M",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://t.media/2854779",
+          "note": "TVBS World Taiwan 直接列 Feng Yi-hsin (馮翊新)"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "641974",
+      "officialEn": "KUO Guan-hong",
+      "zh": "郭冠宏",
+      "gender": "M",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://www.butterfly.co.jp/players/detail/kuo-guanhong.html",
+          "note": "選手頁直接列 郭冠宏 KUO Guan-Hong"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "15728414",
+      "officialEn": "HSU Hsien-chia",
+      "zh": "徐絃家",
+      "gender": "M",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://ws.sports.gov.tw/FS01/FilePath/1/relfile/413/9039/638567470048544128.pdf",
+          "note": "運動主管機關雙語年報同列 徐絃家 / Hsu Hsien-chia"
+        },
+        {
+          "type": "direct_bilingual",
+          "url": "https://takkyu-navi.jp/player/detail/10644",
+          "note": "選手頁直接列 徐絃家 HSU Hsien-Chia"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "644675",
+      "officialEn": "HUNG Jing-kai",
+      "zh": "洪敬愷",
+      "gender": "M",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "identity_pair",
+          "url": "https://sports.ltn.com.tw/news/breakingnews/5412278",
+          "note": "2026全中運報導確認洪敬愷為名古屋亞運國手，與郭冠宏、徐絃家同隊"
+        },
+        {
+          "type": "direct_bilingual",
+          "url": "https://www.baike.com/wikiid/7595529248611270696",
+          "note": "直接列 洪敬愷（HUNG Jing-Kai）"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v2-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "667302",
+      "officialEn": "WU Ying-syuan",
+      "zh": "吳映萱",
+      "gender": "W",
+      "disciplines": [
+        "TTE"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://www.hktta-event.com/2024/wtt_youth_contender_hk/wp-content/uploads/2024/07/2024-07-10-BCA-GSU15-v1.pdf",
+          "note": "賽事文件同列 WU Ying-syuan / 吳映萱 / TPE"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "8599764",
+      "officialEn": "FU Kun-ming",
+      "zh": "傅堃銘",
+      "gender": "M",
+      "disciplines": [
+        "SWM"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "official_en",
+          "url": "https://www.worldaquatics.com/athletes/1314200/kun-ming-fu",
+          "note": "World Aquatics：Kun-Ming FU，TPE；2026全大運400混 4:23.74"
+        },
+        {
+          "type": "official_zh",
+          "url": "https://2026niag.ncu.edu.tw/Public/Race/Report_Score.aspx?id=1049",
+          "note": "115全大運：傅堃銘400混 4:23.74；同賽事同成績交叉鎖定"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "478795",
+      "officialEn": "CHIU Yi-chen",
+      "zh": "邱羿臻",
+      "gender": "W",
+      "disciplines": [
+        "SWM"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "official_en",
+          "url": "https://www.worldaquatics.com/athletes/1512264/yi-chen-chiu",
+          "note": "World Aquatics：Yi-Chen CHIU，TPE"
+        },
+        {
+          "type": "official_zh",
+          "url": "https://2026niag.ncu.edu.tw/Public/Race/Report_Score.aspx?id=242",
+          "note": "115全大運：邱羿臻，女子50自由式"
+        },
+        {
+          "type": "official_zh",
+          "url": "https://2026niag.ncu.edu.tw/Public/Race/Report_Score.aspx?id=265",
+          "note": "115全大運：邱羿臻，女子50蝶式"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "15682484",
+      "officialEn": "LIAO Yi-jen",
+      "zh": "廖苡任",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f999ec6b980199f00ebce6005d",
+          "note": "臺灣學術期刊作者欄同列 廖苡任 Yi-Jen Liao"
+        },
+        {
+          "type": "official_en",
+          "url": "https://en.volleyballworld.com/volleyball/competitions/avc-women-cup/players/172377",
+          "note": "Volleyball World：Yi-Jen Liao，Chinese Taipei"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "15689547",
+      "officialEn": "HSU Wan-yun",
+      "zh": "許菀芸",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://women.volleybox.net/wan-yun-hsu-p19125",
+          "note": "同一選手頁列 Wan-Yun Hsu 與 許菀芸"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "15697071",
+      "officialEn": "CHEN Chieh",
+      "zh": "陳潔",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://athleteos.vigrocoach.com/athletes/tpe-volleyball-women-11",
+          "note": "同頁列 陳潔 / Chieh Chen，並引用中華奧會與 Volleyball World"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "15701345",
+      "officialEn": "XU Zhen-xuan",
+      "zh": "許甄軒",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "official_en",
+          "url": "https://en.volleyballworld.com/volleyball/competitions/avc-women-cup/players/211255",
+          "note": "Volleyball World：Zhen-Xuan Xu；生日2008-09-11；Chinese Taipei"
+        },
+        {
+          "type": "official_zh",
+          "url": "https://tvl.ctvba.org.tw/wplayer/161",
+          "note": "中華民國排球協會TVL：許甄軒；生日2008-09-11；主攻手"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "1870151",
+      "officialEn": "CHANG Yi-chi",
+      "zh": "張稦豈",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "official_en",
+          "url": "https://en.volleyballworld.com/volleyball/competitions/avc-women-cup/players/222815",
+          "note": "Volleyball World：Yi-Chi Chang；生日2005-07-19；Chinese Taipei"
+        },
+        {
+          "type": "official_zh",
+          "url": "https://tvl.ctvba.org.tw/wplayer/114",
+          "note": "中華民國排球協會TVL：張稦豈；生日2005-07-19"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "1875918",
+      "officialEn": "LIN Shu-ho",
+      "zh": "林書荷",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://women.volleybox.net/zh/shu-ho-lin-p19131/indoor_matches",
+          "note": "同一選手頁列 Shu-Ho Lin 與 林書荷"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "4692068",
+      "officialEn": "TSAI Yu-chun",
+      "zh": "蔡幼群",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://athleteos.vigrocoach.com/athletes/tpe-volleyball-women-03",
+          "note": "同頁列 蔡幼群 / Yu-Chun Tsai，2026亞運 Volleyball"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "4695218",
+      "officialEn": "WU Tzu-hua",
+      "zh": "吳紫華",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://women.volleybox.net/zh/tzu-hua-wu-p155484",
+          "note": "同一選手頁名稱翻譯列 Tzu-Hua Wu / 吳紫華"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "600212",
+      "officialEn": "HUNG Chia-yao",
+      "zh": "洪家瑤",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "official_en",
+          "url": "https://en.volleyballworld.com/volleyball/competitions/avc-women-cup/players/167045",
+          "note": "Volleyball World：Chia-Yao Hung；生日2004-01-07；Chinese Taipei"
+        },
+        {
+          "type": "official_zh",
+          "url": "https://www.ctvba.org.tw/files/articleAttr/20260507125230_XFArgv92LP.pdf",
+          "note": "中華民國排球協會2026女子亞洲盃名單：洪家瑤"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "608286",
+      "officialEn": "KAN Ko-hui",
+      "zh": "甘可慧",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://www.ocagames.com/HZ_Info/AG2022-/zh/results/volleyball/athlete-profile-n2008371-kan-ko-hui.htm",
+          "note": "杭州亞運官方頁：KAN Ko-Hui / 甘可慧 / TPE"
+        },
+        {
+          "type": "direct_bilingual",
+          "url": "https://women.volleybox.net/ko-hui-kan-p95933",
+          "note": "同一選手頁列 Ko-Hui Kan / 甘可慧"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "610422",
+      "officialEn": "WEN Yi-chin",
+      "zh": "温以勤",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://sitenoise.com/volleyball/Aries/details/page14.html",
+          "note": "同頁列 Yi-Chin Wen / 温以勤 / Taiwan"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    },
+    {
+      "reg": "620383",
+      "officialEn": "HSU Heng-yun",
+      "zh": "許恆芸",
+      "gender": "W",
+      "disciplines": [
+        "VVO"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "direct_bilingual",
+          "url": "https://women.volleybox.net/heng-yun-hsu-p210332",
+          "note": "同一選手頁名稱翻譯列 Heng-Yun Hsu / 許恆芸"
+        }
+      ],
+      "provenance": {
+        "source": "tpe-athlete-verified-bridge-v3-final15-2026-09-20.json",
+        "method": "external-verified-bridge + unique results Reg match",
+        "confirmedAt": "2026-09-20"
+      }
+    }
+  ]
 }
