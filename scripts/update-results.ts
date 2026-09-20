@@ -60,6 +60,11 @@ for (const [file, script] of REQUIRED_INPUTS) {
   }
 }
 
+// Medal totals ride along with the existing run: no new scheduler, and a failure here never
+// affects canonical publishing.
+const medals = run('scripts/fetch-medals.ts',[]);
+console.log(`獎牌榜 ${medals.status === 0 ? '已更新' : '取得失敗，保留既有資料'}`);
+
 const published:string[] = [], held:{date:string;reasons:string[]}[] = [], unchanged:string[] = [];
 for (const date of dates) {
   const stage = `data/staging/${date}`;

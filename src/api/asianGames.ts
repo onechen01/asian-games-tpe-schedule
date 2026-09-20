@@ -81,7 +81,7 @@ export async function get(path: string, options: {conditional?:boolean; attempts
   // Discipline codes are accepted generically, but callers must take them from that list
   // rather than guessing them.
   const disc = '[A-Z0-9]{3}';
-  const pattern = new RegExp(`^(config|ALL/disc/list|ALL/schedule/matrix|ALL/entries/list|${disc}/disc/data|${disc}/schedule/daily/\\d{4}-\\d{2}-\\d{2}|${disc}/(?:schedule/(?:unit|event)|results)/[A-Za-z0-9.\\-]+)$`);
+  const pattern = new RegExp(`^(config|ALL/disc/list|ALL/schedule/matrix|ALL/entries/list|ALL/medals/standings|${disc}/disc/data|${disc}/schedule/daily/\\d{4}-\\d{2}-\\d{2}|${disc}/(?:schedule/(?:unit|event)|results)/[A-Za-z0-9.\\-]+)$`);
   if (!pattern.test(path)) throw new Error('Only verified endpoint patterns are enabled');
   const url = BASE + path;
   const key = createHash('sha256').update(url).digest('hex');

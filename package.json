@@ -20,6 +20,7 @@
     "merge:daily": "node scripts/merge-daily.ts",
     "fetch:entries": "node scripts/fetch-entries.ts",
     "update:results": "node scripts/update-results.ts",
-    "fetch:broadcasts": "node scripts/fetch-broadcasts.ts"
+    "fetch:broadcasts": "node scripts/fetch-broadcasts.ts",
+    "fetch:medals": "node scripts/fetch-medals.ts"
   }
 }

@@ -6,6 +6,8 @@ import type {Roster} from './roster.ts';
 import {parseDisplayNames} from './display-names.ts';
 import type {DisplayNames} from './display-names.ts';
 import {parseBroadcasts} from './broadcasts.ts';
+import {parseMedals} from './medals.ts';
+import type {Row as ProgressionRow} from './progression.ts';
 import type {Broadcasts} from './broadcasts.ts';
 import {parseAthleteMaster} from './athletes.ts';
 import type {AthleteMaster} from './athletes.ts';
@@ -68,6 +70,24 @@ export async function loadDisplayNames():Promise<DisplayNames>{
 export async function loadBroadcasts():Promise<Broadcasts>{
  return parseBroadcasts(await readFirst('reference/broadcasts.json'));
 }
+
+// Rows from the days after `date`: a later stage is often on the next day, so progression
+// has to be able to look forward. Read-only, canonical files only.
+export async function loadLaterRows(date:string,dates:string[]){
+ const found=await listFirst('normalized');
+ if(!found)return [] as ProgressionRow[];
+ const out:ProgressionRow[]=[];
+ for(const day of dates.filter(d=>d>=date)){
+  try{
+   const raw=JSON.parse(await readFile(path.join(found.folder,'daily-'+day+'.json'),'utf8')) as {rows?:unknown[]};
+   for(const row of (raw.rows??[]) as ProgressionRow[]) out.push({...row,date:day});
+  }catch{}
+ }
+ return out;
+}
+
+// Official medal totals; missing or inconsistent means the summary is simply not shown.
+export async function loadMedals(){ return parseMedals(await readFirst('reference/tpe-medals.json')); }
 
 // Verified Chinese athlete names. Missing or malformed leaves every name in English.
 export async function loadAthletes():Promise<AthleteMaster>{
