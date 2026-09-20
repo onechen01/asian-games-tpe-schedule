@@ -270,3 +270,45 @@ test('when the候選 cannot be narrowed to one, nothing is paired',()=>{
   // Both official rows survive on their own.
   assert.equal(merged.rows.filter(r=>r.matchStatus === 'RESULTS_ONLY').length,2);
 });
+
+test('two Chinese Taipei entrants in one individual unit keep their own mark and place',()=>{
+  const unit = { id:'u1', unitId:'u1', disciplineCode:'SWM', eventName:"Men's 200m Individual Medley",
+    startTimeTaipei:'2026-09-20T19:00:00+08:00', hasTpe:true, orgs:['TPE','JPN'], sourceStatus:'OFFICIAL',
+    result:{ sourceStatus:'OFFICIAL', competitors:[
+      { org:'TPE', name:'WANG Hsing-hao', registration:'3559226', result:'2:01.21', rank:'4' },
+      { org:'TPE', name:'FU Kun-ming', registration:'8599764', result:'2:04.80', rank:'7' },
+      { org:'JPN', name:'Someone', registration:'1', result:'1:59.00', rank:'1' }] } };
+  const merged = mergeDaily({ date:'2026-09-20', rows:[unit as unknown as ResultsRow],
+    coverage:{ fetchComplete:true, missing:[], sports:['SWM'] } } as never,null,null);
+  const row = merged.rows[0];
+  assert.equal(row.tpeEntrants.length,2);
+  assert.deepEqual(row.tpeEntrants.map(e=>e.result),['2:01.21','2:04.80']);
+  assert.deepEqual(row.tpeEntrants.map(e=>e.rank),['4','7']);
+  // No single "Taiwan result" may stand for both athletes.
+  assert.equal(row.result,null);
+});
+
+test('a missing mark is left empty rather than filled from the other athlete',()=>{
+  const unit = { id:'u2', unitId:'u2', disciplineCode:'SHO', eventName:'10m Air Rifle Women Individual',
+    startTimeTaipei:'2026-09-20T08:45:00+08:00', hasTpe:true, orgs:['TPE'], sourceStatus:'OFFICIAL',
+    result:{ sourceStatus:'OFFICIAL', competitors:[
+      { org:'TPE', name:'A', registration:'1', result:'626.6', rank:'3' },
+      { org:'TPE', name:'B', registration:'2', result:'', rank:'' }] } };
+  const row = mergeDaily({ date:'2026-09-20', rows:[unit as unknown as ResultsRow],
+    coverage:{ fetchComplete:true, missing:[], sports:['SHO'] } } as never,null,null).rows[0];
+  assert.deepEqual(row.tpeEntrants.map(e=>e.result),['626.6',null]);
+  assert.deepEqual(row.tpeEntrants.map(e=>e.rank),['3',null]);
+});
+
+test('a team or relay entry is never split into separate athletes',()=>{
+  const unit = { id:'u3', unitId:'u3', disciplineCode:'TST', eventName:"Women's Team",
+    startTimeTaipei:'2026-09-20T08:00:00+08:00', hasTpe:true, orgs:['TPE','KOR'], sourceStatus:'OFFICIAL',
+    result:{ sourceStatus:'OFFICIAL', competitors:[
+      { org:'TPE', name:'Chinese Taipei', registration:'TSTWTEAM-TPE01', result:'2',
+        members:[{name:'CHOU Yen-chen'},{name:'CHIANG Min-yu'}] },
+      { org:'KOR', name:'Korea', registration:'TSTWTEAM-KOR01', result:'1', members:[{name:'KIM'}] }] } };
+  const row = mergeDaily({ date:'2026-09-20', rows:[unit as unknown as ResultsRow],
+    coverage:{ fetchComplete:true, missing:[], sports:['TST'] } } as never,null,null).rows[0];
+  assert.equal(row.tpeEntrants.length,0);
+  assert.deepEqual(row.result,{ tpe:'2', opponent:'1', source:'results' });
+});

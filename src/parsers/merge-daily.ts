@@ -38,6 +38,9 @@ export type DailyRow = {
   athletes:string[]; athletesEn:string[]; opponent:string | null; opponentCode:string | null;
   venue:string | null; venueZh:string | null; status:string | null;
   result:{ tpe:string | null; opponent:string | null; source:'results' } | null;
+  // Several Chinese Taipei athletes can start in one unit of an individual event. Each one
+  // owns their own mark and place, so they are listed separately instead of sharing one.
+  tpeEntrants:{ name:string | null; registration:string | null; result:string | null; rank:string | null }[];
   tpenocResult:string | null; rank:string | null; note:string | null;
   participationState:Participation; entryLevel:EntryLevel;
   // Event-level rows only: how many units of this event run that day, and who is entered.
@@ -97,6 +100,16 @@ const genderOf = (text:string | null | undefined): 'W' | 'M' | null =>
 const minutes = (iso:string | null | undefined)=>iso && Number.isFinite(Date.parse(iso)) ? Date.parse(iso)/60000 : null;
 const competitors = (row:ResultsRow)=>row.result?.competitors ?? row.competitors ?? [];
 const tpeSide = (row:ResultsRow)=>competitors(row).find(c=>c.org === 'TPE') ?? null;
+// One team or relay entry is a single competitor carrying a member list; two individual
+// entrants are two competitors. Only the second case may be split per athlete.
+const tpeEntries = (row:ResultsRow)=>competitors(row).filter(c=>c.org === 'TPE');
+const blank = (value:unknown)=>typeof value === 'string' && value.trim() ? value : null;
+const tpeEntrantList = (row:ResultsRow | null)=>{
+  const entries = row ? tpeEntries(row) : [];
+  if (entries.length < 2) return [];
+  return entries.map(c=>({ name:c.name ?? null, registration:c.registration ?? null,
+    result:blank((c as {result?:unknown}).result), rank:blank((c as {rank?:unknown}).rank) }));
+};
 // "Opponent" only means something in a two-sided unit. A heat or a routine final lists many
 // nations, and naming one of them as the opponent would be a plain error.
 const headToHead = (row:ResultsRow)=>{
@@ -220,6 +233,7 @@ export function mergeDaily(results:ResultsSnapshot, tpenoc:{ scheduleDate:string
 function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | null,
   matchStatus:MatchStatus, matchConfidence:Confidence, matchSignals:string[]): DailyRow {
   const tpe = results ? tpeSide(results) : null, other = results ? otherSide(results) : null;
+  const entrants = tpeEntrantList(results ?? null);
   const status = results?.result?.sourceStatus ?? results?.sourceStatus ?? null;
   const scored = ['RUNNING','OFFICIAL','FINISHED','UNOFFICIAL','INTERMEDIATE'].includes(status ?? '');
   return {
@@ -248,8 +262,12 @@ function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | 
     venueZh:tpenoc?.venue ?? null,
     status,
     // Scores and status always come from Results; a blank committee cell never overwrites them.
-    result:results && scored && (tpe?.result ?? other?.result) != null
+    // With more than one Chinese Taipei entrant there is no single "Taiwan result": one
+    // athlete's mark must never stand for the others, so the unit-level score is dropped and
+    // each athlete carries their own below.
+    result:results && scored && entrants.length < 2 && (tpe?.result ?? other?.result) != null
       ? { tpe:tpe?.result ?? null, opponent:other?.result ?? null, source:'results' } : null,
+    tpeEntrants:entrants,
     tpenocResult:tpenoc?.result ?? null,
     rank:tpenoc?.rank ?? null,
     note:tpenoc?.note ?? null,
