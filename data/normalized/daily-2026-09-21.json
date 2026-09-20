@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T07:17:31.602Z",
+  "generatedAt": "2026-09-20T08:43:58.414Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-20T07:17:29.723Z",
+      "generatedAt": "2026-09-20T08:43:58.273Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -284,112 +284,202 @@
         "missing": [],
         "timezoneAnomalies": [
           {
-            "disciplineCode": "MMA",
+            "disciplineCode": "BOX",
             "date": "2026-09-21",
-            "unitId": "M.M60KG-------------.SFNL.000100--",
+            "unitId": "M.70KG--------------.R32-.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T10:00:00-09:00",
-            "recoveredStartTime": "2026-09-21T10:00:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-21T12:00:00+03:00",
+            "recoveredStartTime": "2026-09-21T12:00:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
+            "disciplineCode": "BOX",
             "date": "2026-09-21",
-            "unitId": "W.M54KG-------------.SFNL.000100--",
+            "unitId": "M.70KG--------------.R32-.000300--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T10:10:00-09:00",
-            "recoveredStartTime": "2026-09-21T10:10:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-21T12:15:00+03:00",
+            "recoveredStartTime": "2026-09-21T12:15:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
+            "disciplineCode": "BOX",
             "date": "2026-09-21",
-            "unitId": "M.T65KG-------------.SFNL.000100--",
+            "unitId": "M.70KG--------------.R32-.000400--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T10:20:00-09:00",
-            "recoveredStartTime": "2026-09-21T10:20:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-21T12:30:00+03:00",
+            "recoveredStartTime": "2026-09-21T12:30:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
+            "disciplineCode": "BOX",
             "date": "2026-09-21",
-            "unitId": "W.T60KG-------------.SFNL.000100--",
+            "unitId": "M.70KG--------------.R32-.000600--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T10:30:00-09:00",
-            "recoveredStartTime": "2026-09-21T10:30:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-21T12:45:00+03:00",
+            "recoveredStartTime": "2026-09-21T12:45:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
+            "disciplineCode": "BOX",
             "date": "2026-09-21",
-            "unitId": "M.M71KG-------------.SFNL.000100--",
+            "unitId": "M.70KG--------------.R32-.000700--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T10:40:00-09:00",
-            "recoveredStartTime": "2026-09-21T10:40:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-21T13:00:00+03:00",
+            "recoveredStartTime": "2026-09-21T13:00:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
+            "disciplineCode": "BOX",
             "date": "2026-09-21",
-            "unitId": "M.T77KG-------------.SFNL.000100--",
+            "unitId": "M.70KG--------------.R32-.001000--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T10:50:00-09:00",
-            "recoveredStartTime": "2026-09-21T10:50:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-21T17:00:00+03:00",
+            "recoveredStartTime": "2026-09-21T17:00:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
+            "disciplineCode": "BOX",
             "date": "2026-09-21",
-            "unitId": "M.M60KG-------------.SFNL.000200--",
+            "unitId": "M.70KG--------------.R32-.001100--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T11:00:00-09:00",
-            "recoveredStartTime": "2026-09-21T11:00:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-21T17:15:00+03:00",
+            "recoveredStartTime": "2026-09-21T17:15:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
+            "disciplineCode": "BOX",
             "date": "2026-09-21",
-            "unitId": "W.M54KG-------------.SFNL.000200--",
+            "unitId": "M.70KG--------------.R32-.001400--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T11:10:00-09:00",
-            "recoveredStartTime": "2026-09-21T11:10:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-21T17:30:00+03:00",
+            "recoveredStartTime": "2026-09-21T17:30:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
+            "disciplineCode": "BOX",
             "date": "2026-09-21",
-            "unitId": "M.T65KG-------------.SFNL.000200--",
+            "unitId": "M.70KG--------------.R32-.001500--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T11:20:00-09:00",
-            "recoveredStartTime": "2026-09-21T11:20:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-21T17:45:00+03:00",
+            "recoveredStartTime": "2026-09-21T17:45:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
-            "date": "2026-09-21",
-            "unitId": "W.T60KG-------------.SFNL.000200--",
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "W.51KG--------------.R32-.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T11:30:00-09:00",
-            "recoveredStartTime": "2026-09-21T11:30:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T12:00:00+03:00",
+            "recoveredStartTime": "2026-09-22T12:00:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
-            "date": "2026-09-21",
-            "unitId": "M.M71KG-------------.SFNL.000200--",
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "W.51KG--------------.R32-.001000--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T11:40:00-09:00",
-            "recoveredStartTime": "2026-09-21T11:40:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T12:15:00+03:00",
+            "recoveredStartTime": "2026-09-22T12:15:00+09:00"
           },
           {
-            "disciplineCode": "MMA",
-            "date": "2026-09-21",
-            "unitId": "M.T77KG-------------.SFNL.000200--",
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "W.51KG--------------.R32-.001500--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-09:00",
-            "originalStartTime": "2026-09-21T11:50:00-09:00",
-            "recoveredStartTime": "2026-09-21T11:50:00+09:00"
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T12:30:00+03:00",
+            "recoveredStartTime": "2026-09-22T12:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "W.54KG--------------.R32-.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T12:45:00+03:00",
+            "recoveredStartTime": "2026-09-22T12:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "W.54KG--------------.R32-.001500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T13:00:00+03:00",
+            "recoveredStartTime": "2026-09-22T13:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "M.55KG--------------.R32-.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T17:00:00+03:00",
+            "recoveredStartTime": "2026-09-22T17:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "M.55KG--------------.R32-.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T17:15:00+03:00",
+            "recoveredStartTime": "2026-09-22T17:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "M.55KG--------------.R32-.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T17:30:00+03:00",
+            "recoveredStartTime": "2026-09-22T17:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "M.55KG--------------.R32-.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T17:45:00+03:00",
+            "recoveredStartTime": "2026-09-22T17:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "M.55KG--------------.R32-.001000--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T18:00:00+03:00",
+            "recoveredStartTime": "2026-09-22T18:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "M.55KG--------------.R32-.001100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T18:15:00+03:00",
+            "recoveredStartTime": "2026-09-22T18:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "M.55KG--------------.R32-.001400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T18:30:00+03:00",
+            "recoveredStartTime": "2026-09-22T18:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-22",
+            "unitId": "M.55KG--------------.R32-.001500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-22T18:45:00+03:00",
+            "recoveredStartTime": "2026-09-22T18:45:00+09:00"
           }
         ],
         "unrecoveredTimezone": 0,
@@ -712,42 +802,6 @@
     },
     {
       "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
-      "startTimeJst": "2026-09-21T10:00:00-09:00",
-      "disciplineCode": "MMA",
-      "sportZh": "綜合格鬥",
-      "sportEn": "Mixed Martial Arts",
-      "event": "Men's Modern -60kg",
-      "phase": "Men's Modern -60kg Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHANG Li"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "MMA|M.M60KG-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T09:04:00+08:00",
       "startTimeJst": "2026-09-21T10:04:00+09:00",
       "disciplineCode": "SWM",
@@ -933,42 +987,6 @@
     },
     {
       "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:30:00+08:00",
-      "startTimeJst": "2026-09-21T10:30:00-09:00",
-      "disciplineCode": "MMA",
-      "sportZh": "綜合格鬥",
-      "sportEn": "Mixed Martial Arts",
-      "event": "Women's Traditional -60kg",
-      "phase": "Women's Traditional -60kg Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LIN Yu-fen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "MMA|W.T60KG-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T09:44:00+08:00",
       "startTimeJst": "2026-09-21T10:44:00+09:00",
       "disciplineCode": "SWM",
@@ -1038,42 +1056,6 @@
         "results": {
           "unitId": "M.100MBR------------.HEAT.000400--",
           "id": "SWM:M.100MBR------------.HEAT.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:50:00+08:00",
-      "startTimeJst": "2026-09-21T10:50:00-09:00",
-      "disciplineCode": "MMA",
-      "sportZh": "綜合格鬥",
-      "sportEn": "Mixed Martial Arts",
-      "event": "Men's Traditional -77kg",
-      "phase": "Men's Traditional  -77kg Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LIN Ming-dian"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "MMA|M.T77KG-------------"
         }
       }
     },
@@ -1246,42 +1228,6 @@
     },
     {
       "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T11:00:00+08:00",
-      "startTimeJst": "2026-09-21T12:00:00+09:00",
-      "disciplineCode": "BOX",
-      "sportZh": "拳擊",
-      "sportEn": "Boxing",
-      "event": "Men's 70kg",
-      "phase": "Men's 70kg - Preliminaries - Round of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nishio Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 10,
-      "enteredAthletes": [
-        "KAN Chia-wei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BOX|M.70KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T11:30:00+08:00",
       "startTimeJst": "2026-09-21T12:30:00+09:00",
       "disciplineCode": "KTE",
@@ -1318,6 +1264,78 @@
     },
     {
       "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T11:30:00+08:00",
+      "startTimeJst": "2026-09-21T12:30:00+09:00",
+      "disciplineCode": "MMA",
+      "sportZh": "綜合格鬥",
+      "sportEn": "Mixed Martial Arts",
+      "event": "Women's Traditional -60kg",
+      "phase": "Women's Traditional -60kg Semifinals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "LIN Yu-fen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "MMA|W.T60KG-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T11:50:00+08:00",
+      "startTimeJst": "2026-09-21T12:50:00+09:00",
+      "disciplineCode": "MMA",
+      "sportZh": "綜合格鬥",
+      "sportEn": "Mixed Martial Arts",
+      "event": "Men's Traditional -77kg",
+      "phase": "Men's Traditional  -77kg Semifinals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "LIN Ming-dian"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "MMA|M.T77KG-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T12:00:00+08:00",
       "startTimeJst": "2026-09-21T13:00:00+09:00",
       "disciplineCode": "VVO",
@@ -1339,7 +1357,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 4,
+      "unitCount": 3,
       "enteredAthletes": [
         "CHANG Yi-chi",
         "CHEN Chieh",
@@ -1485,6 +1503,43 @@
         "results": {
           "unitId": "W.TEAM3-------------.GP02.000300--",
           "id": "BK3:W.TEAM3-------------.GP02.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T16:45:00+08:00",
+      "startTimeJst": "2026-09-21T17:45:00+03:00",
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Men's 70kg",
+      "phase": "Men's 70KG Preliminaries",
+      "unit": "Men's 70KG - Preliminaries",
+      "athletes": [],
+      "athletesEn": [
+        "KAN Chia-wei"
+      ],
+      "opponent": "ISSA Mohammed",
+      "opponentCode": "PLE",
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.70KG--------------.R32-.001500--",
+          "id": "BOX:M.70KG--------------.R32-.001500--"
         }
       }
     },
@@ -1743,10 +1798,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 28,
-    "entered": 6,
+    "resultsOnly": 29,
+    "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 35
+    "warnings": 36
   },
   "warnings": [
     {
@@ -1858,6 +1913,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 16:40 Women Round Robin Pool B Game 3",
       "row": "BK3:W.TEAM3-------------.GP02.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:45 Men's 70KG - Preliminaries",
+      "row": "BOX:M.70KG--------------.R32-.001500--"
     },
     {
       "code": "RESULTS_ONLY",
