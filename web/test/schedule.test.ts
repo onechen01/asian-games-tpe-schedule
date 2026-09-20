@@ -243,3 +243,82 @@ test('the existing venue, country and athlete Chinese mappings do not regress',a
   const master = await loadAthletes();
   assert.equal(athleteLabel('CHENG I-ching',master,{discipline:'TTE'}),'鄭怡靜');
 });
+
+import {parseBroadcasts,broadcastsForRow,disciplineBroadcasts,feedLabel} from '../lib/broadcasts.ts';
+import {loadBroadcasts} from '../lib/load.ts';
+
+const day21 = async ()=>parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-21.json','utf8')),'2026-09-21');
+
+test('broadcast records never supply a competition time',async()=>{
+  const shows = await loadBroadcasts();
+  const day = await day21();
+  const box = taiwanRows(day).find(r=>r.disciplineCode === 'BOX')!;
+  const matched = broadcastsForRow(shows,'2026-09-21',box);
+  assert.equal(matched.length,1);
+  assert.equal(matched[0].providerName,'愛爾達');
+  assert.equal(matched[0].broadcastStartTimeTaipei,'2026-09-21T20:30:00+08:00');
+  // The card's own time is still the official one.
+  assert.equal(box.startTimeTaipei,'2026-09-21T16:45:00+08:00');
+  assert.notEqual(box.startTimeTaipei,matched[0].broadcastStartTimeTaipei);
+  // Nothing in the canonical row carries a broadcast field.
+  assert.ok(!Object.keys(box).some(k=>/broadcast/i.test(k)));
+});
+
+test('swimming heats keep their own official times, and the session programme stays at sport level',async()=>{
+  const shows = await loadBroadcasts();
+  const day = await day21();
+  const swims = taiwanRows(day).filter(r=>r.disciplineCode === 'SWM');
+  assert.ok(swims.length > 1);
+  for (const row of swims) assert.deepEqual(broadcastsForRow(shows,'2026-09-21',row),[]);
+  assert.deepEqual(new Set(swims.map(r=>r.startTimeTaipei)).size,swims.length);
+  const grouped = disciplineBroadcasts(shows,'2026-09-21',taiwanRows(day));
+  assert.equal(grouped.get('SWM')?.length,2,'13:00 預賽與 15:55 決賽都列在運動層級');
+});
+
+test('several programmes and several providers can cover one day without overwriting',()=>{
+  const doc = JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-21',providerId:'elta',providerName:'愛爾達',broadcastStartTimeTaipei:'2026-09-21T17:20:00+08:00',
+      disciplineCode:'BBL',title:'南韓VS中華',feed:'main',matchLevel:'unit',matchHint:{opponentCodes:['KOR']} },
+    { date:'2026-09-21',providerId:'other',providerName:'其他平台',broadcastStartTimeTaipei:'2026-09-21T17:30:00+08:00',
+      disciplineCode:'BBL',title:'南韓VS中華',feed:'original',matchLevel:'unit',matchHint:{opponentCodes:['KOR']} },
+    { date:'2026-09-21',providerId:'elta',providerName:'愛爾達',broadcastStartTimeTaipei:'2026-09-21T08:55:00+08:00',
+      disciplineCode:'KTE',title:'預賽',feed:'main',matchLevel:'discipline',matchHint:{} },
+    { date:'2026-09-21',providerId:'elta',providerName:'愛爾達',broadcastStartTimeTaipei:'2026-09-21T12:55:00+08:00',
+      disciplineCode:'KTE',title:'複賽/決賽',feed:'main',matchLevel:'discipline',matchHint:{} }]});
+  const shows = parseBroadcasts(doc);
+  const row = { disciplineCode:'BBL', opponentCode:'KOR', athletesEn:[] };
+  const found = broadcastsForRow(shows,'2026-09-21',row);
+  assert.equal(found.length,2);
+  assert.deepEqual(found.map(b=>b.providerId),['elta','other']);
+  assert.equal(feedLabel(found[1].feed),'原音');
+  // Two karate programmes on one day coexist and stay off every card.
+  assert.equal(disciplineBroadcasts(shows,'2026-09-21',[row]).get('KTE')?.length,2);
+});
+
+test('a programme with no canonical row never invents a competition',async()=>{
+  const shows = await loadBroadcasts();
+  const day = await day21();
+  const rows = taiwanRows(day);
+  assert.ok(!rows.some(r=>r.disciplineCode === 'GAR'),'體操當日沒有已確認的台灣場次');
+  // The gymnastics programmes exist only in the broadcast block.
+  assert.equal(disciplineBroadcasts(shows,'2026-09-21',rows).get('GAR')?.length,2);
+  assert.equal(rows.length,taiwanRows(day).length);
+});
+
+test('the broadcast layer is provider-agnostic in code and in the page',async()=>{
+  const lib = await readFile('web/lib/broadcasts.ts','utf8');
+  const page = await readFile('web/app/page.tsx','utf8');
+  for (const text of [lib,page]) {
+    assert.ok(!/elta/i.test(text),'程式不得寫死任何單一 provider');
+    assert.ok(!/愛爾達/.test(text));
+  }
+  assert.ok(page.includes('BroadcastList'));
+  // The page reads provider names from the data, so more than one can appear.
+  assert.ok(lib.includes('providerName'));
+});
+
+test('unknown or malformed broadcast data degrades to nothing, never to a wrong time',()=>{
+  assert.deepEqual(parseBroadcasts(null).records,[]);
+  assert.deepEqual(parseBroadcasts('{"schemaVersion":2,"records":[]}').records,[]);
+  assert.deepEqual(parseBroadcasts('{"schemaVersion":1,"records":[{"date":"x"}]}').records,[]);
+});

@@ -5,6 +5,8 @@ import {parseRoster} from './roster.ts';
 import type {Roster} from './roster.ts';
 import {parseDisplayNames} from './display-names.ts';
 import type {DisplayNames} from './display-names.ts';
+import {parseBroadcasts} from './broadcasts.ts';
+import type {Broadcasts} from './broadcasts.ts';
 import {parseAthleteMaster} from './athletes.ts';
 import type {AthleteMaster} from './athletes.ts';
 
@@ -60,6 +62,11 @@ export async function loadRoster(file?:string):Promise<Roster|null>{
 export async function loadDisplayNames():Promise<DisplayNames>{
  const [noc,venue]=await Promise.all([readFirst('reference/noc-zh.json'),readFirst('reference/venue-zh.json')]);
  return parseDisplayNames(noc,venue);
+}
+
+// Broadcast programmes from any provider. Missing or malformed simply means no 轉播 block.
+export async function loadBroadcasts():Promise<Broadcasts>{
+ return parseBroadcasts(await readFirst('reference/broadcasts.json'));
 }
 
 // Verified Chinese athlete names. Missing or malformed leaves every name in English.
