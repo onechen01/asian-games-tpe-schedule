@@ -1,7 +1,7 @@
 name: Update Asian Games results
 
-# Live refresh every 15 minutes; the same job also walks the rest of the Games every 3 hours,
-# so a newly published Taiwan match appears without anyone running anything by hand.
+# A Cloudflare Worker calls this workflow every 10 minutes for the live refresh; the same job
+# also walks the rest of the Games at most once every 3 hours (Taipei time).
 on:
   workflow_dispatch:
     inputs:
@@ -9,8 +9,6 @@ on:
         description: Also re-check every remaining day of the Games
         type: boolean
         default: false
-  schedule:
-    - cron: '7,22,37,52 * * * *'
 
 permissions:
   contents: write
@@ -38,7 +36,9 @@ jobs:
         run: |
           hour=$(TZ=Asia/Taipei date +%H)
           minute=$(TZ=Asia/Taipei date +%M)
-          if [ "${{ github.event.inputs.discovery }}" = "true" ] || { [ $((10#$hour % 3)) -eq 0 ] && [ $((10#$minute)) -lt 15 ]; }; then
+          # One discovery per 3-hour slot: only the first 10-minute trigger of that hour
+          # qualifies, which leaves room for the caller being a few minutes late.
+          if [ "${{ github.event.inputs.discovery }}" = "true" ] || { [ $((10#$hour % 3)) -eq 0 ] && [ $((10#$minute)) -lt 10 ]; }; then
             echo "flag=--discovery" >> "$GITHUB_OUTPUT"
           else
             echo "flag=" >> "$GITHUB_OUTPUT"
