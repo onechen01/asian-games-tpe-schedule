@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T08:51:29.654Z",
+  "generatedAt": "2026-09-20T13:06:20.574Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-20T08:51:29.468Z",
+      "generatedAt": "2026-09-20T13:06:20.372Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -709,6 +709,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -748,6 +749,7 @@
       "venueZh": null,
       "status": "START_LIST",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -785,6 +787,7 @@
       "venueZh": null,
       "status": "START_LIST",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -820,6 +823,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -860,6 +864,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -897,6 +902,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -934,6 +940,7 @@
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -969,6 +976,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1018,6 +1026,26 @@
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
+      "tpeEntrants": [
+        {
+          "name": "WU Chia-Ying",
+          "registration": "13704134",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "YU Ai-Wen",
+          "registration": "7677116",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHENG Yen-Ching",
+          "registration": "13649678",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1057,6 +1085,7 @@
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1096,6 +1125,7 @@
       "venueZh": null,
       "status": "START_LIST",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1131,6 +1161,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1169,6 +1200,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1207,6 +1239,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1243,12 +1276,13 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 5,
+      "unitCount": 4,
       "enteredAthletes": [
         "HAN An-chi",
         "LIU Pei-yin"
@@ -1280,6 +1314,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1319,6 +1354,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1355,6 +1391,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1391,12 +1428,13 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 6,
+      "unitCount": 5,
       "enteredAthletes": [
         "WANG Kuan-hung"
       ],
@@ -1427,12 +1465,13 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 4,
+      "unitCount": 3,
       "enteredAthletes": [
         "CHANG Chiao-i",
         "CHANG Ya-jia",
@@ -1466,12 +1505,13 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 5,
+      "unitCount": 4,
       "enteredAthletes": [
         "CHANG Ya-jia"
       ],
@@ -1502,12 +1542,13 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 5,
+      "unitCount": 4,
       "enteredAthletes": [
         "LIN Pei-wun"
       ],
@@ -1538,6 +1579,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1561,8 +1603,8 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T11:00:00+08:00",
-      "startTimeJst": "2026-09-23T12:00:00+09:00",
+      "startTimeTaipei": "2026-09-23T10:55:00+08:00",
+      "startTimeJst": "2026-09-23T11:55:00+09:00",
       "disciplineCode": "KTE",
       "sportZh": "空手道",
       "sportEn": "Karate",
@@ -1579,6 +1621,7 @@
       "venueZh": null,
       "status": "START_LIST",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1614,6 +1657,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1670,6 +1714,7 @@
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1705,6 +1750,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1743,6 +1789,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1777,10 +1824,10 @@
       "unit": "Women Round Robin Pool B Game 6",
       "athletes": [],
       "athletesEn": [
-        "CHEN Wei-han",
-        "CHANG Yu-min",
         "YU Chin-hua",
-        "TSAI Yu-lien"
+        "TSAI Yu-lien",
+        "CHEN Wei-han",
+        "CHANG Yu-min"
       ],
       "opponent": "Islamic Republic of Iran",
       "opponentCode": "IRI",
@@ -1788,6 +1835,7 @@
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1800,8 +1848,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "W.TEAM3-------------.GP02.000600--",
-          "id": "BK3:W.TEAM3-------------.GP02.000600--"
+          "unitId": "W.TEAM3-------------.GPB-.000600--",
+          "id": "BK3:W.TEAM3-------------.GPB-.000600--"
         }
       }
     },
@@ -1823,6 +1871,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1860,6 +1909,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1896,6 +1946,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1936,6 +1987,7 @@
       "venueZh": null,
       "status": "START_LIST",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1965,10 +2017,10 @@
       "unit": "Men Round Robin Pool C Game 6",
       "athletes": [],
       "athletesEn": [
-        "HSU Tang-chi",
         "YEH Wei-chieh",
+        "TZOU Tzu-hsi",
         "CHANG Chun-sheng",
-        "TZOU Tzu-hsi"
+        "HSU Tang-chi"
       ],
       "opponent": "Indonesia",
       "opponentCode": "INA",
@@ -1976,6 +2028,7 @@
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1988,8 +2041,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "M.TEAM3-------------.GP03.000600--",
-          "id": "BK3:M.TEAM3-------------.GP03.000600--"
+          "unitId": "M.TEAM3-------------.GPC-.000600--",
+          "id": "BK3:M.TEAM3-------------.GPC-.000600--"
         }
       }
     },
@@ -2011,6 +2064,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2058,6 +2112,7 @@
       "venueZh": null,
       "status": "START_LIST",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2093,6 +2148,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2133,6 +2189,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2173,6 +2230,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2209,6 +2267,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2245,6 +2304,7 @@
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2280,6 +2340,7 @@
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2315,6 +2376,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2355,6 +2417,7 @@
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2390,6 +2453,7 @@
       "venueZh": null,
       "status": null,
       "result": null,
+      "tpeEntrants": [],
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2452,7 +2516,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KTE 11:00 Women's Kumite -50kg Round of 16",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 10:55 Women's Kumite -50kg Round of 16",
       "row": "KTE:W.50KG--------------.8FNL.000500--"
     },
     {
@@ -2463,7 +2527,7 @@
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 12:40 Women Round Robin Pool B Game 6",
-      "row": "BK3:W.TEAM3-------------.GP02.000600--"
+      "row": "BK3:W.TEAM3-------------.GPB-.000600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2473,7 +2537,7 @@
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 13:55 Men Round Robin Pool C Game 6",
-      "row": "BK3:M.TEAM3-------------.GP03.000600--"
+      "row": "BK3:M.TEAM3-------------.GPC-.000600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2502,13 +2566,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "SHO|W.APW---------------",
-      "message": "SHO 10m Air Pistol Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "KTE|W.50KG--------------",
+      "message": "KTE Women's Kumite -50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "KTE|W.50KG--------------",
-      "message": "KTE Women's Kumite -50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "SHO|W.APW---------------",
+      "message": "SHO 10m Air Pistol Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

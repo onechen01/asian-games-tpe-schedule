@@ -1,0 +1,2666 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-20T13:08:13.535Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
+      "generatedAt": "2026-09-20T13:08:13.363Z",
+      "coverage": {
+        "sports": [
+          "ATH",
+          "BBL",
+          "BDM",
+          "BK3",
+          "BKB",
+          "BOX",
+          "CKT",
+          "CSP",
+          "ELS",
+          "EQU",
+          "FBL",
+          "FEN",
+          "GAR",
+          "HBL",
+          "HOC",
+          "KAB",
+          "MTB",
+          "SHO",
+          "SKB",
+          "SPK",
+          "SQU",
+          "SRF",
+          "SWM",
+          "TTE",
+          "VBV",
+          "WLF",
+          "ARC",
+          "BMF",
+          "DIV",
+          "SAL",
+          "SBL",
+          "SWA",
+          "WPO"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-09-25",
+            "2026-09-26"
+          ],
+          "targets": [
+            {
+              "code": "ATH",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "BBL",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "BDM",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "BK3",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "BKB",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "BOX",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "CKT",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "CSP",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "ELS",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "EQU",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "FBL",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "FEN",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "GAR",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "HBL",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "HOC",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "KAB",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "MTB",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "SHO",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "SKB",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "SPK",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "SQU",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "SRF",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "SWM",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "TTE",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "VBV",
+              "date": "2026-09-25",
+              "medalDay": false
+            },
+            {
+              "code": "WLF",
+              "date": "2026-09-25",
+              "medalDay": true
+            },
+            {
+              "code": "ARC",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "ATH",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "BBL",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "BDM",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "BKB",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "BMF",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "BOX",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "CKT",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "CSP",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "DIV",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "ELS",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "EQU",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "FBL",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "FEN",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "HBL",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "HOC",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "KAB",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "SAL",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "SBL",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "SHO",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "SKB",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "SQU",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "SRF",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "SWA",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "TTE",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "VBV",
+              "date": "2026-09-26",
+              "medalDay": false
+            },
+            {
+              "code": "WLF",
+              "date": "2026-09-26",
+              "medalDay": true
+            },
+            {
+              "code": "WPO",
+              "date": "2026-09-26",
+              "medalDay": false
+            }
+          ]
+        },
+        "missing": [],
+        "timezoneAnomalies": [
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T12:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T12:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T12:15:00+03:00",
+            "recoveredStartTime": "2026-09-25T12:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T12:30:00+03:00",
+            "recoveredStartTime": "2026-09-25T12:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T12:45:00+03:00",
+            "recoveredStartTime": "2026-09-25T12:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T13:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T13:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T13:15:00+03:00",
+            "recoveredStartTime": "2026-09-25T13:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T13:30:00+03:00",
+            "recoveredStartTime": "2026-09-25T13:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T13:45:00+03:00",
+            "recoveredStartTime": "2026-09-25T13:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.O90KG-------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T14:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T14:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T17:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T17:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T17:15:00+03:00",
+            "recoveredStartTime": "2026-09-25T17:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T17:30:00+03:00",
+            "recoveredStartTime": "2026-09-25T17:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T17:45:00+03:00",
+            "recoveredStartTime": "2026-09-25T17:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T18:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T18:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T18:15:00+03:00",
+            "recoveredStartTime": "2026-09-25T18:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T18:30:00+03:00",
+            "recoveredStartTime": "2026-09-25T18:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T18:45:00+03:00",
+            "recoveredStartTime": "2026-09-25T18:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.O90KG-------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T19:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T19:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "W.60KG--------------.8FNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T12:00:00+03:00",
+            "recoveredStartTime": "2026-09-26T12:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "W.60KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T12:15:00+03:00",
+            "recoveredStartTime": "2026-09-26T12:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "W.60KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T12:30:00+03:00",
+            "recoveredStartTime": "2026-09-26T12:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "W.60KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T12:45:00+03:00",
+            "recoveredStartTime": "2026-09-26T12:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.55KG--------------.8FNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T13:00:00+03:00",
+            "recoveredStartTime": "2026-09-26T13:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.55KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T13:15:00+03:00",
+            "recoveredStartTime": "2026-09-26T13:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.55KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T13:30:00+03:00",
+            "recoveredStartTime": "2026-09-26T13:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.55KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T13:45:00+03:00",
+            "recoveredStartTime": "2026-09-26T13:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.90KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T14:00:00+03:00",
+            "recoveredStartTime": "2026-09-26T14:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.90KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T14:15:00+03:00",
+            "recoveredStartTime": "2026-09-26T14:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.90KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T14:30:00+03:00",
+            "recoveredStartTime": "2026-09-26T14:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "W.60KG--------------.8FNL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T17:00:00+03:00",
+            "recoveredStartTime": "2026-09-26T17:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "W.60KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T17:15:00+03:00",
+            "recoveredStartTime": "2026-09-26T17:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "W.60KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T17:30:00+03:00",
+            "recoveredStartTime": "2026-09-26T17:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "W.60KG--------------.8FNL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T17:45:00+03:00",
+            "recoveredStartTime": "2026-09-26T17:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.55KG--------------.8FNL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T18:00:00+03:00",
+            "recoveredStartTime": "2026-09-26T18:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.55KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T18:15:00+03:00",
+            "recoveredStartTime": "2026-09-26T18:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.55KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T18:30:00+03:00",
+            "recoveredStartTime": "2026-09-26T18:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.55KG--------------.8FNL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T18:45:00+03:00",
+            "recoveredStartTime": "2026-09-26T18:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.90KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T19:00:00+03:00",
+            "recoveredStartTime": "2026-09-26T19:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-26",
+            "unitId": "M.90KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-26T19:15:00+03:00",
+            "recoveredStartTime": "2026-09-26T19:15:00+09:00"
+          }
+        ],
+        "unrecoveredTimezone": 0,
+        "fetchComplete": true,
+        "participationComplete": false
+      }
+    },
+    "tpenoc": null,
+    "entries": {
+      "path": "data/normalized/tpe-entries.json",
+      "events": 248
+    }
+  },
+  "date": "2026-09-25",
+  "rows": [
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T06:00:00+08:00",
+      "startTimeJst": "2026-09-25T07:00:00+09:00",
+      "disciplineCode": "SRF",
+      "sportZh": "衝浪",
+      "sportEn": "Surfing",
+      "event": "Women's Shortboard",
+      "phase": "Women's Round 1",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 13,
+      "enteredAthletes": [
+        "CHEN Wan-yu",
+        "CHUNG Yun-jung"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SRF|W.SHORTBRD----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:00:00+08:00",
+      "startTimeJst": "2026-09-25T09:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
+      "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Quarter-finals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 6,
+      "enteredAthletes": [
+        "CHANG Chia-tung",
+        "CHEN You-gang",
+        "LIN Chia-hung"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ELS|O.FTG---------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:05:00+08:00",
+      "startTimeJst": "2026-09-25T09:05:00+09:00",
+      "disciplineCode": "SKB",
+      "sportZh": "滑板",
+      "sportEn": "Skateboarding",
+      "event": "Women's Park",
+      "phase": "Women's Park Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Sky Expo Hall B",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "LIN Yi-fan"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SKB|W.PARK--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "startTimeJst": "2026-09-25T09:30:00+09:00",
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Round of 64",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 10,
+      "enteredAthletes": [
+        "CHOU Tien-chen",
+        "LIN Chun-yi"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BDM|M.SINGLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "startTimeJst": "2026-09-25T09:30:00+09:00",
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Round of 64",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 7,
+      "enteredAthletes": [
+        "CHIU Pin-chian",
+        "LIN Hsiang-ti"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BDM|W.SINGLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "startTimeJst": "2026-09-25T09:30:00+09:00",
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Round of 32",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 24,
+      "enteredAthletes": [
+        "CHAN Nicole Gonzales",
+        "HU Ling-fang",
+        "YANG Po-hsuan",
+        "YE Hong-wei"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BDM|X.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "startTimeJst": "2026-09-25T09:30:00+09:00",
+      "disciplineCode": "EQU",
+      "sportZh": "馬術",
+      "sportEn": "Equestrian",
+      "event": "Dressage Team",
+      "phase": "Dressage Team Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHEN Yi-ju",
+        "SHYONG Tien-chi",
+        "WANG Yu-jun",
+        "YEH Hsiu-hua"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "EQU|O.DRESTEAM----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "startTimeJst": "2026-09-25T09:30:00+09:00",
+      "disciplineCode": "EQU",
+      "sportZh": "馬術",
+      "sportEn": "Equestrian",
+      "event": "Dressage Individual",
+      "phase": "Dressage Team Competition & 1st Individual Qualifier",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "SHYONG Tien-chi",
+        "YEH Hsiu-hua"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "EQU|O.DRESINDV----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "startTimeJst": "2026-09-25T09:30:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Team",
+      "phase": "Men's Foil Team Table of 16",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 16,
+      "enteredAthletes": [
+        "CHEN Chih-chieh",
+        "CHEN Yi-tung",
+        "HSU Sheng-hung",
+        "KUO Chun-you"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "FEN|M.TEAMFOIL----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:45:00+08:00",
+      "startTimeJst": "2026-09-25T09:45:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "10m Air Pistol Mixed Team",
+      "phase": "10m Air Pistol Mixed Team Qualification",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "CHENG Yen-ching",
+        "HSIEH Hsiang-chen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SHO|X.APMT--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 50m Butterfly",
+      "phase": "Women's 50m Butterfly Heats",
+      "unit": "Women's 50m Butterfly Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHIU Yi-chen",
+        "HAN An-chi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHIU Yi-chen",
+          "registration": "478795",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "HAN An-chi",
+          "registration": "477449",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.50MBF-------------.HEAT.000100--",
+          "id": "SWM:W.50MBF-------------.HEAT.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's Heptathlon",
+      "phase": "Women's Heptathlon Long Jump",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 10,
+      "enteredAthletes": [
+        "CHEN Cai-juan"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|W.HEPTATH-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "disciplineCode": "CSP",
+      "sportZh": "輕艇靜水",
+      "sportEn": "Canoe Sprint",
+      "event": "Men's Kayak Double 500m",
+      "phase": "Men's Kayak Double 500m Semifinals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Miyoshi Lake Canoe Course",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 4,
+      "enteredAthletes": [
+        "LIN Yong-bo",
+        "LIN Yung-chieh"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "CSP|M.K2-500M-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "MOBA [Pokémon UNITE]",
+      "phase": "Pokémon UNITE Group A",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "CHEN Yi-tian",
+        "CHIN Yung-chi",
+        "HU Hsin-rui",
+        "KUO Yi-shuo",
+        "LIOU Ting-yi",
+        "TUCKER Sean"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ELS|O.PKU---------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Quarter-Finals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 6,
+      "enteredAthletes": [
+        "CHENG I-ching",
+        "FENG Yi-hsin",
+        "LIN Yun-ju",
+        "YEH Yi-tian"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TTE|X.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "sportEn": "Weightlifting",
+      "event": "Women's 57kg",
+      "phase": "Women's 57kg All Groups",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Trade and Industry Center",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 3,
+      "enteredAthletes": [
+        "CHEN Guan-ling"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "WLF|W.57KG--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "sportEn": "Weightlifting",
+      "event": "Women's 61kg",
+      "phase": "Women's 61kg All Groups",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Trade and Industry Center",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 3,
+      "enteredAthletes": [
+        "KUO Hsing-chun"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "WLF|W.61KG--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:08:00+08:00",
+      "startTimeJst": "2026-09-25T10:08:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 50m Breaststroke",
+      "phase": "Men's 50m Breaststroke Heats",
+      "unit": "Men's 50m Breaststroke Heat 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Chiao-i"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.50MBR-------------.HEAT.000200--",
+          "id": "SWM:M.50MBR-------------.HEAT.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:10:00+08:00",
+      "startTimeJst": "2026-09-25T10:10:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 50m Breaststroke",
+      "phase": "Men's 50m Breaststroke Heats",
+      "unit": "Men's 50m Breaststroke Heat 3",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Yu-xiang"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.50MBR-------------.HEAT.000300--",
+          "id": "SWM:M.50MBR-------------.HEAT.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:32:00+08:00",
+      "startTimeJst": "2026-09-25T10:32:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 200m Backstroke",
+      "phase": "Men's 200m Backstroke Heats",
+      "unit": "Men's 200m Backstroke Heat 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Kai-yueh",
+        "HUANG Yu-teng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHANG Kai-yueh",
+          "registration": "465030",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "HUANG Yu-teng",
+          "registration": "8546357",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.200MBA------------.HEAT.000200--",
+          "id": "SWM:M.200MBA------------.HEAT.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:00:00+08:00",
+      "startTimeJst": "2026-09-25T11:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Round of 32",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 24,
+      "enteredAthletes": [
+        "FENG Yi-hsin",
+        "HSU Hsien-chia",
+        "HUNG Jing-kai",
+        "KUO Guan-hong"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TTE|M.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:06:00+08:00",
+      "startTimeJst": "2026-09-25T11:06:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 200m Butterfly",
+      "phase": "Men's 200m Butterfly Heats",
+      "unit": "Men's 200m Butterfly Heat 3",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Kuan-hung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.200MBF------------.HEAT.000300--",
+          "id": "SWM:M.200MBF------------.HEAT.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:10:00+08:00",
+      "startTimeJst": "2026-09-25T11:10:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 4 x 100m Medley Relay",
+      "phase": "Women's 4 x 100m Medley Relay Heats",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 3,
+      "enteredAthletes": [
+        "CHANG Ya-jia",
+        "HAN An-chi",
+        "LIN Pei-wun",
+        "LIU Pei-yin"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SWM|W.4X100MMD----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:35:00+08:00",
+      "startTimeJst": "2026-09-25T11:35:00+09:00",
+      "disciplineCode": "SKB",
+      "sportZh": "滑板",
+      "sportEn": "Skateboarding",
+      "event": "Men's Park",
+      "phase": "Men's Park Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Sky Expo Hall B",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "KU Yong-yan"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SKB|M.PARK--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:50:00+08:00",
+      "startTimeJst": "2026-09-25T11:50:00+09:00",
+      "disciplineCode": "CSP",
+      "sportZh": "輕艇靜水",
+      "sportEn": "Canoe Sprint",
+      "event": "Men's Canoe Single 500m",
+      "phase": "Men's Canoe Single 500m Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Miyoshi Lake Canoe Course",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "LAI Kuan-chieh"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "CSP|M.C1-500M-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T11:00:00+08:00",
+      "startTimeJst": "2026-09-25T12:00:00+09:00",
+      "disciplineCode": "BBL",
+      "sportZh": "棒球",
+      "sportEn": "Baseball",
+      "event": "Baseball Men",
+      "phase": "Men's Placement Round",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 4,
+      "enteredAthletes": [
+        "CHANG Hsiang",
+        "CHEN Chen-wei",
+        "CHEN Hsiao-yun",
+        "CHEN Min-sih",
+        "CHENG Tsung-che",
+        "CHU Chia-en",
+        "GU LIN Ruei-yang",
+        "HSU Jo-hsi",
+        "HUANG Wei-sheng",
+        "KAO Yu-wei",
+        "KUO Tzu-chuan",
+        "LI I-wei",
+        "LIN Yi-wei",
+        "LIN Yu-li",
+        "LIN Yu-min",
+        "LIU Ji-hong",
+        "PAN Wen-hui",
+        "SUN Yi-lei",
+        "TSAI Wei-tai",
+        "WANG Cheng-hao",
+        "WANG Yan-cheng",
+        "WANG Yu-chieh",
+        "YANG Chen-yu",
+        "ZHUANG Chen Zhong-ao"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BBL|M.TEAM9-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T11:00:00+08:00",
+      "startTimeJst": "2026-09-25T12:00:00+03:00",
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Women's 54kg",
+      "phase": "Women's 54KG 1/8 Finals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "HUANG Hsiao-wen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BOX|W.54KG--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T11:30:00+08:00",
+      "startTimeJst": "2026-09-25T12:30:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Round of 32",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 16,
+      "enteredAthletes": [
+        "CHEN Szu-yu",
+        "CHENG I-ching"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TTE|W.SINGLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T12:00:00+08:00",
+      "startTimeJst": "2026-09-25T13:00:00+09:00",
+      "disciplineCode": "BK3",
+      "sportZh": "3x3籃球",
+      "sportEn": "3x3 Basketball",
+      "event": "Women",
+      "phase": "Women Semifinals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kinjo Futo Station Square Venue",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 4,
+      "enteredAthletes": [
+        "CHANG Yu-min",
+        "CHEN Wei-han",
+        "TSAI Yu-lien",
+        "YU Chin-hua"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BK3|W.TEAM3-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T12:00:00+08:00",
+      "startTimeJst": "2026-09-25T13:00:00+03:00",
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Men's 60kg",
+      "phase": "Men's 60KG 1/8 Finals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "LIN Jun-you"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BOX|M.60KG--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T12:00:00+08:00",
+      "startTimeJst": "2026-09-25T13:00:00+09:00",
+      "disciplineCode": "KAB",
+      "sportZh": "卡巴迪",
+      "sportEn": "Kabaddi",
+      "event": "Women's Team",
+      "phase": "Women's Team Semifinals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokai Citizen Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "CHEN Shi-han",
+        "CHUANG Ya-han",
+        "FENG Hsiu-chen",
+        "HU Yu-chen",
+        "HUANG Ssu-chin",
+        "HUANG Yi-yun",
+        "KANG Yung-chiao",
+        "LIN I-min",
+        "QIN Pei-jyun",
+        "REN Ming-xiu",
+        "WU Yu-jung",
+        "YEN Chiao-wen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "KAB|W.TEAM7-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T12:50:00+08:00",
+      "startTimeJst": "2026-09-25T13:50:00+09:00",
+      "disciplineCode": "BK3",
+      "sportZh": "3x3籃球",
+      "sportEn": "3x3 Basketball",
+      "event": "Men",
+      "phase": "Men Semifinals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kinjo Futo Station Square Venue",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 4,
+      "enteredAthletes": [
+        "CHANG Chun-sheng",
+        "HSU Tang-chi",
+        "TZOU Tzu-hsi",
+        "YEH Wei-chieh"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BK3|M.TEAM3-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T13:00:00+08:00",
+      "startTimeJst": "2026-09-25T14:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Round of 32",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 16,
+      "enteredAthletes": [
+        "FENG Yi-hsin",
+        "LIN Yun-ju"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TTE|M.SINGLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T13:15:00+08:00",
+      "startTimeJst": "2026-09-25T14:15:00+09:00",
+      "disciplineCode": "KAB",
+      "sportZh": "卡巴迪",
+      "sportEn": "Kabaddi",
+      "event": "Men's Team",
+      "phase": "Men's Team Semifinals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokai Citizen Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "CAI Ruei-chen",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CHUANG Chia-ming",
+        "JIN Wu Fu-kai",
+        "LI Jyun-jie",
+        "LIN Po-ting",
+        "PENG Xian-ya",
+        "SU Hsiang-chih",
+        "TSAI Chung-hao",
+        "WANG Lun-chu",
+        "YEH Jiunn-ming"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "KAB|M.TEAM7-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T14:00:00+08:00",
+      "startTimeJst": "2026-09-25T15:00:00+09:00",
+      "disciplineCode": "FBL",
+      "sportZh": "足球",
+      "sportEn": "Football",
+      "event": "Women",
+      "phase": "Women Quarter-finals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Shizuoka Stadium Ecopa",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 4,
+      "enteredAthletes": [
+        "CHANG Chi-lan",
+        "CHEN Jin-wen",
+        "CHEN Ying-hui",
+        "CHEN Yu-chin",
+        "CHENG Ssu-yu",
+        "CHUAN Tzu-yu",
+        "HE Jia-shiuan",
+        "HSU Yi-yun",
+        "HUANG Ke-sin",
+        "LIAO Jie-ning",
+        "LIN Hsin-hui",
+        "LIN Jing-xuan",
+        "LIU Ying-chia",
+        "LIU Yu-chiao",
+        "MATSUNAGA Saki",
+        "PAN Shin-yu",
+        "PAN Yen-hsin",
+        "SU Yu-hsuan",
+        "TANAKA Maho",
+        "TSENG Yun-ching",
+        "WAKABAYASHI Minori",
+        "WANG Yu-ting",
+        "WU Kai-ching"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "FBL|W.TEAM11------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T14:30:00+08:00",
+      "startTimeJst": "2026-09-25T15:30:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Round of 16",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "CHEN Szu-yu",
+        "CHENG I-ching",
+        "WU Ying-syuan",
+        "YEH Yi-tian"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TTE|W.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T14:40:00+08:00",
+      "startTimeJst": "2026-09-25T15:40:00+09:00",
+      "disciplineCode": "GAR",
+      "sportZh": "競技體操",
+      "sportEn": "Artistic Gymnastics",
+      "event": "Women's Balance Beam",
+      "phase": "Women's Balance Beam Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "LAI Pin-ju",
+        "TING Hua-tien"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GAR|W.1APBB-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T15:00:00+08:00",
+      "startTimeJst": "2026-09-25T16:00:00+09:00",
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Round of 32",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 16,
+      "enteredAthletes": [
+        "CHIU Hsiang-chieh",
+        "LEE Jhe-huei",
+        "WANG Chi-lin",
+        "YANG Po-hsuan"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BDM|M.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T15:00:00+08:00",
+      "startTimeJst": "2026-09-25T16:00:00+09:00",
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Round of 32",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 13,
+      "enteredAthletes": [
+        "HSIEH Pei-shan",
+        "HSU Yin-hui",
+        "HUNG En-tzu",
+        "LIN Jhih-yun"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BDM|W.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T15:50:00+08:00",
+      "startTimeJst": "2026-09-25T16:50:00+09:00",
+      "disciplineCode": "GAR",
+      "sportZh": "競技體操",
+      "sportEn": "Artistic Gymnastics",
+      "event": "Men's Parallel Bars",
+      "phase": "Men's Parallel Bars Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "HUNG Yuan-hsi",
+        "LEE Chih-kai"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GAR|M.1APPB-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T16:30:00+08:00",
+      "startTimeJst": "2026-09-25T17:30:00+09:00",
+      "disciplineCode": "GAR",
+      "sportZh": "競技體操",
+      "sportEn": "Artistic Gymnastics",
+      "event": "Women's Floor Exercise",
+      "phase": "Women's Floor Exercise Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "LIAO Yi-chun",
+        "LIN Yi-chen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GAR|W.1APFX-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T17:40:00+08:00",
+      "startTimeJst": "2026-09-25T18:40:00+09:00",
+      "disciplineCode": "GAR",
+      "sportZh": "競技體操",
+      "sportEn": "Artistic Gymnastics",
+      "event": "Men's Horizontal Bar",
+      "phase": "Men's Horizontal Bar Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "TANG Chia-hung"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GAR|M.1APHB-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T18:00:00+08:00",
+      "startTimeJst": "2026-09-25T19:00:00+09:00",
+      "disciplineCode": "HOC",
+      "sportZh": "曲棍球",
+      "sportEn": "Hockey",
+      "event": "Women",
+      "phase": "Women Pool A",
+      "unit": "Women Pool A Match 12",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Yu-chiu",
+        "TSAI Chen-wei",
+        "LIAO Pei-shan",
+        "HUANG Pei-Lun",
+        "CHEN Ting-Chun",
+        "PU AGUSTIN Linmey",
+        "FAN Hui-Yun",
+        "LAI Ya-Han",
+        "CHANG Tzu-ling",
+        "MAO I-Hsuan",
+        "HUANG Yu-ting",
+        "ZHU Yi-Chun",
+        "LO Tzu-Yin",
+        "WANG Shih-Han",
+        "YE Shu-Qin",
+        "CHANG Chih-Hsien",
+        "WANG Wen-Tsen",
+        "YAO Wen-Xuan"
+      ],
+      "opponent": "Malaysia",
+      "opponentCode": "MAS",
+      "venue": "Gifu Prefectural Green Stadium(Gifu)",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM11------------.GPA-.001200--",
+          "id": "HOC:W.TEAM11------------.GPA-.001200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T18:05:00+08:00",
+      "startTimeJst": "2026-09-25T19:05:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's Shot Put",
+      "phase": "Women's Shot Put Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHIANG Ching-yuan",
+        "WU Ci-en"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|W.SHOTPUT-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T18:13:00+08:00",
+      "startTimeJst": "2026-09-25T19:13:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 100m",
+      "phase": "Women's 100m Semi-Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 4,
+      "enteredAthletes": [
+        "LIAO Yan-jun"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|W.100M--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T18:33:00+08:00",
+      "startTimeJst": "2026-09-25T19:33:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 100m",
+      "phase": "Men's 100m Semi-Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 4,
+      "enteredAthletes": [
+        "CHEN Wen-pu",
+        "YANG Chun-han"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|M.100M--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T20:15:00+08:00",
+      "startTimeJst": "2026-09-25T21:15:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 400m",
+      "phase": "Women's 400m Round 1",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "CHEN Yi-cen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|W.400M--------------"
+        }
+      }
+    }
+  ],
+  "coverageComplete": true,
+  "officialNoCompetition": false,
+  "summary": {
+    "matched": 0,
+    "tpenocOnly": 0,
+    "resultsOnly": 6,
+    "entered": 41,
+    "unresolvedTbd": 0,
+    "warnings": 10
+  },
+  "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:00 Women's 50m Butterfly Heat 1",
+      "row": "SWM:W.50MBF-------------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:08 Men's 50m Breaststroke Heat 2",
+      "row": "SWM:M.50MBR-------------.HEAT.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:10 Men's 50m Breaststroke Heat 3",
+      "row": "SWM:M.50MBR-------------.HEAT.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:32 Men's 200m Backstroke Heat 2",
+      "row": "SWM:M.200MBA------------.HEAT.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 10:06 Men's 200m Butterfly Heat 3",
+      "row": "SWM:M.200MBF------------.HEAT.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：HOC 18:00 Women Pool A Match 12",
+      "row": "HOC:W.TEAM11------------.GPA-.001200--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|W.50MBF-------------",
+      "message": "SWM Women's 50m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|M.50MBR-------------",
+      "message": "SWM Men's 50m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|M.200MBA------------",
+      "message": "SWM Men's 200m Backstroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|M.200MBF------------",
+      "message": "SWM Men's 200m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    }
+  ]
+}
