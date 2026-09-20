@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T14:34:59.536Z",
+  "generatedAt": "2026-09-20T02:29:36.839Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/normalized/schedule-2026-09-20-AUTO.json",
-      "generatedAt": "2026-09-19T14:32:59.613Z",
+      "generatedAt": "2026-09-20T02:29:17.637Z",
       "coverage": {
         "sports": [
           "BDM",
@@ -33,7 +33,6 @@
           "BBL",
           "BK3",
           "BOX",
-          "EQU",
           "GAR",
           "KAB",
           "ROW"
@@ -177,11 +176,6 @@
               "medalDay": false
             },
             {
-              "code": "EQU",
-              "date": "2026-09-21",
-              "medalDay": false
-            },
-            {
               "code": "FBL",
               "date": "2026-09-21",
               "medalDay": false
@@ -273,123 +267,87 @@
             }
           ]
         },
-        "missing": [
-          {
-            "kind": "results",
-            "disciplineCode": "MMA",
-            "endpoint": "https://back.results.asiangames2026.org/s/AG2026/en/MMA/results/M.M60KG-------------.QFNL.000300--",
-            "unitId": "M.M60KG-------------.QFNL.000300--",
-            "http_status": 200,
-            "error": "Non-JSON Content-Type"
-          }
-        ],
+        "missing": [],
         "timezoneAnomalies": [
           {
             "disciplineCode": "MMA",
             "date": "2026-09-20",
             "unitId": "M.M60KG-------------.8FNL.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T10:00:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T10:00:00-09:00",
             "recoveredStartTime": "2026-09-20T10:00:00+09:00"
-          },
-          {
-            "disciplineCode": "MMA",
-            "date": "2026-09-20",
-            "unitId": "M.M60KG-------------.8FNL.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T10:10:00-12:00",
-            "recoveredStartTime": "2026-09-20T10:10:00+09:00"
           },
           {
             "disciplineCode": "MMA",
             "date": "2026-09-20",
             "unitId": "W.M54KG-------------.8FNL.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T10:20:00-12:00",
-            "recoveredStartTime": "2026-09-20T10:20:00+09:00"
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T10:10:00-09:00",
+            "recoveredStartTime": "2026-09-20T10:10:00+09:00"
           },
           {
             "disciplineCode": "MMA",
             "date": "2026-09-20",
             "unitId": "M.M71KG-------------.8FNL.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T10:30:00-12:00",
-            "recoveredStartTime": "2026-09-20T10:30:00+09:00"
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T10:20:00-09:00",
+            "recoveredStartTime": "2026-09-20T10:20:00+09:00"
           },
           {
             "disciplineCode": "MMA",
             "date": "2026-09-20",
             "unitId": "M.T65KG-------------.8FNL.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T10:40:00-12:00",
-            "recoveredStartTime": "2026-09-20T10:40:00+09:00"
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T10:30:00-09:00",
+            "recoveredStartTime": "2026-09-20T10:30:00+09:00"
           },
           {
             "disciplineCode": "MMA",
             "date": "2026-09-20",
             "unitId": "M.T77KG-------------.8FNL.000700--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T10:50:00-12:00",
-            "recoveredStartTime": "2026-09-20T10:50:00+09:00"
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T10:40:00-09:00",
+            "recoveredStartTime": "2026-09-20T10:40:00+09:00"
           },
           {
             "disciplineCode": "MMA",
             "date": "2026-09-20",
             "unitId": "M.T77KG-------------.8FNL.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T11:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T11:00:00+09:00"
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T10:50:00-09:00",
+            "recoveredStartTime": "2026-09-20T10:50:00+09:00"
           },
           {
             "disciplineCode": "MMA",
             "date": "2026-09-20",
             "unitId": "M.M60KG-------------.QFNL.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T11:10:00-12:00",
-            "recoveredStartTime": "2026-09-20T11:10:00+09:00"
-          },
-          {
-            "disciplineCode": "MMA",
-            "date": "2026-09-20",
-            "unitId": "W.M54KG-------------.QFNL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T11:20:00-12:00",
-            "recoveredStartTime": "2026-09-20T11:20:00+09:00"
-          },
-          {
-            "disciplineCode": "MMA",
-            "date": "2026-09-20",
-            "unitId": "M.T65KG-------------.QFNL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T11:30:00-12:00",
-            "recoveredStartTime": "2026-09-20T11:30:00+09:00"
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T11:00:00-09:00",
+            "recoveredStartTime": "2026-09-20T11:00:00+09:00"
           },
           {
             "disciplineCode": "MMA",
             "date": "2026-09-20",
             "unitId": "W.T60KG-------------.QFNL.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T11:40:00-12:00",
-            "recoveredStartTime": "2026-09-20T11:40:00+09:00"
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T11:20:00-09:00",
+            "recoveredStartTime": "2026-09-20T11:20:00+09:00"
           },
           {
             "disciplineCode": "MMA",
             "date": "2026-09-20",
             "unitId": "M.M71KG-------------.QFNL.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T15:00:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T15:00:00-09:00",
             "recoveredStartTime": "2026-09-20T15:00:00+09:00"
           },
           {
@@ -397,8 +355,8 @@
             "date": "2026-09-20",
             "unitId": "M.M60KG-------------.QFNL.000300--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T15:10:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T15:10:00-09:00",
             "recoveredStartTime": "2026-09-20T15:10:00+09:00"
           },
           {
@@ -406,8 +364,8 @@
             "date": "2026-09-20",
             "unitId": "M.T77KG-------------.QFNL.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T15:20:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T15:20:00-09:00",
             "recoveredStartTime": "2026-09-20T15:20:00+09:00"
           },
           {
@@ -415,8 +373,8 @@
             "date": "2026-09-20",
             "unitId": "W.M54KG-------------.QFNL.000300--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T15:30:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T15:30:00-09:00",
             "recoveredStartTime": "2026-09-20T15:30:00+09:00"
           },
           {
@@ -424,8 +382,8 @@
             "date": "2026-09-20",
             "unitId": "M.T65KG-------------.QFNL.000300--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T15:40:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T15:40:00-09:00",
             "recoveredStartTime": "2026-09-20T15:40:00+09:00"
           },
           {
@@ -433,8 +391,8 @@
             "date": "2026-09-20",
             "unitId": "W.T60KG-------------.QFNL.000100--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T15:50:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T15:50:00-09:00",
             "recoveredStartTime": "2026-09-20T15:50:00+09:00"
           },
           {
@@ -442,8 +400,8 @@
             "date": "2026-09-20",
             "unitId": "M.M71KG-------------.QFNL.000400--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T16:00:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T16:00:00-09:00",
             "recoveredStartTime": "2026-09-20T16:00:00+09:00"
           },
           {
@@ -451,8 +409,8 @@
             "date": "2026-09-20",
             "unitId": "M.T77KG-------------.QFNL.000300--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T16:10:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T16:10:00-09:00",
             "recoveredStartTime": "2026-09-20T16:10:00+09:00"
           },
           {
@@ -460,8 +418,8 @@
             "date": "2026-09-20",
             "unitId": "M.M60KG-------------.QFNL.000100--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T16:20:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T16:20:00-09:00",
             "recoveredStartTime": "2026-09-20T16:20:00+09:00"
           },
           {
@@ -469,8 +427,8 @@
             "date": "2026-09-20",
             "unitId": "M.M60KG-------------.QFNL.000400--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T16:30:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T16:30:00-09:00",
             "recoveredStartTime": "2026-09-20T16:30:00+09:00"
           },
           {
@@ -478,8 +436,8 @@
             "date": "2026-09-20",
             "unitId": "M.M71KG-------------.QFNL.000100--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T16:40:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T16:40:00-09:00",
             "recoveredStartTime": "2026-09-20T16:40:00+09:00"
           },
           {
@@ -487,8 +445,8 @@
             "date": "2026-09-20",
             "unitId": "M.M71KG-------------.QFNL.000300--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T16:50:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T16:50:00-09:00",
             "recoveredStartTime": "2026-09-20T16:50:00+09:00"
           },
           {
@@ -496,8 +454,8 @@
             "date": "2026-09-20",
             "unitId": "M.T65KG-------------.QFNL.000100--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T17:00:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T17:00:00-09:00",
             "recoveredStartTime": "2026-09-20T17:00:00+09:00"
           },
           {
@@ -505,8 +463,8 @@
             "date": "2026-09-20",
             "unitId": "M.T65KG-------------.QFNL.000400--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T17:10:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T17:10:00-09:00",
             "recoveredStartTime": "2026-09-20T17:10:00+09:00"
           },
           {
@@ -514,8 +472,8 @@
             "date": "2026-09-20",
             "unitId": "M.T77KG-------------.QFNL.000400--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T17:20:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T17:20:00-09:00",
             "recoveredStartTime": "2026-09-20T17:20:00+09:00"
           },
           {
@@ -523,8 +481,8 @@
             "date": "2026-09-20",
             "unitId": "M.T77KG-------------.QFNL.000100--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T17:30:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T17:30:00-09:00",
             "recoveredStartTime": "2026-09-20T17:30:00+09:00"
           },
           {
@@ -532,8 +490,8 @@
             "date": "2026-09-20",
             "unitId": "W.M54KG-------------.QFNL.000400--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T17:40:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T17:40:00-09:00",
             "recoveredStartTime": "2026-09-20T17:40:00+09:00"
           },
           {
@@ -541,8 +499,8 @@
             "date": "2026-09-20",
             "unitId": "W.M54KG-------------.QFNL.000100--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T17:50:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T17:50:00-09:00",
             "recoveredStartTime": "2026-09-20T17:50:00+09:00"
           },
           {
@@ -550,8 +508,8 @@
             "date": "2026-09-20",
             "unitId": "W.T60KG-------------.QFNL.000300--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T18:00:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T18:00:00-09:00",
             "recoveredStartTime": "2026-09-20T18:00:00+09:00"
           },
           {
@@ -559,117 +517,9 @@
             "date": "2026-09-20",
             "unitId": "W.T60KG-------------.QFNL.000400--",
             "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T18:10:00-12:00",
+            "sourceOffset": "-09:00",
+            "originalStartTime": "2026-09-20T18:10:00-09:00",
             "recoveredStartTime": "2026-09-20T18:10:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "W.TEAM2-------------.GPA-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T09:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T09:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "W.TEAM2-------------.GPC-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T09:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T09:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "W.TEAM2-------------.GPD-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T10:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T10:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "W.TEAM2-------------.GPF-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T10:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T10:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "W.TEAM2-------------.GPE-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T11:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T11:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "W.TEAM2-------------.GPB-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T11:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T11:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "M.TEAM2-------------.GPE-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T13:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T13:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "M.TEAM2-------------.GPE-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T13:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T13:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "M.TEAM2-------------.GPH-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T14:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T14:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "M.TEAM2-------------.GPH-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T14:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T14:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "M.TEAM2-------------.GPG-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T15:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "VBV",
-            "date": "2026-09-20",
-            "unitId": "M.TEAM2-------------.GPG-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "-12:00",
-            "originalStartTime": "2026-09-20T15:00:00-12:00",
-            "recoveredStartTime": "2026-09-20T15:00:00+09:00"
           },
           {
             "disciplineCode": "MMA",
@@ -781,7 +631,7 @@
           }
         ],
         "unrecoveredTimezone": 0,
-        "fetchComplete": false,
+        "fetchComplete": true,
         "participationComplete": false
       }
     },
@@ -809,10 +659,14 @@
       ],
       "opponent": null,
       "opponentCode": null,
-      "venue": "Circuit course in Shinshiro City",
+      "venue": "Shinshiro Cycling Road Course",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "40:02.79",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -852,8 +706,12 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -889,8 +747,12 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "8.793",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -928,8 +790,12 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "626.6",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -967,8 +833,12 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1247.2",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1004,8 +874,12 @@
       "opponentCode": "INA",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1041,8 +915,12 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2:13.36",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1082,8 +960,12 @@
       "opponentCode": "BAN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1119,8 +1001,12 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "9.686",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1156,8 +1042,12 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2:01.63",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1193,8 +1083,12 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2:01.70",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1214,8 +1108,49 @@
     },
     {
       "date": "2026-09-20",
-      "startTimeTaipei": "2026-09-20T09:50:00+08:00",
-      "startTimeJst": "2026-09-20T10:50:00-12:00",
+      "startTimeTaipei": "2026-09-20T09:40:00+08:00",
+      "startTimeJst": "2026-09-20T10:40:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Women's Individual Kata",
+      "phase": "Women's Individual Kata Quarterfinals",
+      "unit": "Women's Individual Kata Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "CHIEN Hui-hsuan"
+      ],
+      "opponent": "TORRES Rebecca Cyril",
+      "opponentCode": "PHI",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.KATA--------------.QFNL.000300--",
+          "id": "KTE:W.KATA--------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "startTimeTaipei": "2026-09-20T09:40:00+08:00",
+      "startTimeJst": "2026-09-20T10:40:00-09:00",
       "disciplineCode": "MMA",
       "sportZh": "綜合格鬥",
       "sportEn": "Mixed Martial Arts",
@@ -1230,8 +1165,12 @@
       "opponentCode": "KAZ",
       "venue": "Nagoya City Inae Sports Center",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1267,8 +1206,12 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "50.35",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1304,8 +1247,12 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "31.62",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1341,8 +1288,12 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "32.19",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1357,6 +1308,47 @@
         "results": {
           "unitId": "W.50MBR-------------.HEAT.000300--",
           "id": "SWM:W.50MBR-------------.HEAT.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "startTimeTaipei": "2026-09-20T10:00:00+08:00",
+      "startTimeJst": "2026-09-20T11:00:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Women's Individual Kata",
+      "phase": "Women's Individual Kata Semifinals",
+      "unit": "Women's Individual Kata Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "CHIEN Hui-hsuan"
+      ],
+      "opponent": "LAU Mo Sheung Grace",
+      "opponentCode": "HKG",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.KATA--------------.SFNL.000200--",
+          "id": "KTE:W.KATA--------------.SFNL.000200--"
         }
       }
     },
@@ -1378,8 +1370,12 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "56.11",
+        "opponent": null,
+        "source": "results"
+      },
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1419,7 +1415,7 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpenocResult": null,
       "rank": null,
@@ -1495,7 +1491,7 @@
       ],
       "opponent": null,
       "opponentCode": null,
-      "venue": "Circuit course in Shinshiro City",
+      "venue": "Shinshiro Cycling Road Course",
       "venueZh": null,
       "status": "START_LIST",
       "result": null,
@@ -1556,7 +1552,7 @@
     {
       "date": "2026-09-20",
       "startTimeTaipei": "2026-09-20T14:10:00+08:00",
-      "startTimeJst": "2026-09-20T15:10:00-12:00",
+      "startTimeJst": "2026-09-20T15:10:00-09:00",
       "disciplineCode": "MMA",
       "sportZh": "綜合格鬥",
       "sportEn": "Mixed Martial Arts",
@@ -1634,7 +1630,7 @@
     {
       "date": "2026-09-20",
       "startTimeTaipei": "2026-09-20T17:00:00+08:00",
-      "startTimeJst": "2026-09-20T18:00:00-12:00",
+      "startTimeJst": "2026-09-20T18:00:00-09:00",
       "disciplineCode": "MMA",
       "sportZh": "綜合格鬥",
       "sportEn": "Mixed Martial Arts",
@@ -1832,15 +1828,15 @@
       }
     }
   ],
-  "coverageComplete": false,
+  "coverageComplete": true,
   "officialNoCompetition": false,
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 27,
+    "resultsOnly": 29,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 38
+    "warnings": 40
   },
   "warnings": [
     {
@@ -1900,7 +1896,12 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：MMA 09:50 Bout 6",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:40 Women's Individual Kata Quarterfinal",
+      "row": "KTE:W.KATA--------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：MMA 09:40 Bout 6",
       "row": "MMA:M.T77KG-------------.8FNL.000700--"
     },
     {
@@ -1917,6 +1918,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:59 Women's 50m Breaststroke Heat 3",
       "row": "SWM:W.50MBR-------------.HEAT.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 10:00 Women's Individual Kata Semifinal",
+      "row": "KTE:W.KATA--------------.SFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
