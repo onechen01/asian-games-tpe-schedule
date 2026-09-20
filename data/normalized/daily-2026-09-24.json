@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T07:50:07.601Z",
+  "generatedAt": "2026-09-20T08:52:22.221Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-20T07:50:06.510Z",
+      "generatedAt": "2026-09-20T08:52:22.019Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -300,7 +300,368 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [],
+        "timezoneAnomalies": [
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.51KG--------------.8FNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T12:00:00+03:00",
+            "recoveredStartTime": "2026-09-24T12:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.51KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T12:15:00+03:00",
+            "recoveredStartTime": "2026-09-24T12:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.51KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T12:30:00+03:00",
+            "recoveredStartTime": "2026-09-24T12:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.51KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T12:45:00+03:00",
+            "recoveredStartTime": "2026-09-24T12:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.65KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T13:00:00+03:00",
+            "recoveredStartTime": "2026-09-24T13:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.65KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T13:15:00+03:00",
+            "recoveredStartTime": "2026-09-24T13:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.65KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T13:30:00+03:00",
+            "recoveredStartTime": "2026-09-24T13:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "M.70KG--------------.8FNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T13:45:00+03:00",
+            "recoveredStartTime": "2026-09-24T13:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "M.70KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T14:00:00+03:00",
+            "recoveredStartTime": "2026-09-24T14:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "M.70KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T14:15:00+03:00",
+            "recoveredStartTime": "2026-09-24T14:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "M.70KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T14:30:00+03:00",
+            "recoveredStartTime": "2026-09-24T14:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.51KG--------------.8FNL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T17:00:00+03:00",
+            "recoveredStartTime": "2026-09-24T17:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.51KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T17:15:00+03:00",
+            "recoveredStartTime": "2026-09-24T17:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.51KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T17:30:00+03:00",
+            "recoveredStartTime": "2026-09-24T17:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.51KG--------------.8FNL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T17:45:00+03:00",
+            "recoveredStartTime": "2026-09-24T17:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.65KG--------------.8FNL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T18:00:00+03:00",
+            "recoveredStartTime": "2026-09-24T18:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.65KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T18:15:00+03:00",
+            "recoveredStartTime": "2026-09-24T18:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "W.65KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T18:30:00+03:00",
+            "recoveredStartTime": "2026-09-24T18:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "M.70KG--------------.8FNL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T18:45:00+03:00",
+            "recoveredStartTime": "2026-09-24T18:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "M.70KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T19:00:00+03:00",
+            "recoveredStartTime": "2026-09-24T19:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "M.70KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T19:15:00+03:00",
+            "recoveredStartTime": "2026-09-24T19:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-24",
+            "unitId": "M.70KG--------------.8FNL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-24T19:30:00+03:00",
+            "recoveredStartTime": "2026-09-24T19:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T12:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T12:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T12:15:00+03:00",
+            "recoveredStartTime": "2026-09-25T12:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T12:30:00+03:00",
+            "recoveredStartTime": "2026-09-25T12:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T12:45:00+03:00",
+            "recoveredStartTime": "2026-09-25T12:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T13:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T13:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T13:15:00+03:00",
+            "recoveredStartTime": "2026-09-25T13:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T13:30:00+03:00",
+            "recoveredStartTime": "2026-09-25T13:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T13:45:00+03:00",
+            "recoveredStartTime": "2026-09-25T13:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.O90KG-------------.8FNL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T14:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T14:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T17:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T17:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T17:15:00+03:00",
+            "recoveredStartTime": "2026-09-25T17:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T17:30:00+03:00",
+            "recoveredStartTime": "2026-09-25T17:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "W.54KG--------------.8FNL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T17:45:00+03:00",
+            "recoveredStartTime": "2026-09-25T17:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T18:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T18:00:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T18:15:00+03:00",
+            "recoveredStartTime": "2026-09-25T18:15:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T18:30:00+03:00",
+            "recoveredStartTime": "2026-09-25T18:30:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.60KG--------------.8FNL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T18:45:00+03:00",
+            "recoveredStartTime": "2026-09-25T18:45:00+09:00"
+          },
+          {
+            "disciplineCode": "BOX",
+            "date": "2026-09-25",
+            "unitId": "M.O90KG-------------.8FNL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+03:00",
+            "originalStartTime": "2026-09-25T19:00:00+03:00",
+            "recoveredStartTime": "2026-09-25T19:00:00+09:00"
+          }
+        ],
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
         "participationComplete": false
@@ -1063,48 +1424,12 @@
     {
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T11:00:00+08:00",
-      "startTimeJst": "2026-09-24T12:00:00+09:00",
-      "disciplineCode": "BOX",
-      "sportZh": "拳擊",
-      "sportEn": "Boxing",
-      "event": "Men's 70kg",
-      "phase": "Men's 70kg - Preliminaries - Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nishio Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "KAN Chia-wei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BOX|M.70KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T11:00:00+08:00",
-      "startTimeJst": "2026-09-24T12:00:00+09:00",
+      "startTimeJst": "2026-09-24T12:00:00+03:00",
       "disciplineCode": "BOX",
       "sportZh": "拳擊",
       "sportEn": "Boxing",
       "event": "Women's 51kg",
-      "phase": "Women's 51kg - Preliminaries - Round of 16",
+      "phase": "Women's 51KG 1/8 Finals",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -1129,42 +1454,6 @@
       "sources": {
         "entries": {
           "eventId": "BOX|W.51KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T11:00:00+08:00",
-      "startTimeJst": "2026-09-24T12:00:00+09:00",
-      "disciplineCode": "BOX",
-      "sportZh": "拳擊",
-      "sportEn": "Boxing",
-      "event": "Women's 65kg",
-      "phase": "Women's 65kg - Preliminaries - Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nishio Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHEN Nien-chin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BOX|W.65KG--------------"
         }
       }
     },
@@ -1275,6 +1564,42 @@
         "results": {
           "unitId": "M.TEAM7-------------.GPA-.001000--",
           "id": "KAB:M.TEAM7-------------.GPA-.001000--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T12:45:00+08:00",
+      "startTimeJst": "2026-09-24T13:45:00+03:00",
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Men's 70kg",
+      "phase": "Men's 70KG 1/8 Finals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "KAN Chia-wei"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BOX|M.70KG--------------"
         }
       }
     },
@@ -1849,7 +2174,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 2,
-    "entered": 39,
+    "entered": 38,
     "unresolvedTbd": 0,
     "warnings": 2
   },
