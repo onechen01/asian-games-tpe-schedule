@@ -2,6 +2,7 @@ import test from 'node:test';import assert from 'node:assert/strict';import {rea
 import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames} from '../lib/schedule.ts';
 import type {Daily,Row} from '../lib/schedule.ts';
 import {loadSchedule,loadAthletes,loadDisplayNames} from '../lib/load.ts';
+import {athleteLabel} from '../lib/athletes.ts';
 import {orgLabel,venueLabel,parseDisplayNames} from '../lib/display-names.ts';
 
 const daily = async ()=>parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-18.json','utf8')),'2026-09-18');
@@ -122,13 +123,57 @@ test('an entered event is listed but never counted as a confirmed start',async()
   assert.ok(shown.filter(r=>!isEntered(r)).every(r=>r.entryLevel === 'unit'));
 });
 
-test('entered athletes keep official English names when no verified Chinese mapping exists',async()=>{
+test('entered athletes now resolve to verified Chinese names, and an unverified one stays English',async()=>{
   const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-21.json','utf8')),'2026-09-21');
   const swim = taiwanRows(day).find(r=>isEntered(r) && r.disciplineCode === 'SWM')!;
   const master = await loadAthletes();
   const names = entryNames(swim,master);
-  assert.deepEqual(names,swim.enteredAthletes);
-  assert.ok(names.every(n=>/^[A-Za-z]/.test(n)),'沒有可靠中文對照時保留官方英文');
+  assert.equal(names.length,swim.enteredAthletes!.length);
+  assert.ok(names.every(n=>/[一-鿿]/.test(n)),'已驗證的選手顯示中文');
+  // Nothing outside the master is ever translated.
+  assert.equal(athleteLabel('SOMEONE Not-in-master',master),'SOMEONE Not-in-master');
+});
+
+test('the unresolved BKB LIN Yu-Ting keeps the official English name',async()=>{
+  const master = await loadAthletes();
+  assert.equal(athleteLabel('LIN Yu-Ting',master,{reg:'13990355',discipline:'BKB'}),'LIN Yu-Ting');
+  assert.equal(athleteLabel('LIN Yu-Ting',master,{discipline:'BKB'}),'LIN Yu-Ting');
+  const doc = JSON.parse(await readFile('data/reference/tpe-athlete-master.json','utf8'));
+  assert.ok(!doc.athletes.some((a:{reg:string})=>a.reg === '13990355'),'REVIEW 不進顯示查找');
+  assert.equal(doc.review[0].zh,null,'不得猜中文姓名');
+  // 林郁婷 exists, but only as the boxer; no basketball record may carry that identity.
+  assert.ok(doc.athletes.every((a:{zh:string;disciplines:string[]})=>
+    !(a.zh === '林郁婷' && a.disciplines.includes('BKB'))));
+  assert.ok(!doc.review.some((a:{zh:string|null})=>a.zh === '林育庭'));
+});
+
+test('two different people sharing one romanisation never overwrite each other',async()=>{
+  const master = await loadAthletes();
+  assert.equal(athleteLabel('LIN Yi-chen',master,{reg:'10199742'}),'林翊榛');
+  assert.equal(athleteLabel('LIN Yi-chen',master,{reg:'15976727'}),'林宜蓁');
+  assert.equal(athleteLabel('LIN Yi-chen',master,{discipline:'TKW'}),'林翊榛');
+  assert.equal(athleteLabel('LIN Yi-chen',master,{discipline:'GAR'}),'林宜蓁');
+  // Without a discriminator the ambiguous name stays in English rather than picking one person.
+  assert.equal(athleteLabel('LIN Yi-chen',master),'LIN Yi-chen');
+});
+
+test('a withdrawn athlete keeps the verified Chinese identity',async()=>{
+  const master = await loadAthletes();
+  const doc = JSON.parse(await readFile('data/reference/tpe-athlete-master.json','utf8'));
+  const gone = doc.athletes.find((a:{reg:string})=>a.reg === '10452144');
+  assert.equal(gone.participationStatus,'WITHDRAWN');
+  assert.equal(gone.confidence,'VERIFIED');
+  assert.equal(athleteLabel(gone.officialEn,master,{reg:gone.reg}),'古林睿煬');
+  // UNKNOWN is never silently promoted to ACTIVE.
+  assert.ok(doc.athletes.some((a:{participationStatus:string})=>a.participationStatus === 'UNKNOWN'));
+});
+
+test('Chinese Taipei is shown to readers as 台灣, never 中華隊',async()=>{
+  const names = await loadDisplayNames();
+  assert.equal(names.orgs.TPE,'台灣');
+  const page = await readFile('web/app/page.tsx','utf8');
+  assert.ok(!page.includes('中華隊'),'頁面文案不得出現中華隊');
+  assert.ok(!(await readFile('web/lib/schedule.ts','utf8')).includes('中華隊'));
 });
 
 test('countries and venues display in Chinese and fall back to the official text',async()=>{

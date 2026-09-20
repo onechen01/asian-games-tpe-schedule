@@ -42,12 +42,12 @@ export const sportLabel=(row:Row)=>row.sportZh||row.sportEn||row.disciplineCode|
 export function displayNames(row:Row,master:AthleteMaster):{names:string[];fromMaster:boolean}{
  if(row.athletes.length)return {names:row.athletes,fromMaster:false};
  if(!row.athletesEn.length)return {names:[],fromMaster:false};
- return {names:athleteLabels(row.athletesEn,master),fromMaster:true};
+ return {names:athleteLabels(row.athletesEn,master,row.disciplineCode),fromMaster:true};
 }
 // The committee's Chinese names, when it supplied any.
 export const nameList=(row:Row)=>row.athletes;
 // Entered rows carry the officially registered athletes, same lookup rule.
-export const entryNames=(row:Row,master:AthleteMaster)=>athleteLabels(row.enteredAthletes??[],master);
+export const entryNames=(row:Row,master:AthleteMaster)=>athleteLabels(row.enteredAthletes??[],master,row.disciplineCode);
 
 const STATUS:Record<string,string>={OFFICIAL:'已結束',FINISHED:'已結束',RUNNING:'比賽中',LIVE:'比賽中',
   SCHEDULED:'尚未開始',START_LIST:'尚未開始',PROVISIONAL:'尚未開始',GETTING_READY:'尚未開始'};
