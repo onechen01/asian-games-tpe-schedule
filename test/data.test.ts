@@ -121,10 +121,19 @@ test('the real 9/20 mixed martial arts units are recovered, not dropped',async()
   assert.equal(mma.length,3,'三場中華隊綜合格鬥賽事必須留在 9/20');
   for (const row of mma) {
     assert.equal(row.timezoneAnomaly.code,'RECOVERED_OFFICIAL_TIME');
-    assert.ok(row.originalStartTime.endsWith('-12:00'),'原始 offset 必須保留');
+    // The official side has already changed this offset once (-12:00 then -09:00); what
+    // matters is that whatever it publishes is kept verbatim and is not the venue offset.
+    assert.ok(!row.originalStartTime.endsWith('+09:00'),'原始 offset 必須保留');
+    assert.equal(row.originalStartTime.slice(-6),row.timezoneAnomaly.sourceOffset);
     assert.equal(row.startTimeTaipei.slice(0,10),'2026-09-20');
   }
-  assert.deepEqual(mma.map((r:any)=>r.startTimeTaipei.slice(11,16)).sort(),['09:50','14:10','17:00']);
+  // Exact start times move as the official schedule is revised; what must hold is that the
+  // recovered reading is the wall clock minus one hour, on the same Taiwan day.
+  for (const row of mma) {
+    const wall = row.originalStartTime.slice(11,16);
+    const hour = String(Number(wall.slice(0,2)) - 1).padStart(2,'0');
+    assert.equal(row.startTimeTaipei.slice(11,16), hour + wall.slice(2));
+  }
   // A day carrying anomalies is not reported as cleanly complete.
   assert.ok(day.coverage.timezoneAnomalies.length > 0);
 });

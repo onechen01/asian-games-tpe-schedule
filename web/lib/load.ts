@@ -5,6 +5,8 @@ import {parseRoster} from './roster.ts';
 import type {Roster} from './roster.ts';
 import {parseDisplayNames} from './display-names.ts';
 import type {DisplayNames} from './display-names.ts';
+import {parseAthleteMaster} from './athletes.ts';
+import type {AthleteMaster} from './athletes.ts';
 
 // The working directory differs between `next start` from the repo root, `next start` inside
 // web/, and a deployed serverless function, so data/ is located by probing instead of being
@@ -58,4 +60,9 @@ export async function loadRoster(file?:string):Promise<Roster|null>{
 export async function loadDisplayNames():Promise<DisplayNames>{
  const [noc,venue]=await Promise.all([readFirst('reference/noc-zh.json'),readFirst('reference/venue-zh.json')]);
  return parseDisplayNames(noc,venue);
+}
+
+// Verified Chinese athlete names. Missing or malformed leaves every name in English.
+export async function loadAthletes():Promise<AthleteMaster>{
+ return parseAthleteMaster(await readFirst('reference/tpe-athlete-master.json'));
 }

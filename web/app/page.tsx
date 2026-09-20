@@ -1,22 +1,22 @@
-import {loadSchedule,loadRoster,loadDisplayNames} from '../lib/load';
+import {loadSchedule,loadAthletes,loadDisplayNames} from '../lib/load';
 import {taipeiDate,shiftDate,validDate,formatTaipei,sportLabel,displayNames,entryNames,emptyState,isEntered,
  statusLabel,isFinished,taiwanRows,pendingRows,hasTimeConflict} from '../lib/schedule';
 import type {Daily,Row} from '../lib/schedule';
-import type {Roster} from '../lib/roster';
+import type {AthleteMaster} from '../lib/athletes';
 import {orgLabel,venueLabel} from '../lib/display-names';
 import type {DisplayNames} from '../lib/display-names';
 export const dynamic='force-dynamic';
 export const revalidate=0;
 // A registered-but-undrawn event is never shown as a confirmed start time: it names the event
 // window, the number of units that day, and who is entered.
-function EnteredCard({row,roster,names:display}:{row:Row;roster:Roster|null;names:DisplayNames}){
- const names=entryNames(row,roster),venue=venueLabel(row.venueZh,row.venue,display);
+function EnteredCard({row,master,names:display}:{row:Row;master:AthleteMaster;names:DisplayNames}){
+ const names=entryNames(row,master),venue=venueLabel(row.venueZh,row.venue,display);
  // The delegation is named through the same NOC mapping as any other country.
  const tpe=orgLabel('TPE','Chinese Taipei',display);
  return <article className="match"><div className="match-time"><time>{formatTaipei(row.startTimeTaipei)}</time><span>本項起始・台灣時間</span></div><div className="match-main"><div className="match-top"><span className="sport">{sportLabel(row)}</span><span className="badge">待確認</span></div><h3>{row.event||'待確認'}</h3>{names.length>0&&<p className="opponent">{tpe}報名：{names.slice(0,4).join('、')}{names.length>4&&` 等 ${names.length} 人`}</p>}<dl><div><dt>比賽項目</dt><dd>{row.event||'待確認'}</dd></div>{row.unitCount?<div><dt>當日場次</dt><dd>{row.unitCount} 場</dd></div>:null}{venue&&<div><dt>場館</dt><dd>{venue}</dd></div>}</dl><p className="result-pending">官方尚未公布分組，實際出賽時間待確認。本項自 {formatTaipei(row.startTimeTaipei)} 開始。</p>{names.length>4&&<details className="roster"><summary>查看完整報名名單（{names.length} 人）</summary><p>{names.join('、')}</p><p>報名名單不代表全部在該場出賽，實際名單以官方公布為準。</p></details>}</div></article>
 }
-function Card({row,conflict,pending,roster,names:display}:{row:Row;conflict:boolean;pending?:boolean;roster:Roster|null;names:DisplayNames}){
- const {names}=displayNames(row,roster),status=statusLabel(row),score=row.result;
+function Card({row,conflict,pending,master,names:display}:{row:Row;conflict:boolean;pending?:boolean;master:AthleteMaster;names:DisplayNames}){
+ const {names}=displayNames(row,master),status=statusLabel(row),score=row.result;
  const venue=venueLabel(row.venueZh,row.venue,display);
  const opponent=orgLabel(row.opponentCode,row.opponent,display);
  const tpe=orgLabel('TPE','Chinese Taipei',display);
@@ -24,7 +24,7 @@ function Card({row,conflict,pending,roster,names:display}:{row:Row;conflict:bool
 }
 export default async function Page({searchParams}:{searchParams:Promise<{date?:string|string[]}>}){
  const query=await searchParams,today=taipeiDate(),requested=typeof query.date==='string'?query.date:today,invalid=!validDate(requested),date=invalid?today:requested;
- const [loaded,roster,display]=await Promise.all([loadSchedule(date),loadRoster(),loadDisplayNames()]);
+ const [loaded,master,display]=await Promise.all([loadSchedule(date),loadAthletes(),loadDisplayNames()]);
  const data:Daily|null=loaded.kind==='ready'?loaded.data:null;
  const rows=data?taiwanRows(data):[],pending=data?pendingRows(data):[];
  const dayLabel=date===today?'今天':date===shiftDate(today,1)?'明天':date===shiftDate(today,-1)?'昨天':'所選日期';
@@ -45,7 +45,7 @@ export default async function Page({searchParams}:{searchParams:Promise<{date?:s
   if(state==='incomplete')return <><h3>目前查到 0 場，但這天的資料同步未完成</h3><p>不能據此判定當天沒有台灣出賽。</p></>;
   return <><h3>這一天尚無已確認的台灣賽事</h3><p>僅限已取得的項目，不能據此判定當天沒有台灣出賽。</p></>;})()}</section>
  :<div className="matches">{rows.map(row=>isEntered(row)
-   ?<EnteredCard key={'entered-'+row.disciplineCode+'-'+row.event+'-'+row.startTimeTaipei} row={row} roster={roster} names={display}/>
-   :<Card key={row.sources.results?.id||row.sources.tpenoc?.sport+'-'+row.startTimeTaipei} row={row} conflict={hasTimeConflict(data,row)} roster={roster} names={display}/>)}{pending.map(row=><Card key={'tbd-'+(row.sources.results?.id||row.startTimeTaipei)} row={row} conflict={false} pending roster={roster} names={display}/>)}</div>}
+   ?<EnteredCard key={'entered-'+row.disciplineCode+'-'+row.event+'-'+row.startTimeTaipei} row={row} master={master} names={display}/>
+   :<Card key={row.sources.results?.id||row.sources.tpenoc?.sport+'-'+row.startTimeTaipei} row={row} conflict={hasTimeConflict(data,row)} master={master} names={display}/>)}{pending.map(row=><Card key={'tbd-'+(row.sources.results?.id||row.startTimeTaipei)} row={row} conflict={false} pending master={master} names={display}/>)}</div>}
  <footer><span>資料來源：亞運官方 Results ＋ 中華奧會每日賽程</span><span>本機 MVP・非官方網站・手動同步</span></footer></main>
 }

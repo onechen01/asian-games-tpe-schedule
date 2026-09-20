@@ -1,0 +1,173 @@
+{
+ "schemaVersion": 1,
+ "title": "中華隊選手主檔（Reg 為主鍵）",
+ "metadata": {
+  "displayOnly": true,
+  "purpose": "只提供中文姓名顯示。canonical 與 Results 原始資料一律保留官方英文姓名，不得被中文覆寫。",
+  "keyRule": "reg 是 Results 的官方選手識別碼，為長期主鍵；officialEn 供沒有 reg 的來源比對。",
+  "confidenceRule": "只有 VERIFIED 可以顯示在網站上。zh 為 null 代表尚未確認，保留官方英文。",
+  "capturedAt": "2026-09-20"
+ },
+ "athletes": [
+  {
+   "reg": "3483464",
+   "officialEn": "CHEN Yu-hsun",
+   "zh": "陳郁勲",
+   "gender": "M",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  },
+  {
+   "reg": "13758863",
+   "officialEn": "CHEN Po-yi",
+   "zh": "陳柏邑",
+   "gender": "M",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  },
+  {
+   "reg": "13655436",
+   "officialEn": "YU Kai-wen",
+   "zh": "余凱文",
+   "gender": "M",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  },
+  {
+   "reg": "13656004",
+   "officialEn": "LIN Wei-chieh",
+   "zh": "林韋傑",
+   "gender": "M",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  },
+  {
+   "reg": "3589239",
+   "officialEn": "CHANG Yu-sung",
+   "zh": "張祐菘",
+   "gender": "M",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  },
+  {
+   "reg": "3607367",
+   "officialEn": "HUANG Shih-yuan",
+   "zh": "黃詩媛",
+   "gender": "W",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  },
+  {
+   "reg": "3500721",
+   "officialEn": "HSU Chiao-ying",
+   "zh": "徐巧楹",
+   "gender": "W",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  },
+  {
+   "reg": "13768472",
+   "officialEn": "ZHOU Yan-zhen",
+   "zh": "周宴甄",
+   "gender": "W",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  },
+  {
+   "reg": "13770907",
+   "officialEn": "CHIANG Min-yu",
+   "zh": "江旻育",
+   "gender": "W",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  },
+  {
+   "reg": "13778200",
+   "officialEn": "LO Shu-ting",
+   "zh": "羅舒婷",
+   "gender": "W",
+   "disciplines": [
+    "TST"
+   ],
+   "confidence": "VERIFIED",
+   "aliases": [],
+   "provenance": {
+    "source": "data/reference/tpe-roster-2026.json#verifiedNames",
+    "method": "human-checked",
+    "confirmedAt": "2026-09-18"
+   }
+  }
+ ]
+}

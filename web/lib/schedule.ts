@@ -33,31 +33,21 @@ export function formatTaipei(value?:string|null,withDate=false){
     ...(withDate?{month:'numeric',day:'numeric'}:{})}).format(new Date(value));
 }
 
-import {chineseNamesFor} from './roster.ts';
-import type {Roster} from './roster.ts';
+import {athleteLabels} from './athletes.ts';
+import type {AthleteMaster} from './athletes.ts';
 
 export const sportLabel=(row:Row)=>row.sportZh||row.sportEn||row.disciplineCode||'運動待確認';
-// Chinese names are the headline. When only the English roster exists it stays in the data
-// and is shown as secondary detail instead, so no name is invented or dropped.
+// Chinese names come from the committee sheet when it supplied them; otherwise each official
+// English name is looked up in the athlete master, and an unverified name stays in English.
+export function displayNames(row:Row,master:AthleteMaster):{names:string[];fromMaster:boolean}{
+ if(row.athletes.length)return {names:row.athletes,fromMaster:false};
+ if(!row.athletesEn.length)return {names:[],fromMaster:false};
+ return {names:athleteLabels(row.athletesEn,master),fromMaster:true};
+}
+// The committee's Chinese names, when it supplied any.
 export const nameList=(row:Row)=>row.athletes;
-// The reference roster is consulted only when the daily sources gave no Chinese names, and
-// only when every athlete on court resolves with high confidence -- a partial list would
-// misrepresent the line-up. It never adds, removes or replaces anyone.
-export function displayNames(row:Row,roster:Roster|null):{names:string[];fromReference:boolean}{
- if(row.athletes.length)return {names:row.athletes,fromReference:false};
- if(!roster||!row.athletesEn.length)return {names:[],fromReference:false};
- const {names,complete}=chineseNamesFor(row.athletesEn,row.disciplineCode,roster);
- return complete?{names,fromReference:true}:{names:[],fromReference:false};
-}
-// Entered rows carry the officially registered athletes in English. Chinese is shown only when
-// every name resolves through the verified mapping; otherwise the official English stands.
-export function entryNames(row:Row,roster:Roster|null):string[]{
- const official=row.enteredAthletes??[];
- if(!roster||!official.length)return official;
- const {names,complete}=chineseNamesFor(official,row.disciplineCode,roster);
- return complete?names:official;
-}
-export const hasChineseNames=(row:Row)=>row.athletes.length>0;
+// Entered rows carry the officially registered athletes, same lookup rule.
+export const entryNames=(row:Row,master:AthleteMaster)=>athleteLabels(row.enteredAthletes??[],master);
 
 const STATUS:Record<string,string>={OFFICIAL:'已結束',FINISHED:'已結束',RUNNING:'比賽中',LIVE:'比賽中',
   SCHEDULED:'尚未開始',START_LIST:'尚未開始',PROVISIONAL:'尚未開始',GETTING_READY:'尚未開始'};

@@ -1,7 +1,7 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFile,mkdir,writeFile} from 'node:fs/promises';import path from 'node:path';
 import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames} from '../lib/schedule.ts';
 import type {Daily,Row} from '../lib/schedule.ts';
-import {loadSchedule,loadRoster,loadDisplayNames} from '../lib/load.ts';
+import {loadSchedule,loadAthletes,loadDisplayNames} from '../lib/load.ts';
 import {orgLabel,venueLabel,parseDisplayNames} from '../lib/display-names.ts';
 
 const daily = async ()=>parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-18.json','utf8')),'2026-09-18');
@@ -125,8 +125,8 @@ test('an entered event is listed but never counted as a confirmed start',async()
 test('entered athletes keep official English names when no verified Chinese mapping exists',async()=>{
   const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-21.json','utf8')),'2026-09-21');
   const swim = taiwanRows(day).find(r=>isEntered(r) && r.disciplineCode === 'SWM')!;
-  const roster = await loadRoster();
-  const names = entryNames(swim,roster);
+  const master = await loadAthletes();
+  const names = entryNames(swim,master);
   assert.deepEqual(names,swim.enteredAthletes);
   assert.ok(names.every(n=>/^[A-Za-z]/.test(n)),'沒有可靠中文對照時保留官方英文');
 });
