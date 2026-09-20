@@ -7,75 +7,661 @@
     "providerRule": "同一場比賽可以有多個 provider 記錄，彼此不覆蓋。"
   },
   "records": [
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T08:55:00+08:00", "disciplineCode": "GAR",
-      "title": "中華隊 男子單項資格賽/全能決賽(上)", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "discipline", "matchHint": { "eventKeywords": ["Qualification"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T08:55:00+08:00", "disciplineCode": "KTE",
-      "title": "杜承翰/石政中 男個人型/67/女61/68公斤級預賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "discipline", "matchHint": { "athleteNames": ["TU Cheng-han", "SHIH Cheng-chung"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T09:50:00+08:00", "disciplineCode": "HOC",
-      "title": "中國VS中華 女子預賽", "feed": "original", "note": "原音",
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "unit", "matchHint": { "opponentCodes": ["CHN"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T11:25:00+08:00", "disciplineCode": "SHO",
-      "title": "男子定向飛靶決賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "discipline", "matchHint": { "phaseKeywords": ["Final"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T12:55:00+08:00", "disciplineCode": "KTE",
-      "title": "男個人型/67/女61/68公斤級複賽/決賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "discipline", "matchHint": { "phaseKeywords": ["Final"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T13:00:00+08:00", "disciplineCode": "SWM",
-      "title": "中華隊 預賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "discipline", "matchHint": { "phaseKeywords": ["Heats"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T13:25:00+08:00", "disciplineCode": "GAR",
-      "title": "中華隊 男子單項資格賽/全能決賽(下)", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "discipline", "matchHint": { "eventKeywords": ["Qualification"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T14:50:00+08:00", "disciplineCode": "BKB",
-      "title": "馬來西亞VS中華 女子預賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "unit", "matchHint": { "opponentCodes": ["MAS"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T15:55:00+08:00", "disciplineCode": "SWM",
-      "title": "決賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "discipline", "matchHint": { "phaseKeywords": ["Final"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T16:35:00+08:00", "disciplineCode": "BK3",
-      "title": "中華隊 男/女預賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "discipline", "matchHint": { "phaseKeywords": ["Round Robin"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T17:20:00+08:00", "disciplineCode": "BBL",
-      "title": "南韓VS中華 預賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "unit", "matchHint": { "opponentCodes": ["KOR"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T18:20:00+08:00", "disciplineCode": "FBL",
-      "title": "日本VS中華 女子預賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "unit", "matchHint": { "opponentCodes": ["JPN"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T20:00:00+08:00", "disciplineCode": "KAB",
-      "title": "孟加拉VS中華 男子預賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "unit", "matchHint": { "opponentCodes": ["BAN"] } },
-    { "date": "2026-09-21", "providerId": "elta", "providerName": "愛爾達",
-      "broadcastStartTimeTaipei": "2026-09-21T20:30:00+08:00", "disciplineCode": "BOX",
-      "title": "甘家葳 男子70公斤級預賽", "feed": "main", "note": null,
-      "sourceUrl": "https://eltaott.tv/asg2026/", "capturedAt": "2026-09-20",
-      "matchLevel": "unit", "matchHint": { "athleteNames": ["KAN Chia-wei"] } }
+    {
+      "date": "2026-09-10",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-10T11:50:00+08:00",
+      "disciplineCode": "BKB",
+      "title": "亞運 約旦VS中華 籃球 男子預賽 9/10 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-12",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-12T08:50:00+08:00",
+      "disciplineCode": "BKB",
+      "title": "亞運 中華VS伊朗 籃球 男子預賽 9/12 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-13",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-13T11:50:00+08:00",
+      "disciplineCode": "BKB",
+      "title": "亞運 中華VS卡達 籃球 男子預賽 9/13 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-14",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-14T14:50:00+08:00",
+      "disciplineCode": "FBL",
+      "title": "亞運 中華VS越南 足球 女子預賽 9/14 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "VIE"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-16T17:50:00+08:00",
+      "disciplineCode": "VVO",
+      "title": "亞運 中華VS吉爾吉斯 排球 女子預賽 9/16 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KGZ"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-16T18:10:00+08:00",
+      "disciplineCode": "BKB",
+      "title": "亞運 中華VS日本 籃球 男子八強 9/16 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "JPN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-17T14:50:00+08:00",
+      "disciplineCode": "FBL",
+      "title": "亞運 泰國VS中華 足球 女子預賽 9/17 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-17T14:50:00+08:00",
+      "disciplineCode": "VVO",
+      "title": "亞運 中華VS蒙古 排球 女子預賽 9/17 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "MGL"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-18T11:50:00+08:00",
+      "disciplineCode": "BKB",
+      "title": "亞運 中華VS蒙古 籃球 女子預賽 9/18 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "MGL"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-18T11:50:00+08:00",
+      "disciplineCode": "HOC",
+      "title": "亞運 南韓VS中華 曲棍球 女子預賽 9/18(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KOR"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-18T17:50:00+08:00",
+      "disciplineCode": "VVO",
+      "title": "亞運 中華VS泰國 排球 女子預賽 9/18 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-20T08:50:00+08:00",
+      "disciplineCode": "MMA",
+      "title": "亞運 林明典 綜合格鬥 預賽 9/20(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Ming-dian"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-20T08:55:00+08:00",
+      "disciplineCode": "KTE",
+      "title": "亞運 簡慧萱 空手道 女個人型預賽/決賽 9/20 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHIEN Hui-hsuan"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-20T08:55:00+08:00",
+      "disciplineCode": "SWM",
+      "title": "亞運 中華隊 游泳 預賽 9/20 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-20",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-20T11:25:00+08:00",
+      "disciplineCode": "TTE",
+      "title": "亞運 中華VS尼泊爾 桌球 男團預賽 9/20 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-20",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-20T13:50:00+08:00",
+      "disciplineCode": "MMA",
+      "title": "亞運 張立/林郁芬 綜合格鬥 八強 9/20(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-20",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-20T14:55:00+08:00",
+      "disciplineCode": "TTE",
+      "title": "亞運 中華VS北韓 桌球 女團預賽 9/20 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-20",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-20T15:55:00+08:00",
+      "disciplineCode": "SWM",
+      "title": "亞運 中華隊 游泳 決賽 9/20 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-20",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-20T18:10:00+08:00",
+      "disciplineCode": "VVO",
+      "title": "亞運 日本VS中華 排球 女子八強 9/20 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "JPN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T08:55:00+08:00",
+      "disciplineCode": "GAR",
+      "title": "亞運 中華隊 競技體操 男子單項資格賽/全能決賽(上) 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T08:55:00+08:00",
+      "disciplineCode": "KTE",
+      "title": "亞運 杜承翰 空手道 男個人型預賽/決賽 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "TU Cheng-han"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T08:55:00+08:00",
+      "disciplineCode": "SWM",
+      "title": "亞運 中華隊 游泳 預賽 9/21(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T09:50:00+08:00",
+      "disciplineCode": "HOC",
+      "title": "亞運 中國VS中華 曲棍球 女子預賽 9/21(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T10:30:00+08:00",
+      "disciplineCode": "SWM",
+      "title": "亞運 中華隊 游泳 預賽 9/21 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T11:25:00+08:00",
+      "disciplineCode": "KTE",
+      "title": "亞運 石政中 空手道 男67/女61/68公斤級複賽/決賽 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "SHIH Cheng-chung"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T13:25:00+08:00",
+      "disciplineCode": "GAR",
+      "title": "亞運 中華隊 競技體操 男子單項資格賽/全能決賽(下) 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T14:50:00+08:00",
+      "disciplineCode": "BKB",
+      "title": "亞運 馬來西亞VS中華 籃球 女子預賽 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "MAS"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T16:35:00+08:00",
+      "disciplineCode": "BK3",
+      "title": "亞運 中華隊 3x3籃球 男/女預賽 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T17:20:00+08:00",
+      "disciplineCode": "BBL",
+      "title": "亞運 南韓VS中華 棒球 預賽 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KOR"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T17:30:00+08:00",
+      "disciplineCode": "KAB",
+      "title": "亞運 孟加拉VS中華 卡巴迪 男子預賽 9/21(原音) D-LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "BAN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T18:20:00+08:00",
+      "disciplineCode": "FBL",
+      "title": "亞運 日本VS中華 足球 女子預賽 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "JPN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T20:00:00+08:00",
+      "disciplineCode": "KAB",
+      "title": "亞運 孟加拉VS中華 卡巴迪 男子預賽 9/21 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "BAN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T20:30:00+08:00",
+      "disciplineCode": "BOX",
+      "title": "亞運 甘家葳 拳擊 男子70公斤級預賽 9/21 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "KAN Chia-wei"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T08:25:00+08:00",
+      "disciplineCode": "BDM",
+      "title": "亞運 中華VS印尼 羽球 女團八強 9/22 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "INA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T10:50:00+08:00",
+      "disciplineCode": "BBL",
+      "title": "亞運 中華VS泰國 棒球 預賽 9/22 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T10:55:00+08:00",
+      "disciplineCode": "GAR",
+      "title": "亞運 中華隊 競技體操 女子單項資格賽/全能決賽(上) 9/22 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T14:50:00+08:00",
+      "disciplineCode": "BKB",
+      "title": "亞運 南韓VS中華 籃球 女子預賽 9/22 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KOR"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T16:25:00+08:00",
+      "disciplineCode": "GAR",
+      "title": "亞運 中華隊 競技體操 女子單項資格賽/全能決賽(下) 9/22 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T20:30:00+08:00",
+      "disciplineCode": "KAB",
+      "title": "亞運 斯里蘭卡VS中華 卡巴迪 女子預賽 9/22 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T17:20:00+08:00",
+      "disciplineCode": "BBL",
+      "title": "亞運 中華VS香港 棒球 預賽 9/23 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-20",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "HKG"
+        ]
+      }
+    }
   ]
 }

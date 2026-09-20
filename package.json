@@ -19,6 +19,7 @@
     "fetch:tpenoc": "node scripts/fetch-tpenoc.ts",
     "merge:daily": "node scripts/merge-daily.ts",
     "fetch:entries": "node scripts/fetch-entries.ts",
-    "update:results": "node scripts/update-results.ts"
+    "update:results": "node scripts/update-results.ts",
+    "fetch:broadcasts": "node scripts/fetch-broadcasts.ts"
   }
 }
