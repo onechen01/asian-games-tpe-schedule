@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T12:13:18.387Z",
+  "generatedAt": "2026-09-21T12:27:07.856Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T12:13:18.253Z",
+      "generatedAt": "2026-09-21T12:27:07.703Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2229,7 +2229,7 @@
       "opponentCode": "BAN",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "47",
         "opponent": "48",
@@ -2392,14 +2392,14 @@
       "opponentCode": "JPN",
       "venue": "Shizuoka Stadium Ecopa",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
