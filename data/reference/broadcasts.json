@@ -845,20 +845,20 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-22T08:25:00+08:00",
-      "disciplineCode": "BDM",
+      "broadcastStartTimeTaipei": "2026-09-22T08:55:00+08:00",
+      "disciplineCode": "TTE",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
       "isLive": true,
-      "title": "亞運 中華VS印尼 羽球 女團八強 9/22 LIVE",
+      "title": "亞運 澳門VS中華 桌球 女團16強 9/22 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-22T12:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-22T11:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
-          "INA"
+          "MAC"
         ]
       }
     },
@@ -872,7 +872,7 @@
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 中華VS泰國 棒球 預賽 9/22 LIVE",
+      "title": "亞運 泰國VS中華 棒球 預賽 9/22 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-21",
@@ -912,6 +912,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T11:50:00+08:00",
+      "disciplineCode": "VVO",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 中華VS印尼 排球 女子5/6排名賽 9/22 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-22T14:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "INA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-22T14:50:00+08:00",
       "disciplineCode": "BKB",
       "channelId": "115",
@@ -926,28 +948,6 @@
       "matchHint": {
         "opponentCodes": [
           "KOR"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-22T20:30:00+08:00",
-      "disciplineCode": "KAB",
-      "channelId": "115",
-      "channelName": "愛爾達體育4台",
-      "isLive": false,
-      "title": "亞運 斯里蘭卡VS中華 卡巴迪 女子預賽 9/22 D-LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-22T21:30:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "opponentCodes": [
-          "SRI"
         ]
       }
     },
