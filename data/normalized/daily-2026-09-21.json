@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T12:27:07.856Z",
+  "generatedAt": "2026-09-21T12:44:31.811Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T12:27:07.703Z",
+      "generatedAt": "2026-09-21T12:44:31.657Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2157,6 +2157,7 @@
         "TSAI Wei-tai",
         "LI I-wei",
         "YANG Po-hsiang",
+        "GUO Dinghong",
         "LIU Chih-jung",
         "LIN Yi-wei",
         "WANG Yu-chieh",
