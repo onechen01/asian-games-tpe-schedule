@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T01:19:26.028Z",
+  "generatedAt": "2026-09-21T02:35:29.408Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T01:19:25.837Z",
+      "generatedAt": "2026-09-21T02:35:29.300Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -365,42 +365,6 @@
             "recoveredStartTime": "2026-09-21T17:45:00+09:00"
           },
           {
-            "disciplineCode": "HBL",
-            "date": "2026-09-21",
-            "unitId": "M.TEAM7-------------.GPA-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-21T12:00:00+02:00",
-            "recoveredStartTime": "2026-09-21T12:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-21",
-            "unitId": "M.TEAM7-------------.GPB-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-21T14:30:00+02:00",
-            "recoveredStartTime": "2026-09-21T14:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-21",
-            "unitId": "M.TEAM7-------------.GPB-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-21T17:00:00+02:00",
-            "recoveredStartTime": "2026-09-21T17:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-21",
-            "unitId": "M.TEAM7-------------.GPA-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-21T19:30:00+02:00",
-            "recoveredStartTime": "2026-09-21T19:30:00+09:00"
-          },
-          {
             "disciplineCode": "BOX",
             "date": "2026-09-22",
             "unitId": "W.51KG--------------.R32-.000200--",
@@ -516,53 +480,13 @@
             "sourceOffset": "+03:00",
             "originalStartTime": "2026-09-22T18:45:00+03:00",
             "recoveredStartTime": "2026-09-22T18:45:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "W.TEAM7-------------.FNL-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T13:30:00+02:00",
-            "recoveredStartTime": "2026-09-22T13:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "M.TEAM7-------------.GPB-.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T15:00:00+02:00",
-            "recoveredStartTime": "2026-09-22T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "W.TEAM7-------------.FNL-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T15:30:00+02:00",
-            "recoveredStartTime": "2026-09-22T15:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "M.TEAM7-------------.GPB-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-22T17:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "W.TEAM7-------------.FNL-.000900--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-22T17:30:00+09:00"
           }
         ],
+        "recovery": {
+          "initialMissing": 1,
+          "recovered": 1,
+          "remaining": 0
+        },
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
         "participationComplete": false
@@ -687,14 +611,14 @@
       "opponentCode": null,
       "venue": "Gamagori City Triathlon Venue",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "1:31:17",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 14,
       "tpenocResult": null,
       "rank": null,
@@ -731,7 +655,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "9.733",
         "opponent": null,
@@ -769,8 +693,8 @@
       "unit": "Skeet Men Individual - Qualification - Qualification - Day 1",
       "athletes": [],
       "athletesEn": [
-        "LEE Meng-Yuan",
         "WANG Han-Tsun",
+        "LEE Meng-Yuan",
         "ZHANG Feng-Qi"
       ],
       "opponent": null,
@@ -781,25 +705,25 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "LEE Meng-Yuan",
-          "registration": "13634212",
-          "result": null,
-          "rank": null
-        },
-        {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
-          "result": null,
-          "rank": null
+          "result": "19",
+          "rank": "2"
+        },
+        {
+          "name": "LEE Meng-Yuan",
+          "registration": "13634212",
+          "result": "24",
+          "rank": "13"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
           "result": null,
-          "rank": null
+          "rank": "39"
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 21,
       "tpenocResult": null,
       "rank": null,
@@ -884,12 +808,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "18",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "21",
+      "tpeRank": "24",
       "orgCount": 11,
       "tpenocResult": null,
       "rank": null,
@@ -926,7 +850,7 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "26.89",
         "opponent": null,
@@ -970,7 +894,7 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "25.15",
         "opponent": null,
@@ -1014,7 +938,7 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "28.53",
         "opponent": null,
@@ -1058,10 +982,14 @@
       "opponentCode": "MAC",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -1098,10 +1026,14 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "22.95",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "8",
       "orgCount": 10,
       "tpenocResult": null,
       "rank": null,
@@ -1138,10 +1070,14 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "23.37",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 9,
       "tpenocResult": null,
       "rank": null,
@@ -1178,10 +1114,14 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1:00.75",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 9,
       "tpenocResult": null,
       "rank": null,
@@ -1218,10 +1158,14 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1:01.59",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 9,
       "tpenocResult": null,
       "rank": null,
@@ -1237,6 +1181,50 @@
         "results": {
           "unitId": "M.100MBR------------.HEAT.000400--",
           "id": "SWM:M.100MBR------------.HEAT.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:50:00+08:00",
+      "startTimeJst": "2026-09-21T10:50:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Individual Kata",
+      "phase": "Men's Individual Kata Repechage Bout Round 1",
+      "unit": "Men's Individual Kata Repechage Bout Round 1",
+      "athletes": [],
+      "athletesEn": [
+        "TU Cheng-han"
+      ],
+      "opponent": "HENRY Mohamad Haznil",
+      "opponentCode": "MAS",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.KATA--------------.REP1.000100--",
+          "id": "KTE:M.KATA--------------.REP1.000100--"
         }
       }
     },
@@ -1275,8 +1263,12 @@
       "opponentCode": "CHN",
       "venue": "Gifu Prefectural Green Stadium(Gifu)",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1315,10 +1307,14 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2:18.47",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "8",
       "orgCount": 7,
       "tpenocResult": null,
       "rank": null,
@@ -1356,10 +1352,14 @@
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -1397,10 +1397,14 @@
       "opponentCode": "PAK",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -1956,7 +1960,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 30,
+    "resultsOnly": 31,
     "entered": 1,
     "unresolvedTbd": 0,
     "warnings": 37
@@ -2039,6 +2043,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:50 Men's Individual Kata Repechage Bout Round 1",
+      "row": "KTE:M.KATA--------------.REP1.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 10:00 Women Pool A Match 5",
       "row": "HOC:W.TEAM11------------.GPA-.000500--"
     },
@@ -2111,11 +2120,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 19:10 Men Round Robin Pool C Game 3",
       "row": "BK3:M.TEAM3-------------.GPC-.000300--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "KTE|M.KATA--------------",
-      "message": "KTE Men's Individual Kata 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
