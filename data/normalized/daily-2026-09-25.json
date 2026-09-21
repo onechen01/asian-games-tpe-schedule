@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:13:32.788Z",
+  "generatedAt": "2026-09-21T16:12:02.798Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-21T13:13:32.639Z",
+      "generatedAt": "2026-09-21T16:12:02.631Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -1584,7 +1584,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 7,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1696,39 +1696,40 @@
       "sportEn": "Esports",
       "event": "MOBA [Pokémon UNITE]",
       "phase": "Pokemon UNITE Group A",
-      "unit": null,
+      "unit": "Group A Match 2",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "CHIN Yung-chi",
+        "HU Hsin-rui",
+        "KUO Yi-shuo",
+        "CHEN Yi-tian",
+        "TUCKER Sean",
+        "LIOU Ting-yi"
+      ],
+      "opponent": "Malaysia",
+      "opponentCode": "MAS",
       "venue": "",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Yi-tian",
-        "CHIN Yung-chi",
-        "HU Hsin-rui",
-        "KUO Yi-shuo",
-        "LIOU Ting-yi",
-        "TUCKER Sean"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ELS|O.PKU---------------"
+        "results": {
+          "unitId": "O.PKU---------------.GPA-.000200--",
+          "id": "ELS:O.PKU---------------.GPA-.000200--"
         }
       }
     },
@@ -2416,8 +2417,8 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 9,
-    "entered": 38,
+    "resultsOnly": 10,
+    "entered": 37,
     "unresolvedTbd": 0,
     "warnings": 14
   },
@@ -2454,6 +2455,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:15 Group A Match 2",
+      "row": "ELS:O.PKU---------------.GPA-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：FBL 14:00 Women Quarter-final",
       "row": "FBL:W.TEAM11------------.QFNL.000100--"
     },
@@ -2466,11 +2472,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 18:00 Women Pool A Match 12",
       "row": "HOC:W.TEAM11------------.GPA-.001200--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "WLF|W.57KG--------------",
-      "message": "WLF Women's 57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

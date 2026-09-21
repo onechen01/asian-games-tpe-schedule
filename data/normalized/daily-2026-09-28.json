@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:19:44.495Z",
+  "generatedAt": "2026-09-21T16:17:52.935Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-21T13:19:44.346Z",
+      "generatedAt": "2026-09-21T16:17:52.767Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1135,53 +1135,8 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T09:40:00+08:00",
-      "startTimeJst": "2026-09-28T10:40:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
-      "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "Match 3",
-      "athletes": [],
-      "athletesEn": [
-        "CHIANG Chien-ting",
-        "CHEN Hong-yi",
-        "HUANG Chuan-peng",
-        "PENG Yi-xiang",
-        "CHEN Ting-yi"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 12,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "O.PUBGM-------------.FNL-.000300--",
-          "id": "ELS:O.PUBGM-------------.FNL-.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T09:45:00+08:00",
-      "startTimeJst": "2026-09-28T10:45:00+09:00",
+      "startTimeTaipei": "2026-09-28T09:30:00+08:00",
+      "startTimeJst": "2026-09-28T10:30:00+09:00",
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -1222,6 +1177,51 @@
         "results": {
           "unitId": "O.IDV---------------.GPA-.000300--",
           "id": "ELS:O.IDV---------------.GPA-.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:40:00+08:00",
+      "startTimeJst": "2026-09-28T10:40:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
+      "phase": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "CHIANG Chien-ting",
+        "CHEN Hong-yi",
+        "HUANG Chuan-peng",
+        "PENG Yi-xiang",
+        "CHEN Ting-yi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 12,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.PUBGM-------------.FNL-.000300--",
+          "id": "ELS:O.PUBGM-------------.FNL-.000300--"
         }
       }
     },
@@ -1759,7 +1759,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 3,
       "enteredAthletes": [
         "WU Tsai-chien"
       ],
@@ -2262,13 +2262,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:40 Match 3",
-      "row": "ELS:O.PUBGM-------------.FNL-.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Group A Match 3",
+      "row": "ELS:O.IDV---------------.GPA-.000300--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:45 Group A Match 3",
-      "row": "ELS:O.IDV---------------.GPA-.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:40 Match 3",
+      "row": "ELS:O.PUBGM-------------.FNL-.000300--"
     },
     {
       "code": "RESULTS_ONLY",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:23:59.044Z",
+  "generatedAt": "2026-09-21T16:23:40.465Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-21T13:23:58.890Z",
+      "generatedAt": "2026-09-21T16:23:40.313Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1114,7 +1114,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 22,
+      "unitCount": 38,
       "enteredAthletes": [
         "PAI Hsin-ping"
       ],
@@ -1372,46 +1372,6 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T13:10:00+08:00",
-      "startTimeJst": "2026-10-01T14:10:00+09:00",
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Men's Dinghy - Qualification Series",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "WU Tsai-chien"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SAL|M.ILCA7-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T14:00:00+08:00",
       "startTimeJst": "2026-10-01T15:00:00+09:00",
       "disciplineCode": "CTR",
@@ -1458,7 +1418,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 0,
-    "entered": 27,
+    "entered": 26,
     "unresolvedTbd": 0,
     "warnings": 0
   },

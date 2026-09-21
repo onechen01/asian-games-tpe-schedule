@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:25:09.933Z",
+  "generatedAt": "2026-09-21T16:27:08.593Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-09-21T13:25:09.793Z",
+      "generatedAt": "2026-09-21T16:27:08.439Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -766,7 +766,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 22,
+      "unitCount": 38,
       "enteredAthletes": [
         "LIAO Pei-ying"
       ],

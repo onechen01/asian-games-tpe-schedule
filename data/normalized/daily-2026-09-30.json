@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:23:09.594Z",
+  "generatedAt": "2026-09-21T16:21:17.721Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-21T13:23:09.456Z",
+      "generatedAt": "2026-09-21T16:21:17.569Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1186,7 +1186,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 3,
       "enteredAthletes": [
         "WU Tsai-chien"
       ],
@@ -1282,8 +1282,8 @@
     },
     {
       "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T12:00:00+08:00",
-      "startTimeJst": "2026-09-30T13:00:00+09:00",
+      "startTimeTaipei": "2026-09-30T10:30:00+08:00",
+      "startTimeJst": "2026-09-30T11:30:00+09:00",
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -1637,7 +1637,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 Group B Match 4",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:30 Group B Match 4",
       "row": "ELS:O.LOL---------------.GPB-.000400--"
     },
     {

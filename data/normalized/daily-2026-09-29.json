@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:21:30.710Z",
+  "generatedAt": "2026-09-21T16:19:38.745Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-21T13:21:30.556Z",
+      "generatedAt": "2026-09-21T16:19:38.585Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1734,7 +1734,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 3,
       "enteredAthletes": [
         "WU Tsai-chien"
       ],

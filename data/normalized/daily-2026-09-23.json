@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:08:26.097Z",
+  "generatedAt": "2026-09-21T16:07:37.971Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-21T13:08:25.895Z",
+      "generatedAt": "2026-09-21T16:07:37.781Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 5,
-          "recovered": 5,
+          "initialMissing": 6,
+          "recovered": 6,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2029,7 +2029,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 9,
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2145,7 +2145,7 @@
       "sportEn": "Esports",
       "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
       "phase": "NARAKA : BLADEPOINT Group B",
-      "unit": "Group B Match 5",
+      "unit": "Group B Match 6",
       "athletes": [],
       "athletesEn": [
         "LIU Tang-shiun",
@@ -2176,8 +2176,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "O.NRK---------------.GPB-.00050000",
-          "id": "ELS:O.NRK---------------.GPB-.00050000"
+          "unitId": "O.NRK---------------.GPB-.00060000",
+          "id": "ELS:O.NRK---------------.GPB-.00060000"
         }
       }
     },
@@ -2601,8 +2601,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 17:00 Group B Match 5",
-      "row": "ELS:O.NRK---------------.GPB-.00050000"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 17:00 Group B Match 6",
+      "row": "ELS:O.NRK---------------.GPB-.00060000"
     },
     {
       "code": "RESULTS_ONLY",
