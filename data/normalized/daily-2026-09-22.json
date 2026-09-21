@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T02:05:02.775Z",
+  "generatedAt": "2026-09-21T02:17:27.770Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T02:05:02.596Z",
+      "generatedAt": "2026-09-21T02:17:27.642Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -431,51 +431,6 @@
             "recoveredStartTime": "2026-09-22T18:45:00+09:00"
           },
           {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "W.TEAM7-------------.FNL-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T13:30:00+02:00",
-            "recoveredStartTime": "2026-09-22T13:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "M.TEAM7-------------.GPB-.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T15:00:00+02:00",
-            "recoveredStartTime": "2026-09-22T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "W.TEAM7-------------.FNL-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T15:30:00+02:00",
-            "recoveredStartTime": "2026-09-22T15:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "M.TEAM7-------------.GPB-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-22T17:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-22",
-            "unitId": "W.TEAM7-------------.FNL-.000900--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-22T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-22T17:30:00+09:00"
-          },
-          {
             "disciplineCode": "BOX",
             "date": "2026-09-23",
             "unitId": "M.60KG--------------.R32-.000200--",
@@ -645,62 +600,13 @@
             "sourceOffset": "+03:00",
             "originalStartTime": "2026-09-23T19:15:00+03:00",
             "recoveredStartTime": "2026-09-23T19:15:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-23",
-            "unitId": "M.TEAM7-------------.GPB-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-23T12:30:00+02:00",
-            "recoveredStartTime": "2026-09-23T12:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-23",
-            "unitId": "W.TEAM7-------------.FNL-.001000--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-23T13:30:00+02:00",
-            "recoveredStartTime": "2026-09-23T13:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-23",
-            "unitId": "M.TEAM7-------------.GPA-.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-23T15:00:00+02:00",
-            "recoveredStartTime": "2026-09-23T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-23",
-            "unitId": "W.TEAM7-------------.FNL-.001100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-23T15:30:00+02:00",
-            "recoveredStartTime": "2026-09-23T15:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-23",
-            "unitId": "M.TEAM7-------------.GPB-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-23T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-23T17:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-23",
-            "unitId": "W.TEAM7-------------.FNL-.001200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-23T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-23T17:30:00+09:00"
           }
         ],
+        "recovery": {
+          "initialMissing": 0,
+          "recovered": 0,
+          "remaining": 0
+        },
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
         "participationComplete": false
@@ -1950,14 +1856,25 @@
       "sportEn": "Badminton",
       "event": "Men's Team",
       "phase": "Men's Team Quarterfinals",
-      "unit": null,
+      "unit": "Men's Team Quarterfinals Tie 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIN Chun-yi",
+        "YANG Po-hsuan",
+        "CHI Yu-jen",
+        "CHOU Tien-chen",
+        "WANG Chi-lin",
+        "YE Hong-wei",
+        "LIU Kuang-heng",
+        "WANG Tzu-wei",
+        "LEE Jhe-huei",
+        "CHIU Hsiang-chieh"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1965,27 +1882,17 @@
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHI Yu-jen",
-        "CHIU Hsiang-chieh",
-        "CHOU Tien-chen",
-        "LEE Jhe-huei",
-        "LIN Chun-yi",
-        "LIU Kuang-heng",
-        "WANG Chi-lin",
-        "WANG Tzu-wei",
-        "YANG Po-hsuan",
-        "YE Hong-wei"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "BDM|M.TEAM--------------"
+        "results": {
+          "unitId": "M.TEAM--------------.QFNL.00020000",
+          "id": "BDM:M.TEAM--------------.QFNL.00020000"
         }
       }
     },
@@ -2364,10 +2271,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 24,
-    "entered": 15,
+    "resultsOnly": 25,
+    "entered": 14,
     "unresolvedTbd": 0,
-    "warnings": 31
+    "warnings": 33
   },
   "warnings": [
     {
@@ -2462,6 +2369,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 14:00 Men's Team Quarterfinals Tie 2",
+      "row": "BDM:M.TEAM--------------.QFNL.00020000"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WSU 14:29 Nandao Final",
       "row": "WSU:W.NANG--------------.FNL-.000200--"
     },
@@ -2504,6 +2416,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "KTE|W.55KG--------------",
       "message": "KTE Women's Kumite -55kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BDM|M.TEAM--------------",
+      "message": "BDM Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
