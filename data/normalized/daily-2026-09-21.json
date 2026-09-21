@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T03:55:49.063Z",
+  "generatedAt": "2026-09-21T04:04:56.108Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T03:55:48.947Z",
+      "generatedAt": "2026-09-21T04:04:55.998Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -402,8 +402,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 4,
+          "recovered": 4,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1659,6 +1659,126 @@
     },
     {
       "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T16:00:00+08:00",
+      "startTimeJst": "2026-09-21T17:00:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 50m Backstroke",
+      "phase": "Men's 50m Backstroke Final",
+      "unit": "Men's 50m Backstroke Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHUANG Mu-lun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 9,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.50MBA-------------.FNL-.000100--",
+          "id": "SWM:M.50MBA-------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T16:06:00+08:00",
+      "startTimeJst": "2026-09-21T17:06:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 50m Backstroke",
+      "phase": "Women's 50m Backstroke Final",
+      "unit": "Women's 50m Backstroke Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Ya-jia"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.50MBA-------------.FNL-.000100--",
+          "id": "SWM:W.50MBA-------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T16:38:00+08:00",
+      "startTimeJst": "2026-09-21T17:38:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 100m Breaststroke",
+      "phase": "Men's 100m Breaststroke Final",
+      "unit": "Men's 100m Breaststroke Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Chiao-i"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.100MBR------------.FNL-.000100--",
+          "id": "SWM:M.100MBR------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T16:40:00+08:00",
       "startTimeJst": "2026-09-21T17:40:00+09:00",
       "disciplineCode": "BK3",
@@ -1737,6 +1857,46 @@
         "results": {
           "unitId": "M.70KG--------------.R32-.001500--",
           "id": "BOX:M.70KG--------------.R32-.001500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T16:52:00+08:00",
+      "startTimeJst": "2026-09-21T17:52:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 200m Individual Medley",
+      "phase": "Women's 200m Individual Medley Final",
+      "unit": "Women's 200m Individual Medley Final",
+      "athletes": [],
+      "athletesEn": [
+        "HAN An-chi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.200MIM------------.FNL-.000100--",
+          "id": "SWM:W.200MIM------------.FNL-.000100--"
         }
       }
     },
@@ -2013,10 +2173,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 36,
+    "resultsOnly": 40,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 43
+    "warnings": 42
   },
   "warnings": [
     {
@@ -2161,6 +2321,21 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:00 Men's 50m Backstroke Final",
+      "row": "SWM:M.50MBA-------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:06 Women's 50m Backstroke Final",
+      "row": "SWM:W.50MBA-------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:38 Men's 100m Breaststroke Final",
+      "row": "SWM:M.100MBR------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 16:40 Women Round Robin Pool B Game 1",
       "row": "BK3:W.TEAM3-------------.GPB-.000100--"
     },
@@ -2168,6 +2343,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:45 Men's 70KG - Preliminaries",
       "row": "BOX:M.70KG--------------.R32-.001500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:52 Women's 200m Individual Medley Final",
+      "row": "SWM:W.200MIM------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2208,31 +2388,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TST|X.DOUBLES-----------",
       "message": "TST Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|M.50MBA-------------",
-      "message": "SWM Men's 50m Backstroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|W.50MBA-------------",
-      "message": "SWM Women's 50m Backstroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|M.50MFR-------------",
-      "message": "SWM Men's 50m Freestyle 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|M.100MBR------------",
-      "message": "SWM Men's 100m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|W.200MIM------------",
-      "message": "SWM Women's 200m Individual Medley 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

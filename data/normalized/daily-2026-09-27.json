@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T19:09:08.264Z",
+  "generatedAt": "2026-09-21T04:14:01.764Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-20T19:09:08.116Z",
+      "generatedAt": "2026-09-21T04:14:01.629Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -715,6 +715,11 @@
             "recoveredStartTime": "2026-09-28T19:45:00+09:00"
           }
         ],
+        "recovery": {
+          "initialMissing": 1,
+          "recovered": 1,
+          "remaining": 0
+        },
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
         "participationComplete": false
@@ -723,7 +728,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 248
+      "events": 250
     }
   },
   "date": "2026-09-27",
@@ -1714,7 +1719,6 @@
         "CHEN Min-sih",
         "CHU Chia-en",
         "HSU Siang-sheng",
-        "HUANG Chieh-han",
         "HUANG Wei-sheng",
         "KAO Yu-wei",
         "KUO Tzu-chuan",
@@ -1724,7 +1728,6 @@
         "LIN Yu-min",
         "LIU Chih-jung",
         "LIU Ji-hong",
-        "PAN Wen-hui",
         "TSAI Wei-tai",
         "WANG Cheng-hao",
         "WANG Yan-cheng",

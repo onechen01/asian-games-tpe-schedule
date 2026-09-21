@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T19:05:22.205Z",
+  "generatedAt": "2026-09-21T04:08:34.427Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-20T19:05:22.054Z",
+      "generatedAt": "2026-09-21T04:08:34.270Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -678,6 +678,11 @@
             "recoveredStartTime": "2026-09-24T19:30:00+09:00"
           }
         ],
+        "recovery": {
+          "initialMissing": 2,
+          "recovered": 2,
+          "remaining": 0
+        },
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
         "participationComplete": false
@@ -686,7 +691,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 248
+      "events": 250
     }
   },
   "date": "2026-09-23",
@@ -986,7 +991,7 @@
       "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venue": null,
       "venueZh": null,
       "status": null,
       "result": null,
@@ -2128,7 +2133,7 @@
       "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venue": null,
       "venueZh": null,
       "status": null,
       "result": null,

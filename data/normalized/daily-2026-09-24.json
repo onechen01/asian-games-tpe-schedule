@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T19:06:14.623Z",
+  "generatedAt": "2026-09-21T04:09:26.913Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-20T19:06:14.463Z",
+      "generatedAt": "2026-09-21T04:09:26.763Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -662,6 +662,11 @@
             "recoveredStartTime": "2026-09-25T19:00:00+09:00"
           }
         ],
+        "recovery": {
+          "initialMissing": 0,
+          "recovered": 0,
+          "remaining": 0
+        },
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
         "participationComplete": false
@@ -670,7 +675,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 248
+      "events": 250
     }
   },
   "date": "2026-09-24",
@@ -1799,8 +1804,8 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T14:00:00+08:00",
-      "startTimeJst": "2026-09-24T15:00:00+09:00",
+      "startTimeTaipei": "2026-09-24T15:00:00+08:00",
+      "startTimeJst": "2026-09-24T16:00:00+09:00",
       "disciplineCode": "BDM",
       "sportZh": "羽球",
       "sportEn": "Badminton",
@@ -1873,7 +1878,9 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
+        "CHUANG Chia-lung",
         "HUNG Yuan-hsi",
+        "SHIAO Yu-jan",
         "TANG Chia-hung"
       ],
       "matchStatus": "RESULTS_ONLY",
@@ -1957,6 +1964,9 @@
       "unitCount": 1,
       "enteredAthletes": [
         "LAI Pin-ju",
+        "LIAO Yi-chun",
+        "LIN Yi-chen",
+        "TING Hua-tien",
         "WU Yu-jhih"
       ],
       "matchStatus": "RESULTS_ONLY",
@@ -1996,6 +2006,8 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
+        "CHUANG Chia-lung",
+        "HUNG Yuan-hsi",
         "LEE Chih-kai",
         "SHIAO Yu-jan"
       ],
@@ -2197,7 +2209,11 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
-        "TING Hua-tien"
+        "LAI Pin-ju",
+        "LIAO Yi-chun",
+        "LIN Yi-chen",
+        "TING Hua-tien",
+        "WU Yu-jhih"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -2276,6 +2292,9 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
+        "CHUANG Chia-lung",
+        "HUNG Yuan-hsi",
+        "SHIAO Yu-jan",
         "TANG Chia-hung"
       ],
       "matchStatus": "RESULTS_ONLY",

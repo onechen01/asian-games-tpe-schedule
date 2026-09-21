@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T19:07:15.245Z",
+  "generatedAt": "2026-09-21T04:11:18.184Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-20T19:07:15.112Z",
+      "generatedAt": "2026-09-21T04:11:18.050Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -677,6 +677,11 @@
             "recoveredStartTime": "2026-09-26T19:15:00+09:00"
           }
         ],
+        "recovery": {
+          "initialMissing": 1,
+          "recovered": 1,
+          "remaining": 0
+        },
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
         "participationComplete": false
@@ -685,7 +690,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 248
+      "events": 250
     }
   },
   "date": "2026-09-25",
@@ -982,7 +987,7 @@
       "sportZh": "馬術",
       "sportEn": "Equestrian",
       "event": "Dressage Individual",
-      "phase": "Dressage Team Competition & 1st Individual Qualifier",
+      "phase": "Dressage 1st Individual Qualifier",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -1765,7 +1770,6 @@
         "CHEN Min-sih",
         "CHU Chia-en",
         "HSU Siang-sheng",
-        "HUANG Chieh-han",
         "HUANG Wei-sheng",
         "KAO Yu-wei",
         "KUO Tzu-chuan",
@@ -1775,7 +1779,6 @@
         "LIN Yu-min",
         "LIU Chih-jung",
         "LIU Ji-hong",
-        "PAN Wen-hui",
         "TSAI Wei-tai",
         "WANG Cheng-hao",
         "WANG Yan-cheng",
@@ -2267,7 +2270,10 @@
       "unitCount": 1,
       "enteredAthletes": [
         "LAI Pin-ju",
-        "TING Hua-tien"
+        "LIAO Yi-chun",
+        "LIN Yi-chen",
+        "TING Hua-tien",
+        "WU Yu-jhih"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -2390,8 +2396,10 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
+        "CHUANG Chia-lung",
         "HUNG Yuan-hsi",
-        "LEE Chih-kai"
+        "LEE Chih-kai",
+        "SHIAO Yu-jan"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -2430,8 +2438,11 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
+        "LAI Pin-ju",
         "LIAO Yi-chun",
-        "LIN Yi-chen"
+        "LIN Yi-chen",
+        "TING Hua-tien",
+        "WU Yu-jhih"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -2470,6 +2481,9 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
+        "CHUANG Chia-lung",
+        "HUNG Yuan-hsi",
+        "LEE Chih-kai",
         "TANG Chia-hung"
       ],
       "matchStatus": "RESULTS_ONLY",
