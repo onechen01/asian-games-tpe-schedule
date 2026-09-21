@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T11:05:41.377Z",
+  "generatedAt": "2026-09-21T11:12:40.424Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T11:05:41.269Z",
+      "generatedAt": "2026-09-21T11:12:40.274Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2023,7 +2023,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2159,15 +2159,15 @@
         "YU Tsung-ju",
         "KUO Tzu-chuan",
         "LI I-wei",
-        "WANG Yu-chieh",
+        "LIN Yu-li",
         "CHANG Hsiang",
         "WANG Yan-cheng",
-        "LIN Yu-li",
-        "HUANG Chieh-han",
-        "WANG Cheng-hao",
+        "WANG Yu-chieh",
         "HSU Siang-sheng",
         "LIN Yu-min",
-        "CHEN Hsiao-yun"
+        "CHEN Hsiao-yun",
+        "HUANG Chieh-han",
+        "WANG Cheng-hao"
       ],
       "opponent": "Republic of Korea",
       "opponentCode": "KOR",
@@ -2284,7 +2284,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2332,7 +2332,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
