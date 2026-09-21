@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:02:38.498Z",
+  "generatedAt": "2026-09-21T10:55:37.914Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T10:02:38.348Z",
+      "generatedAt": "2026-09-21T10:55:37.769Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -302,7 +302,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 250
+      "events": 251
     }
   },
   "date": "2026-09-21",
@@ -1887,7 +1887,7 @@
       "tpeEntrants": [],
       "tpeRank": "1",
       "orgCount": 2,
-      "tpeMedal": null,
+      "tpeMedal": "ME_GOLD",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2176,7 +2176,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2229,10 +2229,10 @@
       "opponentCode": "BAN",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "12",
-        "opponent": "17",
+        "tpe": "47",
+        "opponent": "48",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2277,14 +2277,14 @@
       "opponentCode": "BRN",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "21",
         "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2325,10 +2325,14 @@
       "opponentCode": "UZB",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "15",
+        "opponent": "12",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2388,8 +2392,12 @@
       "opponentCode": "JPN",
       "venue": "Shizuoka Stadium Ecopa",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2432,7 +2440,7 @@
       "opponentCode": "QAT",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,

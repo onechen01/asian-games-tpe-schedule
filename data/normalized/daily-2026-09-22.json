@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:38:39.083Z",
+  "generatedAt": "2026-09-21T10:57:13.414Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T10:38:38.915Z",
+      "generatedAt": "2026-09-21T10:57:13.236Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1929,7 +1929,7 @@
       "opponentCode": "KAZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
