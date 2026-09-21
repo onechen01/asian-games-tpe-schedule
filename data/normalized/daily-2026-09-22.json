@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T09:37:37.617Z",
+  "generatedAt": "2026-09-21T09:50:10.070Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T09:37:37.434Z",
+      "generatedAt": "2026-09-21T09:50:09.894Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 5,
+          "recovered": 5,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1912,6 +1912,48 @@
     },
     {
       "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T14:10:00+08:00",
+      "startTimeJst": "2026-09-22T15:10:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Round 1",
+      "unit": "Mixed Doubles Round 1 Match 30",
+      "athletes": [],
+      "athletesEn": [
+        "FENG Yi-hsin",
+        "YEH Yi-tian"
+      ],
+      "opponent": "GERASSIMENKO Kirill/AKASHEVA Zauresh",
+      "opponentCode": "KAZ",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.R64-.003000--",
+          "id": "TTE:X.DOUBLES-----------.R64-.003000--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T14:29:00+08:00",
       "startTimeJst": "2026-09-22T15:29:00+09:00",
       "disciplineCode": "WSU",
@@ -2212,10 +2254,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 41,
+    "resultsOnly": 42,
     "entered": 2,
     "unresolvedTbd": 0,
-    "warnings": 51
+    "warnings": 52
   },
   "warnings": [
     {
@@ -2387,6 +2429,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 14:00 Men's Team Quarterfinals Tie 2",
       "row": "BDM:M.TEAM--------------.QFNL.00020000"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 14:10 Mixed Doubles Round 1 Match 30",
+      "row": "TTE:X.DOUBLES-----------.R64-.003000--"
     },
     {
       "code": "RESULTS_ONLY",
