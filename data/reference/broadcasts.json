@@ -740,7 +740,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-21T20:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-21T20:13:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -823,7 +823,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-21T20:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-21T20:13:00+08:00",
       "disciplineCode": "KAB",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
@@ -832,11 +832,81 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-21T21:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-21T21:40:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
           "BAN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T08:50:00+08:00",
+      "disciplineCode": "BKB",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 南韓VS中華 籃球 女子預賽 9/22(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-22T11:15:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KOR"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T08:55:00+08:00",
+      "disciplineCode": "KTE",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 鍾孟宇 空手道 女子團體型/男84公斤級八強/四強/銅牌戰 9/22(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-22T10:45:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHUNG Meng-yu"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T08:55:00+08:00",
+      "disciplineCode": "SWM",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華隊 游泳 預賽 9/22 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-22T10:50:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
         ]
       }
     },
@@ -850,15 +920,19 @@
       "channelId": "110",
       "channelName": "愛爾達體育3台",
       "isLive": true,
-      "title": "亞運 澳門VS中華 桌球 女團16強 9/22 LIVE",
+      "title": "亞運 中國澳門VS中華 桌球 女團預賽 9/22 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-21",
       "broadcastEndTimeTaipei": "2026-09-22T11:30:00+08:00",
-      "matchLevel": "unit",
+      "matchLevel": "discipline",
       "matchHint": {
-        "opponentCodes": [
-          "MAC"
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
         ]
       }
     },
@@ -934,20 +1008,132 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T12:30:00+08:00",
+      "disciplineCode": "KTE",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": false,
+      "title": "亞運 鍾孟宇 空手道 女子團體型/男84公斤級八強/四強/銅牌戰 9/22 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-22T13:25:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHUNG Meng-yu"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T13:55:00+08:00",
+      "disciplineCode": "BDM",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": true,
+      "title": "亞運 中華VS泰國 羽球 男團八強 9/22 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-22T18:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T14:10:00+08:00",
+      "disciplineCode": "TTE",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 馮翊新/葉伊恬 桌球 混雙預賽 9/22(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-22T14:50:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "FENG Yi-hsin",
+          "YEH Yi-tian"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-22T14:50:00+08:00",
       "disciplineCode": "BKB",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
       "isLive": true,
-      "title": "亞運 南韓VS中華 籃球 女子預賽 9/22 LIVE",
-      "feed": "main",
-      "note": null,
+      "title": "亞運 南韓VS中華 籃球 女子預賽 9/22(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
       "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-22T17:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-22T17:15:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
           "KOR"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T15:00:00+08:00",
+      "disciplineCode": "TTE",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": false,
+      "title": "亞運 馮翊新/葉伊恬 桌球 混雙預賽 9/22 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-22T15:55:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "FENG Yi-hsin",
+          "YEH Yi-tian"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T18:45:00+08:00",
+      "disciplineCode": "KAB",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 斯里蘭卡VS中華 卡巴迪 女子預賽 9/22(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-22T19:20:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "SRI"
         ]
       }
     },
@@ -1053,7 +1239,7 @@
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 中華VS香港 棒球 預賽 9/23 LIVE",
+      "title": "亞運 香港VS中華 棒球 預賽 9/23 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-21",
