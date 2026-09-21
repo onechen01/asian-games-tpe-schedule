@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T20:24:06.544Z",
+  "generatedAt": "2026-09-21T20:31:56.824Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T20:24:06.399Z",
+      "generatedAt": "2026-09-21T20:31:56.665Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 5,
-          "recovered": 5,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -322,7 +322,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "BHANDARI Kamal / CHAUDHARY Georgia",
+      "opponent": "BHANDARI Kamal/CHAUDHARY Georgia",
       "opponentCode": "NEP",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -333,7 +333,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -368,7 +368,7 @@
         "LIN Wei-chieh",
         "CHIANG Min-yu"
       ],
-      "opponent": "LALUYAN Rizky / NAFIIAH Allif",
+      "opponent": "LALUYAN Rizky/NAFIIAH Allif",
       "opponentCode": "INA",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -379,7 +379,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1217,7 +1217,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "KHURELBAYAR Khaliunbayar / GANBOLD Khongorzul",
+      "opponent": "KHURELBAYAR Khaliunbayar/GANBOLD Khongorzul",
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1228,7 +1228,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1263,7 +1263,7 @@
         "LIN Wei-chieh",
         "CHIANG Min-yu"
       ],
-      "opponent": "KHAN Sabrina / BASHIR Rafae",
+      "opponent": "KHAN Sabrina/BASHIR Rafae",
       "opponentCode": "PAK",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1274,7 +1274,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1545,7 +1545,7 @@
         "LIN Wei-chieh",
         "CHIANG Min-yu"
       ],
-      "opponent": "PARK Jaekyu / KIM Yeon-hwa",
+      "opponent": "PARK Jaekyu/KIM Yeon-hwa",
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1556,7 +1556,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1591,7 +1591,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "SANOSA Christy / NUGUIT Sherwin Ray",
+      "opponent": "SANOSA Christy/NUGUIT Sherwin Ray",
       "opponentCode": "PHI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1602,7 +1602,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1727,7 +1727,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "MARUYAMA Kaito / MAEDA Rio",
+      "opponent": "MARUYAMA Kaito/MAEDA Rio",
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1738,7 +1738,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1874,7 +1874,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "UEMATSU Toshiki / TEMMA Rena",
+      "opponent": "UEMATSU Toshiki/TEMMA Rena",
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1885,7 +1885,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": "ME_GOLD",
       "tpenocResult": null,
@@ -2213,18 +2213,18 @@
       "unit": "Game 3",
       "athletes": [],
       "athletesEn": [
-        "TSAI Chung-hao",
-        "YEH Jiunn-ming",
         "PENG Xian-ya",
-        "JIN Wu Fu-kai",
-        "WANG Lun-chu",
-        "CHANG Chung-mao",
+        "TSAI Chung-hao",
         "SU Hsiang-chih",
-        "CAI Ruei-chen",
         "CHUANG Chia-ming",
-        "LI Jyun-jie",
         "LIN Po-ting",
-        "CHEN Zheng-wei"
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
       ],
       "opponent": "Bangladesh",
       "opponentCode": "BAN",
