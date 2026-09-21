@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T05:04:28.038Z",
+  "generatedAt": "2026-09-21T05:16:20.103Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T05:04:27.888Z",
+      "generatedAt": "2026-09-21T05:16:19.960Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -284,8 +284,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -495,8 +495,8 @@
       "athletes": [],
       "athletesEn": [
         "LEE Meng-Yuan",
-        "WANG Han-Tsun",
-        "ZHANG Feng-Qi"
+        "ZHANG Feng-Qi",
+        "WANG Han-Tsun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -512,16 +512,16 @@
           "rank": "2"
         },
         {
+          "name": "ZHANG Feng-Qi",
+          "registration": "4308201",
+          "result": "34",
+          "rank": "15"
+        },
+        {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
           "result": "47",
           "rank": "19"
-        },
-        {
-          "name": "ZHANG Feng-Qi",
-          "registration": "4308201",
-          "result": "26",
-          "rank": "23"
         }
       ],
       "tpeRank": "2",
@@ -1368,18 +1368,18 @@
       "unit": "Match 25",
       "athletes": [],
       "athletesEn": [
-        "LIAO Yi-jen",
-        "HSU Wan-yun",
-        "CHEN Chieh",
+        "HSU Heng-yun",
         "XU Zhen-xuan",
-        "CHANG Yi-chi",
-        "LIN Shu-ho",
-        "TSAI Yu-chun",
-        "WU Tzu-hua",
         "HUNG Chia-yao",
+        "LIN Shu-ho",
         "KAN Ko-hui",
+        "HSU Wan-yun",
+        "TSAI Yu-chun",
+        "LIAO Yi-jen",
+        "CHEN Chieh",
         "WEN Yi-chin",
-        "HSU Heng-yun"
+        "WU Tzu-hua",
+        "CHANG Yi-chi"
       ],
       "opponent": "Kazakhstan",
       "opponentCode": "KAZ",
@@ -1476,7 +1476,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
@@ -1519,14 +1519,14 @@
       "opponentCode": "PHI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "5",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -1563,8 +1563,12 @@
       "opponentCode": "VIE",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2195,7 +2199,7 @@
     "resultsOnly": 42,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 44
+    "warnings": 43
   },
   "warnings": [
     {
@@ -2407,11 +2411,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 19:10 Men Round Robin Pool C Game 3",
       "row": "BK3:M.TEAM3-------------.GPC-.000300--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "KTE|M.67KG--------------",
-      "message": "KTE Men's Kumite -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
