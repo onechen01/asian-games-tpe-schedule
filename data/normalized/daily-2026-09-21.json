@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T03:33:22.230Z",
+  "generatedAt": "2026-09-21T03:55:49.063Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T03:33:22.105Z",
+      "generatedAt": "2026-09-21T03:55:48.947Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -402,8 +402,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -604,157 +604,6 @@
       "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T09:00:00+08:00",
       "startTimeJst": "2026-09-21T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Men Individual",
-      "phase": "Skeet Men Individual Qualification",
-      "unit": "Skeet Men Individual - Qualification - Qualification - Day 1",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Meng-Yuan",
-        "WANG Han-Tsun",
-        "ZHANG Feng-Qi"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": null,
-      "tpeEntrants": [
-        {
-          "name": "LEE Meng-Yuan",
-          "registration": "13634212",
-          "result": "24",
-          "rank": "10"
-        },
-        {
-          "name": "WANG Han-Tsun",
-          "registration": "4309027",
-          "result": "24",
-          "rank": "18"
-        },
-        {
-          "name": "ZHANG Feng-Qi",
-          "registration": "4308201",
-          "result": "17",
-          "rank": "30"
-        }
-      ],
-      "tpeRank": "10",
-      "orgCount": 21,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SKM---------------.QUAL.000100--",
-          "id": "SHO:M.SKM---------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
-      "startTimeJst": "2026-09-21T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Men Team",
-      "phase": "Skeet Men Team Final",
-      "unit": "Skeet Men Team - Final - Day 1",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Meng-Yuan",
-        "ZHANG Feng-Qi",
-        "WANG Han-Tsun"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "48",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "4",
-      "orgCount": 10,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SKTM--------------.FNL-.000100--",
-          "id": "SHO:M.SKTM--------------.FNL-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
-      "startTimeJst": "2026-09-21T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Women Individual",
-      "phase": "Skeet Women Individual Qualification",
-      "unit": "Skeet Women Individual - Qualification - Qualification - Day 1",
-      "athletes": [],
-      "athletesEn": [
-        "LO Chien-Ya"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "18",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "25",
-      "orgCount": 11,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SKW---------------.QUAL.000100--",
-          "id": "SHO:W.SKW---------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
-      "startTimeJst": "2026-09-21T10:00:00+09:00",
       "disciplineCode": "SWM",
       "sportZh": "游泳",
       "sportEn": "Swimming",
@@ -792,6 +641,120 @@
         "results": {
           "unitId": "M.50MBA-------------.HEAT.000100--",
           "id": "SWM:M.50MBA-------------.HEAT.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
+      "startTimeJst": "2026-09-21T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Men Individual",
+      "phase": "Skeet Men Individual Qualification",
+      "unit": "Skeet Men Individual - Qualification - Qualification - Day 1",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SKM---------------.QUAL.000100--",
+          "id": "SHO:M.SKM---------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
+      "startTimeJst": "2026-09-21T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Men Team",
+      "phase": "Skeet Men Team Final",
+      "unit": "Skeet Men Team - Final - Day 1",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SKTM--------------.FNL-.000100--",
+          "id": "SHO:M.SKTM--------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
+      "startTimeJst": "2026-09-21T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Women Individual",
+      "phase": "Skeet Women Individual Qualification",
+      "unit": "Skeet Women Individual - Qualification - Qualification - Day 1",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SKW---------------.QUAL.000100--",
+          "id": "SHO:W.SKW---------------.QUAL.000100--"
         }
       }
     },
@@ -1182,14 +1145,14 @@
       "opponentCode": "CHN",
       "venue": "Gifu Prefectural Green Stadium(Gifu)",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "9",
+        "opponent": "10",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -1360,7 +1323,7 @@
       "opponentCode": "TJK",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "4",
         "opponent": "3",
@@ -1388,8 +1351,92 @@
     },
     {
       "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T12:00:00+08:00",
-      "startTimeJst": "2026-09-21T13:00:00+09:00",
+      "startTimeTaipei": "2026-09-21T11:40:00+08:00",
+      "startTimeJst": "2026-09-21T12:40:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Kumite -67kg",
+      "phase": "Men's Kumite -67kg Round of 16",
+      "unit": "Men's Kumite -67kg Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "SHIH Cheng-chung"
+      ],
+      "opponent": "DARWISH Mohammad",
+      "opponentCode": "SYR",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.67KG--------------.8FNL.000100--",
+          "id": "KTE:M.67KG--------------.8FNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T12:10:00+08:00",
+      "startTimeJst": "2026-09-21T13:10:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Kumite -67kg",
+      "phase": "Men's Kumite -67kg Quarterfinals",
+      "unit": "Men's Kumite -67kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "SHIH Cheng-chung"
+      ],
+      "opponent": "ALNATSHEH Yaman",
+      "opponentCode": "QAT",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.67KG--------------.QFNL.000100--",
+          "id": "KTE:M.67KG--------------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T12:30:00+08:00",
+      "startTimeJst": "2026-09-21T13:30:00+09:00",
       "disciplineCode": "VVO",
       "sportZh": "排球",
       "sportEn": "Volleyball",
@@ -1452,15 +1499,15 @@
         "LIN Wei-chieh",
         "CHIANG Min-yu"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "KIM Yeon-hwa/PARK Jaekyu",
+      "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1966,10 +2013,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 34,
+    "resultsOnly": 36,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 41
+    "warnings": 43
   },
   "warnings": [
     {
@@ -1994,6 +2041,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:00 Men's 50m Backstroke Heat 1",
+      "row": "SWM:M.50MBA-------------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Individual - Qualification - Qualification - Day 1",
       "row": "SHO:M.SKM---------------.QUAL.000100--"
     },
@@ -2006,11 +2058,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Women Individual - Qualification - Qualification - Day 1",
       "row": "SHO:W.SKW---------------.QUAL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:00 Men's 50m Backstroke Heat 1",
-      "row": "SWM:M.50MBA-------------.HEAT.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2079,7 +2126,17 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 25",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 11:40 Men's Kumite -67kg Round of 16",
+      "row": "KTE:M.67KG--------------.8FNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 12:10 Men's Kumite -67kg Quarterfinal",
+      "row": "KTE:M.67KG--------------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:30 Match 25",
       "row": "VVO:W.TEAM6-------------.SF5-.000100--"
     },
     {
