@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:34:53.047Z",
+  "generatedAt": "2026-09-21T13:44:56.549Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T13:34:52.863Z",
+      "generatedAt": "2026-09-21T13:44:56.366Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1633,6 +1633,51 @@
     },
     {
       "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T11:30:00+08:00",
+      "startTimeJst": "2026-09-22T12:30:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Team",
+      "phase": "Men's Team Round 1",
+      "unit": "Men's Team Round 1 Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "FENG Yi-hsin",
+        "HSU Hsien-chia",
+        "LIN Yun-ju",
+        "KUO Guan-hong",
+        "HUNG Jing-kai"
+      ],
+      "opponent": "Mongolia",
+      "opponentCode": "MGL",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.8FNL.00040000",
+          "id": "TTE:M.TEAM--------------.8FNL.00040000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T11:50:00+08:00",
       "startTimeJst": "2026-09-22T12:50:00+09:00",
       "disciplineCode": "KTE",
@@ -2255,10 +2300,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 43,
+    "resultsOnly": 44,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 52
+    "warnings": 55
   },
   "warnings": [
     {
@@ -2408,6 +2453,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 11:30 Men's Team Round 1 Match 4",
+      "row": "TTE:M.TEAM--------------.8FNL.00040000"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KTE 11:50 Women's Kumite -55kg Quarterfinal",
       "row": "KTE:W.55KG--------------.QFNL.000400--"
     },
@@ -2520,6 +2570,16 @@
       "code": "PENDING_LATER_UNITS",
       "row": "WSU|W.60KG--------------",
       "message": "WSU Women's 60kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TTE|W.TEAM--------------",
+      "message": "TTE Women's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TTE|M.TEAM--------------",
+      "message": "TTE Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
