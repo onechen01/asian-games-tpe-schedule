@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:06:51.378Z",
+  "generatedAt": "2026-09-21T10:38:39.083Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T10:06:51.202Z",
+      "generatedAt": "2026-09-21T10:38:38.915Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 6,
-          "recovered": 6,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -331,7 +331,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 250
+      "events": 251
     }
   },
   "date": "2026-09-22",
@@ -475,8 +475,8 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T08:30:00+08:00",
-      "startTimeJst": "2026-09-22T09:30:00+09:00",
+      "startTimeTaipei": "2026-09-22T08:40:00+08:00",
+      "startTimeJst": "2026-09-22T09:40:00+09:00",
       "disciplineCode": "BDM",
       "sportZh": "羽球",
       "sportEn": "Badminton",
@@ -2257,7 +2257,7 @@
     "resultsOnly": 42,
     "entered": 2,
     "unresolvedTbd": 0,
-    "warnings": 52
+    "warnings": 51
   },
   "warnings": [
     {
@@ -2277,7 +2277,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 08:30 Women's Team Quarterfinals Tie 2",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 08:40 Women's Team Quarterfinals Tie 2",
       "row": "BDM:W.TEAM--------------.QFNL.00020000"
     },
     {
@@ -2489,11 +2489,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "FEN|M.FOIL--------------",
       "message": "FEN Men's Foil Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "BDM|M.TEAM--------------",
-      "message": "BDM Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
