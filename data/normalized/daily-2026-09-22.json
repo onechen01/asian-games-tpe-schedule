@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T08:37:23.497Z",
+  "generatedAt": "2026-09-21T09:16:56.817Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T08:37:23.310Z",
+      "generatedAt": "2026-09-21T09:16:56.681Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -802,47 +802,6 @@
       "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T09:00:00+08:00",
       "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 263,
-      "enteredAthletes": [
-        "CHEN Chih-chieh",
-        "CHEN Yi-tung"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "FEN|M.FOIL--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
       "disciplineCode": "VVO",
       "sportZh": "排球",
       "sportEn": "Volleyball",
@@ -1307,6 +1266,47 @@
         "results": {
           "unitId": "W.55KG--------------.QFNL.000400--",
           "id": "KTE:W.55KG--------------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T12:30:00+08:00",
+      "startTimeJst": "2026-09-22T13:30:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Table of 32",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 118,
+      "enteredAthletes": [
+        "CHEN Chih-chieh",
+        "CHEN Yi-tung"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "FEN|M.FOIL--------------"
         }
       }
     },
