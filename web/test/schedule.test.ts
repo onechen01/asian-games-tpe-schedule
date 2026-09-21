@@ -307,7 +307,8 @@ test('a programme with no canonical row never invents a competition',async()=>{
   const shows = await loadBroadcasts();
   const day = await day21();
   const rows = taiwanRows(day);
-  assert.ok(!rows.some(r=>r.disciplineCode === 'GAR'),'體操當日沒有已確認的台灣場次');
+  // Any gymnastics row comes from the official entry list, never from a broadcast programme.
+  assert.ok(rows.filter(r=>r.disciplineCode === 'GAR').every(r=>isEntered(r)));
   // The gymnastics programmes exist only in the broadcast block.
   assert.ok((disciplineBroadcasts(shows,'2026-09-21',rows).get('GAR')?.length ?? 0) >= 1);
   assert.equal(rows.length,taiwanRows(day).length);
@@ -451,4 +452,22 @@ test('the official medal on the competitor decides, whatever the unit looks like
   assert.equal(medalOf({ status:'OFFICIAL', unit:"Men's Taijijian Final - Final", tpeRank:'2', orgCount:13, tpeMedal:null }),null);
   // The medal-match wording still works as the fallback.
   assert.equal(medalOf({ status:'OFFICIAL', unit:'Gold Medal Match', tpeRank:'2', orgCount:2, tpeMedal:null }),'SILVER');
+});
+
+test('a placeholder gymnastics event reads in Chinese and never claims a Taiwan start time',async()=>{
+  assert.equal(eventLabel("Men's"),'男子');
+  assert.equal(phaseLabel("Men's Qualification","Men's"),'資格賽');
+  const page = await readFile('web/app/page.tsx','utf8');
+  // The event window is labelled as such; the old "實際出賽時間待確認" wording is gone.
+  assert.ok(page.includes('是本項目的起始時間，不是台灣選手的出賽時間'));
+  assert.ok(!page.includes('實際出賽時間待確認'));
+});
+
+test('a provisional row only takes a broadcast when the official window covers it',()=>{
+  const shows = windowShow({ disciplineCode:'GAR', matchHint:{ phaseKeywords:['Qualification'] } });
+  const inside = { disciplineCode:'GAR', opponentCode:null, athletesEn:[],
+    startTimeTaipei:'2026-09-20T09:00:00+08:00', phase:"Men's Qualification" };
+  assert.equal(broadcastsForRow(shows,'2026-09-20',inside).length,1);
+  // A programme in the afternoon does not cover a morning subdivision.
+  assert.equal(broadcastsForRow(shows,'2026-09-20',{ ...inside, startTimeTaipei:'2026-09-20T13:30:00+08:00' }).length,0);
 });

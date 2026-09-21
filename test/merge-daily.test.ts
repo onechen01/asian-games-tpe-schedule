@@ -344,3 +344,17 @@ test('a placeholder unit in a discipline the delegation did not enter is still d
     new Map([['GAR|M.TEAM--------------',{ evDesc:null, athletes:['TANG Chia-hung'] }]]));
   assert.equal(merged.rows.length,0);
 });
+
+test('a confirmed unit replaces the provisional row instead of doubling it',()=>{
+  const base = { disciplineCode:'GAR', eventId:'M.------------------', eventName:"Men's",
+    phaseName:"Men's Qualification", startTimeTaipei:'2026-09-21T09:00:00+08:00' };
+  const tbd = { ...base, id:'u1', unitId:'u1', hasTpe:null, orgs:[] } as unknown as ResultsRow;
+  const confirmed = { ...base, id:'u2', unitId:'u2', hasTpe:true, orgs:['TPE'],
+    startTimeTaipei:'2026-09-21T13:30:00+08:00',
+    competitors:[{ org:'TPE', name:'TANG Chia-hung', registration:'1' }] } as unknown as ResultsRow;
+  const entries = new Map([['GAR|M.TEAM--------------',{ evDesc:null, athletes:['TANG Chia-hung'] }]]);
+  const merged = mergeDaily({ date:'2026-09-21', rows:[tbd,confirmed],
+    coverage:{ fetchComplete:true, missing:[], sports:['GAR'] } } as never, null, entries);
+  assert.equal(merged.rows.filter(r=>r.disciplineCode === 'GAR').length,1);
+  assert.equal(merged.rows[0].participationState,'TPE_CONFIRMED');
+});

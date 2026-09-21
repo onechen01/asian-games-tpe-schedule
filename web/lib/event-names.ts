@@ -6,6 +6,8 @@ type Rule = [RegExp, string];
 
 const rules:Rule[] = [
   // Gender and participation
+  // A placeholder event ("Men's") is still a real name to the reader: it is the men's event.
+  [/^Men's$|^Men$/, '男子'], [/^Women's$|^Women$/, '女子'],
   [/^Men's |^Men /, '男子'], [/^Women's |^Women /, '女子'], [/^Mixed(?:'s)? /, '混合'],
   // Shooting, archery, fencing and combat-sport wording that the Games data uses verbatim
   [/(\d+)m Air Rifle/, '$1公尺空氣步槍'], [/(\d+)m Air Pistol/, '$1公尺空氣手槍'],
