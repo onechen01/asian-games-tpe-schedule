@@ -509,3 +509,38 @@ test('the looser provisional rule still needs the sport, the day and the phase t
   assert.equal(broadcastsForRow(garShow(),'2026-09-21',
     enteredRow({ participationState:'TPE_CONFIRMED', entryLevel:'unit' })).length,0);
 });
+
+test('athlete identity is scoped to the discipline, and a shared romanisation never leaks',async()=>{
+  const master = await loadAthletes();
+  // The boxer is verified; the basketball record with the same romanisation is under review.
+  assert.equal(athleteLabel('LIN Yu-Ting',master,{discipline:'BOX'}),'林郁婷');
+  assert.equal(athleteLabel('LIN Yu-Ting',master,{discipline:'BKB'}),'LIN Yu-Ting');
+  assert.equal(athleteLabel('LIN Yu-Ting',master,{reg:'13990355',discipline:'BKB'}),'LIN Yu-Ting');
+  // Reg wins, and pure formatting differences still resolve.
+  assert.equal(athleteLabel('LIN YU-TING',master,{reg:'6116922'}),'林郁婷');
+  assert.equal(athleteLabel('Lin Yu Ting',master,{discipline:'BOX'}),'林郁婷');
+  // Two people sharing one romanisation resolve separately by discipline, never globally.
+  assert.equal(athleteLabel('LIN Yi-chen',master,{discipline:'TKW'}),'林翊榛');
+  assert.equal(athleteLabel('LIN Yi-chen',master,{discipline:'GAR'}),'林宜蓁');
+  assert.equal(athleteLabel('LIN Yi-chen',master),'LIN Yi-chen');
+  // A name that is unique in the master still resolves without a discipline.
+  assert.equal(athleteLabel('CHENG I-ching',master),'鄭怡靜');
+  // Nobody outside the master is ever translated.
+  assert.equal(athleteLabel('YANG Po-hsiang',master,{discipline:'BBL'}),'YANG Po-hsiang');
+});
+
+test('phase and status read in Chinese, and unknown wording is left alone',()=>{
+  assert.equal(phaseLabel('Women Group Phase - Group C',null),'女子小組賽C組');
+  assert.equal(phaseLabel("Men's Opening Round Group B",null),'男子預賽B組');
+  assert.equal(phaseLabel('Totally Special Phase',null),'Totally Special Phase');
+  assert.equal(statusLabel({status:'UNOFFICIAL'} as never),'暫定');
+  assert.equal(statusLabel({status:'OFFICIAL'} as never),'已結束');
+  assert.equal(statusLabel({status:'WEIRD_CODE'} as never),'WEIRD_CODE');
+});
+
+test('venues use the verified mapping and are never invented',async()=>{
+  const names = await loadDisplayNames();
+  assert.equal(venueLabel(null,'Aichi Prefectural Martial Arts Hall',names),'愛知縣武道館');
+  assert.equal(venueLabel(null,'Nagoya City General Gymnasium [Rainbow Hall]',names),
+    'Nagoya City General Gymnasium [Rainbow Hall]');
+});

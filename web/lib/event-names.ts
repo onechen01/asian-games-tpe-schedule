@@ -21,7 +21,9 @@ const rules:Rule[] = [
   [/Dinghy/, '帆船'], [/Shortboard/, '短板'],
   [/Elimination Round of (\d+)/, '$1強淘汰賽'], [/Eliminations?/, '淘汰賽'],
   [/1\/(\d+) (?:Eliminations|Finals)/, '$1強賽'],
-  [/Group Phase - Group ([A-Z])/, '小組賽$1組'],
+  [/Group Phase ?- ?Group ([A-Z])/, '小組賽$1組'],
+  [/Opening Round Group ([A-Z])/, '預賽$1組'],
+  [/Opening Round/, '預賽'],
   [/Preliminary Round - Pool ([A-Z])/, '預賽$1組'],
   [/Opening Round Group ([A-Z])/, '首輪$1組'],
   [/Round Robin Pool ([A-Z])/, '循環賽$1組'],
@@ -92,7 +94,9 @@ function frontGender(value:string){
   return clean(`${m[2]}'s ${m[1]} ${m[3]}`);
 }
 // Anything still holding Latin letters or a leftover connector was not fully understood.
-const complete = (value:string)=>!/[A-Za-z]/.test(value);
+// A group label keeps its official letter ("C組"); anything else still in Latin means the
+// name was not fully understood.
+const complete = (value:string)=>!/[A-Za-z]/.test(value.replace(/[A-Z](?=組)/g,''));
 
 export function localizeName(value:string|null|undefined):string|null {
   if (!value) return value ?? null;

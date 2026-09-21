@@ -52,7 +52,7 @@ export const nameList=(row:Row)=>row.athletes;
 // Entered rows carry the officially registered athletes, same lookup rule.
 export const entryNames=(row:Row,master:AthleteMaster)=>athleteLabels(row.enteredAthletes??[],master,row.disciplineCode);
 
-const STATUS:Record<string,string>={OFFICIAL:'已結束',FINISHED:'已結束',RUNNING:'比賽中',LIVE:'比賽中',
+const STATUS:Record<string,string>={UNOFFICIAL:'暫定',OFFICIAL:'已結束',FINISHED:'已結束',RUNNING:'比賽中',LIVE:'比賽中',
   SCHEDULED:'尚未開始',START_LIST:'尚未開始',PROVISIONAL:'尚未開始',GETTING_READY:'尚未開始'};
 // An unrecognised code is shown as-is rather than translated into something invented.
 export function statusLabel(row:Row){
