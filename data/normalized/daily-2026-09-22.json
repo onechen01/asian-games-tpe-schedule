@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:04:49.520Z",
+  "generatedAt": "2026-09-21T13:34:53.047Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T13:04:49.341Z",
+      "generatedAt": "2026-09-21T13:34:52.863Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1210,57 +1210,6 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "VVO",
-      "sportZh": "排球",
-      "sportEn": "Volleyball",
-      "event": "Women",
-      "phase": "Women's Classification Match 5th-8th",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Park Arena Komaki",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHANG Yi-chi",
-        "CHEN Chieh",
-        "HSU Heng-yun",
-        "HSU Wan-yun",
-        "HUNG Chia-yao",
-        "KAN Ko-hui",
-        "LIAO Yi-jen",
-        "LIN Shu-ho",
-        "TSAI Yu-chun",
-        "WEN Yi-chin",
-        "WU Tzu-hua",
-        "XU Zhen-xuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "VVO|W.TEAM6-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T09:03:00+08:00",
       "startTimeJst": "2026-09-22T10:03:00+09:00",
       "disciplineCode": "SWM",
@@ -1720,6 +1669,58 @@
         "results": {
           "unitId": "W.55KG--------------.QFNL.000400--",
           "id": "KTE:W.55KG--------------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T12:00:00+08:00",
+      "startTimeJst": "2026-09-22T13:00:00+09:00",
+      "disciplineCode": "VVO",
+      "sportZh": "排球",
+      "sportEn": "Volleyball",
+      "event": "Women",
+      "phase": "Women's Classification Match 5th-8th",
+      "unit": "5th-6th Place - Match 35",
+      "athletes": [],
+      "athletesEn": [
+        "LIAO Yi-jen",
+        "HSU Wan-yun",
+        "CHEN Chieh",
+        "XU Zhen-xuan",
+        "CHANG Yi-chi",
+        "LIN Shu-ho",
+        "TSAI Yu-chun",
+        "WU Tzu-hua",
+        "HUNG Chia-yao",
+        "KAN Ko-hui",
+        "WEN Yi-chin",
+        "HSU Heng-yun"
+      ],
+      "opponent": "Indonesia",
+      "opponentCode": "INA",
+      "venue": "Park Arena Komaki",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM6-------------.SF5-.000300--",
+          "id": "VVO:W.TEAM6-------------.SF5-.000300--"
         }
       }
     },
@@ -2254,10 +2255,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 42,
-    "entered": 2,
+    "resultsOnly": 43,
+    "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 51
+    "warnings": 52
   },
   "warnings": [
     {
@@ -2409,6 +2410,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KTE 11:50 Women's Kumite -55kg Quarterfinal",
       "row": "KTE:W.55KG--------------.QFNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 5th-6th Place - Match 35",
+      "row": "VVO:W.TEAM6-------------.SF5-.000300--"
     },
     {
       "code": "RESULTS_ONLY",
