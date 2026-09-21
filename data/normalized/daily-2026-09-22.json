@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T23:35:36.592Z",
+  "generatedAt": "2026-09-21T23:46:35.965Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T23:35:36.455Z",
+      "generatedAt": "2026-09-21T23:46:35.786Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -395,7 +395,7 @@
       "opponentCode": "CAM",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
