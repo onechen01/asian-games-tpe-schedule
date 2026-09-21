@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T11:55:20.416Z",
+  "generatedAt": "2026-09-21T12:05:44.363Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T11:55:20.307Z",
+      "generatedAt": "2026-09-21T12:05:44.244Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2147,6 +2147,7 @@
       "athletesEn": [
         "CHEN Chen-wei",
         "YANG Chen-yu",
+        "CHEN Hsiao-yun",
         "HUANG Wei-sheng",
         "LIU Ji-hong",
         "CHU Chia-en",
@@ -2165,7 +2166,6 @@
         "LIN Yu-li",
         "HSU Siang-sheng",
         "LIN Yu-min",
-        "CHEN Hsiao-yun",
         "HUANG Chieh-han",
         "WANG Cheng-hao"
       ],
@@ -2173,7 +2173,7 @@
       "opponentCode": "KOR",
       "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "5",
