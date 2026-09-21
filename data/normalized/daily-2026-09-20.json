@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T02:12:58.276Z",
+  "generatedAt": "2026-09-21T02:24:00.725Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-20/schedule-2026-09-20-AUTO.json",
-      "generatedAt": "2026-09-21T02:12:58.171Z",
+      "generatedAt": "2026-09-21T02:24:00.578Z",
       "coverage": {
         "sports": [
           "BDM",
@@ -264,60 +264,6 @@
         "missing": [],
         "timezoneAnomalies": [
           {
-            "disciplineCode": "HBL",
-            "date": "2026-09-20",
-            "unitId": "M.TEAM7-------------.GPB-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-20T12:30:00+02:00",
-            "recoveredStartTime": "2026-09-20T12:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-20",
-            "unitId": "W.TEAM7-------------.FNL-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-20T13:30:00+02:00",
-            "recoveredStartTime": "2026-09-20T13:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-20",
-            "unitId": "M.TEAM7-------------.GPA-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-20T15:00:00+02:00",
-            "recoveredStartTime": "2026-09-20T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-20",
-            "unitId": "W.TEAM7-------------.FNL-.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-20T15:30:00+02:00",
-            "recoveredStartTime": "2026-09-20T15:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-20",
-            "unitId": "M.TEAM7-------------.GPA-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-20T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-20T17:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-20",
-            "unitId": "W.TEAM7-------------.FNL-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-20T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-20T17:30:00+09:00"
-          },
-          {
             "disciplineCode": "BOX",
             "date": "2026-09-21",
             "unitId": "M.70KG--------------.R32-.000200--",
@@ -397,47 +343,11 @@
             "sourceOffset": "+03:00",
             "originalStartTime": "2026-09-21T17:45:00+03:00",
             "recoveredStartTime": "2026-09-21T17:45:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-21",
-            "unitId": "M.TEAM7-------------.GPA-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-21T12:00:00+02:00",
-            "recoveredStartTime": "2026-09-21T12:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-21",
-            "unitId": "M.TEAM7-------------.GPB-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-21T14:30:00+02:00",
-            "recoveredStartTime": "2026-09-21T14:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-21",
-            "unitId": "M.TEAM7-------------.GPB-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-21T17:00:00+02:00",
-            "recoveredStartTime": "2026-09-21T17:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-21",
-            "unitId": "M.TEAM7-------------.GPA-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-21T19:30:00+02:00",
-            "recoveredStartTime": "2026-09-21T19:30:00+09:00"
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 5,
+          "recovered": 5,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
