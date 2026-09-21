@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T08:54:29.297Z",
+  "generatedAt": "2026-09-21T09:04:24.888Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T08:54:29.145Z",
+      "generatedAt": "2026-09-21T09:04:24.764Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1650,7 +1650,7 @@
       "tpeEntrants": [],
       "tpeRank": "4",
       "orgCount": 13,
-      "tpeMedal": null,
+      "tpeMedal": "ME_SILVER",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1834,14 +1834,14 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "4",
+        "tpe": "5",
         "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1974,8 +1974,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "9",
-        "opponent": "3",
+        "tpe": "12",
+        "opponent": "8",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2155,12 +2155,25 @@
       "phase": "Men's Team Group A",
       "unit": "Game 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "PENG Xian-ya",
+        "TSAI Chung-hao",
+        "SU Hsiang-chih",
+        "CHUANG Chia-ming",
+        "LIN Po-ting",
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
+      ],
       "opponent": "Bangladesh",
       "opponentCode": "BAN",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
