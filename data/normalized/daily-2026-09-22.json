@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T20:49:00.627Z",
+  "generatedAt": "2026-09-21T22:36:54.792Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T20:49:00.440Z",
+      "generatedAt": "2026-09-21T22:36:54.616Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -358,7 +358,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 19,
+      "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2187,15 +2187,15 @@
       "athletesEn": [
         "LIN Tsai mei"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "ZHANG Xiaoyu",
+      "opponentCode": "CHN",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2303,7 +2303,7 @@
     "resultsOnly": 44,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 54
   },
   "warnings": [
     {
@@ -2565,11 +2565,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|M.4X100MMD----------",
       "message": "SWM Men's 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "WSU|W.60KG--------------",
-      "message": "WSU Women's 60kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
