@@ -8,7 +8,7 @@ export type Row = {
   tpenocResult:string | null; rank:string | null; note:string | null;
   // Present when one unit carried more than one Chinese Taipei entrant in an individual event.
   tpeEntrants?:{ name:string | null; registration:string | null; result:string | null; rank:string | null }[];
-  tpeRank?:string | null; orgCount?:number | null;
+  tpeRank?:string | null; orgCount?:number | null; tpeMedal?:string | null;
   participationState:'TPE_CONFIRMED' | 'TPE_ENTERED' | 'PARTICIPANTS_TBD';
   entryLevel?:'unit' | 'event'; unitCount?:number | null; enteredAthletes?:string[];
   matchStatus:'MATCHED' | 'TPENOC_ONLY' | 'RESULTS_ONLY';

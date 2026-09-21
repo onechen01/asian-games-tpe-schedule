@@ -9,7 +9,7 @@ export type ResultsRow = {
   competitors?:Competitor[];
   result?:{ sourceStatus?:string; competitors?:Competitor[] };
 };
-export type Competitor = { org?:string | null; name?:string | null; result?:string | null;
+export type Competitor = { org?:string | null; name?:string | null; result?:string | null; medal?:string | null;
   registration?:string | null; members?:{ name?:string | null }[] };
 // A competitor is one person when it carries no member list and its registration is the
 // numeric athlete id. A team slot instead carries a structured id such as
@@ -44,6 +44,8 @@ export type DailyRow = {
   // Just enough of the official unit to let the display layer recognise a medal match:
   // how many sides competed and where Chinese Taipei placed. Nothing is interpreted here.
   tpeRank:string | null; orgCount:number;
+  // The official medal on the Chinese Taipei competitor, verbatim; null when none is set.
+  tpeMedal:'ME_GOLD' | 'ME_SILVER' | 'ME_BRONZE' | null;
   tpenocResult:string | null; rank:string | null; note:string | null;
   participationState:Participation; entryLevel:EntryLevel;
   // Event-level rows only: how many units of this event run that day, and who is entered.
@@ -273,6 +275,7 @@ function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | 
     tpeEntrants:entrants,
     tpeRank:(typeof tpe?.rank === 'string' && tpe.rank.trim()) ? tpe.rank.trim() : null,
     orgCount:results ? new Set(competitors(results).map(c=>c.org).filter(Boolean)).size : 0,
+    tpeMedal:(tpe?.medal === 'ME_GOLD' || tpe?.medal === 'ME_SILVER' || tpe?.medal === 'ME_BRONZE') ? tpe.medal : null,
     tpenocResult:tpenoc?.result ?? null,
     rank:tpenoc?.rank ?? null,
     note:tpenoc?.note ?? null,

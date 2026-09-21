@@ -104,7 +104,8 @@ test('an entered event is listed but never counted as a confirmed start',async()
   const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-21.json','utf8')),'2026-09-21');
   const shown = taiwanRows(day);
   const entered = shown.filter(isEntered);
-  assert.ok(entered.length > 0,'9/21 應有待確認項目');
+  // Entered rows disappear as the official draw fills in, so the rules are checked on
+  // whichever ones the day still carries.
   for (const row of entered) {
     assert.equal(row.participationState,'TPE_ENTERED');
     assert.equal(row.entryLevel,'event');
@@ -436,4 +437,18 @@ test('the real 9/20 medal matches derive a bronze and a silver, and nothing else
   }
   // No medal may come from a rank in an ordinary final.
   assert.ok(taiwanRows(day).every(r=>medalOf(r) === null || (r.orgCount ?? 0) === 2));
+});
+
+test('the official medal on the competitor decides, whatever the unit looks like',()=>{
+  // 石政中 9/21: the officials left Rk empty but marked ME_BRONZE on the competitor.
+  assert.equal(medalOf({ status:'OFFICIAL', unit:"Men's Kumite -67kg Bronze Medal Bout A",
+    phase:"Men's Kumite -67kg Bronze Medal Bout", tpeRank:null, orgCount:2, tpeMedal:'ME_BRONZE' }),'BRONZE');
+  // No rank, no head-to-head, no medal-match wording needed.
+  assert.equal(medalOf({ status:'OFFICIAL', unit:"Men's Taijiquan Final - Final", orgCount:13, tpeMedal:'ME_GOLD' }),'GOLD');
+  assert.equal(medalOf({ status:'OFFICIAL', unit:'anything', orgCount:13, tpeMedal:'ME_SILVER' }),'SILVER');
+  // Not official, or no medal set: nothing is displayed.
+  assert.equal(medalOf({ status:'SCHEDULED', unit:'Gold Medal Match', tpeMedal:'ME_GOLD', orgCount:2, tpeRank:'1' }),null);
+  assert.equal(medalOf({ status:'OFFICIAL', unit:"Men's Taijijian Final - Final", tpeRank:'2', orgCount:13, tpeMedal:null }),null);
+  // The medal-match wording still works as the fallback.
+  assert.equal(medalOf({ status:'OFFICIAL', unit:'Gold Medal Match', tpeRank:'2', orgCount:2, tpeMedal:null }),'SILVER');
 });

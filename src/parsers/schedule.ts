@@ -19,6 +19,8 @@ export type Source = {
 export function competitor(c: RawCompetitor) {
   return { org: c.Org ?? null, name: c.Name ?? null, registration: c.Reg ?? null,
     result: c.Result ?? null, winner: c.Winner ?? null, rank: c.Rk ?? null,
+    // The officials mark the medal on the competitor itself (ME_GOLD/ME_SILVER/ME_BRONZE).
+    medal: (c as {Medal?:string}).Medal ?? null,
     members: (c.Members || []).map(m => ({ name: m.Name ?? null, org: m.Org ?? null,
       bib: m.Bib ?? null, role: m.FuncDesc ?? null, position: m.PosDesc ?? null })) };
 }
