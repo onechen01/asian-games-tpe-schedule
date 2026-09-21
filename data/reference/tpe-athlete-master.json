@@ -7,12 +7,12 @@
     "keyRule": "reg 是 Results 的官方選手識別碼，為唯一主鍵；normalized officialEn 只有在全庫唯一時才可作為 fallback（例如 LIN Yi-chen 有兩人，僅能以 reg 或 discipline 區分）。",
     "confidenceRule": "只有 confidence=VERIFIED 可以顯示中文。REVIEW 記錄存放在 review，不進入顯示查找，UI 一律 fallback 官方英文姓名。",
     "capturedAt": "2026-09-20",
-    "athleteCount": 481,
-    "verifiedCount": 481,
+    "athleteCount": 488,
+    "verifiedCount": 488,
     "participationRule": "participationStatus 與身分確認無關；WITHDRAWN 仍保留已驗證的中文姓名，UNKNOWN 不得自動視為 ACTIVE。",
     "importedFrom": "tpe-athlete-master-final.json (schemaVersion 2, generatedAt 2026-09-20)",
     "scope": "2026 Aichi-Nagoya Asian Games TPE Results-entry identity master",
-    "reviewCount": 1
+    "reviewCount": 0
   },
   "athletes": [
     {
@@ -2502,7 +2502,7 @@
       "reg": "1014429",
       "officialEn": "LIN Tieh",
       "gender": "W",
-      "zh": "林育庭",
+      "zh": "林蝶",
       "disciplines": [
         "BKB"
       ],
@@ -2517,9 +2517,9 @@
         }
       ],
       "provenance": {
-        "source": "TPENOC + Results/corroborating sport source",
-        "method": "individual identity cross-check",
-        "confirmedAt": "2026-09-20"
+        "source": "official women basketball roster",
+        "method": "romanisation-and-roster-correction",
+        "confirmedAt": "2026-09-21"
       }
     },
     {
@@ -11645,33 +11645,164 @@
         "confirmedAt": "2026-09-20"
       },
       "participationStatus": "UNKNOWN"
-    }
-  ],
-  "review": [
+    },
+    {
+      "reg": "6355165",
+      "officialEn": "YANG Po-hsiang",
+      "zh": "陽柏翔",
+      "gender": "M",
+      "disciplines": [
+        "BBL"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "final_roster",
+          "note": "使用者提供之最終代表隊名單，與 Results 隊伍名單 Reg 逐筆對應"
+        }
+      ],
+      "provenance": {
+        "source": "final delegation roster (user-supplied) + Results team members",
+        "method": "roster-to-reg exact match",
+        "confirmedAt": "2026-09-21"
+      }
+    },
+    {
+      "reg": "8285115",
+      "officialEn": "LIU Chih-jung",
+      "zh": "劉致榮",
+      "gender": "M",
+      "disciplines": [
+        "BBL"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "final_roster",
+          "note": "使用者提供之最終代表隊名單，與 Results 隊伍名單 Reg 逐筆對應"
+        }
+      ],
+      "provenance": {
+        "source": "final delegation roster (user-supplied) + Results team members",
+        "method": "roster-to-reg exact match",
+        "confirmedAt": "2026-09-21"
+      }
+    },
+    {
+      "reg": "11414238",
+      "officialEn": "YU Tsung-ju",
+      "zh": "游宗儒",
+      "gender": "M",
+      "disciplines": [
+        "BBL"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "final_roster",
+          "note": "使用者提供之最終代表隊名單，與 Results 隊伍名單 Reg 逐筆對應"
+        }
+      ],
+      "provenance": {
+        "source": "final delegation roster (user-supplied) + Results team members",
+        "method": "roster-to-reg exact match",
+        "confirmedAt": "2026-09-21"
+      }
+    },
+    {
+      "reg": "8274986",
+      "officialEn": "HSU Siang-sheng",
+      "zh": "徐翔聖",
+      "gender": "M",
+      "disciplines": [
+        "BBL"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "final_roster",
+          "note": "使用者提供之最終代表隊名單，與 Results 隊伍名單 Reg 逐筆對應"
+        }
+      ],
+      "provenance": {
+        "source": "final delegation roster (user-supplied) + Results team members",
+        "method": "roster-to-reg exact match",
+        "confirmedAt": "2026-09-21"
+      }
+    },
+    {
+      "reg": "4008801",
+      "officialEn": "HUANG Chieh-han",
+      "zh": "黃玠瀚",
+      "gender": "M",
+      "disciplines": [
+        "BBL"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "final_roster",
+          "note": "使用者提供之最終代表隊名單，與 Results 隊伍名單 Reg 逐筆對應"
+        }
+      ],
+      "provenance": {
+        "source": "final delegation roster (user-supplied) + Results team members",
+        "method": "roster-to-reg exact match",
+        "confirmedAt": "2026-09-21"
+      }
+    },
+    {
+      "reg": "8096499",
+      "officialEn": "GUO Dinghong",
+      "zh": "郭定泓",
+      "gender": "M",
+      "disciplines": [
+        "BBL"
+      ],
+      "confidence": "VERIFIED",
+      "aliases": [],
+      "evidence": [
+        {
+          "type": "media",
+          "url": "https://www.cw.com.tw/article/5141999",
+          "note": "郭定泓為潘文輝退出後的替補投手"
+        }
+      ],
+      "provenance": {
+        "source": "replacement announcement + Results team members",
+        "method": "replacement-player identification",
+        "confirmedAt": "2026-09-21"
+      }
+    },
     {
       "reg": "13990355",
       "officialEn": "LIN Yu-Ting",
-      "zh": null,
+      "zh": "林育庭",
       "gender": "W",
       "disciplines": [
         "BKB"
       ],
-      "confidence": "REVIEW",
+      "confidence": "VERIFIED",
       "aliases": [],
-      "participationStatus": "UNKNOWN",
       "evidence": [
         {
-          "type": "qa_conflict",
-          "note": "Previous ELTA evidence belonged to boxer 林郁婷, not this BKB record. Current TPENOC women's basketball roster already has 林育庭 represented by Results record LIN Tieh (reg 1014429); no safe Chinese identity for this extra Results row."
+          "type": "roster_elimination",
+          "note": "女籃 12 人名單加替補林蝶；master 其餘 11 人已定，LIN Tieh 對應林蝶，餘下唯一為林育庭"
         }
       ],
       "provenance": {
-        "source": "whole-database QA",
-        "method": "cross-discipline collision review",
-        "confirmedAt": "2026-09-20"
+        "source": "official women basketball roster + master elimination",
+        "method": "sole-remaining-identity",
+        "confirmedAt": "2026-09-21"
       }
     }
   ],
+  "review": [],
   "qa": {
     "sourcePopulationRows": 482,
     "verifiedIdentity": 481,

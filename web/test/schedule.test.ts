@@ -139,17 +139,16 @@ test('entered athletes now resolve to verified Chinese names, and an unverified 
   assert.equal(athleteLabel('SOMEONE Not-in-master',master),'SOMEONE Not-in-master');
 });
 
-test('the unresolved BKB LIN Yu-Ting keeps the official English name',async()=>{
+test('the basketball and boxing LIN Yu-Ting are two verified people, not one',async()=>{
   const master = await loadAthletes();
-  assert.equal(athleteLabel('LIN Yu-Ting',master,{reg:'13990355',discipline:'BKB'}),'LIN Yu-Ting');
-  assert.equal(athleteLabel('LIN Yu-Ting',master,{discipline:'BKB'}),'LIN Yu-Ting');
+  assert.equal(athleteLabel('LIN Yu-Ting',master,{reg:'13990355',discipline:'BKB'}),'林育庭');
+  assert.equal(athleteLabel('LIN Yu-Ting',master,{reg:'6116922',discipline:'BOX'}),'林郁婷');
   const doc = JSON.parse(await readFile('data/reference/tpe-athlete-master.json','utf8'));
-  assert.ok(!doc.athletes.some((a:{reg:string})=>a.reg === '13990355'),'REVIEW 不進顯示查找');
-  assert.equal(doc.review[0].zh,null,'不得猜中文姓名');
-  // 林郁婷 exists, but only as the boxer; no basketball record may carry that identity.
+  // No basketball record may carry the boxer's name, and vice versa.
   assert.ok(doc.athletes.every((a:{zh:string;disciplines:string[]})=>
     !(a.zh === '林郁婷' && a.disciplines.includes('BKB'))));
-  assert.ok(!doc.review.some((a:{zh:string|null})=>a.zh === '林育庭'));
+  assert.ok(doc.athletes.every((a:{zh:string;disciplines:string[]})=>
+    !(a.zh === '林育庭' && a.disciplines.includes('BOX'))));
 });
 
 test('two different people sharing one romanisation never overwrite each other',async()=>{
@@ -514,8 +513,8 @@ test('athlete identity is scoped to the discipline, and a shared romanisation ne
   const master = await loadAthletes();
   // The boxer is verified; the basketball record with the same romanisation is under review.
   assert.equal(athleteLabel('LIN Yu-Ting',master,{discipline:'BOX'}),'林郁婷');
-  assert.equal(athleteLabel('LIN Yu-Ting',master,{discipline:'BKB'}),'LIN Yu-Ting');
-  assert.equal(athleteLabel('LIN Yu-Ting',master,{reg:'13990355',discipline:'BKB'}),'LIN Yu-Ting');
+  assert.equal(athleteLabel('LIN Yu-Ting',master,{discipline:'BKB'}),'林育庭');
+  assert.equal(athleteLabel('LIN Yu-Ting',master,{reg:'13990355',discipline:'BKB'}),'林育庭');
   // Reg wins, and pure formatting differences still resolve.
   assert.equal(athleteLabel('LIN YU-TING',master,{reg:'6116922'}),'林郁婷');
   assert.equal(athleteLabel('Lin Yu Ting',master,{discipline:'BOX'}),'林郁婷');
@@ -526,7 +525,7 @@ test('athlete identity is scoped to the discipline, and a shared romanisation ne
   // A name that is unique in the master still resolves without a discipline.
   assert.equal(athleteLabel('CHENG I-ching',master),'鄭怡靜');
   // Nobody outside the master is ever translated.
-  assert.equal(athleteLabel('YANG Po-hsiang',master,{discipline:'BBL'}),'YANG Po-hsiang');
+  assert.equal(athleteLabel('NOBODY In-master',master,{discipline:'BBL'}),'NOBODY In-master');
 });
 
 test('phase and status read in Chinese, and unknown wording is left alone',()=>{
