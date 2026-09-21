@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T04:04:56.108Z",
+  "generatedAt": "2026-09-21T04:54:45.703Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T04:04:55.998Z",
+      "generatedAt": "2026-09-21T04:54:45.576Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -282,128 +282,10 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "W.51KG--------------.R32-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T12:00:00+03:00",
-            "recoveredStartTime": "2026-09-22T12:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "W.51KG--------------.R32-.001000--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T12:15:00+03:00",
-            "recoveredStartTime": "2026-09-22T12:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "W.51KG--------------.R32-.001500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T12:30:00+03:00",
-            "recoveredStartTime": "2026-09-22T12:30:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "W.54KG--------------.R32-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T12:45:00+03:00",
-            "recoveredStartTime": "2026-09-22T12:45:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "W.54KG--------------.R32-.001500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T13:00:00+03:00",
-            "recoveredStartTime": "2026-09-22T13:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "M.55KG--------------.R32-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T17:00:00+03:00",
-            "recoveredStartTime": "2026-09-22T17:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "M.55KG--------------.R32-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T17:15:00+03:00",
-            "recoveredStartTime": "2026-09-22T17:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "M.55KG--------------.R32-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T17:30:00+03:00",
-            "recoveredStartTime": "2026-09-22T17:30:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "M.55KG--------------.R32-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T17:45:00+03:00",
-            "recoveredStartTime": "2026-09-22T17:45:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "M.55KG--------------.R32-.001000--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T18:00:00+03:00",
-            "recoveredStartTime": "2026-09-22T18:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "M.55KG--------------.R32-.001100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T18:15:00+03:00",
-            "recoveredStartTime": "2026-09-22T18:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "M.55KG--------------.R32-.001400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T18:30:00+03:00",
-            "recoveredStartTime": "2026-09-22T18:30:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-22",
-            "unitId": "M.55KG--------------.R32-.001500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-22T18:45:00+03:00",
-            "recoveredStartTime": "2026-09-22T18:45:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 4,
-          "recovered": 4,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -604,6 +486,157 @@
       "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T09:00:00+08:00",
       "startTimeJst": "2026-09-21T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Men Individual",
+      "phase": "Skeet Men Individual Qualification",
+      "unit": "Skeet Men Individual - Qualification - Qualification - Day 1",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Meng-Yuan",
+        "WANG Han-Tsun",
+        "ZHANG Feng-Qi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "LEE Meng-Yuan",
+          "registration": "13634212",
+          "result": "49",
+          "rank": "3"
+        },
+        {
+          "name": "WANG Han-Tsun",
+          "registration": "4309027",
+          "result": "47",
+          "rank": "18"
+        },
+        {
+          "name": "ZHANG Feng-Qi",
+          "registration": "4308201",
+          "result": "23",
+          "rank": "23"
+        }
+      ],
+      "tpeRank": "3",
+      "orgCount": 21,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SKM---------------.QUAL.000100--",
+          "id": "SHO:M.SKM---------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
+      "startTimeJst": "2026-09-21T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Men Team",
+      "phase": "Skeet Men Team Final",
+      "unit": "Skeet Men Team - Final - Day 1",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Meng-Yuan",
+        "ZHANG Feng-Qi",
+        "WANG Han-Tsun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "48",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "4",
+      "orgCount": 10,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SKTM--------------.FNL-.000100--",
+          "id": "SHO:M.SKTM--------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
+      "startTimeJst": "2026-09-21T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Women Individual",
+      "phase": "Skeet Women Individual Qualification",
+      "unit": "Skeet Women Individual - Qualification - Qualification - Day 1",
+      "athletes": [],
+      "athletesEn": [
+        "LO Chien-Ya"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "40",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "23",
+      "orgCount": 11,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SKW---------------.QUAL.000100--",
+          "id": "SHO:W.SKW---------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
+      "startTimeJst": "2026-09-21T10:00:00+09:00",
       "disciplineCode": "SWM",
       "sportZh": "游泳",
       "sportEn": "Swimming",
@@ -641,120 +674,6 @@
         "results": {
           "unitId": "M.50MBA-------------.HEAT.000100--",
           "id": "SWM:M.50MBA-------------.HEAT.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
-      "startTimeJst": "2026-09-21T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Men Individual",
-      "phase": "Skeet Men Individual Qualification",
-      "unit": "Skeet Men Individual - Qualification - Qualification - Day 1",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SKM---------------.QUAL.000100--",
-          "id": "SHO:M.SKM---------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
-      "startTimeJst": "2026-09-21T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Men Team",
-      "phase": "Skeet Men Team Final",
-      "unit": "Skeet Men Team - Final - Day 1",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SKTM--------------.FNL-.000100--",
-          "id": "SHO:M.SKTM--------------.FNL-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
-      "startTimeJst": "2026-09-21T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Women Individual",
-      "phase": "Skeet Women Individual Qualification",
-      "unit": "Skeet Women Individual - Qualification - Qualification - Day 1",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SKW---------------.QUAL.000100--",
-          "id": "SHO:W.SKW---------------.QUAL.000100--"
         }
       }
     },
@@ -1411,8 +1330,12 @@
       "opponentCode": "QAT",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "6",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1462,8 +1385,12 @@
       "opponentCode": "KAZ",
       "venue": "Park Arena Komaki",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1486,6 +1413,50 @@
     },
     {
       "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T12:35:00+08:00",
+      "startTimeJst": "2026-09-21T13:35:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Kumite -67kg",
+      "phase": "Men's Kumite -67kg Semifinals",
+      "unit": "Men's Kumite -67kg Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "SHIH Cheng-chung"
+      ],
+      "opponent": "KOZAKI Yugo",
+      "opponentCode": "JPN",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.67KG--------------.SFNL.000100--",
+          "id": "KTE:M.67KG--------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T13:00:00+08:00",
       "startTimeJst": "2026-09-21T14:00:00+09:00",
       "disciplineCode": "TST",
@@ -1503,7 +1474,7 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1540,11 +1511,51 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "SANOSA Christy/NUGUIT Sherwin Ray",
+      "opponentCode": "PHI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.QFNL.000400--",
+          "id": "TST:X.DOUBLES-----------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T13:15:00+08:00",
+      "startTimeJst": "2026-09-21T14:15:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Kumite -67kg",
+      "phase": "Men's Kumite -67kg Bronze Medal Bout",
+      "unit": "Men's Kumite -67kg Bronze Medal Bout A",
+      "athletes": [],
+      "athletesEn": [
+        "SHIH Cheng-chung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1561,8 +1572,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "X.DOUBLES-----------.QFNL.000400--",
-          "id": "TST:X.DOUBLES-----------.QFNL.000400--"
+          "unitId": "M.67KG--------------.REPF.000100--",
+          "id": "KTE:M.67KG--------------.REPF.000100--"
         }
       }
     },
@@ -2173,10 +2184,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 40,
+    "resultsOnly": 42,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 42
+    "warnings": 44
   },
   "warnings": [
     {
@@ -2201,11 +2212,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:00 Men's 50m Backstroke Heat 1",
-      "row": "SWM:M.50MBA-------------.HEAT.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Individual - Qualification - Qualification - Day 1",
       "row": "SHO:M.SKM---------------.QUAL.000100--"
     },
@@ -2218,6 +2224,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Women Individual - Qualification - Qualification - Day 1",
       "row": "SHO:W.SKW---------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:00 Men's 50m Backstroke Heat 1",
+      "row": "SWM:M.50MBA-------------.HEAT.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2301,6 +2312,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 12:35 Men's Kumite -67kg Semifinal",
+      "row": "KTE:M.67KG--------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 13:00 Mixed Doubles Quarterfinals Match 2",
       "row": "TST:X.DOUBLES-----------.QFNL.000200--"
     },
@@ -2308,6 +2324,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 13:00 Mixed Doubles Quarterfinals Match 4",
       "row": "TST:X.DOUBLES-----------.QFNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 13:15 Men's Kumite -67kg Bronze Medal Bout A",
+      "row": "KTE:M.67KG--------------.REPF.000100--"
     },
     {
       "code": "RESULTS_ONLY",
