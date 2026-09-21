@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:55:37.914Z",
+  "generatedAt": "2026-09-21T11:05:41.377Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T10:55:37.769Z",
+      "generatedAt": "2026-09-21T11:05:41.269Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -2023,7 +2023,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2154,6 +2154,7 @@
         "KAO Yu-wei",
         "TSAI Wei-tai",
         "YANG Po-hsiang",
+        "LIU Chih-jung",
         "LIN Yi-wei",
         "YU Tsung-ju",
         "KUO Tzu-chuan",
@@ -2164,10 +2165,9 @@
         "LIN Yu-li",
         "HUANG Chieh-han",
         "WANG Cheng-hao",
-        "CHEN Hsiao-yun",
         "HSU Siang-sheng",
         "LIN Yu-min",
-        "LIU Chih-jung"
+        "CHEN Hsiao-yun"
       ],
       "opponent": "Republic of Korea",
       "opponentCode": "KOR",
@@ -2284,7 +2284,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2332,7 +2332,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
