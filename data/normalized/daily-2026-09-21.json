@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T11:45:37.577Z",
+  "generatedAt": "2026-09-21T11:55:20.416Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T11:45:37.430Z",
+      "generatedAt": "2026-09-21T11:55:20.307Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -2154,18 +2154,18 @@
         "KAO Yu-wei",
         "CHANG Hsiang",
         "TSAI Wei-tai",
+        "LI I-wei",
         "YANG Po-hsiang",
         "LIU Chih-jung",
         "LIN Yi-wei",
         "WANG Yu-chieh",
         "YU Tsung-ju",
         "KUO Tzu-chuan",
-        "LI I-wei",
         "WANG Yan-cheng",
+        "LIN Yu-li",
         "HSU Siang-sheng",
         "LIN Yu-min",
         "CHEN Hsiao-yun",
-        "LIN Yu-li",
         "HUANG Chieh-han",
         "WANG Cheng-hao"
       ],
@@ -2176,7 +2176,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "4",
+        "opponent": "5",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2395,7 +2395,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "3",
+        "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
