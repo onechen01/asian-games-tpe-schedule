@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T04:21:32.025Z",
+  "generatedAt": "2026-09-21T07:20:17.940Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-21T04:21:31.899Z",
+      "generatedAt": "2026-09-21T07:20:17.787Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -294,110 +294,10 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "W.51KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T13:00:00+03:00",
-            "recoveredStartTime": "2026-10-02T13:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "W.60KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T13:15:00+03:00",
-            "recoveredStartTime": "2026-10-02T13:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "W.75KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T13:30:00+03:00",
-            "recoveredStartTime": "2026-10-02T13:30:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "M.55KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T13:45:00+03:00",
-            "recoveredStartTime": "2026-10-02T13:45:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "M.70KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T14:00:00+03:00",
-            "recoveredStartTime": "2026-10-02T14:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "M.90KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T14:15:00+03:00",
-            "recoveredStartTime": "2026-10-02T14:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "W.54KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T17:30:00+03:00",
-            "recoveredStartTime": "2026-10-02T17:30:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "W.65KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T17:45:00+03:00",
-            "recoveredStartTime": "2026-10-02T17:45:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "M.60KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T18:00:00+03:00",
-            "recoveredStartTime": "2026-10-02T18:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "M.80KG--------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T18:15:00+03:00",
-            "recoveredStartTime": "2026-10-02T18:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-10-02",
-            "unitId": "M.O90KG-------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-10-02T18:30:00+03:00",
-            "recoveredStartTime": "2026-10-02T18:30:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,

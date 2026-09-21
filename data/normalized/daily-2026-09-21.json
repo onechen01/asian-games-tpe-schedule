@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T06:55:17.036Z",
+  "generatedAt": "2026-09-21T07:05:00.271Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T06:55:16.896Z",
+      "generatedAt": "2026-09-21T07:05:00.123Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1391,9 +1391,9 @@
       "opponentCode": "KAZ",
       "venue": "Park Arena Komaki",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "2",
+        "tpe": "3",
         "opponent": "2",
         "source": "results"
       },
@@ -1613,7 +1613,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "9.720",
         "opponent": null,
@@ -1658,14 +1658,14 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "4",
+        "tpe": "5",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -1713,8 +1713,12 @@
       "opponentCode": "MAS",
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1772,6 +1776,47 @@
         "results": {
           "unitId": "M.50MBA-------------.FNL-.000100--",
           "id": "SWM:M.50MBA-------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T16:00:00+08:00",
+      "startTimeJst": "2026-09-21T17:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Finals",
+      "unit": "Mixed Doubles Finals Gold Medal Match",
+      "athletes": [],
+      "athletesEn": [
+        "YU Kai-wen",
+        "HUANG Shih-yuan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.FNL-.000100--",
+          "id": "TST:X.DOUBLES-----------.FNL-.000100--"
         }
       }
     },
@@ -2251,7 +2296,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 43,
+    "resultsOnly": 44,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 44
@@ -2419,6 +2464,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 16:00 Mixed Doubles Finals Gold Medal Match",
+      "row": "TST:X.DOUBLES-----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:06 Women's 50m Backstroke Final",
       "row": "SWM:W.50MBA-------------.FNL-.000100--"
     },
@@ -2471,11 +2521,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 19:10 Men Round Robin Pool C Game 3",
       "row": "BK3:M.TEAM3-------------.GPC-.000300--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TST|X.DOUBLES-----------",
-      "message": "TST Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
