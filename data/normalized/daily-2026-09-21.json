@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T03:03:56.592Z",
+  "generatedAt": "2026-09-21T03:13:03.535Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T03:03:56.427Z",
+      "generatedAt": "2026-09-21T03:13:03.365Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -483,8 +483,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -495,7 +495,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 248
+      "events": 250
     }
   },
   "date": "2026-09-21",
@@ -693,9 +693,9 @@
       "unit": "Skeet Men Individual - Qualification - Qualification - Day 1",
       "athletes": [],
       "athletesEn": [
+        "ZHANG Feng-Qi",
         "LEE Meng-Yuan",
-        "WANG Han-Tsun",
-        "ZHANG Feng-Qi"
+        "WANG Han-Tsun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -705,25 +705,25 @@
       "result": null,
       "tpeEntrants": [
         {
+          "name": "ZHANG Feng-Qi",
+          "registration": "4308201",
+          "result": "3",
+          "rank": "6"
+        },
+        {
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
           "result": "24",
-          "rank": "7"
+          "rank": "10"
         },
         {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
           "result": "24",
-          "rank": "16"
-        },
-        {
-          "name": "ZHANG Feng-Qi",
-          "registration": "4308201",
-          "result": null,
-          "rank": "39"
+          "rank": "19"
         }
       ],
-      "tpeRank": "7",
+      "tpeRank": "6",
       "orgCount": 21,
       "tpenocResult": null,
       "rank": null,
@@ -813,7 +813,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "25",
+      "tpeRank": "24",
       "orgCount": 11,
       "tpenocResult": null,
       "rank": null,
@@ -1515,6 +1515,88 @@
     },
     {
       "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T13:00:00+08:00",
+      "startTimeJst": "2026-09-21T14:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Quarterfinals",
+      "unit": "Mixed Doubles Quarterfinals Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Wei-chieh",
+        "CHIANG Min-yu"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.QFNL.000200--",
+          "id": "TST:X.DOUBLES-----------.QFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T13:00:00+08:00",
+      "startTimeJst": "2026-09-21T14:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Quarterfinals",
+      "unit": "Mixed Doubles Quarterfinals Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "YU Kai-wen",
+        "HUANG Shih-yuan"
+      ],
+      "opponent": "TIWARI Aadhya/MEENA Jay",
+      "opponentCode": "IND",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.QFNL.000400--",
+          "id": "TST:X.DOUBLES-----------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T13:30:00+08:00",
       "startTimeJst": "2026-09-21T14:30:00+09:00",
       "disciplineCode": "WSU",
@@ -1960,10 +2042,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 31,
+    "resultsOnly": 33,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 37
+    "warnings": 39
   },
   "warnings": [
     {
@@ -2070,6 +2152,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 25",
       "row": "VVO:W.TEAM6-------------.SF5-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 13:00 Mixed Doubles Quarterfinals Match 2",
+      "row": "TST:X.DOUBLES-----------.QFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 13:00 Mixed Doubles Quarterfinals Match 4",
+      "row": "TST:X.DOUBLES-----------.QFNL.000400--"
     },
     {
       "code": "RESULTS_ONLY",
