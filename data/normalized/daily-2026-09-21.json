@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T07:44:47.881Z",
+  "generatedAt": "2026-09-21T07:55:16.752Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T07:44:47.762Z",
+      "generatedAt": "2026-09-21T07:55:16.639Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1715,8 +1715,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "46",
-        "opponent": "23",
+        "tpe": "50",
+        "opponent": "24",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1757,8 +1757,12 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 9,
@@ -1798,7 +1802,7 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
