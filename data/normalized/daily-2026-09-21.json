@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T03:13:03.535Z",
+  "generatedAt": "2026-09-21T03:33:22.230Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T03:13:03.365Z",
+      "generatedAt": "2026-09-21T03:33:22.105Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -285,87 +285,6 @@
         "timezoneAnomalies": [
           {
             "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T12:00:00+03:00",
-            "recoveredStartTime": "2026-09-21T12:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T12:15:00+03:00",
-            "recoveredStartTime": "2026-09-21T12:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T12:30:00+03:00",
-            "recoveredStartTime": "2026-09-21T12:30:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T12:45:00+03:00",
-            "recoveredStartTime": "2026-09-21T12:45:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T13:00:00+03:00",
-            "recoveredStartTime": "2026-09-21T13:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.001000--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T17:00:00+03:00",
-            "recoveredStartTime": "2026-09-21T17:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.001100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T17:15:00+03:00",
-            "recoveredStartTime": "2026-09-21T17:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.001400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T17:30:00+03:00",
-            "recoveredStartTime": "2026-09-21T17:30:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.001500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T17:45:00+03:00",
-            "recoveredStartTime": "2026-09-21T17:45:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
             "date": "2026-09-22",
             "unitId": "W.51KG--------------.R32-.000200--",
             "code": "RECOVERED_OFFICIAL_TIME",
@@ -483,8 +402,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -693,9 +612,9 @@
       "unit": "Skeet Men Individual - Qualification - Qualification - Day 1",
       "athletes": [],
       "athletesEn": [
-        "ZHANG Feng-Qi",
         "LEE Meng-Yuan",
-        "WANG Han-Tsun"
+        "WANG Han-Tsun",
+        "ZHANG Feng-Qi"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -704,12 +623,6 @@
       "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
-        {
-          "name": "ZHANG Feng-Qi",
-          "registration": "4308201",
-          "result": "3",
-          "rank": "6"
-        },
         {
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
@@ -720,10 +633,16 @@
           "name": "WANG Han-Tsun",
           "registration": "4309027",
           "result": "24",
-          "rank": "19"
+          "rank": "18"
+        },
+        {
+          "name": "ZHANG Feng-Qi",
+          "registration": "4308201",
+          "result": "17",
+          "rank": "30"
         }
       ],
-      "tpeRank": "6",
+      "tpeRank": "10",
       "orgCount": 21,
       "tpenocResult": null,
       "rank": null,
@@ -813,7 +732,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "24",
+      "tpeRank": "25",
       "orgCount": 11,
       "tpenocResult": null,
       "rank": null,
@@ -1266,7 +1185,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "6",
+        "opponent": "9",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1432,33 +1351,38 @@
       "sportEn": "Karate",
       "event": "Men's Kumite -67kg",
       "phase": "Men's Kumite -67kg Round of 32",
-      "unit": null,
+      "unit": "Men's Kumite -67kg Round of 32",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "SHIH Cheng-chung"
+      ],
+      "opponent": "SULTONOV Alisher",
+      "opponentCode": "TJK",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": null,
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "SHIH Cheng-chung"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "KTE|M.67KG--------------"
+        "results": {
+          "unitId": "M.67KG--------------.R32-.000100--",
+          "id": "KTE:M.67KG--------------.R32-.000100--"
         }
       }
     },
@@ -1569,15 +1493,15 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "TIWARI Aadhya/MEENA Jay",
-      "opponentCode": "IND",
+      "opponent": null,
+      "opponentCode": null,
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 2,
+      "orgCount": 1,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1732,7 +1656,7 @@
     {
       "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T16:45:00+08:00",
-      "startTimeJst": "2026-09-21T17:45:00+03:00",
+      "startTimeJst": "2026-09-21T17:45:00+09:00",
       "disciplineCode": "BOX",
       "sportZh": "拳擊",
       "sportEn": "Boxing",
@@ -2042,10 +1966,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 33,
-    "entered": 1,
+    "resultsOnly": 34,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 39
+    "warnings": 41
   },
   "warnings": [
     {
@@ -2150,6 +2074,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 11:20 Men's Kumite -67kg Round of 32",
+      "row": "KTE:M.67KG--------------.R32-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 25",
       "row": "VVO:W.TEAM6-------------.SF5-.000100--"
     },
@@ -2212,6 +2141,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 19:10 Men Round Robin Pool C Game 3",
       "row": "BK3:M.TEAM3-------------.GPC-.000300--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "KTE|M.67KG--------------",
+      "message": "KTE Men's Kumite -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
