@@ -187,10 +187,22 @@ export function mergeDaily(results:ResultsSnapshot, tpenoc:{ scheduleDate:string
   // that event, but never which unit, so the whole event collapses into a single pending row.
   // Without an entry list nothing is assumed and every unit stays unresolved.
   const confirmedEvents = new Set(tpeRows.map(row=>row.disciplineCode + '|' + (row.eventId ?? '')));
+  // Some qualifications cover every apparatus at once and publish a placeholder event id
+  // ("M.------------------"). The entry list is per event, so those units are matched on the
+  // discipline and the gender the officials put in that placeholder, still from entries only.
+  const placeholder = (eventId:string | null | undefined)=>/^([MWX])\.-+$/.exec(eventId ?? '')?.[1] ?? null;
+  const entriesForGender = (disciplineCode:string, gender:string)=>{
+    if (!entries) return null;
+    const matches = [...entries.entries()]
+      .filter(([key])=>key.startsWith(`${disciplineCode}|${gender}.`));
+    if (!matches.length) return null;
+    return { evDesc:null, athletes:[...new Set(matches.flatMap(([,value])=>value.athletes))] };
+  };
   const pending = new Map<string,{ rows:ResultsRow[]; athletes:string[] }>();
   for (const row of tbdRows) {
     const key = row.disciplineCode + '|' + (row.eventId ?? '');
-    const entry = entries?.get(key);
+    const gender = placeholder(row.eventId);
+    const entry = entries?.get(key) ?? (gender ? entriesForGender(row.disciplineCode, gender) : null);
     if (!entries) { rows.push(canonical(date, row, null, 'RESULTS_ONLY', 'none', [])); continue; }
     // The entry list is complete for the delegation, so an event it does not list is an event
     // Chinese Taipei is not in; those units simply do not belong on a Chinese Taipei page.

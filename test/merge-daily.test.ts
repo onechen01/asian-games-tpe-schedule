@@ -312,3 +312,35 @@ test('a team or relay entry is never split into separate athletes',()=>{
   assert.equal(row.tpeEntrants.length,0);
   assert.deepEqual(row.result,{ tpe:'2', opponent:'1', source:'results' });
 });
+
+test('a qualification unit with a placeholder event id is matched through the entry list',()=>{
+  // Artistic gymnastics publishes "M.------------------" for an all-apparatus qualification,
+  // so the per-event entry keys never match it directly.
+  const unit = (id:string)=>({ id, unitId:id, disciplineCode:'GAR', eventId:'M.------------------',
+    eventName:"Men's", phaseName:"Men's Qualification", unitName:`Men's Qualification - Subdivision ${id}`,
+    startTimeTaipei:`2026-09-21T0${id}:00:00+08:00`, hasTpe:null, orgs:[] }) as unknown as ResultsRow;
+  const entries = new Map([
+    ['GAR|M.TEAM--------------',{ evDesc:"Men's Team", athletes:['TANG Chia-hung','LEE Chih-kai'] }],
+    ['GAR|M.1APFX-------------',{ evDesc:"Men's Floor Exercise", athletes:['LEE Chih-kai','HUNG Yuan-hsi'] }],
+    ['GAR|W.TEAM--------------',{ evDesc:"Women's Team", athletes:['SOMEONE Else'] }],
+  ]);
+  const merged = mergeDaily({ date:'2026-09-21', rows:[unit('9'),unit('1')],
+    coverage:{ fetchComplete:true, missing:[], sports:['GAR'] } } as never, null, entries);
+  const row = merged.rows.find(r=>r.disciplineCode === 'GAR')!;
+  assert.equal(row.participationState,'TPE_ENTERED');
+  assert.equal(row.entryLevel,'event');
+  assert.equal(row.unitCount,2,'兩個 subdivision 併成一列');
+  assert.deepEqual(row.enteredAthletes,['TANG Chia-hung','LEE Chih-kai','HUNG Yuan-hsi']);
+  // The other gender's entries never leak in.
+  assert.ok(!row.enteredAthletes.includes('SOMEONE Else'));
+});
+
+test('a placeholder unit in a discipline the delegation did not enter is still dropped',()=>{
+  const unit = { id:'u1', unitId:'u1', disciplineCode:'GRY', eventId:'W.------------------',
+    phaseName:"Women's Qualification", startTimeTaipei:'2026-09-21T09:00:00+08:00',
+    hasTpe:null, orgs:[] } as unknown as ResultsRow;
+  const merged = mergeDaily({ date:'2026-09-21', rows:[unit],
+    coverage:{ fetchComplete:true, missing:[], sports:['GRY'] } } as never, null,
+    new Map([['GAR|M.TEAM--------------',{ evDesc:null, athletes:['TANG Chia-hung'] }]]));
+  assert.equal(merged.rows.length,0);
+});
