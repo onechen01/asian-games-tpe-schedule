@@ -709,6 +709,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T15:55:00+08:00",
+      "disciplineCode": "SWM",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": true,
+      "title": "亞運 中華隊 游泳 決賽 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-21T18:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-21T16:35:00+08:00",
       "disciplineCode": "BK3",
       "channelId": "115",
