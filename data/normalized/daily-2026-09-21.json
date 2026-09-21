@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T14:27:32.259Z",
+  "generatedAt": "2026-09-21T14:45:42.650Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T14:27:32.108Z",
+      "generatedAt": "2026-09-21T14:45:42.482Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
