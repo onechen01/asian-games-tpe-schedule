@@ -444,7 +444,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-21T10:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-21T10:42:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -584,7 +584,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-21T14:50:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-21T15:02:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -643,7 +643,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-21T14:50:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-21T15:02:00+08:00",
       "disciplineCode": "BKB",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
@@ -657,6 +657,28 @@
       "matchHint": {
         "opponentCodes": [
           "MAS"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-21T15:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 甘家葳 拳擊 男子70公斤級預賽 9/21 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-21",
+      "broadcastEndTimeTaipei": "2026-09-21T17:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "KAN Chia-wei"
         ]
       }
     },
@@ -793,28 +815,6 @@
       "matchHint": {
         "opponentCodes": [
           "BAN"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-21T20:30:00+08:00",
-      "disciplineCode": "BOX",
-      "channelId": "105",
-      "channelName": "愛爾達體育2台",
-      "isLive": false,
-      "title": "亞運 甘家葳 拳擊 男子70公斤級預賽 9/21 D-LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-21T21:00:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "KAN Chia-wei"
         ]
       }
     },
