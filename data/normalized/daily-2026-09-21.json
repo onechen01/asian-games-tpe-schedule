@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T09:24:06.516Z",
+  "generatedAt": "2026-09-21T09:36:03.132Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T09:24:06.377Z",
+      "generatedAt": "2026-09-21T09:36:02.970Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2137,6 +2137,62 @@
       "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T17:30:00+08:00",
       "startTimeJst": "2026-09-21T18:30:00+09:00",
+      "disciplineCode": "KAB",
+      "sportZh": "卡巴迪",
+      "sportEn": "Kabaddi",
+      "event": "Men's Team",
+      "phase": "Men's Team Group A",
+      "unit": "Game 3",
+      "athletes": [],
+      "athletesEn": [
+        "PENG Xian-ya",
+        "TSAI Chung-hao",
+        "SU Hsiang-chih",
+        "CHUANG Chia-ming",
+        "LIN Po-ting",
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
+      ],
+      "opponent": "Bangladesh",
+      "opponentCode": "BAN",
+      "venue": "Tokai Citizen Gymnasium",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM7-------------.GPA-.000300--",
+          "id": "KAB:M.TEAM7-------------.GPA-.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T17:30:00+08:00",
+      "startTimeJst": "2026-09-21T18:30:00+09:00",
       "disciplineCode": "BBL",
       "sportZh": "棒球",
       "sportEn": "Baseball",
@@ -2173,8 +2229,12 @@
       "opponentCode": "KOR",
       "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2193,58 +2253,6 @@
         "results": {
           "unitId": "M.TEAM9-------------.GPB-.000200--",
           "id": "BBL:M.TEAM9-------------.GPB-.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T17:30:00+08:00",
-      "startTimeJst": "2026-09-21T18:30:00+09:00",
-      "disciplineCode": "KAB",
-      "sportZh": "卡巴迪",
-      "sportEn": "Kabaddi",
-      "event": "Men's Team",
-      "phase": "Men's Team Group A",
-      "unit": "Game 3",
-      "athletes": [],
-      "athletesEn": [
-        "PENG Xian-ya",
-        "TSAI Chung-hao",
-        "SU Hsiang-chih",
-        "CHUANG Chia-ming",
-        "LIN Po-ting",
-        "JIN Wu Fu-kai",
-        "YEH Jiunn-ming",
-        "WANG Lun-chu",
-        "LI Jyun-jie",
-        "CHANG Chung-mao",
-        "CHEN Zheng-wei",
-        "CAI Ruei-chen"
-      ],
-      "opponent": "Bangladesh",
-      "opponentCode": "BAN",
-      "venue": "Tokai Citizen Gymnasium",
-      "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.TEAM7-------------.GPA-.000300--",
-          "id": "KAB:M.TEAM7-------------.GPA-.000300--"
         }
       }
     },
@@ -2313,7 +2321,7 @@
       "opponentCode": "UZB",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2647,13 +2655,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 3",
-      "row": "BBL:M.TEAM9-------------.GPB-.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：KAB 17:30 Game 3",
+      "row": "KAB:M.TEAM7-------------.GPA-.000300--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KAB 17:30 Game 3",
-      "row": "KAB:M.TEAM7-------------.GPA-.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 3",
+      "row": "BBL:M.TEAM9-------------.GPB-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
