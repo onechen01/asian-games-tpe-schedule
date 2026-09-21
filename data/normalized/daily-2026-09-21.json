@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T05:35:58.880Z",
+  "generatedAt": "2026-09-21T05:45:19.136Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T05:35:58.732Z",
+      "generatedAt": "2026-09-21T05:45:18.998Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -322,7 +322,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "BHANDARI Kamal / CHAUDHARY Georgia",
+      "opponent": "BHANDARI Kamal/CHAUDHARY Georgia",
       "opponentCode": "NEP",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -333,7 +333,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -367,7 +367,7 @@
         "LIN Wei-chieh",
         "CHIANG Min-yu"
       ],
-      "opponent": "LALUYAN Rizky / NAFIIAH Allif",
+      "opponent": "LALUYAN Rizky/NAFIIAH Allif",
       "opponentCode": "INA",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -378,7 +378,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -508,7 +508,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -569,14 +569,14 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "48",
+        "tpe": "143",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "2",
       "orgCount": 10,
       "tpenocResult": null,
       "rank": null,
@@ -1155,7 +1155,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "KHURELBAYAR Khaliunbayar / GANBOLD Khongorzul",
+      "opponent": "KHURELBAYAR Khaliunbayar/GANBOLD Khongorzul",
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1166,7 +1166,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -1200,7 +1200,7 @@
         "LIN Wei-chieh",
         "CHIANG Min-yu"
       ],
-      "opponent": "KHAN Sabrina / BASHIR Rafae",
+      "opponent": "KHAN Sabrina/BASHIR Rafae",
       "opponentCode": "PAK",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1211,7 +1211,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -1476,14 +1476,14 @@
         "LIN Wei-chieh",
         "CHIANG Min-yu"
       ],
-      "opponent": "KIM Yeon-hwa / PARK Jaekyu",
+      "opponent": "KIM Yeon-hwa/PARK Jaekyu",
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "status": "RUNNING",
       "result": {
         "tpe": "4",
-        "opponent": "3",
+        "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1521,7 +1521,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "SANOSA Christy / NUGUIT Sherwin Ray",
+      "opponent": "SANOSA Christy/NUGUIT Sherwin Ray",
       "opponentCode": "PHI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1532,7 +1532,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
@@ -1654,7 +1654,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "MAEDA Rio / MARUYAMA Kaito",
+      "opponent": "MAEDA Rio/MARUYAMA Kaito",
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
