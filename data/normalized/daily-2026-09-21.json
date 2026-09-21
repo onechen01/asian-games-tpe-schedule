@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T06:44:05.158Z",
+  "generatedAt": "2026-09-21T06:55:17.036Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T06:44:05.000Z",
+      "generatedAt": "2026-09-21T06:55:16.896Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1660,7 +1660,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "2",
+        "tpe": "4",
         "opponent": "0",
         "source": "results"
       },
@@ -1713,7 +1713,7 @@
       "opponentCode": "MAS",
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
