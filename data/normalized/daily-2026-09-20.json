@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T02:33:20.456Z",
+  "generatedAt": "2026-09-21T02:51:44.243Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-20/schedule-2026-09-20-AUTO.json",
-      "generatedAt": "2026-09-21T02:33:20.352Z",
+      "generatedAt": "2026-09-21T02:51:44.097Z",
       "coverage": {
         "sports": [
           "BDM",
@@ -346,8 +346,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,

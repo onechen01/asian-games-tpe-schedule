@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T02:42:15.200Z",
+  "generatedAt": "2026-09-21T02:55:08.736Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T02:42:15.055Z",
+      "generatedAt": "2026-09-21T02:55:08.565Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -603,8 +603,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 14,
-          "recovered": 14,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -779,7 +779,7 @@
       ],
       "opponent": "Indonesia",
       "opponentCode": "INA",
-      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venue": null,
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
@@ -1870,15 +1870,15 @@
         "LEE Jhe-huei",
         "CHIU Hsiang-chieh"
       ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
+      "opponent": "Thailand",
+      "opponentCode": "THA",
+      "venue": null,
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2111,45 +2111,6 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T17:00:00+08:00",
-      "startTimeJst": "2026-09-22T18:00:00+09:00",
-      "disciplineCode": "WSU",
-      "sportZh": "武術",
-      "sportEn": "Wushu",
-      "event": "Women's 52kg",
-      "phase": "Women's 52kg",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHEN Si-yun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "WSU|W.52KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T17:40:00+08:00",
       "startTimeJst": "2026-09-22T18:40:00+09:00",
       "disciplineCode": "WSU",
@@ -2160,13 +2121,13 @@
       "unit": "Match 1",
       "athletes": [],
       "athletesEn": [
-        "LIN Tsai-mei"
+        "LIN Tsai mei"
       ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2228,40 +2189,41 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T21:00:00+08:00",
-      "startTimeJst": "2026-09-22T22:00:00+09:00",
+      "startTimeTaipei": "2026-09-22T21:20:00+08:00",
+      "startTimeJst": "2026-09-22T22:20:00+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
       "event": "Men's 75kg",
       "phase": "Men's 75kg",
-      "unit": null,
+      "unit": "Match 3",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "ZHANG Huan yi"
+      ],
+      "opponent": "KHURSHEDZODA Mirzodalerkhon",
+      "opponentCode": "TJK",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "ZHANG Huan-yi"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "WSU|M.75KG--------------"
+        "results": {
+          "unitId": "M.75KG--------------.QFNL.000300--",
+          "id": "WSU:M.75KG--------------.QFNL.000300--"
         }
       }
     }
@@ -2271,10 +2233,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 25,
-    "entered": 14,
+    "resultsOnly": 26,
+    "entered": 12,
     "unresolvedTbd": 0,
-    "warnings": 33
+    "warnings": 34
   },
   "warnings": [
     {
@@ -2401,6 +2363,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 18:45 Game 3",
       "row": "KAB:W.TEAM7-------------.GPB-.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 21:20 Match 3",
+      "row": "WSU:M.75KG--------------.QFNL.000300--"
     },
     {
       "code": "PENDING_LATER_UNITS",
