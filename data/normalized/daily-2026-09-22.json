@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T05:05:48.528Z",
+  "generatedAt": "2026-09-21T05:38:11.047Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T05:05:48.342Z",
+      "generatedAt": "2026-09-21T05:38:10.855Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -16,6 +16,7 @@
           "BOX",
           "CKT",
           "CRD",
+          "ELS",
           "EQU",
           "FBL",
           "FEN",
@@ -36,7 +37,6 @@
           "WSU",
           "ATH",
           "CSP",
-          "ELS",
           "ROW",
           "SQU",
           "WLF"
@@ -83,6 +83,11 @@
               "code": "CRD",
               "date": "2026-09-22",
               "medalDay": true
+            },
+            {
+              "code": "ELS",
+              "date": "2026-09-22",
+              "medalDay": false
             },
             {
               "code": "EQU",
@@ -314,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
