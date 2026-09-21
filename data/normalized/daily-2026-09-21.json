@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T06:24:49.645Z",
+  "generatedAt": "2026-09-21T06:33:37.084Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T06:24:49.497Z",
+      "generatedAt": "2026-09-21T06:33:36.963Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1658,8 +1658,12 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1872,7 +1876,7 @@
       "opponentCode": "JPN",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2071,7 +2075,7 @@
       "opponentCode": "BRN",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
