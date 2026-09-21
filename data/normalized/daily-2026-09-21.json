@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T05:16:20.103Z",
+  "generatedAt": "2026-09-21T05:25:35.794Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T05:16:19.960Z",
+      "generatedAt": "2026-09-21T05:25:35.682Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -284,8 +284,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -514,14 +514,14 @@
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
-          "result": "34",
-          "rank": "15"
+          "result": "42",
+          "rank": "13"
         },
         {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
           "result": "47",
-          "rank": "19"
+          "rank": "17"
         }
       ],
       "tpeRank": "2",
@@ -1368,18 +1368,18 @@
       "unit": "Match 25",
       "athletes": [],
       "athletesEn": [
-        "HSU Heng-yun",
-        "XU Zhen-xuan",
-        "HUNG Chia-yao",
-        "LIN Shu-ho",
-        "KAN Ko-hui",
-        "HSU Wan-yun",
-        "TSAI Yu-chun",
         "LIAO Yi-jen",
+        "HSU Wan-yun",
         "CHEN Chieh",
-        "WEN Yi-chin",
+        "XU Zhen-xuan",
+        "CHANG Yi-chi",
+        "LIN Shu-ho",
+        "TSAI Yu-chun",
         "WU Tzu-hua",
-        "CHANG Yi-chi"
+        "HUNG Chia-yao",
+        "KAN Ko-hui",
+        "WEN Yi-chin",
+        "HSU Heng-yun"
       ],
       "opponent": "Kazakhstan",
       "opponentCode": "KAZ",
@@ -1476,8 +1476,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "2",
-        "opponent": "0",
+        "tpe": "3",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1563,10 +1563,10 @@
       "opponentCode": "VIE",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "1",
-        "opponent": "0",
+        "tpe": "9",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1626,6 +1626,47 @@
         "results": {
           "unitId": "M.TAIJ--------------.FNL-.000200--",
           "id": "WSU:M.TAIJ--------------.FNL-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T14:30:00+08:00",
+      "startTimeJst": "2026-09-21T15:30:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Semifinals",
+      "unit": "Mixed Doubles Semifinals Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "YU Kai-wen",
+        "HUANG Shih-yuan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.SFNL.000200--",
+          "id": "TST:X.DOUBLES-----------.SFNL.000200--"
         }
       }
     },
@@ -1927,44 +1968,6 @@
       "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T17:30:00+08:00",
       "startTimeJst": "2026-09-21T18:30:00+09:00",
-      "disciplineCode": "BBL",
-      "sportZh": "棒球",
-      "sportEn": "Baseball",
-      "event": "Baseball Men",
-      "phase": "Men's Opening Round Group B",
-      "unit": "Game 3",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": "Republic of Korea",
-      "opponentCode": "KOR",
-      "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
-      "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.TEAM9-------------.GPB-.000200--",
-          "id": "BBL:M.TEAM9-------------.GPB-.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T17:30:00+08:00",
-      "startTimeJst": "2026-09-21T18:30:00+09:00",
       "disciplineCode": "KAB",
       "sportZh": "卡巴迪",
       "sportEn": "Kabaddi",
@@ -1996,6 +1999,44 @@
         "results": {
           "unitId": "M.TEAM7-------------.GPA-.000300--",
           "id": "KAB:M.TEAM7-------------.GPA-.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T17:30:00+08:00",
+      "startTimeJst": "2026-09-21T18:30:00+09:00",
+      "disciplineCode": "BBL",
+      "sportZh": "棒球",
+      "sportEn": "Baseball",
+      "event": "Baseball Men",
+      "phase": "Men's Opening Round Group B",
+      "unit": "Game 3",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "Republic of Korea",
+      "opponentCode": "KOR",
+      "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM9-------------.GPB-.000200--",
+          "id": "BBL:M.TEAM9-------------.GPB-.000200--"
         }
       }
     },
@@ -2196,10 +2237,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 42,
+    "resultsOnly": 43,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 43
+    "warnings": 44
   },
   "warnings": [
     {
@@ -2349,6 +2390,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 14:30 Mixed Doubles Semifinals Match 2",
+      "row": "TST:X.DOUBLES-----------.SFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BKB 15:00 Women Group Phase - Group C Game 4",
       "row": "BKB:W.TEAM5-------------.GPC-.000400--"
     },
@@ -2384,13 +2430,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 3",
-      "row": "BBL:M.TEAM9-------------.GPB-.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：KAB 17:30 Game 3",
+      "row": "KAB:M.TEAM7-------------.GPA-.000300--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KAB 17:30 Game 3",
-      "row": "KAB:M.TEAM7-------------.GPA-.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 3",
+      "row": "BBL:M.TEAM9-------------.GPB-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
