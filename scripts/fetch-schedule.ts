@@ -5,7 +5,9 @@ import { parseMatrix, activeDisciplineDays } from '../src/parsers/matrix.ts';
 import type { Schedule, RawCompetitor } from '../src/parsers/schedule.ts';
 import { validateDate, nextDay } from '../src/utils/timezone.ts';
 import { save, ROOT } from '../src/utils/storage.ts';
+import { recoverMissing } from '../src/utils/recovery.ts';
 import { readFile } from 'node:fs/promises';
+import { setTimeout as pause } from 'node:timers/promises';
 import { resolve } from 'node:path';
 import type { Meta, Failure } from '../src/api/asianGames.ts';
 
@@ -70,34 +72,34 @@ async function attempt<T>(path:string, run:()=>Promise<T>): Promise<{ok:true;val
     return { ok:false, failure };
   }
 }
-for (const { code:sport, date:day } of targets) {
-  {
-    const path = `${sport}/schedule/daily/${day}`;
-    const outcome = await attempt(path, async()=>{
-      const {data,meta} = await get(path);
-      requests.push(meta);
-      // The requested day and the discipline's official competition days are what let a
-      // wrong timezone offset be recovered instead of silently moving a unit to another day.
-      return parseDaily(data,{mode:'api',...meta},{ requestedDate:day, officialDays:officialDays.get(sport) });
-    });
-    if (!outcome.ok) {
-      missing.push({ kind:'schedule-daily',disciplineCode:sport,endpoint:BASE+path,date:day,
-        http_status:outcome.failure.http_status,error:outcome.failure.error });
-      continue;
-    }
-    for (const row of outcome.value) {
-      if (row.timezoneAnomaly) {
-        anomalies.push({ disciplineCode:sport, date:day, unitId:row.unitId,
-          code:row.timezoneAnomaly.code, sourceOffset:row.timezoneAnomaly.sourceOffset,
-          originalStartTime:row.originalStartTime, recoveredStartTime:row.timezoneAnomaly.recoveredStartTime });
-      }
-      if (!row.startTimeTaipei) { unresolved.push(row); continue; }
-      if (row.startTimeTaipei.slice(0,10)===date) rows.set(row.id,row);
-    }
+// Each endpoint is fetched through these two helpers so the recovery pass can repeat exactly
+// the failed ones, and nothing else.
+async function fetchDailyUnits(sport:string, day:string):Promise<boolean> {
+  const path = `${sport}/schedule/daily/${day}`;
+  const outcome = await attempt(path, async()=>{
+    const {data,meta} = await get(path);
+    requests.push(meta);
+    // The requested day and the discipline's official competition days are what let a
+    // wrong timezone offset be recovered instead of silently moving a unit to another day.
+    return parseDaily(data,{mode:'api',...meta},{ requestedDate:day, officialDays:officialDays.get(sport) });
+  });
+  if (!outcome.ok) {
+    missing.push({ kind:'schedule-daily',disciplineCode:sport,endpoint:BASE+path,date:day,
+      http_status:outcome.failure.http_status,error:outcome.failure.error });
+    return false;
   }
+  for (const row of outcome.value) {
+    if (row.timezoneAnomaly) {
+      anomalies.push({ disciplineCode:sport, date:day, unitId:row.unitId,
+        code:row.timezoneAnomaly.code, sourceOffset:row.timezoneAnomaly.sourceOffset,
+        originalStartTime:row.originalStartTime, recoveredStartTime:row.timezoneAnomaly.recoveredStartTime });
+    }
+    if (!row.startTimeTaipei) { unresolved.push(row); continue; }
+    if (row.startTimeTaipei.slice(0,10)===date) rows.set(row.id,row);
+  }
+  return true;
 }
-for (const row of rows.values()) {
-  if (row.hasTpe!==true || !row.resultCode) continue;
+async function fetchUnitResult(row:Row):Promise<boolean> {
   const path = `${row.disciplineCode}/results/${row.resultCode}`;
   const outcome = await attempt(path, async()=>{
     const {data,meta} = await get(path);
@@ -114,10 +116,40 @@ for (const row of rows.values()) {
   if (!outcome.ok) {
     missing.push({ kind:'results',disciplineCode:row.disciplineCode,endpoint:BASE+path,unitId:row.unitId,
       http_status:outcome.failure.http_status,error:outcome.failure.error });
-    continue;
+    return false;
   }
   row.result = outcome.value;
+  return true;
 }
+
+for (const { code:sport, date:day } of targets) await fetchDailyUnits(sport, day);
+for (const row of rows.values()) {
+  if (row.hasTpe!==true || !row.resultCode) continue;
+  await fetchUnitResult(row);
+}
+
+// One recovery pass. The official API answers 200 with a non-JSON body now and then; waiting
+// and repeating only the failed endpoints lets a day finish cleanly instead of being held.
+// Nothing is relaxed: a day still publishes only when it ends with no missing and no errors.
+const initialMissing = [...missing];
+let recovered = 0;
+if (initialMissing.length) {
+  missing.length = 0;
+  const outcome = await recoverMissing(initialMissing, async(item)=>{
+    const ok = item.kind === 'schedule-daily'
+      ? await fetchDailyUnits(item.disciplineCode, item.date as string)
+      : await (async()=>{
+          const row = [...rows.values()].find(r=>r.unitId === item.unitId);
+          return row ? fetchUnitResult(row) : false;
+        })();
+    // A recovered endpoint's earlier failure no longer counts against the day.
+    if (ok) { const at = errors.findIndex(e=>e.endpoint === item.endpoint); if (at >= 0) errors.splice(at,1); }
+    return ok;
+  }, { sleep:pause, onStart:(count)=>console.error(`initial missing=${count}；30 秒後只重抓失敗的端點`) });
+  recovered = outcome.recovered.length;
+  console.error(`recovery attempted=${outcome.attempted.length}｜recovered=${recovered}｜remaining=${missing.length}`);
+}
+
 const all = [...rows.values()].sort((a,b)=>(a.startTimeTaipei || '').localeCompare(b.startTimeTaipei || ''));
 const taiwan = all.filter(r=>r.hasTpe===true), unknown = all.filter(r=>r.hasTpe===null);
 const report = { schemaVersion:2,generatedAt:new Date().toISOString(),date,timezone:'Asia/Taipei',
@@ -125,6 +157,7 @@ const report = { schemaVersion:2,generatedAt:new Date().toISOString(),date,timez
     selection:{ mode:argument === 'AUTO' ? 'schedule-matrix' : argument === 'ALL' ? 'all' : 'explicit',
       japaneseDays:days, targets },missing,
     timezoneAnomalies:anomalies,
+    recovery:{ initialMissing:initialMissing.length, recovered, remaining:missing.length },
     unrecoveredTimezone:anomalies.filter(a=>a.code !== 'RECOVERED_OFFICIAL_TIME').length,
     // A day is only complete when nothing failed and no unit was left unplaceable.
     fetchComplete:errors.length===0 && missing.length===0

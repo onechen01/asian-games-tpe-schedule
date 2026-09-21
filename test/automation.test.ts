@@ -134,3 +134,39 @@ test('a day that produced nothing carries the child process reason, never a bare
   assert.ok(script.includes('existsSync(resolve(ROOT,file))'));
   assert.ok(script.includes('bootstrap 失敗'));
 });
+
+import { recoverMissing } from '../src/utils/recovery.ts';
+import { RETRY_DELAYS } from '../src/api/asianGames.ts';
+
+test('a single request waits longer between its three attempts',()=>{
+  assert.deepEqual(RETRY_DELAYS.slice(0,2),[5000,15000]);
+});
+
+test('recovery repeats only the failed endpoints, and the day passes when they come back',async()=>{
+  const failed = [{ endpoint:'A' },{ endpoint:'B' }];
+  const tried:string[] = [];
+  const out = await recoverMissing(failed, async(i)=>{ tried.push(i.endpoint); return true; },{ sleep:async()=>{} });
+  assert.deepEqual(tried,['A','B'],'不得重抓已成功的端點');
+  assert.equal(out.recovered.length,2);
+  assert.equal(out.remaining.length,0);
+  // With nothing left missing the existing gate passes unchanged.
+  assert.equal(qualityGate({ daily:{ coverageComplete:true, rows:[] },
+    schedule:{ errors:[], coverage:{ missing:[], fetchComplete:true } } }).pass,true);
+});
+
+test('a still-failing endpoint holds the day, and the gate is not relaxed',async()=>{
+  const out = await recoverMissing([{ endpoint:'A' }], async()=>false, { sleep:async()=>{} });
+  assert.equal(out.recovered.length,0);
+  assert.equal(out.remaining.length,1);
+  const gate = qualityGate({ daily:{ coverageComplete:false, rows:[] },
+    schedule:{ errors:[{}], coverage:{ missing:[{}], fetchComplete:false } } });
+  assert.equal(gate.pass,false);
+  assert.equal(isAutomationFailure(gate.reasons),false,'官方資料不完整仍是 HOLD，不是 automation 失敗');
+});
+
+test('a clean run never enters recovery',async()=>{
+  let started = 0;
+  const out = await recoverMissing([], async()=>true, { sleep:async()=>{ started++; } });
+  assert.equal(started,0);
+  assert.deepEqual([out.attempted.length,out.recovered.length,out.remaining.length],[0,0,0]);
+});

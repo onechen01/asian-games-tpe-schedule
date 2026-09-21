@@ -56,7 +56,7 @@ export async function saveRaw(path: string, decoded: ReturnType<typeof decode>, 
 // The official API intermittently answers 200 with a body that is not JSON. That is a
 // transport fault, never "no competition", so a request is retried a bounded number of
 // times before it is recorded as missing.
-export const RETRY_DELAYS = [2000, 5000, 10000];
+export const RETRY_DELAYS = [5000, 15000, 30000];
 export const MAX_ATTEMPTS = 3;
 export async function withRetry<T>(run:(attempt:number)=>Promise<T>,
   options:{ delays?:number[]; attempts?:number; sleep?:(ms:number)=>Promise<unknown> } = {}): Promise<T> {
