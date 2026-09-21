@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T04:56:56.367Z",
+  "generatedAt": "2026-09-21T05:05:48.528Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T04:56:56.212Z",
+      "generatedAt": "2026-09-21T05:05:48.342Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -314,8 +314,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -490,7 +490,7 @@
       ],
       "opponent": "Indonesia",
       "opponentCode": "INA",
-      "venue": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
@@ -593,6 +593,46 @@
         "results": {
           "unitId": "W.TEAM--------------.QFNL.000300--",
           "id": "KTE:W.TEAM--------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Women Individual",
+      "phase": "Skeet Women Individual Qualification",
+      "unit": "Skeet Women Individual - Qualification - Qualification - Day 2",
+      "athletes": [],
+      "athletesEn": [
+        "LO Chien-Ya"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 11,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SKW---------------.QUAL.000200--",
+          "id": "SHO:W.SKW---------------.QUAL.000200--"
         }
       }
     },
@@ -759,45 +799,6 @@
       "sources": {
         "entries": {
           "eventId": "SHO|M.SKTM--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Women Individual",
-      "phase": "Skeet Women Individual Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LO Chien-Ya"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|W.SKW---------------"
         }
       }
     },
@@ -1424,7 +1425,7 @@
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
-      "venue": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
@@ -1743,10 +1744,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 27,
-    "entered": 6,
+    "resultsOnly": 28,
+    "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 35
+    "warnings": 36
   },
   "warnings": [
     {
@@ -1778,6 +1779,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:00 Women's Team Kata Quarterfinal",
       "row": "KTE:W.TEAM--------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Women Individual - Qualification - Qualification - Day 2",
+      "row": "SHO:W.SKW---------------.QUAL.000200--"
     },
     {
       "code": "RESULTS_ONLY",

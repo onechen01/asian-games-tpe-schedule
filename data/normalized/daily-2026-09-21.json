@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T04:54:45.703Z",
+  "generatedAt": "2026-09-21T05:04:28.038Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T04:54:45.576Z",
+      "generatedAt": "2026-09-21T05:04:27.888Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -509,22 +509,22 @@
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
           "result": "49",
-          "rank": "3"
+          "rank": "2"
         },
         {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
           "result": "47",
-          "rank": "18"
+          "rank": "19"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
-          "result": "23",
+          "result": "26",
           "rank": "23"
         }
       ],
-      "tpeRank": "3",
+      "tpeRank": "2",
       "orgCount": 21,
       "tpenocResult": null,
       "rank": null,
@@ -1387,7 +1387,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -1474,8 +1474,12 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1515,8 +1519,12 @@
       "opponentCode": "PHI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1551,15 +1559,15 @@
       "athletesEn": [
         "SHIH Cheng-chung"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "KHUAT Hai Nam",
+      "opponentCode": "VIE",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
       "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpenocResult": null,
       "rank": null,
       "note": null,
