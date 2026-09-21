@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T03:11:43.056Z",
+  "generatedAt": "2026-09-21T03:21:45.491Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-20/schedule-2026-09-20-AUTO.json",
-      "generatedAt": "2026-09-21T03:11:42.910Z",
+      "generatedAt": "2026-09-21T03:21:45.348Z",
       "coverage": {
         "sports": [
           "BDM",
@@ -262,89 +262,7 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T12:00:00+03:00",
-            "recoveredStartTime": "2026-09-21T12:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T12:15:00+03:00",
-            "recoveredStartTime": "2026-09-21T12:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T12:30:00+03:00",
-            "recoveredStartTime": "2026-09-21T12:30:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T12:45:00+03:00",
-            "recoveredStartTime": "2026-09-21T12:45:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T13:00:00+03:00",
-            "recoveredStartTime": "2026-09-21T13:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.001000--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T17:00:00+03:00",
-            "recoveredStartTime": "2026-09-21T17:00:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.001100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T17:15:00+03:00",
-            "recoveredStartTime": "2026-09-21T17:15:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.001400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T17:30:00+03:00",
-            "recoveredStartTime": "2026-09-21T17:30:00+09:00"
-          },
-          {
-            "disciplineCode": "BOX",
-            "date": "2026-09-21",
-            "unitId": "M.70KG--------------.R32-.001500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+03:00",
-            "originalStartTime": "2026-09-21T17:45:00+03:00",
-            "recoveredStartTime": "2026-09-21T17:45:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
           "initialMissing": 0,
           "recovered": 0,
