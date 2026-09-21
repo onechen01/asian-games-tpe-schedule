@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T23:46:35.965Z",
+  "generatedAt": "2026-09-21T23:53:32.646Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T23:46:35.786Z",
+      "generatedAt": "2026-09-21T23:53:32.502Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1520,7 +1520,12 @@
       "phase": "Men's 4 x 100m Medley Relay Heats",
       "unit": "Men's 4 x 100m Medley Relay Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHUANG Mu-lun",
+        "CHANG Chiao-i",
+        "WANG Kuan-hung",
+        "LIN Yi-cheng"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
