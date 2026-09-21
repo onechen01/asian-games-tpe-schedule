@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T07:08:44.765Z",
+  "generatedAt": "2026-09-21T10:10:00.230Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-21T07:08:44.566Z",
+      "generatedAt": "2026-09-21T10:10:00.025Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 4,
+          "recovered": 4,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -347,6 +347,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -389,6 +390,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 18,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -429,6 +431,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 10,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -467,6 +470,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -510,6 +514,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -550,6 +555,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -590,6 +596,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -628,6 +635,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -699,6 +707,7 @@
       ],
       "tpeRank": null,
       "orgCount": 25,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -741,6 +750,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 14,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -783,6 +793,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -821,6 +832,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -862,6 +874,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -903,6 +916,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -918,46 +932,6 @@
       "sources": {
         "entries": {
           "eventId": "SHO|W.SKW---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
-      "startTimeJst": "2026-09-23T10:00:00+09:00",
-      "disciplineCode": "SWM",
-      "sportZh": "游泳",
-      "sportEn": "Swimming",
-      "event": "Women's 100m Butterfly",
-      "phase": "Women's 100m Butterfly Heats",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokyo Aquatics Centre",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "HAN An-chi",
-        "LIU Pei-yin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SWM|W.100MBF------------"
         }
       }
     },
@@ -982,6 +956,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1005,133 +980,18 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
-      "startTimeJst": "2026-09-23T10:00:00+09:00",
-      "disciplineCode": "WLF",
-      "sportZh": "舉重",
-      "sportEn": "Weightlifting",
-      "event": "Women's 49kg",
-      "phase": "Women's 49kg All Groups",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Trade and Industry Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "FANG Wan-ling"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "WLF|W.49KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
-      "startTimeJst": "2026-09-23T10:00:00+09:00",
-      "disciplineCode": "WLF",
-      "sportZh": "舉重",
-      "sportEn": "Weightlifting",
-      "event": "Women's 53kg",
-      "phase": "Women's 53kg All Groups",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Trade and Industry Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "LIN Cheng-jing"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "WLF|W.53KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:09:00+08:00",
-      "startTimeJst": "2026-09-23T10:09:00+09:00",
+      "startTimeTaipei": "2026-09-23T09:03:00+08:00",
+      "startTimeJst": "2026-09-23T10:03:00+09:00",
       "disciplineCode": "SWM",
       "sportZh": "游泳",
       "sportEn": "Swimming",
-      "event": "Men's 100m Butterfly",
-      "phase": "Men's 100m Butterfly Heats",
-      "unit": null,
+      "event": "Women's 100m Butterfly",
+      "phase": "Women's 100m Butterfly Heats",
+      "unit": "Women's 100m Butterfly Heat 2",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokyo Aquatics Centre",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 5,
-      "enteredAthletes": [
-        "WANG Kuan-hung"
+      "athletesEn": [
+        "LIU Pei-yin"
       ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SWM|M.100MBF------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:14:00+08:00",
-      "startTimeJst": "2026-09-23T10:14:00+09:00",
-      "disciplineCode": "SWM",
-      "sportZh": "游泳",
-      "sportEn": "Swimming",
-      "event": "Mixed 4 x 100m Medley Relay",
-      "phase": "Mixed 4 x 100m Medley Relay Heats",
-      "unit": "Mixed 4 x 100m Medley Relay Heat 2",
-      "athletes": [],
-      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -1141,6 +1001,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 7,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1153,47 +1014,131 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "X.4X100MMD----------.HEAT.000200--",
-          "id": "SWM:X.4X100MMD----------.HEAT.000200--"
+          "unitId": "W.100MBF------------.HEAT.000200--",
+          "id": "SWM:W.100MBF------------.HEAT.000200--"
         }
       }
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:21:00+08:00",
-      "startTimeJst": "2026-09-23T10:21:00+09:00",
+      "startTimeTaipei": "2026-09-23T09:06:00+08:00",
+      "startTimeJst": "2026-09-23T10:06:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 100m Butterfly",
+      "phase": "Women's 100m Butterfly Heats",
+      "unit": "Women's 100m Butterfly Heat 3",
+      "athletes": [],
+      "athletesEn": [
+        "HAN An-chi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.100MBF------------.HEAT.000300--",
+          "id": "SWM:W.100MBF------------.HEAT.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:12:00+08:00",
+      "startTimeJst": "2026-09-23T10:12:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 100m Butterfly",
+      "phase": "Men's 100m Butterfly Heats",
+      "unit": "Men's 100m Butterfly Heat 2",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Kuan-hung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.100MBF------------.HEAT.000200--",
+          "id": "SWM:M.100MBF------------.HEAT.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:27:00+08:00",
+      "startTimeJst": "2026-09-23T10:27:00+09:00",
       "disciplineCode": "SWM",
       "sportZh": "游泳",
       "sportEn": "Swimming",
       "event": "Women's 100m Backstroke",
       "phase": "Women's 100m Backstroke Heats",
-      "unit": null,
+      "unit": "Women's 100m Backstroke Heat 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHANG Ya-jia"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 9,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHANG Ya-jia"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SWM|W.100MBA------------"
+        "results": {
+          "unitId": "W.100MBA------------.HEAT.000300--",
+          "id": "SWM:W.100MBA------------.HEAT.000300--"
         }
       }
     },
@@ -1206,33 +1151,74 @@
       "sportEn": "Swimming",
       "event": "Women's 100m Breaststroke",
       "phase": "Women's 100m Breaststroke Heats",
-      "unit": null,
+      "unit": "Women's 100m Breaststroke Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Pei-wun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.100MBR------------.HEAT.000100--",
+          "id": "SWM:W.100MBR------------.HEAT.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T10:14:00+08:00",
+      "startTimeJst": "2026-09-23T11:14:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Mixed 4 x 100m Medley Relay",
+      "phase": "Mixed 4 x 100m Medley Relay Heats",
+      "unit": "Mixed 4 x 100m Medley Relay Heat 1",
       "athletes": [],
       "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "LIN Pei-wun"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SWM|W.100MBR------------"
+        "results": {
+          "unitId": "X.4X100MMD----------.HEAT.000100--",
+          "id": "SWM:X.4X100MMD----------.HEAT.000100--"
         }
       }
     },
@@ -1257,6 +1243,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1301,6 +1288,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1339,6 +1327,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1398,6 +1387,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1436,6 +1426,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1477,6 +1468,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1496,6 +1488,47 @@
       "sources": {
         "entries": {
           "eventId": "GAR|M.TEAM--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T12:30:00+08:00",
+      "startTimeJst": "2026-09-23T13:30:00+09:00",
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "sportEn": "Weightlifting",
+      "event": "Women's 49kg",
+      "phase": "Women's 49kg All Groups",
+      "unit": "Women's 49kg Group A",
+      "athletes": [],
+      "athletesEn": [
+        "FANG Wan-ling"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Trade and Industry Center",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.49KG--------------.FNL-.A00100--",
+          "id": "WLF:W.49KG--------------.FNL-.A00100--"
         }
       }
     },
@@ -1525,6 +1558,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1563,6 +1597,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1603,6 +1638,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1642,6 +1678,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1685,6 +1722,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 10,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1728,6 +1766,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1766,6 +1805,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1816,6 +1856,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1830,6 +1871,47 @@
         "results": {
           "unitId": "M.60KG--------------.R32-.001000--",
           "id": "BOX:M.60KG--------------.R32-.001000--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T16:00:00+08:00",
+      "startTimeJst": "2026-09-23T17:00:00+09:00",
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "sportEn": "Weightlifting",
+      "event": "Women's 53kg",
+      "phase": "Women's 53kg All Groups",
+      "unit": "Women's 53kg Group A",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Cheng-jing"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Trade and Industry Center",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 9,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.53KG--------------.FNL-.A00100--",
+          "id": "WLF:W.53KG--------------.FNL-.A00100--"
         }
       }
     },
@@ -1854,6 +1936,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1897,6 +1980,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1940,6 +2024,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1979,6 +2064,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2018,6 +2104,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2056,6 +2143,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2094,6 +2182,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2137,6 +2226,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2175,6 +2265,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2199,10 +2290,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 16,
-    "entered": 29,
+    "resultsOnly": 23,
+    "entered": 23,
     "unresolvedTbd": 0,
-    "warnings": 20
+    "warnings": 32
   },
   "warnings": [
     {
@@ -2237,8 +2328,33 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:14 Mixed 4 x 100m Medley Relay Heat 2",
-      "row": "SWM:X.4X100MMD----------.HEAT.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:03 Women's 100m Butterfly Heat 2",
+      "row": "SWM:W.100MBF------------.HEAT.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:06 Women's 100m Butterfly Heat 3",
+      "row": "SWM:W.100MBF------------.HEAT.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:12 Men's 100m Butterfly Heat 2",
+      "row": "SWM:M.100MBF------------.HEAT.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:27 Women's 100m Backstroke Heat 3",
+      "row": "SWM:W.100MBA------------.HEAT.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:45 Women's 100m Breaststroke Heat 1",
+      "row": "SWM:W.100MBR------------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 10:14 Mixed 4 x 100m Medley Relay Heat 1",
+      "row": "SWM:X.4X100MMD----------.HEAT.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2249,6 +2365,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 12:00 Women Pool A Match 8",
       "row": "HOC:W.TEAM11------------.GPA-.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Women's 49kg Group A",
+      "row": "WLF:W.49KG--------------.FNL-.A00100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2272,6 +2393,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 53kg Group A",
+      "row": "WLF:W.53KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 12",
       "row": "BBL:M.TEAM9-------------.GPB-.000600--"
     },
@@ -2287,6 +2413,11 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "WLF|W.49KG--------------",
+      "message": "WLF Women's 49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "KTE|M.TEAM--------------",
       "message": "KTE Men's Team Kata 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2299,6 +2430,26 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SHO|W.APW---------------",
       "message": "SHO 10m Air Pistol Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|W.100MBF------------",
+      "message": "SWM Women's 100m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|M.100MBF------------",
+      "message": "SWM Men's 100m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|W.100MBA------------",
+      "message": "SWM Women's 100m Backstroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|W.100MBR------------",
+      "message": "SWM Women's 100m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

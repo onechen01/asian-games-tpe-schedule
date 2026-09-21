@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T07:18:42.967Z",
+  "generatedAt": "2026-09-21T10:20:50.502Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-21T07:18:42.815Z",
+      "generatedAt": "2026-09-21T10:20:50.361Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -314,6 +314,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -355,6 +356,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -399,6 +401,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -442,6 +445,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -487,6 +491,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -542,6 +547,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -582,6 +588,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -622,6 +629,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -665,6 +673,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -707,6 +716,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -746,6 +756,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -786,6 +797,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -826,6 +838,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -866,6 +879,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -908,6 +922,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -950,6 +965,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -992,6 +1008,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1031,6 +1048,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1071,6 +1089,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1111,6 +1130,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1153,6 +1173,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1195,6 +1216,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1237,6 +1259,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1252,6 +1275,47 @@
       "sources": {
         "entries": {
           "eventId": "CSL|W.C1----------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T10:40:00+08:00",
+      "startTimeJst": "2026-09-29T11:40:00+09:00",
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "sportEn": "Weightlifting",
+      "event": "Men's 110kg",
+      "phase": "Men's 110kg All Groups",
+      "unit": "Men's 110kg Group A",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Po-jen"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Trade and Industry Center",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.110KG-------------.FNL-.A00100--",
+          "id": "WLF:M.110KG-------------.FNL-.A00100--"
         }
       }
     },
@@ -1276,6 +1340,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1316,6 +1381,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1357,6 +1423,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1373,45 +1440,6 @@
       "sources": {
         "entries": {
           "eventId": "CSL|W.K1----------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T11:30:00+08:00",
-      "startTimeJst": "2026-09-29T12:30:00+09:00",
-      "disciplineCode": "WLF",
-      "sportZh": "舉重",
-      "sportEn": "Weightlifting",
-      "event": "Men's 110kg",
-      "phase": "Men's 110kg All Groups",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Trade and Industry Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Po-jen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "WLF|M.110KG-------------"
         }
       }
     },
@@ -1449,6 +1477,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1487,6 +1516,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1526,6 +1556,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1565,6 +1596,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1604,6 +1636,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1643,6 +1676,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1704,6 +1738,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1748,6 +1783,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1788,6 +1824,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1827,6 +1864,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1854,33 +1892,35 @@
       "sportEn": "Weightlifting",
       "event": "Men's +110kg",
       "phase": "Men's +110kg All Groups",
-      "unit": null,
+      "unit": "Men's +110kg Group A",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "DONG Bing-cheng"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 5,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "DONG Bing-cheng"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "WLF|M.O110KG------------"
+        "results": {
+          "unitId": "M.O110KG------------.FNL-.A00100--",
+          "id": "WLF:M.O110KG------------.FNL-.A00100--"
         }
       }
     },
@@ -1905,6 +1945,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1944,6 +1985,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1983,6 +2025,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2022,6 +2065,7 @@
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2051,16 +2095,26 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 1,
-    "entered": 41,
+    "resultsOnly": 3,
+    "entered": 39,
     "unresolvedTbd": 0,
-    "warnings": 1
+    "warnings": 3
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WLF 10:40 Men's 110kg Group A",
+      "row": "WLF:M.110KG-------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 22",
       "row": "VVO:M.TEAM6-------------.GPD-.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WLF 18:10 Men's +110kg Group A",
+      "row": "WLF:M.O110KG------------.FNL-.A00100--"
     }
   ]
 }

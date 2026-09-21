@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T09:46:18.997Z",
+  "generatedAt": "2026-09-21T10:02:38.498Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T09:46:18.842Z",
+      "generatedAt": "2026-09-21T10:02:38.348Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1441,18 +1441,18 @@
       "unit": "Match 25",
       "athletes": [],
       "athletesEn": [
-        "HSU Heng-yun",
-        "XU Zhen-xuan",
-        "HUNG Chia-yao",
-        "LIN Shu-ho",
-        "KAN Ko-hui",
-        "HSU Wan-yun",
-        "TSAI Yu-chun",
         "LIAO Yi-jen",
+        "HSU Wan-yun",
         "CHEN Chieh",
-        "WEN Yi-chin",
+        "XU Zhen-xuan",
+        "CHANG Yi-chi",
+        "LIN Shu-ho",
+        "TSAI Yu-chun",
         "WU Tzu-hua",
-        "CHANG Yi-chi"
+        "HUNG Chia-yao",
+        "KAN Ko-hui",
+        "WEN Yi-chin",
+        "HSU Heng-yun"
       ],
       "opponent": "Kazakhstan",
       "opponentCode": "KAZ",
@@ -2231,8 +2231,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "9",
-        "opponent": "7",
+        "tpe": "12",
+        "opponent": "17",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2277,8 +2277,12 @@
       "opponentCode": "BRN",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
