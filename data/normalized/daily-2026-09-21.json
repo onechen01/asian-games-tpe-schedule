@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T09:15:32.399Z",
+  "generatedAt": "2026-09-21T09:24:06.516Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T09:15:32.289Z",
+      "generatedAt": "2026-09-21T09:24:06.377Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -693,6 +693,50 @@
     },
     {
       "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
+      "startTimeJst": "2026-09-21T10:00:00+09:00",
+      "disciplineCode": "GAR",
+      "sportZh": "競技體操",
+      "sportEn": "Artistic Gymnastics",
+      "event": "Men's",
+      "phase": "Men's Qualification",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "CHUANG Chia-lung",
+        "HUNG Yuan-hsi",
+        "SHIAO Yu-jan",
+        "TANG Chia-hung",
+        "LEE Chih-kai"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GAR|M.------------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T09:04:00+08:00",
       "startTimeJst": "2026-09-21T10:04:00+09:00",
       "disciplineCode": "SWM",
@@ -1055,6 +1099,68 @@
       "date": "2026-09-21",
       "startTimeTaipei": "2026-09-21T10:00:00+08:00",
       "startTimeJst": "2026-09-21T11:00:00+09:00",
+      "disciplineCode": "HOC",
+      "sportZh": "曲棍球",
+      "sportEn": "Hockey",
+      "event": "Women",
+      "phase": "Women Pool A",
+      "unit": "Women Pool A Match 5",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Yu-chiu",
+        "TSAI Chen-wei",
+        "LIAO Pei-shan",
+        "HUANG Pei-Lun",
+        "CHEN Ting-Chun",
+        "PU AGUSTIN Linmey",
+        "FAN Hui-Yun",
+        "LAI Ya-Han",
+        "CHANG Tzu-ling",
+        "MAO I-Hsuan",
+        "HUANG Yu-ting",
+        "ZHU Yi-Chun",
+        "LO Tzu-Yin",
+        "WANG Shih-Han",
+        "YE Shu-Qin",
+        "CHANG Chih-Hsien",
+        "WANG Wen-Tsen",
+        "YAO Wen-Xuan"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "Gifu Prefectural Green Stadium(Gifu)",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "10",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM11------------.GPA-.000500--",
+          "id": "HOC:W.TEAM11------------.GPA-.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T10:00:00+08:00",
+      "startTimeJst": "2026-09-21T11:00:00+09:00",
       "disciplineCode": "SWM",
       "sportZh": "游泳",
       "sportEn": "Swimming",
@@ -1185,68 +1291,6 @@
         "results": {
           "unitId": "X.DOUBLES-----------.GPC-.000300--",
           "id": "TST:X.DOUBLES-----------.GPC-.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-21",
-      "startTimeTaipei": "2026-09-21T10:00:00+08:00",
-      "startTimeJst": "2026-09-21T11:00:00+09:00",
-      "disciplineCode": "HOC",
-      "sportZh": "曲棍球",
-      "sportEn": "Hockey",
-      "event": "Women",
-      "phase": "Women Pool A",
-      "unit": "Women Pool A Match 5",
-      "athletes": [],
-      "athletesEn": [
-        "WANG Yu-chiu",
-        "TSAI Chen-wei",
-        "LIAO Pei-shan",
-        "HUANG Pei-Lun",
-        "CHEN Ting-Chun",
-        "PU AGUSTIN Linmey",
-        "FAN Hui-Yun",
-        "LAI Ya-Han",
-        "CHANG Tzu-ling",
-        "MAO I-Hsuan",
-        "HUANG Yu-ting",
-        "ZHU Yi-Chun",
-        "LO Tzu-Yin",
-        "WANG Shih-Han",
-        "YE Shu-Qin",
-        "CHANG Chih-Hsien",
-        "WANG Wen-Tsen",
-        "YAO Wen-Xuan"
-      ],
-      "opponent": "People's Republic of China",
-      "opponentCode": "CHN",
-      "venue": "Gifu Prefectural Green Stadium(Gifu)",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "10",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TEAM11------------.GPA-.000500--",
-          "id": "HOC:W.TEAM11------------.GPA-.000500--"
         }
       }
     },
@@ -1501,7 +1545,7 @@
         "LIN Wei-chieh",
         "CHIANG Min-yu"
       ],
-      "opponent": "KIM Yeon-hwa/PARK Jaekyu",
+      "opponent": "PARK Jaekyu/KIM Yeon-hwa",
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1683,7 +1727,7 @@
         "YU Kai-wen",
         "HUANG Shih-yuan"
       ],
-      "opponent": "MAEDA Rio/MARUYAMA Kaito",
+      "opponent": "MARUYAMA Kaito/MAEDA Rio",
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2406,7 +2450,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 44,
-    "entered": 0,
+    "entered": 1,
     "unresolvedTbd": 0,
     "warnings": 44
   },
@@ -2493,6 +2537,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：HOC 10:00 Women Pool A Match 5",
+      "row": "HOC:W.TEAM11------------.GPA-.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 10:00 Women's 200m Individual Medley Heat 3",
       "row": "SWM:W.200MIM------------.HEAT.000300--"
     },
@@ -2505,11 +2554,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 10:00 Mixed Doubles Group C Match 3",
       "row": "TST:X.DOUBLES-----------.GPC-.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：HOC 10:00 Women Pool A Match 5",
-      "row": "HOC:W.TEAM11------------.GPA-.000500--"
     },
     {
       "code": "RESULTS_ONLY",
