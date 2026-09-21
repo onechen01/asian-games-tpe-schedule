@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T06:35:00.816Z",
+  "generatedAt": "2026-09-21T06:45:29.643Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T06:35:00.647Z",
+      "generatedAt": "2026-09-21T06:45:29.457Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1134,48 +1134,6 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T10:29:00+08:00",
-      "startTimeJst": "2026-09-22T11:29:00+09:00",
-      "disciplineCode": "SWM",
-      "sportZh": "游泳",
-      "sportEn": "Swimming",
-      "event": "Men's 4 x 100m Medley Relay",
-      "phase": "Men's 4 x 100m Medley Relay Heats",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokyo Aquatics Centre",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHUANG Mu-lun",
-        "LIN Yi-cheng",
-        "TSAI Ruei-hong",
-        "WANG Kuan-hung"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SWM|M.4X100MMD----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T10:30:00+08:00",
       "startTimeJst": "2026-09-22T11:30:00+09:00",
       "disciplineCode": "TST",
@@ -1211,6 +1169,49 @@
         "results": {
           "unitId": "W.SINGLES-----------.GPB-.000200--",
           "id": "TST:W.SINGLES-----------.GPB-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T10:35:00+08:00",
+      "startTimeJst": "2026-09-22T11:35:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 4 x 100m Medley Relay",
+      "phase": "Men's 4 x 100m Medley Relay Heats",
+      "unit": "Men's 4 x 100m Medley Relay Heat 2",
+      "athletes": [],
+      "athletesEn": [
+        "TSAI Ruei-hong",
+        "LIN Yi-cheng",
+        "WANG Kuan-hung",
+        "CHUANG Mu-lun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.4X100MMD----------.HEAT.000200--",
+          "id": "SWM:M.4X100MMD----------.HEAT.000200--"
         }
       }
     },
@@ -1770,10 +1771,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 30,
-    "entered": 3,
+    "resultsOnly": 31,
+    "entered": 2,
     "unresolvedTbd": 0,
-    "warnings": 38
+    "warnings": 40
   },
   "warnings": [
     {
@@ -1860,6 +1861,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 10:30 Women's Singles Group B Match 2",
       "row": "TST:W.SINGLES-----------.GPB-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 10:35 Men's 4 x 100m Medley Relay Heat 2",
+      "row": "SWM:M.4X100MMD----------.HEAT.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1960,6 +1966,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|W.200MBA------------",
       "message": "SWM Women's 200m Backstroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|M.4X100MMD----------",
+      "message": "SWM Men's 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

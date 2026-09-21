@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T06:33:37.084Z",
+  "generatedAt": "2026-09-21T06:44:05.158Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T06:33:36.963Z",
+      "generatedAt": "2026-09-21T06:44:05.000Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1394,7 +1394,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "2",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1613,14 +1613,14 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "9.720",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 13,
       "tpenocResult": null,
       "rank": null,
@@ -1660,7 +1660,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
