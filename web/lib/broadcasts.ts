@@ -41,7 +41,9 @@ export const forDate = (all:Broadcasts, date:string)=>
 
 type MatchRow = { disciplineCode:string|null; opponentCode:string|null;
   athletesEn?:string[]; enteredAthletes?:string[];
-  startTimeTaipei?:string|null; phase?:string|null; event?:string|null };
+  startTimeTaipei?:string|null; phase?:string|null; event?:string|null;
+  // An entered row's time is the event window's start, not a Taiwan start time.
+  participationState?:string|null; entryLevel?:string|null };
 const key = (name:string)=>name.replace(/[^A-Za-z]/g,'').toUpperCase();
 
 // The official window a programme covers. It is used to limit a session programme, never to
@@ -53,6 +55,8 @@ const insideWindow = (r:Broadcast, row:MatchRow)=>{
   if (![start,end,competition].every(Number.isFinite) || end <= start) return false;
   return competition >= start && competition < end;
 };
+export const isProvisional = (row:MatchRow)=>
+  row.participationState === 'TPE_ENTERED' || row.entryLevel === 'event';
 const hits = (keywords:string[]|undefined, text:string|null|undefined)=>
   !!keywords?.length && !!text && keywords.some(k=>text.toLowerCase().includes(k.toLowerCase()));
 
@@ -73,6 +77,9 @@ export function broadcastsForRow(all:Broadcasts, date:string, row:MatchRow):Broa
     if (r.isLive === false) return false;
     if (!hits(hint.phaseKeywords, row.phase)) return false;
     if (hint.eventKeywords?.length && !hits(hint.eventKeywords, row.event)) return false;
+    // An event-level row has no Taiwan start time to compare with, so the window cannot be
+    // used against it; the sport, the day and the phase still have to agree.
+    if (isProvisional(row)) return true;
     return insideWindow(r, row);
   });
 }

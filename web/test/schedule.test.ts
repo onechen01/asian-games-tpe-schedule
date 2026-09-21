@@ -310,7 +310,12 @@ test('a programme with no canonical row never invents a competition',async()=>{
   // Any gymnastics row comes from the official entry list, never from a broadcast programme.
   assert.ok(rows.filter(r=>r.disciplineCode === 'GAR').every(r=>isEntered(r)));
   // The gymnastics programmes exist only in the broadcast block.
-  assert.ok((disciplineBroadcasts(shows,'2026-09-21',rows).get('GAR')?.length ?? 0) >= 1);
+  // A gymnastics programme now reaches the entered card itself, or the sport block when it
+  // cannot be tied to a row; either way no competition row is created for it.
+  const onCards = rows.filter(r=>r.disciplineCode === 'GAR')
+    .flatMap(r=>broadcastsForRow(shows,'2026-09-21',r)).length;
+  const inBlock = disciplineBroadcasts(shows,'2026-09-21',rows).get('GAR')?.length ?? 0;
+  assert.ok(onCards + inBlock >= 1);
   assert.equal(rows.length,taiwanRows(day).length);
 });
 
@@ -470,4 +475,37 @@ test('a provisional row only takes a broadcast when the official window covers i
   assert.equal(broadcastsForRow(shows,'2026-09-20',inside).length,1);
   // A programme in the afternoon does not cover a morning subdivision.
   assert.equal(broadcastsForRow(shows,'2026-09-20',{ ...inside, startTimeTaipei:'2026-09-20T13:30:00+08:00' }).length,0);
+});
+
+const garShow = (over:Record<string,unknown> = {})=>parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+  { date:'2026-09-21',providerId:'elta',providerName:'愛爾達',channelName:'愛爾達體育1台',isLive:true,
+    broadcastStartTimeTaipei:'2026-09-21T13:25:00+08:00',broadcastEndTimeTaipei:'2026-09-21T16:00:00+08:00',
+    disciplineCode:'GAR',title:'中華隊 男子資格賽',feed:'main',matchLevel:'discipline',
+    matchHint:{phaseKeywords:['Qualification']},...over }]}));
+const enteredRow = (over:Record<string,unknown> = {})=>({ disciplineCode:'GAR', opponentCode:null,
+  athletesEn:[], startTimeTaipei:'2026-09-21T09:00:00+08:00', phase:"Men's Qualification",
+  participationState:'TPE_ENTERED', entryLevel:'event', ...over });
+
+test('an event-level row keeps its broadcast even when the programme starts later',()=>{
+  const found = broadcastsForRow(garShow(),'2026-09-21',enteredRow());
+  assert.equal(found.length,1,'本項起始時間不得用來排除轉播');
+  assert.equal(found[0].broadcastStartTimeTaipei,'2026-09-21T13:25:00+08:00');
+  // The row's own time is untouched: the broadcast never becomes the competition time.
+  assert.equal(enteredRow().startTimeTaipei,'2026-09-21T09:00:00+08:00');
+});
+
+test('the looser provisional rule still needs the sport, the day and the phase to agree',()=>{
+  // Another sport, same day.
+  assert.equal(broadcastsForRow(garShow(),'2026-09-21',enteredRow({ disciplineCode:'SWM' })).length,0);
+  // Same sport, different phase.
+  assert.equal(broadcastsForRow(garShow(),'2026-09-21',enteredRow({ phase:"Men's Team Final" })).length,0);
+  // Another day.
+  assert.equal(broadcastsForRow(garShow(),'2026-09-20',enteredRow()).length,0);
+  // A programme with no phase evidence stays off the card.
+  assert.equal(broadcastsForRow(garShow({ matchHint:{} }),'2026-09-21',enteredRow()).length,0);
+  // Delayed programmes keep their existing restriction.
+  assert.equal(broadcastsForRow(garShow({ isLive:false }),'2026-09-21',enteredRow()).length,0);
+  // A confirmed row still obeys the official window.
+  assert.equal(broadcastsForRow(garShow(),'2026-09-21',
+    enteredRow({ participationState:'TPE_CONFIRMED', entryLevel:'unit' })).length,0);
 });
