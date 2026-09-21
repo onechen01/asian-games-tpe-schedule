@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T11:12:40.424Z",
+  "generatedAt": "2026-09-21T11:24:04.109Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-21T11:12:40.274Z",
+      "generatedAt": "2026-09-21T11:24:03.990Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -458,23 +458,17 @@
       "phase": "Men's Taijiquan & Taijijian",
       "unit": "Taijiquan",
       "athletes": [],
-      "athletesEn": [
-        "SUN Chia-hung"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "9.733",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "2",
-      "orgCount": 13,
-      "tpeMedal": "ME_SILVER",
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1678,23 +1672,17 @@
       "phase": "Men's Taijiquan & Taijijian",
       "unit": "Taijijian Final",
       "athletes": [],
-      "athletesEn": [
-        "SUN Chia-hung"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "9.720",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "4",
-      "orgCount": 13,
-      "tpeMedal": "ME_SILVER",
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2159,9 +2147,9 @@
         "YU Tsung-ju",
         "KUO Tzu-chuan",
         "LI I-wei",
-        "LIN Yu-li",
         "CHANG Hsiang",
         "WANG Yan-cheng",
+        "LIN Yu-li",
         "WANG Yu-chieh",
         "HSU Siang-sheng",
         "LIN Yu-min",
@@ -2176,7 +2164,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2440,8 +2428,12 @@
       "opponentCode": "QAT",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "5",
+        "opponent": "4",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
