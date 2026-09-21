@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:10:52.723Z",
+  "generatedAt": "2026-09-21T13:11:38.549Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-21T10:10:52.520Z",
+      "generatedAt": "2026-09-21T13:11:38.351Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 5,
+          "recovered": 5,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -314,93 +314,11 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 250
+      "events": 251
     }
   },
   "date": "2026-09-24",
   "rows": [
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T08:00:00+08:00",
-      "startTimeJst": "2026-09-24T09:00:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Puzzle [Puyo Puyo Champions]",
-      "phase": "Puyo Puyo Champions Group A",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 20,
-      "enteredAthletes": [
-        "KUO Tzu-ang"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ELS|O.PYO---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T08:00:00+08:00",
-      "startTimeJst": "2026-09-24T09:00:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
-      "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Group C",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHANG Chia-tung",
-        "CHEN You-gang",
-        "LIN Chia-hung"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ELS|O.FTG---------------"
-        }
-      }
-    },
     {
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T08:00:00+08:00",
@@ -678,7 +596,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 4,
+      "unitCount": 3,
       "enteredAthletes": [
         "CHEN Shang-yi",
         "CHENG Hsu-yu",
@@ -1471,6 +1389,88 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T14:20:00+08:00",
+      "startTimeJst": "2026-09-24T15:20:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Puzzle [Puyo Puyo Champions]",
+      "phase": "Puyo Puyo Champions Group B",
+      "unit": "Group B Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "KUO Tzu-ang"
+      ],
+      "opponent": "WONGKITIKUN Tanarak",
+      "opponentCode": "THA",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.PYO---------------.GPB-.000200--",
+          "id": "ELS:O.PYO---------------.GPB-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T15:00:00+08:00",
+      "startTimeJst": "2026-09-24T16:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Puzzle [Puyo Puyo Champions]",
+      "phase": "Puyo Puyo Champions Group B",
+      "unit": "Group B Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "KUO Tzu-ang"
+      ],
+      "opponent": "GANBOLD Munkhzorig",
+      "opponentCode": "MGL",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.PYO---------------.GPB-.000400--",
+          "id": "ELS:O.PYO---------------.GPB-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T15:00:00+08:00",
       "startTimeJst": "2026-09-24T16:00:00+09:00",
       "disciplineCode": "BDM",
@@ -1515,6 +1515,47 @@
       "sources": {
         "entries": {
           "eventId": "BDM|M.TEAM--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T15:40:00+08:00",
+      "startTimeJst": "2026-09-24T16:40:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Puzzle [Puyo Puyo Champions]",
+      "phase": "Puyo Puyo Champions Group B",
+      "unit": "Group B Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "KUO Tzu-ang"
+      ],
+      "opponent": "Paritosh",
+      "opponentCode": "IND",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.PYO---------------.GPB-.000600--",
+          "id": "ELS:O.PYO---------------.GPB-.000600--"
         }
       }
     },
@@ -1602,6 +1643,47 @@
       "sources": {
         "entries": {
           "eventId": "TTE|M.TEAM--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T16:20:00+08:00",
+      "startTimeJst": "2026-09-24T17:20:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Puzzle [Puyo Puyo Champions]",
+      "phase": "Puyo Puyo Champions Group B",
+      "unit": "Group B Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "KUO Tzu-ang"
+      ],
+      "opponent": "KOH Mun June Justin",
+      "opponentCode": "SGP",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.PYO---------------.GPB-.000800--",
+          "id": "ELS:O.PYO---------------.GPB-.000800--"
         }
       }
     },
@@ -1991,10 +2073,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 2,
-    "entered": 38,
+    "resultsOnly": 6,
+    "entered": 36,
     "unresolvedTbd": 0,
-    "warnings": 2
+    "warnings": 6
   },
   "warnings": [
     {
@@ -2006,6 +2088,26 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 12:15 Game 10",
       "row": "KAB:M.TEAM7-------------.GPA-.001000--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:20 Group B Match 2",
+      "row": "ELS:O.PYO---------------.GPB-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:00 Group B Match 4",
+      "row": "ELS:O.PYO---------------.GPB-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:40 Group B Match 6",
+      "row": "ELS:O.PYO---------------.GPB-.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:20 Group B Match 8",
+      "row": "ELS:O.PYO---------------.GPB-.000800--"
     }
   ]
 }

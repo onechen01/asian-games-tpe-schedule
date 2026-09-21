@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:21:36.122Z",
+  "generatedAt": "2026-09-21T13:23:09.594Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-21T10:21:35.981Z",
+      "generatedAt": "2026-09-21T13:23:09.456Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -288,7 +288,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 250
+      "events": 251
     }
   },
   "date": "2026-09-30",
@@ -381,6 +381,52 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T08:00:00+08:00",
       "startTimeJst": "2026-09-30T09:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "MOBA [League of Legends]",
+      "phase": "League of Legends Group B",
+      "unit": "Group B Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yu-en",
+        "LIU Jia-hao",
+        "CHIU Tzu-chuan",
+        "YU Jun-jia",
+        "TSAI Ming-hung",
+        "CHEN Yi-chin"
+      ],
+      "opponent": "Republic of Korea",
+      "opponentCode": "KOR",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.LOL---------------.GPB-.000200--",
+          "id": "ELS:O.LOL---------------.GPB-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T08:00:00+08:00",
+      "startTimeJst": "2026-09-30T09:00:00+09:00",
       "disciplineCode": "ARC",
       "sportZh": "射箭",
       "sportEn": "Archery",
@@ -426,51 +472,6 @@
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
-      "event": "MOBA [League of Legends]",
-      "phase": "League of Legends Group A",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHEN Yi-chin",
-        "CHIU Tzu-chuan",
-        "LIN Yu-en",
-        "LIU Jia-hao",
-        "TSAI Ming-hung",
-        "YU Jun-jia"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ELS|O.LOL---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T08:00:00+08:00",
-      "startTimeJst": "2026-09-30T09:00:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
       "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
       "phase": "Identity V - Asian Games Version Quarter-finals",
       "unit": null,
@@ -491,7 +492,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 8,
+      "unitCount": 7,
       "enteredAthletes": [
         "CHANG Chun-ming",
         "CHEN Kuang-yeh",
@@ -1283,6 +1284,52 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T12:00:00+08:00",
       "startTimeJst": "2026-09-30T13:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "MOBA [League of Legends]",
+      "phase": "League of Legends Group B",
+      "unit": "Group B Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yu-en",
+        "LIU Jia-hao",
+        "CHIU Tzu-chuan",
+        "YU Jun-jia",
+        "TSAI Ming-hung",
+        "CHEN Yi-chin"
+      ],
+      "opponent": "Hong Kong, China",
+      "opponentCode": "HKG",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.LOL---------------.GPB-.000400--",
+          "id": "ELS:O.LOL---------------.GPB-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T12:00:00+08:00",
+      "startTimeJst": "2026-09-30T13:00:00+09:00",
       "disciplineCode": "BOX",
       "sportZh": "拳擊",
       "sportEn": "Boxing",
@@ -1356,6 +1403,52 @@
       "sources": {
         "entries": {
           "eventId": "BOX|W.60KG--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T13:00:00+08:00",
+      "startTimeJst": "2026-09-30T14:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "MOBA [League of Legends]",
+      "phase": "League of Legends Group B",
+      "unit": "Group B Match 5",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yu-en",
+        "LIU Jia-hao",
+        "CHIU Tzu-chuan",
+        "YU Jun-jia",
+        "TSAI Ming-hung",
+        "CHEN Yi-chin"
+      ],
+      "opponent": "India",
+      "opponentCode": "IND",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.LOL---------------.GPB-.000500--",
+          "id": "ELS:O.LOL---------------.GPB-.000500--"
         }
       }
     },
@@ -1531,10 +1624,26 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 0,
-    "entered": 29,
+    "resultsOnly": 3,
+    "entered": 28,
     "unresolvedTbd": 0,
-    "warnings": 0
+    "warnings": 3
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Group B Match 2",
+      "row": "ELS:O.LOL---------------.GPB-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 Group B Match 4",
+      "row": "ELS:O.LOL---------------.GPB-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:00 Group B Match 5",
+      "row": "ELS:O.LOL---------------.GPB-.000500--"
+    }
+  ]
 }

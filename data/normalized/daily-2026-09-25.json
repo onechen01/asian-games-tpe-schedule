@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:12:46.608Z",
+  "generatedAt": "2026-09-21T13:13:32.788Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-21T10:12:46.432Z",
+      "generatedAt": "2026-09-21T13:13:32.639Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -338,7 +338,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 250
+      "events": 251
     }
   },
   "date": "2026-09-25",
@@ -706,10 +706,10 @@
       "entryLevel": "event",
       "unitCount": 16,
       "enteredAthletes": [
-        "CHEN Chih-chieh",
-        "CHEN Yi-tung",
-        "HSU Sheng-hung",
-        "KUO Chun-you"
+        "CHEN Chih-Chieh",
+        "CHEN Yi-Tung",
+        "HSU Sheng-Hung",
+        "KUO Chun-You"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -894,51 +894,6 @@
       "sources": {
         "entries": {
           "eventId": "CSP|M.K2-500M-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
-      "startTimeJst": "2026-09-25T10:00:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "MOBA [Pokémon UNITE]",
-      "phase": "Pokémon UNITE Group A",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "CHEN Yi-tian",
-        "CHIN Yung-chi",
-        "HU Hsin-rui",
-        "KUO Yi-shuo",
-        "LIOU Ting-yi",
-        "TUCKER Sean"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ELS|O.PKU---------------"
         }
       }
     },
@@ -1363,7 +1318,9 @@
         "CHEN Hsiao-yun",
         "CHEN Min-sih",
         "CHU Chia-en",
+        "GUO Dinghong",
         "HSU Siang-sheng",
+        "HUANG Chieh-han",
         "HUANG Wei-sheng",
         "KAO Yu-wei",
         "KUO Tzu-chuan",
@@ -1734,6 +1691,51 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T13:15:00+08:00",
       "startTimeJst": "2026-09-25T14:15:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "MOBA [Pokémon UNITE]",
+      "phase": "Pokemon UNITE Group A",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHEN Yi-tian",
+        "CHIN Yung-chi",
+        "HU Hsin-rui",
+        "KUO Yi-shuo",
+        "LIOU Ting-yi",
+        "TUCKER Sean"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ELS|O.PKU---------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T13:15:00+08:00",
+      "startTimeJst": "2026-09-25T14:15:00+09:00",
       "disciplineCode": "KAB",
       "sportZh": "卡巴迪",
       "sportEn": "Kabaddi",
@@ -1790,56 +1792,57 @@
       "sportEn": "Football",
       "event": "Women",
       "phase": "Women Quarter-finals",
-      "unit": null,
+      "unit": "Women Quarter-final",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "WANG Yu-ting",
+        "CHANG Chi-lan",
+        "PAN Shin-yu",
+        "LIN Jing-xuan",
+        "LIAO Jie-ning",
+        "CHUAN Tzu-yu",
+        "WAKABAYASHI Minori",
+        "TANAKA Maho",
+        "HSU Yi-yun",
+        "MATSUNAGA Saki",
+        "HE Jia-shiuan",
+        "LIN Hsin-hui",
+        "PAN Yen-hsin",
+        "WU Kai-ching",
+        "TSENG Yun-ching",
+        "LIU Yu-chiao",
+        "CHEN Jin-wen",
+        "CHENG Ssu-yu",
+        "SU Yu-hsuan",
+        "CHEN Ying-hui",
+        "CHEN Yu-chin",
+        "HUANG Ke-sin",
+        "LIU Ying-chia"
+      ],
+      "opponent": "Democratic People's Republic of Korea",
+      "opponentCode": "PRK",
       "venue": "Shizuoka Stadium Ecopa",
       "venueZh": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "CHANG Chi-lan",
-        "CHEN Jin-wen",
-        "CHEN Ying-hui",
-        "CHEN Yu-chin",
-        "CHENG Ssu-yu",
-        "CHUAN Tzu-yu",
-        "HE Jia-shiuan",
-        "HSU Yi-yun",
-        "HUANG Ke-sin",
-        "LIAO Jie-ning",
-        "LIN Hsin-hui",
-        "LIN Jing-xuan",
-        "LIU Ying-chia",
-        "LIU Yu-chiao",
-        "MATSUNAGA Saki",
-        "PAN Shin-yu",
-        "PAN Yen-hsin",
-        "SU Yu-hsuan",
-        "TANAKA Maho",
-        "TSENG Yun-ching",
-        "WAKABAYASHI Minori",
-        "WANG Yu-ting",
-        "WU Kai-ching"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "FBL|W.TEAM11------------"
+        "results": {
+          "unitId": "W.TEAM11------------.QFNL.000100--",
+          "id": "FBL:W.TEAM11------------.QFNL.000100--"
         }
       }
     },
@@ -2413,10 +2416,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 8,
-    "entered": 39,
+    "resultsOnly": 9,
+    "entered": 38,
     "unresolvedTbd": 0,
-    "warnings": 13
+    "warnings": 14
   },
   "warnings": [
     {
@@ -2448,6 +2451,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Women's 57kg Group A",
       "row": "WLF:W.57KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FBL 14:00 Women Quarter-final",
+      "row": "FBL:W.TEAM11------------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",

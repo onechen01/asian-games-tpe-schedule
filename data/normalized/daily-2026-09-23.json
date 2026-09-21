@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:10:00.230Z",
+  "generatedAt": "2026-09-21T13:08:26.097Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-21T10:10:00.025Z",
+      "generatedAt": "2026-09-21T13:08:25.895Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 4,
-          "recovered": 4,
+          "initialMissing": 5,
+          "recovered": 5,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -321,7 +321,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 250
+      "events": 251
     }
   },
   "date": "2026-09-23",
@@ -446,50 +446,6 @@
         "results": {
           "unitId": "M.DAOS--------------.FNL-.000100--",
           "id": "WSU:M.DAOS--------------.FNL-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
-      "startTimeJst": "2026-09-23T09:00:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
-      "phase": "NARAKA : BLADEPOINT Group A",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 12,
-      "enteredAthletes": [
-        "CHEN Shang-yi",
-        "CHENG Hsu-yu",
-        "LIU Tang-shiun",
-        "YEH Chih-yu",
-        "YEN Kai-en"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ELS|O.NRK---------------"
         }
       }
     },
@@ -1351,6 +1307,49 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T12:00:00+08:00",
       "startTimeJst": "2026-09-23T13:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
+      "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Group A",
+      "unit": "Group A Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chia-hung",
+        "CHEN You-gang",
+        "CHANG Chia-tung"
+      ],
+      "opponent": "Syrian Arab Republic",
+      "opponentCode": "SYR",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.FTG---------------.GPA-.00020000",
+          "id": "ELS:O.FTG---------------.GPA-.00020000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T12:00:00+08:00",
+      "startTimeJst": "2026-09-23T13:00:00+09:00",
       "disciplineCode": "HOC",
       "sportZh": "曲棍球",
       "sportEn": "Hockey",
@@ -1402,48 +1401,6 @@
         "results": {
           "unitId": "W.TEAM11------------.GPA-.000800--",
           "id": "HOC:W.TEAM11------------.GPA-.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T12:00:00+08:00",
-      "startTimeJst": "2026-09-23T13:00:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
-      "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Group A",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 12,
-      "enteredAthletes": [
-        "CHANG Chia-tung",
-        "CHEN You-gang",
-        "LIN Chia-hung"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ELS|O.FTG---------------"
         }
       }
     },
@@ -1788,6 +1745,94 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T14:00:00+08:00",
       "startTimeJst": "2026-09-23T15:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
+      "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Group A",
+      "unit": "Group A Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chia-hung",
+        "CHEN You-gang",
+        "CHANG Chia-tung"
+      ],
+      "opponent": "Thailand",
+      "opponentCode": "THA",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.FTG---------------.GPA-.00030000",
+          "id": "ELS:O.FTG---------------.GPA-.00030000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T14:00:00+08:00",
+      "startTimeJst": "2026-09-23T15:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
+      "phase": "NARAKA : BLADEPOINT Group B",
+      "unit": "Group B Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Tang-shiun",
+        "YEN Kai-en",
+        "CHEN Shang-yi",
+        "YEH Chih-yu",
+        "CHENG Hsu-yu"
+      ],
+      "opponent": "Philippines",
+      "opponentCode": "PHI",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.NRK---------------.GPB-.00020000",
+          "id": "ELS:O.NRK---------------.GPB-.00020000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T14:00:00+08:00",
+      "startTimeJst": "2026-09-23T15:00:00+09:00",
       "disciplineCode": "BDM",
       "sportZh": "羽球",
       "sportEn": "Badminton",
@@ -1835,6 +1880,51 @@
     },
     {
       "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T15:30:00+08:00",
+      "startTimeJst": "2026-09-23T16:30:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
+      "phase": "NARAKA : BLADEPOINT Group B",
+      "unit": "Group B Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Tang-shiun",
+        "YEN Kai-en",
+        "CHEN Shang-yi",
+        "YEH Chih-yu",
+        "CHENG Hsu-yu"
+      ],
+      "opponent": "Hong Kong, China",
+      "opponentCode": "HKG",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.NRK---------------.GPB-.00030000",
+          "id": "ELS:O.NRK---------------.GPB-.00030000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T16:00:00+08:00",
       "startTimeJst": "2026-09-23T17:00:00+09:00",
       "disciplineCode": "BOX",
@@ -1871,6 +1961,49 @@
         "results": {
           "unitId": "M.60KG--------------.R32-.001000--",
           "id": "BOX:M.60KG--------------.R32-.001000--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T16:00:00+08:00",
+      "startTimeJst": "2026-09-23T17:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
+      "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Group A",
+      "unit": "Group A Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chia-hung",
+        "CHEN You-gang",
+        "CHANG Chia-tung"
+      ],
+      "opponent": "Pakistan",
+      "opponentCode": "PAK",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.FTG---------------.GPA-.00060000",
+          "id": "ELS:O.FTG---------------.GPA-.00060000"
         }
       }
     },
@@ -2000,6 +2133,51 @@
       "sources": {
         "entries": {
           "eventId": "TTE|W.TEAM--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T17:00:00+08:00",
+      "startTimeJst": "2026-09-23T18:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
+      "phase": "NARAKA : BLADEPOINT Group B",
+      "unit": "Group B Match 5",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Tang-shiun",
+        "YEN Kai-en",
+        "CHEN Shang-yi",
+        "YEH Chih-yu",
+        "CHENG Hsu-yu"
+      ],
+      "opponent": "Vietnam",
+      "opponentCode": "VIE",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.NRK---------------.GPB-.00050000",
+          "id": "ELS:O.NRK---------------.GPB-.00050000"
         }
       }
     },
@@ -2290,10 +2468,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 23,
-    "entered": 23,
+    "resultsOnly": 29,
+    "entered": 21,
     "unresolvedTbd": 0,
-    "warnings": 32
+    "warnings": 38
   },
   "warnings": [
     {
@@ -2363,6 +2541,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 Group A Match 2",
+      "row": "ELS:O.FTG---------------.GPA-.00020000"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 12:00 Women Pool A Match 8",
       "row": "HOC:W.TEAM11------------.GPA-.000800--"
     },
@@ -2388,13 +2571,38 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:00 Group A Match 3",
+      "row": "ELS:O.FTG---------------.GPA-.00030000"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:00 Group B Match 2",
+      "row": "ELS:O.NRK---------------.GPB-.00020000"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:30 Group B Match 3",
+      "row": "ELS:O.NRK---------------.GPB-.00030000"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:00 Men's 60KG - Preliminaries",
       "row": "BOX:M.60KG--------------.R32-.001000--"
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:00 Group A Match 6",
+      "row": "ELS:O.FTG---------------.GPA-.00060000"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 53kg Group A",
       "row": "WLF:W.53KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 17:00 Group B Match 5",
+      "row": "ELS:O.NRK---------------.GPB-.00050000"
     },
     {
       "code": "RESULTS_ONLY",

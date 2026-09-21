@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:16:23.732Z",
+  "generatedAt": "2026-09-21T13:17:33.126Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-21T10:16:23.566Z",
+      "generatedAt": "2026-09-21T13:17:32.962Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -331,7 +331,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 250
+      "events": 251
     }
   },
   "date": "2026-09-27",
@@ -428,7 +428,7 @@
       "sportZh": "電子競技",
       "sportEn": "Esports",
       "event": "MOBA [Pokémon UNITE]",
-      "phase": "Pokémon UNITE Quarter-finals",
+      "phase": "Pokemon UNITE Quarter-finals",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -447,7 +447,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 8,
+      "unitCount": 7,
       "enteredAthletes": [
         "CHEN Yi-tian",
         "CHIN Yung-chi",
@@ -680,9 +680,9 @@
       "unitCount": 32,
       "enteredAthletes": [
         "GUILLEMOT Yilu Gaston",
-        "HSU Ching-wen",
+        "HSU Ching-Wen",
         "LEE Rang",
-        "WU Chun-ming"
+        "WU Chun-Ming"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1305,7 +1305,9 @@
         "CHEN Hsiao-yun",
         "CHEN Min-sih",
         "CHU Chia-en",
+        "GUO Dinghong",
         "HSU Siang-sheng",
+        "HUANG Chieh-han",
         "HUANG Wei-sheng",
         "KAO Yu-wei",
         "KUO Tzu-chuan",
