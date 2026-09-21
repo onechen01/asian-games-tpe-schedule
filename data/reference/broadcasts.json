@@ -466,7 +466,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-21T10:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-21T10:50:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -788,7 +788,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-21T18:20:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-21T18:56:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -837,28 +837,6 @@
       "matchHint": {
         "opponentCodes": [
           "BAN"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-22T08:50:00+08:00",
-      "disciplineCode": "BKB",
-      "channelId": "541",
-      "channelName": "愛爾達體育MAX2台",
-      "isLive": true,
-      "title": "亞運 南韓VS中華 籃球 女子預賽 9/22(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-21",
-      "broadcastEndTimeTaipei": "2026-09-22T11:15:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "opponentCodes": [
-          "KOR"
         ]
       }
     },
@@ -920,19 +898,15 @@
       "channelId": "110",
       "channelName": "愛爾達體育3台",
       "isLive": true,
-      "title": "亞運 中國澳門VS中華 桌球 女團預賽 9/22 LIVE",
+      "title": "亞運 澳門VS中華 桌球 女團預賽 9/22 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-21",
       "broadcastEndTimeTaipei": "2026-09-22T11:30:00+08:00",
-      "matchLevel": "discipline",
+      "matchLevel": "unit",
       "matchHint": {
-        "phaseKeywords": [
-          "Heats",
-          "Preliminar",
-          "Qualification",
-          "Round Robin",
-          "Group"
+        "opponentCodes": [
+          "MAC"
         ]
       }
     },
