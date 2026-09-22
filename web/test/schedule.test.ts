@@ -274,6 +274,23 @@ test('broadcast records never supply a competition time',async()=>{
   assert.ok(!Object.keys(box).some(k=>/broadcast/i.test(k)));
 });
 
+test('the verified 9/23 karate and table tennis programmes attach only to their named cards',async()=>{
+  const shows = await loadBroadcasts();
+  const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-23.json','utf8')),'2026-09-23');
+  const rows = taiwanRows(day);
+  const matched = (discipline:string)=>rows.filter(row=>row.disciplineCode === discipline
+    && broadcastsForRow(shows,'2026-09-23',row).some(show=>show.broadcastStartTimeTaipei === '2026-09-23T08:55:00+08:00'));
+  assert.deepEqual(matched('KTE').map(row=>[row.startTimeTaipei,row.event,row.phase]),[
+    ['2026-09-23T09:00:00+08:00',"Men's Team Kata","Men's Team Kata Quarterfinals"],
+  ]);
+  assert.deepEqual(matched('TTE').map(row=>[row.startTimeTaipei,row.event]),[
+    ['2026-09-23T09:00:00+08:00','Mixed Doubles'],
+    ['2026-09-23T09:40:00+08:00','Mixed Doubles'],
+    ['2026-09-23T11:50:00+08:00',"Women's Singles"],
+  ]);
+  assert.ok(matched('TTE').every(row=>!row.event?.includes('Team')));
+});
+
 test('swimming heats keep their own official times, and the session programme stays at sport level',async()=>{
   const shows = await loadBroadcasts();
   const day = await day21();
