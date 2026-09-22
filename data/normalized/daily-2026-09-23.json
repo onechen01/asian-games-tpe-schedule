@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T01:07:54.428Z",
+  "generatedAt": "2026-09-22T01:46:09.317Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-22T01:07:54.232Z",
+      "generatedAt": "2026-09-22T01:46:09.118Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -771,6 +771,48 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T09:00:00+08:00",
       "startTimeJst": "2026-09-23T10:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Round 2",
+      "unit": "Mixed Doubles Round 2 Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yun-ju",
+        "CHENG I-ching"
+      ],
+      "opponent": "KASYMOV Atai/AIAZBEKOVA Nurkyz",
+      "opponentCode": "KGZ",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.R32-.000400--",
+          "id": "TTE:X.DOUBLES-----------.R32-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
+      "startTimeJst": "2026-09-23T10:00:00+09:00",
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
@@ -888,49 +930,6 @@
       "sources": {
         "entries": {
           "eventId": "SHO|W.SKW---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
-      "startTimeJst": "2026-09-23T10:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Round of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 24,
-      "enteredAthletes": [
-        "CHENG I-ching",
-        "FENG Yi-hsin",
-        "LIN Yun-ju",
-        "YEH Yi-tian"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|X.DOUBLES-----------"
         }
       }
     },
@@ -1180,49 +1179,6 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T10:25:00+08:00",
-      "startTimeJst": "2026-09-23T11:25:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Round of 64",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 11,
-      "enteredAthletes": [
-        "FENG Yi-hsin",
-        "HSU Hsien-chia",
-        "HUNG Jing-kai",
-        "KUO Guan-hong"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|M.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T10:55:00+08:00",
       "startTimeJst": "2026-09-23T11:55:00+09:00",
       "disciplineCode": "KTE",
@@ -1264,42 +1220,42 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T11:05:00+08:00",
-      "startTimeJst": "2026-09-23T12:05:00+09:00",
+      "startTimeTaipei": "2026-09-23T11:50:00+08:00",
+      "startTimeJst": "2026-09-23T12:50:00+09:00",
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
       "event": "Women's Singles",
-      "phase": "Women's Singles Round of 64",
-      "unit": null,
+      "phase": "Women's Singles Round 1",
+      "unit": "Women's Singles Round 1 Match 23",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "CHEN Szu-yu"
+      ],
+      "opponent": "SHRESTHA Nabita",
+      "opponentCode": "NEP",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "CHEN Szu-yu",
-        "CHENG I-ching"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "TTE|W.SINGLES-----------"
+        "results": {
+          "unitId": "W.SINGLES-----------.R64-.002300--",
+          "id": "TTE:W.SINGLES-----------.R64-.002300--"
         }
       }
     },
@@ -2050,94 +2006,6 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T16:00:00+08:00",
-      "startTimeJst": "2026-09-23T17:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Men's Team",
-      "phase": "Men's Team Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "FENG Yi-hsin",
-        "HSU Hsien-chia",
-        "HUNG Jing-kai",
-        "KUO Guan-hong",
-        "LIN Yun-ju"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|M.TEAM--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T16:00:00+08:00",
-      "startTimeJst": "2026-09-23T17:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Women's Team",
-      "phase": "Women's Team Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Szu-yu",
-        "CHENG I-ching",
-        "PENG Yu-han",
-        "WU Ying-syuan",
-        "YEH Yi-tian"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|W.TEAM--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T17:00:00+08:00",
       "startTimeJst": "2026-09-23T18:00:00+09:00",
       "disciplineCode": "ELS",
@@ -2468,10 +2336,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 29,
-    "entered": 21,
+    "resultsOnly": 31,
+    "entered": 16,
     "unresolvedTbd": 0,
-    "warnings": 38
+    "warnings": 41
   },
   "warnings": [
     {
@@ -2503,6 +2371,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:00 Men's Team Kata Quarterfinal",
       "row": "KTE:M.TEAM--------------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Mixed Doubles Round 2 Match 4",
+      "row": "TTE:X.DOUBLES-----------.R32-.000400--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2538,6 +2411,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KTE 10:55 Women's Kumite -50kg Round of 16",
       "row": "KTE:W.50KG--------------.8FNL.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 11:50 Women's Singles Round 1 Match 23",
+      "row": "TTE:W.SINGLES-----------.R64-.002300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2618,6 +2496,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 18:45 Game 4",
       "row": "KAB:W.TEAM7-------------.GPB-.000400--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TTE|X.DOUBLES-----------",
+      "message": "TTE Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
