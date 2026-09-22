@@ -1283,16 +1283,7 @@
       "capturedAt": "2026-09-22",
       "broadcastEndTimeTaipei": "2026-09-23T10:00:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {
-        "eventKeywords": [
-          "Team Kata"
-        ],
-        "phaseKeywords": [
-          "Quarterfinal",
-          "Semifinal",
-          "Bronze Medal"
-        ]
-      }
+      "matchHint": {}
     },
     {
       "date": "2026-09-23",
@@ -1337,13 +1328,12 @@
       "broadcastEndTimeTaipei": "2026-09-23T13:30:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
-        "eventKeywords": [
-          "Mixed Doubles",
-          "Women's Singles"
-        ],
         "phaseKeywords": [
-          "Round 1",
-          "Round 2"
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
         ]
       }
     },
@@ -1602,7 +1592,74 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-24T11:55:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-24T08:55:00+08:00",
+      "disciplineCode": "TTE",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 鄭怡靜/葉伊恬 桌球 女雙/男單預賽 9/24 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-24T12:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "YEH Yi-tian",
+          "CHENG I-ching"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T09:55:00+08:00",
+      "disciplineCode": "KAB",
+      "channelId": "542",
+      "channelName": "愛爾達體育MAX3台",
+      "isLive": true,
+      "title": "亞運 泰國VS中華 卡巴迪 女子預賽 9/24(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-24T11:10:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T11:10:00+08:00",
+      "disciplineCode": "KAB",
+      "channelId": "542",
+      "channelName": "愛爾達體育MAX3台",
+      "isLive": true,
+      "title": "亞運 泰國VS中華 卡巴迪 女子預賽 9/24(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-24T12:10:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T13:55:00+08:00",
       "disciplineCode": "SKB",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
@@ -1612,6 +1669,50 @@
       "note": "原音",
       "capturedAt": "2026-09-22",
       "broadcastEndTimeTaipei": "2026-09-24T15:35:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "KU Yong-yan"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T14:50:00+08:00",
+      "disciplineCode": "BKB",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 中華VS菲律賓 籃球 女子八強 9/24 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-24T17:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "PHI"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T20:35:00+08:00",
+      "disciplineCode": "SKB",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": false,
+      "title": "亞運 辜泳諺/林逸帆 滑板 男/女公園預賽 9/24 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-24T22:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
