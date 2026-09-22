@@ -4,6 +4,19 @@
 // official English is shown, so nothing is invented and nothing comes out half-translated.
 type Rule = [RegExp, string];
 
+const esportNames:Rule[] = [
+  [/League of Legends/i, '英雄聯盟'],
+  [/(?:Pokémon|Pokemon) UNITE/i, '寶可夢大集結'],
+  [/PUBG Mobile(?: Asian Games Version)?/i, '絕地求生M亞運版'],
+  [/Identity V(?: Asian Games Version)?/i, '第五人格亞運版'],
+  [/Naraka(?:: Bladepoint)?/i, '永劫無間'],
+  [/Puyo Puyo(?: Champions)?/i, '魔法氣泡'],
+  [/Competitive Martial Arts/i, '競技武術'],
+  [/Street Fighter (?:6|Series)/i, '快打旋風6'],
+  [/(?:TEKKEN 8|Tekken Series)/i, '鐵拳8'],
+  [/(?:THE KING OF FIGHTERS XV|King of Fighters XV|KOF XV|King of Fighters Series)/i, '拳皇XV'],
+];
+
 const rules:Rule[] = [
   // Gender and participation
   // A placeholder event ("Men's") is still a real name to the reader: it is the men's event.
@@ -100,7 +113,10 @@ const complete = (value:string)=>!/[A-Za-z]/.test(value.replace(/[A-Z](?=組)/g,
 
 export function localizeName(value:string|null|undefined):string|null {
   if (!value) return value ?? null;
-  let out = frontGender(clean(value));
+  const cleaned = clean(value);
+  const esport = esportNames.find(([pattern])=>pattern.test(cleaned));
+  if (esport) return esport[1];
+  let out = frontGender(cleaned);
   for (const [pattern, replacement] of rules) out = out.replace(pattern, replacement);
   out = clean(out.replace(/,/g,'').replace(/\s+/g,''));
   return complete(out) && out ? out : clean(value);

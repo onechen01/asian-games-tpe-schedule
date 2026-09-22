@@ -224,9 +224,18 @@ test('event and phase names display in Chinese, and an unknown one stays officia
   assert.equal(phaseLabel("Men's Singles Quarterfinals",null),'男子單打8強賽');
   assert.equal(phaseLabel("Women's 200m Butterfly Heats",null),'女子200公尺蝶式預賽');
   assert.equal(phaseLabel("Men's Individual Kata Round of 16",null),'男子個人型16強賽');
+  assert.equal(eventLabel('MOBA [League of Legends]'),'英雄聯盟');
+  assert.equal(eventLabel('Pokémon UNITE'),'寶可夢大集結');
+  assert.equal(eventLabel('PUBG Mobile Asian Games Version'),'絕地求生M亞運版');
+  assert.equal(eventLabel('Identity V'),'第五人格亞運版');
+  assert.equal(eventLabel('Naraka: Bladepoint'),'永劫無間');
+  assert.equal(eventLabel('Puyo Puyo Champions'),'魔法氣泡');
+  assert.equal(eventLabel('Competitive Martial Arts'),'競技武術');
+  assert.equal(eventLabel('Street Fighter Series'),'快打旋風6');
+  assert.equal(eventLabel('TEKKEN 8'),'鐵拳8');
+  assert.equal(eventLabel('THE KING OF FIGHTERS XV'),'拳皇XV');
   // A name that cannot be translated in full is shown exactly as the officials published it.
-  const esport = 'MOBA [League of Legends]';
-  assert.equal(eventLabel(esport),esport);
+  assert.equal(eventLabel('Unknown Esport'),'Unknown Esport');
   assert.equal(eventLabel(null),null);
 });
 
