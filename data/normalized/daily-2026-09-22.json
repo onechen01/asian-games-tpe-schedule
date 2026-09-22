@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T03:14:33.447Z",
+  "generatedAt": "2026-09-22T03:26:52.443Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T03:14:33.303Z",
+      "generatedAt": "2026-09-22T03:26:52.255Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1104,22 +1104,22 @@
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
           "result": "72",
-          "rank": "4"
+          "rank": "5"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
           "result": "92",
-          "rank": "17"
+          "rank": "18"
         },
         {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
-          "result": "69",
-          "rank": "20"
+          "result": "71",
+          "rank": "22"
         }
       ],
-      "tpeRank": "4",
+      "tpeRank": "5",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1835,7 +1835,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "6",
         "opponent": "0",
         "source": "results"
       },
@@ -1926,7 +1926,7 @@
       "opponentCode": "MGL",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2085,8 +2085,8 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T12:30:00+08:00",
-      "startTimeJst": "2026-09-22T13:30:00+09:00",
+      "startTimeTaipei": "2026-09-22T12:50:00+08:00",
+      "startTimeJst": "2026-09-22T13:50:00+09:00",
       "disciplineCode": "FEN",
       "sportZh": "擊劍",
       "sportEn": "Fencing",
@@ -2263,8 +2263,8 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T14:00:00+08:00",
-      "startTimeJst": "2026-09-22T15:00:00+09:00",
+      "startTimeTaipei": "2026-09-22T14:10:00+08:00",
+      "startTimeJst": "2026-09-22T15:10:00+09:00",
       "disciplineCode": "BDM",
       "sportZh": "羽球",
       "sportEn": "Badminton",
@@ -2970,7 +2970,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：FEN 12:30 Men's Foil Individual - Table of 32 - Table of 32",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 12:50 Men's Foil Individual - Table of 32 - Table of 32",
       "row": "FEN:M.FOIL--------------.R32-.001000--"
     },
     {
@@ -2990,7 +2990,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 14:00 Men's Team Quarterfinals Tie 2",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 14:10 Men's Team Quarterfinals Tie 2",
       "row": "BDM:M.TEAM--------------.QFNL.00020000"
     },
     {
