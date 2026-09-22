@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T13:16:54.577Z",
+  "generatedAt": "2026-09-22T19:16:59.849Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-22T13:16:54.431Z",
+      "generatedAt": "2026-09-22T19:16:59.743Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -295,48 +295,6 @@
   "rows": [
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T07:00:00+08:00",
-      "startTimeJst": "2026-09-29T08:00:00+09:00",
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Recurve Men's Individual",
-      "phase": "Recurve Men's Individual 1/24 Eliminations",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 56,
-      "enteredAthletes": [
-        "CHENG Hsiang-hui",
-        "LIN Zih-siang",
-        "TANG Chih-chun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ARC|M.RINDIVID----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T08:00:00+08:00",
       "startTimeJst": "2026-09-29T09:00:00+09:00",
       "disciplineCode": "ELS",
@@ -510,7 +468,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 12,
+      "unitCount": 8,
       "enteredAthletes": [
         "SHIH Liu Li-ling",
         "YANG Ya-chun"
@@ -551,7 +509,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 12,
+      "unitCount": 8,
       "enteredAthletes": [
         "CHAN Hao-cheng",
         "PAN Ssu-cheng"
@@ -592,7 +550,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 5,
+      "unitCount": 1,
       "enteredAthletes": [
         "CHANG Chih-sheng",
         "CHIEN Yun-tse",
@@ -636,7 +594,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 8,
+      "unitCount": 1,
       "enteredAthletes": [
         "CHEN Ching-yun",
         "LIU Shang-ying",
@@ -679,7 +637,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 1,
       "enteredAthletes": [
         "YANG Kun-Pi"
       ],
@@ -719,7 +677,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 1,
       "enteredAthletes": [
         "LIN Yi-Chun",
         "LIU Wan-Yu"
@@ -730,174 +688,6 @@
       "sources": {
         "entries": {
           "eventId": "SHO|W.TRW---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 7,
-      "enteredAthletes": [
-        "HSU Yu-hsiou",
-        "TSENG Chun-hsin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|M.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Third Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "GARLAND Joanna Jessie",
-        "YANG Ya-yi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|W.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Third Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "HO Chenjui",
-        "HSU Yu-hsiou",
-        "LEE Kuan-yi",
-        "WU Tung-lin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|M.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles Third Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHAN Hao-ching",
-        "GARLAND Joanna Jessie",
-        "HSIEH Su-wei",
-        "WU Fang-hsien"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|W.DOUBLES-----------"
         }
       }
     },
@@ -1026,217 +816,6 @@
       "sources": {
         "entries": {
           "eventId": "CSL|M.K1----------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHOU Tien-Chen",
-        "LIN Chun-Yi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|M.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHIU Pin-chian",
-        "LIN Hsiang-Ti"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|W.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHIU Hsiang-Chieh",
-        "LEE Jhe-Huei",
-        "WANG Chi-Lin",
-        "YANG Po-Hsuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|M.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "HSIEH Pei-shan",
-        "HSU Yin-Hui",
-        "HUNG En-Tzu",
-        "LIN Jhih-Yun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|W.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHAN Nicole Gonzales",
-        "HU Ling-Fang",
-        "YANG Po-Hsuan",
-        "YE Hong-Wei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|X.DOUBLES-----------"
         }
       }
     },
@@ -1409,48 +988,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T11:15:00+08:00",
-      "startTimeJst": "2026-09-29T12:15:00+09:00",
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Recurve Women's Individual",
-      "phase": "Recurve Women's Individual 1/24 Eliminations",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 56,
-      "enteredAthletes": [
-        "FONG You-jhu",
-        "HSU Hsin-tzu",
-        "LI Tsai-chi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ARC|W.RINDIVID----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T11:25:00+08:00",
       "startTimeJst": "2026-09-29T12:25:00+09:00",
       "disciplineCode": "CSL",
@@ -1589,126 +1126,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T12:00:00+08:00",
-      "startTimeJst": "2026-09-29T13:00:00+09:00",
-      "disciplineCode": "BOX",
-      "sportZh": "拳擊",
-      "sportEn": "Boxing",
-      "event": "Women's 54kg",
-      "phase": "Women's 54KG Semifinal",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nishio Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "HUANG Hsiao-wen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BOX|W.54KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T12:30:00+08:00",
-      "startTimeJst": "2026-09-29T13:30:00+09:00",
-      "disciplineCode": "BOX",
-      "sportZh": "拳擊",
-      "sportEn": "Boxing",
-      "event": "Women's 65kg",
-      "phase": "Women's 65KG Semifinal",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nishio Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Nien-chin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BOX|W.65KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T13:00:00+08:00",
-      "startTimeJst": "2026-09-29T14:00:00+09:00",
-      "disciplineCode": "BOX",
-      "sportZh": "拳擊",
-      "sportEn": "Boxing",
-      "event": "Men's 60kg",
-      "phase": "Men's 60KG Semifinal",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nishio Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LIN Jun-you"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BOX|M.60KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T13:00:00+08:00",
       "startTimeJst": "2026-09-29T14:00:00+09:00",
       "disciplineCode": "SAL",
@@ -1789,68 +1206,6 @@
         "results": {
           "unitId": "O.PUBGM-------------.FNL-.001100--",
           "id": "ELS:O.PUBGM-------------.FNL-.001100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T14:00:00+08:00",
-      "startTimeJst": "2026-09-29T15:00:00+09:00",
-      "disciplineCode": "FBL",
-      "sportZh": "足球",
-      "sportEn": "Football",
-      "event": "Women",
-      "phase": "Women Semi-finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Shizuoka Stadium Ecopa",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHANG Chi-lan",
-        "CHEN Jin-wen",
-        "CHEN Ying-hui",
-        "CHEN Yu-chin",
-        "CHENG Ssu-yu",
-        "CHUAN Tzu-yu",
-        "HE Jia-shiuan",
-        "HSU Yi-yun",
-        "HUANG Ke-sin",
-        "LIAO Jie-ning",
-        "LIN Hsin-hui",
-        "LIN Jing-xuan",
-        "LIU Ying-chia",
-        "LIU Yu-chiao",
-        "MATSUNAGA Saki",
-        "PAN Shin-yu",
-        "PAN Yen-hsin",
-        "SU Yu-hsuan",
-        "TANAKA Maho",
-        "TSENG Yun-ching",
-        "WAKABAYASHI Minori",
-        "WANG Yu-ting",
-        "WU Kai-ching"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "FBL|W.TEAM11------------"
         }
       }
     },
@@ -1947,7 +1302,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 10,
-    "entered": 28,
+    "entered": 13,
     "unresolvedTbd": 0,
     "warnings": 10
   },

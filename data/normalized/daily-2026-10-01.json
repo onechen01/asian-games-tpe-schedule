@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T13:18:32.779Z",
+  "generatedAt": "2026-09-22T19:20:22.542Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-22T13:18:32.615Z",
+      "generatedAt": "2026-09-22T19:20:22.406Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -401,93 +401,6 @@
       "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T08:00:00+08:00",
       "startTimeJst": "2026-10-01T09:00:00+09:00",
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Compound Women's Individual",
-      "phase": "Compound Women's Individual Quarterfinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 9,
-      "enteredAthletes": [
-        "CHEN Fang-yi",
-        "CHEN Yi-hsuan",
-        "HUANG I-jou"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ARC|W.CINDIVID----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T08:00:00+08:00",
-      "startTimeJst": "2026-10-01T09:00:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "MOBA [League of Legends]",
-      "phase": "League of Legends Semi-finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Yi-chin",
-        "CHIU Tzu-chuan",
-        "LIN Yu-en",
-        "LIU Jia-hao",
-        "TSAI Ming-hung",
-        "YU Jun-jia"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ELS|O.LOL---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T08:00:00+08:00",
-      "startTimeJst": "2026-10-01T09:00:00+09:00",
       "disciplineCode": "JJI",
       "sportZh": "柔術",
       "sportEn": "Jiu Jitsu",
@@ -511,7 +424,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 66,
+      "unitCount": 62,
       "enteredAthletes": [
         "HSU Ching-chih"
       ],
@@ -607,7 +520,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 3,
+      "unitCount": 1,
       "enteredAthletes": [
         "CHEN Hsin-ya"
       ],
@@ -670,46 +583,6 @@
       "disciplineCode": "CTR",
       "sportZh": "自由車場地賽",
       "sportEn": "Cycling Track",
-      "event": "Men's Sprint",
-      "phase": "Men's Sprint, Quarterfinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Izu Velodrome(Shizuoka)",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 34,
-      "enteredAthletes": [
-        "KANG Shih-feng"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CTR|M.SPRINT------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T09:00:00+08:00",
-      "startTimeJst": "2026-10-01T10:00:00+09:00",
-      "disciplineCode": "CTR",
-      "sportZh": "自由車場地賽",
-      "sportEn": "Cycling Track",
       "event": "Men's Omnium",
       "phase": "Men's Omnium, Scratch Race 1/4",
       "unit": null,
@@ -730,7 +603,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 5,
+      "unitCount": 2,
       "enteredAthletes": [
         "LI Jing-feng"
       ],
@@ -770,7 +643,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 21,
+      "unitCount": 9,
       "enteredAthletes": [
         "CHEN Ching-yun",
         "LIU Shang-ying"
@@ -781,309 +654,6 @@
       "sources": {
         "entries": {
           "eventId": "CTR|W.SPRINT------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T09:00:00+08:00",
-      "startTimeJst": "2026-10-01T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Quarter-finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "HSU Yu-hsiou",
-        "TSENG Chun-hsin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|M.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T09:00:00+08:00",
-      "startTimeJst": "2026-10-01T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Semi-finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "GARLAND Joanna Jessie",
-        "YANG Ya-yi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|W.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T09:00:00+08:00",
-      "startTimeJst": "2026-10-01T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Semi-finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "HO Chenjui",
-        "HSU Yu-hsiou",
-        "LEE Kuan-yi",
-        "WU Tung-lin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|M.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T09:00:00+08:00",
-      "startTimeJst": "2026-10-01T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles Quarter-finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHAN Hao-ching",
-        "GARLAND Joanna Jessie",
-        "HSIEH Su-wei",
-        "WU Fang-hsien"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|W.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T09:00:00+08:00",
-      "startTimeJst": "2026-10-01T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Quarter-finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "HO Chenjui",
-        "HSIEH Su-wei",
-        "HUANG Tsung-hao",
-        "LIANG En-shuo"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|X.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T09:00:00+08:00",
-      "startTimeJst": "2026-10-01T10:00:00+09:00",
-      "disciplineCode": "VVO",
-      "sportZh": "排球",
-      "sportEn": "Volleyball",
-      "event": "Men",
-      "phase": "Men's Classification Match 9th-16th",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Park Arena Komaki",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "CHANG Yu-chen",
-        "CHANG Yu-sheng",
-        "CHEN Jie-ting",
-        "CHUANG Shao-chieh",
-        "HUANG Jheng-liang",
-        "HUANG Yu-chen",
-        "JHANG Yun-liang",
-        "LIU Yu-lin",
-        "LU Chiang Yao-kai",
-        "TSAI Pei-chang",
-        "WANG Ping-hsun",
-        "WEN Yi-kai"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "VVO|M.TEAM6-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T09:30:00+08:00",
-      "startTimeJst": "2026-10-01T10:30:00+09:00",
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Men's Canoe Single",
-      "phase": "Men's Canoe Single Semifinal",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "CHANG Fu-hua",
-        "WU Jung-cheng"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CSL|M.C1----------------"
         }
       }
     },
@@ -1114,7 +684,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 38,
+      "unitCount": 34,
       "enteredAthletes": [
         "PAI Hsin-ping"
       ],
@@ -1154,7 +724,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 16,
+      "unitCount": 8,
       "enteredAthletes": [
         "LIU Tzu-yun"
       ],
@@ -1194,7 +764,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 9,
+      "unitCount": 1,
       "enteredAthletes": [
         "YUAN Pei-chun"
       ],
@@ -1234,7 +804,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 14,
+      "unitCount": 6,
       "enteredAthletes": [
         "LIAO Yu-jung"
       ],
@@ -1244,47 +814,6 @@
       "sources": {
         "entries": {
           "eventId": "JUD|W.70KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T10:15:00+08:00",
-      "startTimeJst": "2026-10-01T11:15:00+09:00",
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Women's Kayak Single",
-      "phase": "Women's Kayak Single Semifinal",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "CHANG Chu-han",
-        "WU Ting-i"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CSL|W.K1----------------"
         }
       }
     },
@@ -1315,7 +844,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 3,
+      "unitCount": 1,
       "enteredAthletes": [
         "KE Hsiang-shuo"
       ],
@@ -1325,48 +854,6 @@
       "sources": {
         "entries": {
           "eventId": "TKW|M.INDPOOM-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T12:00:00+08:00",
-      "startTimeJst": "2026-10-01T13:00:00+09:00",
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Compound Men's Individual",
-      "phase": "Compound Men's Individual Quarterfinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 9,
-      "enteredAthletes": [
-        "CHANG Cheng-wei",
-        "CHEN Chieh-lun",
-        "YEN Tzu-hsiang"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ARC|M.CINDIVID----------"
         }
       }
     },
@@ -1418,7 +905,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 0,
-    "entered": 26,
+    "entered": 14,
     "unresolvedTbd": 0,
     "warnings": 0
   },

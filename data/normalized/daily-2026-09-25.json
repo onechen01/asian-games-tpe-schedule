@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T13:10:08.362Z",
+  "generatedAt": "2026-09-22T19:08:33.473Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-22T13:10:08.196Z",
+      "generatedAt": "2026-09-22T19:08:33.338Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -370,7 +370,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 13,
+      "unitCount": 8,
       "enteredAthletes": [
         "CHEN Wan-yu",
         "CHUNG Yun-jung"
@@ -381,88 +381,6 @@
       "sources": {
         "entries": {
           "eventId": "SRF|W.SHORTBRD----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T08:00:00+08:00",
-      "startTimeJst": "2026-09-25T09:00:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
-      "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Quarter-finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHANG Chia-tung",
-        "CHEN You-gang",
-        "LIN Chia-hung"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ELS|O.FTG---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T08:05:00+08:00",
-      "startTimeJst": "2026-09-25T09:05:00+09:00",
-      "disciplineCode": "SKB",
-      "sportZh": "滑板",
-      "sportEn": "Skateboarding",
-      "event": "Women's Park",
-      "phase": "Women's Park Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Sky Expo Hall B",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LIN Yi-fan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SKB|W.PARK--------------"
         }
       }
     },
@@ -575,7 +493,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 24,
+      "unitCount": 16,
       "enteredAthletes": [
         "CHAN Nicole Gonzales",
         "HU Ling-Fang",
@@ -704,7 +622,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 16,
+      "unitCount": 8,
       "enteredAthletes": [
         "CHEN Chih-Chieh",
         "CHEN Yi-Tung",
@@ -747,7 +665,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 1,
       "enteredAthletes": [
         "CHENG Yen-Ching",
         "HSIEH Hsiang-Chen"
@@ -813,90 +731,6 @@
         "results": {
           "unitId": "W.50MBF-------------.HEAT.000100--",
           "id": "SWM:W.50MBF-------------.HEAT.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
-      "startTimeJst": "2026-09-25T10:00:00+09:00",
-      "disciplineCode": "CSP",
-      "sportZh": "輕艇靜水",
-      "sportEn": "Canoe Sprint",
-      "event": "Men's Kayak Double 500m",
-      "phase": "Men's Kayak Double 500m Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Miyoshi Lake Canoe Course",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "LIN Yong-bo",
-        "LIN Yung-chieh"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CSP|M.K2-500M-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
-      "startTimeJst": "2026-09-25T10:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Quarter-Finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHENG I-ching",
-        "FENG Yi-hsin",
-        "LIN Yun-ju",
-        "YEH Yi-tian"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|X.DOUBLES-----------"
         }
       }
     },
@@ -1039,49 +873,6 @@
     },
     {
       "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T10:00:00+08:00",
-      "startTimeJst": "2026-09-25T11:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Round of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 24,
-      "enteredAthletes": [
-        "FENG Yi-hsin",
-        "HSU Hsien-chia",
-        "HUNG Jing-kai",
-        "KUO Guan-hong"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|M.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T10:06:00+08:00",
       "startTimeJst": "2026-09-25T11:06:00+09:00",
       "disciplineCode": "SWM",
@@ -1167,46 +958,6 @@
     },
     {
       "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T10:35:00+08:00",
-      "startTimeJst": "2026-09-25T11:35:00+09:00",
-      "disciplineCode": "SKB",
-      "sportZh": "滑板",
-      "sportEn": "Skateboarding",
-      "event": "Men's Park",
-      "phase": "Men's Park Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Sky Expo Hall B",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "KU Yong-yan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SKB|M.PARK--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T10:50:00+08:00",
       "startTimeJst": "2026-09-25T11:50:00+09:00",
       "disciplineCode": "CSP",
@@ -1232,7 +983,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 1,
       "enteredAthletes": [
         "LAI Kuan-chieh"
       ],
@@ -1242,284 +993,6 @@
       "sources": {
         "entries": {
           "eventId": "CSP|M.C1-500M-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T11:00:00+08:00",
-      "startTimeJst": "2026-09-25T12:00:00+09:00",
-      "disciplineCode": "BBL",
-      "sportZh": "棒球",
-      "sportEn": "Baseball",
-      "event": "Baseball Men",
-      "phase": "Men's Placement Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHANG Hsiang",
-        "CHEN Chen-wei",
-        "CHEN Hsiao-yun",
-        "CHEN Min-sih",
-        "CHU Chia-en",
-        "GUO Dinghong",
-        "HSU Siang-sheng",
-        "HUANG Chieh-han",
-        "HUANG Wei-sheng",
-        "KAO Yu-wei",
-        "KUO Tzu-chuan",
-        "LI I-wei",
-        "LIN Yi-wei",
-        "LIN Yu-li",
-        "LIN Yu-min",
-        "LIU Chih-jung",
-        "LIU Ji-hong",
-        "TSAI Wei-tai",
-        "WANG Cheng-hao",
-        "WANG Yan-cheng",
-        "WANG Yu-chieh",
-        "YANG Chen-yu",
-        "YANG Po-hsiang",
-        "YU Tsung-ju"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BBL|M.TEAM9-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T11:00:00+08:00",
-      "startTimeJst": "2026-09-25T12:00:00+09:00",
-      "disciplineCode": "BOX",
-      "sportZh": "拳擊",
-      "sportEn": "Boxing",
-      "event": "Women's 54kg",
-      "phase": "Women's 54KG 1/8 Finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nishio Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "HUANG Hsiao-wen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BOX|W.54KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T11:30:00+08:00",
-      "startTimeJst": "2026-09-25T12:30:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Round of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "CHEN Szu-yu",
-        "CHENG I-ching"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|W.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T12:00:00+08:00",
-      "startTimeJst": "2026-09-25T13:00:00+09:00",
-      "disciplineCode": "BK3",
-      "sportZh": "3x3籃球",
-      "sportEn": "3x3 Basketball",
-      "event": "Women",
-      "phase": "Women Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kinjo Futo Station Square Venue",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHANG Yu-min",
-        "CHEN Wei-han",
-        "TSAI Yu-lien",
-        "YU Chin-hua"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BK3|W.TEAM3-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T12:00:00+08:00",
-      "startTimeJst": "2026-09-25T13:00:00+09:00",
-      "disciplineCode": "BOX",
-      "sportZh": "拳擊",
-      "sportEn": "Boxing",
-      "event": "Men's 60kg",
-      "phase": "Men's 60KG 1/8 Finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nishio Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "LIN Jun-you"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BOX|M.60KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T12:00:00+08:00",
-      "startTimeJst": "2026-09-25T13:00:00+09:00",
-      "disciplineCode": "KAB",
-      "sportZh": "卡巴迪",
-      "sportEn": "Kabaddi",
-      "event": "Women's Team",
-      "phase": "Women's Team Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokai Citizen Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Shi-han",
-        "CHUANG Ya-han",
-        "FENG Hsiu-chen",
-        "HU Yu-chen",
-        "HUANG Ssu-chin",
-        "HUANG Yi-yun",
-        "KANG Yung-chiao",
-        "LIN I-min",
-        "QIN Pei-jyun",
-        "REN Ming-xiu",
-        "WU Yu-jung",
-        "YEN Chiao-wen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "KAB|W.TEAM7-------------"
         }
       }
     },
@@ -1566,90 +1039,6 @@
     },
     {
       "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T12:50:00+08:00",
-      "startTimeJst": "2026-09-25T13:50:00+09:00",
-      "disciplineCode": "BK3",
-      "sportZh": "3x3籃球",
-      "sportEn": "3x3 Basketball",
-      "event": "Men",
-      "phase": "Men Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kinjo Futo Station Square Venue",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHANG Chun-sheng",
-        "HSU Tang-chi",
-        "TZOU Tzu-hsi",
-        "YEH Wei-chieh"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BK3|M.TEAM3-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T13:00:00+08:00",
-      "startTimeJst": "2026-09-25T14:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Round of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "FENG Yi-hsin",
-        "LIN Yun-ju"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|M.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T13:15:00+08:00",
       "startTimeJst": "2026-09-25T14:15:00+09:00",
       "disciplineCode": "ELS",
@@ -1691,57 +1080,6 @@
         "results": {
           "unitId": "O.PKU---------------.GPA-.000200--",
           "id": "ELS:O.PKU---------------.GPA-.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T13:15:00+08:00",
-      "startTimeJst": "2026-09-25T14:15:00+09:00",
-      "disciplineCode": "KAB",
-      "sportZh": "卡巴迪",
-      "sportEn": "Kabaddi",
-      "event": "Men's Team",
-      "phase": "Men's Team Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokai Citizen Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CAI Ruei-chen",
-        "CHANG Chung-mao",
-        "CHEN Zheng-wei",
-        "CHUANG Chia-ming",
-        "JIN Wu Fu-kai",
-        "LI Jyun-jie",
-        "LIN Po-ting",
-        "PENG Xian-ya",
-        "SU Hsiang-chih",
-        "TSAI Chung-hao",
-        "WANG Lun-chu",
-        "YEH Jiunn-ming"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "KAB|M.TEAM7-------------"
         }
       }
     },
@@ -1805,49 +1143,6 @@
         "results": {
           "unitId": "W.TEAM11------------.QFNL.000100--",
           "id": "FBL:W.TEAM11------------.QFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T14:30:00+08:00",
-      "startTimeJst": "2026-09-25T15:30:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "CHEN Szu-yu",
-        "CHENG I-ching",
-        "WU Ying-syuan",
-        "YEH Yi-tian"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|W.DOUBLES-----------"
         }
       }
     },
@@ -2217,7 +1512,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 11,
-    "entered": 31,
+    "entered": 15,
     "unresolvedTbd": 0,
     "warnings": 16
   },
