@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T11:47:59.912Z",
+  "generatedAt": "2026-09-22T12:05:20.153Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T11:47:59.769Z",
+      "generatedAt": "2026-09-22T12:05:20.001Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1260,7 +1260,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1933,7 +1933,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2448,7 +2448,7 @@
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": "GERASSIMENKO Kirill/AKASHEVA Zauresh",
+      "opponent": "GERASSIMENKO Kirill / AKASHEVA Zauresh",
       "opponentCode": "KAZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -2459,7 +2459,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2834,7 +2834,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2876,10 +2876,10 @@
       "opponentCode": "JPN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "2",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2932,7 +2932,7 @@
       "opponentCode": "SRI",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "63",
         "opponent": "17",
