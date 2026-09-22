@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T02:33:51.842Z",
+  "generatedAt": "2026-09-22T02:45:22.692Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T02:33:51.653Z",
+      "generatedAt": "2026-09-22T02:45:22.500Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -385,51 +385,6 @@
       "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T08:00:00+08:00",
       "startTimeJst": "2026-09-22T09:00:00+09:00",
-      "disciplineCode": "TST",
-      "sportZh": "軟式網球",
-      "sportEn": "Soft Tennis",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Group E",
-      "unit": "Women's Singles Group E Match 1",
-      "athletes": [],
-      "athletesEn": [
-        "CHIANG Min-yu"
-      ],
-      "opponent": "CHHAN Chheavhouy",
-      "opponentCode": "CAM",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "4",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SINGLES-----------.GPE-.000100--",
-          "id": "TST:W.SINGLES-----------.GPE-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T08:00:00+08:00",
-      "startTimeJst": "2026-09-22T09:00:00+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
@@ -478,6 +433,51 @@
         "results": {
           "unitId": "M.NANG--------------.FNL-.000100--",
           "id": "WSU:M.NANG--------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T08:00:00+08:00",
+      "startTimeJst": "2026-09-22T09:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Group E",
+      "unit": "Women's Singles Group E Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHIANG Min-yu"
+      ],
+      "opponent": "CHHAN Chheavhouy",
+      "opponentCode": "CAM",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.GPE-.000100--",
+          "id": "TST:W.SINGLES-----------.GPE-.000100--"
         }
       }
     },
@@ -1081,55 +1081,6 @@
       "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T09:00:00+08:00",
       "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Women's Team",
-      "phase": "Women's Team Round 1",
-      "unit": "Women's Team Round 1 Match 7",
-      "athletes": [],
-      "athletesEn": [
-        "YEH Yi-tian",
-        "CHEN Szu-yu",
-        "PENG Yu-han",
-        "CHENG I-ching",
-        "WU Ying-syuan"
-      ],
-      "opponent": "Macau, China",
-      "opponentCode": "MAC",
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "2",
-        "opponent": "1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TEAM--------------.8FNL.00070000",
-          "id": "TTE:W.TEAM--------------.8FNL.00070000"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
@@ -1137,16 +1088,39 @@
       "phase": "Skeet Men Individual Qualification",
       "unit": "Skeet Men Individual - Qualification - Qualification - Day 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LEE Meng-Yuan",
+        "ZHANG Feng-Qi",
+        "WANG Han-Tsun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "RUNNING",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "LEE Meng-Yuan",
+          "registration": "13634212",
+          "result": "72",
+          "rank": "5"
+        },
+        {
+          "name": "ZHANG Feng-Qi",
+          "registration": "4308201",
+          "result": "72",
+          "rank": "18"
+        },
+        {
+          "name": "WANG Han-Tsun",
+          "registration": "4309027",
+          "result": "69",
+          "rank": "20"
+        }
+      ],
+      "tpeRank": "5",
+      "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1176,16 +1150,24 @@
       "phase": "Skeet Men Team Final",
       "unit": "Skeet Men Team - Final - Day 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LEE Meng-Yuan",
+        "ZHANG Feng-Qi",
+        "WANG Han-Tsun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "RUNNING",
-      "result": null,
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1215,16 +1197,22 @@
       "phase": "Skeet Women Individual Qualification",
       "unit": "Skeet Women Individual - Qualification - Qualification - Day 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LO Chien-Ya"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "RUNNING",
-      "result": null,
+      "result": {
+        "tpe": "50",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "23",
+      "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1240,6 +1228,55 @@
         "results": {
           "unitId": "W.SKW---------------.QUAL.000200--",
           "id": "SHO:W.SKW---------------.QUAL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Team",
+      "phase": "Women's Team Round 1",
+      "unit": "Women's Team Round 1 Match 7",
+      "athletes": [],
+      "athletesEn": [
+        "YEH Yi-tian",
+        "CHEN Szu-yu",
+        "PENG Yu-han",
+        "CHENG I-ching",
+        "WU Ying-syuan"
+      ],
+      "opponent": "Macau, China",
+      "opponentCode": "MAC",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM--------------.8FNL.00070000",
+          "id": "TTE:W.TEAM--------------.8FNL.00070000"
         }
       }
     },
@@ -1408,7 +1445,7 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2:15.55",
         "opponent": null,
@@ -1460,7 +1497,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1505,7 +1542,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1619,6 +1656,47 @@
     },
     {
       "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T10:20:00+08:00",
+      "startTimeJst": "2026-09-22T11:20:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Kumite -84kg",
+      "phase": "Men's Kumite -84kg Bronze Medal Bout",
+      "unit": "Men's Kumite -84kg Bronze Medal Bout A",
+      "athletes": [],
+      "athletesEn": [
+        "CHUNG Meng-yu"
+      ],
+      "opponent": "BHATT Chetan",
+      "opponentCode": "IND",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.84KG--------------.REPF.000100--",
+          "id": "KTE:M.84KG--------------.REPF.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T10:30:00+08:00",
       "startTimeJst": "2026-09-22T11:30:00+09:00",
       "disciplineCode": "TST",
@@ -1635,8 +1713,12 @@
       "opponentCode": "CAM",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1945,6 +2027,88 @@
         "results": {
           "unitId": "W.TEAM6-------------.SF5-.000300--",
           "id": "VVO:W.TEAM6-------------.SF5-.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T12:30:00+08:00",
+      "startTimeJst": "2026-09-22T13:30:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Table of 32",
+      "unit": "Men's Foil Individual - Table of 32 - Table of 32",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Chih-Chieh"
+      ],
+      "opponent": "POORGHARIB Abdulrahman",
+      "opponentCode": "QAT",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.R32-.000600--",
+          "id": "FEN:M.FOIL--------------.R32-.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T12:30:00+08:00",
+      "startTimeJst": "2026-09-22T13:30:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Table of 32",
+      "unit": "Men's Foil Individual - Table of 32 - Table of 32",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-Tung"
+      ],
+      "opponent": "LAM Pak Kio",
+      "opponentCode": "MAC",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.R32-.001000--",
+          "id": "FEN:M.FOIL--------------.R32-.001000--"
         }
       }
     },
@@ -2395,6 +2559,51 @@
     },
     {
       "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T18:20:00+08:00",
+      "startTimeJst": "2026-09-22T19:20:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Team",
+      "phase": "Women's Team Quarterfinals",
+      "unit": "Women's Team Quarterfinals Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "YEH Yi-tian",
+        "CHEN Szu-yu",
+        "PENG Yu-han",
+        "CHENG I-ching",
+        "WU Ying-syuan"
+      ],
+      "opponent": "Japan",
+      "opponentCode": "JPN",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM--------------.QFNL.00040000",
+          "id": "TTE:W.TEAM--------------.QFNL.00040000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T18:45:00+08:00",
       "startTimeJst": "2026-09-22T19:45:00+09:00",
       "disciplineCode": "KAB",
@@ -2479,10 +2688,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 46,
+    "resultsOnly": 50,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 59
   },
   "warnings": [
     {
@@ -2492,13 +2701,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Group E Match 1",
-      "row": "TST:W.SINGLES-----------.GPE-.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Nanquan",
+      "row": "WSU:M.NANG--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Nanquan",
-      "row": "WSU:M.NANG--------------.FNL-.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Group E Match 1",
+      "row": "TST:W.SINGLES-----------.GPE-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2567,11 +2776,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Team Round 1 Match 7",
-      "row": "TTE:W.TEAM--------------.8FNL.00070000"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Individual - Qualification - Qualification - Day 2",
       "row": "SHO:M.SKM---------------.QUAL.000200--"
     },
@@ -2584,6 +2788,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Women Individual - Qualification - Qualification - Day 2",
       "row": "SHO:W.SKW---------------.QUAL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Team Round 1 Match 7",
+      "row": "TTE:W.TEAM--------------.8FNL.00070000"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2627,6 +2836,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 10:20 Men's Kumite -84kg Bronze Medal Bout A",
+      "row": "KTE:M.84KG--------------.REPF.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 10:30 Women's Singles Group B Match 2",
       "row": "TST:W.SINGLES-----------.GPB-.000200--"
     },
@@ -2654,6 +2868,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 5th-6th Place - Match 35",
       "row": "VVO:W.TEAM6-------------.SF5-.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 12:30 Men's Foil Individual - Table of 32 - Table of 32",
+      "row": "FEN:M.FOIL--------------.R32-.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 12:30 Men's Foil Individual - Table of 32 - Table of 32",
+      "row": "FEN:M.FOIL--------------.R32-.001000--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2704,6 +2928,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WSU 17:40 Match 1",
       "row": "WSU:W.60KG--------------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 18:20 Women's Team Quarterfinals Match 4",
+      "row": "TTE:W.TEAM--------------.QFNL.00040000"
     },
     {
       "code": "RESULTS_ONLY",
