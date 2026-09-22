@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T03:04:53.485Z",
+  "generatedAt": "2026-09-22T03:14:33.447Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T03:04:53.275Z",
+      "generatedAt": "2026-09-22T03:14:33.303Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -354,14 +354,14 @@
       "opponentCode": null,
       "venue": "Shinshiro Cycling Road Course",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "3:08:17",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "35",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1109,14 +1109,14 @@
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
-          "result": "85",
+          "result": "92",
           "rank": "17"
         },
         {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
           "result": "69",
-          "rank": "19"
+          "rank": "20"
         }
       ],
       "tpeRank": "4",
@@ -1249,7 +1249,7 @@
         "CHENG I-ching",
         "WU Ying-syuan"
       ],
-      "opponent": "Macau, China",
+      "opponent": "Macao, China",
       "opponentCode": "MAC",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1679,7 +1679,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1765,7 +1765,7 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "3:42.45",
         "opponent": null,
@@ -2530,6 +2530,88 @@
     },
     {
       "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T16:00:00+08:00",
+      "startTimeJst": "2026-09-22T17:00:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 100m Freestyle",
+      "phase": "Women's 100m Freestyle Final",
+      "unit": "Women's 100m Freestyle Final",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Pei-yin"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.100MFR------------.FNL-.000100--",
+          "id": "SWM:W.100MFR------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T16:20:00+08:00",
+      "startTimeJst": "2026-09-22T17:20:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 200m Backstroke",
+      "phase": "Women's 200m Backstroke Final",
+      "unit": "Women's 200m Backstroke Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Ya-jia"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.200MBA------------.FNL-.000100--",
+          "id": "SWM:W.200MBA------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T17:40:00+08:00",
       "startTimeJst": "2026-09-22T18:40:00+09:00",
       "disciplineCode": "WSU",
@@ -2700,10 +2782,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 50,
+    "resultsOnly": 52,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 58
+    "warnings": 56
   },
   "warnings": [
     {
@@ -2938,6 +3020,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:00 Women's 100m Freestyle Final",
+      "row": "SWM:W.100MFR------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:20 Women's 200m Backstroke Final",
+      "row": "SWM:W.200MBA------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WSU 17:40 Match 1",
       "row": "WSU:W.60KG--------------.QFNL.000100--"
     },
@@ -2965,26 +3057,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "FEN|M.FOIL--------------",
       "message": "FEN Men's Foil Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|W.100MFR------------",
-      "message": "SWM Women's 100m Freestyle 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|M.400MIM------------",
-      "message": "SWM Men's 400m Individual Medley 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|W.200MBA------------",
-      "message": "SWM Women's 200m Backstroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|M.4X100MMD----------",
-      "message": "SWM Men's 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
