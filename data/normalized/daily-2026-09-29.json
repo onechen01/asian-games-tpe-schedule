@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T01:19:52.509Z",
+  "generatedAt": "2026-09-22T07:22:11.332Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-22T01:19:52.359Z",
+      "generatedAt": "2026-09-22T07:22:11.172Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 9,
-          "recovered": 9,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -288,7 +288,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 251
+      "events": 252
     }
   },
   "date": "2026-09-29",
@@ -1058,8 +1058,8 @@
       "entryLevel": "event",
       "unitCount": 2,
       "enteredAthletes": [
-        "CHOU Tien-chen",
-        "LIN Chun-yi"
+        "CHOU Tien-Chen",
+        "LIN Chun-Yi"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1140,10 +1140,10 @@
       "entryLevel": "event",
       "unitCount": 2,
       "enteredAthletes": [
-        "CHIU Hsiang-chieh",
-        "LEE Jhe-huei",
-        "WANG Chi-lin",
-        "YANG Po-hsuan"
+        "CHIU Hsiang-Chieh",
+        "LEE Jhe-Huei",
+        "WANG Chi-Lin",
+        "YANG Po-Hsuan"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1228,8 +1228,8 @@
       "enteredAthletes": [
         "CHAN Nicole Gonzales",
         "HU Ling-fang",
-        "YANG Po-hsuan",
-        "YE Hong-wei"
+        "YANG Po-Hsuan",
+        "YE Hong-Wei"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",

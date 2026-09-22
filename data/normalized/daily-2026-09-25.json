@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T01:09:55.398Z",
+  "generatedAt": "2026-09-22T07:13:06.387Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-22T01:09:55.234Z",
+      "generatedAt": "2026-09-22T07:13:06.230Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -338,7 +338,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 251
+      "events": 252
     }
   },
   "date": "2026-09-25",
@@ -495,8 +495,8 @@
       "entryLevel": "event",
       "unitCount": 10,
       "enteredAthletes": [
-        "CHOU Tien-chen",
-        "LIN Chun-yi"
+        "CHOU Tien-Chen",
+        "LIN Chun-Yi"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -579,8 +579,8 @@
       "enteredAthletes": [
         "CHAN Nicole Gonzales",
         "HU Ling-fang",
-        "YANG Po-hsuan",
-        "YE Hong-wei"
+        "YANG Po-Hsuan",
+        "YE Hong-Wei"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1170,37 +1170,38 @@
       "sportEn": "Swimming",
       "event": "Women's 4 x 100m Medley Relay",
       "phase": "Women's 4 x 100m Medley Relay Heats",
-      "unit": null,
+      "unit": "Women's 4 x 100m Medley Relay Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHANG Ya-jia",
+        "HAN An-chi",
+        "LIU Pei-yin",
+        "LIN Pei-wun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "CHANG Ya-jia",
-        "HAN An-chi",
-        "LIN Pei-wun",
-        "LIU Pei-yin"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SWM|W.4X100MMD----------"
+        "results": {
+          "unitId": "W.4X100MMD----------.HEAT.000100--",
+          "id": "SWM:W.4X100MMD----------.HEAT.000100--"
         }
       }
     },
@@ -1963,10 +1964,10 @@
       "entryLevel": "event",
       "unitCount": 16,
       "enteredAthletes": [
-        "CHIU Hsiang-chieh",
-        "LEE Jhe-huei",
-        "WANG Chi-lin",
-        "YANG Po-hsuan"
+        "CHIU Hsiang-Chieh",
+        "LEE Jhe-Huei",
+        "WANG Chi-Lin",
+        "YANG Po-Hsuan"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -2417,10 +2418,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 10,
-    "entered": 37,
+    "resultsOnly": 11,
+    "entered": 36,
     "unresolvedTbd": 0,
-    "warnings": 14
+    "warnings": 16
   },
   "warnings": [
     {
@@ -2447,6 +2448,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 10:06 Men's 200m Butterfly Heat 3",
       "row": "SWM:M.200MBF------------.HEAT.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 10:10 Women's 4 x 100m Medley Relay Heat 1",
+      "row": "SWM:W.4X100MMD----------.HEAT.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2492,6 +2498,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|M.200MBF------------",
       "message": "SWM Men's 200m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|W.4X100MMD----------",
+      "message": "SWM Women's 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

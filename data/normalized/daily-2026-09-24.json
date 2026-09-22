@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T01:08:50.921Z",
+  "generatedAt": "2026-09-22T07:11:10.279Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-22T01:08:50.735Z",
+      "generatedAt": "2026-09-22T07:11:10.083Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -314,51 +314,11 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 251
+      "events": 252
     }
   },
   "date": "2026-09-24",
   "rows": [
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T08:00:00+08:00",
-      "startTimeJst": "2026-09-24T09:00:00+09:00",
-      "disciplineCode": "SKB",
-      "sportZh": "滑板",
-      "sportEn": "Skateboarding",
-      "event": "Women's Park",
-      "phase": "Women's Park Prelims",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Sky Expo Hall B",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LIN Yi-fan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SKB|W.PARK--------------"
-        }
-      }
-    },
     {
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T08:30:00+08:00",
@@ -497,35 +457,133 @@
       "sportEn": "Shooting",
       "event": "10m Air Pistol Men Individual",
       "phase": "10m Air Pistol Men Individual Qualification",
-      "unit": null,
+      "unit": "10m Air Pistol Men Individual - Qualification",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "YEH Ting-Wei",
+        "HSIEH Hsiang-Chen"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "YEH Ting-Wei",
+          "registration": "9615634",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "HSIEH Hsiang-Chen",
+          "registration": "13709878",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 24,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "HSIEH Hsiang-Chen",
-        "YEH Ting-Wei"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SHO|M.APM---------------"
+        "results": {
+          "unitId": "M.APM---------------.QUAL.000100--",
+          "id": "SHO:M.APM---------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Mixed Team",
+      "phase": "Skeet Mixed Team Qualification",
+      "unit": "Skeet Mixed Team - Qualification",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Meng-Yuan",
+        "LO Chien-Ya"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 11,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.SKMT--------------.QUAL.000100--",
+          "id": "SHO:X.SKMT--------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Round 2",
+      "unit": "Women's Doubles Round 2 Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Szu-yu",
+        "WU Ying-syuan"
+      ],
+      "opponent": "LEONG On Na/KUAN Cheok Lam",
+      "opponentCode": "MAC",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.R32-.000200--",
+          "id": "TTE:W.DOUBLES-----------.R32-.000200--"
         }
       }
     },
@@ -656,126 +714,56 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Mixed Team",
-      "phase": "Skeet Mixed Team Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LEE Meng-Yuan",
-        "LO Chien-Ya"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|X.SKMT--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "startTimeTaipei": "2026-09-24T09:02:00+08:00",
+      "startTimeJst": "2026-09-24T10:02:00+09:00",
       "disciplineCode": "SWM",
       "sportZh": "游泳",
       "sportEn": "Swimming",
       "event": "Women's 50m Freestyle",
       "phase": "Women's 50m Freestyle Heats",
-      "unit": null,
+      "unit": "Women's 50m Freestyle Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIU Pei-yin",
+        "CHIU Yi-chen"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHIU Yi-chen",
-        "LIU Pei-yin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SWM|W.50MFR-------------"
+      "tpeEntrants": [
+        {
+          "name": "LIU Pei-yin",
+          "registration": "8606802",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHIU Yi-chen",
+          "registration": "478795",
+          "result": null,
+          "rank": null
         }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles Round of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "CHEN Szu-yu",
-        "CHENG I-ching",
-        "WU Ying-syuan",
-        "YEH Yi-tian"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "TTE|W.DOUBLES-----------"
+        "results": {
+          "unitId": "W.50MFR-------------.HEAT.000200--",
+          "id": "SWM:W.50MFR-------------.HEAT.000200--"
         }
       }
     },
@@ -788,35 +776,76 @@
       "sportEn": "Swimming",
       "event": "Men's 200m Breaststroke",
       "phase": "Men's 200m Breaststroke Heats",
-      "unit": null,
+      "unit": "Men's 200m Breaststroke Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHANG Chiao-i"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHANG Chiao-i",
-        "TSAI Ruei-hong"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SWM|M.200MBR------------"
+        "results": {
+          "unitId": "M.200MBR------------.HEAT.000100--",
+          "id": "SWM:M.200MBR------------.HEAT.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:30:00+08:00",
+      "startTimeJst": "2026-09-24T10:30:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 200m Breaststroke",
+      "phase": "Men's 200m Breaststroke Heats",
+      "unit": "Men's 200m Breaststroke Heat 2",
+      "athletes": [],
+      "athletesEn": [
+        "TSAI Ruei-hong"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.200MBR------------.HEAT.000200--",
+          "id": "SWM:M.200MBR------------.HEAT.000200--"
         }
       }
     },
@@ -902,82 +931,125 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:40:00+08:00",
+      "startTimeJst": "2026-09-24T10:40:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Round 2",
+      "unit": "Women's Doubles Round 2 Match 11",
+      "athletes": [],
+      "athletesEn": [
+        "YEH Yi-tian",
+        "CHENG I-ching"
+      ],
+      "opponent": "PYON Song/CHOE Jong Im",
+      "opponentCode": "PRK",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.R32-.001100--",
+          "id": "TTE:W.DOUBLES-----------.R32-.001100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T10:00:00+08:00",
       "startTimeJst": "2026-09-24T11:00:00+09:00",
       "disciplineCode": "MTB",
       "sportZh": "自由車登山車",
       "sportEn": "Cycling Mountain Bike",
       "event": "Women's Cross-country",
-      "phase": "Women's Cross-country",
-      "unit": null,
+      "phase": "Women's Cross-country Final",
+      "unit": "Women's Cross-country Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TSAI Ya-yu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Obata Ryokuchi Park",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "TSAI Ya-yu"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "MTB|W.XCTRY-------------"
+        "results": {
+          "unitId": "W.XCTRY-------------.FNL-.000100--",
+          "id": "MTB:W.XCTRY-------------.FNL-.000100--"
         }
       }
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T10:20:00+08:00",
-      "startTimeJst": "2026-09-24T11:20:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Round of 64",
-      "unit": null,
+      "startTimeTaipei": "2026-09-24T10:00:00+08:00",
+      "startTimeJst": "2026-09-24T11:00:00+09:00",
+      "disciplineCode": "SKB",
+      "sportZh": "滑板",
+      "sportEn": "Skateboarding",
+      "event": "Women's Park",
+      "phase": "Women's Park Prelims",
+      "unit": "Women's Park - Prelims - Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIN Yi-fan"
+      ],
       "opponent": null,
       "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
+      "venue": "Aichi Sky Expo Hall B",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 22,
-      "enteredAthletes": [
-        "FENG Yi-hsin",
-        "LIN Yun-ju"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "TTE|M.SINGLES-----------"
+        "results": {
+          "unitId": "W.PARK--------------.QUAL.000100--",
+          "id": "SKB:W.PARK--------------.QUAL.000100--"
         }
       }
     },
@@ -1143,46 +1215,6 @@
       "sources": {
         "entries": {
           "eventId": "BK3|M.TEAM3-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T12:00:00+08:00",
-      "startTimeJst": "2026-09-24T13:00:00+09:00",
-      "disciplineCode": "SKB",
-      "sportZh": "滑板",
-      "sportEn": "Skateboarding",
-      "event": "Men's Park",
-      "phase": "Men's Park Prelims",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Sky Expo Hall B",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "KU Yong-yan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SKB|M.PARK--------------"
         }
       }
     },
@@ -1389,6 +1421,47 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T14:00:00+08:00",
+      "startTimeJst": "2026-09-24T15:00:00+09:00",
+      "disciplineCode": "SKB",
+      "sportZh": "滑板",
+      "sportEn": "Skateboarding",
+      "event": "Men's Park",
+      "phase": "Men's Park Prelims",
+      "unit": "Men's Park - Prelims - Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "KU Yong-yan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Sky Expo Hall B",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 5,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.PARK--------------.QUAL.000100--",
+          "id": "SKB:M.PARK--------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T14:20:00+08:00",
       "startTimeJst": "2026-09-24T15:20:00+09:00",
       "disciplineCode": "ELS",
@@ -1498,16 +1571,16 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
-        "CHI Yu-jen",
-        "CHIU Hsiang-chieh",
-        "CHOU Tien-chen",
-        "LEE Jhe-huei",
-        "LIN Chun-yi",
-        "LIU Kuang-heng",
-        "WANG Chi-lin",
-        "WANG Tzu-wei",
-        "YANG Po-hsuan",
-        "YE Hong-wei"
+        "CHI Yu-Jen",
+        "CHIU Hsiang-Chieh",
+        "CHOU Tien-Chen",
+        "LEE Jhe-Huei",
+        "LIN Chun-Yi",
+        "LIU Kuang-Heng",
+        "WANG Chi-Lin",
+        "WANG Tzu-Wei",
+        "YANG Po-Hsuan",
+        "YE Hong-Wei"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1629,7 +1702,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 1,
       "enteredAthletes": [
         "FENG Yi-hsin",
         "HSU Hsien-chia",
@@ -1882,7 +1955,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 1,
       "enteredAthletes": [
         "CHEN Szu-yu",
         "CHENG I-ching",
@@ -2073,12 +2146,57 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 6,
-    "entered": 36,
+    "resultsOnly": 16,
+    "entered": 27,
     "unresolvedTbd": 0,
-    "warnings": 6
+    "warnings": 20
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:45 10m Air Pistol Men Individual - Qualification",
+      "row": "SHO:M.APM---------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Mixed Team - Qualification",
+      "row": "SHO:X.SKMT--------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Doubles Round 2 Match 2",
+      "row": "TTE:W.DOUBLES-----------.R32-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:02 Women's 50m Freestyle Heat 2",
+      "row": "SWM:W.50MFR-------------.HEAT.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:26 Men's 200m Breaststroke Heat 1",
+      "row": "SWM:M.200MBR------------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:30 Men's 200m Breaststroke Heat 2",
+      "row": "SWM:M.200MBR------------.HEAT.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:40 Women's Doubles Round 2 Match 11",
+      "row": "TTE:W.DOUBLES-----------.R32-.001100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：MTB 10:00 Women's Cross-country Final",
+      "row": "MTB:W.XCTRY-------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SKB 10:00 Women's Park - Prelims - Heat 1",
+      "row": "SKB:W.PARK--------------.QUAL.000100--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 11:00 Game 5",
@@ -2088,6 +2206,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 12:15 Game 10",
       "row": "KAB:M.TEAM7-------------.GPA-.001000--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SKB 14:00 Men's Park - Prelims - Heat 1",
+      "row": "SKB:M.PARK--------------.QUAL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2108,6 +2231,26 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:20 Group B Match 8",
       "row": "ELS:O.PYO---------------.GPB-.000800--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SHO|X.SKMT--------------",
+      "message": "SHO Skeet Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SHO|M.APM---------------",
+      "message": "SHO 10m Air Pistol Men Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|W.50MFR-------------",
+      "message": "SWM Women's 50m Freestyle 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|M.200MBR------------",
+      "message": "SWM Men's 200m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
