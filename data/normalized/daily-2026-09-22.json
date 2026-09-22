@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T23:53:32.646Z",
+  "generatedAt": "2026-09-22T00:04:47.683Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-21T23:53:32.502Z",
+      "generatedAt": "2026-09-22T00:04:47.503Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -354,8 +354,12 @@
       "opponentCode": null,
       "venue": "Shinshiro Cycling Road Course",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 17,
@@ -437,7 +441,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -500,7 +504,7 @@
       "opponentCode": "INA",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2155,7 +2159,7 @@
       "opponentCode": "KOR",
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
