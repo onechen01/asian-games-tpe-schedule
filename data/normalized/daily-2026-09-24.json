@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T07:11:10.279Z",
+  "generatedAt": "2026-09-22T13:08:11.843Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-22T07:11:10.083Z",
+      "generatedAt": "2026-09-22T13:08:11.638Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -314,7 +314,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 252
+      "events": 228
     }
   },
   "date": "2026-09-24",
@@ -351,13 +351,13 @@
         "CHAN Nicole Gonzales",
         "CHIU Pin-chian",
         "HSIEH Pei-shan",
-        "HSU Yin-hui",
-        "HU Ling-fang",
-        "HUANG Yu-hsun",
-        "HUNG En-tzu",
-        "LIN Hsiang-ti",
-        "LIN Jhih-yun",
-        "SUNG Shuo-yun"
+        "HSU Yin-Hui",
+        "HU Ling-Fang",
+        "HUANG Yu-Hsun",
+        "HUNG En-Tzu",
+        "LIN Hsiang-Ti",
+        "LIN Jhih-Yun",
+        "SUNG Shuo-Yun"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -591,46 +591,6 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T09:00:00+08:00",
       "startTimeJst": "2026-09-24T10:00:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Heptathlon",
-      "phase": "Women's Heptathlon 100m Hurdles",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 14,
-      "enteredAthletes": [
-        "CHEN Cai-juan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.HEPTATH-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -853,46 +813,6 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T09:30:00+08:00",
       "startTimeJst": "2026-09-24T10:30:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's Triple Jump",
-      "phase": "Men's Triple Jump Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LI Yun-chen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.TRPLJUMP----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:30:00+08:00",
-      "startTimeJst": "2026-09-24T10:30:00+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
@@ -944,7 +864,7 @@
         "YEH Yi-tian",
         "CHENG I-ching"
       ],
-      "opponent": "PYON Song/CHOE Jong Im",
+      "opponent": "PYON Song Gyong/CHOE Jong Im",
       "opponentCode": "PRK",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1299,8 +1219,8 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T13:00:00+08:00",
-      "startTimeJst": "2026-09-24T14:00:00+09:00",
+      "startTimeTaipei": "2026-09-24T13:10:00+08:00",
+      "startTimeJst": "2026-09-24T14:10:00+09:00",
       "disciplineCode": "ROW",
       "sportZh": "划船",
       "sportEn": "Rowing",
@@ -1324,9 +1244,10 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 3,
+      "unitCount": 1,
       "enteredAthletes": [
-        "WANG Ming-xuan"
+        "WANG Ming-xuan",
+        "WEN Ching-yang"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1404,7 +1325,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 1,
       "enteredAthletes": [
         "CHANG Chu",
         "WANG Ming-xuan",
@@ -1849,87 +1770,6 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T17:45:00+08:00",
-      "startTimeJst": "2026-09-24T18:45:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's Half Marathon Race Walk",
-      "phase": "Men's Half Marathon Race Walk Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Yung-kuei",
-        "LO Sheng-qin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.WALKHM------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T18:05:00+08:00",
-      "startTimeJst": "2026-09-24T19:05:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's High Jump",
-      "phase": "Men's High Jump Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "FU Chao-hsuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.HIGHJUMP----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T18:30:00+08:00",
       "startTimeJst": "2026-09-24T19:30:00+09:00",
       "disciplineCode": "TTE",
@@ -1974,46 +1814,6 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T18:33:00+08:00",
-      "startTimeJst": "2026-09-24T19:33:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 100m",
-      "phase": "Women's 100m Round 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "LIAO Yan-jun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.100M--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T18:45:00+08:00",
       "startTimeJst": "2026-09-24T19:45:00+09:00",
       "disciplineCode": "GAR",
@@ -2053,47 +1853,6 @@
       "sources": {
         "entries": {
           "eventId": "GAR|W.1APUB-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T19:08:00+08:00",
-      "startTimeJst": "2026-09-24T20:08:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's 100m",
-      "phase": "Men's 100m Round 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "CHEN Wen-pu",
-        "YANG Chun-han"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.100M--------------"
         }
       }
     },
@@ -2147,7 +1906,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 16,
-    "entered": 27,
+    "entered": 21,
     "unresolvedTbd": 0,
     "warnings": 20
   },

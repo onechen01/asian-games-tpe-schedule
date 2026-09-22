@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T07:15:19.596Z",
+  "generatedAt": "2026-09-22T13:11:09.828Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-22T07:15:19.447Z",
+      "generatedAt": "2026-09-22T13:11:09.665Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -348,7 +348,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 252
+      "events": 228
     }
   },
   "date": "2026-09-26",
@@ -701,47 +701,6 @@
     },
     {
       "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T08:05:00+08:00",
-      "startTimeJst": "2026-09-26T09:05:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's Decathlon",
-      "phase": "Men's Decathlon 100m",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "CHO Chia-hsuan",
-        "WANG Chen-yu"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.DECATH------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T08:30:00+08:00",
       "startTimeJst": "2026-09-26T09:30:00+09:00",
       "disciplineCode": "BDM",
@@ -811,7 +770,7 @@
       "unitCount": 24,
       "enteredAthletes": [
         "CHIU Pin-chian",
-        "LIN Hsiang-ti"
+        "LIN Hsiang-Ti"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -1261,46 +1220,6 @@
     },
     {
       "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T11:15:00+08:00",
-      "startTimeJst": "2026-09-26T12:15:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's 200m",
-      "phase": "Men's 200m Round 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 11,
-      "enteredAthletes": [
-        "KE Wu-yen-ming"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.200M--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T11:30:00+08:00",
       "startTimeJst": "2026-09-26T12:30:00+09:00",
       "disciplineCode": "ARC",
@@ -1715,9 +1634,9 @@
       "unitCount": 8,
       "enteredAthletes": [
         "HSIEH Pei-shan",
-        "HSU Yin-hui",
-        "HUNG En-tzu",
-        "LIN Jhih-yun"
+        "HSU Yin-Hui",
+        "HUNG En-Tzu",
+        "LIN Jhih-Yun"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -2005,88 +1924,6 @@
     },
     {
       "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T17:40:00+08:00",
-      "startTimeJst": "2026-09-26T18:40:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Shot Put",
-      "phase": "Women's Shot Put Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIANG Ching-yuan",
-        "WU Ci-en"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.SHOTPUT-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T18:05:00+08:00",
-      "startTimeJst": "2026-09-26T19:05:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's 110m Hurdles",
-      "phase": "Men's 110m Hurdles Round 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "HSIEH Yuan-kai",
-        "LIN Yi-kai"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.110MHURD----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T18:30:00+08:00",
       "startTimeJst": "2026-09-26T19:30:00+09:00",
       "disciplineCode": "TTE",
@@ -2127,288 +1964,6 @@
           "eventId": "TTE|X.DOUBLES-----------"
         }
       }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T18:34:00+08:00",
-      "startTimeJst": "2026-09-26T19:34:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 100m Hurdles",
-      "phase": "Women's 100m Hurdles Round 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "YI Bo-an",
-        "ZHANG Bo-ya"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.100MHURD----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T19:00:00+08:00",
-      "startTimeJst": "2026-09-26T20:00:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's Shot Put",
-      "phase": "Men's Shot Put Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "MA Hau-wei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.SHOTPUT-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T19:35:00+08:00",
-      "startTimeJst": "2026-09-26T20:35:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's Triple Jump",
-      "phase": "Men's Triple Jump Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LI Yun-chen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.TRPLJUMP----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T19:40:00+08:00",
-      "startTimeJst": "2026-09-26T20:40:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 100m",
-      "phase": "Women's 100m Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LIAO Yan-jun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.100M--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T19:51:00+08:00",
-      "startTimeJst": "2026-09-26T20:51:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's 1500m",
-      "phase": "Men's 1500m Round 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "CHIEN Tzu-chieh"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.1500M-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T20:06:00+08:00",
-      "startTimeJst": "2026-09-26T21:06:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's 100m",
-      "phase": "Men's 100m Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Wen-pu",
-        "YANG Chun-han"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.100M--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T20:45:00+08:00",
-      "startTimeJst": "2026-09-26T21:45:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 400m",
-      "phase": "Women's 400m Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Yi-cen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.400M--------------"
-        }
-      }
     }
   ],
   "coverageComplete": true,
@@ -2417,7 +1972,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 5,
-    "entered": 43,
+    "entered": 32,
     "unresolvedTbd": 0,
     "warnings": 6
   },

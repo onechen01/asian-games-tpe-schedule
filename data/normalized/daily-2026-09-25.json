@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T07:13:06.387Z",
+  "generatedAt": "2026-09-22T13:10:08.362Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-22T07:13:06.230Z",
+      "generatedAt": "2026-09-22T13:10:08.196Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -338,7 +338,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 252
+      "events": 228
     }
   },
   "date": "2026-09-25",
@@ -537,7 +537,7 @@
       "unitCount": 7,
       "enteredAthletes": [
         "CHIU Pin-chian",
-        "LIN Hsiang-ti"
+        "LIN Hsiang-Ti"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -578,7 +578,7 @@
       "unitCount": 24,
       "enteredAthletes": [
         "CHAN Nicole Gonzales",
-        "HU Ling-fang",
+        "HU Ling-Fang",
         "YANG Po-Hsuan",
         "YE Hong-Wei"
       ],
@@ -813,46 +813,6 @@
         "results": {
           "unitId": "W.50MBF-------------.HEAT.000100--",
           "id": "SWM:W.50MBF-------------.HEAT.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
-      "startTimeJst": "2026-09-25T10:00:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Heptathlon",
-      "phase": "Women's Heptathlon Long Jump",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 10,
-      "enteredAthletes": [
-        "CHEN Cai-juan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.HEPTATH-----------"
         }
       }
     },
@@ -2008,9 +1968,9 @@
       "unitCount": 13,
       "enteredAthletes": [
         "HSIEH Pei-shan",
-        "HSU Yin-hui",
-        "HUNG En-tzu",
-        "LIN Jhih-yun"
+        "HSU Yin-Hui",
+        "HUNG En-Tzu",
+        "LIN Jhih-Yun"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -2249,168 +2209,6 @@
           "id": "HOC:W.TEAM11------------.GPA-.001200--"
         }
       }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T18:05:00+08:00",
-      "startTimeJst": "2026-09-25T19:05:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Shot Put",
-      "phase": "Women's Shot Put Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIANG Ching-yuan",
-        "WU Ci-en"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.SHOTPUT-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T18:13:00+08:00",
-      "startTimeJst": "2026-09-25T19:13:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 100m",
-      "phase": "Women's 100m Semi-Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "LIAO Yan-jun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.100M--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T18:33:00+08:00",
-      "startTimeJst": "2026-09-25T19:33:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's 100m",
-      "phase": "Men's 100m Semi-Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHEN Wen-pu",
-        "YANG Chun-han"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.100M--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T20:15:00+08:00",
-      "startTimeJst": "2026-09-25T21:15:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 400m",
-      "phase": "Women's 400m Round 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "CHEN Yi-cen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.400M--------------"
-        }
-      }
     }
   ],
   "coverageComplete": true,
@@ -2419,7 +2217,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 11,
-    "entered": 36,
+    "entered": 31,
     "unresolvedTbd": 0,
     "warnings": 16
   },
