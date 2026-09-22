@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T03:35:39.947Z",
+  "generatedAt": "2026-09-22T03:44:11.351Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T03:35:39.771Z",
+      "generatedAt": "2026-09-22T03:44:11.167Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -354,7 +354,7 @@
       "opponentCode": null,
       "venue": "Shinshiro Cycling Road Course",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "3:08:17",
         "opponent": null,
@@ -508,7 +508,7 @@
       "opponentCode": "INA",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
-      "status": "INTERMEDIATE",
+      "status": "RUNNING",
       "result": {
         "tpe": "0",
         "opponent": "2",
@@ -584,6 +584,456 @@
       "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T09:00:00+08:00",
       "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 2",
+      "unit": "Men's Foil Individual - Pool 2 - Bout 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-Tung"
+      ],
+      "opponent": "ARJONI Aldo Pratama",
+      "opponentCode": "INA",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPB-.000100--",
+          "id": "FEN:M.FOIL--------------.GPB-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 2",
+      "unit": "Men's Foil Individual - Pool 2 - Bout 5",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-Tung"
+      ],
+      "opponent": "SAMUEL Elijah Robson",
+      "opponentCode": "SGP",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPB-.000500--",
+          "id": "FEN:M.FOIL--------------.GPB-.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 2",
+      "unit": "Men's Foil Individual - Pool 2 - Bout 9",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-Tung"
+      ],
+      "opponent": "PEREZ Nathaniel",
+      "opponentCode": "PHI",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "3",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPB-.000900--",
+          "id": "FEN:M.FOIL--------------.GPB-.000900--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 2",
+      "unit": "Men's Foil Individual - Pool 2 - Bout 12",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-Tung"
+      ],
+      "opponent": "CHOI Chun Yin Ryan",
+      "opponentCode": "HKG",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPB-.001200--",
+          "id": "FEN:M.FOIL--------------.GPB-.001200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 2",
+      "unit": "Men's Foil Individual - Pool 2 - Bout 14",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-Tung"
+      ],
+      "opponent": "ALJALLAF Hamed",
+      "opponentCode": "UAE",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPB-.001400--",
+          "id": "FEN:M.FOIL--------------.GPB-.001400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 5",
+      "unit": "Men's Foil Individual - Pool 5 - Bout 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Chih-Chieh"
+      ],
+      "opponent": "NURUMOV Galim",
+      "opponentCode": "KAZ",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPE-.000100--",
+          "id": "FEN:M.FOIL--------------.GPE-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 5",
+      "unit": "Men's Foil Individual - Pool 5 - Bout 5",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Chih-Chieh"
+      ],
+      "opponent": "Sachin",
+      "opponentCode": "IND",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPE-.000500--",
+          "id": "FEN:M.FOIL--------------.GPE-.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 5",
+      "unit": "Men's Foil Individual - Pool 5 - Bout 9",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Chih-Chieh"
+      ],
+      "opponent": "YOUN Jeonghyun",
+      "opponentCode": "KOR",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPE-.000900--",
+          "id": "FEN:M.FOIL--------------.GPE-.000900--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 5",
+      "unit": "Men's Foil Individual - Pool 5 - Bout 12",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Chih-Chieh"
+      ],
+      "opponent": "NARMANDAKH Chingis",
+      "opponentCode": "MGL",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPE-.001200--",
+          "id": "FEN:M.FOIL--------------.GPE-.001200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Individual",
+      "phase": "Men's Foil Individual Pool 5",
+      "unit": "Men's Foil Individual - Pool 5 - Bout 14",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Chih-Chieh"
+      ],
+      "opponent": "KHAN Baryal",
+      "opponentCode": "PAK",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.FOIL--------------.GPE-.001400--",
+          "id": "FEN:M.FOIL--------------.GPE-.001400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
+      "startTimeJst": "2026-09-22T10:00:00+09:00",
       "disciplineCode": "KTE",
       "sportZh": "空手道",
       "sportEn": "Karate",
@@ -640,8 +1090,8 @@
       "athletes": [],
       "athletesEn": [
         "LEE Meng-Yuan",
-        "ZHANG Feng-Qi",
-        "WANG Han-Tsun"
+        "WANG Han-Tsun",
+        "ZHANG Feng-Qi"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -654,22 +1104,22 @@
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
           "result": "72",
-          "rank": "5"
+          "rank": "3"
+        },
+        {
+          "name": "WANG Han-Tsun",
+          "registration": "4309027",
+          "result": "87",
+          "rank": "17"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
           "result": "92",
           "rank": "18"
-        },
-        {
-          "name": "WANG Han-Tsun",
-          "registration": "4309027",
-          "result": "79",
-          "rank": "21"
         }
       ],
-      "tpeRank": "5",
+      "tpeRank": "3",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -827,456 +1277,6 @@
         "results": {
           "unitId": "W.TEAM--------------.8FNL.00070000",
           "id": "TTE:W.TEAM--------------.8FNL.00070000"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 2",
-      "unit": "Men's Foil Individual - Pool 2 - Bout 1",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Yi-Tung"
-      ],
-      "opponent": "ARJONI Aldo Pratama",
-      "opponentCode": "INA",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "5",
-        "opponent": "2",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPB-.000100--",
-          "id": "FEN:M.FOIL--------------.GPB-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 2",
-      "unit": "Men's Foil Individual - Pool 2 - Bout 5",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Yi-Tung"
-      ],
-      "opponent": "SAMUEL Elijah Robson",
-      "opponentCode": "SGP",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "4",
-        "opponent": "5",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPB-.000500--",
-          "id": "FEN:M.FOIL--------------.GPB-.000500--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 2",
-      "unit": "Men's Foil Individual - Pool 2 - Bout 9",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Yi-Tung"
-      ],
-      "opponent": "PEREZ Nathaniel",
-      "opponentCode": "PHI",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "5",
-        "opponent": "3",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPB-.000900--",
-          "id": "FEN:M.FOIL--------------.GPB-.000900--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 2",
-      "unit": "Men's Foil Individual - Pool 2 - Bout 12",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Yi-Tung"
-      ],
-      "opponent": "CHOI Chun Yin Ryan",
-      "opponentCode": "HKG",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "2",
-        "opponent": "5",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPB-.001200--",
-          "id": "FEN:M.FOIL--------------.GPB-.001200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 2",
-      "unit": "Men's Foil Individual - Pool 2 - Bout 14",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Yi-Tung"
-      ],
-      "opponent": "ALJALLAF Hamed",
-      "opponentCode": "UAE",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "5",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPB-.001400--",
-          "id": "FEN:M.FOIL--------------.GPB-.001400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 5",
-      "unit": "Men's Foil Individual - Pool 5 - Bout 1",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Chih-Chieh"
-      ],
-      "opponent": "NURUMOV Galim",
-      "opponentCode": "KAZ",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "3",
-        "opponent": "5",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPE-.000100--",
-          "id": "FEN:M.FOIL--------------.GPE-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 5",
-      "unit": "Men's Foil Individual - Pool 5 - Bout 5",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Chih-Chieh"
-      ],
-      "opponent": "Sachin",
-      "opponentCode": "IND",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "5",
-        "opponent": "2",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPE-.000500--",
-          "id": "FEN:M.FOIL--------------.GPE-.000500--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 5",
-      "unit": "Men's Foil Individual - Pool 5 - Bout 9",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Chih-Chieh"
-      ],
-      "opponent": "YOUN Jeonghyun",
-      "opponentCode": "KOR",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "4",
-        "opponent": "5",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPE-.000900--",
-          "id": "FEN:M.FOIL--------------.GPE-.000900--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 5",
-      "unit": "Men's Foil Individual - Pool 5 - Bout 12",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Chih-Chieh"
-      ],
-      "opponent": "NARMANDAKH Chingis",
-      "opponentCode": "MGL",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "5",
-        "opponent": "1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPE-.001200--",
-          "id": "FEN:M.FOIL--------------.GPE-.001200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T09:00:00+08:00",
-      "startTimeJst": "2026-09-22T10:00:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Individual",
-      "phase": "Men's Foil Individual Pool 5",
-      "unit": "Men's Foil Individual - Pool 5 - Bout 14",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Chih-Chieh"
-      ],
-      "opponent": "KHAN Baryal",
-      "opponentCode": "PAK",
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "5",
-        "opponent": "2",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.FOIL--------------.GPE-.001400--",
-          "id": "FEN:M.FOIL--------------.GPE-.001400--"
         }
       }
     },
@@ -1835,7 +1835,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "6",
+        "tpe": "8",
         "opponent": "0",
         "source": "results"
       },
@@ -2019,7 +2019,7 @@
       "opponentCode": "INA",
       "venue": "Park Arena Komaki",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2815,31 +2815,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:00 Women's Team Kata Quarterfinal",
-      "row": "KTE:W.TEAM--------------.QFNL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Individual - Qualification - Qualification - Day 2",
-      "row": "SHO:M.SKM---------------.QUAL.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Team - Final - Day 2",
-      "row": "SHO:M.SKTM--------------.FNL-.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Women Individual - Qualification - Qualification - Day 2",
-      "row": "SHO:W.SKW---------------.QUAL.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Team Round 1 Match 7",
-      "row": "TTE:W.TEAM--------------.8FNL.00070000"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Foil Individual - Pool 2 - Bout 1",
       "row": "FEN:M.FOIL--------------.GPB-.000100--"
     },
@@ -2887,6 +2862,31 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Foil Individual - Pool 5 - Bout 14",
       "row": "FEN:M.FOIL--------------.GPE-.001400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:00 Women's Team Kata Quarterfinal",
+      "row": "KTE:W.TEAM--------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Individual - Qualification - Qualification - Day 2",
+      "row": "SHO:M.SKM---------------.QUAL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Team - Final - Day 2",
+      "row": "SHO:M.SKTM--------------.FNL-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Women Individual - Qualification - Qualification - Day 2",
+      "row": "SHO:W.SKW---------------.QUAL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Team Round 1 Match 7",
+      "row": "TTE:W.TEAM--------------.8FNL.00070000"
     },
     {
       "code": "RESULTS_ONLY",
