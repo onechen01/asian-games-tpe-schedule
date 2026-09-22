@@ -9,13 +9,15 @@ export type Entry = { reg:string; disciplineCode:string; gender:string | null; n
   inscriptions:Inscription[] };
 export type Malformed = { index:number; missing:string[]; reg:string | null;
   name:string | null; disciplineCode:string | null };
+export type EntryQuarantine = { nameOnlyMissing:Malformed[]; structuralMalformed:Malformed[] };
 export type TpeEntries = { schemaVersion:number; org:string; generatedAt:string;
-  athleteCount:number; eventCount:number; entries:Entry[]; malformed?:Malformed[] };
+  athleteCount:number; eventCount:number; entries:Entry[] };
 
 type RawParticipant = { Disc?:unknown; Reg?:unknown; Org?:unknown; Gender?:unknown; Name?:unknown;
   Inscriptions?:{ EvKey?:unknown; EvDesc?:unknown }[] };
 
-export function extractTpeEntries(value:unknown, generatedAt:string):TpeEntries {
+export function extractTpeEntries(value:unknown, generatedAt:string,
+  report?:(quarantine:EntryQuarantine)=>void):TpeEntries {
   const root = value as { participants?:unknown };
   if (!Array.isArray(root?.participants) || !root.participants.length) {
     throw new Error('Schema change: entries list has no participants array');
@@ -24,7 +26,7 @@ export function extractTpeEntries(value:unknown, generatedAt:string):TpeEntries 
   // A single broken entry is quarantined, not fatal: the entry list only enriches the official
   // Results data, and one bad row must never stop the day's schedule from updating. A broken
   // row is skipped whole — no field is guessed, and skipping it never means "did not enter".
-  const malformed:Malformed[] = [];
+  const quarantine:EntryQuarantine = { nameOnlyMissing:[], structuralMalformed:[] };
   const text = (value:unknown)=>typeof value === 'string' && value.trim() ? value : null;
   let tpeSeen = 0;
   const participants = root.participants as RawParticipant[];
@@ -32,27 +34,31 @@ export function extractTpeEntries(value:unknown, generatedAt:string):TpeEntries 
     if (raw?.Org !== 'TPE') continue;
     tpeSeen++;
     const { Disc:disc, Reg:reg, Name:name } = raw;
-    if (typeof disc !== 'string' || typeof reg !== 'string' || typeof name !== 'string' || !name.trim()) {
-      malformed.push({ index, reg:text(reg), name:text(name), disciplineCode:text(disc),
-        missing:[['Disc',disc],['Reg',reg],['Name',name]]
-          .filter(([,v])=>typeof v !== 'string' || !v.trim()).map(([k])=>k as string) });
+    const missing = ([['Disc',disc],['Reg',reg],['Name',name]] as const)
+      .filter(([,v])=>typeof v !== 'string' || !v.trim()).map(([k])=>k);
+    if (missing.length) {
+      const bad = { index, reg:text(reg), name:text(name), disciplineCode:text(disc), missing };
+      (missing.includes('Disc') || missing.includes('Reg')
+        ? quarantine.structuralMalformed : quarantine.nameOnlyMissing).push(bad);
       continue;
     }
     // Only the fields the matching needs; nothing else about the athlete is stored.
-    entries.push({ reg, disciplineCode:disc, name,
+    entries.push({ reg:reg as string, disciplineCode:disc as string, name:name as string,
       gender:typeof raw.Gender === 'string' ? raw.Gender : null,
       inscriptions:(raw.Inscriptions ?? []).flatMap(i=>typeof i?.EvKey === 'string'
         ? [{ evKey:i.EvKey, evDesc:typeof i.EvDesc === 'string' ? i.EvDesc : null }] : []) });
   }
+  report?.(quarantine);
   if (!entries.length) throw new Error('Schema change: no Chinese Taipei entries found');
   // Wholesale corruption is still fatal: a fifth of the delegation, or more than 20 rows,
   // failing at once is a schema change, not a stray record.
-  if (malformed.length > 20 || malformed.length > tpeSeen / 5) {
-    throw new Error(`Schema change: ${malformed.length} of ${tpeSeen} Chinese Taipei entries are missing Disc, Reg or Name`);
+  const structuralCount = quarantine.structuralMalformed.length;
+  if (structuralCount > 20 || structuralCount > tpeSeen / 5) {
+    throw new Error(`Schema change: ${structuralCount} of ${tpeSeen} Chinese Taipei entries have structural malformed Disc or Reg`);
   }
   const events = new Set(entries.flatMap(e=>e.inscriptions.map(i=>e.disciplineCode + '|' + i.evKey)));
   return { schemaVersion:1, org:'TPE', generatedAt, athleteCount:entries.length,
-    eventCount:events.size, entries, ...(malformed.length ? { malformed } : {}) };
+    eventCount:events.size, entries };
 }
 
 export function parseTpeEntries(value:unknown):TpeEntries {

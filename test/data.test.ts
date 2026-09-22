@@ -152,24 +152,38 @@ test('offset helpers read the source string without editing it',()=>{
 
 import { extractTpeEntries } from '../src/parsers/entries.ts';
 
-test('one broken entry is quarantined, but wholesale corruption still fails closed',()=>{
+test('Name-only entries are quarantined without blocking Results; structural corruption fails closed',()=>{
   const ok = (n:number)=>({ Org:'TPE', Disc:'SWM', Reg:String(n), Name:`ATHLETE ${n}`,
     Inscriptions:[{ EvKey:'M.100M--------------', EvDesc:"Men's 100m" }] });
   const broken = { Org:'TPE', Disc:'ELS', Reg:'ELSOPYO--------TPE01', Name:'' };
   const many = [...Array(20).keys()].map(n=>ok(n+1));
-  const parsed = extractTpeEntries({ participants:[many[0],broken,...many.slice(1),{ Org:'JPN' }] },'2026-09-22');
+  const reports:import('../src/parsers/entries.ts').EntryQuarantine[] = [];
+  const report = (value:import('../src/parsers/entries.ts').EntryQuarantine)=>{ reports.push(value); };
+  const parsed = extractTpeEntries({ participants:[many[0],broken,...many.slice(1),{ Org:'JPN' }] },'2026-09-22',report);
   assert.equal(parsed.entries.length,20);
   assert.ok(parsed.entries.every(e=>e.name && e.reg && e.disciplineCode));
   assert.ok(!JSON.stringify(parsed.entries).includes('ELSOPYO'),'壞資料不得進入輸出');
-  assert.deepEqual(parsed.malformed,[{ index:1, missing:['Name'], reg:'ELSOPYO--------TPE01',
+  assert.deepEqual(reports.at(-1)?.nameOnlyMissing,[{ index:1, missing:['Name'], reg:'ELSOPYO--------TPE01',
     name:null, disciplineCode:'ELS' }]);
+  assert.deepEqual(reports.at(-1)?.structuralMalformed,[]);
+  assert.ok(!JSON.stringify(parsed).includes('ELSOPYO'));
   // Normal data is unchanged and carries no malformed list.
   const clean = extractTpeEntries({ participants:[ok(1),ok(2)] },'2026-09-22');
   assert.equal(clean.entries.length,2);
-  assert.equal(clean.malformed,undefined);
-  // A fifth of the delegation breaking at once is a schema change.
-  assert.throws(()=>extractTpeEntries({ participants:[ok(1),ok(2),broken,broken] },'2026-09-22'),
-    /Schema change/,'四分之一壞掉即視為 schema change');
-  assert.throws(()=>extractTpeEntries({ participants:[...Array(60).keys()].map(ok)
-    .concat([...Array(21).keys()].map(()=>broken)) },'2026-09-22'),/Schema change/);
+  assert.equal('malformed' in clean,false);
+  const manyNameOnly = extractTpeEntries({ participants:[...[...Array(60).keys()].map(ok),
+    ...[...Array(41).keys()].map(()=>broken)] },'2026-09-22',report);
+  assert.equal(reports.at(-1)?.nameOnlyMissing.length,41);
+  assert.equal(reports.at(-1)?.structuralMalformed.length,0);
+  assert.equal(manyNameOnly.entries.length,60);
+  assert.ok(!JSON.stringify(manyNameOnly).includes('ELSOPYO'));
+  const noDisc = { Org:'TPE', Reg:'NO-DISC', Name:'ATHLETE' };
+  const noReg = { Org:'TPE', Disc:'SWM', Name:'ATHLETE' };
+  extractTpeEntries({ participants:[...many,noDisc,noReg] },'2026-09-22',report);
+  assert.deepEqual(reports.at(-1)?.structuralMalformed.map(b=>b.missing),[['Disc'],['Reg']]);
+  assert.equal(reports.at(-1)?.nameOnlyMissing.length,0);
+  assert.throws(()=>extractTpeEntries({ participants:[...many.slice(0,2),noDisc] },'2026-09-22'),
+    /Schema change/,'大量結構損壞仍應 fail closed');
+  assert.throws(()=>extractTpeEntries({ participants:[...[...Array(60).keys()].map(ok),
+    ...[...Array(21).keys()].map(()=>noReg)] },'2026-09-22'),/Schema change/);
 });
