@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T22:59:20.179Z",
+  "generatedAt": "2026-09-22T23:36:00.848Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-22T22:59:19.977Z",
+      "generatedAt": "2026-09-22T23:36:00.678Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -455,46 +455,6 @@
         "results": {
           "unitId": "W.DOUBLES-----------.R32-.000200--",
           "id": "TTE:W.DOUBLES-----------.R32-.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Heptathlon",
-      "phase": "Women's Heptathlon 100 Metres Hurdles",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Cai-juan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.HEPTATH-----------"
         }
       }
     },
@@ -1480,7 +1440,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 17,
-    "entered": 10,
+    "entered": 9,
     "unresolvedTbd": 0,
     "warnings": 21
   },

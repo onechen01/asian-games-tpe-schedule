@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T23:14:02.662Z",
+  "generatedAt": "2026-09-22T23:34:04.828Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-22T23:14:02.553Z",
+      "generatedAt": "2026-09-22T23:34:04.671Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -440,7 +440,7 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -481,7 +481,7 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -522,7 +522,7 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1604,42 +1604,43 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T13:00:00+08:00",
-      "startTimeJst": "2026-09-23T14:00:00+09:00",
+      "startTimeTaipei": "2026-09-23T13:10:00+08:00",
+      "startTimeJst": "2026-09-23T14:10:00+09:00",
       "disciplineCode": "CSP",
       "sportZh": "輕艇靜水",
       "sportEn": "Canoe Sprint",
       "event": "Men's Kayak Double 500m",
       "phase": "Men's Kayak Double 500m Heats",
-      "unit": null,
+      "unit": "Men's Kayak Double 500m Heats Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIN Yong-bo",
+        "LIN Yung-chieh"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Miyoshi Lake Canoe Course",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LIN Yong-bo",
-        "LIN Yung-chieh"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "CSP|M.K2-500M-----------"
+        "results": {
+          "unitId": "M.K2-500M-----------.HEAT.000200--",
+          "id": "CSP:M.K2-500M-----------.HEAT.000200--"
         }
       }
     },
@@ -2325,10 +2326,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 44,
-    "entered": 2,
+    "resultsOnly": 45,
+    "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 58
+    "warnings": 59
   },
   "warnings": [
     {
@@ -2475,6 +2476,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ROW 13:00 Women's Single Sculls Heats Heat 1",
       "row": "ROW:W.SCULL1------------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSP 13:10 Men's Kayak Double 500m Heats Heat 2",
+      "row": "CSP:M.K2-500M-----------.HEAT.000200--"
     },
     {
       "code": "RESULTS_ONLY",
