@@ -48,5 +48,24 @@ test('normal unit and aggregate JSON retain identity checks and competitor data'
   {...row,resultScope:'aggregate'},aggregateKey);
   assert.equal(aggregate?.competitors[0].registration,'123');
   assert.throws(()=>parseRequestedResult({Info:{Key:'wrong'},Competitors:[]},row,key));
+  assert.throws(()=>parseRequestedResult({Info:{Key:key,IsPhase:true},Competitors:[]},row,key));
   assert.throws(()=>parseRequestedResult({},row,key));
+});
+
+test('schedule ResCode may identify a phase result for a different unitId',()=>{
+  const phaseKey=`${phase}.--------`;
+  const row=normalize({Key:'M.TEST--------------.FNL-.000001--',Disc:'GAR',
+    Event:'M.TEST--------------',Phase:phase,ResCode:phaseKey,Orgs:['TPE'],
+    Status:'SCHEDULED',DateTimeRaw:'2026-09-23T13:00:00+09:00'},source);
+  const info={Key:phaseKey,IsPhase:true,Event:row.eventId,Phase:row.phaseId,Status:'START_LIST'};
+  const payload={Info:info,Competitors:[{Org:'TPE',Name:'Team'}]};
+  assert.equal(parseRequestedResult(payload,row,phaseKey)?.competitors[0].org,'TPE');
+  for(const badInfo of [
+    {...info,Key:'other'},
+    {...info,IsPhase:false},
+    {...info,Event:'M.OTHER-------------'},
+    {...info,Phase:'M.TEST--------------.SFNL'},
+  ]) assert.throws(()=>parseRequestedResult({Info:badInfo,Competitors:[]},row,phaseKey),
+    /Results identity\/structure mismatch/);
+  assert.throws(()=>parseRequestedResult(payload,row,row.unitId),/Results identity\/structure mismatch/);
 });

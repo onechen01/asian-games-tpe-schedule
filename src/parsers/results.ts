@@ -1,8 +1,8 @@
 import { competitor } from './schedule.ts';
 import type { RawCompetitor, Schedule } from './schedule.ts';
 
-type ResultTarget = Pick<Schedule,'unitId' | 'eventId' | 'status'> & {
-  phaseId?:string | null; resultScope?:'component' | 'aggregate' | null;
+type ResultTarget = Pick<Schedule,'unitId' | 'eventId' | 'phaseId' | 'resultCode' | 'status'> & {
+  resultScope?:'component' | 'aggregate' | null;
 };
 
 // A null body can mean the official Results view has not been created yet. Only the
@@ -12,10 +12,15 @@ export function parseRequestedResult(data:unknown,row:ResultTarget,resultKey:str
   const result = data as { Info?:{ Key?:string; Status?:string; IsLive?:boolean;
     IsPhase?:boolean; Event?:string; Phase?:string };
     Competitors?:RawCompetitor[]; Results?:{ CurrentPeriod?:number } } | null;
-  const identityMatches = row.resultScope === 'aggregate'
-    ? result?.Info?.Key === resultKey && result?.Info?.IsPhase === true
-      && result?.Info?.Event === row.eventId && result?.Info?.Phase === row.phaseId
-    : result?.Info?.Key === row.unitId;
+  const phaseRequest = row.resultScope === 'aggregate' || row.resultCode !== row.unitId;
+  const expectedKey = row.resultScope === 'aggregate'
+    ? row.phaseId ? `${row.phaseId}.--------` : null
+    : row.resultCode;
+  const identityMatches = resultKey === expectedKey && result?.Info?.Key === resultKey
+    && (phaseRequest
+      ? !!row.eventId && !!row.phaseId && result?.Info?.IsPhase === true
+        && result.Info.Event === row.eventId && result.Info.Phase === row.phaseId
+      : resultKey === row.unitId && result?.Info?.IsPhase !== true);
   if (!result?.Info || !identityMatches || !Array.isArray(result.Competitors)) {
     throw new Error('Schema change: Results identity/structure mismatch');
   }
