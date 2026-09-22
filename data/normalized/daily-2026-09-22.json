@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T11:16:04.638Z",
+  "generatedAt": "2026-09-22T11:27:12.691Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T11:16:04.487Z",
+      "generatedAt": "2026-09-22T11:27:12.511Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 5,
-          "recovered": 5,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1260,7 +1260,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1933,7 +1933,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2448,7 +2448,7 @@
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": "GERASSIMENKO Kirill / AKASHEVA Zauresh",
+      "opponent": "GERASSIMENKO Kirill/AKASHEVA Zauresh",
       "opponentCode": "KAZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -2459,7 +2459,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2650,7 +2650,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2829,7 +2829,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
@@ -2934,8 +2934,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "42",
-        "opponent": "12",
+        "tpe": "51",
+        "opponent": "14",
         "source": "results"
       },
       "tpeEntrants": [],
