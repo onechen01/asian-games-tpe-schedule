@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T06:16:27.179Z",
+  "generatedAt": "2026-09-22T06:44:35.043Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T06:16:26.998Z",
+      "generatedAt": "2026-09-22T06:44:34.864Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -385,6 +385,51 @@
       "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T08:00:00+08:00",
       "startTimeJst": "2026-09-22T09:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Group E",
+      "unit": "Women's Singles Group E Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHIANG Min-yu"
+      ],
+      "opponent": "CHHAN Chheavhouy",
+      "opponentCode": "CAM",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.GPE-.000100--",
+          "id": "TST:W.SINGLES-----------.GPE-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T08:00:00+08:00",
+      "startTimeJst": "2026-09-22T09:00:00+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
@@ -438,51 +483,6 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T08:00:00+08:00",
-      "startTimeJst": "2026-09-22T09:00:00+09:00",
-      "disciplineCode": "TST",
-      "sportZh": "軟式網球",
-      "sportEn": "Soft Tennis",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Group E",
-      "unit": "Women's Singles Group E Match 1",
-      "athletes": [],
-      "athletesEn": [
-        "CHIANG Min-yu"
-      ],
-      "opponent": "CHHAN Chheavhouy",
-      "opponentCode": "CAM",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "4",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SINGLES-----------.GPE-.000100--",
-          "id": "TST:W.SINGLES-----------.GPE-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T08:40:00+08:00",
       "startTimeJst": "2026-09-22T09:40:00+09:00",
       "disciplineCode": "BDM",
@@ -494,14 +494,14 @@
       "athletes": [],
       "athletesEn": [
         "HSIEH Pei-shan",
-        "HU Ling-fang",
-        "SUNG Shuo-yun",
-        "HUANG Yu-hsun",
-        "LIN Jhih-yun",
+        "HU Ling-Fang",
+        "SUNG Shuo-Yun",
+        "HUANG Yu-Hsun",
+        "LIN Jhih-Yun",
         "CHIU Pin-chian",
-        "LIN Hsiang-ti",
-        "HUNG En-tzu",
-        "HSU Yin-hui",
+        "LIN Hsiang-Ti",
+        "HUNG En-Tzu",
+        "HSU Yin-Hui",
         "CHAN Nicole Gonzales"
       ],
       "opponent": "Indonesia",
@@ -1046,7 +1046,7 @@
         "HUNG Chih-hsuan",
         "CHIEN Hui-hsuan"
       ],
-      "opponent": "Macau, China",
+      "opponent": "Macao, China",
       "opponentCode": "MAC",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
@@ -1260,7 +1260,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1497,7 +1497,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1542,7 +1542,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1724,7 +1724,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1933,7 +1933,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2169,7 +2169,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2214,7 +2214,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2252,14 +2252,14 @@
       "opponentCode": "JPN",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "6",
-        "opponent": "6",
+        "tpe": "13",
+        "opponent": "15",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2297,14 +2297,14 @@
       "opponentCode": "KOR",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "4",
-        "opponent": "12",
+        "opponent": "15",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2343,7 +2343,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -2356,7 +2356,7 @@
           "name": "LIU Chang-min",
           "registration": "6020214",
           "result": "9.710",
-          "rank": "4"
+          "rank": "5"
         }
       ],
       "tpeRank": "2",
@@ -2448,12 +2448,16 @@
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": "GERASSIMENKO Kirill / AKASHEVA Zauresh",
+      "opponent": "GERASSIMENKO Kirill/AKASHEVA Zauresh",
       "opponentCode": "KAZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "2",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2493,8 +2497,12 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 9,
@@ -2534,10 +2542,14 @@
       "opponentCode": "LAO",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2575,8 +2587,12 @@
       "opponentCode": "IND",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2627,7 +2643,7 @@
       "opponentCode": "KOR",
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2962,13 +2978,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Nanquan",
-      "row": "WSU:M.NANG--------------.FNL-.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Group E Match 1",
+      "row": "TST:W.SINGLES-----------.GPE-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Group E Match 1",
-      "row": "TST:W.SINGLES-----------.GPE-.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Nanquan",
+      "row": "WSU:M.NANG--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",

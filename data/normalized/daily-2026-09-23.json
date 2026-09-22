@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T06:35:24.719Z",
+  "generatedAt": "2026-09-22T06:48:59.138Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-22T06:35:24.574Z",
+      "generatedAt": "2026-09-22T06:48:58.932Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 7,
+          "recovered": 7,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -415,6 +415,47 @@
       "disciplineCode": "TST",
       "sportZh": "軟式網球",
       "sportEn": "Soft Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Quarterfinals",
+      "unit": "Men's Singles Quarterfinals Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Yu-sung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.QFNL.000400--",
+          "id": "TST:M.SINGLES-----------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
+      "startTimeJst": "2026-09-23T09:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
       "event": "Women's Singles",
       "phase": "Women's Singles Quarterfinals",
       "unit": "Women's Singles Quarterfinals Match 3",
@@ -487,47 +528,6 @@
         "results": {
           "unitId": "M.DAOS--------------.FNL-.000100--",
           "id": "WSU:M.DAOS--------------.FNL-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
-      "startTimeJst": "2026-09-23T09:00:00+09:00",
-      "disciplineCode": "TST",
-      "sportZh": "軟式網球",
-      "sportEn": "Soft Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Quarterfinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHANG Yu-sung",
-        "CHEN Po-yi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TST|M.SINGLES-----------"
         }
       }
     },
@@ -1393,12 +1393,8 @@
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
       "venueZh": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "",
-        "opponent": null,
-        "source": "results"
-      },
+      "status": "START_LIST",
+      "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 7,
@@ -2399,16 +2395,21 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 33,
-    "entered": 15,
+    "resultsOnly": 34,
+    "entered": 14,
     "unresolvedTbd": 0,
-    "warnings": 45
+    "warnings": 47
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CRD 08:00 Men's Road Race",
       "row": "CRD:M.RR----------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Men's Singles Quarterfinals Match 4",
+      "row": "TST:M.SINGLES-----------.QFNL.000400--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2569,6 +2570,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 18:45 Game 4",
       "row": "KAB:W.TEAM7-------------.GPB-.000400--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TST|M.SINGLES-----------",
+      "message": "TST Men's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
