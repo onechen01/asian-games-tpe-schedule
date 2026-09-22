@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T20:33:29.565Z",
+  "generatedAt": "2026-09-22T21:02:14.766Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T20:33:29.395Z",
+      "generatedAt": "2026-09-22T21:02:14.573Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -331,7 +331,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 228
+      "events": 252
     }
   },
   "date": "2026-09-22",
