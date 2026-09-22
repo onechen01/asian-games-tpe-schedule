@@ -1080,7 +1080,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-22",
-      "broadcastEndTimeTaipei": "2026-09-22T17:15:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-22T16:53:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -1183,14 +1183,59 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T06:25:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 詹泳逵/羅聖欽 田徑 男/女半馬競走決賽 9/23(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T08:55:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHAN Yung-kuei",
+          "LO Sheng-qin"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T08:25:00+08:00",
+      "disciplineCode": "KAB",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 南韓VS中華 卡巴迪 男子預賽 9/23(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T09:35:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KOR"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-23T10:30:00+08:00",
       "disciplineCode": "KAB",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": false,
-      "title": "亞運 中華VS南韓 卡巴迪 男子預賽 9/23 D-LIVE",
-      "feed": "main",
-      "note": null,
+      "title": "亞運 南韓VS中華 卡巴迪 男子預賽 9/23(原音) D-LIVE",
+      "feed": "original",
+      "note": "原音",
       "capturedAt": "2026-09-22",
       "broadcastEndTimeTaipei": "2026-09-23T11:25:00+08:00",
       "matchLevel": "unit",
