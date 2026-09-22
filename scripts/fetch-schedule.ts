@@ -1,8 +1,9 @@
 // npm run fetch:schedule -- 2026-09-21 [BKB,SWM|ALL|AUTO]
 import { get, BASE, ApiError, recordFailure } from '../src/api/asianGames.ts';
 import { parseDaily, competitor, wushuResultTarget } from '../src/parsers/schedule.ts';
+import { parseRequestedResult } from '../src/parsers/results.ts';
 import { parseMatrix, activeDisciplineDays } from '../src/parsers/matrix.ts';
-import type { Schedule, RawCompetitor } from '../src/parsers/schedule.ts';
+import type { Schedule } from '../src/parsers/schedule.ts';
 import { validateDate, nextDay } from '../src/utils/timezone.ts';
 import { save, ROOT } from '../src/utils/storage.ts';
 import { recoverMissing } from '../src/utils/recovery.ts';
@@ -100,31 +101,20 @@ async function fetchDailyUnits(sport:string, day:string):Promise<boolean> {
   return true;
 }
 async function fetchUnitResult(row:Row):Promise<boolean> {
-  const resultKey = row.resultScope === 'aggregate' ? `${row.phaseId}.--------` : row.resultCode;
+  const resultKey = row.resultScope === 'aggregate' ? `${row.phaseId}.--------` : row.resultCode!;
   const path = `${row.disciplineCode}/results/${resultKey}`;
   const outcome = await attempt(path, async()=>{
     const {data,meta} = await get(path);
     requests.push(meta);
-    const result = data as {Info?:{Key?:string;Status?:string;IsLive?:boolean;
-      IsPhase?:boolean;Event?:string;Phase?:string};
-      Competitors?:RawCompetitor[];Results?:{CurrentPeriod?:number}};
-    const identityMatches = row.resultScope === 'aggregate'
-      ? result?.Info?.Key === resultKey && result?.Info?.IsPhase === true
-        && result?.Info?.Event === row.eventId && result?.Info?.Phase === row.phaseId
-      : result?.Info?.Key === row.unitId;
-    if (!result.Info || !identityMatches || !Array.isArray(result.Competitors)) {
-      throw new Error('Schema change: Results identity/structure mismatch');
-    }
-    return { sourceStatus:result.Info.Status,isLive:result.Info.IsLive,
-      currentPeriod:result.Results?.CurrentPeriod ?? null,
-      competitors:result.Competitors.map(competitor),source:meta } satisfies Result;
+    const result = parseRequestedResult(data,row,resultKey);
+    return result ? { ...result,source:meta } satisfies Result : null;
   });
   if (!outcome.ok) {
     missing.push({ kind:'results',disciplineCode:row.disciplineCode,endpoint:BASE+path,unitId:row.unitId,
       http_status:outcome.failure.http_status,error:outcome.failure.error });
     return false;
   }
-  row.result = outcome.value;
+  if (outcome.value) row.result = outcome.value;
   return true;
 }
 
