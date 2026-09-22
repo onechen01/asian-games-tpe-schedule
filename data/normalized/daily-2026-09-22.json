@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T11:27:12.691Z",
+  "generatedAt": "2026-09-22T11:35:39.898Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T11:27:12.511Z",
+      "generatedAt": "2026-09-22T11:35:39.752Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -2879,7 +2879,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2932,10 +2932,10 @@
       "opponentCode": "SRI",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "51",
-        "opponent": "14",
+        "tpe": "63",
+        "opponent": "17",
         "source": "results"
       },
       "tpeEntrants": [],
