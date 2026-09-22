@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T05:56:29.694Z",
+  "generatedAt": "2026-09-22T06:07:27.642Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T05:56:29.509Z",
+      "generatedAt": "2026-09-22T06:07:27.502Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -385,51 +385,6 @@
       "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T08:00:00+08:00",
       "startTimeJst": "2026-09-22T09:00:00+09:00",
-      "disciplineCode": "TST",
-      "sportZh": "軟式網球",
-      "sportEn": "Soft Tennis",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Group E",
-      "unit": "Women's Singles Group E Match 1",
-      "athletes": [],
-      "athletesEn": [
-        "CHIANG Min-yu"
-      ],
-      "opponent": "CHHAN Chheavhouy",
-      "opponentCode": "CAM",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "4",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SINGLES-----------.GPE-.000100--",
-          "id": "TST:W.SINGLES-----------.GPE-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T08:00:00+08:00",
-      "startTimeJst": "2026-09-22T09:00:00+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
@@ -478,6 +433,51 @@
         "results": {
           "unitId": "M.NANG--------------.FNL-.000100--",
           "id": "WSU:M.NANG--------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T08:00:00+08:00",
+      "startTimeJst": "2026-09-22T09:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Group E",
+      "unit": "Women's Singles Group E Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHIANG Min-yu"
+      ],
+      "opponent": "CHHAN Chheavhouy",
+      "opponentCode": "CAM",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.GPE-.000100--",
+          "id": "TST:W.SINGLES-----------.GPE-.000100--"
         }
       }
     },
@@ -1497,7 +1497,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1542,7 +1542,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1724,7 +1724,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1833,7 +1833,7 @@
       "opponentCode": "THA",
       "venue": "Toyohashi Municipal Baseball Stadium",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "15",
         "opponent": "0",
@@ -2169,7 +2169,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2214,7 +2214,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2342,7 +2342,7 @@
           "name": "HUANG Wen-sheng",
           "registration": "16537768",
           "result": "9.726",
-          "rank": "1"
+          "rank": "2"
         },
         {
           "name": "LIU Chang-min",
@@ -2351,7 +2351,7 @@
           "rank": null
         }
       ],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 13,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2398,7 +2398,7 @@
       "opponentCode": "THA",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2440,7 +2440,7 @@
       "opponentCode": "KAZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2681,6 +2681,47 @@
     },
     {
       "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T16:20:00+08:00",
+      "startTimeJst": "2026-09-22T17:20:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 200m Backstroke",
+      "phase": "Women's 200m Backstroke Final",
+      "unit": "Women's 200m Backstroke Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Ya-jia"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.200MBA------------.FNL-.000100--",
+          "id": "SWM:W.200MBA------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T17:40:00+08:00",
       "startTimeJst": "2026-09-22T18:40:00+09:00",
       "disciplineCode": "WSU",
@@ -2738,15 +2779,15 @@
         "KUO Guan-hong",
         "HUNG Jing-kai"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "Islamic Republic of Iran",
+      "opponentCode": "IRI",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2896,7 +2937,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 54,
+    "resultsOnly": 55,
     "entered": 1,
     "unresolvedTbd": 0,
     "warnings": 56
@@ -2909,13 +2950,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Group E Match 1",
-      "row": "TST:W.SINGLES-----------.GPE-.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Nanquan",
+      "row": "WSU:M.NANG--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Nanquan",
-      "row": "WSU:M.NANG--------------.FNL-.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Group E Match 1",
+      "row": "TST:W.SINGLES-----------.GPE-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3149,6 +3190,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:20 Women's 200m Backstroke Final",
+      "row": "SWM:W.200MBA------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WSU 17:40 Match 1",
       "row": "WSU:W.60KG--------------.QFNL.000100--"
     },
@@ -3176,11 +3222,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "FEN|M.FOIL--------------",
       "message": "FEN Men's Foil Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TTE|M.TEAM--------------",
-      "message": "TTE Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
