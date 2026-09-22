@@ -106,7 +106,7 @@ test('a confirmed rest day needs a clean sync, zero gaps, zero errors and zero r
 const heat = (n:number, event='M.50MBA-------------'):ResultsRow=>({ id:'test-only-heat'+n,
   disciplineCode:'SWM', eventId:event, eventName:"Men's 50m Backstroke", phaseName:'Heats',
   startTimeTaipei:`2026-09-21T09:${String(n).padStart(2,'0')}:00+08:00`, hasTpe:null, orgs:[],
-  sourceStatus:'PROVISIONAL' });
+  sourceStatus:'PROVISIONAL', entryFallbackInitialPhase:true });
 const swimEntries = entryIndex(parseTpeEntries(extractTpeEntries({ participants:[
   { Disc:'SWM', Reg:'1', Org:'TPE', Gender:'M', Name:'CHUANG Mu-lun',
     Inscriptions:[{EvKey:'M.50MBA-------------',EvDesc:"Men's 50m Backstroke"}] },
@@ -116,6 +116,32 @@ const swimEntries = entryIndex(parseTpeEntries(extractTpeEntries({ participants:
     Inscriptions:[{EvKey:'M.100MFR------------',EvDesc:"Men's 100m Freestyle"}] },
 ] }, '2026-09-19T00:00:00.000Z')));
 const day = (rows:ResultsRow[])=>({ date:'2026-09-21', rows, coverage:{fetchComplete:true,missing:[]}, errors:[] });
+
+test('Entries only fills an undrawn first phase; later team rounds require their own TPE unit',()=>{
+  const entries=new Map([
+    ['GAR|M.TEAM',{evDesc:"Men's Team",athletes:['Gymnast A']}],
+    ['BDM|M.TEAM',{evDesc:"Men's Team",athletes:['Player B']}],
+    ['TTE|W.TEAM',{evDesc:"Women's Team",athletes:['Player C']}],
+  ]);
+  const row=(disc:string,event:string,phase:string,first:boolean,orgs:string[]=[]):ResultsRow=>({
+    id:`${disc}:${event}.${phase}`,unitId:`${event}.${phase}`,disciplineCode:disc,eventId:event,
+    eventName:event,phaseName:phase,startTimeTaipei:'2026-09-21T12:00:00+08:00',
+    hasTpe:orgs.includes('TPE')?true:orgs.length?false:null,orgs,
+    entryFallbackInitialPhase:first,sourceStatus:'SCHEDULED' });
+  const gar=row('GAR','M.TEAM','FNL-',false,['TPE','CHN']);
+  assert.equal(mergeDaily(day([gar]),null,entries).rows[0].participationState,'TPE_CONFIRMED');
+  const first=row('BDM','M.TEAM','8FNL',true);
+  assert.equal(mergeDaily(day([first]),null,entries).rows[0].participationState,'TPE_ENTERED');
+  const semifinal=row('BDM','M.TEAM','SFNL',false);
+  const final=row('BDM','M.TEAM','FNL-',false);
+  const womenSemi=row('TTE','W.TEAM','SFNL',false);
+  const womenFinal=row('TTE','W.TEAM','FNL-',false);
+  for(const unit of [semifinal,final,womenSemi,womenFinal])
+    assert.equal(mergeDaily(day([unit]),null,entries).rows.length,0);
+  assert.equal(mergeDaily(day([{...semifinal,hasTpe:true,orgs:['TPE','CHN']}]),null,entries)
+    .rows[0].participationState,'TPE_CONFIRMED');
+  assert.equal(mergeDaily(day([{...first,entryFallbackInitialPhase:undefined}]),null,entries).rows.length,0);
+});
 
 test('eight heats plus an entry produce exactly one pending event row',()=>{
   const merged = mergeDaily(day([1,2,3,4,5,6,7,8].map(n=>heat(n))), null, swimEntries);
@@ -325,7 +351,8 @@ test('a qualification unit with a placeholder event id is matched through the en
   // so the per-event entry keys never match it directly.
   const unit = (id:string)=>({ id, unitId:id, disciplineCode:'GAR', eventId:'M.------------------',
     eventName:"Men's", phaseName:"Men's Qualification", unitName:`Men's Qualification - Subdivision ${id}`,
-    startTimeTaipei:`2026-09-21T0${id}:00:00+08:00`, hasTpe:null, orgs:[] }) as unknown as ResultsRow;
+    startTimeTaipei:`2026-09-21T0${id}:00:00+08:00`, hasTpe:null, orgs:[],
+    entryFallbackInitialPhase:true }) as unknown as ResultsRow;
   const entries = new Map([
     ['GAR|M.TEAM--------------',{ evDesc:"Men's Team", athletes:['TANG Chia-hung','LEE Chih-kai'] }],
     ['GAR|M.1APFX-------------',{ evDesc:"Men's Floor Exercise", athletes:['LEE Chih-kai','HUNG Yuan-hsi'] }],

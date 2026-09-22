@@ -1,7 +1,8 @@
 // npm run fetch:schedule -- 2026-09-21 [BKB,SWM|ALL|AUTO]
 import { get, BASE, ApiError, recordFailure } from '../src/api/asianGames.ts';
-import { parseDaily, competitor, wushuResultTarget } from '../src/parsers/schedule.ts';
+import { parseDaily, competitor, initialEventPhases, wushuResultTarget } from '../src/parsers/schedule.ts';
 import { parseRequestedResult } from '../src/parsers/results.ts';
+import { entryIndex, parseTpeEntries } from '../src/parsers/entries.ts';
 import { parseMatrix, activeDisciplineDays } from '../src/parsers/matrix.ts';
 import type { Schedule } from '../src/parsers/schedule.ts';
 import { validateDate, nextDay } from '../src/utils/timezone.ts';
@@ -52,7 +53,8 @@ const targets: Target[] = auto ?? sports.flatMap(code=>days.map(day=>({ code, da
 const label = argument === 'ALL' || argument === 'AUTO' ? argument : sports.join('-');
 type Result = { sourceStatus:unknown; isLive:unknown; currentPeriod:unknown;
   competitors:ReturnType<typeof competitor>[]; source:Meta };
-type Row = Schedule & { result?:Result; resultScope?:'component' | 'aggregate' | null };
+type Row = Schedule & { result?:Result; resultScope?:'component' | 'aggregate' | null;
+  entryFallbackInitialPhase?:boolean };
 const errors:Failure[] = [], rows = new Map<string,Row>(), unresolved:Row[] = [];
 type Missing = { kind:'schedule-daily' | 'results'; disciplineCode:string; endpoint:string;
   date?:string; unitId?:string; http_status:number | null; error:string };
@@ -120,6 +122,39 @@ async function fetchUnitResult(row:Row):Promise<boolean> {
 
 for (const { code:sport, date:day } of targets) await fetchDailyUnits(sport, day);
 const dayRows = [...rows.values()];
+// Entries can suggest an undrawn first phase, but cannot qualify a team for a later phase.
+// Event metadata is optional enrichment: if it is unavailable, no Entries-only card is made.
+let enteredEvents = new Set<string>();
+try {
+  const entries = parseTpeEntries(JSON.parse(await readFile(resolve(ROOT,'data/normalized/tpe-entries.json'),'utf8')));
+  enteredEvents = new Set(entryIndex(entries).keys());
+} catch { /* The merge already handles an unavailable Entries file. */ }
+const undrawn = dayRows.filter(row=>row.hasTpe === null
+  || (row.hasTpe === false && row.orgs.length === 1));
+const hasEntry = (row:Row)=>{
+  const key=`${row.disciplineCode}|${row.eventId ?? ''}`;
+  if (enteredEvents.has(key)) return true;
+  const gender=/^([MWX])\.-+$/.exec(row.eventId ?? '')?.[1];
+  return !!gender && [...enteredEvents].some(event=>event.startsWith(`${row.disciplineCode}|${gender}.`));
+};
+const candidateEvents = new Map<string,Row[]>();
+for (const row of undrawn) {
+  if (!row.eventId || !row.phaseId || !hasEntry(row)) continue;
+  const key=`${row.disciplineCode}|${row.eventId}`;
+  candidateEvents.set(key,[...(candidateEvents.get(key) ?? []),row]);
+}
+for (const eventRows of candidateEvents.values()) {
+  const {disciplineCode,eventId}=eventRows[0];
+  const path=`${disciplineCode}/schedule/event/${eventId}`;
+  try {
+    const {data,meta}=await get(path);
+    requests.push(meta);
+    const first=initialEventPhases(data,disciplineCode,eventId!);
+    for (const row of eventRows) if (first.has(row.phaseId!)) row.entryFallbackInitialPhase=true;
+  } catch(e) {
+    console.error(`Entries 首階段無法驗證，略過 ${path}: ${e instanceof Error ? e.message : String(e)}`);
+  }
+}
 for (const row of dayRows) {
   const scope = wushuResultTarget(row, dayRows).scope;
   if (scope) row.resultScope = scope;

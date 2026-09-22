@@ -6,6 +6,7 @@ export type ResultsRow = {
   eventName?:string | null; phaseName?:string | null; unitName?:string | null;
   startTimeTaipei?:string | null; originalStartTime?:string | null; venueName?:string | null;
   eventId?:string | null; hasTpe?:boolean | null; orgs?:string[]; sourceStatus?:string | null;
+  entryFallbackInitialPhase?:boolean;
   resultScope?:'component' | 'aggregate' | null;
   competitors?:Competitor[];
   result?:{ sourceStatus?:string; competitors?:Competitor[] };
@@ -212,6 +213,8 @@ export function mergeDaily(results:ResultsSnapshot, tpenoc:{ scheduleDate:string
     // Chinese Taipei is not in; those units simply do not belong on a Chinese Taipei page.
     if (!entry) continue;
     if (confirmedEvents.has(key)) continue;
+    // An entry proves event registration, not qualification for a later phase.
+    if (row.entryFallbackInitialPhase !== true) continue;
     const bucket = pending.get(key) ?? { rows:[], athletes:entry.athletes };
     bucket.rows.push(row);
     pending.set(key, bucket);

@@ -62,7 +62,8 @@ export function normalize(value: unknown, source: Source, evidence: DayEvidence 
     SCHEDULED:'not_started', START_LIST:'not_started', PROVISIONAL:'not_started' };
   return {
     id: `${row.Disc}:${row.Key}`, unitId: row.Key, eventId: row.Event ?? null,
-    ...(row.Disc === 'WSU' ? { phaseId:row.Phase ?? null, isH2H:row.isH2H ?? null } : {}),
+    phaseId:row.Phase ?? null,
+    ...(row.Disc === 'WSU' ? { isH2H:row.isH2H ?? null } : {}),
     resultCode: row.ResCode || null,
     disciplineCode: row.Disc, disciplineName: row.DiscDesc ?? null,
     eventName: row.EventDesc ?? null, phaseName: row.PhaseDesc ?? null,
@@ -91,6 +92,25 @@ export function parseDaily(data: unknown, source: Source, evidence: DayEvidence 
   return data.map(row => normalize(row, source, evidence));
 }
 export type Schedule = ReturnType<typeof normalize>;
+
+// The event endpoint lists every phase, including earlier days. Only phases starting at
+// the event's first official start time may use an Entries-only provisional card.
+export function initialEventPhases(value:unknown,disciplineCode:string,eventId:string):Set<string> {
+  if (!Array.isArray(value) || !value.length) throw new Error('Event schedule missing units');
+  const starts=new Map<string,number>();
+  for (const item of value) {
+    const row=item as {Disc?:unknown;Event?:unknown;Phase?:unknown;DateTimeRaw?:unknown};
+    if (row?.Disc !== disciplineCode || row.Event !== eventId
+      || typeof row.Phase !== 'string' || !row.Phase
+      || typeof row.DateTimeRaw !== 'string') throw new Error('Event phase identity/structure mismatch');
+    const time=parseTime(row.DateTimeRaw);
+    if (!time) throw new Error('Event phase start time missing');
+    const start=Date.parse(time.utc);
+    starts.set(row.Phase,Math.min(starts.get(row.Phase) ?? Infinity,start));
+  }
+  const first=Math.min(...starts.values());
+  return new Set([...starts].filter(([,start])=>start===first).map(([phase])=>phase));
+}
 
 // The official Wushu event lists separate routines, then a medal unit. Its Results UI reads
 // the phase-level key for the combined score; the routine keys contain component scores.

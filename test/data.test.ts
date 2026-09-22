@@ -3,7 +3,23 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { deflateSync } from 'node:zlib';
 import { decode, safeData } from '../src/api/asianGames.ts';
-import { normalize, parseDaily, wushuResultTarget } from '../src/parsers/schedule.ts';
+import { normalize, parseDaily, initialEventPhases, wushuResultTarget } from '../src/parsers/schedule.ts';
+
+test('official event structure identifies first phases without reading Final or PhaseOrder literally',()=>{
+  const event='M.TEAM--------------',disc='GAR';
+  const unit=(phase:string,time:string,order:number)=>({Disc:disc,Event:event,Phase:`${event}.${phase}`,
+    DateTimeRaw:`2026-09-23T${time}:00+09:00`,PhaseOrder:order});
+  assert.deepEqual([...initialEventPhases([unit('FNL-','13:00',1)],disc,event)],
+    [`${event}.FNL-`]);
+  const later=[unit('8FNL','09:00',4),unit('QFNL','11:00',3),
+    unit('SFNL','15:00',2),unit('FNL-','18:00',1)];
+  assert.deepEqual([...initialEventPhases(later,disc,event)],[`${event}.8FNL`]);
+  const groups=[unit('GPA-','09:00',11),unit('GPB-','09:00',12),unit('SFNL','15:00',2)];
+  assert.deepEqual([...initialEventPhases(groups,disc,event)].sort(),
+    [`${event}.GPA-`,`${event}.GPB-`]);
+  assert.throws(()=>initialEventPhases([{...unit('FNL-','13:00',1),Event:'wrong'}],disc,event));
+  assert.throws(()=>initialEventPhases([],disc,event));
+});
 
 test('multi-routine Wushu medal unit uses the official phase summary; single units keep their result',()=>{
   const phase='M.TEST--------------.FNL-';
