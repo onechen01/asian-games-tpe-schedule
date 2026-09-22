@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T13:08:11.843Z",
+  "generatedAt": "2026-09-22T16:09:23.107Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-22T13:08:11.638Z",
+      "generatedAt": "2026-09-22T16:09:22.909Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1426,6 +1426,58 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T15:00:00+08:00",
       "startTimeJst": "2026-09-24T16:00:00+09:00",
+      "disciplineCode": "BKB",
+      "sportZh": "籃球",
+      "sportEn": "Basketball",
+      "event": "Women",
+      "phase": "Women Quarterfinals",
+      "unit": "Women Quarterfinals Game 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yen-Yu",
+        "LIU Hui-Ju",
+        "LIN Wen-Yu",
+        "HAN Ya-En",
+        "HSIAO Yu-Wen",
+        "HUANG Hsiang-Ting",
+        "CHENG I-Hsiu",
+        "HUANG Ling-Chuan",
+        "LIN Yu-Ting",
+        "PENG Szu-Chin",
+        "LIN Tieh",
+        "PENG Hsiao-Tong"
+      ],
+      "opponent": "Philippines",
+      "opponentCode": "PHI",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM5-------------.QFNL.000200--",
+          "id": "BKB:W.TEAM5-------------.QFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T15:00:00+08:00",
+      "startTimeJst": "2026-09-24T16:00:00+09:00",
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -1905,10 +1957,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 16,
+    "resultsOnly": 17,
     "entered": 21,
     "unresolvedTbd": 0,
-    "warnings": 20
+    "warnings": 21
   },
   "warnings": [
     {
@@ -1975,6 +2027,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:20 Group B Match 2",
       "row": "ELS:O.PYO---------------.GPB-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKB 15:00 Women Quarterfinals Game 2",
+      "row": "BKB:W.TEAM5-------------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
