@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T03:44:11.351Z",
+  "generatedAt": "2026-09-22T03:59:23.142Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T03:44:11.167Z",
+      "generatedAt": "2026-09-22T03:59:22.993Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 4,
+          "recovered": 4,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1090,8 +1090,8 @@
       "athletes": [],
       "athletesEn": [
         "LEE Meng-Yuan",
-        "WANG Han-Tsun",
-        "ZHANG Feng-Qi"
+        "ZHANG Feng-Qi",
+        "WANG Han-Tsun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1104,22 +1104,22 @@
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
           "result": "72",
-          "rank": "3"
-        },
-        {
-          "name": "WANG Han-Tsun",
-          "registration": "4309027",
-          "result": "87",
-          "rank": "17"
+          "rank": "4"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
           "result": "92",
-          "rank": "18"
+          "rank": "17"
+        },
+        {
+          "name": "WANG Han-Tsun",
+          "registration": "4309027",
+          "result": "90",
+          "rank": "26"
         }
       ],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1805,6 +1805,7 @@
       "athletes": [],
       "athletesEn": [
         "CHEN Chen-wei",
+        "CHEN Hsiao-yun",
         "YANG Chen-yu",
         "HUANG Wei-sheng",
         "LIU Ji-hong",
@@ -1824,7 +1825,6 @@
         "YU Tsung-ju",
         "KUO Tzu-chuan",
         "GUO Dinghong",
-        "CHEN Hsiao-yun",
         "HSU Siang-sheng",
         "LIN Yu-min",
         "LIU Chih-jung"
@@ -1835,7 +1835,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "8",
+        "tpe": "10",
         "opponent": "0",
         "source": "results"
       },
@@ -2273,16 +2273,16 @@
       "unit": "Men's Team Quarterfinals Tie 2",
       "athletes": [],
       "athletesEn": [
-        "LIN Chun-yi",
-        "YANG Po-hsuan",
-        "CHI Yu-jen",
-        "CHOU Tien-chen",
-        "WANG Chi-lin",
-        "YE Hong-wei",
-        "LIU Kuang-heng",
-        "WANG Tzu-wei",
-        "LEE Jhe-huei",
-        "CHIU Hsiang-chieh"
+        "LIN Chun-Yi",
+        "YANG Po-Hsuan",
+        "CHI Yu-Jen",
+        "CHOU Tien-Chen",
+        "WANG Chi-Lin",
+        "YE Hong-Wei",
+        "LIU Kuang-Heng",
+        "WANG Tzu-Wei",
+        "LEE Jhe-Huei",
+        "CHIU Hsiang-Chieh"
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
