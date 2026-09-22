@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFile,mkdir,writeFile} from 'node:fs/promises';import path from 'node:path';
-import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames} from '../lib/schedule.ts';
+import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames,resultHeading} from '../lib/schedule.ts';
 import type {Daily,Row} from '../lib/schedule.ts';
 import {loadSchedule,loadAthletes,loadDisplayNames} from '../lib/load.ts';
 import {athleteLabel} from '../lib/athletes.ts';
@@ -411,7 +411,16 @@ test('several channels at the same time coexist',()=>{
   assert.deepEqual(new Set(found.map(b=>b.channelName)),new Set(['愛爾達體育2台','其他平台頻道']));
 });
 
-import {medalOf,medalLabel} from '../lib/medal-match.ts';
+import {medalOf,medalLabel,competitorMedal} from '../lib/medal-match.ts';
+
+test('Wushu component and aggregate labels stay distinct, with medal on the correct entrant',()=>{
+  assert.equal(resultHeading({resultScope:'component',unit:'Nanquan'},true),'官方分項成績（Nanquan）');
+  assert.equal(resultHeading({resultScope:'aggregate',unit:'Nangun Final'},true),'官方全能總分／排名');
+  assert.equal(competitorMedal('OFFICIAL','ME_BRONZE'),'BRONZE');
+  assert.equal(competitorMedal('OFFICIAL',null),null);
+  assert.equal(competitorMedal('SCHEDULED','ME_BRONZE'),null);
+  assert.equal(resultHeading({unit:'200m Freestyle'},true),'官方已公布成績（每人各自計分）');
+});
 const medalRow = (o:Record<string,unknown>)=>({ status:'OFFICIAL', orgCount:2, ...o });
 
 test('only an official two-sided medal match decides a medal',()=>{

@@ -11,11 +11,14 @@ const OFFICIAL_MEDAL:Record<string,Medal> = { ME_GOLD:'GOLD', ME_SILVER:'SILVER'
 const GOLD = /gold medal (match|bout)/i;
 const BRONZE = /bronze medal (match|bout)/i;
 
+export const competitorMedal=(status:string|null|undefined,code:string|null|undefined):Medal|null=>
+  status === 'OFFICIAL' && code ? OFFICIAL_MEDAL[code] ?? null : null;
+
 export function medalOf(row:MedalRow):Medal|null {
   if (row?.status !== 'OFFICIAL') return null;
   // The officials' own medal on the competitor wins: it needs no rank, no head-to-head unit
   // and no wording in the unit name, and it works the same in every sport.
-  const official = row.tpeMedal ? OFFICIAL_MEDAL[row.tpeMedal] : undefined;
+  const official = competitorMedal(row.status,row.tpeMedal);
   if (official) return official;
   if ((row.orgCount ?? 0) !== 2) return null;
   const rank = row.tpeRank;

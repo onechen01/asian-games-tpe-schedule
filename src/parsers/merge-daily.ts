@@ -6,10 +6,11 @@ export type ResultsRow = {
   eventName?:string | null; phaseName?:string | null; unitName?:string | null;
   startTimeTaipei?:string | null; originalStartTime?:string | null; venueName?:string | null;
   eventId?:string | null; hasTpe?:boolean | null; orgs?:string[]; sourceStatus?:string | null;
+  resultScope?:'component' | 'aggregate' | null;
   competitors?:Competitor[];
   result?:{ sourceStatus?:string; competitors?:Competitor[] };
 };
-export type Competitor = { org?:string | null; name?:string | null; result?:string | null; medal?:string | null;
+export type Competitor = { org?:string | null; name?:string | null; result?:string | null; rank?:string | null; medal?:string | null;
   registration?:string | null; members?:{ name?:string | null }[] };
 // A competitor is one person when it carries no member list and its registration is the
 // numeric athlete id. A team slot instead carries a structured id such as
@@ -40,7 +41,9 @@ export type DailyRow = {
   result:{ tpe:string | null; opponent:string | null; source:'results' } | null;
   // Several Chinese Taipei athletes can start in one unit of an individual event. Each one
   // owns their own mark and place, so they are listed separately instead of sharing one.
-  tpeEntrants:{ name:string | null; registration:string | null; result:string | null; rank:string | null }[];
+  tpeEntrants:{ name:string | null; registration:string | null; result:string | null; rank:string | null;
+    medal?:string | null }[];
+  resultScope?:'component' | 'aggregate';
   // Just enough of the official unit to let the display layer recognise a medal match:
   // how many sides competed and where Chinese Taipei placed. Nothing is interpreted here.
   tpeRank:string | null; orgCount:number;
@@ -113,7 +116,8 @@ const tpeEntrantList = (row:ResultsRow | null)=>{
   const entries = row ? tpeEntries(row) : [];
   if (entries.length < 2) return [];
   return entries.map(c=>({ name:c.name ?? null, registration:c.registration ?? null,
-    result:blank((c as {result?:unknown}).result), rank:blank((c as {rank?:unknown}).rank) }));
+    result:blank(c.result), rank:blank(c.rank),
+    ...(row?.resultScope === 'aggregate' && blank(c.medal) ? { medal:blank(c.medal) } : {}) }));
 };
 // "Opponent" only means something in a two-sided unit. A heat or a routine final lists many
 // nations, and naming one of them as the opponent would be a plain error.
@@ -285,9 +289,12 @@ function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | 
     result:results && scored && entrants.length < 2 && (tpe?.result ?? other?.result) != null
       ? { tpe:tpe?.result ?? null, opponent:other?.result ?? null, source:'results' } : null,
     tpeEntrants:entrants,
+    ...(results?.resultScope ? { resultScope:results.resultScope } : {}),
     tpeRank:(typeof tpe?.rank === 'string' && tpe.rank.trim()) ? tpe.rank.trim() : null,
     orgCount:results ? new Set(competitors(results).map(c=>c.org).filter(Boolean)).size : 0,
-    tpeMedal:(tpe?.medal === 'ME_GOLD' || tpe?.medal === 'ME_SILVER' || tpe?.medal === 'ME_BRONZE') ? tpe.medal : null,
+    tpeMedal:results?.resultScope !== 'component'
+      && (results?.resultScope !== 'aggregate' || entrants.length < 2)
+      && (tpe?.medal === 'ME_GOLD' || tpe?.medal === 'ME_SILVER' || tpe?.medal === 'ME_BRONZE') ? tpe.medal : null,
     tpenocResult:tpenoc?.result ?? null,
     rank:tpenoc?.rank ?? null,
     note:tpenoc?.note ?? null,

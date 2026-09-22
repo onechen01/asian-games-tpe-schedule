@@ -1,6 +1,6 @@
 // npm run fetch:schedule -- 2026-09-21 [BKB,SWM|ALL|AUTO]
 import { get, BASE, ApiError, recordFailure } from '../src/api/asianGames.ts';
-import { parseDaily, competitor } from '../src/parsers/schedule.ts';
+import { parseDaily, competitor, wushuResultTarget } from '../src/parsers/schedule.ts';
 import { parseMatrix, activeDisciplineDays } from '../src/parsers/matrix.ts';
 import type { Schedule, RawCompetitor } from '../src/parsers/schedule.ts';
 import { validateDate, nextDay } from '../src/utils/timezone.ts';
@@ -51,7 +51,7 @@ const targets: Target[] = auto ?? sports.flatMap(code=>days.map(day=>({ code, da
 const label = argument === 'ALL' || argument === 'AUTO' ? argument : sports.join('-');
 type Result = { sourceStatus:unknown; isLive:unknown; currentPeriod:unknown;
   competitors:ReturnType<typeof competitor>[]; source:Meta };
-type Row = Schedule & { result?:Result };
+type Row = Schedule & { result?:Result; resultScope?:'component' | 'aggregate' | null };
 const errors:Failure[] = [], rows = new Map<string,Row>(), unresolved:Row[] = [];
 type Missing = { kind:'schedule-daily' | 'results'; disciplineCode:string; endpoint:string;
   date?:string; unitId?:string; http_status:number | null; error:string };
@@ -100,13 +100,19 @@ async function fetchDailyUnits(sport:string, day:string):Promise<boolean> {
   return true;
 }
 async function fetchUnitResult(row:Row):Promise<boolean> {
-  const path = `${row.disciplineCode}/results/${row.resultCode}`;
+  const resultKey = row.resultScope === 'aggregate' ? `${row.phaseId}.--------` : row.resultCode;
+  const path = `${row.disciplineCode}/results/${resultKey}`;
   const outcome = await attempt(path, async()=>{
     const {data,meta} = await get(path);
     requests.push(meta);
-    const result = data as {Info?:{Key?:string;Status?:string;IsLive?:boolean};
+    const result = data as {Info?:{Key?:string;Status?:string;IsLive?:boolean;
+      IsPhase?:boolean;Event?:string;Phase?:string};
       Competitors?:RawCompetitor[];Results?:{CurrentPeriod?:number}};
-    if (result?.Info?.Key!==row.unitId || !Array.isArray(result.Competitors)) {
+    const identityMatches = row.resultScope === 'aggregate'
+      ? result?.Info?.Key === resultKey && result?.Info?.IsPhase === true
+        && result?.Info?.Event === row.eventId && result?.Info?.Phase === row.phaseId
+      : result?.Info?.Key === row.unitId;
+    if (!result.Info || !identityMatches || !Array.isArray(result.Competitors)) {
       throw new Error('Schema change: Results identity/structure mismatch');
     }
     return { sourceStatus:result.Info.Status,isLive:result.Info.IsLive,
@@ -123,6 +129,11 @@ async function fetchUnitResult(row:Row):Promise<boolean> {
 }
 
 for (const { code:sport, date:day } of targets) await fetchDailyUnits(sport, day);
+const dayRows = [...rows.values()];
+for (const row of dayRows) {
+  const scope = wushuResultTarget(row, dayRows).scope;
+  if (scope) row.resultScope = scope;
+}
 for (const row of rows.values()) {
   if (row.hasTpe!==true || !row.resultCode) continue;
   await fetchUnitResult(row);

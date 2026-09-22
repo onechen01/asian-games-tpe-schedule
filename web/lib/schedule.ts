@@ -7,7 +7,9 @@ export type Row = {
   venue:string | null; venueZh:string | null; status:string | null; result:Result | null;
   tpenocResult:string | null; rank:string | null; note:string | null;
   // Present when one unit carried more than one Chinese Taipei entrant in an individual event.
-  tpeEntrants?:{ name:string | null; registration:string | null; result:string | null; rank:string | null }[];
+  tpeEntrants?:{ name:string | null; registration:string | null; result:string | null; rank:string | null;
+    medal?:string | null }[];
+  resultScope?:'component' | 'aggregate' | null;
   tpeRank?:string | null; orgCount?:number | null; tpeMedal?:string | null;
   participationState:'TPE_CONFIRMED' | 'TPE_ENTERED' | 'PARTICIPANTS_TBD';
   entryLevel?:'unit' | 'event'; unitCount?:number | null; enteredAthletes?:string[];
@@ -40,6 +42,10 @@ import {athleteLabels} from './athletes.ts';
 import type {AthleteMaster} from './athletes.ts';
 
 export const sportLabel=(row:Row)=>row.sportZh||row.sportEn||row.disciplineCode||'運動待確認';
+export const resultHeading=(row:Pick<Row,'resultScope'|'unit'>,multiple=false)=>
+  row.resultScope==='component' ? `官方分項成績（${row.unit||'分項'}）`
+  : row.resultScope==='aggregate' ? '官方全能總分／排名'
+  : multiple ? '官方已公布成績（每人各自計分）' : '官方已公布成績';
 // Chinese names come from the committee sheet when it supplied them; otherwise each official
 // English name is looked up in the athlete master, and an unverified name stays in English.
 export function displayNames(row:Row,master:AthleteMaster):{names:string[];fromMaster:boolean}{

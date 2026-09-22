@@ -286,6 +286,13 @@ test('two Chinese Taipei entrants in one individual unit keep their own mark and
   assert.deepEqual(row.tpeEntrants.map(e=>e.rank),['4','7']);
   // No single "Taiwan result" may stand for both athletes.
   assert.equal(row.result,null);
+  const unchanged=mergeDaily({ date:'2026-09-20', rows:[{
+    ...unit,result:{sourceStatus:'OFFICIAL',competitors:[
+      {org:'TPE',name:'WANG Hsing-hao',registration:'3559226',result:'2:01.21',rank:'4',medal:'ME_BRONZE'},
+      {org:'TPE',name:'FU Kun-ming',registration:'8599764',result:'2:04.80',rank:'7'}]}
+  } as unknown as ResultsRow],coverage:{fetchComplete:true,missing:[]} },null,null).rows[0];
+  assert.equal(unchanged.tpeMedal,'ME_BRONZE');
+  assert.ok(unchanged.tpeEntrants.every(e=>e.medal===undefined));
 });
 
 test('a missing mark is left empty rather than filled from the other athlete',()=>{
@@ -357,4 +364,28 @@ test('a confirmed unit replaces the provisional row instead of doubling it',()=>
     coverage:{ fetchComplete:true, missing:[], sports:['GAR'] } } as never, null, entries);
   assert.equal(merged.rows.filter(r=>r.disciplineCode === 'GAR').length,1);
   assert.equal(merged.rows[0].participationState,'TPE_CONFIRMED');
+});
+
+test('a Wushu component rank cannot carry an aggregate medal; final medals stay with their athlete',()=>{
+  const athletes=[{org:'TPE',name:'ATHLETE A',registration:'101',result:'9.720',rank:'5',medal:'ME_BRONZE'},
+    {org:'TPE',name:'ATHLETE B',registration:'102',result:'9.703',rank:'7',medal:null}];
+  const base={disciplineCode:'WSU',eventId:'M.TEST',eventName:'Combined routines',
+    startTimeTaipei:'2026-09-22T09:00:00+08:00',hasTpe:true,orgs:['TPE'],sourceStatus:'OFFICIAL'};
+  const component={...base,id:'component',unitId:'component',unitName:'Routine 1',resultScope:'component',
+    result:{sourceStatus:'OFFICIAL',competitors:athletes}} as unknown as ResultsRow;
+  const aggregate={...base,id:'final',unitId:'final',unitName:'Routine 2 Final',resultScope:'aggregate',
+    result:{sourceStatus:'OFFICIAL',competitors:[
+      {...athletes[0],result:'19.430',rank:'3'},
+      {...athletes[1],result:'19.429',rank:'4'}]}} as unknown as ResultsRow;
+  const rows=mergeDaily({date:'2026-09-22',rows:[component,aggregate],
+    coverage:{fetchComplete:true,missing:[]}},null,null).rows;
+  const part=rows.find(r=>r.sources.results?.id==='component')!;
+  const final=rows.find(r=>r.sources.results?.id==='final')!;
+  assert.deepEqual(part.tpeEntrants.map(e=>[e.result,e.rank,e.medal]),
+    [['9.720','5',undefined],['9.703','7',undefined]]);
+  assert.equal(part.tpeMedal,null);
+  assert.deepEqual(final.tpeEntrants.map(e=>[e.result,e.rank,e.medal]),
+    [['19.430','3','ME_BRONZE'],['19.429','4',undefined]]);
+  assert.equal(final.tpeMedal,null);
+  assert.equal(final.resultScope,'aggregate');
 });

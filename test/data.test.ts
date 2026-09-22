@@ -3,7 +3,27 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { deflateSync } from 'node:zlib';
 import { decode, safeData } from '../src/api/asianGames.ts';
-import { normalize, parseDaily } from '../src/parsers/schedule.ts';
+import { normalize, parseDaily, wushuResultTarget } from '../src/parsers/schedule.ts';
+
+test('multi-routine Wushu medal unit uses the official phase summary; single units keep their result',()=>{
+  const phase='M.TEST--------------.FNL-';
+  const unit=(n:string,medal:string)=>normalize({ Key:`${phase}.${n}`,Disc:'WSU',
+    Event:'M.TEST--------------',Phase:phase,ResCode:`${phase}.${n}`,Medal:medal,isH2H:false },source);
+  const component=unit('000100--','0'),final=unit('000200--','1');
+  assert.deepEqual(wushuResultTarget(component,[component,final]),
+    {code:component.resultCode,scope:'component'});
+  assert.deepEqual(wushuResultTarget(final,[component,final]),
+    {code:`${phase}.--------`,scope:'aggregate'});
+  const bout=normalize({ Key:`${phase}.000300--`,Disc:'WSU',Event:'M.TEST--------------',
+    Phase:phase,ResCode:`${phase}.000300--`,Medal:'1',isH2H:true },source);
+  assert.deepEqual(wushuResultTarget(bout,[component,bout]),{code:bout.resultCode,scope:null});
+  const single=normalize({Key:'single',Disc:'WSU',Event:'M.SINGLE',Phase:'M.SINGLE.FNL-',
+    ResCode:'single',Medal:'1'},source);
+  assert.deepEqual(wushuResultTarget(single,[single]),{code:'single',scope:null});
+  const other=normalize({Key:'other',Disc:'SWM',Event:'M.TEST',Phase:phase,
+    ResCode:'other',Medal:'1'},source);
+  assert.deepEqual(wushuResultTarget(other,[other,component]),{code:'other',scope:null});
+});
 import { offsetOf, readAtVenueOffset } from '../src/utils/timezone.ts';
 import { parseMatrix, activeDisciplines, activeDisciplineDays } from '../src/parsers/matrix.ts';
 import { parseTime, taipeiTime, nextDay, validateDate } from '../src/utils/timezone.ts';

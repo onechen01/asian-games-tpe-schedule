@@ -9,7 +9,7 @@ export type RawSchedule = {
   Key: string; Disc: string; Orgs?: string[]; Org?: string; Home?: RawCompetitor; Away?: RawCompetitor;
   DiscDesc?: string; Event?: string; EventDesc?: string; Phase?: string; PhaseDesc?: string;
   UnitDesc?: string; UnitDescA?: string; DateTimeRaw?: string; HideStartDate?: boolean;
-  HideLocation?: boolean; Estimated?: boolean; Venue?: string; VenueDesc?: string;
+  HideLocation?: boolean; Estimated?: boolean; Venue?: string; VenueDesc?: string; isH2H?:boolean;
   ResCode?: string; Status?: string; StatusDesc?: string; IsLive?: boolean; Medal?: string;
 };
 export type Source = {
@@ -62,6 +62,7 @@ export function normalize(value: unknown, source: Source, evidence: DayEvidence 
     SCHEDULED:'not_started', START_LIST:'not_started', PROVISIONAL:'not_started' };
   return {
     id: `${row.Disc}:${row.Key}`, unitId: row.Key, eventId: row.Event ?? null,
+    ...(row.Disc === 'WSU' ? { phaseId:row.Phase ?? null, isH2H:row.isH2H ?? null } : {}),
     resultCode: row.ResCode || null,
     disciplineCode: row.Disc, disciplineName: row.DiscDesc ?? null,
     eventName: row.EventDesc ?? null, phaseName: row.PhaseDesc ?? null,
@@ -90,3 +91,19 @@ export function parseDaily(data: unknown, source: Source, evidence: DayEvidence 
   return data.map(row => normalize(row, source, evidence));
 }
 export type Schedule = ReturnType<typeof normalize>;
+
+// The official Wushu event lists separate routines, then a medal unit. Its Results UI reads
+// the phase-level key for the combined score; the routine keys contain component scores.
+export function wushuResultTarget(row:Schedule, dayRows:Schedule[]) {
+  const samePhase = dayRows.filter(other=>other.disciplineCode === row.disciplineCode
+    && other.eventId === row.eventId && other.phaseId === row.phaseId && other.resultCode);
+  if (row.disciplineCode !== 'WSU' || row.isH2H !== false || !row.eventId || !row.phaseId
+    || samePhase.length < 2 || samePhase.some(other=>other.isH2H !== false)
+    || !samePhase.some(other=>other.medalCode === '0')
+    || !samePhase.some(other=>other.medalCode === '1')) {
+    return { code:row.resultCode, scope:null } as const;
+  }
+  return row.medalCode === '1'
+    ? { code:`${row.phaseId}.--------`, scope:'aggregate' } as const
+    : { code:row.resultCode, scope:'component' } as const;
+}
