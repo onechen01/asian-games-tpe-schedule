@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T15:42:04.550Z",
+  "generatedAt": "2026-09-22T15:58:30.329Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-22T15:42:04.398Z",
+      "generatedAt": "2026-09-22T15:58:30.177Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 17,
+          "recovered": 17,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2215,18 +2215,18 @@
       "unit": "Game 3",
       "athletes": [],
       "athletesEn": [
+        "CHANG Chung-mao",
+        "JIN Wu Fu-kai",
+        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "SU Hsiang-chih",
-        "CHUANG Chia-ming",
-        "LIN Po-ting",
-        "JIN Wu Fu-kai",
         "YEH Jiunn-ming",
-        "WANG Lun-chu",
-        "LI Jyun-jie",
-        "CHANG Chung-mao",
         "CHEN Zheng-wei",
-        "CAI Ruei-chen"
+        "CHUANG Chia-ming",
+        "LI Jyun-jie",
+        "LIN Po-ting",
+        "CAI Ruei-chen",
+        "SU Hsiang-chih"
       ],
       "opponent": "Bangladesh",
       "opponentCode": "BAN",
