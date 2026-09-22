@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T00:04:47.683Z",
+  "generatedAt": "2026-09-22T00:16:22.290Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T00:04:47.503Z",
+      "generatedAt": "2026-09-22T00:16:22.120Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -399,8 +399,12 @@
       "opponentCode": "CAM",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -447,8 +451,8 @@
         {
           "name": "LIU Chang-min",
           "registration": "6020214",
-          "result": null,
-          "rank": null
+          "result": "9.720",
+          "rank": "2"
         },
         {
           "name": "HUANG Wen-sheng",
@@ -457,7 +461,7 @@
           "rank": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 13,
       "tpeMedal": null,
       "tpenocResult": null,
