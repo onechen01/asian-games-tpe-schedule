@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T08:57:55.040Z",
+  "generatedAt": "2026-09-22T17:14:06.555Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-22T08:57:54.900Z",
+      "generatedAt": "2026-09-22T17:14:06.384Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -132,7 +132,7 @@
             {
               "code": "ROW",
               "date": "2026-09-23",
-              "medalDay": true
+              "medalDay": false
             },
             {
               "code": "SHO",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 6,
-          "recovered": 6,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -321,7 +321,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 252
+      "events": 228
     }
   },
   "date": "2026-09-23",
@@ -335,35 +335,49 @@
       "sportEn": "Athletics",
       "event": "Men's Half Marathon Race Walk",
       "phase": "Men's Half Marathon Race Walk Final",
-      "unit": null,
+      "unit": "Men's Half Marathon Race Walk Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHAN Yung-kuei",
+        "LO Sheng-qin"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Circular course around the Aichi Prefectural Government office and the Nagoya City Hall",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHAN Yung-kuei",
+          "registration": "2273993",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "LO Sheng-qin",
+          "registration": "2275275",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Yung-kuei",
-        "LO Sheng-qin"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.WALKHM------------"
+        "results": {
+          "unitId": "M.WALKHM------------.FNL-.000100--",
+          "id": "ATH:M.WALKHM------------.FNL-.000100--"
         }
       }
     },
@@ -552,6 +566,7 @@
       "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
+      "resultScope": "component",
       "tpeRank": null,
       "orgCount": 10,
       "tpeMedal": null,
@@ -1362,6 +1377,51 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T12:00:00+08:00",
       "startTimeJst": "2026-09-23T13:00:00+09:00",
+      "disciplineCode": "GAR",
+      "sportZh": "競技體操",
+      "sportEn": "Artistic Gymnastics",
+      "event": "Men's Team",
+      "phase": "Men's Team Final",
+      "unit": "Men's Team Final",
+      "athletes": [],
+      "athletesEn": [
+        "TANG Chia-hung",
+        "HUNG Yuan-hsi",
+        "CHUANG Chia-lung",
+        "LEE Chih-kai",
+        "SHIAO Yu-jan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.FNL-.000001--",
+          "id": "GAR:M.TEAM--------------.FNL-.000001--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T12:00:00+08:00",
+      "startTimeJst": "2026-09-23T13:00:00+09:00",
       "disciplineCode": "HOC",
       "sportZh": "曲棍球",
       "sportEn": "Hockey",
@@ -1413,50 +1473,6 @@
         "results": {
           "unitId": "W.TEAM11------------.GPA-.000800--",
           "id": "HOC:W.TEAM11------------.GPA-.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T12:00:00+08:00",
-      "startTimeJst": "2026-09-23T13:00:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Men's Team",
-      "phase": "Men's Team Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUANG Chia-lung",
-        "HUNG Yuan-hsi",
-        "LEE Chih-kai",
-        "SHIAO Yu-jan",
-        "TANG Chia-hung"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GAR|M.TEAM--------------"
         }
       }
     },
@@ -1549,6 +1565,47 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T13:00:00+08:00",
       "startTimeJst": "2026-09-23T14:00:00+09:00",
+      "disciplineCode": "ROW",
+      "sportZh": "划船",
+      "sportEn": "Rowing",
+      "event": "Women's Single Sculls",
+      "phase": "Women's Single Sculls Heats",
+      "unit": "Women's Single Sculls Heats Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "WEN Ching-yang"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagaragawa International Regatta Course(Gifu)",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 4,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SCULL1------------.HEAT.000100--",
+          "id": "ROW:W.SCULL1------------.HEAT.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T13:00:00+08:00",
+      "startTimeJst": "2026-09-23T14:00:00+09:00",
       "disciplineCode": "CSP",
       "sportZh": "輕艇靜水",
       "sportEn": "Canoe Sprint",
@@ -1588,83 +1645,43 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T13:00:00+08:00",
-      "startTimeJst": "2026-09-23T14:00:00+09:00",
-      "disciplineCode": "ROW",
-      "sportZh": "划船",
-      "sportEn": "Rowing",
-      "event": "Women's Single Sculls",
-      "phase": "Women's Single Sculls Heats",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagaragawa International Regatta Course(Gifu)",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "WANG Ming-xuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ROW|W.SCULL1------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T13:20:00+08:00",
       "startTimeJst": "2026-09-23T14:20:00+09:00",
       "disciplineCode": "ROW",
       "sportZh": "划船",
       "sportEn": "Rowing",
       "event": "Women's Double Sculls",
-      "phase": "Women's Double Sculls Preliminary",
-      "unit": null,
+      "phase": "Women's Double Sculls Preliminary race",
+      "unit": "Women's Double Sculls Preliminary race Preliminary race",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHANG Chu",
+        "WANG Ming-xuan"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagaragawa International Regatta Course(Gifu)",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHANG Chu",
-        "WANG Ming-xuan",
-        "WEN Ching-yang"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ROW|W.SCULL2------------"
+        "results": {
+          "unitId": "W.SCULL2------------.PREL.000100--",
+          "id": "ROW:W.SCULL2------------.PREL.000100--"
         }
       }
     },
@@ -1679,9 +1696,7 @@
       "phase": "Men's Daoshu & Gunshu",
       "unit": "Gunshu Final",
       "athletes": [],
-      "athletesEn": [
-        "LEE Po-feng"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
@@ -1689,8 +1704,9 @@
       "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
+      "resultScope": "aggregate",
       "tpeRank": null,
-      "orgCount": 10,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1838,55 +1854,6 @@
         "results": {
           "unitId": "O.NRK---------------.GPB-.00020000",
           "id": "ELS:O.NRK---------------.GPB-.00020000"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T14:00:00+08:00",
-      "startTimeJst": "2026-09-23T15:00:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Team",
-      "phase": "Men's Team Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": null,
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHI Yu-Jen",
-        "CHIU Hsiang-Chieh",
-        "CHOU Tien-Chen",
-        "LEE Jhe-Huei",
-        "LIN Chun-Yi",
-        "LIU Kuang-Heng",
-        "WANG Chi-Lin",
-        "WANG Tzu-Wei",
-        "YANG Po-Hsuan",
-        "YE Hong-Wei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|M.TEAM--------------"
         }
       }
     },
@@ -2062,94 +2029,6 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T16:00:00+08:00",
-      "startTimeJst": "2026-09-23T17:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Women's Team",
-      "phase": "Women's Team Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Szu-yu",
-        "CHENG I-ching",
-        "PENG Yu-han",
-        "WU Ying-syuan",
-        "YEH Yi-tian"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|W.TEAM--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T16:00:00+08:00",
-      "startTimeJst": "2026-09-23T17:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Men's Team",
-      "phase": "Men's Team Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "FENG Yi-hsin",
-        "HSU Hsien-chia",
-        "HUNG Jing-kai",
-        "KUO Guan-hong",
-        "LIN Yun-ju"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TTE|M.TEAM--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T17:00:00+08:00",
       "startTimeJst": "2026-09-23T18:00:00+09:00",
       "disciplineCode": "ELS",
@@ -2190,86 +2069,6 @@
         "results": {
           "unitId": "O.NRK---------------.GPB-.00060000",
           "id": "ELS:O.NRK---------------.GPB-.00060000"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T17:00:00+08:00",
-      "startTimeJst": "2026-09-23T18:00:00+09:00",
-      "disciplineCode": "WSU",
-      "sportZh": "武術",
-      "sportEn": "Wushu",
-      "event": "Women's 52kg",
-      "phase": "Women's 52kg",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Si-yun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "WSU|W.52KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T17:20:00+08:00",
-      "startTimeJst": "2026-09-23T18:20:00+09:00",
-      "disciplineCode": "WSU",
-      "sportZh": "武術",
-      "sportEn": "Wushu",
-      "event": "Women's 60kg",
-      "phase": "Women's 60kg",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LIN Tsai-mei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "WSU|W.60KG--------------"
         }
       }
     },
@@ -2397,6 +2196,51 @@
     },
     {
       "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T18:30:00+08:00",
+      "startTimeJst": "2026-09-23T19:30:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Team",
+      "phase": "Men's Team Semifinals",
+      "unit": "Men's Team Semifinals Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "FENG Yi-hsin",
+        "HSU Hsien-chia",
+        "LIN Yun-ju",
+        "KUO Guan-hong",
+        "HUNG Jing-kai"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.SFNL.00010000",
+          "id": "TTE:M.TEAM--------------.SFNL.00010000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T18:45:00+08:00",
       "startTimeJst": "2026-09-23T19:45:00+09:00",
       "disciplineCode": "KAB",
@@ -2436,41 +2280,42 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T19:00:00+08:00",
-      "startTimeJst": "2026-09-23T20:00:00+09:00",
+      "startTimeTaipei": "2026-09-23T19:10:00+08:00",
+      "startTimeJst": "2026-09-23T20:10:00+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
       "event": "Men's 75kg",
       "phase": "Men's 75kg",
-      "unit": null,
+      "unit": "Match 2",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "ZHANG Huan yi"
+      ],
+      "opponent": "ABDULLAYEV Abdurashid",
+      "opponentCode": "KAZ",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "ZHANG Huan-yi"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "WSU|M.75KG--------------"
+        "results": {
+          "unitId": "M.75KG--------------.SFNL.000200--",
+          "id": "WSU:M.75KG--------------.SFNL.000200--"
         }
       }
     }
@@ -2480,12 +2325,17 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 38,
-    "entered": 12,
+    "resultsOnly": 44,
+    "entered": 2,
     "unresolvedTbd": 0,
-    "warnings": 52
+    "warnings": 58
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 06:30 Men's Half Marathon Race Walk Final",
+      "row": "ATH:M.WALKHM------------.FNL-.000100--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CRD 08:00 Men's Road Race",
@@ -2603,6 +2453,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GAR 12:00 Men's Team Final",
+      "row": "GAR:M.TEAM--------------.FNL-.000001--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 12:00 Women Pool A Match 8",
       "row": "HOC:W.TEAM11------------.GPA-.000800--"
     },
@@ -2615,6 +2470,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 12:40 Women Round Robin Pool B Game 6",
       "row": "BK3:W.TEAM3-------------.GPB-.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ROW 13:00 Women's Single Sculls Heats Heat 1",
+      "row": "ROW:W.SCULL1------------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ROW 13:20 Women's Double Sculls Preliminary race Preliminary race",
+      "row": "ROW:W.SCULL2------------.PREL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2673,8 +2538,18 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 18:30 Men's Team Semifinals Match 1",
+      "row": "TTE:M.TEAM--------------.SFNL.00010000"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 18:45 Game 4",
       "row": "KAB:W.TEAM7-------------.GPB-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 19:10 Match 2",
+      "row": "WSU:M.75KG--------------.SFNL.000200--"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -2690,11 +2565,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TST|W.SINGLES-----------",
       "message": "TST Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|X.4X100MMD----------",
-      "message": "SWM Mixed 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -2745,6 +2615,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|W.100MBR------------",
       "message": "SWM Women's 100m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|X.4X100MMD----------",
+      "message": "SWM Mixed 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
