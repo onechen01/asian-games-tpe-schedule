@@ -149,3 +149,27 @@ test('offset helpers read the source string without editing it',()=>{
   assert.equal(readAtVenueOffset('2026-09-20T10:50:00-12:00'),'2026-09-20T10:50:00+09:00');
   assert.equal(readAtVenueOffset(null),null);
 });
+
+import { extractTpeEntries } from '../src/parsers/entries.ts';
+
+test('one broken entry is quarantined, but wholesale corruption still fails closed',()=>{
+  const ok = (n:number)=>({ Org:'TPE', Disc:'SWM', Reg:String(n), Name:`ATHLETE ${n}`,
+    Inscriptions:[{ EvKey:'M.100M--------------', EvDesc:"Men's 100m" }] });
+  const broken = { Org:'TPE', Disc:'ELS', Reg:'ELSOPYO--------TPE01', Name:'' };
+  const many = [...Array(20).keys()].map(n=>ok(n+1));
+  const parsed = extractTpeEntries({ participants:[many[0],broken,...many.slice(1),{ Org:'JPN' }] },'2026-09-22');
+  assert.equal(parsed.entries.length,20);
+  assert.ok(parsed.entries.every(e=>e.name && e.reg && e.disciplineCode));
+  assert.ok(!JSON.stringify(parsed.entries).includes('ELSOPYO'),'壞資料不得進入輸出');
+  assert.deepEqual(parsed.malformed,[{ index:1, missing:['Name'], reg:'ELSOPYO--------TPE01',
+    name:null, disciplineCode:'ELS' }]);
+  // Normal data is unchanged and carries no malformed list.
+  const clean = extractTpeEntries({ participants:[ok(1),ok(2)] },'2026-09-22');
+  assert.equal(clean.entries.length,2);
+  assert.equal(clean.malformed,undefined);
+  // A fifth of the delegation breaking at once is a schema change.
+  assert.throws(()=>extractTpeEntries({ participants:[ok(1),ok(2),broken,broken] },'2026-09-22'),
+    /Schema change/,'四分之一壞掉即視為 schema change');
+  assert.throws(()=>extractTpeEntries({ participants:[...Array(60).keys()].map(ok)
+    .concat([...Array(21).keys()].map(()=>broken)) },'2026-09-22'),/Schema change/);
+});

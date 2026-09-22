@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T05:08:59.728Z",
+  "generatedAt": "2026-09-22T05:48:37.153Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-22T05:08:59.528Z",
+      "generatedAt": "2026-09-22T05:48:36.036Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 6,
+          "recovered": 6,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -321,7 +321,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 251
+      "events": 252
     }
   },
   "date": "2026-09-23",
@@ -412,6 +412,47 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T08:00:00+08:00",
       "startTimeJst": "2026-09-23T09:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Quarterfinals",
+      "unit": "Women's Singles Quarterfinals Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "CHIANG Min-yu"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.QFNL.000300--",
+          "id": "TST:W.SINGLES-----------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
+      "startTimeJst": "2026-09-23T09:00:00+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
@@ -446,47 +487,6 @@
         "results": {
           "unitId": "M.DAOS--------------.FNL-.000100--",
           "id": "WSU:M.DAOS--------------.FNL-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
-      "startTimeJst": "2026-09-23T09:00:00+09:00",
-      "disciplineCode": "TST",
-      "sportZh": "軟式網球",
-      "sportEn": "Soft Tennis",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Quarterfinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 7,
-      "enteredAthletes": [
-        "CHIANG Min-yu",
-        "HUANG Shih-yuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TST|W.SINGLES-----------"
         }
       }
     },
@@ -567,55 +567,6 @@
         "results": {
           "unitId": "M.TEAM7-------------.GPA-.000600--",
           "id": "KAB:M.TEAM7-------------.GPA-.000600--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T08:30:00+08:00",
-      "startTimeJst": "2026-09-23T09:30:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Women's Team",
-      "phase": "Women's Team Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": null,
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Nicole Gonzales",
-        "CHIU Pin-chian",
-        "HSIEH Pei-shan",
-        "HSU Yin-hui",
-        "HU Ling-fang",
-        "HUANG Yu-hsun",
-        "HUNG En-tzu",
-        "LIN Hsiang-ti",
-        "LIN Jhih-yun",
-        "SUNG Shuo-yun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|W.TEAM--------------"
         }
       }
     },
@@ -771,6 +722,68 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T09:00:00+08:00",
       "startTimeJst": "2026-09-23T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Men Individual",
+      "phase": "Skeet Men Individual Qualification",
+      "unit": "Skeet Men Individual - Qualification - Qualification - Day 3",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Meng-Yuan",
+        "WANG Han-Tsun",
+        "ZHANG Feng-Qi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "LEE Meng-Yuan",
+          "registration": "13634212",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "WANG Han-Tsun",
+          "registration": "4309027",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "ZHANG Feng-Qi",
+          "registration": "4308201",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 21,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SKM---------------.QUAL.000300--",
+          "id": "SHO:M.SKM---------------.QUAL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
+      "startTimeJst": "2026-09-23T10:00:00+09:00",
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
@@ -806,48 +819,6 @@
         "results": {
           "unitId": "X.DOUBLES-----------.R32-.000400--",
           "id": "TTE:X.DOUBLES-----------.R32-.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
-      "startTimeJst": "2026-09-23T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Men Individual",
-      "phase": "Skeet Men Individual Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LEE Meng-Yuan",
-        "WANG Han-Tsun",
-        "ZHANG Feng-Qi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|M.SKM---------------"
         }
       }
     },
@@ -1422,8 +1393,12 @@
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 7,
@@ -1814,16 +1789,16 @@
       "entryLevel": "event",
       "unitCount": 2,
       "enteredAthletes": [
-        "CHI Yu-jen",
-        "CHIU Hsiang-chieh",
-        "CHOU Tien-chen",
-        "LEE Jhe-huei",
-        "LIN Chun-yi",
-        "LIU Kuang-heng",
-        "WANG Chi-lin",
-        "WANG Tzu-wei",
-        "YANG Po-hsuan",
-        "YE Hong-wei"
+        "CHI Yu-Jen",
+        "CHIU Hsiang-Chieh",
+        "CHOU Tien-Chen",
+        "LEE Jhe-Huei",
+        "LIN Chun-Yi",
+        "LIU Kuang-Heng",
+        "WANG Chi-Lin",
+        "WANG Tzu-Wei",
+        "YANG Po-Hsuan",
+        "YE Hong-Wei"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -2424,16 +2399,21 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 31,
-    "entered": 18,
+    "resultsOnly": 33,
+    "entered": 15,
     "unresolvedTbd": 0,
-    "warnings": 41
+    "warnings": 45
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CRD 08:00 Men's Road Race",
       "row": "CRD:M.RR----------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Quarterfinals Match 3",
+      "row": "TST:W.SINGLES-----------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2459,6 +2439,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:00 Men's Team Kata Quarterfinal",
       "row": "KTE:M.TEAM--------------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Individual - Qualification - Qualification - Day 3",
+      "row": "SHO:M.SKM---------------.QUAL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2587,6 +2572,11 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "TST|W.SINGLES-----------",
+      "message": "TST Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "TTE|X.DOUBLES-----------",
       "message": "TTE Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2609,6 +2599,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SHO|W.APW---------------",
       "message": "SHO 10m Air Pistol Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SHO|M.SKM---------------",
+      "message": "SHO Skeet Men Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
