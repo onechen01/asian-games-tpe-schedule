@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T22:05:05.663Z",
+  "generatedAt": "2026-09-22T22:46:23.065Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-22T22:05:05.466Z",
+      "generatedAt": "2026-09-22T22:46:22.872Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1136,6 +1136,49 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T16:00:00+08:00",
+      "startTimeJst": "2026-09-24T17:00:00+09:00",
+      "disciplineCode": "GAR",
+      "sportZh": "競技體操",
+      "sportEn": "Artistic Gymnastics",
+      "event": "Men's Floor Exercise",
+      "phase": "Men's Floor Exercise Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHUANG Chia-lung",
+        "HUNG Yuan-hsi",
+        "SHIAO Yu-jan",
+        "TANG Chia-hung"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GAR|M.1APFX-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T16:20:00+08:00",
       "startTimeJst": "2026-09-24T17:20:00+09:00",
       "disciplineCode": "ELS",
@@ -1172,50 +1215,6 @@
         "results": {
           "unitId": "O.PYO---------------.GPB-.000800--",
           "id": "ELS:O.PYO---------------.GPB-.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T16:55:00+08:00",
-      "startTimeJst": "2026-09-24T17:55:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Women's Vault",
-      "phase": "Women's Vault Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LAI Pin-ju",
-        "LIAO Yi-chun",
-        "LIN Yi-chen",
-        "TING Hua-tien",
-        "WU Yu-jhih"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GAR|W.1APVT-------------"
         }
       }
     },
