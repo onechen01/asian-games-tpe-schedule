@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T22:46:23.065Z",
+  "generatedAt": "2026-09-22T22:59:20.179Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-22T22:46:22.872Z",
+      "generatedAt": "2026-09-22T22:59:19.977Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -1220,6 +1220,50 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T16:55:00+08:00",
+      "startTimeJst": "2026-09-24T17:55:00+09:00",
+      "disciplineCode": "GAR",
+      "sportZh": "競技體操",
+      "sportEn": "Artistic Gymnastics",
+      "event": "Women's Vault",
+      "phase": "Women's Vault Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "LAI Pin-ju",
+        "LIAO Yi-chun",
+        "LIN Yi-chen",
+        "TING Hua-tien",
+        "WU Yu-jhih"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GAR|W.1APVT-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T17:35:00+08:00",
       "startTimeJst": "2026-09-24T18:35:00+09:00",
       "disciplineCode": "GAR",
@@ -1436,7 +1480,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 17,
-    "entered": 9,
+    "entered": 10,
     "unresolvedTbd": 0,
     "warnings": 21
   },
