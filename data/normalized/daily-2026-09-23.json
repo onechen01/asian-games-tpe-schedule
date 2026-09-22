@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T07:09:13.132Z",
+  "generatedAt": "2026-09-22T07:43:25.677Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-22T07:09:12.928Z",
+      "generatedAt": "2026-09-22T07:43:25.548Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -463,15 +463,15 @@
       "athletesEn": [
         "CHANG Yu-sung"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "KUROSAKA Takuya",
+      "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2678,21 +2678,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TST|M.SINGLES-----------",
-      "message": "TST Men's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TST|W.SINGLES-----------",
-      "message": "TST Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TTE|X.DOUBLES-----------",
-      "message": "TTE Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "WLF|W.49KG--------------",
       "message": "WLF Women's 49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2703,6 +2688,16 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "TST|W.SINGLES-----------",
+      "message": "TST Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TST|M.SINGLES-----------",
+      "message": "TST Men's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "KTE|W.50KG--------------",
       "message": "KTE Women's Kumite -50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2710,6 +2705,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SHO|W.APW---------------",
       "message": "SHO 10m Air Pistol Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TTE|X.DOUBLES-----------",
+      "message": "TTE Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
