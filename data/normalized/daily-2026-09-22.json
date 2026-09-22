@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T15:15:51.135Z",
+  "generatedAt": "2026-09-22T15:43:53.058Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T15:15:50.960Z",
+      "generatedAt": "2026-09-22T15:43:52.868Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -461,9 +461,10 @@
           "rank": "7"
         }
       ],
+      "resultScope": "component",
       "tpeRank": "5",
       "orgCount": 13,
-      "tpeMedal": "ME_BRONZE",
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -560,6 +561,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "resultScope": "component",
       "tpeRank": "5",
       "orgCount": 9,
       "tpeMedal": null,
@@ -2336,8 +2338,8 @@
       "unit": "Nangun Final",
       "athletes": [],
       "athletesEn": [
-        "HUANG Wen-sheng",
-        "LIU Chang-min"
+        "LIU Chang-min",
+        "HUANG Wen-sheng"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -2347,19 +2349,21 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "HUANG Wen-sheng",
-          "registration": "16537768",
-          "result": "9.726",
-          "rank": "2"
-        },
-        {
           "name": "LIU Chang-min",
           "registration": "6020214",
-          "result": "9.710",
-          "rank": "5"
+          "result": "19.430",
+          "rank": "3",
+          "medal": "ME_BRONZE"
+        },
+        {
+          "name": "HUANG Wen-sheng",
+          "registration": "16537768",
+          "result": "19.429",
+          "rank": "4"
         }
       ],
-      "tpeRank": "2",
+      "resultScope": "aggregate",
+      "tpeRank": "3",
       "orgCount": 13,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2499,12 +2503,13 @@
       "venueZh": null,
       "status": "OFFICIAL",
       "result": {
-        "tpe": "9.646",
+        "tpe": "19.346",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "7",
+      "resultScope": "aggregate",
+      "tpeRank": "6",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,

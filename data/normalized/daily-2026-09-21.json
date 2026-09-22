@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T15:25:42.436Z",
+  "generatedAt": "2026-09-22T15:42:04.550Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-21/schedule-2026-09-21-AUTO.json",
-      "generatedAt": "2026-09-22T15:25:42.292Z",
+      "generatedAt": "2026-09-22T15:42:04.398Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -290,8 +290,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 9,
-          "recovered": 9,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -472,9 +472,10 @@
         "source": "results"
       },
       "tpeEntrants": [],
+      "resultScope": "component",
       "tpeRank": "2",
       "orgCount": 13,
-      "tpeMedal": "ME_SILVER",
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1687,12 +1688,13 @@
       "venueZh": null,
       "status": "OFFICIAL",
       "result": {
-        "tpe": "9.720",
+        "tpe": "19.453",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "resultScope": "aggregate",
+      "tpeRank": "2",
       "orgCount": 13,
       "tpeMedal": "ME_SILVER",
       "tpenocResult": null,
