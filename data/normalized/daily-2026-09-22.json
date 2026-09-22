@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T00:43:34.220Z",
+  "generatedAt": "2026-09-22T01:59:42.741Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T00:43:34.037Z",
+      "generatedAt": "2026-09-22T01:59:42.601Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -435,7 +435,7 @@
       "sportEn": "Wushu",
       "event": "Men's Nanquan & Nangun",
       "phase": "Men's Nanquan & Nangun",
-      "unit": "Nanquan Final",
+      "unit": "Nanquan",
       "athletes": [],
       "athletesEn": [
         "LIU Chang-min",
@@ -445,23 +445,23 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "LIU Chang-min",
           "registration": "6020214",
           "result": "9.720",
-          "rank": "4"
+          "rank": "5"
         },
         {
           "name": "HUANG Wen-sheng",
           "registration": "16537768",
           "result": "9.703",
-          "rank": "6"
+          "rank": "7"
         }
       ],
-      "tpeRank": "4",
+      "tpeRank": "5",
       "orgCount": 13,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -553,10 +553,14 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "9.700",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -594,10 +598,14 @@
       "opponentCode": "INA",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "5",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -635,10 +643,14 @@
       "opponentCode": "SGP",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -676,10 +688,14 @@
       "opponentCode": "PHI",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -717,10 +733,14 @@
       "opponentCode": "HKG",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -799,10 +819,14 @@
       "opponentCode": "KAZ",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -840,10 +864,14 @@
       "opponentCode": "IND",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -881,10 +909,14 @@
       "opponentCode": "KOR",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -922,10 +954,14 @@
       "opponentCode": "MGL",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -963,10 +999,14 @@
       "opponentCode": "PAK",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1006,10 +1046,14 @@
       "opponentCode": "MAC",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1042,36 +1086,36 @@
       "athletes": [],
       "athletesEn": [
         "LEE Meng-Yuan",
-        "WANG Han-Tsun",
-        "ZHANG Feng-Qi"
+        "ZHANG Feng-Qi",
+        "WANG Han-Tsun"
       ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
-          "result": null,
-          "rank": null
-        },
-        {
-          "name": "WANG Han-Tsun",
-          "registration": "4309027",
-          "result": null,
-          "rank": null
+          "result": "56",
+          "rank": "9"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
-          "result": null,
-          "rank": null
+          "result": "69",
+          "rank": "18"
+        },
+        {
+          "name": "WANG Han-Tsun",
+          "registration": "4309027",
+          "result": "69",
+          "rank": "19"
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1111,8 +1155,12 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 10,
@@ -1152,10 +1200,14 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "40",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "23",
       "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1197,8 +1249,12 @@
       "opponentCode": "MAC",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1238,10 +1294,14 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "55.81",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1273,30 +1333,30 @@
       "unit": "Men's 400m Individual Medley Heat 2",
       "athletes": [],
       "athletesEn": [
-        "FU Kun-ming",
-        "WANG Hsing-hao"
+        "WANG Hsing-hao",
+        "FU Kun-ming"
       ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
-          "name": "FU Kun-ming",
-          "registration": "8599764",
-          "result": null,
-          "rank": null
-        },
-        {
           "name": "WANG Hsing-hao",
           "registration": "3559226",
-          "result": null,
-          "rank": null
+          "result": "4:28.74",
+          "rank": "6"
+        },
+        {
+          "name": "FU Kun-ming",
+          "registration": "8599764",
+          "result": "4:32.54",
+          "rank": "8"
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1318,6 +1378,53 @@
     },
     {
       "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:20:00+08:00",
+      "startTimeJst": "2026-09-22T10:20:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Women's Team Kata",
+      "phase": "Women's Team Kata Semifinals",
+      "unit": "Women's Team Kata Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "TIEN Hsin-erh",
+        "HUNG Chih-hsuan",
+        "CHIEN Hui-hsuan"
+      ],
+      "opponent": "Vietnam",
+      "opponentCode": "VIE",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM--------------.SFNL.000200--",
+          "id": "KTE:W.TEAM--------------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
       "startTimeTaipei": "2026-09-22T09:30:00+08:00",
       "startTimeJst": "2026-09-22T10:30:00+09:00",
       "disciplineCode": "SWM",
@@ -1334,10 +1441,14 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "2:15.55",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1375,10 +1486,14 @@
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1416,10 +1531,14 @@
       "opponentCode": "NEP",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1436,6 +1555,53 @@
         "results": {
           "unitId": "M.SINGLES-----------.GPG-.000100--",
           "id": "TST:M.SINGLES-----------.GPG-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T09:40:00+08:00",
+      "startTimeJst": "2026-09-22T10:40:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Women's Team Kata",
+      "phase": "Women's Team Kata Bronze Medal Bout",
+      "unit": "Women's Team Kata Bronze Medal Bout B",
+      "athletes": [],
+      "athletesEn": [
+        "TIEN Hsin-erh",
+        "HUNG Chih-hsuan",
+        "CHIEN Hui-hsuan"
+      ],
+      "opponent": "Nepal",
+      "opponentCode": "NEP",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM--------------.REPF.000200--",
+          "id": "KTE:W.TEAM--------------.REPF.000200--"
         }
       }
     },
@@ -1498,7 +1664,7 @@
       "opponentCode": "CAM",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1535,7 +1701,7 @@
       "athletesEn": [
         "CHUANG Mu-lun",
         "CHANG Chiao-i",
-        "WANG Kuan-hung",
+        "TSAI Ruei-hong",
         "LIN Yi-cheng"
       ],
       "opponent": null,
@@ -1576,7 +1742,32 @@
       "phase": "Men's Opening Round Group B",
       "unit": "Game 6",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Chen-wei",
+        "YANG Chen-yu",
+        "HUANG Wei-sheng",
+        "LIU Ji-hong",
+        "CHU Chia-en",
+        "CHEN Min-sih",
+        "LI I-wei",
+        "CHANG Hsiang",
+        "YANG Po-hsiang",
+        "HUANG Chieh-han",
+        "WANG Cheng-hao",
+        "LIN Yu-li",
+        "KAO Yu-wei",
+        "WANG Yu-chieh",
+        "TSAI Wei-tai",
+        "WANG Yan-cheng",
+        "LIN Yi-wei",
+        "YU Tsung-ju",
+        "KUO Tzu-chuan",
+        "GUO Dinghong",
+        "CHEN Hsiao-yun",
+        "HSU Siang-sheng",
+        "LIN Yu-min",
+        "LIU Chih-jung"
+      ],
       "opponent": "Thailand",
       "opponentCode": "THA",
       "venue": "Toyohashi Municipal Baseball Stadium",
@@ -1877,7 +2068,7 @@
       "sportEn": "Wushu",
       "event": "Men's Nanquan & Nangun",
       "phase": "Men's Nanquan & Nangun",
-      "unit": "Nangun",
+      "unit": "Nangun Final",
       "athletes": [],
       "athletesEn": [
         "HUANG Wen-sheng",
@@ -2317,10 +2508,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 44,
+    "resultsOnly": 46,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 54
+    "warnings": 55
   },
   "warnings": [
     {
@@ -2335,7 +2526,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Nanquan Final",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Nanquan",
       "row": "WSU:M.NANG--------------.FNL-.000100--"
     },
     {
@@ -2435,6 +2626,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:20 Women's Team Kata Semifinal",
+      "row": "KTE:W.TEAM--------------.SFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:30 Women's 200m Backstroke Heat 1",
       "row": "SWM:W.200MBA------------.HEAT.000100--"
     },
@@ -2447,6 +2643,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 09:30 Men's Singles Group G Match 1",
       "row": "TST:M.SINGLES-----------.GPG-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:40 Women's Team Kata Bronze Medal Bout B",
+      "row": "KTE:W.TEAM--------------.REPF.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2495,7 +2696,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 13:30 Nangun",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 13:30 Nangun Final",
       "row": "WSU:M.NANG--------------.FNL-.000200--"
     },
     {
@@ -2545,11 +2746,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "KTE|W.TEAM--------------",
-      "message": "KTE Women's Team Kata 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "KTE|M.84KG--------------",
       "message": "KTE Men's Kumite -84kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2585,13 +2781,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TTE|W.TEAM--------------",
-      "message": "TTE Women's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TTE|M.TEAM--------------",
+      "message": "TTE Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TTE|M.TEAM--------------",
-      "message": "TTE Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TTE|W.TEAM--------------",
+      "message": "TTE Women's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
