@@ -1035,7 +1035,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-22",
-      "broadcastEndTimeTaipei": "2026-09-22T18:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-22T18:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -1139,6 +1139,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-22T18:10:00+08:00",
+      "disciplineCode": "BDM",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華VS泰國 羽球 男團八強 9/22(愛爾達自製轉播) LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-22T19:15:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-22T18:15:00+08:00",
       "disciplineCode": "TTE",
       "channelId": "101",
@@ -1163,8 +1185,8 @@
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-22T18:45:00+08:00",
       "disciplineCode": "KAB",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
+      "channelId": "542",
+      "channelName": "愛爾達體育MAX3台",
       "isLive": true,
       "title": "亞運 斯里蘭卡VS中華 卡巴迪 女子預賽 9/22(原音) LIVE",
       "feed": "original",
