@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T04:37:01.063Z",
+  "generatedAt": "2026-09-22T04:56:22.934Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T04:37:00.887Z",
+      "generatedAt": "2026-09-22T04:56:22.738Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 4,
-          "recovered": 4,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -510,7 +510,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "2",
         "source": "results"
       },
@@ -1891,7 +1891,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
@@ -1992,7 +1992,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
@@ -2035,14 +2035,14 @@
       "opponentCode": "QAT",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "1",
-        "opponent": "0",
+        "tpe": "15",
+        "opponent": "10",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2121,7 +2121,7 @@
       "opponentCode": "INA",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2162,7 +2162,7 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2764,7 +2764,7 @@
     "resultsOnly": 52,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 54
   },
   "warnings": [
     {
@@ -3026,11 +3026,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WSU 21:20 Match 3",
       "row": "WSU:M.75KG--------------.QFNL.000300--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "KTE|W.55KG--------------",
-      "message": "KTE Women's Kumite -55kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
