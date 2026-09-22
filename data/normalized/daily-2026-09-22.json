@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T05:44:32.852Z",
+  "generatedAt": "2026-09-22T05:56:29.694Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T05:44:32.123Z",
+      "generatedAt": "2026-09-22T05:56:29.509Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -1204,7 +1204,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "79",
         "opponent": null,
@@ -1260,7 +1260,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1933,7 +1933,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2252,7 +2252,7 @@
       "opponentCode": "JPN",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2293,7 +2293,7 @@
       "opponentCode": "KOR",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2436,7 +2436,7 @@
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": "GERASSIMENKO Kirill/AKASHEVA Zauresh",
+      "opponent": "GERASSIMENKO Kirill / AKASHEVA Zauresh",
       "opponentCode": "KAZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
