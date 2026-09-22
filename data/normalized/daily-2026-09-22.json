@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T09:26:16.056Z",
+  "generatedAt": "2026-09-22T09:47:52.377Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T09:26:15.877Z",
+      "generatedAt": "2026-09-22T09:47:52.235Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -437,33 +437,17 @@
       "phase": "Men's Nanquan & Nangun",
       "unit": "Nanquan",
       "athletes": [],
-      "athletesEn": [
-        "LIU Chang-min",
-        "HUANG Wen-sheng"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "LIU Chang-min",
-          "registration": "6020214",
-          "result": "9.720",
-          "rank": "5"
-        },
-        {
-          "name": "HUANG Wen-sheng",
-          "registration": "16537768",
-          "result": "9.703",
-          "rank": "7"
-        }
-      ],
-      "tpeRank": "5",
-      "orgCount": 13,
-      "tpeMedal": "ME_BRONZE",
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -546,22 +530,16 @@
       "phase": "Women's Nanquan & Nandao",
       "unit": "Nanquan",
       "athletes": [],
-      "athletesEn": [
-        "CHAO Tang-hsuan"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "9.700",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "5",
-      "orgCount": 9,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2335,32 +2313,16 @@
       "phase": "Men's Nanquan & Nangun",
       "unit": "Nangun Final",
       "athletes": [],
-      "athletesEn": [
-        "HUANG Wen-sheng",
-        "LIU Chang-min"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "HUANG Wen-sheng",
-          "registration": "16537768",
-          "result": "9.726",
-          "rank": "2"
-        },
-        {
-          "name": "LIU Chang-min",
-          "registration": "6020214",
-          "result": "9.710",
-          "rank": "5"
-        }
-      ],
-      "tpeRank": "2",
-      "orgCount": 13,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2406,7 +2368,7 @@
       "opponentCode": "THA",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
-      "status": "INTERMEDIATE",
+      "status": "RUNNING",
       "result": {
         "tpe": "1",
         "opponent": "2",
@@ -2490,22 +2452,16 @@
       "phase": "Women's Nanquan & Nandao",
       "unit": "Nandao Final",
       "athletes": [],
-      "athletesEn": [
-        "CHAO Tang-hsuan"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "9.646",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "7",
-      "orgCount": 9,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2762,8 +2718,8 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T17:40:00+08:00",
-      "startTimeJst": "2026-09-22T18:40:00+09:00",
+      "startTimeTaipei": "2026-09-22T17:20:00+08:00",
+      "startTimeJst": "2026-09-22T18:20:00+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
@@ -2778,10 +2734,10 @@
       "opponentCode": "CHN",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "",
+        "opponent": "WPD",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -3239,7 +3195,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 17:40 Match 1",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 17:20 Match 1",
       "row": "WSU:W.60KG--------------.QFNL.000100--"
     },
     {
