@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T08:25:27.613Z",
+  "generatedAt": "2026-09-22T08:35:04.848Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T08:25:27.442Z",
+      "generatedAt": "2026-09-22T08:35:04.671Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2645,8 +2645,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "52",
-        "opponent": "66",
+        "tpe": "59",
+        "opponent": "73",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2733,14 +2733,14 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "2:16.11",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
