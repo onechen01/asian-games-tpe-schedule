@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T08:17:19.739Z",
+  "generatedAt": "2026-09-22T08:27:02.472Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-22T08:17:19.608Z",
+      "generatedAt": "2026-09-22T08:27:02.268Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1126,7 +1126,7 @@
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": "QUEK Yong / LOY Ming",
+      "opponent": "QUEK Yong/LOY Ming",
       "opponentCode": "SGP",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1324,7 +1324,7 @@
       "sportEn": "Esports",
       "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
       "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Group A",
-      "unit": "Group A Match 2",
+      "unit": "Match 2",
       "athletes": [],
       "athletesEn": [
         "LIN Chia-hung",
@@ -1762,7 +1762,7 @@
       "sportEn": "Esports",
       "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
       "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Group A",
-      "unit": "Group A Match 3",
+      "unit": "Match 3",
       "athletes": [],
       "athletesEn": [
         "LIN Chia-hung",
@@ -1805,7 +1805,7 @@
       "sportEn": "Esports",
       "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
       "phase": "NARAKA : BLADEPOINT Group B",
-      "unit": "Group B Match 2",
+      "unit": "Match 2",
       "athletes": [],
       "athletesEn": [
         "LIU Tang-shiun",
@@ -1899,7 +1899,7 @@
       "sportEn": "Esports",
       "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
       "phase": "NARAKA : BLADEPOINT Group B",
-      "unit": "Group B Match 3",
+      "unit": "Match 3",
       "athletes": [],
       "athletesEn": [
         "LIU Tang-shiun",
@@ -1985,7 +1985,7 @@
       "sportEn": "Esports",
       "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
       "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Group A",
-      "unit": "Group A Match 6",
+      "unit": "Match 6",
       "athletes": [],
       "athletesEn": [
         "LIN Chia-hung",
@@ -2157,7 +2157,7 @@
       "sportEn": "Esports",
       "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
       "phase": "NARAKA : BLADEPOINT Group B",
-      "unit": "Group B Match 6",
+      "unit": "Match 6",
       "athletes": [],
       "athletesEn": [
         "LIU Tang-shiun",
@@ -2598,7 +2598,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 Group A Match 2",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 Match 2",
       "row": "ELS:O.FTG---------------.GPA-.00020000"
     },
     {
@@ -2628,17 +2628,17 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:00 Group A Match 3",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:00 Match 3",
       "row": "ELS:O.FTG---------------.GPA-.00030000"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:00 Group B Match 2",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:00 Match 2",
       "row": "ELS:O.NRK---------------.GPB-.00020000"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:30 Group B Match 3",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:30 Match 3",
       "row": "ELS:O.NRK---------------.GPB-.00030000"
     },
     {
@@ -2648,7 +2648,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:00 Group A Match 6",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:00 Match 6",
       "row": "ELS:O.FTG---------------.GPA-.00060000"
     },
     {
@@ -2658,7 +2658,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 17:00 Group B Match 6",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 17:00 Match 6",
       "row": "ELS:O.NRK---------------.GPB-.00060000"
     },
     {
@@ -2690,6 +2690,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TST|W.SINGLES-----------",
       "message": "TST Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SWM|X.4X100MMD----------",
+      "message": "SWM Mixed 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -2740,11 +2745,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|W.100MBR------------",
       "message": "SWM Women's 100m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|X.4X100MMD----------",
-      "message": "SWM Mixed 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
