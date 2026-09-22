@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T12:34:41.053Z",
+  "generatedAt": "2026-09-22T12:44:40.781Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T12:34:40.874Z",
+      "generatedAt": "2026-09-22T12:44:40.597Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -2961,8 +2961,8 @@
     },
     {
       "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T21:20:00+08:00",
-      "startTimeJst": "2026-09-22T22:20:00+09:00",
+      "startTimeTaipei": "2026-09-22T20:32:40+08:00",
+      "startTimeJst": "2026-09-22T21:32:40+09:00",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "sportEn": "Wushu",
@@ -2977,10 +2977,14 @@
       "opponentCode": "TJK",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3284,7 +3288,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 21:20 Match 3",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 20:32 Match 3",
       "row": "WSU:M.75KG--------------.QFNL.000300--"
     },
     {
