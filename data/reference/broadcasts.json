@@ -1321,16 +1321,19 @@
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 馮翊新/葉伊恬 桌球 混雙預賽 9/23(原音) LIVE",
+      "title": "亞運 中華隊 桌球 混雙/女單預賽 9/23(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-22",
       "broadcastEndTimeTaipei": "2026-09-23T13:30:00+08:00",
-      "matchLevel": "unit",
+      "matchLevel": "discipline",
       "matchHint": {
-        "athleteNames": [
-          "FENG Yi-hsin",
-          "YEH Yi-tian"
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
         ]
       }
     },
@@ -1545,6 +1548,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T18:25:00+08:00",
+      "disciplineCode": "TTE",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": true,
+      "title": "亞運 中國VS中華 桌球 男團四強(第1桌) 9/23 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T21:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-23T18:35:00+08:00",
       "disciplineCode": "KAB",
       "channelId": "540",
@@ -1559,6 +1584,28 @@
       "matchHint": {
         "opponentCodes": [
           "NEP"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T11:55:00+08:00",
+      "disciplineCode": "SKB",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 辜泳諺 滑板 男子公園預賽 9/24(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-24T15:35:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "KU Yong-yan"
         ]
       }
     }
