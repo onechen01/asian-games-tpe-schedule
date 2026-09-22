@@ -1232,7 +1232,7 @@
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 詹泳逵/羅聖欽 田徑 男/女半馬競走決賽 9/23(原音) LIVE",
+      "title": "亞運 詹泳逵/羅聖欽 田徑 男/女半馬競走決賽 9/23(原音-轉播至08:55) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-22",
@@ -1272,20 +1272,113 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-23T10:30:00+08:00",
-      "disciplineCode": "KAB",
-      "channelId": "101",
-      "channelName": "愛爾達體育1台",
-      "isLive": false,
-      "title": "亞運 南韓VS中華 卡巴迪 男子預賽 9/23(原音) D-LIVE",
+      "broadcastStartTimeTaipei": "2026-09-23T08:55:00+08:00",
+      "disciplineCode": "KTE",
+      "channelId": "542",
+      "channelName": "愛爾達體育MAX3台",
+      "isLive": true,
+      "title": "亞運 中華隊 空手道 男子團體型八強/四強/銅牌戰 9/23(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-22",
-      "broadcastEndTimeTaipei": "2026-09-23T11:25:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-23T10:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T08:55:00+08:00",
+      "disciplineCode": "SWM",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華隊 游泳 預賽 9/23 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T10:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T08:55:00+08:00",
+      "disciplineCode": "TTE",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 馮翊新/葉伊恬 桌球 混雙預賽 9/23(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T13:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "FENG Yi-hsin",
+          "YEH Yi-tian"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T10:55:00+08:00",
+      "disciplineCode": "BK3",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華隊 3x3籃球 男/女預賽 9/23(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T14:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T11:50:00+08:00",
+      "disciplineCode": "HOC",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 哈薩克VS中華 曲棍球 女子預賽 9/22(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T13:25:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
-          "KOR"
+          "KAZ"
         ]
       }
     },
@@ -1365,6 +1458,28 @@
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-23T15:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 林俊佑 拳擊 男子60/80公斤級預賽 9/23(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T17:20:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Jun-you"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T15:55:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
@@ -1400,6 +1515,50 @@
       "matchHint": {
         "opponentCodes": [
           "HKG"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T17:20:00+08:00",
+      "disciplineCode": "KAB",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 中華VS日本 卡巴迪 男子預賽 9/23(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T18:35:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "JPN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T18:35:00+08:00",
+      "disciplineCode": "KAB",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 中華VS尼泊爾 卡巴迪 女子預賽 9/23(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-22",
+      "broadcastEndTimeTaipei": "2026-09-23T20:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "NEP"
         ]
       }
     }
