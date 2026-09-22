@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T06:07:27.642Z",
+  "generatedAt": "2026-09-22T06:16:27.179Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-22T06:07:27.502Z",
+      "generatedAt": "2026-09-22T06:16:26.998Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -2252,8 +2252,12 @@
       "opponentCode": "JPN",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "6",
+        "opponent": "6",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2293,8 +2297,12 @@
       "opponentCode": "KOR",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "4",
+        "opponent": "12",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2347,8 +2355,8 @@
         {
           "name": "LIU Chang-min",
           "registration": "6020214",
-          "result": null,
-          "rank": null
+          "result": "9.710",
+          "rank": "4"
         }
       ],
       "tpeRank": "2",
@@ -2398,8 +2406,12 @@
       "opponentCode": "THA",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2522,7 +2534,7 @@
       "opponentCode": "LAO",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
