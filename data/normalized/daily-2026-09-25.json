@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T07:10:33.451Z",
+  "generatedAt": "2026-09-23T10:10:42.296Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-23T07:10:33.289Z",
+      "generatedAt": "2026-09-23T10:10:42.150Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -961,34 +961,35 @@
       "sportEn": "Canoe Sprint",
       "event": "Men's Canoe Single 500m",
       "phase": "Men's Canoe Single 500m Final",
-      "unit": null,
+      "unit": "Men's Canoe Single 500m Final Final A",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LAI Kuan-chieh"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Miyoshi Lake Canoe Course",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LAI Kuan-chieh"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "CSP|M.C1-500M-----------"
+        "results": {
+          "unitId": "M.C1-500M-----------.FNL-.000100--",
+          "id": "CSP:M.C1-500M-----------.FNL-.000100--"
         }
       }
     },
@@ -1588,10 +1589,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 12,
-    "entered": 16,
+    "resultsOnly": 13,
+    "entered": 15,
     "unresolvedTbd": 0,
-    "warnings": 18
+    "warnings": 19
   },
   "warnings": [
     {
@@ -1628,6 +1629,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 10:10 Women's 4 x 100m Medley Relay Heat 1",
       "row": "SWM:W.4X100MMD----------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSP 10:50 Men's Canoe Single 500m Final Final A",
+      "row": "CSP:M.C1-500M-----------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",

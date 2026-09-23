@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T07:15:50.259Z",
+  "generatedAt": "2026-09-23T10:16:38.551Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-23T07:15:50.100Z",
+      "generatedAt": "2026-09-23T10:16:38.410Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -389,90 +389,6 @@
       "sources": {
         "entries": {
           "eventId": "SBL|W.TEAM9-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T08:30:00+08:00",
-      "startTimeJst": "2026-09-27T09:30:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Épée Team",
-      "phase": "Men's Épée Team Table of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "GUILLEMOT Yilu Gaston",
-        "HSU Ching-Wen",
-        "LEE Rang",
-        "WU Chun-Ming"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "FEN|M.TEAMEPEE----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T08:30:00+08:00",
-      "startTimeJst": "2026-09-27T09:30:00+09:00",
-      "disciplineCode": "KUR",
-      "sportZh": "克拉術",
-      "sportEn": "Kurash",
-      "event": "Women -57kg",
-      "phase": "Women -57kg Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "LEE Wan-ting",
-        "WANG Pin-chun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "KUR|W.57KG--------------"
         }
       }
     },
@@ -1341,7 +1257,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 3,
-    "entered": 20,
+    "entered": 18,
     "unresolvedTbd": 0,
     "warnings": 3
   },
