@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T05:26:40.857Z",
+  "generatedAt": "2026-09-23T05:46:58.007Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T05:26:40.675Z",
+      "generatedAt": "2026-09-23T05:46:57.836Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -674,39 +674,16 @@
       "phase": "10m Air Pistol Women Individual Qualification",
       "unit": "10m Air Pistol Women Individual - Qualification",
       "athletes": [],
-      "athletesEn": [
-        "CHENG Yen-Ching",
-        "YU Ai-Wen",
-        "WU Chia-Ying"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "CHENG Yen-Ching",
-          "registration": "13649678",
-          "result": "575-18x",
-          "rank": "9"
-        },
-        {
-          "name": "YU Ai-Wen",
-          "registration": "7677116",
-          "result": "572-12x",
-          "rank": "17"
-        },
-        {
-          "name": "WU Chia-Ying",
-          "registration": "13704134",
-          "result": "571-9x",
-          "rank": "19"
-        }
-      ],
-      "tpeRank": "9",
-      "orgCount": 25,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -736,24 +713,16 @@
       "phase": "10m Air Pistol Women Team Final",
       "unit": "10m Air Pistol Women Team - Final",
       "athletes": [],
-      "athletesEn": [
-        "CHENG Yen-Ching",
-        "WU Chia-Ying",
-        "YU Ai-Wen"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "1718-39x",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "5",
-      "orgCount": 14,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -823,160 +792,6 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T09:00:00+08:00",
       "startTimeJst": "2026-09-23T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Men Individual",
-      "phase": "Skeet Men Individual Qualification",
-      "unit": "Skeet Men Individual - Qualification - Qualification - Day 3",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Meng-Yuan",
-        "ZHANG Feng-Qi",
-        "WANG Han-Tsun"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": null,
-      "tpeEntrants": [
-        {
-          "name": "LEE Meng-Yuan",
-          "registration": "13634212",
-          "result": "120",
-          "rank": "2"
-        },
-        {
-          "name": "ZHANG Feng-Qi",
-          "registration": "4308201",
-          "result": "113",
-          "rank": "22"
-        },
-        {
-          "name": "WANG Han-Tsun",
-          "registration": "4309027",
-          "result": "112",
-          "rank": "26"
-        }
-      ],
-      "tpeRank": "2",
-      "orgCount": 21,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SKM---------------.QUAL.000300--",
-          "id": "SHO:M.SKM---------------.QUAL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
-      "startTimeJst": "2026-09-23T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Men Team",
-      "phase": "Skeet Men Team Final",
-      "unit": "Skeet Men Team - Final - Day 3",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Meng-Yuan",
-        "ZHANG Feng-Qi",
-        "WANG Han-Tsun"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "345",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "5",
-      "orgCount": 10,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SKTM--------------.FNL-.000300--",
-          "id": "SHO:M.SKTM--------------.FNL-.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
-      "startTimeJst": "2026-09-23T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Women Individual",
-      "phase": "Skeet Women Individual Qualification",
-      "unit": "Skeet Women Individual - Qualification - Qualification - Day 3",
-      "athletes": [],
-      "athletesEn": [
-        "LO Chien-Ya"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "99",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "24",
-      "orgCount": 11,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SKW---------------.QUAL.000300--",
-          "id": "SHO:W.SKW---------------.QUAL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
-      "startTimeJst": "2026-09-23T10:00:00+09:00",
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
@@ -1016,6 +831,123 @@
         "results": {
           "unitId": "X.DOUBLES-----------.R32-.000400--",
           "id": "TTE:X.DOUBLES-----------.R32-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
+      "startTimeJst": "2026-09-23T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Men Individual",
+      "phase": "Skeet Men Individual Qualification",
+      "unit": "Skeet Men Individual - Qualification - Qualification - Day 3",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SKM---------------.QUAL.000300--",
+          "id": "SHO:M.SKM---------------.QUAL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
+      "startTimeJst": "2026-09-23T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Men Team",
+      "phase": "Skeet Men Team Final",
+      "unit": "Skeet Men Team - Final - Day 3",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SKTM--------------.FNL-.000300--",
+          "id": "SHO:M.SKTM--------------.FNL-.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
+      "startTimeJst": "2026-09-23T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Women Individual",
+      "phase": "Skeet Women Individual Qualification",
+      "unit": "Skeet Women Individual - Qualification - Qualification - Day 3",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SKW---------------.QUAL.000300--",
+          "id": "SHO:W.SKW---------------.QUAL.000300--"
         }
       }
     },
@@ -1528,22 +1460,16 @@
       "phase": "10m Air Pistol Women Individual Final",
       "unit": "10m Air Pistol Women Individual - Final",
       "athletes": [],
-      "athletesEn": [
-        "CHENG Yen-Ching"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "200.7",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "4",
-      "orgCount": 7,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1627,8 +1553,12 @@
       "opponentCode": "SYR",
       "venue": "",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1674,12 +1604,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "105.132",
+        "tpe": "118.932",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "6",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1734,14 +1664,14 @@
       "opponentCode": "KAZ",
       "venue": "Gifu Prefectural Green Stadium(Gifu)",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "2",
+        "tpe": "4",
         "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2009,7 +1939,7 @@
       "opponentCode": null,
       "venue": "Nagaragawa International Regatta Course(Gifu)",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "8:14.84",
         "opponent": null,
@@ -2047,23 +1977,16 @@
       "phase": "Men's Kayak Double 500m Heats",
       "unit": "Men's Kayak Double 500m Heats Heat 2",
       "athletes": [],
-      "athletesEn": [
-        "LIN Yong-bo",
-        "LIN Yung-chieh"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Miyoshi Lake Canoe Course",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "1:36.490",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "2",
-      "orgCount": 7,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2101,14 +2024,14 @@
       "opponentCode": null,
       "venue": "Nagaragawa International Regatta Course(Gifu)",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "7:53.01",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2148,13 +2071,13 @@
       "venueZh": null,
       "status": "INTERMEDIATE",
       "result": {
-        "tpe": "9.516",
+        "tpe": "18.779",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
       "resultScope": "aggregate",
-      "tpeRank": "7",
+      "tpeRank": "4",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2317,9 +2240,7 @@
       "phase": "Skeet Men Individual Final",
       "unit": "Skeet Men Individual - Final",
       "athletes": [],
-      "athletesEn": [
-        "LEE Meng-Yuan"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
@@ -2328,7 +2249,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 7,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -3052,6 +2973,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Mixed Doubles Round 2 Match 4",
+      "row": "TTE:X.DOUBLES-----------.R32-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Individual - Qualification - Qualification - Day 3",
       "row": "SHO:M.SKM---------------.QUAL.000300--"
     },
@@ -3064,11 +2990,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Women Individual - Qualification - Qualification - Day 3",
       "row": "SHO:W.SKW---------------.QUAL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Mixed Doubles Round 2 Match 4",
-      "row": "TTE:X.DOUBLES-----------.R32-.000400--"
     },
     {
       "code": "RESULTS_ONLY",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T05:30:31.334Z",
+  "generatedAt": "2026-09-23T05:49:36.452Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T05:30:31.139Z",
+      "generatedAt": "2026-09-23T05:49:36.256Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -798,6 +798,50 @@
         "results": {
           "unitId": "W.PARK--------------.QUAL.000100--",
           "id": "SKB:W.PARK--------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T11:00:00+08:00",
+      "startTimeJst": "2026-09-24T12:00:00+09:00",
+      "disciplineCode": "BK3",
+      "sportZh": "3x3籃球",
+      "sportEn": "3x3 Basketball",
+      "event": "Women",
+      "phase": "Women Play-in",
+      "unit": "Women Play-in Game 1",
+      "athletes": [],
+      "athletesEn": [
+        "YU Chin-hua",
+        "TSAI Yu-lien",
+        "CHEN Wei-han",
+        "CHANG Yu-min"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kinjo Futo Station Square Venue",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM3-------------.8FNL.000100--",
+          "id": "BK3:W.TEAM3-------------.8FNL.000100--"
         }
       }
     },
@@ -1523,10 +1567,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 22,
+    "resultsOnly": 23,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 27
+    "warnings": 29
   },
   "warnings": [
     {
@@ -1578,6 +1622,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SKB 10:00 Women's Park - Prelims - Heat 1",
       "row": "SKB:W.PARK--------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BK3 11:00 Women Play-in Game 1",
+      "row": "BK3:W.TEAM3-------------.8FNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1643,6 +1692,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ATH|W.HEPTATH-----------",
       "message": "ATH Women's Heptathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BK3|W.TEAM3-------------",
+      "message": "BK3 Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
