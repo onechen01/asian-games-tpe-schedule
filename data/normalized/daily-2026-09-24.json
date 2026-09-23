@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T09:49:54.336Z",
+  "generatedAt": "2026-09-23T09:56:36.636Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T09:49:54.167Z",
+      "generatedAt": "2026-09-23T09:56:36.475Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -467,35 +467,445 @@
       "sportEn": "Fencing",
       "event": "Men's Épée Individual",
       "phase": "Men's Épée Individual Round of Pool 1",
-      "unit": null,
+      "unit": "Men's Épée Individual - Round of Pool 1 - Bout 1",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "GUILLEMOT Yilu Gaston"
+      ],
+      "opponent": "AL HARTHI Al Harith",
+      "opponentCode": "OMA",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 120,
-      "enteredAthletes": [
-        "GUILLEMOT Yilu Gaston",
-        "LEE Rang"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "FEN|M.EPEE--------------"
+        "results": {
+          "unitId": "M.EPEE--------------.GPA-.000100--",
+          "id": "FEN:M.EPEE--------------.GPA-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 1",
+      "unit": "Men's Épée Individual - Round of Pool 1 - Bout 5",
+      "athletes": [],
+      "athletesEn": [
+        "GUILLEMOT Yilu Gaston"
+      ],
+      "opponent": "ELCHOUEIRI Antoine",
+      "opponentCode": "LBN",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPA-.000500--",
+          "id": "FEN:M.EPEE--------------.GPA-.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 1",
+      "unit": "Men's Épée Individual - Round of Pool 1 - Bout 9",
+      "athletes": [],
+      "athletesEn": [
+        "GUILLEMOT Yilu Gaston"
+      ],
+      "opponent": "HOANG Nhat Nam",
+      "opponentCode": "VIE",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPA-.000900--",
+          "id": "FEN:M.EPEE--------------.GPA-.000900--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 1",
+      "unit": "Men's Épée Individual - Round of Pool 1 - Bout 13",
+      "athletes": [],
+      "athletesEn": [
+        "GUILLEMOT Yilu Gaston"
+      ],
+      "opponent": "ABDELTAWAB Youssef",
+      "opponentCode": "QAT",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPA-.001300--",
+          "id": "FEN:M.EPEE--------------.GPA-.001300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 1",
+      "unit": "Men's Épée Individual - Round of Pool 1 - Bout 17",
+      "athletes": [],
+      "athletesEn": [
+        "GUILLEMOT Yilu Gaston"
+      ],
+      "opponent": "ISLAMOV Rustam",
+      "opponentCode": "KGZ",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPA-.001700--",
+          "id": "FEN:M.EPEE--------------.GPA-.001700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 1",
+      "unit": "Men's Épée Individual - Round of Pool 1 - Bout 21",
+      "athletes": [],
+      "athletesEn": [
+        "GUILLEMOT Yilu Gaston"
+      ],
+      "opponent": "KANO Koki",
+      "opponentCode": "JPN",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPA-.002100--",
+          "id": "FEN:M.EPEE--------------.GPA-.002100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 6",
+      "unit": "Men's Épée Individual - Round of Pool 6 - Bout 2",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Rang"
+      ],
+      "opponent": "ALFUDARI Hasan",
+      "opponentCode": "KUW",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPF-.000200--",
+          "id": "FEN:M.EPEE--------------.GPF-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 6",
+      "unit": "Men's Épée Individual - Round of Pool 6 - Bout 4",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Rang"
+      ],
+      "opponent": "ALBLOOSHI Salha",
+      "opponentCode": "UAE",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPF-.000400--",
+          "id": "FEN:M.EPEE--------------.GPF-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 6",
+      "unit": "Men's Épée Individual - Round of Pool 6 - Bout 8",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Rang"
+      ],
+      "opponent": "PARK Sangyoung",
+      "opponentCode": "KOR",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPF-.000800--",
+          "id": "FEN:M.EPEE--------------.GPF-.000800--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 6",
+      "unit": "Men's Épée Individual - Round of Pool 6 - Bout 12",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Rang"
+      ],
+      "opponent": "JOSE Noelito Jr.",
+      "opponentCode": "PHI",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPF-.001200--",
+          "id": "FEN:M.EPEE--------------.GPF-.001200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Round of Pool 6",
+      "unit": "Men's Épée Individual - Round of Pool 6 - Bout 15",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Rang"
+      ],
+      "opponent": "ANOKHIN Vadim",
+      "opponentCode": "UZB",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.GPF-.001500--",
+          "id": "FEN:M.EPEE--------------.GPF-.001500--"
         }
       }
     },
@@ -1694,10 +2104,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 26,
-    "entered": 6,
+    "resultsOnly": 37,
+    "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 33
+    "warnings": 45
   },
   "warnings": [
     {
@@ -1714,6 +2124,61 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Doubles Round 2 Match 2",
       "row": "TTE:W.DOUBLES-----------.R32-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 1 - Bout 1",
+      "row": "FEN:M.EPEE--------------.GPA-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 1 - Bout 5",
+      "row": "FEN:M.EPEE--------------.GPA-.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 1 - Bout 9",
+      "row": "FEN:M.EPEE--------------.GPA-.000900--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 1 - Bout 13",
+      "row": "FEN:M.EPEE--------------.GPA-.001300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 1 - Bout 17",
+      "row": "FEN:M.EPEE--------------.GPA-.001700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 1 - Bout 21",
+      "row": "FEN:M.EPEE--------------.GPA-.002100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 6 - Bout 2",
+      "row": "FEN:M.EPEE--------------.GPF-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 6 - Bout 4",
+      "row": "FEN:M.EPEE--------------.GPF-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 6 - Bout 8",
+      "row": "FEN:M.EPEE--------------.GPF-.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 6 - Bout 12",
+      "row": "FEN:M.EPEE--------------.GPF-.001200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 6 - Bout 15",
+      "row": "FEN:M.EPEE--------------.GPF-.001500--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1834,6 +2299,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ATH|W.HEPTATH-----------",
       "message": "ATH Women's Heptathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "FEN|M.EPEE--------------",
+      "message": "FEN Men's Épée Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
