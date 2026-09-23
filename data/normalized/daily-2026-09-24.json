@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T21:35:27.252Z",
+  "generatedAt": "2026-09-23T23:43:55.294Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T21:35:27.098Z",
+      "generatedAt": "2026-09-23T23:43:55.161Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -371,6 +371,51 @@
         "results": {
           "unitId": "M.APM---------------.QUAL.000100--",
           "id": "SHO:M.APM---------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
+      "phase": "NARAKA : BLADEPOINT Semi-finals",
+      "unit": "1",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Tang-shiun",
+        "YEN Kai-en",
+        "CHEN Shang-yi",
+        "YEH Chih-yu",
+        "CHENG Hsu-yu"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.NRK---------------.SFNL.00010000",
+          "id": "ELS:O.NRK---------------.SFNL.00010000"
         }
       }
     },
@@ -1340,51 +1385,6 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T12:00:00+08:00",
-      "startTimeJst": "2026-09-24T13:00:00+09:00",
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
-      "phase": "NARAKA : BLADEPOINT Semi-finals",
-      "unit": "2",
-      "athletes": [],
-      "athletesEn": [
-        "LIU Tang-shiun",
-        "YEN Kai-en",
-        "CHEN Shang-yi",
-        "YEH Chih-yu",
-        "CHENG Hsu-yu"
-      ],
-      "opponent": "Thailand",
-      "opponentCode": "THA",
-      "venue": "",
-      "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "O.NRK---------------.SFNL.00020000",
-          "id": "ELS:O.NRK---------------.SFNL.00020000"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T12:15:00+08:00",
       "startTimeJst": "2026-09-24T13:15:00+09:00",
       "disciplineCode": "KAB",
@@ -2082,6 +2082,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 1",
+      "row": "ELS:O.NRK---------------.SFNL.00010000"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 1 - Bout 1",
       "row": "FEN:M.EPEE--------------.GPA-.000100--"
     },
@@ -2194,11 +2199,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 11:50 Men Play-in Game 1",
       "row": "BK3:M.TEAM3-------------.8FNL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 2",
-      "row": "ELS:O.NRK---------------.SFNL.00020000"
     },
     {
       "code": "RESULTS_ONLY",
