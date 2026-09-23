@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T12:08:17.472Z",
+  "generatedAt": "2026-09-23T12:24:09.604Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T12:08:17.275Z",
+      "generatedAt": "2026-09-23T12:24:09.418Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 4,
-          "recovered": 4,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -988,7 +988,7 @@
         "LIN Yun-ju",
         "CHENG I-ching"
       ],
-      "opponent": "KASYMOV Atai / AIAZBEKOVA Nurkyz",
+      "opponent": "KASYMOV Atai/AIAZBEKOVA Nurkyz",
       "opponentCode": "KGZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -999,7 +999,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1308,7 +1308,7 @@
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": "QUEK Yong / LOY Ming",
+      "opponent": "QUEK Yong/LOY Ming",
       "opponentCode": "SGP",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1319,7 +1319,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1587,7 +1587,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1912,59 +1912,13 @@
       "sportEn": "Table Tennis",
       "event": "Mixed Doubles",
       "phase": "Mixed Doubles Round 3",
-      "unit": "Mixed Doubles Round 3 Match 2",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Yun-ju",
-        "CHENG I-ching"
-      ],
-      "opponent": "SHINOZUKA Hiroto / ITO Mima",
-      "opponentCode": "JPN",
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "3",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.8FNL.000200--",
-          "id": "TTE:X.DOUBLES-----------.8FNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T12:45:00+08:00",
-      "startTimeJst": "2026-09-23T13:45:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Round 3",
       "unit": "Mixed Doubles Round 3 Match 8",
       "athletes": [],
       "athletesEn": [
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": "WANG Chuqin / SUN Yingsha",
+      "opponent": "WANG Chuqin/SUN Yingsha",
       "opponentCode": "CHN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1975,7 +1929,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1992,6 +1946,52 @@
         "results": {
           "unitId": "X.DOUBLES-----------.8FNL.000800--",
           "id": "TTE:X.DOUBLES-----------.8FNL.000800--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T12:45:00+08:00",
+      "startTimeJst": "2026-09-23T13:45:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Round 3",
+      "unit": "Mixed Doubles Round 3 Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yun-ju",
+        "CHENG I-ching"
+      ],
+      "opponent": "SHINOZUKA Hiroto/ITO Mima",
+      "opponentCode": "JPN",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000200--",
+          "id": "TTE:X.DOUBLES-----------.8FNL.000200--"
         }
       }
     },
@@ -2833,7 +2833,7 @@
       "opponentCode": "HKG",
       "venue": "Toyohashi Municipal Baseball Stadium",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "11",
         "opponent": "0",
@@ -2940,12 +2940,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "129.396",
+        "tpe": "143.462",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "8",
+      "tpeRank": "7",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3294,13 +3294,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 12:45 Mixed Doubles Round 3 Match 2",
-      "row": "TTE:X.DOUBLES-----------.8FNL.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 12:45 Mixed Doubles Round 3 Match 8",
+      "row": "TTE:X.DOUBLES-----------.8FNL.000800--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 12:45 Mixed Doubles Round 3 Match 8",
-      "row": "TTE:X.DOUBLES-----------.8FNL.000800--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 12:45 Mixed Doubles Round 3 Match 2",
+      "row": "TTE:X.DOUBLES-----------.8FNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
