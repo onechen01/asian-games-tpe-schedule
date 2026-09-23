@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T01:04:39.556Z",
+  "generatedAt": "2026-09-23T02:05:15.918Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T01:04:39.373Z",
+      "generatedAt": "2026-09-23T02:05:15.774Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -444,7 +444,7 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "DELAYED",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -485,8 +485,12 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "DELAYED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -526,8 +530,12 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "DELAYED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "2",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -607,27 +615,27 @@
       "unit": "Game 6",
       "athletes": [],
       "athletesEn": [
+        "CHANG Chung-mao",
+        "JIN Wu Fu-kai",
+        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "SU Hsiang-chih",
-        "CHUANG Chia-ming",
-        "LIN Po-ting",
-        "JIN Wu Fu-kai",
         "YEH Jiunn-ming",
-        "WANG Lun-chu",
-        "LI Jyun-jie",
-        "CHANG Chung-mao",
         "CHEN Zheng-wei",
-        "CAI Ruei-chen"
+        "CHUANG Chia-ming",
+        "LI Jyun-jie",
+        "LIN Po-ting",
+        "CAI Ruei-chen",
+        "SU Hsiang-chih"
       ],
       "opponent": "Republic of Korea",
       "opponentCode": "KOR",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "20",
-        "opponent": "19",
+        "tpe": "43",
+        "opponent": "37",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -677,23 +685,23 @@
         {
           "name": "CHENG Yen-Ching",
           "registration": "13649678",
-          "result": "106-4x",
-          "rank": "6"
+          "result": "575-18x",
+          "rank": "9"
         },
         {
           "name": "YU Ai-Wen",
           "registration": "7677116",
-          "result": "190-4x",
-          "rank": "20"
+          "result": "572-12x",
+          "rank": "17"
         },
         {
           "name": "WU Chia-Ying",
           "registration": "13704134",
-          "result": "132-3x",
-          "rank": "27"
+          "result": "571-9x",
+          "rank": "19"
         }
       ],
-      "tpeRank": "6",
+      "tpeRank": "9",
       "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -733,9 +741,9 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "428-11x",
+        "tpe": "1718-39x",
         "opponent": null,
         "source": "results"
       },
@@ -780,14 +788,14 @@
       "opponentCode": "CAM",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "4",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -936,7 +944,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "79",
+        "tpe": "94",
         "opponent": null,
         "source": "results"
       },
@@ -980,14 +988,14 @@
       "opponentCode": "KGZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
+        "tpe": "3",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1018,16 +1026,22 @@
       "phase": "Women's 100m Butterfly Heats",
       "unit": "Women's 100m Butterfly Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIU Pei-yin"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "RUNNING",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "59.65",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "3",
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1057,16 +1071,22 @@
       "phase": "Women's 100m Butterfly Heats",
       "unit": "Women's 100m Butterfly Heat 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "HAN An-chi"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "59.51",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "2",
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1096,16 +1116,22 @@
       "phase": "Men's 100m Butterfly Heats",
       "unit": "Men's 100m Butterfly Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Kuan-hung"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "52.58",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "2",
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1126,6 +1152,53 @@
     },
     {
       "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:20:00+08:00",
+      "startTimeJst": "2026-09-23T10:20:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Team Kata",
+      "phase": "Men's Team Kata Semifinals",
+      "unit": "Men's Team Kata Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "TU Cheng-han",
+        "CHANG Yun-hsiang",
+        "LI Hsiang-hsuan"
+      ],
+      "opponent": "Macao, China",
+      "opponentCode": "MAC",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.SFNL.000100--",
+          "id": "KTE:M.TEAM--------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T09:27:00+08:00",
       "startTimeJst": "2026-09-23T10:27:00+09:00",
       "disciplineCode": "SWM",
@@ -1135,16 +1208,22 @@
       "phase": "Women's 100m Backstroke Heats",
       "unit": "Women's 100m Backstroke Heat 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHANG Ya-jia"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1:02.53",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "4",
+      "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1160,6 +1239,53 @@
         "results": {
           "unitId": "W.100MBA------------.HEAT.000300--",
           "id": "SWM:W.100MBA------------.HEAT.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:35:00+08:00",
+      "startTimeJst": "2026-09-23T10:35:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Team Kata",
+      "phase": "Men's Team Kata Bronze Medal Bout",
+      "unit": "Men's Team Kata Bronze Medal Bout A",
+      "athletes": [],
+      "athletesEn": [
+        "TU Cheng-han",
+        "CHANG Yun-hsiang",
+        "LI Hsiang-hsuan"
+      ],
+      "opponent": "Hong Kong, China",
+      "opponentCode": "HKG",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "3",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.REPF.000100--",
+          "id": "KTE:M.TEAM--------------.REPF.000100--"
         }
       }
     },
@@ -1182,10 +1308,14 @@
       "opponentCode": "SGP",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1216,16 +1346,22 @@
       "phase": "Women's 100m Breaststroke Heats",
       "unit": "Women's 100m Breaststroke Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIN Pei-wun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1:09.69",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "3",
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1260,11 +1396,11 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1593,6 +1729,90 @@
         "results": {
           "unitId": "W.TEAM3-------------.GPB-.000600--",
           "id": "BK3:W.TEAM3-------------.GPB-.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T12:45:00+08:00",
+      "startTimeJst": "2026-09-23T13:45:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Round 3",
+      "unit": "Mixed Doubles Round 3 Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yun-ju",
+        "CHENG I-ching"
+      ],
+      "opponent": "SHINOZUKA Hiroto/ITO Mima",
+      "opponentCode": "JPN",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000200--",
+          "id": "TTE:X.DOUBLES-----------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T12:45:00+08:00",
+      "startTimeJst": "2026-09-23T13:45:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Round 3",
+      "unit": "Mixed Doubles Round 3 Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "FENG Yi-hsin",
+        "YEH Yi-tian"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000800--",
+          "id": "TTE:X.DOUBLES-----------.8FNL.000800--"
         }
       }
     },
@@ -2367,10 +2587,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 45,
+    "resultsOnly": 49,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 59
+    "warnings": 62
   },
   "warnings": [
     {
@@ -2460,8 +2680,18 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:20 Men's Team Kata Semifinal",
+      "row": "KTE:M.TEAM--------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:27 Women's 100m Backstroke Heat 3",
       "row": "SWM:W.100MBA------------.HEAT.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:35 Men's Team Kata Bronze Medal Bout A",
+      "row": "KTE:M.TEAM--------------.REPF.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2512,6 +2742,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BK3 12:40 Women Round Robin Pool B Game 6",
       "row": "BK3:W.TEAM3-------------.GPB-.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 12:45 Mixed Doubles Round 3 Match 2",
+      "row": "TTE:X.DOUBLES-----------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 12:45 Mixed Doubles Round 3 Match 8",
+      "row": "TTE:X.DOUBLES-----------.8FNL.000800--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2602,11 +2842,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "WLF|W.49KG--------------",
       "message": "WLF Women's 49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "KTE|M.TEAM--------------",
-      "message": "KTE Men's Team Kata 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

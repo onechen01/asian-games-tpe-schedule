@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T01:08:48.623Z",
+  "generatedAt": "2026-09-23T02:10:08.983Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T01:08:48.403Z",
+      "generatedAt": "2026-09-23T02:10:08.818Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -1224,19 +1224,19 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T17:35:00+08:00",
-      "startTimeJst": "2026-09-24T18:35:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Men's Pommel Horse",
-      "phase": "Men's Pommel Horse Final",
+      "startTimeTaipei": "2026-09-24T18:33:00+08:00",
+      "startTimeJst": "2026-09-24T19:33:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 100m",
+      "phase": "Women's 100m Round 1",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
       "status": null,
       "result": null,
@@ -1249,63 +1249,16 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 1,
+      "unitCount": 4,
       "enteredAthletes": [
-        "CHUANG Chia-lung",
-        "HUNG Yuan-hsi",
-        "LEE Chih-kai",
-        "SHIAO Yu-jan"
+        "LIAO Yan-jun"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
         "entries": {
-          "eventId": "GAR|M.1APPH-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T18:45:00+08:00",
-      "startTimeJst": "2026-09-24T19:45:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Women's Uneven Bars",
-      "phase": "Women's Uneven Bars Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LAI Pin-ju",
-        "LIAO Yi-chun",
-        "LIN Yi-chen",
-        "TING Hua-tien",
-        "WU Yu-jhih"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GAR|W.1APUB-------------"
+          "eventId": "ATH|W.100M--------------"
         }
       }
     },
@@ -1349,49 +1302,6 @@
           "eventId": "ATH|M.100M--------------"
         }
       }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T19:25:00+08:00",
-      "startTimeJst": "2026-09-24T20:25:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Men's Rings",
-      "phase": "Men's Rings Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUANG Chia-lung",
-        "HUNG Yuan-hsi",
-        "SHIAO Yu-jan",
-        "TANG Chia-hung"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GAR|M.1APSR-------------"
-        }
-      }
     }
   ],
   "coverageComplete": true,
@@ -1400,7 +1310,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 17,
-    "entered": 8,
+    "entered": 6,
     "unresolvedTbd": 0,
     "warnings": 21
   },
