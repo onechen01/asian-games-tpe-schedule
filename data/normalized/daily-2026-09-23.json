@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T02:05:15.918Z",
+  "generatedAt": "2026-09-23T02:30:07.009Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T02:05:15.774Z",
+      "generatedAt": "2026-09-23T02:30:06.826Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -444,8 +444,12 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "3",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -487,8 +491,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "1",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -530,14 +534,14 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
-        "opponent": "3",
+        "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -615,18 +619,18 @@
       "unit": "Game 6",
       "athletes": [],
       "athletesEn": [
-        "CHANG Chung-mao",
-        "JIN Wu Fu-kai",
-        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "YEH Jiunn-ming",
-        "CHEN Zheng-wei",
+        "SU Hsiang-chih",
         "CHUANG Chia-ming",
-        "LI Jyun-jie",
         "LIN Po-ting",
-        "CAI Ruei-chen",
-        "SU Hsiang-chih"
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
       ],
       "opponent": "Republic of Korea",
       "opponentCode": "KOR",
@@ -679,7 +683,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -741,7 +745,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1718-39x",
         "opponent": null,
@@ -841,14 +845,14 @@
         {
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
-          "result": "96",
-          "rank": "3"
+          "result": "109",
+          "rank": "4"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
           "result": "92",
-          "rank": "19"
+          "rank": "21"
         },
         {
           "name": "WANG Han-Tsun",
@@ -857,7 +861,7 @@
           "rank": "26"
         }
       ],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -944,7 +948,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "94",
+        "tpe": "99",
         "opponent": null,
         "source": "results"
       },
@@ -1396,8 +1400,12 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 7,
@@ -1457,6 +1465,47 @@
         "results": {
           "unitId": "W.50KG--------------.8FNL.000500--",
           "id": "KTE:W.50KG--------------.8FNL.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T11:30:00+08:00",
+      "startTimeJst": "2026-09-23T12:30:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "10m Air Pistol Women Individual",
+      "phase": "10m Air Pistol Women Individual Final",
+      "unit": "10m Air Pistol Women Individual - Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHENG Yen-Ching"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.APW---------------.FNL-.000100--",
+          "id": "SHO:W.APW---------------.FNL-.000100--"
         }
       }
     },
@@ -1789,15 +1838,15 @@
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "WANG Chuqin/SUN Yingsha",
+      "opponentCode": "CHN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2587,7 +2636,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 49,
+    "resultsOnly": 50,
     "entered": 1,
     "unresolvedTbd": 0,
     "warnings": 62
@@ -2712,6 +2761,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KTE 10:55 Women's Kumite -50kg Round of 16",
       "row": "KTE:W.50KG--------------.8FNL.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 11:30 10m Air Pistol Women Individual - Final",
+      "row": "SHO:W.APW---------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2845,11 +2899,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TST|W.SINGLES-----------",
-      "message": "TST Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "TST|M.SINGLES-----------",
       "message": "TST Men's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2860,8 +2909,8 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "SHO|W.APW---------------",
-      "message": "SHO 10m Air Pistol Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TST|W.SINGLES-----------",
+      "message": "TST Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

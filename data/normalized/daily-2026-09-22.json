@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T00:53:27.262Z",
+  "generatedAt": "2026-09-23T02:28:12.361Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-22/schedule-2026-09-22-AUTO.json",
-      "generatedAt": "2026-09-23T00:53:27.084Z",
+      "generatedAt": "2026-09-23T02:28:12.185Z",
       "coverage": {
         "sports": [
           "BBL",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2817,55 +2817,6 @@
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
-      "event": "Men's Team",
-      "phase": "Men's Team Quarterfinals",
-      "unit": "Men's Team Quarterfinals Match 2",
-      "athletes": [],
-      "athletesEn": [
-        "FENG Yi-hsin",
-        "HSU Hsien-chia",
-        "LIN Yun-ju",
-        "KUO Guan-hong",
-        "HUNG Jing-kai"
-      ],
-      "opponent": "Islamic Republic of Iran",
-      "opponentCode": "IRI",
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "3",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.TEAM--------------.QFNL.00020000",
-          "id": "TTE:M.TEAM--------------.QFNL.00020000"
-        }
-      }
-    },
-    {
-      "date": "2026-09-22",
-      "startTimeTaipei": "2026-09-22T18:20:00+08:00",
-      "startTimeJst": "2026-09-22T19:20:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
       "event": "Women's Team",
       "phase": "Women's Team Quarterfinals",
       "unit": "Women's Team Quarterfinals Match 4",
@@ -2905,6 +2856,55 @@
         "results": {
           "unitId": "W.TEAM--------------.QFNL.00040000",
           "id": "TTE:W.TEAM--------------.QFNL.00040000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "startTimeTaipei": "2026-09-22T18:20:00+08:00",
+      "startTimeJst": "2026-09-22T19:20:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Team",
+      "phase": "Men's Team Quarterfinals",
+      "unit": "Men's Team Quarterfinals Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "FENG Yi-hsin",
+        "HSU Hsien-chia",
+        "LIN Yun-ju",
+        "KUO Guan-hong",
+        "HUNG Jing-kai"
+      ],
+      "opponent": "Islamic Republic of Iran",
+      "opponentCode": "IRI",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.QFNL.00020000",
+          "id": "TTE:M.TEAM--------------.QFNL.00020000"
         }
       }
     },
@@ -3278,13 +3278,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 18:20 Men's Team Quarterfinals Match 2",
-      "row": "TTE:M.TEAM--------------.QFNL.00020000"
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 18:20 Women's Team Quarterfinals Match 4",
+      "row": "TTE:W.TEAM--------------.QFNL.00040000"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 18:20 Women's Team Quarterfinals Match 4",
-      "row": "TTE:W.TEAM--------------.QFNL.00040000"
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 18:20 Men's Team Quarterfinals Match 2",
+      "row": "TTE:M.TEAM--------------.QFNL.00020000"
     },
     {
       "code": "RESULTS_ONLY",
