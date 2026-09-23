@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T19:13:56.572Z",
+  "generatedAt": "2026-09-23T22:20:11.742Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-23T19:13:56.421Z",
+      "generatedAt": "2026-09-23T22:20:11.578Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -297,8 +297,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -882,49 +882,6 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
-      "startTimeJst": "2026-09-28T10:00:00+09:00",
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "HO Chenjui",
-        "HSIEH Su-wei",
-        "HUANG Tsung-hao",
-        "LIANG En-shuo"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|X.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T09:30:00+08:00",
       "startTimeJst": "2026-09-28T10:30:00+09:00",
       "disciplineCode": "ELS",
@@ -1290,7 +1247,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 10,
-    "entered": 12,
+    "entered": 11,
     "unresolvedTbd": 0,
     "warnings": 10
   },
