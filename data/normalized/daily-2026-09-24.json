@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T06:08:35.829Z",
+  "generatedAt": "2026-09-23T06:39:32.636Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T06:08:35.631Z",
+      "generatedAt": "2026-09-23T06:39:32.419Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -881,6 +881,50 @@
         "results": {
           "unitId": "W.TEAM7-------------.GPB-.000500--",
           "id": "KAB:W.TEAM7-------------.GPB-.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T11:50:00+08:00",
+      "startTimeJst": "2026-09-24T12:50:00+09:00",
+      "disciplineCode": "BK3",
+      "sportZh": "3x3籃球",
+      "sportEn": "3x3 Basketball",
+      "event": "Men",
+      "phase": "Men Play-in",
+      "unit": "Men Play-in Game 1",
+      "athletes": [],
+      "athletesEn": [
+        "YEH Wei-chieh",
+        "TZOU Tzu-hsi",
+        "CHANG Chun-sheng",
+        "HSU Tang-chi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kinjo Futo Station Square Venue",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM3-------------.8FNL.000100--",
+          "id": "BK3:M.TEAM3-------------.8FNL.000100--"
         }
       }
     },
@@ -1567,10 +1611,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 23,
+    "resultsOnly": 24,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 29
+    "warnings": 31
   },
   "warnings": [
     {
@@ -1632,6 +1676,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 11:00 Game 5",
       "row": "KAB:W.TEAM7-------------.GPB-.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BK3 11:50 Men Play-in Game 1",
+      "row": "BK3:M.TEAM3-------------.8FNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1697,6 +1746,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BK3|W.TEAM3-------------",
       "message": "BK3 Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BK3|M.TEAM3-------------",
+      "message": "BK3 Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
