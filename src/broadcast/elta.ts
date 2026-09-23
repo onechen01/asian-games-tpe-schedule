@@ -17,6 +17,18 @@ export type BroadcastRecord = {
 };
 export type Unresolved = { time:string|null; title:string; reason:string };
 
+const recordIdentity = (r:BroadcastRecord)=>JSON.stringify([
+  r.providerId,r.date,r.broadcastStartTimeTaipei,r.disciplineCode,r.title ?? '',
+]);
+
+export function preserveVerifiedMatchHints(next:BroadcastRecord[],previous:BroadcastRecord[]):BroadcastRecord[] {
+  const verified = new Map(previous
+    .filter(r=>r.matchHint.eventKeywords?.length)
+    .map(r=>[recordIdentity(r),r.matchHint]));
+  return next.map(r=>r.matchHint.eventKeywords?.length ? r
+    : verified.has(recordIdentity(r)) ? {...r,matchHint:verified.get(recordIdentity(r))!} : r);
+}
+
 const CODE_BY_ZH = Object.fromEntries(Object.entries(SPORT_ZH).map(([code,zh])=>[zh,code]));
 
 // The programme list is published as a JSON literal inside the public page. Reading it is a

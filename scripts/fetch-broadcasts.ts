@@ -5,7 +5,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { save, ROOT } from '../src/utils/storage.ts';
-import { extractScheduleList, toBroadcasts, gateBroadcasts, PROVIDER } from '../src/broadcast/elta.ts';
+import { extractScheduleList, toBroadcasts, gateBroadcasts, preserveVerifiedMatchHints, PROVIDER } from '../src/broadcast/elta.ts';
 import type { BroadcastRecord } from '../src/broadcast/elta.ts';
 
 const argv = process.argv.slice(2);
@@ -46,12 +46,13 @@ catch (error) {
   console.error(`${provider} parse failed: ${(error as Error).message}；保留既有資料`);
   process.exit(1);
 }
-const gate = gateBroadcasts(batch.records, previous);
-const same = JSON.stringify(batch.records.map(r=>({...r,capturedAt:null})))
+const records = preserveVerifiedMatchHints(batch.records,previous);
+const gate = gateBroadcasts(records, previous);
+const same = JSON.stringify(records.map(r=>({...r,capturedAt:null})))
   === JSON.stringify(previous.map(r=>({...r,capturedAt:null})));
 
 console.log(`${PROVIDER.providerName} fetched ${batch.records.length + batch.unresolved.length}`);
-console.log(`accepted ${batch.records.length}`);
+console.log(`accepted ${records.length}`);
 console.log(`unresolved ${batch.unresolved.length}`);
 for (const u of batch.unresolved.slice(0,10)) console.log(`  - ${u.time ?? '--'} ${u.title} [${u.reason}]`);
 console.log(`gate ${gate.pass ? 'pass' : 'hold: ' + gate.reasons.join(', ')}`);
@@ -59,5 +60,5 @@ console.log(same ? 'no-change' : 'changed');
 if (dryRun) { console.log('dry run：未寫入任何檔案'); process.exit(0); }
 if (!gate.pass) { console.error('品質檢查未通過，保留上一版 records'); process.exit(1); }
 if (same) process.exit(0);
-await save(FILE, { ...doc, records:[...others, ...batch.records] });
-console.log(`保存：${FILE}（${provider} ${batch.records.length} 筆，其他 provider ${others.length} 筆保留）`);
+await save(FILE, { ...doc, records:[...others, ...records] });
+console.log(`保存：${FILE}（${provider} ${records.length} 筆，其他 provider ${others.length} 筆保留）`);

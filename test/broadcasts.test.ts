@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import { extractScheduleList, toBroadcasts, gateBroadcasts, athleteHint, PROVIDER } from '../src/broadcast/elta.ts';
+import { extractScheduleList, toBroadcasts, gateBroadcasts, athleteHint, preserveVerifiedMatchHints, PROVIDER } from '../src/broadcast/elta.ts';
 
 const page = (json:string)=>`<html><script>\n let schedule_list = ${json};\n</script></html>`;
 const programme = (o:Record<string,unknown>)=>({ is_taipei_team:1, ...o });
@@ -20,6 +20,20 @@ test('a Chinese Taipei programme becomes one record in the shared schema',()=>{
   assert.equal(r.matchLevel,'unit');
   assert.deepEqual(r.matchHint.opponentCodes,['KOR']);
   assert.equal(r.feed,'main');
+});
+
+test('verified event hints survive only an exact record identity match',()=>{
+  const generated = parse(day([programme({ format_s_time:'2026-09-21 13:00:00',
+    program_desc:'亞運 中華隊 桌球 預賽', sport_item:{ sp_name:'桌球' } })])).records[0];
+  const manual={...generated,matchHint:{eventKeywords:['Mixed Doubles'],phaseKeywords:['Round 1']}};
+  assert.deepEqual(preserveVerifiedMatchHints([generated],[manual])[0].matchHint,manual.matchHint);
+  for(const changed of [
+    {...manual,providerId:'other'}, {...manual,date:'2026-09-22'},
+    {...manual,broadcastStartTimeTaipei:'2026-09-21T13:01:00+08:00'},
+    {...manual,disciplineCode:'KTE'}, {...manual,title:'different'},
+  ]) assert.deepEqual(preserveVerifiedMatchHints([generated],[changed])[0].matchHint,generated.matchHint);
+  const structured={...generated,matchHint:{eventKeywords:['Parser Event'],phaseKeywords:['Parser Phase']}};
+  assert.deepEqual(preserveVerifiedMatchHints([structured],[manual])[0].matchHint,structured.matchHint);
 });
 
 test('原音 is kept as its own feed',()=>{
