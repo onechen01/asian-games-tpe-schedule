@@ -1361,7 +1361,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-23",
-      "broadcastEndTimeTaipei": "2026-09-23T14:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-23T11:50:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -1492,12 +1492,38 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T12:35:00+08:00",
+      "disciplineCode": "BK3",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華隊 3x3籃球 男/女預賽 9/23(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-23T14:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-23T14:45:00+08:00",
       "disciplineCode": "KTE",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
-      "isLive": false,
-      "title": "亞運 中華隊 空手道 男子團體型/男84以上/女50公斤級複賽/金牌戰 9/23 D-LIVE",
+      "isLive": true,
+      "title": "亞運 中華隊 空手道 男子團體型/男84以上/女50公斤級複賽/金牌戰 9/23 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-23",
@@ -1687,6 +1713,58 @@
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-24T08:55:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 中華隊 田徑 預賽 9/24(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-24T11:20:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T08:55:00+08:00",
+      "disciplineCode": "SWM",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 中華隊 游泳 預賽 9/24(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-24T10:55:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T08:55:00+08:00",
       "disciplineCode": "TTE",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
@@ -1695,7 +1773,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-23",
-      "broadcastEndTimeTaipei": "2026-09-24T12:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-24T10:55:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
