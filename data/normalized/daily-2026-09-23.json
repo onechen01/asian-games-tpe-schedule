@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T00:17:12.031Z",
+  "generatedAt": "2026-09-23T00:49:36.234Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T00:17:11.881Z",
+      "generatedAt": "2026-09-23T00:49:36.074Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -567,15 +567,15 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "9.516",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
       "resultScope": "component",
-      "tpeRank": null,
+      "tpeRank": "7",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -624,8 +624,12 @@
       "opponentCode": "KOR",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "12",
+        "opponent": "11",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -659,37 +663,37 @@
       "unit": "10m Air Pistol Women Individual - Qualification",
       "athletes": [],
       "athletesEn": [
-        "WU Chia-Ying",
         "YU Ai-Wen",
-        "CHENG Yen-Ching"
+        "CHENG Yen-Ching",
+        "WU Chia-Ying"
       ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
-          "name": "WU Chia-Ying",
-          "registration": "13704134",
-          "result": null,
-          "rank": null
-        },
-        {
           "name": "YU Ai-Wen",
           "registration": "7677116",
-          "result": null,
-          "rank": null
+          "result": "29-0x",
+          "rank": "16"
         },
         {
           "name": "CHENG Yen-Ching",
           "registration": "13649678",
-          "result": null,
-          "rank": null
+          "result": "9-0x",
+          "rank": "35"
+        },
+        {
+          "name": "WU Chia-Ying",
+          "registration": "13704134",
+          "result": "9-0x",
+          "rank": "35"
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "16",
       "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -729,10 +733,14 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "67-1x",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1718,17 +1726,23 @@
       "phase": "Men's Daoshu & Gunshu",
       "unit": "Gunshu Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LEE Po-feng"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "INTERMEDIATE",
+      "result": {
+        "tpe": "9.516",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "resultScope": "aggregate",
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "7",
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
