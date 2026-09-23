@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T16:04:02.695Z",
+  "generatedAt": "2026-09-23T16:33:58.863Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T16:04:02.526Z",
+      "generatedAt": "2026-09-23T16:33:58.689Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -1340,6 +1340,51 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T12:00:00+08:00",
+      "startTimeJst": "2026-09-24T13:00:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
+      "phase": "NARAKA : BLADEPOINT Semi-finals",
+      "unit": "2",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Tang-shiun",
+        "YEN Kai-en",
+        "CHEN Shang-yi",
+        "YEH Chih-yu",
+        "CHENG Hsu-yu"
+      ],
+      "opponent": "Thailand",
+      "opponentCode": "THA",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.NRK---------------.SFNL.00020000",
+          "id": "ELS:O.NRK---------------.SFNL.00020000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T12:15:00+08:00",
       "startTimeJst": "2026-09-24T13:15:00+09:00",
       "disciplineCode": "KAB",
@@ -2024,10 +2069,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 40,
+    "resultsOnly": 41,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 48
+    "warnings": 50
   },
   "warnings": [
     {
@@ -2152,6 +2197,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 2",
+      "row": "ELS:O.NRK---------------.SFNL.00020000"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 12:15 Game 10",
       "row": "KAB:M.TEAM7-------------.GPA-.001000--"
     },
@@ -2249,6 +2299,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SHO|M.APM---------------",
       "message": "SHO 10m Air Pistol Men Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ELS|O.NRK---------------",
+      "message": "ELS Action-adventure / Battle Royale [NARAKA : BLADEPOINT] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
