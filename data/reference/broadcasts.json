@@ -1778,7 +1778,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-24T08:55:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-24T08:50:00+08:00",
       "disciplineCode": "ATH",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
@@ -1854,31 +1854,9 @@
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-24T09:55:00+08:00",
-      "disciplineCode": "KAB",
+      "disciplineCode": "SKB",
       "channelId": "542",
       "channelName": "愛爾達體育MAX3台",
-      "isLive": true,
-      "title": "亞運 泰國VS中華 卡巴迪 女子預賽 9/24(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-23",
-      "broadcastEndTimeTaipei": "2026-09-24T11:10:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "opponentCodes": [
-          "THA"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-24T09:55:00+08:00",
-      "disciplineCode": "SKB",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
       "isLive": true,
       "title": "亞運 林逸凡 滑板 女子公園預賽 9/24(原音) LIVE",
       "feed": "original",
@@ -1898,31 +1876,27 @@
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-24T10:55:00+08:00",
-      "disciplineCode": "BOX",
-      "channelId": "540",
-      "channelName": "愛爾達體育MAX1台",
+      "disciplineCode": "BK3",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 郭怡萱 拳擊 女子51公斤級預賽 9/24(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 中華隊 3x3籃球 男/女附加賽 9/24 LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-09-23",
-      "broadcastEndTimeTaipei": "2026-09-24T13:45:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "GUO Yi-xuan"
-        ]
-      }
+      "broadcastEndTimeTaipei": "2026-09-24T14:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
     },
     {
       "date": "2026-09-24",
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-24T11:10:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-24T10:55:00+08:00",
       "disciplineCode": "KAB",
-      "channelId": "542",
-      "channelName": "愛爾達體育MAX3台",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
       "isLive": true,
       "title": "亞運 泰國VS中華 卡巴迪 女子預賽 9/24(原音) LIVE",
       "feed": "original",
@@ -1933,6 +1907,28 @@
       "matchHint": {
         "opponentCodes": [
           "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T12:10:00+08:00",
+      "disciplineCode": "KAB",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華VS印度 卡巴迪 男子預賽 9/24(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-24T13:10:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "IND"
         ]
       }
     },
@@ -1999,6 +1995,33 @@
       "matchHint": {
         "athleteNames": [
           "GUO Yi-xuan"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T17:35:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 中華隊 田徑 預賽/決賽 9/24(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-24T21:15:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group",
+          "Final"
         ]
       }
     },
@@ -2232,6 +2255,28 @@
       "matchHint": {
         "opponentCodes": [
           "HKG"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-27T15:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 陳念琴 拳擊 女子65公斤級16強 9/27 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-27T17:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Nien-chin"
         ]
       }
     }
