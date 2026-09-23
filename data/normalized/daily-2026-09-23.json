@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T03:40:40.843Z",
+  "generatedAt": "2026-09-23T03:57:02.026Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T03:40:40.648Z",
+      "generatedAt": "2026-09-23T03:57:01.880Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -851,8 +851,8 @@
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
-          "result": "105",
-          "rank": "14"
+          "result": "113",
+          "rank": "22"
         },
         {
           "name": "WANG Han-Tsun",
@@ -946,7 +946,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "99",
         "opponent": null,
@@ -1497,7 +1497,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1537,12 +1537,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "71.2",
+        "tpe": "171.4",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "5",
       "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1580,8 +1580,12 @@
       "opponentCode": "NEP",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1726,7 +1730,7 @@
       "opponentCode": "KAZ",
       "venue": "Gifu Prefectural Green Stadium(Gifu)",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2270,6 +2274,47 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T16:00:00+08:00",
       "startTimeJst": "2026-09-23T17:00:00+09:00",
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Men's 60kg",
+      "phase": "Men's 60KG Preliminaries",
+      "unit": "Men's 60KG - Preliminaries",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Jun-you"
+      ],
+      "opponent": "JANG Donghwan",
+      "opponentCode": "KOR",
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.60KG--------------.R32-.001000--",
+          "id": "BOX:M.60KG--------------.R32-.001000--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T16:00:00+08:00",
+      "startTimeJst": "2026-09-23T17:00:00+09:00",
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -2402,47 +2447,6 @@
         "results": {
           "unitId": "W.53KG--------------.FNL-.A00100--",
           "id": "WLF:W.53KG--------------.FNL-.A00100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T16:00:00+08:00",
-      "startTimeJst": "2026-09-23T17:00:00+09:00",
-      "disciplineCode": "BOX",
-      "sportZh": "拳擊",
-      "sportEn": "Boxing",
-      "event": "Men's 60kg",
-      "phase": "Men's 60KG Preliminaries",
-      "unit": "Men's 60KG - Preliminaries",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Jun-you"
-      ],
-      "opponent": "JANG Donghwan",
-      "opponentCode": "KOR",
-      "venue": "Nishio Gymnasium",
-      "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.60KG--------------.R32-.001000--",
-          "id": "BOX:M.60KG--------------.R32-.001000--"
         }
       }
     },
@@ -2870,7 +2874,7 @@
     "resultsOnly": 55,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 59
+    "warnings": 58
   },
   "warnings": [
     {
@@ -3085,6 +3089,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:00 Men's 60KG - Preliminaries",
+      "row": "BOX:M.60KG--------------.R32-.001000--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:00 Match 6",
       "row": "ELS:O.FTG---------------.GPA-.00060000"
     },
@@ -3097,11 +3106,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 53kg Group A",
       "row": "WLF:W.53KG--------------.FNL-.A00100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:00 Men's 60KG - Preliminaries",
-      "row": "BOX:M.60KG--------------.R32-.001000--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3157,11 +3161,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "KTE|W.50KG--------------",
       "message": "KTE Women's Kumite -50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SHO|W.SKW---------------",
-      "message": "SHO Skeet Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
