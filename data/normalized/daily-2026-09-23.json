@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T02:56:50.024Z",
+  "generatedAt": "2026-09-23T03:07:13.343Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T02:56:49.850Z",
+      "generatedAt": "2026-09-23T03:07:13.161Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -430,52 +430,6 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T08:00:00+08:00",
       "startTimeJst": "2026-09-23T09:00:00+09:00",
-      "disciplineCode": "WSU",
-      "sportZh": "武術",
-      "sportEn": "Wushu",
-      "event": "Men's Daoshu & Gunshu",
-      "phase": "Men's Daoshu & Gunshu",
-      "unit": "Daoshu",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Po-feng"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "9.516",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "resultScope": "component",
-      "tpeRank": "7",
-      "orgCount": 10,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DAOS--------------.FNL-.000100--",
-          "id": "WSU:M.DAOS--------------.FNL-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
-      "startTimeJst": "2026-09-23T09:00:00+09:00",
       "disciplineCode": "TST",
       "sportZh": "軟式網球",
       "sportEn": "Soft Tennis",
@@ -497,7 +451,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -538,7 +492,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "2",
-        "opponent": "2",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -587,7 +541,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -604,6 +558,52 @@
         "results": {
           "unitId": "W.SINGLES-----------.QFNL.000300--",
           "id": "TST:W.SINGLES-----------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
+      "startTimeJst": "2026-09-23T09:00:00+09:00",
+      "disciplineCode": "WSU",
+      "sportZh": "武術",
+      "sportEn": "Wushu",
+      "event": "Men's Daoshu & Gunshu",
+      "phase": "Men's Daoshu & Gunshu",
+      "unit": "Daoshu",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Po-feng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "9.516",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "resultScope": "component",
+      "tpeRank": "7",
+      "orgCount": 10,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DAOS--------------.FNL-.000100--",
+          "id": "WSU:M.DAOS--------------.FNL-.000100--"
         }
       }
     },
@@ -846,22 +846,22 @@
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
           "result": "120",
-          "rank": "2"
+          "rank": "3"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
           "result": "92",
-          "rank": "20"
+          "rank": "19"
         },
         {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
-          "result": "99",
+          "result": "108",
           "rank": "28"
         }
       ],
-      "tpeRank": "2",
+      "tpeRank": "3",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1445,8 +1445,12 @@
       "opponentCode": "KUW",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1470,23 +1474,23 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T11:00:00+08:00",
-      "startTimeJst": "2026-09-23T12:00:00+09:00",
-      "disciplineCode": "TST",
-      "sportZh": "軟式網球",
-      "sportEn": "Soft Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Semifinals",
-      "unit": "Men's Singles Semifinals Match 1",
+      "startTimeTaipei": "2026-09-23T11:15:00+08:00",
+      "startTimeJst": "2026-09-23T12:15:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Women's Kumite -50kg",
+      "phase": "Women's Kumite -50kg Quarterfinals",
+      "unit": "Women's Kumite -50kg Quarterfinal",
       "athletes": [],
       "athletesEn": [
-        "CHEN Po-yi"
+        "CHUNG Ya-chi"
       ],
-      "opponent": "UEMATSU Toshiki",
-      "opponentCode": "JPN",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "opponent": "TSANG Yee Ting",
+      "opponentCode": "HKG",
+      "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "DELAYED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1504,8 +1508,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "M.SINGLES-----------.SFNL.000100--",
-          "id": "TST:M.SINGLES-----------.SFNL.000100--"
+          "unitId": "W.50KG--------------.QFNL.000300--",
+          "id": "KTE:W.50KG--------------.QFNL.000300--"
         }
       }
     },
@@ -2858,7 +2862,7 @@
     "resultsOnly": 55,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 61
+    "warnings": 59
   },
   "warnings": [
     {
@@ -2870,11 +2874,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CRD 08:00 Men's Road Race",
       "row": "CRD:M.RR----------------.FNL-.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Daoshu",
-      "row": "WSU:M.DAOS--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2890,6 +2889,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Quarterfinals Match 3",
       "row": "TST:W.SINGLES-----------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Daoshu",
+      "row": "WSU:M.DAOS--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2983,8 +2987,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TST 11:00 Men's Singles Semifinals Match 1",
-      "row": "TST:M.SINGLES-----------.SFNL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 11:15 Women's Kumite -50kg Quarterfinal",
+      "row": "KTE:W.50KG--------------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3143,18 +3147,8 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TST|M.SINGLES-----------",
-      "message": "TST Men's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "KTE|W.50KG--------------",
       "message": "KTE Women's Kumite -50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TST|W.SINGLES-----------",
-      "message": "TST Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
