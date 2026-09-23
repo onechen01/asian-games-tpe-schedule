@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T02:30:07.009Z",
+  "generatedAt": "2026-09-23T02:45:18.720Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T02:30:06.826Z",
+      "generatedAt": "2026-09-23T02:45:18.532Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -444,14 +444,14 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "3",
+        "tpe": "4",
         "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -491,7 +491,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "1",
         "source": "results"
       },
@@ -845,23 +845,23 @@
         {
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
-          "result": "109",
-          "rank": "4"
+          "result": "120",
+          "rank": "1"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
           "result": "92",
-          "rank": "21"
+          "rank": "20"
         },
         {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
           "result": "90",
-          "rank": "26"
+          "rank": "25"
         }
       ],
-      "tpeRank": "4",
+      "tpeRank": "1",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1400,7 +1400,7 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "",
         "opponent": null,
@@ -1465,6 +1465,47 @@
         "results": {
           "unitId": "W.50KG--------------.8FNL.000500--",
           "id": "KTE:W.50KG--------------.8FNL.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T11:00:00+08:00",
+      "startTimeJst": "2026-09-23T12:00:00+09:00",
+      "disciplineCode": "TST",
+      "sportZh": "軟式網球",
+      "sportEn": "Soft Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Semifinals",
+      "unit": "Men's Singles Semifinals Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Po-yi"
+      ],
+      "opponent": "UEMATSU Toshiki",
+      "opponentCode": "JPN",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": "DELAYED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.SFNL.000100--",
+          "id": "TST:M.SINGLES-----------.SFNL.000100--"
         }
       }
     },
@@ -2301,6 +2342,61 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T16:00:00+08:00",
       "startTimeJst": "2026-09-23T17:00:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 100m Butterfly",
+      "phase": "Women's 100m Butterfly Final",
+      "unit": "Women's 100m Butterfly Final",
+      "athletes": [],
+      "athletesEn": [
+        "HAN An-chi",
+        "LIU Pei-yin"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "HAN An-chi",
+          "registration": "477449",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "LIU Pei-yin",
+          "registration": "8606802",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.100MBF------------.FNL-.000100--",
+          "id": "SWM:W.100MBF------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T16:00:00+08:00",
+      "startTimeJst": "2026-09-23T17:00:00+09:00",
       "disciplineCode": "WLF",
       "sportZh": "舉重",
       "sportEn": "Weightlifting",
@@ -2335,6 +2431,129 @@
         "results": {
           "unitId": "W.53KG--------------.FNL-.A00100--",
           "id": "WLF:W.53KG--------------.FNL-.A00100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T16:08:00+08:00",
+      "startTimeJst": "2026-09-23T17:08:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 100m Butterfly",
+      "phase": "Men's 100m Butterfly Final",
+      "unit": "Men's 100m Butterfly Final",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Kuan-hung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.100MBF------------.FNL-.000100--",
+          "id": "SWM:M.100MBF------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T16:16:00+08:00",
+      "startTimeJst": "2026-09-23T17:16:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 100m Backstroke",
+      "phase": "Women's 100m Backstroke Final",
+      "unit": "Women's 100m Backstroke Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Ya-jia"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.100MBA------------.FNL-.000100--",
+          "id": "SWM:W.100MBA------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T16:50:00+08:00",
+      "startTimeJst": "2026-09-23T17:50:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 100m Breaststroke",
+      "phase": "Women's 100m Breaststroke Final",
+      "unit": "Women's 100m Breaststroke Final",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Pei-wun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.100MBR------------.FNL-.000100--",
+          "id": "SWM:W.100MBR------------.FNL-.000100--"
         }
       }
     },
@@ -2636,10 +2855,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 50,
+    "resultsOnly": 55,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 62
+    "warnings": 61
   },
   "warnings": [
     {
@@ -2764,6 +2983,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TST 11:00 Men's Singles Semifinals Match 1",
+      "row": "TST:M.SINGLES-----------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 11:30 10m Air Pistol Women Individual - Final",
       "row": "SHO:W.APW---------------.FNL-.000100--"
     },
@@ -2859,8 +3083,28 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:00 Women's 100m Butterfly Final",
+      "row": "SWM:W.100MBF------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 53kg Group A",
       "row": "WLF:W.53KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:08 Men's 100m Butterfly Final",
+      "row": "SWM:M.100MBF------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:16 Women's 100m Backstroke Final",
+      "row": "SWM:W.100MBA------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:50 Women's 100m Breaststroke Final",
+      "row": "SWM:W.100MBR------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2914,11 +3158,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TTE|X.DOUBLES-----------",
-      "message": "TTE Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "SHO|W.SKW---------------",
       "message": "SHO Skeet Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2926,31 +3165,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SHO|M.SKM---------------",
       "message": "SHO Skeet Men Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|W.100MBF------------",
-      "message": "SWM Women's 100m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|M.100MBF------------",
-      "message": "SWM Men's 100m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|W.100MBA------------",
-      "message": "SWM Women's 100m Backstroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|W.100MBR------------",
-      "message": "SWM Women's 100m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|X.4X100MMD----------",
-      "message": "SWM Mixed 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
