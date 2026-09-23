@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T00:56:30.970Z",
+  "generatedAt": "2026-09-23T01:04:39.556Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T00:56:30.787Z",
+      "generatedAt": "2026-09-23T01:04:39.373Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -345,7 +345,7 @@
       "opponentCode": null,
       "venue": "Circular course around the Aichi Prefectural Government office and the Nagoya City Hall",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -626,8 +626,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "19",
-        "opponent": "15",
+        "tpe": "20",
+        "opponent": "19",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -663,9 +663,9 @@
       "unit": "10m Air Pistol Women Individual - Qualification",
       "athletes": [],
       "athletesEn": [
+        "CHENG Yen-Ching",
         "YU Ai-Wen",
-        "WU Chia-Ying",
-        "CHENG Yen-Ching"
+        "WU Chia-Ying"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -675,25 +675,25 @@
       "result": null,
       "tpeEntrants": [
         {
+          "name": "CHENG Yen-Ching",
+          "registration": "13649678",
+          "result": "106-4x",
+          "rank": "6"
+        },
+        {
           "name": "YU Ai-Wen",
           "registration": "7677116",
-          "result": "124-2x",
-          "rank": "21"
+          "result": "190-4x",
+          "rank": "20"
         },
         {
           "name": "WU Chia-Ying",
           "registration": "13704134",
-          "result": "75-2x",
-          "rank": "36"
-        },
-        {
-          "name": "CHENG Yen-Ching",
-          "registration": "13649678",
-          "result": "37-1x",
-          "rank": "41"
+          "result": "132-3x",
+          "rank": "27"
         }
       ],
-      "tpeRank": "21",
+      "tpeRank": "6",
       "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -735,12 +735,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "236-5x",
+        "tpe": "428-11x",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "7",
+      "tpeRank": "5",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -780,8 +780,12 @@
       "opponentCode": "CAM",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -816,36 +820,36 @@
       "athletes": [],
       "athletesEn": [
         "LEE Meng-Yuan",
-        "WANG Han-Tsun",
-        "ZHANG Feng-Qi"
+        "ZHANG Feng-Qi",
+        "WANG Han-Tsun"
       ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
-          "result": null,
-          "rank": null
-        },
-        {
-          "name": "WANG Han-Tsun",
-          "registration": "4309027",
-          "result": null,
-          "rank": null
+          "result": "96",
+          "rank": "3"
         },
         {
           "name": "ZHANG Feng-Qi",
           "registration": "4308201",
-          "result": null,
-          "rank": null
+          "result": "92",
+          "rank": "19"
+        },
+        {
+          "name": "WANG Han-Tsun",
+          "registration": "4309027",
+          "result": "90",
+          "rank": "26"
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -885,8 +889,12 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 10,
@@ -926,10 +934,14 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "79",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "24",
       "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -968,8 +980,12 @@
       "opponentCode": "KGZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1002,18 +1018,16 @@
       "phase": "Women's 100m Butterfly Heats",
       "unit": "Women's 100m Butterfly Heat 2",
       "athletes": [],
-      "athletesEn": [
-        "LIU Pei-yin"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 7,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1043,9 +1057,7 @@
       "phase": "Women's 100m Butterfly Heats",
       "unit": "Women's 100m Butterfly Heat 3",
       "athletes": [],
-      "athletesEn": [
-        "HAN An-chi"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -1054,7 +1066,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 7,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1084,9 +1096,7 @@
       "phase": "Men's 100m Butterfly Heats",
       "unit": "Men's 100m Butterfly Heat 2",
       "athletes": [],
-      "athletesEn": [
-        "WANG Kuan-hung"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -1095,7 +1105,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 8,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1125,9 +1135,7 @@
       "phase": "Women's 100m Backstroke Heats",
       "unit": "Women's 100m Backstroke Heat 3",
       "athletes": [],
-      "athletesEn": [
-        "CHANG Ya-jia"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -1136,7 +1144,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 9,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1208,9 +1216,7 @@
       "phase": "Women's 100m Breaststroke Heats",
       "unit": "Women's 100m Breaststroke Heat 1",
       "athletes": [],
-      "athletesEn": [
-        "LIN Pei-wun"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -1219,7 +1225,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 8,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1258,7 +1264,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 7,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
