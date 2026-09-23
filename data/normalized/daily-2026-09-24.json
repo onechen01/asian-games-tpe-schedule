@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T10:08:12.912Z",
+  "generatedAt": "2026-09-23T10:44:04.081Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T10:08:12.771Z",
+      "generatedAt": "2026-09-23T10:44:03.902Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 4,
-          "recovered": 4,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1311,15 +1311,15 @@
         "CHANG Chun-sheng",
         "HSU Tang-chi"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "Malaysia",
+      "opponentCode": "MAS",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
       "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1721,42 +1721,40 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T16:00:00+08:00",
       "startTimeJst": "2026-09-24T17:00:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Men's Floor Exercise",
-      "phase": "Men's Floor Exercise Final",
-      "unit": null,
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Women's 51kg",
+      "phase": "Women's 51KG 1/8 Finals",
+      "unit": "Women's 51KG - 1/8 Finals",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "athletesEn": [
+        "GUO Yi-xuan"
+      ],
+      "opponent": "NGUYEN Thi Tam",
+      "opponentCode": "VIE",
+      "venue": "Nishio Gymnasium",
       "venueZh": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUANG Chia-lung",
-        "HUNG Yuan-hsi",
-        "SHIAO Yu-jan",
-        "TANG Chia-hung"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GAR|M.1APFX-------------"
+        "results": {
+          "unitId": "W.51KG--------------.8FNL.000500--",
+          "id": "BOX:W.51KG--------------.8FNL.000500--"
         }
       }
     },
@@ -1803,50 +1801,6 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T16:55:00+08:00",
-      "startTimeJst": "2026-09-24T17:55:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Women's Vault",
-      "phase": "Women's Vault Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LAI Pin-ju",
-        "LIAO Yi-chun",
-        "LIN Yi-chen",
-        "TING Hua-tien",
-        "WU Yu-jhih"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GAR|W.1APVT-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T17:35:00+08:00",
       "startTimeJst": "2026-09-24T18:35:00+09:00",
       "disciplineCode": "GAR",
@@ -1854,81 +1808,49 @@
       "sportEn": "Artistic Gymnastics",
       "event": "Men's Pommel Horse",
       "phase": "Men's Pommel Horse Final",
-      "unit": null,
+      "unit": "Men's Pommel Horse Final",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUANG Chia-lung",
-        "HUNG Yuan-hsi",
+      "athletesEn": [
         "LEE Chih-kai",
         "SHIAO Yu-jan"
       ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GAR|M.1APPH-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T18:45:00+08:00",
-      "startTimeJst": "2026-09-24T19:45:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Women's Uneven Bars",
-      "phase": "Women's Uneven Bars Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "LEE Chih-kai",
+          "registration": "15910117",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "SHIAO Yu-jan",
+          "registration": "15919954",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LAI Pin-ju",
-        "LIAO Yi-chun",
-        "LIN Yi-chen",
-        "TING Hua-tien",
-        "WU Yu-jhih"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GAR|W.1APUB-------------"
+        "results": {
+          "unitId": "M.1APPH-------------.FNL-.000001--",
+          "id": "GAR:M.1APPH-------------.FNL-.000001--"
         }
       }
     },
@@ -2023,37 +1945,35 @@
       "sportEn": "Artistic Gymnastics",
       "event": "Men's Rings",
       "phase": "Men's Rings Final",
-      "unit": null,
+      "unit": "Men's Rings Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TANG Chia-hung"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUANG Chia-lung",
-        "HUNG Yuan-hsi",
-        "SHIAO Yu-jan",
-        "TANG Chia-hung"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GAR|M.1APSR-------------"
+        "results": {
+          "unitId": "M.1APSR-------------.FNL-.000001--",
+          "id": "GAR:M.1APSR-------------.FNL-.000001--"
         }
       }
     },
@@ -2104,10 +2024,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 37,
-    "entered": 5,
+    "resultsOnly": 40,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 45
+    "warnings": 48
   },
   "warnings": [
     {
@@ -2277,8 +2197,18 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:00 Women's 51KG - 1/8 Finals",
+      "row": "BOX:W.51KG--------------.8FNL.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:20 Group B Match 8",
       "row": "ELS:O.PYO---------------.GPB-.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GAR 17:35 Men's Pommel Horse Final",
+      "row": "GAR:M.1APPH-------------.FNL-.000001--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2289,6 +2219,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:16 Men's 100m Round 1 Heat 2",
       "row": "ATH:M.100M--------------.RND1.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GAR 19:25 Men's Rings Final",
+      "row": "GAR:M.1APSR-------------.FNL-.000001--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2307,13 +2242,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "BK3|M.TEAM3-------------",
-      "message": "BK3 Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "BK3|W.TEAM3-------------",
+      "message": "BK3 Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "BK3|W.TEAM3-------------",
-      "message": "BK3 Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "BK3|M.TEAM3-------------",
+      "message": "BK3 Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

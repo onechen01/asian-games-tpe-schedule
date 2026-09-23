@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T09:54:07.432Z",
+  "generatedAt": "2026-09-23T10:41:29.075Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T09:54:07.254Z",
+      "generatedAt": "2026-09-23T10:41:28.890Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2481,7 +2481,7 @@
       "opponentCode": "PAK",
       "venue": "",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "3",
@@ -2765,10 +2765,10 @@
       "opponentCode": "VIE",
       "venue": "",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "0",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2835,7 +2835,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
@@ -2889,10 +2889,10 @@
       "opponentCode": "JPN",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "16",
-        "opponent": "11",
+        "tpe": "34",
+        "opponent": "30",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2938,10 +2938,14 @@
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "35.732",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "8",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2983,8 +2987,12 @@
       "opponentCode": "CHN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
