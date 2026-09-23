@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T04:50:46.541Z",
+  "generatedAt": "2026-09-23T05:26:40.857Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T04:50:46.401Z",
+      "generatedAt": "2026-09-23T05:26:40.675Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -399,7 +399,7 @@
       "opponentCode": null,
       "venue": "Shinshiro Cycling Road Course",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "",
         "opponent": null,
@@ -619,18 +619,18 @@
       "unit": "Game 6",
       "athletes": [],
       "athletesEn": [
-        "CHANG Chung-mao",
-        "JIN Wu Fu-kai",
-        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "YEH Jiunn-ming",
-        "CHEN Zheng-wei",
+        "SU Hsiang-chih",
         "CHUANG Chia-ming",
-        "LI Jyun-jie",
         "LIN Po-ting",
-        "CAI Ruei-chen",
-        "SU Hsiang-chih"
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
       ],
       "opponent": "Republic of Korea",
       "opponentCode": "KOR",
@@ -776,6 +776,53 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T09:00:00+08:00",
       "startTimeJst": "2026-09-23T10:00:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Men's Team Kata",
+      "phase": "Men's Team Kata Quarterfinals",
+      "unit": "Men's Team Kata Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "TU Cheng-han",
+        "CHANG Yun-hsiang",
+        "LI Hsiang-hsuan"
+      ],
+      "opponent": "Cambodia",
+      "opponentCode": "CAM",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM--------------.QFNL.000100--",
+          "id": "KTE:M.TEAM--------------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
+      "startTimeJst": "2026-09-23T10:00:00+09:00",
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
@@ -792,7 +839,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -974,53 +1021,6 @@
     },
     {
       "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T09:00:00+08:00",
-      "startTimeJst": "2026-09-23T10:00:00+09:00",
-      "disciplineCode": "KTE",
-      "sportZh": "空手道",
-      "sportEn": "Karate",
-      "event": "Men's Team Kata",
-      "phase": "Men's Team Kata Quarterfinals",
-      "unit": "Men's Team Kata Quarterfinal",
-      "athletes": [],
-      "athletesEn": [
-        "TU Cheng-han",
-        "CHANG Yun-hsiang",
-        "LI Hsiang-hsuan"
-      ],
-      "opponent": "Cambodia",
-      "opponentCode": "CAM",
-      "venue": "Toyohashi Gymnasium",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "4",
-        "opponent": "1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.TEAM--------------.QFNL.000100--",
-          "id": "KTE:M.TEAM--------------.QFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T09:03:00+08:00",
       "startTimeJst": "2026-09-23T10:03:00+09:00",
       "disciplineCode": "SWM",
@@ -1181,7 +1181,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1273,7 +1273,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1497,7 +1497,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1674,12 +1674,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "52.366",
+        "tpe": "105.132",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "5",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1872,14 +1872,14 @@
       "opponentCode": "IRI",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "3",
-        "opponent": "5",
+        "tpe": "10",
+        "opponent": "14",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1918,14 +1918,14 @@
       "opponentCode": "JPN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "3",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1964,10 +1964,14 @@
       "opponentCode": "CHN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2005,10 +2009,14 @@
       "opponentCode": null,
       "venue": "Nagaragawa International Regatta Course(Gifu)",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "8:14.84",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 4,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2047,10 +2055,14 @@
       "opponentCode": null,
       "venue": "Miyoshi Lake Canoe Course",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1:36.490",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2089,8 +2101,12 @@
       "opponentCode": null,
       "venue": "Nagaragawa International Regatta Course(Gifu)",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -2287,6 +2303,47 @@
         "results": {
           "unitId": "O.NRK---------------.GPB-.00020000",
           "id": "ELS:O.NRK---------------.GPB-.00020000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T15:00:00+08:00",
+      "startTimeJst": "2026-09-23T16:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Men Individual",
+      "phase": "Skeet Men Individual Final",
+      "unit": "Skeet Men Individual - Final",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Meng-Yuan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SKM---------------.FNL-.000100--",
+          "id": "SHO:M.SKM---------------.FNL-.000100--"
         }
       }
     },
@@ -2770,38 +2827,39 @@
       "sportEn": "Artistic Gymnastics",
       "event": "Women's Team",
       "phase": "Women's Team Final",
-      "unit": null,
+      "unit": "Women's Team Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TING Hua-tien",
+        "LAI Pin-ju",
+        "LIAO Yi-chun",
+        "WU Yu-jhih",
+        "LIN Yi-chen"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LAI Pin-ju",
-        "LIAO Yi-chun",
-        "LIN Yi-chen",
-        "TING Hua-tien",
-        "WU Yu-jhih"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GAR|W.TEAM--------------"
+        "results": {
+          "unitId": "W.TEAM--------------.FNL-.000001--",
+          "id": "GAR:W.TEAM--------------.FNL-.000001--"
         }
       }
     },
@@ -2936,10 +2994,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 56,
-    "entered": 1,
+    "resultsOnly": 58,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 58
+    "warnings": 59
   },
   "warnings": [
     {
@@ -2989,6 +3047,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:00 Men's Team Kata Quarterfinal",
+      "row": "KTE:M.TEAM--------------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Men Individual - Qualification - Qualification - Day 3",
       "row": "SHO:M.SKM---------------.QUAL.000300--"
     },
@@ -3006,11 +3069,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Mixed Doubles Round 2 Match 4",
       "row": "TTE:X.DOUBLES-----------.R32-.000400--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KTE 09:00 Men's Team Kata Quarterfinal",
-      "row": "KTE:M.TEAM--------------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3154,6 +3212,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 15:00 Skeet Men Individual - Final",
+      "row": "SHO:M.SKM---------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:30 Match 3",
       "row": "ELS:O.NRK---------------.GPB-.00030000"
     },
@@ -3209,6 +3272,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GAR 18:00 Women's Team Final",
+      "row": "GAR:W.TEAM--------------.FNL-.000001--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 18:30 Men's Team Semifinals Match 1",
       "row": "TTE:M.TEAM--------------.SFNL.00010000"
     },
@@ -3226,11 +3294,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "WLF|W.49KG--------------",
       "message": "WLF Women's 49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SHO|M.SKM---------------",
-      "message": "SHO Skeet Men Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
