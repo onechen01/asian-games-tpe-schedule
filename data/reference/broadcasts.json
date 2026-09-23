@@ -1580,6 +1580,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-23T14:55:00+08:00",
+      "disciplineCode": "SHO",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 李孟遠 射擊 男子定向飛靶決賽 9/23 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-23T16:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LEE Meng-yuan"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-23T15:55:00+08:00",
       "disciplineCode": "BOX",
       "channelId": "540",
@@ -1875,6 +1897,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T10:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 郭怡萱 拳擊 女子51公斤級預賽 9/24(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-24T13:45:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "GUO Yi-xuan"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-24T11:10:00+08:00",
       "disciplineCode": "KAB",
       "channelId": "542",
@@ -1941,6 +1985,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T15:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 郭怡萱 拳擊 女子51公斤級預賽 9/24(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-24T16:45:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "GUO Yi-xuan"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-24T20:35:00+08:00",
       "disciplineCode": "SKB",
       "channelId": "101",
@@ -1955,6 +2021,28 @@
       "matchHint": {
         "athleteNames": [
           "KU Yong-yan"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-24T23:00:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": false,
+      "title": "亞運 郭怡萱 拳擊 女子51公斤級預賽 9/24(原音) D-LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-24T23:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "GUO Yi-xuan"
         ]
       }
     }
