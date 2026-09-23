@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T10:41:29.075Z",
+  "generatedAt": "2026-09-23T10:56:30.464Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T10:41:28.890Z",
+      "generatedAt": "2026-09-23T10:56:30.325Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2814,20 +2814,20 @@
         "CHANG Hsiang",
         "YANG Po-hsiang",
         "KUO Tzu-chuan",
-        "KAO Yu-wei",
+        "GUO Dinghong",
         "HUANG Chieh-han",
         "WANG Cheng-hao",
         "YANG Chen-yu",
+        "HSU Siang-sheng",
+        "LIN Yu-min",
+        "LIU Chih-jung",
         "WANG Yan-cheng",
         "LIN Yi-wei",
         "YU Tsung-ju",
-        "WANG Yu-chieh",
-        "TSAI Wei-tai",
-        "GUO Dinghong",
+        "KAO Yu-wei",
         "LIN Yu-li",
-        "HSU Siang-sheng",
-        "LIN Yu-min",
-        "LIU Chih-jung"
+        "WANG Yu-chieh",
+        "TSAI Wei-tai"
       ],
       "opponent": "Hong Kong, China",
       "opponentCode": "HKG",
@@ -2835,7 +2835,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "2",
+        "tpe": "3",
         "opponent": "0",
         "source": "results"
       },
@@ -2889,7 +2889,7 @@
       "opponentCode": "JPN",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "34",
         "opponent": "30",
@@ -2940,12 +2940,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "35.732",
+        "tpe": "59.665",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "8",
+      "tpeRank": "4",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3016,6 +3016,51 @@
     },
     {
       "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T18:41:10+08:00",
+      "startTimeJst": "2026-09-23T19:41:10+09:00",
+      "disciplineCode": "WSU",
+      "sportZh": "武術",
+      "sportEn": "Wushu",
+      "event": "Men's 75kg",
+      "phase": "Men's 75kg",
+      "unit": "Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "ZHANG Huan yi"
+      ],
+      "opponent": "ABDULLAYEV Abdurashid",
+      "opponentCode": "KAZ",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "",
+        "opponent": "WKO",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.75KG--------------.SFNL.000200--",
+          "id": "WSU:M.75KG--------------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T18:45:00+08:00",
       "startTimeJst": "2026-09-23T19:45:00+09:00",
       "disciplineCode": "KAB",
@@ -3043,8 +3088,12 @@
       "opponentCode": "NEP",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "4",
+        "opponent": "4",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -3063,47 +3112,6 @@
         "results": {
           "unitId": "W.TEAM7-------------.GPB-.000400--",
           "id": "KAB:W.TEAM7-------------.GPB-.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T19:10:00+08:00",
-      "startTimeJst": "2026-09-23T20:10:00+09:00",
-      "disciplineCode": "WSU",
-      "sportZh": "武術",
-      "sportEn": "Wushu",
-      "event": "Men's 75kg",
-      "phase": "Men's 75kg",
-      "unit": "Match 2",
-      "athletes": [],
-      "athletesEn": [
-        "ZHANG Huan yi"
-      ],
-      "opponent": "ABDULLAYEV Abdurashid",
-      "opponentCode": "KAZ",
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.75KG--------------.SFNL.000200--",
-          "id": "WSU:M.75KG--------------.SFNL.000200--"
         }
       }
     }
@@ -3401,13 +3409,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KAB 18:45 Game 4",
-      "row": "KAB:W.TEAM7-------------.GPB-.000400--"
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 18:41 Match 2",
+      "row": "WSU:M.75KG--------------.SFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 19:10 Match 2",
-      "row": "WSU:M.75KG--------------.SFNL.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：KAB 18:45 Game 4",
+      "row": "KAB:W.TEAM7-------------.GPB-.000400--"
     },
     {
       "code": "PENDING_LATER_UNITS",
