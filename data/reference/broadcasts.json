@@ -2104,6 +2104,50 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T10:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 黃筱雯 拳擊 女子54公斤級16強 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-25T12:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "HUANG Hsiao-wen"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T12:30:00+08:00",
+      "disciplineCode": "WLF",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 陳冠伶 舉重 女子57公斤級決賽 9/25 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-25T14:45:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Guan-ling"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-25T13:50:00+08:00",
       "disciplineCode": "FBL",
       "channelId": "101",
@@ -2148,20 +2192,20 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-25T13:55:00+08:00",
-      "disciplineCode": "GAR",
+      "broadcastStartTimeTaipei": "2026-09-25T16:00:00+08:00",
+      "disciplineCode": "WLF",
       "channelId": "543",
       "channelName": "愛爾達體育MAX4台",
       "isLive": true,
-      "title": "亞運 唐嘉鴻 競技體操 男子跳馬/雙槓/單槓/女子平衡木/地板決賽 9/25(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 郭婞淳 舉重 女子61公斤級決賽 9/25 LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-09-23",
-      "broadcastEndTimeTaipei": "2026-09-25T18:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T18:15:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
-          "TANG Chia-hung"
+          "KUO Hsing-chun"
         ]
       }
     }
