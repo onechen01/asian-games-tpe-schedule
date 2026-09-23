@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T07:55:55.732Z",
+  "generatedAt": "2026-09-23T08:05:47.285Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T07:55:55.582Z",
+      "generatedAt": "2026-09-23T08:05:47.111Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2430,8 +2430,12 @@
       "opponentCode": "KOR",
       "venue": "Nishio Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2515,23 +2519,23 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "GETTING_READY",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "HAN An-chi",
           "registration": "477449",
-          "result": null,
-          "rank": null
+          "result": "58.92",
+          "rank": "7"
         },
         {
           "name": "LIU Pei-yin",
           "registration": "8606802",
-          "result": null,
-          "rank": null
+          "result": "1:00.04",
+          "rank": "8"
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "7",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2569,7 +2573,7 @@
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2801,7 +2805,7 @@
       "opponentCode": "HKG",
       "venue": "Toyohashi Municipal Baseball Stadium",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
