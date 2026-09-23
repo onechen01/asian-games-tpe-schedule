@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T21:27:29.470Z",
+  "generatedAt": "2026-09-23T21:47:44.198Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-23T21:27:29.339Z",
+      "generatedAt": "2026-09-23T21:47:44.039Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -750,7 +750,7 @@
         "LIN Yun-ju",
         "CHENG I-ching"
       ],
-      "opponent": "LIM Jonghoon / SHIN Yubin",
+      "opponent": "LIM Jonghoon/SHIN Yubin",
       "opponentCode": "KOR",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1402,49 +1402,6 @@
       "disciplineCode": "BDM",
       "sportZh": "羽球",
       "sportEn": "Badminton",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Round of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "CHIU Hsiang-Chieh",
-        "LEE Jhe-Huei",
-        "WANG Chi-Lin",
-        "YANG Po-Hsuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|M.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T15:00:00+08:00",
-      "startTimeJst": "2026-09-25T16:00:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
       "event": "Women's Doubles",
       "phase": "Women's Doubles Round of 32",
       "unit": null,
@@ -1837,7 +1794,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 19,
-    "entered": 15,
+    "entered": 14,
     "unresolvedTbd": 0,
     "warnings": 25
   },
