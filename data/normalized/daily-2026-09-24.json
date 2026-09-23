@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T06:39:32.636Z",
+  "generatedAt": "2026-09-23T06:46:35.504Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T06:39:32.419Z",
+      "generatedAt": "2026-09-23T06:46:35.309Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -969,6 +969,89 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T13:10:00+08:00",
+      "startTimeJst": "2026-09-24T14:10:00+09:00",
+      "disciplineCode": "ROW",
+      "sportZh": "划船",
+      "sportEn": "Rowing",
+      "event": "Women's Single Sculls",
+      "phase": "Women's Single Sculls Finals",
+      "unit": "Women's Single Sculls Finals Final A",
+      "athletes": [],
+      "athletesEn": [
+        "WEN Ching-yang"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagaragawa International Regatta Course(Gifu)",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SCULL1------------.FNL-.000100--",
+          "id": "ROW:W.SCULL1------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T13:30:00+08:00",
+      "startTimeJst": "2026-09-24T14:30:00+09:00",
+      "disciplineCode": "ROW",
+      "sportZh": "划船",
+      "sportEn": "Rowing",
+      "event": "Women's Double Sculls",
+      "phase": "Women's Double Sculls Finals",
+      "unit": "Women's Double Sculls Finals Final A",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Chu",
+        "WANG Ming-xuan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagaragawa International Regatta Course(Gifu)",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SCULL2------------.FNL-.000100--",
+          "id": "ROW:W.SCULL2------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T13:40:00+08:00",
       "startTimeJst": "2026-09-24T14:40:00+09:00",
       "disciplineCode": "CSP",
@@ -1611,10 +1694,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 24,
+    "resultsOnly": 26,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 31
+    "warnings": 33
   },
   "warnings": [
     {
@@ -1686,6 +1769,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 12:15 Game 10",
       "row": "KAB:M.TEAM7-------------.GPA-.001000--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ROW 13:10 Women's Single Sculls Finals Final A",
+      "row": "ROW:W.SCULL1------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ROW 13:30 Women's Double Sculls Finals Final A",
+      "row": "ROW:W.SCULL2------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
