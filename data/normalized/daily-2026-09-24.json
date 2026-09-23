@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T04:37:18.723Z",
+  "generatedAt": "2026-09-23T05:10:54.234Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T04:37:18.522Z",
+      "generatedAt": "2026-09-23T05:10:54.031Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -674,45 +674,6 @@
         "results": {
           "unitId": "M.200MBR------------.HEAT.000200--",
           "id": "SWM:M.200MBR------------.HEAT.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:40:00+08:00",
-      "startTimeJst": "2026-09-24T10:40:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Heptathlon",
-      "phase": "Women's Heptathlon High Jump",
-      "unit": "Women's Heptathlon High Jump",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.HEPTATH-----------.HJ--.000100--",
-          "id": "ATH:W.HEPTATH-----------.HJ--.000100--"
         }
       }
     },
@@ -1348,84 +1309,6 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T18:05:00+08:00",
-      "startTimeJst": "2026-09-24T19:05:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Heptathlon",
-      "phase": "Women's Heptathlon Shot Put",
-      "unit": "Women's Heptathlon Shot Put",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.HEPTATH-----------.SP--.000100--",
-          "id": "ATH:W.HEPTATH-----------.SP--.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T18:41:00+08:00",
-      "startTimeJst": "2026-09-24T19:41:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 100m",
-      "phase": "Women's 100m Round 1",
-      "unit": "Women's 100m Round 1 Heat 2",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 7,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.100M--------------.RND1.000200--",
-          "id": "ATH:W.100M--------------.RND1.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T18:45:00+08:00",
       "startTimeJst": "2026-09-24T19:45:00+09:00",
       "disciplineCode": "GAR",
@@ -1465,6 +1348,47 @@
       "sources": {
         "entries": {
           "eventId": "GAR|W.1APUB-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T18:49:00+08:00",
+      "startTimeJst": "2026-09-24T19:49:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 100m",
+      "phase": "Women's 100m Round 1",
+      "unit": "Women's 100m Round 1 Heat 3",
+      "athletes": [],
+      "athletesEn": [
+        "LIAO Yan-jun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.100M--------------.RND1.000300--",
+          "id": "ATH:W.100M--------------.RND1.000300--"
         }
       }
     },
@@ -1599,10 +1523,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 24,
+    "resultsOnly": 22,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 29
+    "warnings": 27
   },
   "warnings": [
     {
@@ -1639,11 +1563,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:30 Men's 200m Breaststroke Heat 2",
       "row": "SWM:M.200MBR------------.HEAT.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 09:40 Women's Heptathlon High Jump",
-      "row": "ATH:W.HEPTATH-----------.HJ--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1707,13 +1626,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:05 Women's Heptathlon Shot Put",
-      "row": "ATH:W.HEPTATH-----------.SP--.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:41 Women's 100m Round 1 Heat 2",
-      "row": "ATH:W.100M--------------.RND1.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:49 Women's 100m Round 1 Heat 3",
+      "row": "ATH:W.100M--------------.RND1.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1724,6 +1638,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:48 Men's 100m Round 1 Heat 6",
       "row": "ATH:M.100M--------------.RND1.000600--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ATH|W.HEPTATH-----------",
+      "message": "ATH Women's Heptathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -1744,11 +1663,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|M.200MBR------------",
       "message": "SWM Men's 200m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ATH|W.HEPTATH-----------",
-      "message": "ATH Women's Heptathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
