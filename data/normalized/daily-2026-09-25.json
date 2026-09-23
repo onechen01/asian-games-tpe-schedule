@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T10:10:42.296Z",
+  "generatedAt": "2026-09-23T13:07:33.098Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-23T10:10:42.150Z",
+      "generatedAt": "2026-09-23T13:07:32.934Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -737,6 +737,48 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Quarterfinals",
+      "unit": "Mixed Doubles Quarterfinals Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yun-ju",
+        "CHENG I-ching"
+      ],
+      "opponent": "LIM Jonghoon/SHIN Yubin",
+      "opponentCode": "KOR",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.QFNL.000100--",
+          "id": "TTE:X.DOUBLES-----------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T09:08:00+08:00",
       "startTimeJst": "2026-09-25T10:08:00+09:00",
       "disciplineCode": "SWM",
@@ -874,6 +916,48 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:00:00+08:00",
+      "startTimeJst": "2026-09-25T11:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Round 2",
+      "unit": "Men's Doubles Round 2 Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "FENG Yi-hsin",
+        "KUO Guan-hong"
+      ],
+      "opponent": "VONGSA Anane/HAGBERG Johan",
+      "opponentCode": "LAO",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.R32-.000400--",
+          "id": "TTE:M.DOUBLES-----------.R32-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T10:06:00+08:00",
       "startTimeJst": "2026-09-25T11:06:00+09:00",
       "disciplineCode": "SWM",
@@ -954,6 +1038,48 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:45:00+08:00",
+      "startTimeJst": "2026-09-25T11:45:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Round 2",
+      "unit": "Men's Doubles Round 2 Match 15",
+      "athletes": [],
+      "athletesEn": [
+        "HSU Hsien-chia",
+        "HUNG Jing-kai"
+      ],
+      "opponent": "SALEH Mohamed/RASHED Rashed",
+      "opponentCode": "BRN",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.R32-.001500--",
+          "id": "TTE:M.DOUBLES-----------.R32-.001500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T10:50:00+08:00",
       "startTimeJst": "2026-09-25T11:50:00+09:00",
       "disciplineCode": "CSP",
@@ -990,6 +1116,88 @@
         "results": {
           "unitId": "M.C1-500M-----------.FNL-.000100--",
           "id": "CSP:M.C1-500M-----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T11:30:00+08:00",
+      "startTimeJst": "2026-09-25T12:30:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Round 2",
+      "unit": "Women's Singles Round 2 Match 5",
+      "athletes": [],
+      "athletesEn": [
+        "CHENG I-ching"
+      ],
+      "opponent": "KIM Kum Yong",
+      "opponentCode": "PRK",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.R32-.000500--",
+          "id": "TTE:W.SINGLES-----------.R32-.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T12:15:00+08:00",
+      "startTimeJst": "2026-09-25T13:15:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Round 2",
+      "unit": "Women's Singles Round 2 Match 12",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Szu-yu"
+      ],
+      "opponent": "ZHU Yu Ling",
+      "opponentCode": "MAC",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.R32-.001200--",
+          "id": "TTE:W.SINGLES-----------.R32-.001200--"
         }
       }
     },
@@ -1589,10 +1797,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 13,
+    "resultsOnly": 18,
     "entered": 15,
     "unresolvedTbd": 0,
-    "warnings": 19
+    "warnings": 24
   },
   "warnings": [
     {
@@ -1604,6 +1812,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:00 Women's 50m Butterfly Heat 1",
       "row": "SWM:W.50MBF-------------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Mixed Doubles Quarterfinals Match 1",
+      "row": "TTE:X.DOUBLES-----------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1622,6 +1835,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 10:00 Men's Doubles Round 2 Match 4",
+      "row": "TTE:M.DOUBLES-----------.R32-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 10:06 Men's 200m Butterfly Heat 3",
       "row": "SWM:M.200MBF------------.HEAT.000300--"
     },
@@ -1632,8 +1850,23 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 10:45 Men's Doubles Round 2 Match 15",
+      "row": "TTE:M.DOUBLES-----------.R32-.001500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CSP 10:50 Men's Canoe Single 500m Final Final A",
       "row": "CSP:M.C1-500M-----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 11:30 Women's Singles Round 2 Match 5",
+      "row": "TTE:W.SINGLES-----------.R32-.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 12:15 Women's Singles Round 2 Match 12",
+      "row": "TTE:W.SINGLES-----------.R32-.001200--"
     },
     {
       "code": "RESULTS_ONLY",
