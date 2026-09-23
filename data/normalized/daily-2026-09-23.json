@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T11:18:12.252Z",
+  "generatedAt": "2026-09-23T11:50:45.142Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T11:18:12.136Z",
+      "generatedAt": "2026-09-23T11:50:44.945Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -1745,7 +1745,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2807,27 +2807,27 @@
         "CHEN Chen-wei",
         "CHEN Hsiao-yun",
         "HUANG Wei-sheng",
+        "LIN Yu-li",
         "LIU Ji-hong",
         "CHEN Min-sih",
-        "LI I-wei",
         "KAO Yu-wei",
+        "LI I-wei",
+        "YANG Chen-yu",
         "CHU Chia-en",
+        "TSAI Wei-tai",
         "CHANG Hsiang",
         "YANG Po-hsiang",
+        "GUO Dinghong",
         "KUO Tzu-chuan",
         "WANG Yu-chieh",
-        "TSAI Wei-tai",
-        "LIN Yu-li",
         "WANG Yan-cheng",
         "LIN Yi-wei",
         "YU Tsung-ju",
-        "GUO Dinghong",
-        "HSU Siang-sheng",
-        "LIN Yu-min",
-        "LIU Chih-jung",
         "HUANG Chieh-han",
         "WANG Cheng-hao",
-        "YANG Chen-yu"
+        "HSU Siang-sheng",
+        "LIN Yu-min",
+        "LIU Chih-jung"
       ],
       "opponent": "Hong Kong, China",
       "opponentCode": "HKG",
@@ -2835,7 +2835,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "7",
+        "tpe": "11",
         "opponent": "0",
         "source": "results"
       },
@@ -2940,7 +2940,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "72.531",
+        "tpe": "104.530",
         "opponent": null,
         "source": "results"
       },
@@ -2990,7 +2990,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -3088,10 +3088,10 @@
       "opponentCode": "NEP",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "13",
-        "opponent": "13",
+        "tpe": "37",
+        "opponent": "18",
         "source": "results"
       },
       "tpeEntrants": [],
