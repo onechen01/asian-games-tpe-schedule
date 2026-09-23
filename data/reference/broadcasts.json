@@ -2076,11 +2076,33 @@
       "channelId": "115",
       "channelName": "愛爾達體育4台",
       "isLive": true,
-      "title": "亞運 中華隊 田徑 預賽 9/25(原音) LIVE",
+      "title": "亞運 陳彩娟 田徑 預賽 9/25(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-23",
       "broadcastEndTimeTaipei": "2026-09-25T11:25:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Cai-juan"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T08:55:00+08:00",
+      "disciplineCode": "SWM",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 中華隊 游泳 預賽 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-25T10:35:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -2098,15 +2120,15 @@
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-25T08:55:00+08:00",
-      "disciplineCode": "SWM",
+      "disciplineCode": "TTE",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 中華隊 游泳 預賽 9/25 LIVE",
+      "title": "亞運 中華隊 桌球 混雙八強/女單預賽 9/25 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-23",
-      "broadcastEndTimeTaipei": "2026-09-25T10:35:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T13:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -2211,6 +2233,32 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T14:45:00+08:00",
+      "disciplineCode": "SWM",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": false,
+      "title": "亞運 中華隊 游泳 預賽 9/25 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-25T16:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-25T16:00:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "543",
@@ -2220,11 +2268,38 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-23",
-      "broadcastEndTimeTaipei": "2026-09-25T18:15:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T18:20:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
           "KUO Hsing-chun"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T17:15:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 中華隊 田徑 預賽/決賽 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-23",
+      "broadcastEndTimeTaipei": "2026-09-25T21:45:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group",
+          "Final"
         ]
       }
     },
