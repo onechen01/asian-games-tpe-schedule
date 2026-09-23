@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T02:45:18.720Z",
+  "generatedAt": "2026-09-23T02:56:50.024Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T02:45:18.532Z",
+      "generatedAt": "2026-09-23T02:56:49.850Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -430,6 +430,52 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T08:00:00+08:00",
       "startTimeJst": "2026-09-23T09:00:00+09:00",
+      "disciplineCode": "WSU",
+      "sportZh": "武術",
+      "sportEn": "Wushu",
+      "event": "Men's Daoshu & Gunshu",
+      "phase": "Men's Daoshu & Gunshu",
+      "unit": "Daoshu",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Po-feng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "9.516",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "resultScope": "component",
+      "tpeRank": "7",
+      "orgCount": 10,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DAOS--------------.FNL-.000100--",
+          "id": "WSU:M.DAOS--------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
+      "startTimeJst": "2026-09-23T09:00:00+09:00",
       "disciplineCode": "TST",
       "sportZh": "軟式網球",
       "sportEn": "Soft Tennis",
@@ -451,7 +497,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -492,7 +538,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "2",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -541,7 +587,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -558,52 +604,6 @@
         "results": {
           "unitId": "W.SINGLES-----------.QFNL.000300--",
           "id": "TST:W.SINGLES-----------.QFNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
-      "startTimeJst": "2026-09-23T09:00:00+09:00",
-      "disciplineCode": "WSU",
-      "sportZh": "武術",
-      "sportEn": "Wushu",
-      "event": "Men's Daoshu & Gunshu",
-      "phase": "Men's Daoshu & Gunshu",
-      "unit": "Daoshu",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Po-feng"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "9.516",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "resultScope": "component",
-      "tpeRank": "7",
-      "orgCount": 10,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DAOS--------------.FNL-.000100--",
-          "id": "WSU:M.DAOS--------------.FNL-.000100--"
         }
       }
     },
@@ -846,7 +846,7 @@
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
           "result": "120",
-          "rank": "1"
+          "rank": "2"
         },
         {
           "name": "ZHANG Feng-Qi",
@@ -857,11 +857,11 @@
         {
           "name": "WANG Han-Tsun",
           "registration": "4309027",
-          "result": "90",
-          "rank": "25"
+          "result": "99",
+          "rank": "28"
         }
       ],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1841,7 +1841,7 @@
       "opponentCode": "JPN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1883,7 +1883,7 @@
       "opponentCode": "CHN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2873,6 +2873,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Daoshu",
+      "row": "WSU:M.DAOS--------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Men's Singles Quarterfinals Match 2",
       "row": "TST:M.SINGLES-----------.QFNL.000200--"
     },
@@ -2885,11 +2890,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Quarterfinals Match 3",
       "row": "TST:W.SINGLES-----------.QFNL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Daoshu",
-      "row": "WSU:M.DAOS--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
