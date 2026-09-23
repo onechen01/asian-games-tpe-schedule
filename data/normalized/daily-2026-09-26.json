@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T07:12:56.806Z",
+  "generatedAt": "2026-09-23T16:09:35.151Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-23T07:12:56.657Z",
+      "generatedAt": "2026-09-23T16:09:34.992Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1207,6 +1207,45 @@
     },
     {
       "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T17:30:00+08:00",
+      "startTimeJst": "2026-09-26T18:30:00+09:00",
+      "disciplineCode": "BBL",
+      "sportZh": "棒球",
+      "sportEn": "Baseball",
+      "event": "Baseball Men",
+      "phase": "Men's Super Round",
+      "unit": "Game 19",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "Japan",
+      "opponentCode": "JPN",
+      "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM9-------------.SFNL.000300--",
+          "id": "BBL:M.TEAM9-------------.SFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T18:05:00+08:00",
       "startTimeJst": "2026-09-26T19:05:00+09:00",
       "disciplineCode": "ATH",
@@ -1413,10 +1452,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 6,
+    "resultsOnly": 7,
     "entered": 19,
     "unresolvedTbd": 0,
-    "warnings": 7
+    "warnings": 8
   },
   "warnings": [
     {
@@ -1448,6 +1487,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:05 Group A Match 6",
       "row": "ELS:O.PKU---------------.GPA-.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 19",
+      "row": "BBL:M.TEAM9-------------.SFNL.000300--"
     },
     {
       "code": "PENDING_LATER_UNITS",

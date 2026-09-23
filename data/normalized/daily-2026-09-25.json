@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T13:07:33.098Z",
+  "generatedAt": "2026-09-23T16:06:40.929Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-23T13:07:32.934Z",
+      "generatedAt": "2026-09-23T16:06:40.762Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1611,6 +1611,45 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T17:30:00+08:00",
+      "startTimeJst": "2026-09-25T18:30:00+09:00",
+      "disciplineCode": "BBL",
+      "sportZh": "棒球",
+      "sportEn": "Baseball",
+      "event": "Baseball Men",
+      "phase": "Men's Super Round",
+      "unit": "Game 15",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM9-------------.SFNL.000100--",
+          "id": "BBL:M.TEAM9-------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T17:40:00+08:00",
       "startTimeJst": "2026-09-25T18:40:00+09:00",
       "disciplineCode": "GAR",
@@ -1797,10 +1836,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 18,
+    "resultsOnly": 19,
     "entered": 15,
     "unresolvedTbd": 0,
-    "warnings": 24
+    "warnings": 25
   },
   "warnings": [
     {
@@ -1887,6 +1926,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 61kg Group A",
       "row": "WLF:W.61KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 15",
+      "row": "BBL:M.TEAM9-------------.SFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
