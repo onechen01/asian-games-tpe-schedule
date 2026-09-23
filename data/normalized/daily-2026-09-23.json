@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T03:57:02.026Z",
+  "generatedAt": "2026-09-23T04:34:05.433Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-23T03:57:01.880Z",
+      "generatedAt": "2026-09-23T04:34:05.254Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -430,6 +430,52 @@
       "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T08:00:00+08:00",
       "startTimeJst": "2026-09-23T09:00:00+09:00",
+      "disciplineCode": "WSU",
+      "sportZh": "武術",
+      "sportEn": "Wushu",
+      "event": "Men's Daoshu & Gunshu",
+      "phase": "Men's Daoshu & Gunshu",
+      "unit": "Daoshu",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Po-feng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "9.516",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "resultScope": "component",
+      "tpeRank": "7",
+      "orgCount": 10,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DAOS--------------.FNL-.000100--",
+          "id": "WSU:M.DAOS--------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
+      "startTimeJst": "2026-09-23T09:00:00+09:00",
       "disciplineCode": "TST",
       "sportZh": "軟式網球",
       "sportEn": "Soft Tennis",
@@ -451,7 +497,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -496,7 +542,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -541,7 +587,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -558,52 +604,6 @@
         "results": {
           "unitId": "W.SINGLES-----------.QFNL.000300--",
           "id": "TST:W.SINGLES-----------.QFNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T08:00:00+08:00",
-      "startTimeJst": "2026-09-23T09:00:00+09:00",
-      "disciplineCode": "WSU",
-      "sportZh": "武術",
-      "sportEn": "Wushu",
-      "event": "Men's Daoshu & Gunshu",
-      "phase": "Men's Daoshu & Gunshu",
-      "unit": "Daoshu",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Po-feng"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "9.516",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "resultScope": "component",
-      "tpeRank": "7",
-      "orgCount": 10,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DAOS--------------.FNL-.000100--",
-          "id": "WSU:M.DAOS--------------.FNL-.000100--"
         }
       }
     },
@@ -846,7 +846,7 @@
           "name": "LEE Meng-Yuan",
           "registration": "13634212",
           "result": "120",
-          "rank": "2"
+          "rank": "1"
         },
         {
           "name": "ZHANG Feng-Qi",
@@ -861,7 +861,7 @@
           "rank": "26"
         }
       ],
-      "tpeRank": "2",
+      "tpeRank": "1",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -901,14 +901,14 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "345",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -988,7 +988,7 @@
         "LIN Yun-ju",
         "CHENG I-ching"
       ],
-      "opponent": "KASYMOV Atai / AIAZBEKOVA Nurkyz",
+      "opponent": "KASYMOV Atai/AIAZBEKOVA Nurkyz",
       "opponentCode": "KGZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -999,7 +999,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1308,7 +1308,7 @@
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": "QUEK Yong / LOY Ming",
+      "opponent": "QUEK Yong/LOY Ming",
       "opponentCode": "SGP",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1319,7 +1319,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1490,7 +1490,7 @@
       "opponentCode": "HKG",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "6",
@@ -1535,14 +1535,14 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "171.4",
+        "tpe": "200.7",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "4",
       "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1580,14 +1580,14 @@
       "opponentCode": "NEP",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "4",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1672,10 +1672,14 @@
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "38.966",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1730,8 +1734,12 @@
       "opponentCode": "KAZ",
       "venue": "Gifu Prefectural Green Stadium(Gifu)",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1755,6 +1763,51 @@
     },
     {
       "date": "2026-09-23",
+      "startTimeTaipei": "2026-09-23T12:15:00+08:00",
+      "startTimeJst": "2026-09-23T13:15:00+09:00",
+      "disciplineCode": "KTE",
+      "sportZh": "空手道",
+      "sportEn": "Karate",
+      "event": "Women's Kumite -50kg",
+      "phase": "Women's Kumite -50kg Bronze Medal Bout",
+      "unit": "Women's Kumite -50kg Bronze Medal Bout B",
+      "athletes": [],
+      "athletesEn": [
+        "CHUNG Ya-chi"
+      ],
+      "opponent": "ADRIANO Marie June",
+      "opponentCode": "PHI",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "10",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.50KG--------------.REPF.000200--",
+          "id": "KTE:W.50KG--------------.REPF.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-23",
       "startTimeTaipei": "2026-09-23T12:30:00+08:00",
       "startTimeJst": "2026-09-23T13:30:00+09:00",
       "disciplineCode": "WLF",
@@ -1771,7 +1824,7 @@
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1815,7 +1868,7 @@
       "opponentCode": "IRI",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1853,7 +1906,7 @@
         "LIN Yun-ju",
         "CHENG I-ching"
       ],
-      "opponent": "SHINOZUKA Hiroto / ITO Mima",
+      "opponent": "SHINOZUKA Hiroto/ITO Mima",
       "opponentCode": "JPN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1895,7 +1948,7 @@
         "FENG Yi-hsin",
         "YEH Yi-tian"
       ],
-      "opponent": "WANG Chuqin / SUN Yingsha",
+      "opponent": "WANG Chuqin/SUN Yingsha",
       "opponentCode": "CHN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -2871,7 +2924,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 55,
+    "resultsOnly": 56,
     "entered": 1,
     "unresolvedTbd": 0,
     "warnings": 58
@@ -2889,6 +2942,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Daoshu",
+      "row": "WSU:M.DAOS--------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Men's Singles Quarterfinals Match 2",
       "row": "TST:M.SINGLES-----------.QFNL.000200--"
     },
@@ -2901,11 +2959,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TST 08:00 Women's Singles Quarterfinals Match 3",
       "row": "TST:W.SINGLES-----------.QFNL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WSU 08:00 Daoshu",
-      "row": "WSU:M.DAOS--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3026,6 +3079,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 12:00 Women Pool A Match 8",
       "row": "HOC:W.TEAM11------------.GPA-.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KTE 12:15 Women's Kumite -50kg Bronze Medal Bout B",
+      "row": "KTE:W.50KG--------------.REPF.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3156,11 +3214,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "WLF|W.49KG--------------",
       "message": "WLF Women's 49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "KTE|W.50KG--------------",
-      "message": "KTE Women's Kumite -50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
