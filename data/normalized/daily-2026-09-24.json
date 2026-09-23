@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T03:09:29.942Z",
+  "generatedAt": "2026-09-23T03:21:22.335Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T03:09:29.750Z",
+      "generatedAt": "2026-09-23T03:21:22.125Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1311,41 +1311,42 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T18:33:00+08:00",
-      "startTimeJst": "2026-09-24T19:33:00+09:00",
+      "startTimeTaipei": "2026-09-24T18:41:00+08:00",
+      "startTimeJst": "2026-09-24T19:41:00+09:00",
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
       "event": "Women's 100m",
       "phase": "Women's 100m Round 1",
-      "unit": null,
+      "unit": "Women's 100m Round 1 Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIAO Yan-jun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "LIAO Yan-jun"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|W.100M--------------"
+        "results": {
+          "unitId": "W.100M--------------.RND1.000200--",
+          "id": "ATH:W.100M--------------.RND1.000200--"
         }
       }
     },
@@ -1395,42 +1396,42 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T19:08:00+08:00",
-      "startTimeJst": "2026-09-24T20:08:00+09:00",
+      "startTimeTaipei": "2026-09-24T19:16:00+08:00",
+      "startTimeJst": "2026-09-24T20:16:00+09:00",
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
       "event": "Men's 100m",
       "phase": "Men's 100m Round 1",
-      "unit": null,
+      "unit": "Men's 100m Round 1 Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Wen-pu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHEN Wen-pu",
-        "YANG Chun-han"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.100M--------------"
+        "results": {
+          "unitId": "M.100M--------------.RND1.000200--",
+          "id": "ATH:M.100M--------------.RND1.000200--"
         }
       }
     },
@@ -1476,6 +1477,47 @@
           "eventId": "GAR|M.1APSR-------------"
         }
       }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T19:48:00+08:00",
+      "startTimeJst": "2026-09-24T20:48:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 100m",
+      "phase": "Men's 100m Round 1",
+      "unit": "Men's 100m Round 1 Heat 6",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Chun-han"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.100M--------------.RND1.000600--",
+          "id": "ATH:M.100M--------------.RND1.000600--"
+        }
+      }
     }
   ],
   "coverageComplete": true,
@@ -1483,10 +1525,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 17,
-    "entered": 10,
+    "resultsOnly": 20,
+    "entered": 8,
     "unresolvedTbd": 0,
-    "warnings": 21
+    "warnings": 24
   },
   "warnings": [
     {
@@ -1573,6 +1615,21 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:20 Group B Match 8",
       "row": "ELS:O.PYO---------------.GPB-.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:41 Women's 100m Round 1 Heat 2",
+      "row": "ATH:W.100M--------------.RND1.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:16 Men's 100m Round 1 Heat 2",
+      "row": "ATH:M.100M--------------.RND1.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:48 Men's 100m Round 1 Heat 6",
+      "row": "ATH:M.100M--------------.RND1.000600--"
     },
     {
       "code": "PENDING_LATER_UNITS",
