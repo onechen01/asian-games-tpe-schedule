@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T23:44:15.372Z",
+  "generatedAt": "2026-09-22T23:56:28.739Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-22T23:44:15.198Z",
+      "generatedAt": "2026-09-22T23:56:28.596Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -598,7 +598,20 @@
       "phase": "Men's Team Group A",
       "unit": "Game 6",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "PENG Xian-ya",
+        "TSAI Chung-hao",
+        "SU Hsiang-chih",
+        "CHUANG Chia-ming",
+        "LIN Po-ting",
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
+      ],
       "opponent": "Republic of Korea",
       "opponentCode": "KOR",
       "venue": "Tokai Citizen Gymnasium",
