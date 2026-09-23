@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T23:56:28.739Z",
+  "generatedAt": "2026-09-23T00:17:12.031Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-22T23:56:28.596Z",
+      "generatedAt": "2026-09-23T00:17:11.881Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -309,8 +309,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -345,23 +345,23 @@
       "opponentCode": null,
       "venue": "Circular course around the Aichi Prefectural Government office and the Nagoya City Hall",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "LO Sheng-qin",
           "registration": "2275275",
-          "result": null,
-          "rank": null
+          "result": "1:35:20",
+          "rank": "6"
         },
         {
           "name": "CHAN Yung-kuei",
           "registration": "2273993",
-          "result": null,
-          "rank": null
+          "result": "1:41:48",
+          "rank": "8"
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -399,8 +399,12 @@
       "opponentCode": null,
       "venue": "Shinshiro Cycling Road Course",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 16,
@@ -440,7 +444,7 @@
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "DELAYED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -481,7 +485,7 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "DELAYED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -522,7 +526,7 @@
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "DELAYED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -563,8 +567,12 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "resultScope": "component",
       "tpeRank": null,
@@ -659,7 +667,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [
         {
