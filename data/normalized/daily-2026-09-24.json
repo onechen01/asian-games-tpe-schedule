@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T02:06:05.814Z",
+  "generatedAt": "2026-09-24T02:16:15.905Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T02:06:05.646Z",
+      "generatedAt": "2026-09-24T02:16:15.717Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -621,8 +621,12 @@
       "opponentCode": "KGZ",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -703,7 +707,7 @@
       "opponentCode": "KUW",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": "2",
@@ -748,7 +752,7 @@
       "opponentCode": "UAE",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": "2",
@@ -793,7 +797,7 @@
       "opponentCode": "KOR",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "3",
         "opponent": "5",
@@ -838,7 +842,7 @@
       "opponentCode": "PHI",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "5",
@@ -883,7 +887,7 @@
       "opponentCode": "UZB",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": "3",
@@ -931,12 +935,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "43",
+        "tpe": "53",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "8",
+      "tpeRank": "9",
       "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -971,7 +975,7 @@
         "CHEN Szu-yu",
         "WU Ying-syuan"
       ],
-      "opponent": "LEONG On Na/KUAN Cheok Lam",
+      "opponent": "LEONG On Na / KUAN Cheok Lam",
       "opponentCode": "MAC",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -982,7 +986,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1212,7 +1216,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1.62",
+        "tpe": "1.65",
         "opponent": null,
         "source": "results"
       },
@@ -1252,13 +1256,13 @@
         "YEH Yi-tian",
         "CHENG I-ching"
       ],
-      "opponent": "PYON Song Gyong/CHOE Jong Im",
+      "opponent": "PYON Song Gyong / CHOE Jong Im",
       "opponentCode": "PRK",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "2",
+        "tpe": "3",
         "opponent": "1",
         "source": "results"
       },
@@ -1348,12 +1352,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "64.14",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
