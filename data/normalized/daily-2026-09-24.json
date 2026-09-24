@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T07:35:30.252Z",
+  "generatedAt": "2026-09-24T07:43:56.618Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T07:35:30.098Z",
+      "generatedAt": "2026-09-24T07:43:56.440Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1632,17 +1632,17 @@
       "athletes": [],
       "athletesEn": [
         "LIN I-min",
-        "YEN Chiao-wen",
-        "FENG Hsiu-chen",
-        "QIN Pei-jyun",
-        "WU Yu-jung",
-        "KANG Yung-chiao",
+        "CHUANG Ya-han",
         "HU Yu-chen",
         "HUANG Ssu-chin",
-        "CHUANG Ya-han",
+        "YEN Chiao-wen",
+        "REN Ming-xiu",
+        "KANG Yung-chiao",
+        "FENG Hsiu-chen",
+        "QIN Pei-jyun",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "REN Ming-xiu"
+        "WU Yu-jung"
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
@@ -1780,18 +1780,18 @@
       "unit": "Game 10",
       "athletes": [],
       "athletesEn": [
-        "CHANG Chung-mao",
-        "JIN Wu Fu-kai",
-        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "YEH Jiunn-ming",
-        "CHEN Zheng-wei",
+        "SU Hsiang-chih",
         "CHUANG Chia-ming",
-        "LI Jyun-jie",
         "LIN Po-ting",
-        "CAI Ruei-chen",
-        "SU Hsiang-chih"
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
       ],
       "opponent": "India",
       "opponentCode": "IND",
@@ -2113,7 +2113,7 @@
       "opponentCode": null,
       "venue": "Aichi Sky Expo Hall B",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "83.73",
         "opponent": null,
@@ -2216,8 +2216,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "33",
-        "opponent": "26",
+        "tpe": "42",
+        "opponent": "34",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2304,8 +2304,12 @@
       "opponentCode": "IND",
       "venue": "",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2903,7 +2907,7 @@
     "resultsOnly": 52,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 54
+    "warnings": 53
   },
   "warnings": [
     {
@@ -3165,11 +3169,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:00 Women's Heptathlon 200 Metres Heat 1",
       "row": "ATH:W.HEPTATH-----------.200-.000100--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ELS|O.NRK---------------",
-      "message": "ELS Action-adventure / Battle Royale [NARAKA : BLADEPOINT] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
