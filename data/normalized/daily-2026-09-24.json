@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T08:32:54.667Z",
+  "generatedAt": "2026-09-24T08:47:09.160Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T08:32:54.506Z",
+      "generatedAt": "2026-09-24T08:47:08.992Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1632,17 +1632,17 @@
       "athletes": [],
       "athletesEn": [
         "LIN I-min",
-        "CHUANG Ya-han",
-        "HU Yu-chen",
-        "HUANG Ssu-chin",
         "YEN Chiao-wen",
-        "REN Ming-xiu",
-        "KANG Yung-chiao",
         "FENG Hsiu-chen",
         "QIN Pei-jyun",
+        "WU Yu-jung",
+        "KANG Yung-chiao",
+        "HU Yu-chen",
+        "HUANG Ssu-chin",
+        "CHUANG Ya-han",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "WU Yu-jung"
+        "REN Ming-xiu"
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
@@ -1780,18 +1780,18 @@
       "unit": "Game 10",
       "athletes": [],
       "athletesEn": [
+        "CHANG Chung-mao",
+        "JIN Wu Fu-kai",
+        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "SU Hsiang-chih",
-        "CHUANG Chia-ming",
-        "LIN Po-ting",
-        "JIN Wu Fu-kai",
         "YEH Jiunn-ming",
-        "WANG Lun-chu",
-        "LI Jyun-jie",
-        "CHANG Chung-mao",
         "CHEN Zheng-wei",
-        "CAI Ruei-chen"
+        "CHUANG Chia-ming",
+        "LI Jyun-jie",
+        "LIN Po-ting",
+        "CAI Ruei-chen",
+        "SU Hsiang-chih"
       ],
       "opponent": "India",
       "opponentCode": "IND",
@@ -2216,8 +2216,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "72",
-        "opponent": "62",
+        "tpe": "82",
+        "opponent": "71",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2259,7 +2259,7 @@
       "opponentCode": "MGL",
       "venue": "",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "3",
         "opponent": "1",
@@ -2494,7 +2494,7 @@
       "opponentCode": "SGP",
       "venue": "",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "3",
         "opponent": "1",
@@ -2542,8 +2542,12 @@
       "opponentCode": "KOR",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "4",
+        "opponent": "6",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
