@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T09:35:10.855Z",
+  "generatedAt": "2026-09-24T09:43:58.802Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T09:35:10.678Z",
+      "generatedAt": "2026-09-24T09:43:58.626Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2592,8 +2592,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "2",
-        "opponent": "5",
+        "tpe": "14",
+        "opponent": "14",
         "source": "results"
       },
       "tpeEntrants": [],
