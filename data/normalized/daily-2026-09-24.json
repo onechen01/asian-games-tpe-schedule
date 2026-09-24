@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T01:35:38.260Z",
+  "generatedAt": "2026-09-24T01:55:22.683Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T01:35:38.121Z",
+      "generatedAt": "2026-09-24T01:55:22.562Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -330,32 +330,16 @@
       "phase": "10m Air Pistol Men Individual Qualification",
       "unit": "10m Air Pistol Men Individual - Qualification",
       "athletes": [],
-      "athletesEn": [
-        "HSIEH Hsiang-Chen",
-        "YEH Ting-Wei"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "RUNNING",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "HSIEH Hsiang-Chen",
-          "registration": "13709878",
-          "result": null,
-          "rank": "31"
-        },
-        {
-          "name": "YEH Ting-Wei",
-          "registration": "9615634",
-          "result": null,
-          "rank": "31"
-        }
-      ],
-      "tpeRank": "31",
-      "orgCount": 24,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -423,98 +407,6 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T09:00:00+08:00",
       "startTimeJst": "2026-09-24T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Mixed Team",
-      "phase": "Skeet Mixed Team Qualification",
-      "unit": "Skeet Mixed Team - Qualification",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Meng-Yuan",
-        "LO Chien-Ya"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "43",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "8",
-      "orgCount": 11,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.SKMT--------------.QUAL.000100--",
-          "id": "SHO:X.SKMT--------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles Round 2",
-      "unit": "Women's Doubles Round 2 Match 2",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Szu-yu",
-        "WU Ying-syuan"
-      ],
-      "opponent": "LEONG On Na/KUAN Cheok Lam",
-      "opponentCode": "MAC",
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "3",
-        "opponent": "1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.DOUBLES-----------.R32-.000200--",
-          "id": "TTE:W.DOUBLES-----------.R32-.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
       "disciplineCode": "FEN",
       "sportZh": "擊劍",
       "sportEn": "Fencing",
@@ -536,7 +428,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -619,14 +511,14 @@
       "opponentCode": "VIE",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "4",
+        "opponent": "5",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -794,7 +686,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -839,7 +731,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -884,7 +776,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -922,10 +814,14 @@
       "opponentCode": "PHI",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -983,6 +879,91 @@
         "results": {
           "unitId": "M.EPEE--------------.GPF-.001500--",
           "id": "FEN:M.EPEE--------------.GPF-.001500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Round 2",
+      "unit": "Women's Doubles Round 2 Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Szu-yu",
+        "WU Ying-syuan"
+      ],
+      "opponent": "LEONG On Na/KUAN Cheok Lam",
+      "opponentCode": "MAC",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.R32-.000200--",
+          "id": "TTE:W.DOUBLES-----------.R32-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Mixed Team",
+      "phase": "Skeet Mixed Team Qualification",
+      "unit": "Skeet Mixed Team - Qualification",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.SKMT--------------.QUAL.000100--",
+          "id": "SHO:X.SKMT--------------.QUAL.000100--"
         }
       }
     },
@@ -1104,7 +1085,7 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2:12.68",
         "opponent": null,
@@ -1149,14 +1130,14 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "2:12.46",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1194,8 +1175,12 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 8,
@@ -1236,8 +1221,12 @@
       "opponentCode": "PRK",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1277,7 +1266,7 @@
       "opponentCode": null,
       "venue": "Obata Ryokuchi Park",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1338,47 +1327,6 @@
         "results": {
           "unitId": "W.PARK--------------.QUAL.000100--",
           "id": "SKB:W.PARK--------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T10:20:00+08:00",
-      "startTimeJst": "2026-09-24T11:20:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Round 1",
-      "unit": "Men's Singles Round 1 Match 5",
-      "athletes": [],
-      "athletesEn": [
-        "FENG Yi-hsin"
-      ],
-      "opponent": "BYE",
-      "opponentCode": "BYE",
-      "venue": "",
-      "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.R64-.000500--",
-          "id": "TTE:M.SINGLES-----------.R64-.000500--"
         }
       }
     },
@@ -1722,7 +1670,7 @@
       "sportEn": "Esports",
       "event": "Puzzle [Puyo Puyo Champions]",
       "phase": "Puyo Puyo Champions Group B",
-      "unit": "Puyo Puyo Champions Group B",
+      "unit": "Match 2",
       "athletes": [],
       "athletesEn": [
         "KUO Tzu-ang"
@@ -1815,7 +1763,7 @@
       "sportEn": "Esports",
       "event": "Puzzle [Puyo Puyo Champions]",
       "phase": "Puyo Puyo Champions Group B",
-      "unit": "Puyo Puyo Champions Group B",
+      "unit": "Match 4",
       "athletes": [],
       "athletesEn": [
         "KUO Tzu-ang"
@@ -1856,7 +1804,7 @@
       "sportEn": "Esports",
       "event": "Puzzle [Puyo Puyo Champions]",
       "phase": "Puyo Puyo Champions Group B",
-      "unit": "Puyo Puyo Champions Group B",
+      "unit": "Match 6",
       "athletes": [],
       "athletesEn": [
         "KUO Tzu-ang"
@@ -1938,7 +1886,7 @@
       "sportEn": "Esports",
       "event": "Puzzle [Puyo Puyo Champions]",
       "phase": "Puyo Puyo Champions Group B",
-      "unit": "Puyo Puyo Champions Group B",
+      "unit": "Match 8",
       "athletes": [],
       "athletesEn": [
         "KUO Tzu-ang"
@@ -2195,10 +2143,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 43,
+    "resultsOnly": 42,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 52
+    "warnings": 51
   },
   "warnings": [
     {
@@ -2210,16 +2158,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 NARAKA : BLADEPOINT Semi-finals",
       "row": "ELS:O.NRK---------------.SFNL.00010000"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Mixed Team - Qualification",
-      "row": "SHO:X.SKMT--------------.QUAL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Doubles Round 2 Match 2",
-      "row": "TTE:W.DOUBLES-----------.R32-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2278,6 +2216,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Doubles Round 2 Match 2",
+      "row": "TTE:W.DOUBLES-----------.R32-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Mixed Team - Qualification",
+      "row": "SHO:X.SKMT--------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:02 Women's 50m Freestyle Heat 2",
       "row": "SWM:W.50MFR-------------.HEAT.000200--"
     },
@@ -2315,11 +2263,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SKB 10:00 Women's Park - Prelims - Heat 1",
       "row": "SKB:W.PARK--------------.QUAL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 10:20 Men's Singles Round 1 Match 5",
-      "row": "TTE:M.SINGLES-----------.R64-.000500--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2363,7 +2306,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:20 Puyo Puyo Champions Group B",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:20 Match 2",
       "row": "ELS:O.PYO---------------.GPB-.000200--"
     },
     {
@@ -2373,12 +2316,12 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:00 Puyo Puyo Champions Group B",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:00 Match 4",
       "row": "ELS:O.PYO---------------.GPB-.000400--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:40 Puyo Puyo Champions Group B",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:40 Match 6",
       "row": "ELS:O.PYO---------------.GPB-.000600--"
     },
     {
@@ -2388,7 +2331,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:20 Puyo Puyo Champions Group B",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:20 Match 8",
       "row": "ELS:O.PYO---------------.GPB-.000800--"
     },
     {
