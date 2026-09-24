@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:28:30.069Z",
+  "generatedAt": "2026-09-24T11:47:52.248Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T11:28:29.926Z",
+      "generatedAt": "2026-09-24T11:47:52.146Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -1597,6 +1597,49 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T13:30:00+08:00",
+      "startTimeJst": "2026-09-25T14:30:00+09:00",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV]",
+      "phase": "Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] Quarter-finals",
+      "unit": "Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chia-hung",
+        "CHEN You-gang",
+        "CHANG Chia-tung"
+      ],
+      "opponent": "Republic of Korea",
+      "opponentCode": "KOR",
+      "venue": "",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": "9",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.FTG---------------.QFNL.00040000",
+          "id": "ELS:O.FTG---------------.QFNL.00040000"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T13:45:00+08:00",
       "startTimeJst": "2026-09-25T14:45:00+09:00",
       "disciplineCode": "TTE",
@@ -2197,10 +2240,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 32,
+    "resultsOnly": 33,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 43
+    "warnings": 45
   },
   "warnings": [
     {
@@ -2320,6 +2363,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:30 Match 4",
+      "row": "ELS:O.FTG---------------.QFNL.00040000"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 13:45 Men's Singles Round 2 Match 9",
       "row": "TTE:M.SINGLES-----------.R32-.000900--"
     },
@@ -2377,6 +2425,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SRF|W.SHORTBRD----------",
       "message": "SRF Women's Shortboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ELS|O.FTG---------------",
+      "message": "ELS Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
