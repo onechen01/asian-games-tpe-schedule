@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T23:43:55.294Z",
+  "generatedAt": "2026-09-24T00:04:53.313Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-23T23:43:55.161Z",
+      "generatedAt": "2026-09-24T00:04:53.126Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -383,7 +383,7 @@
       "sportEn": "Esports",
       "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
       "phase": "NARAKA : BLADEPOINT Semi-finals",
-      "unit": "1",
+      "unit": "Semifinal 1",
       "athletes": [],
       "athletesEn": [
         "LIU Tang-shiun",
@@ -2082,7 +2082,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 1",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 Semifinal 1",
       "row": "ELS:O.NRK---------------.SFNL.00010000"
     },
     {
