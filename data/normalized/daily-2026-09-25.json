@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T20:46:07.170Z",
+  "generatedAt": "2026-09-24T20:56:17.014Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T20:46:07.012Z",
+      "generatedAt": "2026-09-24T20:56:16.843Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1007,7 +1007,7 @@
         "LIN Yun-ju",
         "CHENG I-ching"
       ],
-      "opponent": "LIM Jonghoon / SHIN Yubin",
+      "opponent": "LIM Jonghoon/SHIN Yubin",
       "opponentCode": "KOR",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
