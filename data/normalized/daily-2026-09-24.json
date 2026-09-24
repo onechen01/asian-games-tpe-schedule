@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T08:06:58.735Z",
+  "generatedAt": "2026-09-24T08:26:11.773Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T08:06:58.592Z",
+      "generatedAt": "2026-09-24T08:26:11.624Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1211,16 +1211,32 @@
       "phase": "Women's 50m Freestyle Heats",
       "unit": "Women's 50m Freestyle Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIU Pei-yin",
+        "CHIU Yi-chen"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "LIU Pei-yin",
+          "registration": "8606802",
+          "result": "25.64",
+          "rank": "4"
+        },
+        {
+          "name": "CHIU Yi-chen",
+          "registration": "478795",
+          "result": "26.03",
+          "rank": "5"
+        }
+      ],
+      "tpeRank": "4",
+      "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1295,16 +1311,22 @@
       "phase": "Men's 200m Breaststroke Heats",
       "unit": "Men's 200m Breaststroke Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHANG Chiao-i"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "2:12.68",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "3",
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1334,16 +1356,22 @@
       "phase": "Men's 200m Breaststroke Heats",
       "unit": "Men's 200m Breaststroke Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TSAI Ruei-hong"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "2:12.46",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "3",
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2188,8 +2216,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "50",
-        "opponent": "34",
+        "tpe": "68",
+        "opponent": "56",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2231,10 +2259,10 @@
       "opponentCode": "MGL",
       "venue": "",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "3",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2276,10 +2304,10 @@
       "opponentCode": "IND",
       "venue": "",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "3",
+        "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2321,14 +2349,14 @@
       "opponentCode": "VIE",
       "venue": "Nishio Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "1",
+        "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2359,16 +2387,22 @@
       "phase": "Women's 50m Freestyle Final",
       "unit": "Women's 50m Freestyle Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIU Pei-yin"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "25.64",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "9",
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2398,16 +2432,32 @@
       "phase": "Men's 200m Breaststroke Final",
       "unit": "Men's 200m Breaststroke Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TSAI Ruei-hong",
+        "CHANG Chiao-i"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "TSAI Ruei-hong",
+          "registration": "14556573",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHANG Chiao-i",
+          "registration": "8539844",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2444,8 +2494,12 @@
       "opponentCode": "SGP",
       "venue": "",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,

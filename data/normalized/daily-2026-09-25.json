@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T08:10:27.273Z",
+  "generatedAt": "2026-09-24T08:28:51.161Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T08:10:27.135Z",
+      "generatedAt": "2026-09-24T08:28:51.016Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1826,6 +1826,48 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T14:30:00+08:00",
+      "startTimeJst": "2026-09-25T15:30:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Round 3",
+      "unit": "Women's Doubles Round 3 Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "YEH Yi-tian",
+        "CHENG I-ching"
+      ],
+      "opponent": "SAWETTABUT Suthasini/PARANANG Orawan",
+      "opponentCode": "THA",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.8FNL.000600--",
+          "id": "TTE:W.DOUBLES-----------.8FNL.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T14:40:00+08:00",
       "startTimeJst": "2026-09-25T15:40:00+09:00",
       "disciplineCode": "GAR",
@@ -1951,6 +1993,48 @@
       "sources": {
         "entries": {
           "eventId": "BDM|W.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T15:15:00+08:00",
+      "startTimeJst": "2026-09-25T16:15:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Round 3",
+      "unit": "Women's Doubles Round 3 Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Szu-yu",
+        "WU Ying-syuan"
+      ],
+      "opponent": "HARIMOTO Miwa/HAYATA Hina",
+      "opponentCode": "JPN",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.8FNL.000100--",
+          "id": "TTE:W.DOUBLES-----------.8FNL.000100--"
         }
       }
     },
@@ -2324,10 +2408,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 30,
+    "resultsOnly": 32,
     "entered": 11,
     "unresolvedTbd": 0,
-    "warnings": 39
+    "warnings": 43
   },
   "warnings": [
     {
@@ -2457,6 +2541,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 14:30 Women's Doubles Round 3 Match 6",
+      "row": "TTE:W.DOUBLES-----------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 15:15 Women's Doubles Round 3 Match 1",
+      "row": "TTE:W.DOUBLES-----------.8FNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 61kg Group A",
       "row": "WLF:W.61KG--------------.FNL-.A00100--"
     },
@@ -2502,6 +2596,11 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "TTE|M.DOUBLES-----------",
+      "message": "TTE Men's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "SWM|M.50MBR-------------",
       "message": "SWM Men's 50m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2514,6 +2613,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|M.200MBF------------",
       "message": "SWM Men's 200m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TTE|X.DOUBLES-----------",
+      "message": "TTE Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
