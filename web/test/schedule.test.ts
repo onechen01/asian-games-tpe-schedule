@@ -297,15 +297,21 @@ test('swimming heats keep their own official times, and the session programme st
   const swims = taiwanRows(day).filter(r=>r.disciplineCode === 'SWM');
   assert.ok(swims.length > 1);
   // Heats may now be covered by the session programme, but only inside its official window.
+  // A D-LIVE rerun is exempt from its own window: it inherits the match from its LIVE original
+  // (whose window was already checked), while still showing its own, later, broadcast time.
   for (const row of swims) {
     for (const b of broadcastsForRow(shows,'2026-09-21',row)) {
+      if (b.isLive === false) continue;
       assert.ok(Date.parse(row.startTimeTaipei!) >= Date.parse(b.broadcastStartTimeTaipei));
       assert.ok(Date.parse(row.startTimeTaipei!) < Date.parse(b.broadcastEndTimeTaipei!));
     }
   }
   assert.deepEqual(new Set(swims.map(r=>r.startTimeTaipei)).size,swims.length);
+  // The 9/21 D-LIVE rerun now inherits onto the same heats as its LIVE original (see the
+  // dedicated D-LIVE inheritance tests below), so nothing swimming-related is left over at
+  // discipline level for this date any more.
   const grouped = disciplineBroadcasts(shows,'2026-09-21',taiwanRows(day));
-  assert.ok((grouped.get('SWM')?.length ?? 0) >= 1,'游泳整場節目留在運動層級');
+  assert.equal(grouped.get('SWM'),undefined);
 });
 
 test('several programmes and several providers can cover one day without overwriting',()=>{
@@ -754,4 +760,135 @@ test('the real 9/25 north-korea-vs-taiwan football quarterfinal still matches by
   assert.equal(row.phase,'Women Quarter-finals');
   assert.ok(broadcastsForRow(shows,'2026-09-25',row).length >= 1,
     '"Quarter-finals" 的連字號不得被誤判成 FINAL family 而擋掉既有的 opponent 證據');
+});
+
+// -- third cut: a D-LIVE rerun with no evidence of its own inherits whatever cards its LIVE
+// original already safely matched, but only when the two titles are identical once pure
+// playback markers (LIVE/D-LIVE/原音/續看) are stripped. Nothing else changes: competition time
+// stays put, the D-LIVE keeps showing its own broadcast time, and LIVE + D-LIVE can coexist. --
+
+const heat = (time:string, phase:string)=>({ disciplineCode:'SWM', opponentCode:null, athletesEn:[],
+  startTimeTaipei:`2026-09-21T${time}:00+08:00`, phase });
+
+test('case A — a D-LIVE rerun inherits exactly the cards its LIVE original matched (real 9/21 swimming heats)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-21',providerId:'elta',providerName:'愛爾達',channelId:'540',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-21T08:55:00+08:00',broadcastEndTimeTaipei:'2026-09-21T10:50:00+08:00',
+      disciplineCode:'SWM',title:'亞運 中華隊 游泳 預賽 9/21(原音) LIVE',feed:'original',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Heats','Preliminar','Qualification','Round Robin','Group']} },
+    { date:'2026-09-21',providerId:'elta',providerName:'愛爾達',channelId:'101',isLive:false,
+      broadcastStartTimeTaipei:'2026-09-21T10:30:00+08:00',broadcastEndTimeTaipei:'2026-09-21T11:50:00+08:00',
+      disciplineCode:'SWM',title:'亞運 中華隊 游泳 預賽 9/21 D-LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Heats','Preliminar','Qualification','Round Robin','Group']} }]}));
+  const backstroke = heat('09:00',"Men's 50m Backstroke Heats");
+  const found = broadcastsForRow(show,'2026-09-21',backstroke);
+  assert.equal(found.length,2,'LIVE 與繼承的 D-LIVE 都應出現');
+  assert.deepEqual(new Set(found.map(b=>b.channelId)),new Set(['540','101']));
+  const dlive = found.find(b=>b.isLive === false)!;
+  // The D-LIVE keeps its own (later) broadcast time; the row's competition time is untouched.
+  assert.equal(dlive.broadcastStartTimeTaipei,'2026-09-21T10:30:00+08:00');
+  assert.equal(backstroke.startTimeTaipei,'2026-09-21T09:00:00+08:00');
+  // A final, outside the heats session entirely, gets neither.
+  const final = heat('16:00',"Men's 50m Backstroke Final");
+  assert.equal(broadcastsForRow(show,'2026-09-21',final).length,0);
+});
+
+test('case B — the same inheritance holds for a second, independent day (real 9/25 swimming heats)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-25',providerId:'elta',providerName:'愛爾達',channelId:'541',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-25T08:55:00+08:00',broadcastEndTimeTaipei:'2026-09-25T10:35:00+08:00',
+      disciplineCode:'SWM',title:'亞運 中華隊 游泳 預賽 9/25(原音) LIVE',feed:'original',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Heats','Preliminar','Qualification','Round Robin','Group']} },
+    { date:'2026-09-25',providerId:'elta',providerName:'愛爾達',channelId:'110',isLive:false,
+      broadcastStartTimeTaipei:'2026-09-25T14:45:00+08:00',broadcastEndTimeTaipei:'2026-09-25T16:00:00+08:00',
+      disciplineCode:'SWM',title:'亞運 中華隊 游泳 預賽 9/25 D-LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Heats','Preliminar','Qualification','Round Robin','Group']} }]}));
+  const row = { disciplineCode:'SWM', opponentCode:null, athletesEn:[],
+    startTimeTaipei:'2026-09-25T09:00:00+08:00', phase:"Women's 50m Butterfly Heats" };
+  const found = broadcastsForRow(show,'2026-09-25',row);
+  assert.equal(found.length,2);
+  assert.ok(found.some(b=>b.isLive === false && b.channelId === '110'));
+});
+
+test('case C — a D-LIVE rerun credited to a different athlete, or covering a different round, is not inherited (real karate examples)',()=>{
+  // 9/22: the LIVE names a specific athlete ("鍾孟宇"); the D-LIVE rerun uses the generic "中華隊"
+  // label instead — a real difference in who the programme is about, not playback noise.
+  const namedAthlete = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-22',providerId:'elta',providerName:'愛爾達',channelId:'543',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-22T08:55:00+08:00',broadcastEndTimeTaipei:'2026-09-22T11:15:00+08:00',
+      disciplineCode:'KTE',title:'亞運 鍾孟宇 空手道 女子團體型/男84公斤級八強/四強/銅牌戰 9/22(原音) LIVE',feed:'original',
+      matchLevel:'unit',matchHint:{athleteNames:['CHUNG Meng-yu']} },
+    { date:'2026-09-22',providerId:'elta',providerName:'愛爾達',channelId:'105',isLive:false,
+      broadcastStartTimeTaipei:'2026-09-22T12:30:00+08:00',broadcastEndTimeTaipei:'2026-09-22T13:25:00+08:00',
+      disciplineCode:'KTE',title:'亞運 中華隊 空手道 女子團體型/男84公斤級八強/四強/銅牌戰 9/22 D-LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{} }]}));
+  const kumite84 = { disciplineCode:'KTE', opponentCode:'JOR', athletesEn:['CHUNG Meng-yu'],
+    startTimeTaipei:'2026-09-22T09:50:00+08:00', event:'Men\'s Kumite -84kg', phase:'Men\'s Kumite -84kg Quarterfinals' };
+  const found = broadcastsForRow(namedAthlete,'2026-09-22',kumite84);
+  assert.equal(found.length,1,'只有 LIVE 本身（靠具名選手證據）配到，D-LIVE 不應繼承');
+  assert.equal(found[0].isLive,true);
+
+  // 9/23: the LIVE covers "八強/四強/銅牌戰" (QF/SF/Bronze); the D-LIVE rerun covers a different
+  // phase range, "複賽/金牌戰" (repechage/Gold Medal Match) — a real content difference.
+  const differentPhase = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-23',providerId:'elta',providerName:'愛爾達',channelId:'542',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-23T08:55:00+08:00',broadcastEndTimeTaipei:'2026-09-23T10:00:00+08:00',
+      disciplineCode:'KTE',title:'亞運 中華隊 空手道 男子團體型八強/四強/銅牌戰 9/23(原音) LIVE',feed:'original',
+      matchLevel:'discipline',matchHint:{eventKeywords:['Team Kata'],phaseKeywords:['Quarterfinal','Semifinal','Bronze Medal']} },
+    { date:'2026-09-23',providerId:'elta',providerName:'愛爾達',channelId:'110',isLive:false,
+      broadcastStartTimeTaipei:'2026-09-23T15:17:00+08:00',broadcastEndTimeTaipei:'2026-09-23T15:55:00+08:00',
+      disciplineCode:'KTE',title:'亞運 中華隊 空手道 男子團體型/男84以上/女50公斤級複賽/金牌戰 9/23 D-LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{} }]}));
+  const teamKataQF = { disciplineCode:'KTE', opponentCode:'CAM', athletesEn:[],
+    startTimeTaipei:'2026-09-23T09:00:00+08:00', event:"Men's Team Kata", phase:"Men's Team Kata Quarterfinals" };
+  const found2 = broadcastsForRow(differentPhase,'2026-09-23',teamKataQF);
+  assert.equal(found2.length,1);
+  assert.equal(found2[0].isLive,true);
+});
+
+test('case D — a D-LIVE rerun with no same-day LIVE counterpart at all stays an orphan',()=>{
+  const lonely = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-24',providerId:'elta',providerName:'愛爾達',channelId:'999',isLive:false,
+      broadcastStartTimeTaipei:'2026-09-24T20:00:00+08:00',broadcastEndTimeTaipei:'2026-09-24T21:00:00+08:00',
+      disciplineCode:'SWM',title:'亞運 中華隊 游泳 預賽 9/24 D-LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Heats']} }]}));
+  const row = { disciplineCode:'SWM', opponentCode:null, athletesEn:[],
+    startTimeTaipei:'2026-09-24T09:00:00+08:00', phase:"Women's 50m Freestyle Heats" };
+  assert.equal(broadcastsForRow(lonely,'2026-09-24',row).length,0);
+});
+
+test('case E — inheritance never grants a D-LIVE a card its LIVE original did not itself match',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-21',providerId:'elta',providerName:'愛爾達',channelId:'540',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-21T08:55:00+08:00',broadcastEndTimeTaipei:'2026-09-21T10:50:00+08:00',
+      disciplineCode:'SWM',title:'亞運 中華隊 游泳 預賽 9/21(原音) LIVE',feed:'original',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Heats','Preliminar','Qualification','Round Robin','Group']} },
+    { date:'2026-09-21',providerId:'elta',providerName:'愛爾達',channelId:'101',isLive:false,
+      broadcastStartTimeTaipei:'2026-09-21T10:30:00+08:00',broadcastEndTimeTaipei:'2026-09-21T11:50:00+08:00',
+      disciplineCode:'SWM',title:'亞運 中華隊 游泳 預賽 9/21 D-LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Heats','Preliminar','Qualification','Round Robin','Group']} }]}));
+  // A final: the LIVE heats programme never matched it (wrong phase), so the D-LIVE must not
+  // pick it up either, even though it is the "same" broadcast pairing on the same day.
+  const final = heat('16:00',"Men's 50m Backstroke Final");
+  assert.equal(broadcastsForRow(show,'2026-09-21',final).length,0);
+  // A different discipline entirely: never inherited regardless of title similarity.
+  const otherSport = { ...heat('09:00','Heats'), disciplineCode:'ATH' };
+  assert.equal(broadcastsForRow(show,'2026-09-21',otherSport).length,0);
+});
+
+test('D-LIVE inheritance across the full real schedule never grants a card its LIVE original did not match',async()=>{
+  const shows = await loadBroadcasts();
+  for (const date of ['2026-09-21','2026-09-25']) {
+    const day = parseDaily(JSON.parse(await readFile(`data/normalized/daily-${date}.json`,'utf8')),date);
+    for (const row of [...taiwanRows(day), ...pendingRows(day)]) {
+      const found = broadcastsForRow(shows,date,row);
+      const dliveOnly = found.filter(b=>b.isLive === false);
+      for (const d of dliveOnly) {
+        // Every inherited D-LIVE match must have a same-day, same-discipline LIVE sibling with
+        // the identical normalised title that itself matches this exact row.
+        const siblingLiveMatches = found.some(b=>b.isLive !== false);
+        assert.ok(siblingLiveMatches,`D-LIVE ${d.title} 配到卡片但沒有對應 LIVE 也配到同一張卡`);
+      }
+    }
+  }
 });

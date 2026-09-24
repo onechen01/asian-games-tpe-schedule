@@ -113,37 +113,59 @@ const hasExplicitConflict = (r:Broadcast, row:MatchRow)=>
   explicitConflict(titleEventFamilies(r), familiesIn(row.event,EVENT_FAMILIES,'row'))
   || explicitConflict(familiesIn(r.title,PHASE_FAMILIES,'title'), familiesIn(row.phase,PHASE_FAMILIES,'row'));
 
-// Strong evidence (a named athlete or opponent) attaches on its own. A session programme may
-// cover several units, but only inside the broadcaster's own [start, end) window and only
-// when it says which phase it covers — matching times alone is never evidence.
+// Strong evidence (a named athlete or opponent) attaches on its own, live or delayed. A session
+// programme (phase evidence only) additionally requires the broadcast to be live — matching
+// times alone is never evidence, and a session's real extent is unknown once it is delayed.
+function matchesDirectly(r:Broadcast, row:MatchRow):boolean {
+  if (r.disciplineCode !== row.disciplineCode) return false;
+  if (hasExplicitConflict(r,row)) return false;
+  const hint = r.matchHint ?? {};
+  if (hint.opponentCodes?.length) return !!row.opponentCode && hint.opponentCodes.includes(row.opponentCode);
+  if (hint.athleteNames?.length) {
+    const names = [...(row.athletesEn ?? []), ...(row.enteredAthletes ?? [])].map(key);
+    return hint.athleteNames.some(n=>names.includes(key(n)));
+  }
+  // Phase evidence: either the stored hint (manually verified, may use English round names
+  // the shared tables don't know, e.g. "Round 2") or the shared PHASE_FAMILIES recognised
+  // directly in the title — the same table the veto above already checked for conflicts, so
+  // one alias list serves both. Neither is required to know about the other's vocabulary.
+  const sharedPhase = familiesIn(r.title,PHASE_FAMILIES,'title');
+  const rowPhase = familiesIn(row.phase,PHASE_FAMILIES,'row');
+  const phaseMatch = hits(hint.phaseKeywords, row.phase)
+    || (sharedPhase.size>0 && rowPhase.size>0 && [...sharedPhase].some(f=>rowPhase.has(f)));
+  if (!hint.phaseKeywords?.length && !sharedPhase.size) return false;
+  // A delayed broadcast covers a session whose real extent is unknown, so it stays off cards.
+  if (r.isLive === false) return false;
+  if (!phaseMatch) return false;
+  if (hint.eventKeywords?.length && !hits(hint.eventKeywords, row.event)) return false;
+  // An event-level row has no Taiwan start time to compare with, so the window cannot be
+  // used against it; the sport, the day and the phase still have to agree.
+  if (isProvisional(row)) return true;
+  return insideWindow(r, row);
+}
+
+// A D-LIVE rerun with no evidence of its own — the exact situation the phase branch above
+// blocks with `isLive === false` — can still inherit whatever cards its LIVE original already
+// safely matched, but only when the two titles are identical once pure playback noise (LIVE,
+// D-LIVE, 原音, 續看) is stripped. Nothing substantive (event, phase, athlete, opponent) is ever
+// removed to force two different programmes to look alike, so a rerun credited to a different
+// athlete or covering a different round is left exactly as unmatched as it was before.
+const stripPlaybackMarkers = (title:string|null|undefined)=>(title ?? '')
+  .replace(/D-LIVE/gi,'').replace(/\bLIVE\b/gi,'')
+  .replace(/[(（]原音[)）]/g,'').replace(/[(（]續看[)）]|續看/g,'')
+  .replace(/\s+/g,' ').trim();
+function inheritsFromLive(r:Broadcast, row:MatchRow, sameDate:Broadcast[]):boolean {
+  if (r.isLive !== false) return false;
+  const normalized = stripPlaybackMarkers(r.title);
+  if (!normalized) return false;
+  return sameDate.some(live=>live !== r && live.isLive !== false && live.providerId === r.providerId
+    && live.disciplineCode === r.disciplineCode && stripPlaybackMarkers(live.title) === normalized
+    && matchesDirectly(live,row));
+}
+
 export function broadcastsForRow(all:Broadcasts, date:string, row:MatchRow):Broadcast[] {
-  return forDate(all,date).filter(r=>{
-    if (r.disciplineCode !== row.disciplineCode) return false;
-    if (hasExplicitConflict(r,row)) return false;
-    const hint = r.matchHint ?? {};
-    if (hint.opponentCodes?.length) return !!row.opponentCode && hint.opponentCodes.includes(row.opponentCode);
-    if (hint.athleteNames?.length) {
-      const names = [...(row.athletesEn ?? []), ...(row.enteredAthletes ?? [])].map(key);
-      return hint.athleteNames.some(n=>names.includes(key(n)));
-    }
-    // Phase evidence: either the stored hint (manually verified, may use English round names
-    // the shared tables don't know, e.g. "Round 2") or the shared PHASE_FAMILIES recognised
-    // directly in the title — the same table the veto above already checked for conflicts, so
-    // one alias list serves both. Neither is required to know about the other's vocabulary.
-    const sharedPhase = familiesIn(r.title,PHASE_FAMILIES,'title');
-    const rowPhase = familiesIn(row.phase,PHASE_FAMILIES,'row');
-    const phaseMatch = hits(hint.phaseKeywords, row.phase)
-      || (sharedPhase.size>0 && rowPhase.size>0 && [...sharedPhase].some(f=>rowPhase.has(f)));
-    if (!hint.phaseKeywords?.length && !sharedPhase.size) return false;
-    // A delayed broadcast covers a session whose real extent is unknown, so it stays off cards.
-    if (r.isLive === false) return false;
-    if (!phaseMatch) return false;
-    if (hint.eventKeywords?.length && !hits(hint.eventKeywords, row.event)) return false;
-    // An event-level row has no Taiwan start time to compare with, so the window cannot be
-    // used against it; the sport, the day and the phase still have to agree.
-    if (isProvisional(row)) return true;
-    return insideWindow(r, row);
-  });
+  const sameDate = forDate(all,date);
+  return sameDate.filter(r=>matchesDirectly(r,row) || inheritsFromLive(r,row,sameDate));
 }
 
 // Programmes that could not be tied to one unit, grouped per discipline so they are shown once.
