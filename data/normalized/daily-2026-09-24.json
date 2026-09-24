@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T02:26:50.225Z",
+  "generatedAt": "2026-09-24T02:37:00.760Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T02:26:50.049Z",
+      "generatedAt": "2026-09-24T02:37:00.578Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -935,7 +935,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "69",
+        "tpe": "83",
         "opponent": null,
         "source": "results"
       },
@@ -1216,12 +1216,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1.65",
+        "tpe": "1.68",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "7",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1352,12 +1352,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "69.08",
+        "tpe": "78.53",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "1",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1434,17 +1434,17 @@
       "athletes": [],
       "athletesEn": [
         "LIN I-min",
-        "CHUANG Ya-han",
-        "HU Yu-chen",
-        "HUANG Ssu-chin",
         "YEN Chiao-wen",
-        "REN Ming-xiu",
-        "KANG Yung-chiao",
         "FENG Hsiu-chen",
         "QIN Pei-jyun",
+        "WU Yu-jung",
+        "KANG Yung-chiao",
+        "HU Yu-chen",
+        "HUANG Ssu-chin",
+        "CHUANG Ya-han",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "WU Yu-jung"
+        "REN Ming-xiu"
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
