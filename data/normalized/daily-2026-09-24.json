@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:45:57.888Z",
+  "generatedAt": "2026-09-24T11:54:55.413Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T11:45:57.774Z",
+      "generatedAt": "2026-09-24T11:54:55.226Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1575,6 +1575,54 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T11:00:00+08:00",
       "startTimeJst": "2026-09-24T12:00:00+09:00",
+      "disciplineCode": "BK3",
+      "sportZh": "3x3籃球",
+      "sportEn": "3x3 Basketball",
+      "event": "Women",
+      "phase": "Women Play-in",
+      "unit": "Women Play-in Game 1",
+      "athletes": [],
+      "athletesEn": [
+        "YU Chin-hua",
+        "TSAI Yu-lien",
+        "CHEN Wei-han",
+        "CHANG Yu-min"
+      ],
+      "opponent": "Mongolia",
+      "opponentCode": "MGL",
+      "venue": "Kinjo Futo Station Square Venue",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "12",
+        "opponent": "7",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM3-------------.8FNL.000100--",
+          "id": "BK3:W.TEAM3-------------.8FNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T11:00:00+08:00",
+      "startTimeJst": "2026-09-24T12:00:00+09:00",
       "disciplineCode": "KAB",
       "sportZh": "卡巴迪",
       "sportEn": "Kabaddi",
@@ -1629,54 +1677,6 @@
     },
     {
       "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T11:00:00+08:00",
-      "startTimeJst": "2026-09-24T12:00:00+09:00",
-      "disciplineCode": "BK3",
-      "sportZh": "3x3籃球",
-      "sportEn": "3x3 Basketball",
-      "event": "Women",
-      "phase": "Women Play-in",
-      "unit": "Women Play-in Game 1",
-      "athletes": [],
-      "athletesEn": [
-        "YU Chin-hua",
-        "TSAI Yu-lien",
-        "CHEN Wei-han",
-        "CHANG Yu-min"
-      ],
-      "opponent": "Mongolia",
-      "opponentCode": "MGL",
-      "venue": "Kinjo Futo Station Square Venue",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "12",
-        "opponent": "7",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TEAM3-------------.8FNL.000100--",
-          "id": "BK3:W.TEAM3-------------.8FNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T11:50:00+08:00",
       "startTimeJst": "2026-09-24T12:50:00+09:00",
       "disciplineCode": "BK3",
@@ -1703,7 +1703,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2549,7 +2549,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2597,7 +2597,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3063,13 +3063,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KAB 11:00 Game 5",
-      "row": "KAB:W.TEAM7-------------.GPB-.000500--"
+      "message": "Results 確認 TPE 但中華奧會未列出：BK3 11:00 Women Play-in Game 1",
+      "row": "BK3:W.TEAM3-------------.8FNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BK3 11:00 Women Play-in Game 1",
-      "row": "BK3:W.TEAM3-------------.8FNL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：KAB 11:00 Game 5",
+      "row": "KAB:W.TEAM7-------------.GPB-.000500--"
     },
     {
       "code": "RESULTS_ONLY",
