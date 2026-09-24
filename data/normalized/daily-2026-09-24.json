@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T06:58:52.441Z",
+  "generatedAt": "2026-09-24T07:35:30.252Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T06:58:52.265Z",
+      "generatedAt": "2026-09-24T07:35:30.098Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 4,
-          "recovered": 4,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1632,17 +1632,17 @@
       "athletes": [],
       "athletesEn": [
         "LIN I-min",
-        "CHUANG Ya-han",
-        "HU Yu-chen",
-        "HUANG Ssu-chin",
         "YEN Chiao-wen",
-        "REN Ming-xiu",
-        "KANG Yung-chiao",
         "FENG Hsiu-chen",
         "QIN Pei-jyun",
+        "WU Yu-jung",
+        "KANG Yung-chiao",
+        "HU Yu-chen",
+        "HUANG Ssu-chin",
+        "CHUANG Ya-han",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "WU Yu-jung"
+        "REN Ming-xiu"
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
@@ -1780,18 +1780,18 @@
       "unit": "Game 10",
       "athletes": [],
       "athletesEn": [
+        "CHANG Chung-mao",
+        "JIN Wu Fu-kai",
+        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "SU Hsiang-chih",
-        "CHUANG Chia-ming",
-        "LIN Po-ting",
-        "JIN Wu Fu-kai",
         "YEH Jiunn-ming",
-        "WANG Lun-chu",
-        "LI Jyun-jie",
-        "CHANG Chung-mao",
         "CHEN Zheng-wei",
-        "CAI Ruei-chen"
+        "CHUANG Chia-ming",
+        "LI Jyun-jie",
+        "LIN Po-ting",
+        "CAI Ruei-chen",
+        "SU Hsiang-chih"
       ],
       "opponent": "India",
       "opponentCode": "IND",
@@ -2120,7 +2120,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2214,8 +2214,12 @@
       "opponentCode": "PHI",
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "33",
+        "opponent": "26",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2255,8 +2259,12 @@
       "opponentCode": "MGL",
       "venue": "",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
