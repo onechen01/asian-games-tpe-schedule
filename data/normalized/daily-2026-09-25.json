@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T18:34:05.765Z",
+  "generatedAt": "2026-09-24T19:01:16.065Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
-      "path": "data/staging/bdm-court-session/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T18:33:53.939Z",
+      "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
+      "generatedAt": "2026-09-24T19:01:15.882Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -528,7 +528,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 228
+      "events": 252
     }
   },
   "date": "2026-09-25",
@@ -3580,7 +3580,7 @@
     "resultsOnly": 52,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 64
+    "warnings": 66
   },
   "warnings": [
     {
@@ -3902,6 +3902,16 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|W.4X100MMD----------",
       "message": "SWM Women's 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ATH|W.100M--------------",
+      "message": "ATH Women's 100m 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ATH|M.100M--------------",
+      "message": "ATH Men's 100m 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

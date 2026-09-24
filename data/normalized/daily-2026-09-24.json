@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T18:23:23.131Z",
+  "generatedAt": "2026-09-24T18:58:19.553Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T18:23:22.966Z",
+      "generatedAt": "2026-09-24T18:58:19.381Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 15,
+          "recovered": 15,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -529,6 +529,10 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
+      "locationCode": "SH2",
+      "locationName": "10m Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
@@ -588,6 +592,10 @@
       "opponentCode": "CHN",
       "venue": "",
       "venueZh": null,
+      "locationCode": "EL1",
+      "locationName": "Aichi Sky Expo Hall D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "0",
@@ -634,6 +642,10 @@
       "opponentCode": "OMA",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FEB",
+      "locationName": "Blue",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "5",
@@ -680,6 +692,10 @@
       "opponentCode": "LBN",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FEB",
+      "locationName": "Blue",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "3",
@@ -726,6 +742,10 @@
       "opponentCode": "VIE",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FEB",
+      "locationName": "Blue",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "4",
@@ -772,6 +792,10 @@
       "opponentCode": "QAT",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FEB",
+      "locationName": "Blue",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "5",
@@ -818,6 +842,10 @@
       "opponentCode": "KGZ",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FEB",
+      "locationName": "Blue",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "5",
@@ -864,6 +892,10 @@
       "opponentCode": "JPN",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FEB",
+      "locationName": "Blue",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "2",
@@ -910,6 +942,10 @@
       "opponentCode": "KUW",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FE6",
+      "locationName": "Piste 6",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "5",
@@ -956,6 +992,10 @@
       "opponentCode": "UAE",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FE6",
+      "locationName": "Piste 6",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "5",
@@ -1002,6 +1042,10 @@
       "opponentCode": "KOR",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FE6",
+      "locationName": "Piste 6",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "3",
@@ -1048,6 +1092,10 @@
       "opponentCode": "PHI",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FE6",
+      "locationName": "Piste 6",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "2",
@@ -1094,6 +1142,10 @@
       "opponentCode": "UZB",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FE6",
+      "locationName": "Piste 6",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "5",
@@ -1141,6 +1193,10 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
+      "locationCode": "SH5",
+      "locationName": "Shotgun Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "128",
@@ -1188,6 +1244,10 @@
       "opponentCode": "MAC",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
+      "locationCode": "003",
+      "locationName": "Table 3",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "3",
@@ -1235,6 +1295,10 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Swimming Pool",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
@@ -1290,6 +1354,10 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "14.28",
@@ -1336,6 +1404,10 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Swimming Pool",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "2:12.68",
@@ -1382,6 +1454,10 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Swimming Pool",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "2:12.46",
@@ -1428,6 +1504,10 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "1.68",
@@ -1475,6 +1555,10 @@
       "opponentCode": "PRK",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
+      "locationCode": "002",
+      "locationName": "Table 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "3",
@@ -1521,6 +1605,10 @@
       "opponentCode": null,
       "venue": "Obata Ryokuchi Park",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Obata Ryokuchi Park",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "1:35:53",
@@ -1567,6 +1655,10 @@
       "opponentCode": null,
       "venue": "Aichi Sky Expo Hall B",
       "venueZh": null,
+      "locationCode": "SKEB",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "78.53",
@@ -1616,6 +1708,10 @@
       "opponentCode": "MGL",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "12",
@@ -1673,6 +1769,10 @@
       "opponentCode": "THA",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
+      "locationCode": "KA2",
+      "locationName": "TCG Crt 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "43",
@@ -1722,6 +1822,10 @@
       "opponentCode": "MAS",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "21",
@@ -1768,6 +1872,10 @@
       "opponentCode": "MGL",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FE8",
+      "locationName": "Piste 8",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "15",
@@ -1825,6 +1933,10 @@
       "opponentCode": "IND",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
+      "locationCode": "KA1",
+      "locationName": "TCG Crt 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "21",
@@ -1871,6 +1983,10 @@
       "opponentCode": "KGZ",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FEY",
+      "locationName": "Yellow",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "15",
@@ -1917,6 +2033,10 @@
       "opponentCode": "KAZ",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FEY",
+      "locationName": "Yellow",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "14",
@@ -1963,6 +2083,10 @@
       "opponentCode": "JPN",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
+      "locationCode": "FE8",
+      "locationName": "Piste 8",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "12",
@@ -2009,6 +2133,10 @@
       "opponentCode": null,
       "venue": "Nagaragawa International Regatta Course(Gifu)",
       "venueZh": null,
+      "locationCode": "NRC",
+      "locationName": "Nagaragawa International Regatta Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "7:52.44",
@@ -2056,6 +2184,10 @@
       "opponentCode": null,
       "venue": "Nagaragawa International Regatta Course(Gifu)",
       "venueZh": null,
+      "locationCode": "NRC",
+      "locationName": "Nagaragawa International Regatta Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "7:16.54",
@@ -2102,6 +2234,10 @@
       "opponentCode": null,
       "venue": "Miyoshi Lake Canoe Course",
       "venueZh": null,
+      "locationCode": "MYC",
+      "locationName": "Miyoshi Lake Canoe Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "1:47.511",
@@ -2148,6 +2284,10 @@
       "opponentCode": null,
       "venue": "Aichi Sky Expo Hall B",
       "venueZh": null,
+      "locationCode": "SKEB",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "83.73",
@@ -2194,6 +2334,10 @@
       "opponentCode": "THA",
       "venue": "",
       "venueZh": null,
+      "locationCode": "EL2",
+      "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "3",
@@ -2251,6 +2395,10 @@
       "opponentCode": "PHI",
       "venue": "Aichi International Arena",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Aichi International Arena",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "83",
@@ -2297,6 +2445,10 @@
       "opponentCode": "MGL",
       "venue": "",
       "venueZh": null,
+      "locationCode": "EL2",
+      "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "3",
@@ -2343,6 +2495,10 @@
       "opponentCode": "IND",
       "venue": "",
       "venueZh": null,
+      "locationCode": "EL2",
+      "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "3",
@@ -2389,6 +2545,10 @@
       "opponentCode": "VIE",
       "venue": "Nishio Gymnasium",
       "venueZh": null,
+      "locationCode": "NIS",
+      "locationName": "Ring 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "1",
@@ -2435,6 +2595,10 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Swimming Pool",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "25.64",
@@ -2482,6 +2646,10 @@
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Swimming Pool",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
@@ -2537,6 +2705,10 @@
       "opponentCode": "SGP",
       "venue": "",
       "venueZh": null,
+      "locationCode": "EL2",
+      "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "3",
@@ -2586,6 +2758,10 @@
       "opponentCode": "KOR",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "12",
@@ -2635,6 +2811,10 @@
       "opponentCode": "PHI",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "19",
@@ -2682,6 +2862,10 @@
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
@@ -2737,6 +2921,10 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "12.73",
@@ -2783,6 +2971,10 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "11.70",
@@ -2829,6 +3021,10 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "10.33",
@@ -2875,6 +3071,10 @@
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "13.666",
@@ -2921,6 +3121,10 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "10.38",
@@ -2967,6 +3171,10 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
         "tpe": "25.77",
@@ -2993,6 +3201,440 @@
           "id": "ATH:W.HEPTATH-----------.200-.000100--"
         }
       }
+    }
+  ],
+  "sessionChains": [
+    {
+      "id": "BDM|2026-09-24|001|W.TEAM--------------.FNL-.00010000",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.TEAM--------------.FNL-.00010000",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-24T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "W.TEAM--------------.FNL-.00010000",
+          "unitName": "Women's Team Gold Medal Match",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-24T08:30:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-24|001|M.TEAM--------------.FNL-.00010000",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.TEAM--------------.FNL-.00010000",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-24T15:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.TEAM--------------.FNL-.00010000",
+          "unitName": "Men's Team Gold Medal Match",
+          "predecessorUnitId": "W.TEAM--------------.FNL-.00010000",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-24T15:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-25|002|X.DOUBLES-----------.R32-.000800--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "X.DOUBLES-----------.R32-.000800--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.R32-.000800--",
+          "unitName": "Mixed Doubles 1st Round Match 8",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-25T08:30:00+08:00"
+        },
+        {
+          "unitId": "X.DOUBLES-----------.R32-.001200--",
+          "unitName": "Mixed Doubles 1st Round Match 12",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.000800--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "X.DOUBLES-----------.R32-.001500--",
+          "unitName": "Mixed Doubles 1st Round Match 15",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.001200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "X.DOUBLES-----------.R32-.001100--",
+          "unitName": "Mixed Doubles 1st Round Match 11",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.001500--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.R64-.002100--",
+          "unitName": "Men's Singles 1st Round Match 21",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.001100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.R64-.002500--",
+          "unitName": "Men's Singles 1st Round Match 25",
+          "predecessorUnitId": "M.SINGLES-----------.R64-.002100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-25|002|X.DOUBLES-----------.8FNL.000800--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "X.DOUBLES-----------.8FNL.000800--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-25T15:00:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000800--",
+          "unitName": "Mixed Doubles 2nd Round Match 8",
+          "predecessorUnitId": "M.SINGLES-----------.R64-.002500--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-25T15:00:00+08:00"
+        },
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000300--",
+          "unitName": "Mixed Doubles 2nd Round Match 3",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000800--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.000600--",
+          "unitName": "Women's Doubles 1st Round Match 6",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000900--",
+          "unitName": "Men's Doubles 1st Round Match 9",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.000600--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.001300--",
+          "unitName": "Women's Doubles 1st Round Match 13",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.000900--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.001500--",
+          "unitName": "Men's Doubles 1st Round Match 15",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.001300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.001100--",
+          "unitName": "Women's Doubles 1st Round Match 11",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.001500--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000800--",
+          "unitName": "Men's Doubles 1st Round Match 8",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.001100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "X.DOUBLES-----------.R32-.000600--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.R32-.000600--",
+          "unitName": "Mixed Doubles 1st Round Match 6",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-25T08:30:00+08:00"
+        },
+        {
+          "unitId": "X.DOUBLES-----------.R32-.000400--",
+          "unitName": "Mixed Doubles 1st Round Match 4",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.000600--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "X.DOUBLES-----------.R32-.000500--",
+          "unitName": "Mixed Doubles 1st Round Match 5",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.R64-.002900--",
+          "unitName": "Men's Singles 1st Round Match 29",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.000500--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.R64-.001600--",
+          "unitName": "Women's Singles 1st Round Match 16",
+          "predecessorUnitId": "M.SINGLES-----------.R64-.002900--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.R64-.001200--",
+          "unitName": "Men's Singles 1st Round Match 12",
+          "predecessorUnitId": "W.SINGLES-----------.R64-.001600--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-25|001|M.DOUBLES-----------.R32-.000500--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.DOUBLES-----------.R32-.000500--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-25T15:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000500--",
+          "unitName": "Men's Doubles 1st Round Match 5",
+          "predecessorUnitId": "M.SINGLES-----------.R64-.001200--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-25T15:00:00+08:00"
+        },
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000700--",
+          "unitName": "Mixed Doubles 2nd Round Match 7",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.000500--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.000700--",
+          "unitName": "Women's Doubles 1st Round Match 7",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000700--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000600--",
+          "unitName": "Mixed Doubles 2nd Round Match 6",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.000700--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000300--",
+          "unitName": "Men's Doubles 1st Round Match 3",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000600--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000700--",
+          "unitName": "Men's Doubles 1st Round Match 7",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.000300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000400--",
+          "unitName": "Men's Doubles 1st Round Match 4",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.000700--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.001600--",
+          "unitName": "Men's Doubles 1st Round Match 16",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-25|003|X.DOUBLES-----------.8FNL.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "X.DOUBLES-----------.8FNL.000100--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-25T15:00:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000100--",
+          "unitName": "Mixed Doubles 2nd Round Match 1",
+          "predecessorUnitId": "W.SINGLES-----------.R64-.002500--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-25T15:00:00+08:00"
+        },
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000400--",
+          "unitName": "Mixed Doubles 2nd Round Match 4",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.001100--",
+          "unitName": "Men's Doubles 1st Round Match 11",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.001500--",
+          "unitName": "Women's Doubles 1st Round Match 15",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.001100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.000400--",
+          "unitName": "Women's Doubles 1st Round Match 4",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.001500--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.001000--",
+          "unitName": "Women's Doubles 1st Round Match 10",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.001300--",
+          "unitName": "Men's Doubles 1st Round Match 13",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.001000--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-25|004|X.DOUBLES-----------.8FNL.000200--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "X.DOUBLES-----------.8FNL.000200--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-25T15:00:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000200--",
+          "unitName": "Mixed Doubles 2nd Round Match 2",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.001000--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-25T15:00:00+08:00"
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000200--",
+          "unitName": "Men's Doubles 1st Round Match 2",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000500--",
+          "unitName": "Mixed Doubles 2nd Round Match 5",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.000800--",
+          "unitName": "Women's Doubles 1st Round Match 8",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000500--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000600--",
+          "unitName": "Men's Doubles 1st Round Match 6",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.000800--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.001000--",
+          "unitName": "Men's Doubles 1st Round Match 10",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.000600--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
     }
   ],
   "coverageComplete": true,
