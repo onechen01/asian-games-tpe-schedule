@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T10:52:23.853Z",
+  "generatedAt": "2026-09-24T11:12:53.384Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T10:52:23.721Z",
+      "generatedAt": "2026-09-24T11:12:53.219Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 4,
-          "recovered": 4,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1113,7 +1113,7 @@
         "FENG Yi-hsin",
         "KUO Guan-hong"
       ],
-      "opponent": "VONGSA Anane / HAGBERG Johan",
+      "opponent": "VONGSA Anane/HAGBERG Johan",
       "opponentCode": "LAO",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1276,7 +1276,7 @@
         "HSU Hsien-chia",
         "HUNG Jing-kai"
       ],
-      "opponent": "SALEH Mohamed / RASHED Rashed",
+      "opponent": "SALEH Mohamed/RASHED Rashed",
       "opponentCode": "BRN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1423,47 +1423,6 @@
         "results": {
           "unitId": "W.SINGLES-----------.R32-.000500--",
           "id": "TTE:W.SINGLES-----------.R32-.000500--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T11:50:00+08:00",
-      "startTimeJst": "2026-09-25T12:50:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Singles",
-      "phase": "Men's Singles 1st Round",
-      "unit": "Men's Singles 1st Round Match 12",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Chun-Yi"
-      ],
-      "opponent": "JARGALSAIKHAN Gerelsukh",
-      "opponentCode": "MGL",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.R64-.001200--",
-          "id": "BDM:M.SINGLES-----------.R64-.001200--"
         }
       }
     },
@@ -2003,48 +1962,6 @@
       "disciplineCode": "BDM",
       "sportZh": "羽球",
       "sportEn": "Badminton",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles 1st Round",
-      "unit": "Women's Doubles 1st Round Match 4",
-      "athletes": [],
-      "athletesEn": [
-        "HSIEH Pei-shan",
-        "HUNG En-Tzu"
-      ],
-      "opponent": "TSELMEG-OD Enkhlen/ODBAYAR Amin-erdene",
-      "opponentCode": "MGL",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.DOUBLES-----------.R32-.000400--",
-          "id": "BDM:W.DOUBLES-----------.R32-.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T17:00:00+08:00",
-      "startTimeJst": "2026-09-25T18:00:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
       "event": "Men's Doubles",
       "phase": "Men's Doubles 1st Round",
       "unit": "Men's Doubles 1st Round Match 9",
@@ -2158,48 +2075,6 @@
         "results": {
           "unitId": "W.DOUBLES-----------.R32-.001300--",
           "id": "BDM:W.DOUBLES-----------.R32-.001300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T17:40:00+08:00",
-      "startTimeJst": "2026-09-25T18:40:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles 1st Round",
-      "unit": "Men's Doubles 1st Round Match 3",
-      "athletes": [],
-      "athletesEn": [
-        "YANG Po-Hsuan",
-        "LEE Jhe-Huei"
-      ],
-      "opponent": "HE Ji Ting/LIU Yi",
-      "opponentCode": "CHN",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DOUBLES-----------.R32-.000300--",
-          "id": "BDM:M.DOUBLES-----------.R32-.000300--"
         }
       }
     },
@@ -2406,10 +2281,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 37,
+    "resultsOnly": 34,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 48
+    "warnings": 45
   },
   "warnings": [
     {
@@ -2509,11 +2384,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 11:50 Men's Singles 1st Round Match 12",
-      "row": "BDM:M.SINGLES-----------.R64-.001200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 12:15 Women's Singles Round 2 Match 12",
       "row": "TTE:W.SINGLES-----------.R32-.001200--"
     },
@@ -2559,11 +2429,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:00 Women's Doubles 1st Round Match 4",
-      "row": "BDM:W.DOUBLES-----------.R32-.000400--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:00 Men's Doubles 1st Round Match 9",
       "row": "BDM:M.DOUBLES-----------.R32-.000900--"
     },
@@ -2576,11 +2441,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:40 Women's Doubles 1st Round Match 13",
       "row": "BDM:W.DOUBLES-----------.R32-.001300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:40 Men's Doubles 1st Round Match 3",
-      "row": "BDM:M.DOUBLES-----------.R32-.000300--"
     },
     {
       "code": "RESULTS_ONLY",
