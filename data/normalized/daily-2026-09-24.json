@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T03:37:51.519Z",
+  "generatedAt": "2026-09-24T03:45:27.353Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T03:37:51.349Z",
+      "generatedAt": "2026-09-24T03:45:27.219Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -300,10 +300,47 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [],
+        "timezoneAnomalies": [
+          {
+            "disciplineCode": "SKB",
+            "date": "2026-09-24",
+            "unitId": "W.PARK--------------.QUAL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-24T11:00:00+08:59",
+            "recoveredStartTime": "2026-09-24T11:00:00+09:00"
+          },
+          {
+            "disciplineCode": "SKB",
+            "date": "2026-09-24",
+            "unitId": "W.PARK--------------.QUAL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-24T11:55:00+08:59",
+            "recoveredStartTime": "2026-09-24T11:55:00+09:00"
+          },
+          {
+            "disciplineCode": "SKB",
+            "date": "2026-09-24",
+            "unitId": "M.PARK--------------.QUAL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-24T15:00:00+08:59",
+            "recoveredStartTime": "2026-09-24T15:00:00+09:00"
+          },
+          {
+            "disciplineCode": "SKB",
+            "date": "2026-09-24",
+            "unitId": "M.PARK--------------.QUAL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-24T15:55:00+08:59",
+            "recoveredStartTime": "2026-09-24T15:55:00+09:00"
+          }
+        ],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -350,8 +387,8 @@
         {
           "name": "YEH Ting-Wei",
           "registration": "9615634",
-          "result": "455-14x",
-          "rank": "34"
+          "result": "541-16x",
+          "rank": "32"
         }
       ],
       "tpeRank": "19",
@@ -396,10 +433,10 @@
       "opponentCode": "CHN",
       "venue": "",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "0",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -939,12 +976,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "124",
+        "tpe": "128",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "10",
+      "tpeRank": "9",
       "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1339,7 +1376,7 @@
     {
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T10:00:00+08:00",
-      "startTimeJst": "2026-09-24T11:00:00+09:00",
+      "startTimeJst": "2026-09-24T11:00:00+08:59",
       "disciplineCode": "SKB",
       "sportZh": "滑板",
       "sportEn": "Skateboarding",
@@ -1442,17 +1479,17 @@
       "athletes": [],
       "athletesEn": [
         "LIN I-min",
-        "CHUANG Ya-han",
-        "HU Yu-chen",
-        "HUANG Ssu-chin",
         "YEN Chiao-wen",
-        "REN Ming-xiu",
-        "KANG Yung-chiao",
         "FENG Hsiu-chen",
         "QIN Pei-jyun",
+        "WU Yu-jung",
+        "KANG Yung-chiao",
+        "HU Yu-chen",
+        "HUANG Ssu-chin",
+        "CHUANG Ya-han",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "WU Yu-jung"
+        "REN Ming-xiu"
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
@@ -1460,8 +1497,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "23",
-        "opponent": "19",
+        "tpe": "33",
+        "opponent": "22",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1582,18 +1619,18 @@
       "unit": "Game 10",
       "athletes": [],
       "athletesEn": [
+        "CHANG Chung-mao",
+        "JIN Wu Fu-kai",
+        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "SU Hsiang-chih",
-        "CHUANG Chia-ming",
-        "LIN Po-ting",
-        "JIN Wu Fu-kai",
         "YEH Jiunn-ming",
-        "WANG Lun-chu",
-        "LI Jyun-jie",
-        "CHANG Chung-mao",
         "CHEN Zheng-wei",
-        "CAI Ruei-chen"
+        "CHUANG Chia-ming",
+        "LI Jyun-jie",
+        "LIN Po-ting",
+        "CAI Ruei-chen",
+        "SU Hsiang-chih"
       ],
       "opponent": "India",
       "opponentCode": "IND",
@@ -1790,7 +1827,7 @@
     {
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T14:00:00+08:00",
-      "startTimeJst": "2026-09-24T15:00:00+09:00",
+      "startTimeJst": "2026-09-24T15:00:00+08:59",
       "disciplineCode": "SKB",
       "sportZh": "滑板",
       "sportEn": "Skateboarding",
