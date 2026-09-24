@@ -2404,7 +2404,7 @@
       "channelId": "115",
       "channelName": "愛爾達體育4台",
       "isLive": true,
-      "title": "亞運 唐嘉鴻 競技體操 男子跳馬/雙槓/單槓/女子平衡木/地板決賽 9/25 LIVE",
+      "title": "亞運 唐嘉鴻/李智凱 競技體操 男子跳馬/雙槓/單槓/女子平衡木/地板決賽 9/25 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-24",
@@ -2412,7 +2412,8 @@
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
-          "TANG Chia-hung"
+          "TANG Chia-hung",
+          "LEE Chih-kai"
         ]
       }
     },
