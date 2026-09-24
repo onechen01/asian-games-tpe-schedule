@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T22:03:02.988Z",
+  "generatedAt": "2026-09-24T22:35:49.479Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T22:03:02.814Z",
+      "generatedAt": "2026-09-24T22:35:49.344Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -300,200 +300,10 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T07:00:00+08:59",
-            "recoveredStartTime": "2026-09-25T07:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T07:23:00+08:59",
-            "recoveredStartTime": "2026-09-25T07:23:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T07:46:00+08:59",
-            "recoveredStartTime": "2026-09-25T07:46:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T08:09:00+08:59",
-            "recoveredStartTime": "2026-09-25T08:09:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T08:32:00+08:59",
-            "recoveredStartTime": "2026-09-25T08:32:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T08:55:00+08:59",
-            "recoveredStartTime": "2026-09-25T08:55:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T09:18:00+08:59",
-            "recoveredStartTime": "2026-09-25T09:18:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T09:41:00+08:59",
-            "recoveredStartTime": "2026-09-25T09:41:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T10:04:00+08:59",
-            "recoveredStartTime": "2026-09-25T10:04:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T10:27:00+08:59",
-            "recoveredStartTime": "2026-09-25T10:27:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T10:50:00+08:59",
-            "recoveredStartTime": "2026-09-25T10:50:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T11:13:00+08:59",
-            "recoveredStartTime": "2026-09-25T11:13:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T11:36:00+08:59",
-            "recoveredStartTime": "2026-09-25T11:36:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T11:59:00+08:59",
-            "recoveredStartTime": "2026-09-25T11:59:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T12:22:00+08:59",
-            "recoveredStartTime": "2026-09-25T12:22:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T12:45:00+08:59",
-            "recoveredStartTime": "2026-09-25T12:45:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.REP-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T13:08:00+08:59",
-            "recoveredStartTime": "2026-09-25T13:08:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.REP-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T13:36:00+08:59",
-            "recoveredStartTime": "2026-09-25T13:36:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.REP-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T14:04:00+08:59",
-            "recoveredStartTime": "2026-09-25T14:04:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.REP-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T14:32:00+08:59",
-            "recoveredStartTime": "2026-09-25T14:32:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.REP-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T15:00:00+08:59",
-            "recoveredStartTime": "2026-09-25T15:00:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 4,
+          "recovered": 4,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
