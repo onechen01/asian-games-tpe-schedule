@@ -2406,10 +2406,33 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T15:10:00+08:00",
+      "disciplineCode": "TTE",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 陳思羽/吳映萱 桌球 女雙預賽 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-25T16:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Szu-yu",
+          "WU Ying-syuan"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-25T16:00:00+08:00",
       "disciplineCode": "WLF",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
       "isLive": true,
       "title": "亞運 郭婞淳 舉重 女子61公斤級決賽 9/25 LIVE",
       "feed": "main",
@@ -2430,8 +2453,8 @@
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-25T17:15:00+08:00",
       "disciplineCode": "ATH",
-      "channelId": "540",
-      "channelName": "愛爾達體育MAX1台",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
       "isLive": true,
       "title": "亞運 中華隊 田徑 預賽/決賽 9/25(原音) LIVE",
       "feed": "original",
@@ -2469,6 +2492,28 @@
       "matchHint": {
         "opponentCodes": [
           "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T18:20:00+08:00",
+      "disciplineCode": "BKB",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 日本VS中華 籃球 女子四強 9/25 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-25T20:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "JPN"
         ]
       }
     },
