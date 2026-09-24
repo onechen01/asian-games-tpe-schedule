@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T13:55:53.917Z",
+  "generatedAt": "2026-09-24T14:06:50.200Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T13:55:53.761Z",
+      "generatedAt": "2026-09-24T14:06:50.037Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2356,6 +2356,47 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T19:11:00+08:00",
+      "startTimeJst": "2026-09-25T20:11:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's Heptathlon",
+      "phase": "Women's Heptathlon 800 Metres",
+      "unit": "Women's Heptathlon 800 Metres",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Cai-juan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.HEPTATH-----------.800-.000100--",
+          "id": "ATH:W.HEPTATH-----------.800-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T20:15:00+08:00",
       "startTimeJst": "2026-09-25T21:15:00+09:00",
       "disciplineCode": "ATH",
@@ -2401,7 +2442,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 41,
+    "resultsOnly": 42,
     "entered": 2,
     "unresolvedTbd": 0,
     "warnings": 55
@@ -2609,6 +2650,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:11 Women's Heptathlon 800 Metres",
+      "row": "ATH:W.HEPTATH-----------.800-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:15 Women's 400m Round 1 Heat 1",
       "row": "ATH:W.400M--------------.RND1.000100--"
     },
@@ -2666,11 +2712,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|W.4X100MMD----------",
       "message": "SWM Women's 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ATH|W.HEPTATH-----------",
-      "message": "ATH Women's Heptathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
