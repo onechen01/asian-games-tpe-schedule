@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T12:06:21.697Z",
+  "generatedAt": "2026-09-24T12:19:46.634Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T12:06:21.531Z",
+      "generatedAt": "2026-09-24T12:19:46.472Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2000,6 +2000,45 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T17:00:00+08:00",
+      "startTimeJst": "2026-09-25T18:00:00+09:00",
+      "disciplineCode": "KAB",
+      "sportZh": "卡巴迪",
+      "sportEn": "Kabaddi",
+      "event": "Women's Team",
+      "phase": "Women's Team Semifinals",
+      "unit": "Women's Team Semifinals",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "Islamic Republic of Iran",
+      "opponentCode": "IRI",
+      "venue": "Tokai Citizen Gymnasium",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM7-------------.SFNL.000200--",
+          "id": "KAB:W.TEAM7-------------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T17:30:00+08:00",
       "startTimeJst": "2026-09-25T18:30:00+09:00",
       "disciplineCode": "BBL",
@@ -2279,10 +2318,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 34,
+    "resultsOnly": 35,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 46
+    "warnings": 47
   },
   "warnings": [
     {
@@ -2429,6 +2468,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 61kg Group A",
       "row": "WLF:W.61KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KAB 17:00 Women's Team Semifinals",
+      "row": "KAB:W.TEAM7-------------.SFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
