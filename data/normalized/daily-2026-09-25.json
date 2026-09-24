@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T12:25:57.348Z",
+  "generatedAt": "2026-09-24T12:35:57.257Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T12:25:57.169Z",
+      "generatedAt": "2026-09-24T12:35:57.095Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2314,6 +2314,88 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T18:41:00+08:00",
+      "startTimeJst": "2026-09-25T19:41:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 100m",
+      "phase": "Men's 100m Semifinal",
+      "unit": "Men's 100m Semifinal Heat 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Wen-pu"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.100M--------------.SFNL.000200--",
+          "id": "ATH:M.100M--------------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T18:49:00+08:00",
+      "startTimeJst": "2026-09-25T19:49:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 100m",
+      "phase": "Men's 100m Semifinal",
+      "unit": "Men's 100m Semifinal Heat 3",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Chun-han"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.100M--------------.SFNL.000300--",
+          "id": "ATH:M.100M--------------.SFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T20:15:00+08:00",
       "startTimeJst": "2026-09-25T21:15:00+09:00",
       "disciplineCode": "ATH",
@@ -2359,10 +2441,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 36,
+    "resultsOnly": 38,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 49
+    "warnings": 52
   },
   "warnings": [
     {
@@ -2542,6 +2624,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:41 Men's 100m Semifinal Heat 2",
+      "row": "ATH:M.100M--------------.SFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:49 Men's 100m Semifinal Heat 3",
+      "row": "ATH:M.100M--------------.SFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:15 Women's 400m Round 1 Heat 1",
       "row": "ATH:W.400M--------------.RND1.000100--"
     },
@@ -2609,6 +2701,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ATH|W.100M--------------",
       "message": "ATH Women's 100m 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ATH|M.100M--------------",
+      "message": "ATH Men's 100m 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
