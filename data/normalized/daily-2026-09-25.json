@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T06:39:26.551Z",
+  "generatedAt": "2026-09-24T06:48:20.460Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T06:39:26.375Z",
+      "generatedAt": "2026-09-24T06:48:20.291Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -571,6 +571,45 @@
         "results": {
           "unitId": "W.SHORTBRD----------.PREL.000300--",
           "id": "SRF:W.SHORTBRD----------.PREL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "startTimeJst": "2026-09-25T09:30:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Team",
+      "phase": "Men's Foil Team Table of 16",
+      "unit": "Men's Foil Team - Table of 16 - Table of 16",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "Macao, China",
+      "opponentCode": "MAC",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAMFOIL----------.8FNL.000700--",
+          "id": "FEN:M.TEAMFOIL----------.8FNL.000700--"
         }
       }
     },
@@ -782,49 +821,6 @@
       "sources": {
         "entries": {
           "eventId": "EQU|O.DRESINDV----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
-      "startTimeJst": "2026-09-25T09:30:00+09:00",
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Foil Team",
-      "phase": "Men's Foil Team Table of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 5,
-      "enteredAthletes": [
-        "CHEN Chih-Chieh",
-        "CHEN Yi-Tung",
-        "HSU Sheng-Hung",
-        "KUO Chun-You"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "FEN|M.TEAMFOIL----------"
         }
       }
     },
@@ -2205,16 +2201,21 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 26,
-    "entered": 12,
+    "resultsOnly": 27,
+    "entered": 11,
     "unresolvedTbd": 0,
-    "warnings": 34
+    "warnings": 36
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SRF 06:46 Women's Shortboard - Round 1 - Heat 3",
       "row": "SRF:W.SHORTBRD----------.PREL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 08:30 Men's Foil Team - Table of 16 - Table of 16",
+      "row": "FEN:M.TEAMFOIL----------.8FNL.000700--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2340,6 +2341,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:15 Women's 400m Round 1 Heat 1",
       "row": "ATH:W.400M--------------.RND1.000100--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "FEN|M.TEAMFOIL----------",
+      "message": "FEN Men's Foil Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
