@@ -2162,7 +2162,13 @@
       "capturedAt": "2026-09-24",
       "broadcastEndTimeTaipei": "2026-09-25T14:30:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "courtSession": {
+          "locationLabel": "Court 1",
+          "roundKeyword": "1st Round",
+          "sourceSessionLabel": "上"
+        }
+      }
     },
     {
       "date": "2026-09-25",
@@ -2179,12 +2185,17 @@
       "note": "原音",
       "capturedAt": "2026-09-24",
       "broadcastEndTimeTaipei": "2026-09-25T14:30:00+08:00",
-      "matchLevel": "unit",
+      "matchLevel": "discipline",
       "matchHint": {
         "athleteNames": [
           "YE Hong-wei",
           "CHAN Nicole Gonzales"
-        ]
+        ],
+        "courtSession": {
+          "locationLabel": "Court 2",
+          "roundKeyword": "1st Round",
+          "sourceSessionLabel": "上"
+        }
       }
     },
     {
@@ -2457,12 +2468,17 @@
       "note": "原音",
       "capturedAt": "2026-09-24",
       "broadcastEndTimeTaipei": "2026-09-25T21:00:00+08:00",
-      "matchLevel": "unit",
+      "matchLevel": "discipline",
       "matchHint": {
         "athleteNames": [
           "YANG Po-hsuan",
           "LEE Jhe-huei"
-        ]
+        ],
+        "courtSession": {
+          "locationLabel": "Court 1",
+          "roundKeyword": "1st Round",
+          "sourceSessionLabel": "下"
+        }
       }
     },
     {
@@ -2481,7 +2497,13 @@
       "capturedAt": "2026-09-24",
       "broadcastEndTimeTaipei": "2026-09-25T21:00:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "courtSession": {
+          "locationLabel": "Court 2",
+          "roundKeyword": "1st Round",
+          "sourceSessionLabel": "下"
+        }
+      }
     },
     {
       "date": "2026-09-25",

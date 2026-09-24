@@ -61,6 +61,17 @@ test('a named athlete gives a unit hint, an unnamed session stays at discipline 
   assert.deepEqual(athleteHint('中華隊 游泳 預賽',byZh),[]);
 });
 
+test('a badminton Court programme stays a multi-unit session even when its title names athletes',()=>{
+  const byZh=new Map([['葉宏蔚','YE Hong-Wei'],['詹又蓁','CHAN Nicole Gonzales']]);
+  const {records}=parse(day([programme({format_s_time:'2026-09-21 08:25:00',
+    program_desc:'亞運 葉宏蔚/詹又蓁 羽球 個人賽第1輪(上-第2球場) 9/21(原音) LIVE',
+    sport_item:{sp_name:'羽球'}})]),byZh);
+  assert.equal(records[0].matchLevel,'discipline');
+  assert.deepEqual(records[0].matchHint.athleteNames,['YE Hong-Wei','CHAN Nicole Gonzales']);
+  assert.deepEqual(records[0].matchHint.courtSession,
+    {locationLabel:'Court 2',roundKeyword:'1st Round',sourceSessionLabel:'上'});
+});
+
 test('several programmes of one sport on one day all survive, duplicates do not',()=>{
   const { records } = parse(day([
     programme({ format_s_time:'2026-09-21 08:55:00', program_desc:'亞運 空手道 預賽 9/21 LIVE', sport_item:{ sp_name:'空手道' } }),

@@ -9,7 +9,8 @@ export type RawSchedule = {
   Key: string; Disc: string; Orgs?: string[]; Org?: string; Home?: RawCompetitor; Away?: RawCompetitor;
   DiscDesc?: string; Event?: string; EventDesc?: string; Phase?: string; PhaseDesc?: string;
   UnitDesc?: string; UnitDescA?: string; DateTimeRaw?: string; HideStartDate?: boolean;
-  HideLocation?: boolean; Estimated?: boolean; EstText?: string; Venue?: string; VenueDesc?: string; isH2H?:boolean;
+  HideLocation?: boolean; Estimated?: boolean; EstText?: string; Venue?: string; VenueDesc?: string;
+  Loc?: string; LocDesc?: string; isH2H?:boolean;
   ResCode?: string; Status?: string; StatusDesc?: string; IsLive?: boolean; Medal?: string;
 };
 // What HideStartDate=true actually means, classified from the official EstText note. The parser
@@ -107,8 +108,8 @@ export function normalize(value: unknown, source: Source, evidence: DayEvidence 
         officialDays: evidence.officialDays ?? null, venueTimeZoneSource: 'config.venueTimeZone' } : null } : null,
     // HideStartDate only means the official clock time must not be shown to a reader as exact
     // (e.g. an order-dependent "Followed by" match) -- it is not evidence the unit's calendar
-    // day is unknown. The internal time is still derived from DateTimeRaw so date bucketing,
-    // sorting and opponent time-matching keep working; timeHidden below tells the display layer
+    // day is unknown. The internal time is still derived from DateTimeRaw so date bucketing and
+    // sorting keep working; timeHidden below tells the display layer
     // not to render it as a precise clock time.
     startTimeUtc: suspectTimezone && !recovered ? null : parsed?.utc ?? null,
     startTimeTaipei: suspectTimezone && !recovered ? null : parsed?.taipei ?? null,
@@ -117,6 +118,11 @@ export function normalize(value: unknown, source: Source, evidence: DayEvidence 
     timeNote: classifyTimeNote(row, wallDate),
     displayTimezone: DISPLAY_TIMEZONE, timeHidden: row.HideStartDate === true, estimated: row.Estimated === true,
     venueCode: row.Venue ?? null, venueName: row.HideLocation ? null : row.VenueDesc ?? null,
+    // Loc is the official stable sub-venue identity. LocDesc is retained only for display and
+    // for resolving a broadcaster's literal "Court N" label to that identity.
+    locationCode: row.Loc ?? null, locationName: row.HideLocation ? null : row.LocDesc ?? null,
+    courtSessionChainId: null as string | null,
+    courtPredecessorUnitId: null as string | null,
     status: statusMap[row.Status || ''] || 'unknown', sourceStatus: row.Status ?? null,
     sourceStatusDescription: row.StatusDesc ?? null, isLive: row.IsLive ?? null,
     hasTpe: participation === 'confirmed' ? true : participation === 'unknown' ? null : false,
@@ -131,6 +137,79 @@ export function parseDaily(data: unknown, source: Source, evidence: DayEvidence 
   return data.map(row => normalize(row, source, evidence));
 }
 export type Schedule = ReturnType<typeof normalize>;
+
+export type CourtTimeKind = 'EXACT' | 'LOWER_BOUND' | 'NONE';
+export type CourtSessionUnit = {
+  unitId:string; unitName:string | null; predecessorUnitId:string | null;
+  timeNoteCode:TimeNoteCode | null; timeKind:CourtTimeKind; timeTaipei:string | null;
+};
+export type CourtSessionChain = {
+  id:string; disciplineCode:'BDM'; locationCode:string; locationName:string;
+  anchorUnitId:string; anchorTimeKind:CourtTimeKind; anchorTimeTaipei:string | null;
+  units:CourtSessionUnit[];
+};
+
+const clockOnRowDate = (row:Schedule, clock:string | null):string | null => {
+  const date = row.startTimeTaipei?.slice(0,10);
+  return date && clock ? `${date}T${clock}:00+08:00` : null;
+};
+const courtTimeEvidence = (row:Schedule):{kind:CourtTimeKind;time:string|null} => {
+  if (!row.timeNote) return { kind:'EXACT', time:row.startTimeTaipei };
+  if (row.timeNote.code === 'RESCHEDULED') {
+    return { kind:'EXACT', time:clockOnRowDate(row,row.timeNote.clockTaipei) };
+  }
+  if (row.timeNote.code === 'NOT_BEFORE') {
+    return { kind:'LOWER_BOUND', time:clockOnRowDate(row,row.timeNote.clockTaipei) };
+  }
+  // FOLLOWED_BY's DateTimeRaw is an ordering slot, not a time claim. PENDING has no reliable
+  // clock either. Both remain usable in the official order but never become time evidence.
+  return { kind:'NONE', time:null };
+};
+
+// This must run on the complete official discipline/day response, before any TPE filtering.
+// A chain starts at a unit that is not FOLLOWED_BY and owns the following units on the same
+// official Loc until the next such anchor. DateTimeRaw supplies order only; it is never promoted
+// to a precise clock for FOLLOWED_BY. "Upper/lower" broadcaster wording is deliberately absent.
+export function buildCourtSessionChains(input:Schedule[]):{rows:Schedule[];chains:CourtSessionChain[]} {
+  const rows = input.map(row=>({...row,courtSessionChainId:null,courtPredecessorUnitId:null}));
+  const position = new Map(rows.map((row,index)=>[row.id,index]));
+  const groups = new Map<string,Schedule[]>();
+  for (const row of rows) {
+    if (row.disciplineCode !== 'BDM' || !row.locationCode || !row.locationName
+      || !/^Court\s+\d+$/i.test(row.locationName)) continue;
+    const key = row.locationCode;
+    groups.set(key,[...(groups.get(key) ?? []),row]);
+  }
+  const chains:CourtSessionChain[] = [];
+  for (const courtRows of groups.values()) {
+    courtRows.sort((a,b)=>(a.originalStartTime ?? '').localeCompare(b.originalStartTime ?? '')
+      || (position.get(a.id) ?? 0) - (position.get(b.id) ?? 0));
+    let chain:CourtSessionChain | null = null;
+    let predecessor:string | null = null;
+    for (const row of courtRows) {
+      row.courtPredecessorUnitId = predecessor;
+      if (row.timeNote?.code !== 'FOLLOWED_BY') {
+        const evidence = courtTimeEvidence(row);
+        chain = {
+          id:`BDM|${row.originalStartTime?.slice(0,10) ?? 'unknown'}|${row.locationCode}|${row.unitId}`,
+          disciplineCode:'BDM', locationCode:row.locationCode!, locationName:row.locationName!,
+          anchorUnitId:row.unitId, anchorTimeKind:evidence.kind, anchorTimeTaipei:evidence.time,
+          units:[],
+        };
+        chains.push(chain);
+      }
+      if (chain) {
+        const evidence = courtTimeEvidence(row);
+        row.courtSessionChainId = chain.id;
+        chain.units.push({ unitId:row.unitId, unitName:row.unitName,
+          predecessorUnitId:row.courtPredecessorUnitId,
+          timeNoteCode:row.timeNote?.code ?? null, timeKind:evidence.kind, timeTaipei:evidence.time });
+      }
+      predecessor = row.unitId;
+    }
+  }
+  return { rows, chains };
+}
 
 // The event endpoint lists every phase, including earlier days. Only phases starting at
 // the event's first official start time may use an Entries-only provisional card.

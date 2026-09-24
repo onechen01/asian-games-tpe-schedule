@@ -5,13 +5,16 @@ export type ResultsRow = {
   id:string; unitId?:string; disciplineCode:string; disciplineName?:string | null;
   eventName?:string | null; phaseName?:string | null; unitName?:string | null;
   startTimeTaipei?:string | null; originalStartTime?:string | null; venueName?:string | null;
+  locationCode?:string | null; locationName?:string | null;
+  courtSessionChainId?:string | null; courtPredecessorUnitId?:string | null;
   eventId?:string | null; hasTpe?:boolean | null; orgs?:string[]; sourceStatus?:string | null;
   entryFallbackInitialPhase?:boolean;
   // Null when startTimeTaipei is a trustworthy clock time to show as-is; otherwise the single
   // source of truth for how the display layer should render it instead (see schedule.ts
   // classifyTimeNote -- this type mirrors its TimeNote, duplicated rather than imported to keep
   // this parser decoupled from the Results-specific schedule parser, matching every other type
-  // here). startTimeTaipei itself is still a real, usable time for sorting/day-bucketing/matching.
+  // here). startTimeTaipei itself remains usable for sorting/day bucketing; matcher time evidence
+  // depends on the timeNote semantics.
   timeNote?:{ code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING'; clockTaipei:string | null; raw:string | null } | null;
   resultScope?:'component' | 'aggregate' | null;
   competitors?:Competitor[];
@@ -47,6 +50,8 @@ export type DailyRow = {
   event:string | null; phase:string | null; unit:string | null;
   athletes:string[]; athletesEn:string[]; opponent:string | null; opponentCode:string | null;
   venue:string | null; venueZh:string | null; status:string | null;
+  locationCode:string | null; locationName:string | null;
+  courtSessionChainId:string | null; courtPredecessorUnitId:string | null;
   result:{ tpe:string | null; opponent:string | null; source:'results' } | null;
   // Several Chinese Taipei athletes can start in one unit of an individual event. Each one
   // owns their own mark and place, so they are listed separately instead of sharing one.
@@ -68,9 +73,17 @@ export type DailyRow = {
 };
 export type MergeWarning = { code:string; message:string; row?:string };
 export type ResultsSnapshot = { date:string; rows:ResultsRow[];
+  sessionChains?:CourtSessionChain[];
   coverage?:{ fetchComplete?:boolean; missing?:unknown[] }; errors?:unknown[] };
+export type CourtSessionChain = {
+  id:string; disciplineCode:'BDM'; locationCode:string; locationName:string;
+  anchorUnitId:string; anchorTimeKind:'EXACT'|'LOWER_BOUND'|'NONE'; anchorTimeTaipei:string|null;
+  units:{ unitId:string; unitName:string|null; predecessorUnitId:string|null;
+    timeNoteCode:'FOLLOWED_BY'|'NOT_BEFORE'|'RESCHEDULED'|'PENDING'|null;
+    timeKind:'EXACT'|'LOWER_BOUND'|'NONE'; timeTaipei:string|null }[];
+};
 export type DailyReport = {
-  date:string; rows:DailyRow[];
+  date:string; rows:DailyRow[]; sessionChains:CourtSessionChain[];
   // True only when the official sync finished cleanly and still found nobody: a day with no
   // Chinese Taipei event, as opposed to a day whose data is missing or incomplete.
   officialNoCompetition:boolean;
@@ -250,7 +263,7 @@ export function mergeDaily(results:ResultsSnapshot, tpenoc:{ scheduleDate:string
   const coverageComplete = results.coverage?.fetchComplete === true
     && (results.coverage?.missing?.length ?? 0) === 0
     && (results.errors?.length ?? 0) === 0;
-  return { date, rows,
+  return { date, rows, sessionChains:results.sessionChains ?? [],
     coverageComplete,
     officialNoCompetition:coverageComplete && rows.length === 0,
     summary:{ matched:rows.filter(r=>r.matchStatus === 'MATCHED').length,
@@ -293,6 +306,10 @@ function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | 
     opponentCode:other?.org ?? (tpenoc?.opponent ? NOC_BY_ZH[tpenoc.opponent] ?? null : null),
     venue:results?.venueName ?? tpenoc?.venue ?? null,
     venueZh:tpenoc?.venue ?? null,
+    locationCode:results?.locationCode ?? null,
+    locationName:results?.locationName ?? null,
+    courtSessionChainId:results?.courtSessionChainId ?? null,
+    courtPredecessorUnitId:results?.courtPredecessorUnitId ?? null,
     status,
     // Scores and status always come from Results; a blank committee cell never overwrites them.
     // With more than one Chinese Taipei entrant there is no single "Taiwan result": one

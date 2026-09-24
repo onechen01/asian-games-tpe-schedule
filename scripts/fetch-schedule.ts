@@ -1,10 +1,10 @@
 // npm run fetch:schedule -- 2026-09-21 [BKB,SWM|ALL|AUTO]
 import { get, BASE, ApiError, recordFailure } from '../src/api/asianGames.ts';
-import { parseDaily, competitor, initialEventPhases, wushuResultTarget } from '../src/parsers/schedule.ts';
+import { parseDaily, buildCourtSessionChains, competitor, initialEventPhases, wushuResultTarget } from '../src/parsers/schedule.ts';
 import { parseRequestedResult } from '../src/parsers/results.ts';
 import { entryIndex, parseTpeEntries } from '../src/parsers/entries.ts';
 import { parseMatrix, activeDisciplineDays } from '../src/parsers/matrix.ts';
-import type { Schedule } from '../src/parsers/schedule.ts';
+import type { Schedule, CourtSessionChain } from '../src/parsers/schedule.ts';
 import { validateDate, nextDay } from '../src/utils/timezone.ts';
 import { save, ROOT } from '../src/utils/storage.ts';
 import { recoverMissing } from '../src/utils/recovery.ts';
@@ -56,6 +56,7 @@ type Result = { sourceStatus:unknown; isLive:unknown; currentPeriod:unknown;
 type Row = Schedule & { result?:Result; resultScope?:'component' | 'aggregate' | null;
   entryFallbackInitialPhase?:boolean };
 const errors:Failure[] = [], rows = new Map<string,Row>(), unresolved:Row[] = [];
+const courtSessionChains = new Map<string,CourtSessionChain>();
 type Missing = { kind:'schedule-daily' | 'results'; disciplineCode:string; endpoint:string;
   date?:string; unitId?:string; http_status:number | null; error:string };
 const missing:Missing[] = [];
@@ -84,14 +85,18 @@ async function fetchDailyUnits(sport:string, day:string):Promise<boolean> {
     requests.push(meta);
     // The requested day and the discipline's official competition days are what let a
     // wrong timezone offset be recovered instead of silently moving a unit to another day.
-    return parseDaily(data,{mode:'api',...meta},{ requestedDate:day, officialDays:officialDays.get(sport) });
+    // Chain the complete official response here. This is intentionally before the hasTpe/day
+    // filters below because a session anchor or predecessor may be a non-TPE unit.
+    return buildCourtSessionChains(parseDaily(data,{mode:'api',...meta},
+      { requestedDate:day, officialDays:officialDays.get(sport) }));
   });
   if (!outcome.ok) {
     missing.push({ kind:'schedule-daily',disciplineCode:sport,endpoint:BASE+path,date:day,
       http_status:outcome.failure.http_status,error:outcome.failure.error });
     return false;
   }
-  for (const row of outcome.value) {
+  for (const chain of outcome.value.chains) courtSessionChains.set(chain.id,chain);
+  for (const row of outcome.value.rows) {
     if (row.timezoneAnomaly) {
       anomalies.push({ disciplineCode:sport, date:day, unitId:row.unitId,
         code:row.timezoneAnomaly.code, sourceOffset:row.timezoneAnomaly.sourceOffset,
@@ -187,6 +192,9 @@ if (initialMissing.length) {
 }
 
 const all = [...rows.values()].sort((a,b)=>(a.startTimeTaipei || '').localeCompare(b.startTimeTaipei || ''));
+const selectedUnitIds = new Set(all.map(row=>row.unitId));
+const sessionChains = [...courtSessionChains.values()].filter(chain=>
+  chain.units.some(unit=>selectedUnitIds.has(unit.unitId)));
 const taiwan = all.filter(r=>r.hasTpe===true), unknown = all.filter(r=>r.hasTpe===null);
 const report = { schemaVersion:2,generatedAt:new Date().toISOString(),date,timezone:'Asia/Taipei',
   editorialVerification:'pending',coverage:{sports,allSports:argument === 'ALL',
@@ -199,7 +207,8 @@ const report = { schemaVersion:2,generatedAt:new Date().toISOString(),date,timez
     fetchComplete:errors.length===0 && missing.length===0
       && anomalies.every(a=>a.code === 'RECOVERED_OFFICIAL_TIME'),
     participationComplete:errors.length===0 && missing.length===0 && unknown.length===0 && unresolved.length===0},
-  errors,requests,count:all.length,taiwan,unknownParticipation:unknown,unresolvedTime:unresolved,rows:all };
+  errors,requests,count:all.length,taiwan,unknownParticipation:unknown,unresolvedTime:unresolved,
+  sessionChains,rows:all };
 // The automated updater points this at a staging directory so an incomplete sync never
 // replaces a good production file.
 const outDir = process.env.SCHEDULE_OUT_DIR ?? 'data/normalized';

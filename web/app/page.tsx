@@ -71,9 +71,9 @@ export default async function Page({searchParams}:{searchParams:Promise<{date?:s
   if(state==='incomplete')return <><h3>目前查到 0 場，但這天的資料同步未完成</h3><p>不能據此判定當天沒有台灣出賽。</p></>;
   return <><h3>這一天尚無已確認的台灣賽事</h3><p>僅限已取得的項目，不能據此判定當天沒有台灣出賽。</p></>;})()}</section>
  :<div className="matches">{rows.map(row=>isEntered(row)
-   ?<EnteredCard key={'entered-'+row.disciplineCode+'-'+row.event+'-'+row.startTimeTaipei} row={row} master={master} names={display} shows={broadcastsForRow(broadcasts,date,row)}/>
-   :<Card key={row.sources.results?.id||row.sources.tpenoc?.sport+'-'+row.startTimeTaipei} row={row} conflict={hasTimeConflict(data,row)} master={master} names={display} shows={broadcastsForRow(broadcasts,date,row)} advance={advanceFor({...row,date},later)}/>)}{pending.map(row=><Card key={'tbd-'+(row.sources.results?.id||row.startTimeTaipei)} row={row} conflict={false} pending master={master} names={display} shows={broadcastsForRow(broadcasts,date,row)}/>)}</div>}
- {(()=>{const groups=[...disciplineBroadcasts(broadcasts,date,rows.concat(pending)).entries()];
+   ?<EnteredCard key={'entered-'+row.disciplineCode+'-'+row.event+'-'+row.startTimeTaipei} row={row} master={master} names={display} shows={broadcastsForRow(broadcasts,date,row,data.sessionChains)}/>
+   :<Card key={row.sources.results?.id||row.sources.tpenoc?.sport+'-'+row.startTimeTaipei} row={row} conflict={hasTimeConflict(data,row)} master={master} names={display} shows={broadcastsForRow(broadcasts,date,row,data.sessionChains)} advance={advanceFor({...row,date},later)}/>)}{pending.map(row=><Card key={'tbd-'+(row.sources.results?.id||row.startTimeTaipei)} row={row} conflict={false} pending master={master} names={display} shows={broadcastsForRow(broadcasts,date,row,data.sessionChains)}/>)}</div>}
+ {(()=>{const groups=[...disciplineBroadcasts(broadcasts,date,rows.concat(pending),data?.sessionChains).entries()];
   if(!groups.length)return null;
   // Programmes that cover a whole session are listed once per sport, never copied onto cards.
   return <section className="broadcast-block" aria-label="轉播資訊"><h2>轉播資訊</h2>

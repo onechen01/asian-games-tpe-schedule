@@ -12,6 +12,8 @@ export type Row = {
   event:string | null; phase:string | null; unit:string | null;
   athletes:string[]; athletesEn:string[]; opponent:string | null; opponentCode:string | null;
   venue:string | null; venueZh:string | null; status:string | null; result:Result | null;
+  locationCode?:string | null; locationName?:string | null;
+  courtSessionChainId?:string | null; courtPredecessorUnitId?:string | null;
   tpenocResult:string | null; rank:string | null; note:string | null;
   // Present when one unit carried more than one Chinese Taipei entrant in an individual event.
   tpeEntrants?:{ name:string | null; registration:string | null; result:string | null; rank:string | null;
@@ -25,11 +27,17 @@ export type Row = {
   sources:{ results?:{ unitId?:string; id:string }; tpenoc?:{ sport:string; timeJst:string } };
 };
 export type Warning = { code:string; message:string; row?:string };
+export type CourtSessionChain = {
+  id:string; disciplineCode:'BDM'; locationCode:string; locationName:string;
+  anchorUnitId:string; anchorTimeKind:'EXACT'|'LOWER_BOUND'|'NONE'; anchorTimeTaipei:string|null;
+  units:{ unitId:string; unitName:string|null; predecessorUnitId:string|null;
+    timeNoteCode:TimeNote['code']|null; timeKind:'EXACT'|'LOWER_BOUND'|'NONE'; timeTaipei:string|null }[];
+};
 export type Daily = {
   schemaVersion:number; date:string; generatedAt:string; timezone:string;
   // Set by the merge step only when the official sync finished cleanly and found nobody.
   officialNoCompetition?:boolean; coverageComplete?:boolean;
-  rows:Row[]; warnings:Warning[];
+  rows:Row[]; warnings:Warning[]; sessionChains?:CourtSessionChain[];
   summary:{ matched:number; tpenocOnly:number; resultsOnly:number; unresolvedTbd:number; warnings:number };
   sources:{ results?:{ path:string; coverage?:{ sports?:string[]; fetchComplete?:boolean } } | null;
     tpenoc?:{ path:string; sourceFileName?:string; updatedAtJst?:string | null } | null };
@@ -47,8 +55,8 @@ export function formatTaipei(value?:string|null,withDate=false){
 // The one place that turns Row.timeNote into a displayed string. Every caller (Card,
 // EnteredCard, the progression "next round" line) must go through this -- none of them re-decide
 // the label on their own, and none of them branch on disciplineCode. The underlying
-// startTimeTaipei is still used internally (sorting, day bucketing, broadcast windows) regardless
-// of what is shown here.
+// startTimeTaipei is still used internally for sorting and day bucketing. Broadcast matching
+// separately applies the timeNote semantics and must not treat every hidden value as exact.
 export function matchTimeLabel(row:{startTimeTaipei?:string|null;timeNote?:TimeNote|null}){
   const note = row.timeNote;
   if (!note) return formatTaipei(row.startTimeTaipei);

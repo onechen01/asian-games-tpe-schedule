@@ -13,7 +13,11 @@ export type BroadcastRecord = {
   disciplineCode:string; title:string|null; feed:'main'|'original'|null; note:string|null;
   channelId:string|null; channelName:string|null; isLive:boolean|null;
   sourceUrl:string|null; capturedAt:string|null; matchLevel:'unit'|'discipline';
-  matchHint:{ opponentCodes?:string[]; athleteNames?:string[]; phaseKeywords?:string[]; eventKeywords?:string[] };
+  matchHint:{ opponentCodes?:string[]; athleteNames?:string[]; phaseKeywords?:string[]; eventKeywords?:string[];
+    courtSession?:CourtSessionHint };
+};
+export type CourtSessionHint = {
+  locationLabel:string; roundKeyword:string; sourceSessionLabel:string;
 };
 export type Unresolved = { time:string|null; title:string; reason:string };
 
@@ -25,7 +29,7 @@ export function preserveVerifiedMatchHints(next:BroadcastRecord[],previous:Broad
   const verified = new Map(previous
     .filter(r=>r.matchHint.eventKeywords?.length)
     .map(r=>[recordIdentity(r),r.matchHint]));
-  return next.map(r=>r.matchHint.eventKeywords?.length ? r
+  return next.map(r=>r.matchHint.eventKeywords?.length || r.matchHint.courtSession ? r
     : verified.has(recordIdentity(r)) ? {...r,matchHint:verified.get(recordIdentity(r))!} : r);
 }
 
@@ -84,6 +88,20 @@ export const phaseHint = (title:string)=>{
   return words.length ? [...new Set(words)] : [];
 };
 
+const ordinal = (value:number)=>{
+  const mod100=value%100, mod10=value%10;
+  const suffix=mod100>=11&&mod100<=13?'th':mod10===1?'st':mod10===2?'nd':mod10===3?'rd':'th';
+  return `${value}${suffix} Round`;
+};
+// ELTA explicitly describes these as a badminton court session. Upper/lower is retained only
+// for diagnosis; the matcher must select the official chain from court, round and time evidence.
+export function badmintonCourtSessionHint(title:string):CourtSessionHint|null {
+  const hit=/羽球\s+個人賽第(\d+)輪\s*[（(]\s*([^\-)）]+)\s*-\s*第(\d+)球場\s*[)）]/.exec(title);
+  if (!hit) return null;
+  return { locationLabel:`Court ${Number(hit[3])}`, roundKeyword:ordinal(Number(hit[1])),
+    sourceSessionLabel:hit[2].trim() };
+}
+
 type Programme = { format_s_time?:unknown; start_datetime?:unknown; program_desc?:unknown;
   is_taipei_team?:unknown; sport_item?:{ sp_name?:unknown };
   cl_num?:unknown; cl_title?:unknown; live_type?:unknown; end_time?:unknown };
@@ -129,6 +147,7 @@ export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
       const broadcastStartTimeTaipei = `${startsOn}T${raw.slice(11,16)}:00+08:00`;
       const opponent = opponentOf(title, options.nocByZh ?? {});
       const named = opponent ? [] : athleteHint(title, options.athletesByZh ?? new Map());
+      const courtSession = disciplineCode === 'BDM' ? badmintonCourtSessionHint(title) : null;
       // The channel is part of "where to watch", so it travels with the record; the field is
       // generic because another provider will have its own channels or services.
       const channelId = p.cl_num === undefined || p.cl_num === null ? null : String(p.cl_num);
@@ -144,8 +163,9 @@ export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
         broadcastEndTimeTaipei:taipeiFromEpoch(p.end_time),
         // A session programme is still discipline-level; the phase hint plus the official
         // window is what allows it to cover several units, never the time alone.
-        matchLevel:opponent || named.length ? 'unit' : 'discipline',
-        matchHint:opponent ? { opponentCodes:[opponent] }
+        matchLevel:courtSession ? 'discipline' : opponent || named.length ? 'unit' : 'discipline',
+        matchHint:courtSession ? { ...(named.length ? {athleteNames:named} : {}), courtSession }
+          : opponent ? { opponentCodes:[opponent] }
           : named.length ? { athleteNames:named }
           : phaseHint(title).length ? { phaseKeywords:phaseHint(title) } : {},
       };

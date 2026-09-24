@@ -1,6 +1,8 @@
 // Broadcast layer: a secondary, display-only source that answers "where and when can I watch".
 // It never supplies a competition time, an opponent, a result or a participation state — those
 // come from the Results canonical alone. Any number of providers may cover the same event.
+import type {CourtSessionChain} from './schedule.ts';
+
 export type Broadcast = {
   date:string; providerId:string; providerName:string; broadcastStartTimeTaipei:string;
   broadcastEndTimeTaipei?:string|null;
@@ -10,7 +12,8 @@ export type Broadcast = {
   sourceUrl:string|null; capturedAt:string|null;
   matchLevel:'unit'|'discipline';
   matchHint?:{ athleteNames?:string[]; opponentCodes?:string[]; opponentNames?:string[];
-    phaseKeywords?:string[]; eventKeywords?:string[] };
+    phaseKeywords?:string[]; eventKeywords?:string[];
+    courtSession?:{locationLabel:string;roundKeyword:string;sourceSessionLabel:string} };
 };
 export type Broadcasts = { records:Broadcast[] };
 
@@ -42,6 +45,7 @@ export const forDate = (all:Broadcasts, date:string)=>
 type MatchRow = { disciplineCode:string|null; opponentCode:string|null;
   athletesEn?:string[]; enteredAthletes?:string[];
   startTimeTaipei?:string|null; phase?:string|null; event?:string|null;
+  locationCode?:string|null; locationName?:string|null; courtSessionChainId?:string|null;
   // An entered row's time is the event window's start, not a Taiwan start time.
   participationState?:string|null; entryLevel?:string|null };
 const key = (name:string)=>name.replace(/[^A-Za-z]/g,'').toUpperCase();
@@ -113,11 +117,45 @@ const hasExplicitConflict = (r:Broadcast, row:MatchRow)=>
   explicitConflict(titleEventFamilies(r), familiesIn(row.event,EVENT_FAMILIES,'row'))
   || explicitConflict(familiesIn(r.title,PHASE_FAMILIES,'title'), familiesIn(row.phase,PHASE_FAMILIES,'row'));
 
+const sameLabel = (a:string,b:string)=>a.trim().toLowerCase() === b.trim().toLowerCase();
+const anchorInsideWindow = (r:Broadcast,chain:CourtSessionChain)=>{
+  if (!r.broadcastEndTimeTaipei || !chain.anchorTimeTaipei || chain.anchorTimeKind === 'NONE') return false;
+  const start=Date.parse(r.broadcastStartTimeTaipei),end=Date.parse(r.broadcastEndTimeTaipei);
+  const anchor=Date.parse(chain.anchorTimeTaipei);
+  if (![start,end,anchor].every(Number.isFinite) || end<=start) return false;
+  // A lower bound is not an actual start. Requiring the programme to span that bound proves
+  // only that it covers the possible beginning of the chain; it is never compared to a unit's
+  // FOLLOWED_BY placeholder.
+  return start<=anchor && anchor<end;
+};
+function matchesBdmCourtSession(r:Broadcast,row:MatchRow,chains:CourtSessionChain[]):boolean|null {
+  const hint=r.matchHint?.courtSession;
+  if (!hint) return null;
+  if (r.disciplineCode!=='BDM' || row.disciplineCode!=='BDM' || !row.locationCode
+    || !row.courtSessionChainId || !hits([hint.roundKeyword],row.phase)) return false;
+  // LocDesc is only a resolver for the broadcaster's literal Court label. A unique official
+  // Loc is required and becomes the identity used below.
+  const codes=[...new Set(chains.filter(c=>c.disciplineCode==='BDM'
+    && sameLabel(c.locationName,hint.locationLabel)).map(c=>c.locationCode))];
+  if (codes.length!==1 || row.locationCode!==codes[0]) return false;
+  const relevant=chains.filter(c=>c.disciplineCode==='BDM' && c.locationCode===codes[0]
+    && c.units.some(unit=>hits([hint.roundKeyword],unit.unitName)));
+  // An unclocked chain of the same court and round could be the programme's session. It cannot
+  // be ruled out by the window, so selecting a clocked neighbour would be a guess.
+  if (relevant.some(c=>c.anchorTimeKind==='NONE')) return false;
+  const candidates=relevant.filter(c=>anchorInsideWindow(r,c));
+  // Upper/lower is deliberately not consulted. If court + official anchor evidence + window
+  // cannot select exactly one chain, the broadcast stays unattached.
+  return candidates.length===1 && candidates[0].id===row.courtSessionChainId;
+}
+
 // Strong evidence (a named athlete or opponent) attaches on its own, live or delayed. A session
 // programme (phase evidence only) additionally requires the broadcast to be live — matching
 // times alone is never evidence, and a session's real extent is unknown once it is delayed.
-function matchesDirectly(r:Broadcast, row:MatchRow):boolean {
+function matchesDirectly(r:Broadcast, row:MatchRow, chains:CourtSessionChain[]):boolean {
   if (r.disciplineCode !== row.disciplineCode) return false;
+  const courtSession=matchesBdmCourtSession(r,row,chains);
+  if (courtSession!==null) return courtSession;
   if (hasExplicitConflict(r,row)) return false;
   const hint = r.matchHint ?? {};
   if (hint.opponentCodes?.length) return !!row.opponentCode && hint.opponentCodes.includes(row.opponentCode);
@@ -154,23 +192,25 @@ const stripPlaybackMarkers = (title:string|null|undefined)=>(title ?? '')
   .replace(/D-LIVE/gi,'').replace(/\bLIVE\b/gi,'')
   .replace(/[(（]原音[)）]/g,'').replace(/[(（]續看[)）]|續看/g,'')
   .replace(/\s+/g,' ').trim();
-function inheritsFromLive(r:Broadcast, row:MatchRow, sameDate:Broadcast[]):boolean {
+function inheritsFromLive(r:Broadcast, row:MatchRow, sameDate:Broadcast[], chains:CourtSessionChain[]):boolean {
   if (r.isLive !== false) return false;
   const normalized = stripPlaybackMarkers(r.title);
   if (!normalized) return false;
   return sameDate.some(live=>live !== r && live.isLive !== false && live.providerId === r.providerId
     && live.disciplineCode === r.disciplineCode && stripPlaybackMarkers(live.title) === normalized
-    && matchesDirectly(live,row));
+    && matchesDirectly(live,row,chains));
 }
 
-export function broadcastsForRow(all:Broadcasts, date:string, row:MatchRow):Broadcast[] {
+export function broadcastsForRow(all:Broadcasts, date:string, row:MatchRow,
+  chains:CourtSessionChain[]=[]):Broadcast[] {
   const sameDate = forDate(all,date);
-  return sameDate.filter(r=>matchesDirectly(r,row) || inheritsFromLive(r,row,sameDate));
+  return sameDate.filter(r=>matchesDirectly(r,row,chains) || inheritsFromLive(r,row,sameDate,chains));
 }
 
 // Programmes that could not be tied to one unit, grouped per discipline so they are shown once.
-export function disciplineBroadcasts(all:Broadcasts, date:string, rows:MatchRow[]):Map<string,Broadcast[]> {
-  const attached = new Set(rows.flatMap(row=>broadcastsForRow(all,date,row))
+export function disciplineBroadcasts(all:Broadcasts, date:string, rows:MatchRow[],
+  chains:CourtSessionChain[]=[]):Map<string,Broadcast[]> {
+  const attached = new Set(rows.flatMap(row=>broadcastsForRow(all,date,row,chains))
     .map(r=>r.providerId + '|' + r.broadcastStartTimeTaipei + '|' + r.disciplineCode));
   const out = new Map<string,Broadcast[]>();
   for (const r of forDate(all,date)) {
