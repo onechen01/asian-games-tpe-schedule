@@ -384,7 +384,9 @@ test('a session programme covers the units inside the official window, and nothi
 });
 
 test('time alone is never evidence, and a delayed session stays off the cards',()=>{
-  const noHint = windowShow({ matchHint:{} });
+  // The title itself must carry no recognisable phase word either — otherwise the shared
+  // family table (also used by the veto) would derive evidence from the title on its own.
+  const noHint = windowShow({ matchHint:{}, title:'中華隊 游泳' });
   assert.equal(broadcastsForRow(noHint,'2026-09-20',swimRow('09:20')).length,0);
   const delayed = windowShow({ isLive:false });
   assert.equal(broadcastsForRow(delayed,'2026-09-20',swimRow('09:20')).length,0);
@@ -535,8 +537,9 @@ test('the looser provisional rule still needs the sport, the day and the phase t
   assert.equal(broadcastsForRow(garShow(),'2026-09-21',enteredRow({ phase:"Men's Team Final" })).length,0);
   // Another day.
   assert.equal(broadcastsForRow(garShow(),'2026-09-20',enteredRow()).length,0);
-  // A programme with no phase evidence stays off the card.
-  assert.equal(broadcastsForRow(garShow({ matchHint:{} }),'2026-09-21',enteredRow()).length,0);
+  // A programme with no phase evidence stays off the card (title carries none either — see
+  // the note above about the shared family table also being able to derive evidence).
+  assert.equal(broadcastsForRow(garShow({ matchHint:{}, title:'中華隊 男子組' }),'2026-09-21',enteredRow()).length,0);
   // Delayed programmes keep their existing restriction.
   assert.equal(broadcastsForRow(garShow({ isLive:false }),'2026-09-21',enteredRow()).length,0);
   // A confirmed row still obeys the official window.
@@ -680,4 +683,75 @@ test('explicit conflict veto does not disturb one-to-many or same-card multi-cha
   const teamKataQF = rows.find(r=>r.disciplineCode === 'KTE' && r.phase === "Men's Team Kata Quarterfinals")!;
   const onQF = broadcastsForRow(shows,'2026-09-23',teamKataQF);
   assert.ok(onQF.length >= 1);
+});
+
+// -- second cut: a small, shared alias table extends the same veto/positive-match machinery
+// to explicit event/phase words the title uses (附加賽/八強/四強/銅牌戰/混雙/女單/男單/男雙/女雙),
+// so a session broadcast with no manually-curated hint can still be attached — but only to
+// units whose own phase actually says so, never by time alone. --
+
+test('case F — 附加賽 (Play-in) attaches to both the women\'s and men\'s Play-in units (real 9/24 3x3 basketball)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-24',providerId:'elta',providerName:'愛爾達',isLive:true,channelId:'101',
+      broadcastStartTimeTaipei:'2026-09-24T10:55:00+08:00',broadcastEndTimeTaipei:'2026-09-24T14:00:00+08:00',
+      disciplineCode:'BK3',title:'亞運 中華隊 3x3籃球 男/女附加賽 9/24 LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{} }]}));
+  const womensPlayin = { disciplineCode:'BK3', opponentCode:'MGL', athletesEn:[],
+    startTimeTaipei:'2026-09-24T11:00:00+08:00', event:'Women', phase:'Women Play-in' };
+  const mensPlayin = { disciplineCode:'BK3', opponentCode:'MAS', athletesEn:[],
+    startTimeTaipei:'2026-09-24T11:50:00+08:00', event:'Men', phase:'Men Play-in' };
+  assert.equal(broadcastsForRow(show,'2026-09-24',womensPlayin).length,1);
+  assert.equal(broadcastsForRow(show,'2026-09-24',mensPlayin).length,1);
+});
+
+test('case G — 八強 (Quarterfinal) attaches to each window\'s own quarterfinal, never across time windows (real 9/24 3x3 basketball)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-24',providerId:'elta',providerName:'愛爾達',isLive:true,channelId:'543',
+      broadcastStartTimeTaipei:'2026-09-24T16:35:00+08:00',broadcastEndTimeTaipei:'2026-09-24T20:00:00+08:00',
+      disciplineCode:'BK3',title:'亞運 中華隊 3x3籃球 男/女八強 9/24(原音) LIVE',feed:'original',
+      matchLevel:'discipline',matchHint:{} },
+    { date:'2026-09-24',providerId:'elta',providerName:'愛爾達',isLive:true,channelId:'110',
+      broadcastStartTimeTaipei:'2026-09-24T17:00:00+08:00',broadcastEndTimeTaipei:'2026-09-24T18:30:00+08:00',
+      disciplineCode:'BK3',title:'亞運 中華隊 3x3籃球 男/女八強 9/24 LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{} }]}));
+  const womensQF = { disciplineCode:'BK3', opponentCode:'KOR', athletesEn:[],
+    startTimeTaipei:'2026-09-24T16:40:00+08:00', event:'Women', phase:'Women Quarterfinals' };
+  const mensQF = { disciplineCode:'BK3', opponentCode:'PHI', athletesEn:[],
+    startTimeTaipei:'2026-09-24T17:30:00+08:00', event:'Men', phase:'Men Quarterfinals' };
+  // The women's quarterfinal (16:40) is only inside the wide ch543 window, not the narrower
+  // ch110 window that starts at 17:00.
+  assert.equal(broadcastsForRow(show,'2026-09-24',womensQF).length,1);
+  // The men's quarterfinal (17:30) is inside both windows.
+  assert.equal(broadcastsForRow(show,'2026-09-24',mensQF).length,2);
+});
+
+test('case H — 混雙 (Mixed Doubles) + 八強 attaches only to the mixed-doubles quarterfinal, never men\'s/women\'s singles or doubles (real 9/25 table tennis)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-25',providerId:'elta',providerName:'愛爾達',isLive:true,channelId:'101',
+      broadcastStartTimeTaipei:'2026-09-25T08:55:00+08:00',broadcastEndTimeTaipei:'2026-09-25T13:00:00+08:00',
+      disciplineCode:'TTE',title:'亞運 中華隊 桌球 混雙八強/女單預賽 9/25 LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Heats','Preliminar','Qualification','Round Robin','Group']} }]}));
+  const mixedQF = { disciplineCode:'TTE', opponentCode:'KOR', athletesEn:[],
+    startTimeTaipei:'2026-09-25T09:00:00+08:00', event:'Mixed Doubles', phase:'Mixed Doubles Quarterfinals' };
+  const mensDoubles = { disciplineCode:'TTE', opponentCode:'LAO', athletesEn:[],
+    startTimeTaipei:'2026-09-25T10:00:00+08:00', event:"Men's Doubles", phase:"Men's Doubles Round 2" };
+  const womensSingles = { disciplineCode:'TTE', opponentCode:'PRK', athletesEn:[],
+    startTimeTaipei:'2026-09-25T11:30:00+08:00', event:"Women's Singles", phase:"Women's Singles Round 2" };
+  const mensSingles = { disciplineCode:'TTE', opponentCode:'MAS', athletesEn:[],
+    startTimeTaipei:'2026-09-25T13:00:00+08:00', event:"Men's Singles", phase:"Men's Singles Round 2" };
+  assert.equal(broadcastsForRow(show,'2026-09-25',mixedQF).length,1,'正確配到混雙八強');
+  assert.equal(broadcastsForRow(show,'2026-09-25',mensDoubles).length,0,'不得配到男雙（event 衝突：混雙 vs 男雙）');
+  assert.equal(broadcastsForRow(show,'2026-09-25',mensSingles).length,0,'不得配到男單（event 衝突：女單 vs 男單）');
+  // Women's Singles Round 2 is deferred to a future cut (no "Round N" phase alias yet), so it
+  // stays an orphan for now rather than being guessed — this is the expected current state.
+  assert.equal(broadcastsForRow(show,'2026-09-25',womensSingles).length,0,'女單 Round 2 本輪暫不解，維持 orphan');
+});
+
+test('the real 9/25 north-korea-vs-taiwan football quarterfinal still matches by opponent, despite the hyphenated "Quarter-finals" wording',async()=>{
+  const shows = await loadBroadcasts();
+  const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-25.json','utf8')),'2026-09-25');
+  const row = taiwanRows(day).find(r=>r.disciplineCode === 'FBL')!;
+  assert.equal(row.phase,'Women Quarter-finals');
+  assert.ok(broadcastsForRow(shows,'2026-09-25',row).length >= 1,
+    '"Quarter-finals" 的連字號不得被誤判成 FINAL family 而擋掉既有的 opponent 證據');
 });

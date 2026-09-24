@@ -70,14 +70,26 @@ const EVENT_FAMILIES:FamilyTable = [
   { family:'INDIVIDUAL', title:/個人|个人/, row:/\bIndividual\b/i },
   { family:'TEAM', title:/男團|女團|團體/, row:/\bTeam\b/i },
   { family:'MIXED', title:/混雙|混合雙打/, row:/\bMixed\b/i },
+  // Singles/doubles are kept gender-specific: a "女單" broadcast must not be read as covering
+  // a men's row just because both are, generically, "singles".
+  { family:'WOMENS_SINGLES', title:/女單/, row:/Women's Singles/i },
+  { family:'MENS_SINGLES', title:/男單/, row:/Men's Singles/i },
+  { family:'WOMENS_DOUBLES', title:/女雙/, row:/Women's Doubles/i },
+  { family:'MENS_DOUBLES', title:/男雙/, row:/Men's Doubles/i },
   // Trap ("定向飛靶") and Skeet ("雙向飛靶") are different shooting events, not a phase of one.
   { family:'TRAP', title:/定向飛靶/, row:/\bTrap\b/i },
   { family:'SKEET', title:/雙向飛靶/, row:/\bSkeet\b/i },
 ];
 const PHASE_FAMILIES:FamilyTable = [
-  { family:'FINAL', title:/決賽|金牌戰/, row:/\bFinals?\b|Gold Medal/i },
+  // The "-finals" suffix of "Quarter-finals"/"Semi-finals" would otherwise match \bFinals?\b
+  // too (some disciplines write it hyphenated, others solid), so those two are excluded here.
+  { family:'FINAL', title:/決賽|金牌戰/, row:/(?<!Quarter-?)(?<!Semi-?)\bFinals?\b|Gold Medal/i },
   // \bGroup\b (not "Groups") avoids matching weightlifting's "All Groups" final-ranking phase.
   { family:'PRELIM', title:/資格賽|預賽/, row:/Qualification|Heats|Preliminar|Round Robin|\bGroup\b/i },
+  { family:'PLAYIN', title:/附加賽/, row:/\bPlay-in\b/i },
+  { family:'QUARTERFINAL', title:/八強/, row:/\bQuarter-?finals?\b/i },
+  { family:'SEMIFINAL', title:/四強|準決賽/, row:/\bSemi-?finals?\b/i },
+  { family:'BRONZE', title:/銅牌戰/, row:/Bronze Medal/i },
 ];
 const familiesIn = (text:string|null|undefined, table:FamilyTable, side:'title'|'row')=>{
   const out = new Set<string>();
@@ -114,10 +126,18 @@ export function broadcastsForRow(all:Broadcasts, date:string, row:MatchRow):Broa
       const names = [...(row.athletesEn ?? []), ...(row.enteredAthletes ?? [])].map(key);
       return hint.athleteNames.some(n=>names.includes(key(n)));
     }
-    if (!hint.phaseKeywords?.length) return false;
+    // Phase evidence: either the stored hint (manually verified, may use English round names
+    // the shared tables don't know, e.g. "Round 2") or the shared PHASE_FAMILIES recognised
+    // directly in the title — the same table the veto above already checked for conflicts, so
+    // one alias list serves both. Neither is required to know about the other's vocabulary.
+    const sharedPhase = familiesIn(r.title,PHASE_FAMILIES,'title');
+    const rowPhase = familiesIn(row.phase,PHASE_FAMILIES,'row');
+    const phaseMatch = hits(hint.phaseKeywords, row.phase)
+      || (sharedPhase.size>0 && rowPhase.size>0 && [...sharedPhase].some(f=>rowPhase.has(f)));
+    if (!hint.phaseKeywords?.length && !sharedPhase.size) return false;
     // A delayed broadcast covers a session whose real extent is unknown, so it stays off cards.
     if (r.isLive === false) return false;
-    if (!hits(hint.phaseKeywords, row.phase)) return false;
+    if (!phaseMatch) return false;
     if (hint.eventKeywords?.length && !hits(hint.eventKeywords, row.event)) return false;
     // An event-level row has no Taiwan start time to compare with, so the window cannot be
     // used against it; the sport, the day and the phase still have to agree.
