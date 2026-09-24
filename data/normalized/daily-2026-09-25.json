@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T09:46:33.285Z",
+  "generatedAt": "2026-09-24T10:07:24.299Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T09:46:33.118Z",
+      "generatedAt": "2026-09-24T10:07:24.163Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -1829,49 +1829,6 @@
     },
     {
       "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T15:50:00+08:00",
-      "startTimeJst": "2026-09-25T16:50:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Men's Parallel Bars",
-      "phase": "Men's Parallel Bars Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUANG Chia-lung",
-        "HUNG Yuan-hsi",
-        "LEE Chih-kai",
-        "SHIAO Yu-jan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GAR|M.1APPB-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T16:00:00+08:00",
       "startTimeJst": "2026-09-25T17:00:00+09:00",
       "disciplineCode": "WLF",
@@ -2198,7 +2155,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 32,
-    "entered": 6,
+    "entered": 5,
     "unresolvedTbd": 0,
     "warnings": 43
   },

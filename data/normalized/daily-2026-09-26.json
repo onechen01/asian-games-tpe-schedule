@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:03:28.489Z",
+  "generatedAt": "2026-09-24T10:10:42.240Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-24T04:03:28.361Z",
+      "generatedAt": "2026-09-24T10:10:42.113Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -362,78 +362,56 @@
       "sportEn": "Archery",
       "event": "Recurve Men's Individual",
       "phase": "Recurve Men's Individual Qualification Round",
-      "unit": null,
+      "unit": "Recurve Men's Individual Qualification Round",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHENG Hsiang-hui",
+      "athletesEn": [
+        "TANG Chih-chun",
         "LIN Zih-siang",
-        "TANG Chih-chun"
+        "CHENG Hsiang-hui"
       ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ARC|M.RINDIVID----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T07:00:00+08:00",
-      "startTimeJst": "2026-09-26T08:00:00+09:00",
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Compound Women's Individual",
-      "phase": "Compound Women's Individual Qualification Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "",
+      "venue": null,
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "TANG Chih-chun",
+          "registration": "2091847",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "LIN Zih-siang",
+          "registration": "2093480",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHENG Hsiang-hui",
+          "registration": "5358471",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 24,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Fang-yi",
-        "CHEN Yi-hsuan",
-        "HUANG I-jou"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ARC|W.CINDIVID----------"
+        "results": {
+          "unitId": "M.RINDIVID----------.QUAL.000100--",
+          "id": "ARC:M.RINDIVID----------.QUAL.000100--"
         }
       }
     },
@@ -446,36 +424,99 @@
       "sportEn": "Archery",
       "event": "Recurve Men's Team",
       "phase": "Recurve Men's Team Qualification Round",
-      "unit": null,
+      "unit": "Recurve Men's Team Qualification Round",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TANG Chih-chun",
+        "LIN Zih-siang",
+        "CHENG Hsiang-hui"
+      ],
       "opponent": null,
       "opponentCode": null,
-      "venue": "",
+      "venue": null,
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHENG Hsiang-hui",
-        "LIN Zih-siang",
-        "TANG Chih-chun"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ARC|M.RTEAM-------------"
+        "results": {
+          "unitId": "M.RTEAM-------------.QUAL.000100--",
+          "id": "ARC:M.RTEAM-------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T07:00:00+08:00",
+      "startTimeJst": "2026-09-26T08:00:00+09:00",
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Individual",
+      "phase": "Compound Women's Individual Qualification Round",
+      "unit": "Compound Women's Individual Qualification Round",
+      "athletes": [],
+      "athletesEn": [
+        "HUANG I-jou",
+        "CHEN Yi-hsuan",
+        "CHEN Fang-yi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "HUANG I-jou",
+          "registration": "2233657",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHEN Yi-hsuan",
+          "registration": "2235185",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHEN Fang-yi",
+          "registration": "3179916",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 22,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CINDIVID----------.QUAL.000100--",
+          "id": "ARC:W.CINDIVID----------.QUAL.000100--"
         }
       }
     },
@@ -488,36 +529,37 @@
       "sportEn": "Archery",
       "event": "Compound Women's Team",
       "phase": "Compound Women's Team Qualification Round",
-      "unit": null,
+      "unit": "Compound Women's Team Qualification Round",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "HUANG I-jou",
+        "CHEN Yi-hsuan",
+        "CHEN Fang-yi"
+      ],
       "opponent": null,
       "opponentCode": null,
-      "venue": "",
+      "venue": null,
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 15,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Fang-yi",
-        "CHEN Yi-hsuan",
-        "HUANG I-jou"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ARC|W.CTEAM-------------"
+        "results": {
+          "unitId": "W.CTEAM-------------.QUAL.000100--",
+          "id": "ARC:W.CTEAM-------------.QUAL.000100--"
         }
       }
     },
@@ -627,35 +669,90 @@
       "sportEn": "Shooting",
       "event": "50m Rifle 3 Positions Women Individual",
       "phase": "50m Rifle 3 Positions Women Individual Qualification",
-      "unit": null,
+      "unit": "50m Rifle 3 Positions Women Individual - Qualification",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Chi",
+        "SUNG Yu-Ting"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHEN Chi",
+          "registration": "4338109",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "SUNG Yu-Ting",
+          "registration": "7719153",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Chi",
-        "SUNG Yu-Ting"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SHO|W.R3PW--------------"
+        "results": {
+          "unitId": "W.R3PW--------------.QUAL.000100--",
+          "id": "SHO:W.R3PW--------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T09:00:00+08:00",
+      "startTimeJst": "2026-09-26T10:00:00+09:00",
+      "disciplineCode": "CSP",
+      "sportZh": "輕艇靜水",
+      "sportEn": "Canoe Sprint",
+      "event": "Men's Kayak Single 500m",
+      "phase": "Men's Kayak Single 500m Semifinal",
+      "unit": "Men's Kayak Single 500m Semifinal Semifinal 1",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Chia-cheng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Miyoshi Lake Canoe Course",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.K1-500M-----------.SFNL.000100--",
+          "id": "CSP:M.K1-500M-----------.SFNL.000100--"
         }
       }
     },
@@ -836,78 +933,56 @@
       "sportEn": "Archery",
       "event": "Recurve Women's Individual",
       "phase": "Recurve Women's Individual Qualification Round",
-      "unit": null,
+      "unit": "Recurve Women's Individual Qualification Round",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "FONG You-jhu",
+      "athletesEn": [
         "HSU Hsin-tzu",
-        "LI Tsai-chi"
+        "LI Tsai-chi",
+        "FONG You-jhu"
       ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ARC|W.RINDIVID----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T11:30:00+08:00",
-      "startTimeJst": "2026-09-26T12:30:00+09:00",
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Compound Men's Individual",
-      "phase": "Compound Men's Individual Qualification Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "",
+      "venue": null,
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "HSU Hsin-tzu",
+          "registration": "2094993",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "LI Tsai-chi",
+          "registration": "3174589",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "FONG You-jhu",
+          "registration": "5471256",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 22,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHANG Cheng-wei",
-        "CHEN Chieh-lun",
-        "YEN Tzu-hsiang"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ARC|M.CINDIVID----------"
+        "results": {
+          "unitId": "W.RINDIVID----------.QUAL.000100--",
+          "id": "ARC:W.RINDIVID----------.QUAL.000100--"
         }
       }
     },
@@ -920,78 +995,37 @@
       "sportEn": "Archery",
       "event": "Recurve Women's Team",
       "phase": "Recurve Women's Team Qualification Round",
-      "unit": null,
+      "unit": "Recurve Women's Team Qualification Round",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "FONG You-jhu",
+      "athletesEn": [
         "HSU Hsin-tzu",
-        "LI Tsai-chi"
+        "LI Tsai-chi",
+        "FONG You-jhu"
       ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ARC|W.RTEAM-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T11:30:00+08:00",
-      "startTimeJst": "2026-09-26T12:30:00+09:00",
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Compound Men's Team",
-      "phase": "Compound Men's Team Qualification Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "",
+      "venue": null,
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 15,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHANG Cheng-wei",
-        "CHEN Chieh-lun",
-        "YEN Tzu-hsiang"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ARC|M.CTEAM-------------"
+        "results": {
+          "unitId": "W.RTEAM-------------.QUAL.000100--",
+          "id": "ARC:W.RTEAM-------------.QUAL.000100--"
         }
       }
     },
@@ -1004,35 +1038,145 @@
       "sportEn": "Archery",
       "event": "Recurve Mixed Team",
       "phase": "Recurve Mixed Team Qualification Round",
-      "unit": null,
+      "unit": "Recurve Mixed Team Qualification Round",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TANG Chih-chun",
+        "LIN Zih-siang",
+        "HSU Hsin-tzu",
+        "LI Tsai-chi",
+        "CHENG Hsiang-hui",
+        "FONG You-jhu"
+      ],
       "opponent": null,
       "opponentCode": null,
-      "venue": "",
+      "venue": null,
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 20,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "FONG You-jhu",
-        "TANG Chih-chun"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ARC|X.RTEAM2------------"
+        "results": {
+          "unitId": "X.RTEAM2------------.QUAL.000100--",
+          "id": "ARC:X.RTEAM2------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T11:30:00+08:00",
+      "startTimeJst": "2026-09-26T12:30:00+09:00",
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Men's Individual",
+      "phase": "Compound Men's Individual Qualification Round",
+      "unit": "Compound Men's Individual Qualification Round",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Cheng-wei",
+        "CHEN Chieh-lun",
+        "YEN Tzu-hsiang"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHANG Cheng-wei",
+          "registration": "2036175",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHEN Chieh-lun",
+          "registration": "3175093",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "YEN Tzu-hsiang",
+          "registration": "5473113",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 17,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.CINDIVID----------.QUAL.000100--",
+          "id": "ARC:M.CINDIVID----------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T11:30:00+08:00",
+      "startTimeJst": "2026-09-26T12:30:00+09:00",
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Men's Team",
+      "phase": "Compound Men's Team Qualification Round",
+      "unit": "Compound Men's Team Qualification Round",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Cheng-wei",
+        "CHEN Chieh-lun",
+        "YEN Tzu-hsiang"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 14,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.CTEAM-------------.QUAL.000100--",
+          "id": "ARC:M.CTEAM-------------.QUAL.000100--"
         }
       }
     },
@@ -1045,35 +1189,40 @@
       "sportEn": "Archery",
       "event": "Compound Mixed Team",
       "phase": "Compound Mixed Team Qualification Round",
-      "unit": null,
+      "unit": "Compound Mixed Team Qualification Round",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHANG Cheng-wei",
+        "HUANG I-jou",
+        "CHEN Yi-hsuan",
+        "CHEN Chieh-lun",
+        "CHEN Fang-yi",
+        "YEN Tzu-hsiang"
+      ],
       "opponent": null,
       "opponentCode": null,
-      "venue": "",
+      "venue": null,
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHANG Cheng-wei",
-        "HUANG I-jou"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ARC|X.CTEAM2------------"
+        "results": {
+          "unitId": "X.CTEAM2------------.QUAL.000100--",
+          "id": "ARC:X.CTEAM2------------.QUAL.000100--"
         }
       }
     },
@@ -1452,12 +1601,42 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 7,
-    "entered": 19,
+    "resultsOnly": 19,
+    "entered": 8,
     "unresolvedTbd": 0,
-    "warnings": 8
+    "warnings": 22
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:00 Recurve Men's Individual Qualification Round",
+      "row": "ARC:M.RINDIVID----------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:00 Recurve Men's Team Qualification Round",
+      "row": "ARC:M.RTEAM-------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:00 Compound Women's Individual Qualification Round",
+      "row": "ARC:W.CINDIVID----------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:00 Compound Women's Team Qualification Round",
+      "row": "ARC:W.CTEAM-------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:45 50m Rifle 3 Positions Women Individual - Qualification",
+      "row": "SHO:W.R3PW--------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSP 09:00 Men's Kayak Single 500m Semifinal Semifinal 1",
+      "row": "CSP:M.K1-500M-----------.SFNL.000100--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 Pokemon UNITE Group A",
@@ -1472,6 +1651,36 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 11:00 Women's 60KG - Preliminaries",
       "row": "BOX:W.60KG--------------.8FNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 11:30 Recurve Women's Individual Qualification Round",
+      "row": "ARC:W.RINDIVID----------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 11:30 Recurve Women's Team Qualification Round",
+      "row": "ARC:W.RTEAM-------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 11:30 Recurve Mixed Team Qualification Round",
+      "row": "ARC:X.RTEAM2------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 11:30 Compound Men's Individual Qualification Round",
+      "row": "ARC:M.CINDIVID----------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 11:30 Compound Men's Team Qualification Round",
+      "row": "ARC:M.CTEAM-------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 11:30 Compound Mixed Team Qualification Round",
+      "row": "ARC:X.CTEAM2------------.QUAL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1492,6 +1701,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 19",
       "row": "BBL:M.TEAM9-------------.SFNL.000300--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "CSP|M.K1-500M-----------",
+      "message": "CSP Men's Kayak Single 500m 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SHO|W.R3PW--------------",
+      "message": "SHO 50m Rifle 3 Positions Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

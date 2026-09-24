@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:14:33.283Z",
+  "generatedAt": "2026-09-24T10:16:14.173Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-24T04:14:33.175Z",
+      "generatedAt": "2026-09-24T10:16:14.050Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 6,
-          "recovered": 6,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -347,7 +347,7 @@
       "sportEn": "Esports",
       "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
       "phase": "Identity V - Asian Games Version Group A",
-      "unit": "Identity V - Asian Games Version Group A",
+      "unit": "Match 6",
       "athletes": [],
       "athletesEn": [
         "CHENG Kai-sheng",
@@ -1435,7 +1435,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Identity V - Asian Games Version Group A",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 6",
       "row": "ELS:O.IDV---------------.GPA-.000600--"
     },
     {

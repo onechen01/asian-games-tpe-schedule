@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:10:07.639Z",
+  "generatedAt": "2026-09-24T10:14:45.516Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-24T04:10:07.507Z",
+      "generatedAt": "2026-09-24T10:14:45.399Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -297,8 +297,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 5,
-          "recovered": 5,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -368,7 +368,7 @@
       "sportEn": "Esports",
       "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
       "phase": "Identity V - Asian Games Version Group A",
-      "unit": "Identity V - Asian Games Version Group A",
+      "unit": "Match 2",
       "athletes": [],
       "athletesEn": [
         "CHENG Kai-sheng",
@@ -932,7 +932,7 @@
       "sportEn": "Esports",
       "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
       "phase": "Identity V - Asian Games Version Group A",
-      "unit": "Identity V - Asian Games Version Group A",
+      "unit": "Match 3",
       "athletes": [],
       "athletesEn": [
         "CHENG Kai-sheng",
@@ -1302,7 +1302,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Identity V - Asian Games Version Group A",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 2",
       "row": "ELS:O.IDV---------------.GPA-.000200--"
     },
     {
@@ -1312,7 +1312,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Identity V - Asian Games Version Group A",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 3",
       "row": "ELS:O.IDV---------------.GPA-.000300--"
     },
     {
