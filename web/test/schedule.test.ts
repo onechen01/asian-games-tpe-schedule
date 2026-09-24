@@ -578,3 +578,106 @@ test('venues use the verified mapping and are never invented',async()=>{
   assert.equal(venueLabel(null,'Nagoya City General Gymnasium [Rainbow Hall]',names),
     'Nagoya City General Gymnasium [Rainbow Hall]');
 });
+
+// -- explicit event/phase conflict veto: a shared athlete or opponent must never override an
+// explicit mismatch between what the broadcast names and what the row actually is. --
+
+const shooting923 = (over:Record<string,unknown> = {})=>({ disciplineCode:'SHO', opponentCode:null,
+  athletesEn:['CHENG Yen-Ching'], startTimeTaipei:'2026-09-23T00:00:00+08:00',
+  event:'10m Air Pistol Women Individual', phase:'10m Air Pistol Women Individual Qualification',
+  ...over });
+
+test('case A — a shared athlete never overrides an explicit phase or event conflict (real 9/23 shooting)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-23',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-23T11:20:00+08:00',broadcastEndTimeTaipei:'2026-09-23T12:38:00+08:00',
+      disciplineCode:'SHO',title:'亞運 鄭晏晴 射擊 女子10M空氣手槍決賽 9/23 LIVE',feed:'main',
+      matchLevel:'unit',matchHint:{athleteNames:['CHENG Yen-Ching']} }]}));
+  const qualification = shooting923({ startTimeTaipei:'2026-09-23T08:45:00+08:00' });
+  const teamFinal = shooting923({ startTimeTaipei:'2026-09-23T08:45:00+08:00',
+    event:'10m Air Pistol Women Team', phase:'10m Air Pistol Women Team Final' });
+  const individualFinal = shooting923({ startTimeTaipei:'2026-09-23T11:30:00+08:00',
+    phase:'10m Air Pistol Women Individual Final' });
+  assert.equal(broadcastsForRow(show,'2026-09-23',individualFinal).length,1,'只配個人決賽');
+  assert.equal(broadcastsForRow(show,'2026-09-23',qualification).length,0,'不配個人資格賽（phase 衝突）');
+  assert.equal(broadcastsForRow(show,'2026-09-23',teamFinal).length,0,'不配團體決賽（event 衝突）');
+});
+
+test('case B — a shared opponent never overrides an explicit event conflict (real 9/23 table tennis)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-23',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-23T18:30:00+08:00',broadcastEndTimeTaipei:'2026-09-23T21:00:00+08:00',
+      disciplineCode:'TTE',title:'亞運 中國VS中華 桌球 男團四強(第1桌) 9/23 LIVE',feed:'main',
+      matchLevel:'unit',matchHint:{opponentCodes:['CHN']} }]}));
+  const mixedDoubles = { disciplineCode:'TTE', opponentCode:'CHN', athletesEn:[],
+    startTimeTaipei:'2026-09-23T12:45:00+08:00', event:'Mixed Doubles', phase:'Mixed Doubles Round 3' };
+  const mensTeamSemifinal = { disciplineCode:'TTE', opponentCode:'CHN', athletesEn:[],
+    startTimeTaipei:'2026-09-23T18:30:00+08:00', event:"Men's Team", phase:"Men's Team Semifinals" };
+  assert.equal(broadcastsForRow(show,'2026-09-23',mensTeamSemifinal).length,1,'配男子團體準決賽');
+  assert.equal(broadcastsForRow(show,'2026-09-23',mixedDoubles).length,0,'不配混合雙打（event 衝突：男團 vs 混雙）');
+});
+
+test('case C — a personal broadcast never overrides an explicit team conflict, but its own mixed doubles still matches (real 9/22 table tennis)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-22',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-22T14:10:00+08:00',broadcastEndTimeTaipei:'2026-09-22T14:50:00+08:00',
+      disciplineCode:'TTE',title:'亞運 馮翊新/葉伊恬 桌球 混雙預賽 9/22(原音) LIVE',feed:'original',
+      matchLevel:'unit',matchHint:{athleteNames:['FENG Yi-hsin','YEH Yi-tian']} }]}));
+  const womensTeam = { disciplineCode:'TTE', opponentCode:'MAC', athletesEn:['YEH Yi-tian','CHEN Szu-yu','PENG Yu-han','CHENG I-ching','WU Ying-syuan'],
+    startTimeTaipei:'2026-09-22T09:00:00+08:00', event:"Women's Team", phase:"Women's Team Round 1" };
+  const mensTeam = { disciplineCode:'TTE', opponentCode:'MGL', athletesEn:['FENG Yi-hsin','HSU Hsien-chia','LIN Yun-ju','KUO Guan-hong','HUNG Jing-kai'],
+    startTimeTaipei:'2026-09-22T11:30:00+08:00', event:"Men's Team", phase:"Men's Team Round 1" };
+  const womensTeamQF = { ...womensTeam, startTimeTaipei:'2026-09-22T18:20:00+08:00', phase:"Women's Team Quarterfinals" };
+  const mixedDoubles = { disciplineCode:'TTE', opponentCode:'KAZ', athletesEn:['FENG Yi-hsin','YEH Yi-tian'],
+    startTimeTaipei:'2026-09-22T14:10:00+08:00', event:'Mixed Doubles', phase:'Mixed Doubles Round 1' };
+  assert.equal(broadcastsForRow(show,'2026-09-22',mixedDoubles).length,1,'正確混雙仍可配');
+  assert.equal(broadcastsForRow(show,'2026-09-22',womensTeam).length,0,'不配女團（雖然同一位選手在隊上）');
+  assert.equal(broadcastsForRow(show,'2026-09-22',mensTeam).length,0,'不配男團');
+  assert.equal(broadcastsForRow(show,'2026-09-22',womensTeamQF).length,0,'不配女團八強');
+});
+
+test('case D — a shared athlete never overrides an explicit final-vs-heats conflict (real 9/22 swimming)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-22',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-22T15:55:00+08:00',broadcastEndTimeTaipei:'2026-09-22T18:00:00+08:00',
+      disciplineCode:'SWM',title:'亞運 劉姵吟/張雅佳 游泳 決賽 9/22 LIVE',feed:'main',
+      matchLevel:'unit',matchHint:{athleteNames:['CHANG Ya-jia','LIU Pei-yin']} }]}));
+  const heats = { disciplineCode:'SWM', opponentCode:null, athletesEn:['LIU Pei-yin'],
+    startTimeTaipei:'2026-09-22T09:03:00+08:00', event:"Women's 100m Freestyle", phase:"Women's 100m Freestyle Heats" };
+  const final = { disciplineCode:'SWM', opponentCode:null, athletesEn:['LIU Pei-yin'],
+    startTimeTaipei:'2026-09-22T16:00:00+08:00', event:"Women's 100m Freestyle", phase:"Women's 100m Freestyle Final" };
+  assert.equal(broadcastsForRow(show,'2026-09-22',final).length,1,'正確決賽仍可配');
+  assert.equal(broadcastsForRow(show,'2026-09-22',heats).length,0,'不配上午預賽（phase 衝突：決賽 vs 預賽）');
+});
+
+test('case E — an explicit different shooting event is never matched, even with a shared athlete (real 9/23)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-23',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-23T14:55:00+08:00',broadcastEndTimeTaipei:'2026-09-23T16:00:00+08:00',
+      disciplineCode:'SHO',title:'亞運 李孟遠 射擊 男子定向飛靶決賽 9/23 LIVE',feed:'main',
+      matchLevel:'unit',matchHint:{athleteNames:['LEE Meng-Yuan']} }]}));
+  // The row is the real Skeet ("雙向飛靶") unit — a different event from the broadcast's Trap
+  // ("定向飛靶") title. Whether ELTA mislabelled the title is not this test's concern; only that
+  // an explicit event conflict is never bridged by the shared athlete.
+  const skeetFinal = { disciplineCode:'SHO', opponentCode:null, athletesEn:['LEE Meng-Yuan'],
+    startTimeTaipei:'2026-09-23T15:00:00+08:00', event:'Skeet Men Individual', phase:'Skeet Men Individual Final' };
+  assert.equal(broadcastsForRow(show,'2026-09-23',skeetFinal).length,0,'不得因 athlete 相同配到明確不同 event 的 Skeet 卡');
+});
+
+test('explicit conflict veto does not disturb one-to-many or same-card multi-channel behaviour',async()=>{
+  const shows = await loadBroadcasts();
+  const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-23.json','utf8')),'2026-09-23');
+  const rows = taiwanRows(day);
+  // 9/23 table tennis "混雙/女單預賽" still legitimately covers three different units.
+  const ttePhaseSession = rows.filter(r=>r.disciplineCode === 'TTE'
+    && broadcastsForRow(shows,'2026-09-23',r).some(b=>b.broadcastStartTimeTaipei === '2026-09-23T08:55:00+08:00'));
+  assert.deepEqual(ttePhaseSession.map(r=>[r.startTimeTaipei,r.event]),[
+    ['2026-09-23T09:00:00+08:00','Mixed Doubles'],
+    ['2026-09-23T09:40:00+08:00','Mixed Doubles'],
+    ['2026-09-23T11:50:00+08:00',"Women's Singles"],
+  ]);
+  // 9/23 karate men's team kata quarterfinal still keeps its own multi-channel broadcasts.
+  const teamKataQF = rows.find(r=>r.disciplineCode === 'KTE' && r.phase === "Men's Team Kata Quarterfinals")!;
+  const onQF = broadcastsForRow(shows,'2026-09-23',teamKataQF);
+  assert.ok(onQF.length >= 1);
+});

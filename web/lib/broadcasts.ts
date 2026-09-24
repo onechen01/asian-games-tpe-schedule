@@ -60,12 +60,54 @@ export const isProvisional = (row:MatchRow)=>
 const hits = (keywords:string[]|undefined, text:string|null|undefined)=>
   !!keywords?.length && !!text && keywords.some(k=>text.toLowerCase().includes(k.toLowerCase()));
 
+// Explicit conflict veto — checked before any positive evidence. A shared athlete or opponent
+// must never override an explicit mismatch: a broadcast that names one event or one round can
+// never stand for a Chinese Taipei row in a different, equally explicit, event or round.
+// Recognition fires only on literal keywords on both sides; if either side is not recognised,
+// the axis stays neutral rather than guessing a conflict.
+type FamilyTable = { family:string; title?:RegExp; row?:RegExp }[];
+const EVENT_FAMILIES:FamilyTable = [
+  { family:'INDIVIDUAL', title:/個人|个人/, row:/\bIndividual\b/i },
+  { family:'TEAM', title:/男團|女團|團體/, row:/\bTeam\b/i },
+  { family:'MIXED', title:/混雙|混合雙打/, row:/\bMixed\b/i },
+  // Trap ("定向飛靶") and Skeet ("雙向飛靶") are different shooting events, not a phase of one.
+  { family:'TRAP', title:/定向飛靶/, row:/\bTrap\b/i },
+  { family:'SKEET', title:/雙向飛靶/, row:/\bSkeet\b/i },
+];
+const PHASE_FAMILIES:FamilyTable = [
+  { family:'FINAL', title:/決賽|金牌戰/, row:/\bFinals?\b|Gold Medal/i },
+  // \bGroup\b (not "Groups") avoids matching weightlifting's "All Groups" final-ranking phase.
+  { family:'PRELIM', title:/資格賽|預賽/, row:/Qualification|Heats|Preliminar|Round Robin|\bGroup\b/i },
+];
+const familiesIn = (text:string|null|undefined, table:FamilyTable, side:'title'|'row')=>{
+  const out = new Set<string>();
+  if (text) for (const entry of table) if (entry[side]?.test(text)) out.add(entry.family);
+  return out;
+};
+// A broadcast naming a specific athlete, with none of the event markers above, follows the same
+// convention the adapter itself uses to tell a personal broadcast from a team match (an explicit
+// "VS" opponent): it is that athlete's own individual or paired participation, never an unnamed
+// team roster.
+const titleEventFamilies = (r:Broadcast)=>{
+  const found = familiesIn(r.title,EVENT_FAMILIES,'title');
+  if (!found.size && r.matchHint?.athleteNames?.length) found.add('INDIVIDUAL');
+  return found;
+};
+// Two non-empty family sets that share nothing are an explicit mismatch. Either side being
+// unrecognised (empty) leaves nothing to compare, so nothing is vetoed.
+const explicitConflict = (a:Set<string>, b:Set<string>)=>
+  a.size>0 && b.size>0 && ![...a].some(f=>b.has(f));
+const hasExplicitConflict = (r:Broadcast, row:MatchRow)=>
+  explicitConflict(titleEventFamilies(r), familiesIn(row.event,EVENT_FAMILIES,'row'))
+  || explicitConflict(familiesIn(r.title,PHASE_FAMILIES,'title'), familiesIn(row.phase,PHASE_FAMILIES,'row'));
+
 // Strong evidence (a named athlete or opponent) attaches on its own. A session programme may
 // cover several units, but only inside the broadcaster's own [start, end) window and only
 // when it says which phase it covers — matching times alone is never evidence.
 export function broadcastsForRow(all:Broadcasts, date:string, row:MatchRow):Broadcast[] {
   return forDate(all,date).filter(r=>{
     if (r.disciplineCode !== row.disciplineCode) return false;
+    if (hasExplicitConflict(r,row)) return false;
     const hint = r.matchHint ?? {};
     if (hint.opponentCodes?.length) return !!row.opponentCode && hint.opponentCodes.includes(row.opponentCode);
     if (hint.athleteNames?.length) {
