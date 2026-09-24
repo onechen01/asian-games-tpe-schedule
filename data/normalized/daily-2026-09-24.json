@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T20:02:07.892Z",
+  "generatedAt": "2026-09-24T20:23:43.767Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T20:02:07.714Z",
+      "generatedAt": "2026-09-24T20:23:43.580Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2227,9 +2227,7 @@
       "phase": "Men's Kayak Single 500m Heats",
       "unit": "Men's Kayak Single 500m Heats Heat 2",
       "athletes": [],
-      "athletesEn": [
-        "HSIEH Chia-cheng"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Miyoshi Lake Canoe Course",
@@ -2239,14 +2237,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "1:47.511",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "4",
-      "orgCount": 6,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
