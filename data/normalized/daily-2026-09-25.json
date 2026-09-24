@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T12:19:46.634Z",
+  "generatedAt": "2026-09-24T12:25:57.348Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T12:19:46.472Z",
+      "generatedAt": "2026-09-24T12:25:57.169Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2234,6 +2234,47 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T18:13:00+08:00",
+      "startTimeJst": "2026-09-25T19:13:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 100m",
+      "phase": "Women's 100m Semifinal",
+      "unit": "Women's 100m Semifinal Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "LIAO Yan-jun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.100M--------------.SFNL.000100--",
+          "id": "ATH:W.100M--------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T18:15:00+08:00",
       "startTimeJst": "2026-09-25T19:15:00+09:00",
       "disciplineCode": "KAB",
@@ -2318,10 +2359,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 35,
+    "resultsOnly": 36,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 47
+    "warnings": 49
   },
   "warnings": [
     {
@@ -2491,6 +2532,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:13 Women's 100m Semifinal Heat 1",
+      "row": "ATH:W.100M--------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 18:15 Men's Team Semifinals",
       "row": "KAB:M.TEAM7-------------.SFNL.000200--"
     },
@@ -2558,6 +2604,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ATH|W.HEPTATH-----------",
       "message": "ATH Women's Heptathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ATH|W.100M--------------",
+      "message": "ATH Women's 100m 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
