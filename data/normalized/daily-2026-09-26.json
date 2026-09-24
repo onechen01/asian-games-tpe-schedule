@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T23:27:26.831Z",
+  "generatedAt": "2026-09-24T23:36:21.630Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-24T23:27:26.656Z",
+      "generatedAt": "2026-09-24T23:36:21.457Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -806,7 +806,7 @@
       "sportEn": "Esports",
       "event": "MOBA [Pokémon UNITE]",
       "phase": "Pokemon UNITE Group A",
-      "unit": "Pokemon UNITE Group A",
+      "unit": "Match 3",
       "athletes": [],
       "athletesEn": [
         "CHIN Yung-chi",
@@ -1418,7 +1418,7 @@
       "sportEn": "Esports",
       "event": "MOBA [Pokémon UNITE]",
       "phase": "Pokemon UNITE Group A",
-      "unit": "Pokemon UNITE Group A",
+      "unit": "Match 6",
       "athletes": [],
       "athletesEn": [
         "CHIN Yung-chi",
@@ -1775,7 +1775,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 Pokemon UNITE Group A",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 Match 3",
       "row": "ELS:O.PKU---------------.GPA-.000300--"
     },
     {
@@ -1830,7 +1830,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:05 Pokemon UNITE Group A",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:05 Match 6",
       "row": "ELS:O.PKU---------------.GPA-.000600--"
     },
     {
