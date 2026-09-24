@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T03:04:54.937Z",
+  "generatedAt": "2026-09-24T03:13:59.404Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T03:04:54.762Z",
+      "generatedAt": "2026-09-24T03:13:59.238Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -344,17 +344,17 @@
         {
           "name": "HSIEH Hsiang-Chen",
           "registration": "13709878",
-          "result": "277-2x",
-          "rank": "23"
+          "result": "440-5x",
+          "rank": "20"
         },
         {
           "name": "YEH Ting-Wei",
           "registration": "9615634",
-          "result": "170-7x",
-          "rank": "37"
+          "result": "276-11x",
+          "rank": "26"
         }
       ],
-      "tpeRank": "23",
+      "tpeRank": "20",
       "orgCount": 24,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -939,7 +939,7 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "86",
+        "tpe": "91",
         "opponent": null,
         "source": "results"
       },
@@ -1076,16 +1076,22 @@
       "phase": "Women's Heptathlon 100 Metres Hurdles",
       "unit": "Women's Heptathlon 100 Metres Hurdles Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Cai-juan"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "14.28",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "4",
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1198,6 +1204,51 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T09:40:00+08:00",
       "startTimeJst": "2026-09-24T10:40:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's Heptathlon",
+      "phase": "Women's Heptathlon High Jump",
+      "unit": "Women's Heptathlon High Jump",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Cai-juan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1.68",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "7",
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.HEPTATH-----------.HJ--.000100--",
+          "id": "ATH:W.HEPTATH-----------.HJ--.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:40:00+08:00",
+      "startTimeJst": "2026-09-24T10:40:00+09:00",
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
@@ -1237,45 +1288,6 @@
         "results": {
           "unitId": "W.DOUBLES-----------.R32-.001100--",
           "id": "TTE:W.DOUBLES-----------.R32-.001100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:40:00+08:00",
-      "startTimeJst": "2026-09-24T10:40:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Heptathlon",
-      "phase": "Women's Heptathlon High Jump",
-      "unit": "Women's Heptathlon High Jump",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.HEPTATH-----------.HJ--.000100--",
-          "id": "ATH:W.HEPTATH-----------.HJ--.000100--"
         }
       }
     },
@@ -1349,7 +1361,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1392,8 +1404,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "3",
-        "opponent": "1",
+        "tpe": "10",
+        "opponent": "5",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1446,8 +1458,12 @@
       "opponentCode": "THA",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2136,7 +2152,9 @@
       "phase": "Women's 100m Round 1",
       "unit": "Women's 100m Round 1 Heat 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIAO Yan-jun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2145,7 +2163,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2175,7 +2193,9 @@
       "phase": "Men's 100m Round 1",
       "unit": "Men's 100m Round 1 Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Wen-pu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2184,7 +2204,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2255,7 +2275,9 @@
       "phase": "Men's 100m Round 1",
       "unit": "Men's 100m Round 1 Heat 5",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "YANG Chun-han"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2264,7 +2286,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2392,13 +2414,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:40 Women's Doubles Round 2 Match 11",
-      "row": "TTE:W.DOUBLES-----------.R32-.001100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 09:40 Women's Heptathlon High Jump",
+      "row": "ATH:W.HEPTATH-----------.HJ--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 09:40 Women's Heptathlon High Jump",
-      "row": "ATH:W.HEPTATH-----------.HJ--.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:40 Women's Doubles Round 2 Match 11",
+      "row": "TTE:W.DOUBLES-----------.R32-.001100--"
     },
     {
       "code": "RESULTS_ONLY",
