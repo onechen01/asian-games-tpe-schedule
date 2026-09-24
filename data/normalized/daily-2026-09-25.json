@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T07:46:30.027Z",
+  "generatedAt": "2026-09-24T07:56:12.238Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T07:46:29.869Z",
+      "generatedAt": "2026-09-24T07:56:12.075Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1473,6 +1473,47 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T11:30:00+08:00",
       "startTimeJst": "2026-09-25T12:30:00+09:00",
+      "disciplineCode": "SKB",
+      "sportZh": "滑板",
+      "sportEn": "Skateboarding",
+      "event": "Men's Park",
+      "phase": "Men's Park Final",
+      "unit": "Men's Park - Final",
+      "athletes": [],
+      "athletesEn": [
+        "KU Yong-yan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Sky Expo Hall B",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.PARK--------------.FNL-.000100--",
+          "id": "SKB:M.PARK--------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T11:30:00+08:00",
+      "startTimeJst": "2026-09-25T12:30:00+09:00",
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
@@ -2201,10 +2242,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 27,
+    "resultsOnly": 28,
     "entered": 11,
     "unresolvedTbd": 0,
-    "warnings": 36
+    "warnings": 37
   },
   "warnings": [
     {
@@ -2291,6 +2332,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CSP 10:50 Men's Canoe Single 500m Final Final A",
       "row": "CSP:M.C1-500M-----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SKB 11:30 Men's Park - Final",
+      "row": "SKB:M.PARK--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
