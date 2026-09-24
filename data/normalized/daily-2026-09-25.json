@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T05:18:50.787Z",
+  "generatedAt": "2026-09-24T05:47:06.436Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T05:18:50.615Z",
+      "generatedAt": "2026-09-24T05:47:06.296Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -915,6 +915,47 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T09:00:00+08:00",
       "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's Heptathlon",
+      "phase": "Women's Heptathlon Long Jump",
+      "unit": "Women's Heptathlon Long Jump",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Cai-juan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.HEPTATH-----------.LJ--.000100--",
+          "id": "ATH:W.HEPTATH-----------.LJ--.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
       "disciplineCode": "SKB",
       "sportZh": "滑板",
       "sportEn": "Skateboarding",
@@ -1305,6 +1346,47 @@
         "results": {
           "unitId": "W.4X100MMD----------.HEAT.000100--",
           "id": "SWM:W.4X100MMD----------.HEAT.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:25:00+08:00",
+      "startTimeJst": "2026-09-25T11:25:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's Heptathlon",
+      "phase": "Women's Heptathlon Javelin Throw",
+      "unit": "Women's Heptathlon Javelin Throw",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Cai-juan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.HEPTATH-----------.JT--.000100--",
+          "id": "ATH:W.HEPTATH-----------.JT--.000100--"
         }
       }
     },
@@ -2030,35 +2112,49 @@
       "sportEn": "Athletics",
       "event": "Women's Shot Put",
       "phase": "Women's Shot Put Final",
-      "unit": null,
+      "unit": "Women's Shot Put Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIANG Ching-yuan",
+        "WU Ci-en"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHIANG Ching-yuan",
+          "registration": "5070298",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "WU Ci-en",
+          "registration": "5093083",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIANG Ching-yuan",
-        "WU Ci-en"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|W.SHOTPUT-----------"
+        "results": {
+          "unitId": "W.SHOTPUT-----------.FNL-.000100--",
+          "id": "ATH:W.SHOTPUT-----------.FNL-.000100--"
         }
       }
     },
@@ -2071,34 +2167,35 @@
       "sportEn": "Athletics",
       "event": "Women's 400m",
       "phase": "Women's 400m Round 1",
-      "unit": null,
+      "unit": "Women's 400m Round 1 Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Yi-cen"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "CHEN Yi-cen"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|W.400M--------------"
+        "results": {
+          "unitId": "W.400M--------------.RND1.000100--",
+          "id": "ATH:W.400M--------------.RND1.000100--"
         }
       }
     }
@@ -2108,10 +2205,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 22,
-    "entered": 14,
+    "resultsOnly": 26,
+    "entered": 12,
     "unresolvedTbd": 0,
-    "warnings": 29
+    "warnings": 34
   },
   "warnings": [
     {
@@ -2128,6 +2225,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:45 10m Air Pistol Mixed Team - Qualification",
       "row": "SHO:X.APMT--------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 09:00 Women's Heptathlon Long Jump",
+      "row": "ATH:W.HEPTATH-----------.LJ--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2173,6 +2275,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 10:10 Women's 4 x 100m Medley Relay Heat 1",
       "row": "SWM:W.4X100MMD----------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:25 Women's Heptathlon Javelin Throw",
+      "row": "ATH:W.HEPTATH-----------.JT--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2225,6 +2332,16 @@
       "row": "HOC:W.TEAM11------------.GPA-.001200--"
     },
     {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:05 Women's Shot Put Final",
+      "row": "ATH:W.SHOTPUT-----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:15 Women's 400m Round 1 Heat 1",
+      "row": "ATH:W.400M--------------.RND1.000100--"
+    },
+    {
       "code": "PENDING_LATER_UNITS",
       "row": "SHO|X.APMT--------------",
       "message": "SHO 10m Air Pistol Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
@@ -2258,6 +2375,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|W.4X100MMD----------",
       "message": "SWM Women's 4 x 100m Medley Relay 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ATH|W.HEPTATH-----------",
+      "message": "ATH Women's Heptathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
