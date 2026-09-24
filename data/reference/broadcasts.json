@@ -1902,7 +1902,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-24",
-      "broadcastEndTimeTaipei": "2026-09-24T14:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-24T14:23:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
     },
@@ -2030,7 +2030,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-24",
-      "broadcastEndTimeTaipei": "2026-09-24T20:35:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-24T21:20:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -2128,7 +2128,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-24T20:35:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-24T21:20:00+08:00",
       "disciplineCode": "SKB",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
@@ -2137,7 +2137,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-24",
-      "broadcastEndTimeTaipei": "2026-09-24T22:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-24T23:02:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -2215,7 +2215,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-25T08:55:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-25T08:50:00+08:00",
       "disciplineCode": "ATH",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
@@ -2718,6 +2718,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-26T10:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 林郁婷 拳擊 女子60公斤級16強 9/26(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-26T12:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Yu-ting"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-26T12:25:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "101",
@@ -2732,6 +2754,55 @@
       "matchHint": {
         "athleteNames": [
           "CHEN Wang-heng"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-26T15:55:00+08:00",
+      "disciplineCode": "WLF",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 江宗翰 舉重 男子75公斤級決賽 9/26(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-26T18:25:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHIANG Tsung-han"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-26T17:00:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華隊 田徑 預賽/決賽 9/26(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-26T21:15:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group",
+          "Final"
         ]
       }
     },
@@ -2815,7 +2886,7 @@
       "channelId": "115",
       "channelName": "愛爾達體育4台",
       "isLive": true,
-      "title": "亞運 陳玟卉  舉重 女子69公斤級決賽 9/27 LIVE",
+      "title": "亞運 陳玟卉 舉重 女子69公斤級決賽 9/27 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-24",
@@ -2946,6 +3017,24 @@
           "CHN"
         ]
       }
+    },
+    {
+      "date": "2026-09-28",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-28T16:00:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 彭家豐 拳擊 男子50公斤級16強 9/26(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-28T17:50:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
     },
     {
       "date": "2026-09-28",
