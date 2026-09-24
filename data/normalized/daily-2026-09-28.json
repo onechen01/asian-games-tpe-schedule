@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T22:20:11.742Z",
+  "generatedAt": "2026-09-24T01:15:21.345Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-23T22:20:11.578Z",
+      "generatedAt": "2026-09-24T01:15:21.190Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -323,7 +323,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "Match 1",
+      "unit": "PUBG MOBILE - Asian Games Version Finals",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -368,7 +368,7 @@
       "sportEn": "Esports",
       "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
       "phase": "Identity V - Asian Games Version Group A",
-      "unit": "Group A Match 2",
+      "unit": "Identity V - Asian Games Version Group A",
       "athletes": [],
       "athletesEn": [
         "CHENG Kai-sheng",
@@ -595,7 +595,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "Match 2",
+      "unit": "PUBG MOBILE - Asian Games Version Finals",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -882,6 +882,49 @@
     },
     {
       "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
+      "startTimeJst": "2026-09-28T10:00:00+09:00",
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "HO Chenjui",
+        "HSIEH Su-wei",
+        "HUANG Tsung-hao",
+        "LIANG En-shuo"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TEN|X.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T09:30:00+08:00",
       "startTimeJst": "2026-09-28T10:30:00+09:00",
       "disciplineCode": "ELS",
@@ -889,7 +932,7 @@
       "sportEn": "Esports",
       "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
       "phase": "Identity V - Asian Games Version Group A",
-      "unit": "Group A Match 3",
+      "unit": "Identity V - Asian Games Version Group A",
       "athletes": [],
       "athletesEn": [
         "CHENG Kai-sheng",
@@ -936,7 +979,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "Match 3",
+      "unit": "PUBG MOBILE - Asian Games Version Finals",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -981,7 +1024,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "Match 4",
+      "unit": "PUBG MOBILE - Asian Games Version Finals",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1026,7 +1069,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "Match 5",
+      "unit": "PUBG MOBILE - Asian Games Version Finals",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1112,7 +1155,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "Match 6",
+      "unit": "PUBG MOBILE - Asian Games Version Finals",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1247,44 +1290,44 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 10,
-    "entered": 11,
+    "entered": 12,
     "unresolvedTbd": 0,
     "warnings": 10
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 1",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 PUBG MOBILE - Asian Games Version Finals",
       "row": "ELS:O.PUBGM-------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Group A Match 2",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Identity V - Asian Games Version Group A",
       "row": "ELS:O.IDV---------------.GPA-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:50 Match 2",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:50 PUBG MOBILE - Asian Games Version Finals",
       "row": "ELS:O.PUBGM-------------.FNL-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Group A Match 3",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Identity V - Asian Games Version Group A",
       "row": "ELS:O.IDV---------------.GPA-.000300--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:40 Match 3",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:40 PUBG MOBILE - Asian Games Version Finals",
       "row": "ELS:O.PUBGM-------------.FNL-.000300--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 11:15 Match 4",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 11:15 PUBG MOBILE - Asian Games Version Finals",
       "row": "ELS:O.PUBGM-------------.FNL-.000400--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:05 Match 5",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:05 PUBG MOBILE - Asian Games Version Finals",
       "row": "ELS:O.PUBGM-------------.FNL-.000500--"
     },
     {
@@ -1294,7 +1337,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:55 Match 6",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:55 PUBG MOBILE - Asian Games Version Finals",
       "row": "ELS:O.PUBGM-------------.FNL-.000600--"
     },
     {
