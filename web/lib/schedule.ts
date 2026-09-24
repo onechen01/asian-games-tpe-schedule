@@ -57,11 +57,32 @@ export function formatTaipei(value?:string|null,withDate=false){
 // the label on their own, and none of them branch on disciplineCode. The underlying
 // startTimeTaipei is still used internally for sorting and day bucketing. Broadcast matching
 // separately applies the timeNote semantics and must not treat every hidden value as exact.
-export function matchTimeLabel(row:{startTimeTaipei?:string|null;timeNote?:TimeNote|null}){
+type TimeLabelRow = { startTimeTaipei?:string|null; timeNote?:TimeNote|null;
+  courtSessionChainId?:string|null; courtPredecessorUnitId?:string|null;
+  sources?:{results?:{unitId?:string}} };
+
+export function matchTimeLabel(row:TimeLabelRow,chains:CourtSessionChain[]=[]){
   const note = row.timeNote;
   if (!note) return formatTaipei(row.startTimeTaipei);
   switch (note.code) {
-    case 'FOLLOWED_BY': return '前場結束後';
+    case 'FOLLOWED_BY': {
+      const chain=chains.find(c=>c.id===row.courtSessionChainId);
+      const current=chain?.units.find(u=>u.unitId===row.sources?.results?.unitId);
+      const predecessorId=row.courtPredecessorUnitId??current?.predecessorUnitId;
+      const predecessor=chain?.units.find(u=>u.unitId===predecessorId);
+      // FOLLOWED_BY's own startTimeTaipei is only a sorting placeholder. Display evidence
+      // comes exclusively from the preceding unit or the already-built official court chain.
+      if(predecessor?.timeKind==='EXACT'&&predecessor.timeTaipei){
+        return `前場 ${formatTaipei(predecessor.timeTaipei)} 開始\n前場結束後開賽`;
+      }
+      if(predecessor?.timeNoteCode==='FOLLOWED_BY'&&chain?.anchorTimeKind==='EXACT'&&chain.anchorTimeTaipei){
+        return `本球場 ${formatTaipei(chain.anchorTimeTaipei)} 起依序進行\n前場結束後開賽`;
+      }
+      if(chain?.anchorTimeKind==='LOWER_BOUND'&&chain.anchorTimeTaipei){
+        return `本球場不早於 ${formatTaipei(chain.anchorTimeTaipei)} 起依序進行\n前場結束後開賽`;
+      }
+      return '前場結束後';
+    }
     case 'NOT_BEFORE': return note.clockTaipei ? `不早於 ${note.clockTaipei}` : '時間未定';
     case 'RESCHEDULED': return note.clockTaipei ? `已改期至 ${note.clockTaipei}` : '時間未定';
     // Includes both a genuinely empty official note and an EstText shape this parser does not

@@ -39,6 +39,35 @@ test('matchTimeLabel switches purely on timeNote.code, the one place every card 
   assert.equal(matchTimeLabel({startTimeTaipei:'2026-09-25T17:00:00+08:00'}),'17:00');
 });
 
+test('FOLLOWED_BY labels use only trusted predecessor or court-chain evidence',()=>{
+  const followed={startTimeTaipei:'2026-09-25T23:59:00+08:00',
+    timeNote:{code:'FOLLOWED_BY' as const,clockTaipei:null,raw:'Followed by'},
+    courtSessionChainId:'chain',courtPredecessorUnitId:'previous',sources:{results:{unitId:'current'}}};
+  const chain=(anchorTimeKind:'EXACT'|'LOWER_BOUND'|'NONE',anchorTimeTaipei:string|null,
+    previous:{timeNoteCode:null|'FOLLOWED_BY'|'RESCHEDULED'|'PENDING';timeKind:'EXACT'|'LOWER_BOUND'|'NONE';timeTaipei:string|null})=>[{
+      id:'chain',disciplineCode:'BDM' as const,locationCode:'001',locationName:'Court 1',
+      anchorUnitId:'anchor',anchorTimeKind,anchorTimeTaipei,units:[
+        {unitId:'previous',unitName:null,predecessorUnitId:'anchor',...previous},
+        {unitId:'current',unitName:null,predecessorUnitId:'previous',timeNoteCode:'FOLLOWED_BY' as const,timeKind:'NONE' as const,timeTaipei:null},
+      ],
+    }];
+  assert.equal(matchTimeLabel(followed,chain('EXACT','2026-09-25T08:30:00+08:00',
+    {timeNoteCode:null,timeKind:'EXACT',timeTaipei:'2026-09-25T08:30:00+08:00'})),
+    '前場 08:30 開始\n前場結束後開賽');
+  assert.equal(matchTimeLabel(followed,chain('EXACT','2026-09-25T08:30:00+08:00',
+    {timeNoteCode:'FOLLOWED_BY',timeKind:'NONE',timeTaipei:null})),
+    '本球場 08:30 起依序進行\n前場結束後開賽');
+  assert.equal(matchTimeLabel(followed,chain('LOWER_BOUND','2026-09-25T15:00:00+08:00',
+    {timeNoteCode:'FOLLOWED_BY',timeKind:'NONE',timeTaipei:null})),
+    '本球場不早於 15:00 起依序進行\n前場結束後開賽');
+  assert.equal(matchTimeLabel(followed,chain('NONE',null,
+    {timeNoteCode:'PENDING',timeKind:'NONE',timeTaipei:null})),'前場結束後');
+  assert.equal(matchTimeLabel(followed,chain('EXACT','2026-09-25T08:30:00+08:00',
+    {timeNoteCode:'RESCHEDULED',timeKind:'EXACT',timeTaipei:'2026-09-25T09:15:00+08:00'})),
+    '前場 09:15 開始\n前場結束後開賽');
+  assert.ok(!matchTimeLabel(followed,[]).includes('23:59'));
+});
+
 test('only Chinese Taipei rows are shown, never confirmed non-TPE matches',async()=>{
   const data = await daily();
   const shown = taiwanRows(data);
