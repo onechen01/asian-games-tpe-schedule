@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:12:53.384Z",
+  "generatedAt": "2026-09-24T11:28:30.069Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T11:12:53.219Z",
+      "generatedAt": "2026-09-24T11:28:29.926Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1957,48 +1957,6 @@
     },
     {
       "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T17:00:00+08:00",
-      "startTimeJst": "2026-09-25T18:00:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles 1st Round",
-      "unit": "Men's Doubles 1st Round Match 9",
-      "athletes": [],
-      "athletesEn": [
-        "WANG Chi-Lin",
-        "CHIU Hsiang-Chieh"
-      ],
-      "opponent": "MOHAMED RUMSANI Nur Izzuddin/GOH Sze Fei",
-      "opponentCode": "MAS",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DOUBLES-----------.R32-.000900--",
-          "id": "BDM:M.DOUBLES-----------.R32-.000900--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T17:30:00+08:00",
       "startTimeJst": "2026-09-25T18:30:00+09:00",
       "disciplineCode": "BBL",
@@ -2033,48 +1991,6 @@
         "results": {
           "unitId": "M.TEAM9-------------.SFNL.000100--",
           "id": "BBL:M.TEAM9-------------.SFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T17:40:00+08:00",
-      "startTimeJst": "2026-09-25T18:40:00+09:00",
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles 1st Round",
-      "unit": "Women's Doubles 1st Round Match 13",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Jhih-Yun",
-        "HSU Yin-Hui"
-      ],
-      "opponent": "RAMDAN Noraqilah Maisarah/LOW Zi Yu",
-      "opponentCode": "MAS",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.DOUBLES-----------.R32-.001300--",
-          "id": "BDM:W.DOUBLES-----------.R32-.001300--"
         }
       }
     },
@@ -2281,10 +2197,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 34,
+    "resultsOnly": 32,
     "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 45
+    "warnings": 43
   },
   "warnings": [
     {
@@ -2429,18 +2345,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:00 Men's Doubles 1st Round Match 9",
-      "row": "BDM:M.DOUBLES-----------.R32-.000900--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 15",
       "row": "BBL:M.TEAM9-------------.SFNL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:40 Women's Doubles 1st Round Match 13",
-      "row": "BDM:W.DOUBLES-----------.R32-.001300--"
     },
     {
       "code": "RESULTS_ONLY",
