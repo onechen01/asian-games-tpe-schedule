@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T12:35:57.257Z",
+  "generatedAt": "2026-09-24T12:46:15.570Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T12:35:57.095Z",
+      "generatedAt": "2026-09-24T12:46:15.404Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1786,50 +1786,6 @@
     },
     {
       "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T14:40:00+08:00",
-      "startTimeJst": "2026-09-25T15:40:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Women's Balance Beam",
-      "phase": "Women's Balance Beam Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LAI Pin-ju",
-        "LIAO Yi-chun",
-        "LIN Yi-chen",
-        "TING Hua-tien",
-        "WU Yu-jhih"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GAR|W.1APBB-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T15:15:00+08:00",
       "startTimeJst": "2026-09-25T16:15:00+09:00",
       "disciplineCode": "TTE",
@@ -1879,37 +1835,35 @@
       "sportEn": "Artistic Gymnastics",
       "event": "Men's Parallel Bars",
       "phase": "Men's Parallel Bars Final",
-      "unit": null,
+      "unit": "Men's Parallel Bars Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LEE Chih-kai"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUANG Chia-lung",
-        "HUNG Yuan-hsi",
-        "LEE Chih-kai",
-        "SHIAO Yu-jan"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GAR|M.1APPB-------------"
+        "results": {
+          "unitId": "M.1APPB-------------.FNL-.000001--",
+          "id": "GAR:M.1APPB-------------.FNL-.000001--"
         }
       }
     },
@@ -1951,50 +1905,6 @@
         "results": {
           "unitId": "W.61KG--------------.FNL-.A00100--",
           "id": "WLF:W.61KG--------------.FNL-.A00100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T16:30:00+08:00",
-      "startTimeJst": "2026-09-25T17:30:00+09:00",
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Women's Floor Exercise",
-      "phase": "Women's Floor Exercise Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LAI Pin-ju",
-        "LIAO Yi-chun",
-        "LIN Yi-chen",
-        "TING Hua-tien",
-        "WU Yu-jhih"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GAR|W.1APFX-------------"
         }
       }
     },
@@ -2085,37 +1995,35 @@
       "sportEn": "Artistic Gymnastics",
       "event": "Men's Horizontal Bar",
       "phase": "Men's Horizontal Bar Final",
-      "unit": null,
+      "unit": "Men's Horizontal Bar Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TANG Chia-hung"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUANG Chia-lung",
-        "HUNG Yuan-hsi",
-        "LEE Chih-kai",
-        "TANG Chia-hung"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GAR|M.1APHB-------------"
+        "results": {
+          "unitId": "M.1APHB-------------.FNL-.000001--",
+          "id": "GAR:M.1APHB-------------.FNL-.000001--"
         }
       }
     },
@@ -2334,7 +2242,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 7,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2441,10 +2349,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 38,
-    "entered": 6,
+    "resultsOnly": 40,
+    "entered": 2,
     "unresolvedTbd": 0,
-    "warnings": 52
+    "warnings": 54
   },
   "warnings": [
     {
@@ -2589,6 +2497,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GAR 15:50 Men's Parallel Bars Final",
+      "row": "GAR:M.1APPB-------------.FNL-.000001--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 61kg Group A",
       "row": "WLF:W.61KG--------------.FNL-.A00100--"
     },
@@ -2601,6 +2514,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 15",
       "row": "BBL:M.TEAM9-------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GAR 17:40 Men's Horizontal Bar Final",
+      "row": "GAR:M.1APHB-------------.FNL-.000001--"
     },
     {
       "code": "RESULTS_ONLY",
