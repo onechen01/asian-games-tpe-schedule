@@ -2152,6 +2152,47 @@
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-25T08:25:00+08:00",
+      "disciplineCode": "BDM",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華隊 羽球 個人賽第1輪(上-第1球場) 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-25T14:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T08:25:00+08:00",
+      "disciplineCode": "BDM",
+      "channelId": "544",
+      "channelName": "愛爾達體育MAX5台",
+      "isLive": true,
+      "title": "亞運 葉宏蔚/詹又蓁 羽球 個人賽第1輪(上-第2球場) 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-25T14:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "YE Hong-wei",
+          "CHAN Nicole Gonzales"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T08:25:00+08:00",
       "disciplineCode": "EQU",
       "channelId": "545",
       "channelName": "愛爾達體育MAX6台",
@@ -2314,7 +2355,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-25T12:30:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-25T12:25:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
@@ -2323,7 +2364,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-24",
-      "broadcastEndTimeTaipei": "2026-09-25T14:45:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T14:50:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -2380,7 +2421,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-25T14:45:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-25T14:50:00+08:00",
       "disciplineCode": "SWM",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
@@ -2389,7 +2430,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-24",
-      "broadcastEndTimeTaipei": "2026-09-25T16:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T15:55:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -2400,6 +2441,47 @@
           "Group"
         ]
       }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T14:55:00+08:00",
+      "disciplineCode": "BDM",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 李哲輝/楊博軒 羽球 個人賽第1輪(下-第1球場) 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-25T21:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "YANG Po-hsuan",
+          "LEE Jhe-huei"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T14:55:00+08:00",
+      "disciplineCode": "BDM",
+      "channelId": "544",
+      "channelName": "愛爾達體育MAX5台",
+      "isLive": true,
+      "title": "亞運 中華隊 羽球 個人賽第1輪(下-第2球場) 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-25T21:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
     },
     {
       "date": "2026-09-25",
@@ -2429,7 +2511,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-25T16:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-25T15:55:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
@@ -2451,10 +2533,32 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T16:55:00+08:00",
+      "disciplineCode": "KAB",
+      "channelId": "545",
+      "channelName": "愛爾達體育MAX6台",
+      "isLive": true,
+      "title": "亞運 伊朗VS中華 卡巴迪 女子四強 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-25T18:15:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "IRI"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-25T17:15:00+08:00",
       "disciplineCode": "ATH",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
       "isLive": true,
       "title": "亞運 中華隊 田徑 預賽/決賽 9/25(原音) LIVE",
       "feed": "original",
@@ -2492,6 +2596,28 @@
       "matchHint": {
         "opponentCodes": [
           "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T18:15:00+08:00",
+      "disciplineCode": "KAB",
+      "channelId": "545",
+      "channelName": "愛爾達體育MAX6台",
+      "isLive": true,
+      "title": "亞運 中華VS伊朗 卡巴迪 男子四強 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-24",
+      "broadcastEndTimeTaipei": "2026-09-25T19:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "IRI"
         ]
       }
     },
