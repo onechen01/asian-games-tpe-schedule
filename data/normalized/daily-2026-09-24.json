@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T02:54:03.305Z",
+  "generatedAt": "2026-09-24T03:04:54.937Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T02:54:03.136Z",
+      "generatedAt": "2026-09-24T03:04:54.762Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -330,16 +330,32 @@
       "phase": "10m Air Pistol Men Individual Qualification",
       "unit": "10m Air Pistol Men Individual - Qualification",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "HSIEH Hsiang-Chen",
+        "YEH Ting-Wei"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "RUNNING",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "HSIEH Hsiang-Chen",
+          "registration": "13709878",
+          "result": "277-2x",
+          "rank": "23"
+        },
+        {
+          "name": "YEH Ting-Wei",
+          "registration": "9615634",
+          "result": "170-7x",
+          "rank": "37"
+        }
+      ],
+      "tpeRank": "23",
+      "orgCount": 24,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -411,52 +427,6 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T09:00:00+08:00",
       "startTimeJst": "2026-09-24T10:00:00+09:00",
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles Round 2",
-      "unit": "Women's Doubles Round 2 Match 2",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Szu-yu",
-        "WU Ying-syuan"
-      ],
-      "opponent": "LEONG On Na/KUAN Cheok Lam",
-      "opponentCode": "MAC",
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "3",
-        "opponent": "1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.DOUBLES-----------.R32-.000200--",
-          "id": "TTE:W.DOUBLES-----------.R32-.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
       "disciplineCode": "FEN",
       "sportZh": "擊劍",
       "sportEn": "Fencing",
@@ -478,7 +448,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -568,7 +538,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -613,7 +583,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -658,7 +628,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -703,7 +673,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -748,7 +718,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -793,7 +763,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -838,7 +808,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -883,7 +853,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -928,7 +898,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -959,16 +929,23 @@
       "phase": "Skeet Mixed Team Qualification",
       "unit": "Skeet Mixed Team - Qualification",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LEE Meng-Yuan",
+        "LO Chien-Ya"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
       "status": "RUNNING",
-      "result": null,
+      "result": {
+        "tpe": "86",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "8",
+      "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -984,6 +961,52 @@
         "results": {
           "unitId": "X.SKMT--------------.QUAL.000100--",
           "id": "SHO:X.SKMT--------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Round 2",
+      "unit": "Women's Doubles Round 2 Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Szu-yu",
+        "WU Ying-syuan"
+      ],
+      "opponent": "LEONG On Na/KUAN Cheok Lam",
+      "opponentCode": "MAC",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.R32-.000200--",
+          "id": "TTE:W.DOUBLES-----------.R32-.000200--"
         }
       }
     },
@@ -1053,22 +1076,16 @@
       "phase": "Women's Heptathlon 100 Metres Hurdles",
       "unit": "Women's Heptathlon 100 Metres Hurdles Heat 2",
       "athletes": [],
-      "athletesEn": [
-        "CHEN Cai-juan"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "14.28",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "4",
-      "orgCount": 5,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1181,51 +1198,6 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T09:40:00+08:00",
       "startTimeJst": "2026-09-24T10:40:00+09:00",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Heptathlon",
-      "phase": "Women's Heptathlon High Jump",
-      "unit": "Women's Heptathlon High Jump",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Cai-juan"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "1.68",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "7",
-      "orgCount": 8,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.HEPTATH-----------.HJ--.000100--",
-          "id": "ATH:W.HEPTATH-----------.HJ--.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:40:00+08:00",
-      "startTimeJst": "2026-09-24T10:40:00+09:00",
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
@@ -1265,6 +1237,45 @@
         "results": {
           "unitId": "W.DOUBLES-----------.R32-.001100--",
           "id": "TTE:W.DOUBLES-----------.R32-.001100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:40:00+08:00",
+      "startTimeJst": "2026-09-24T10:40:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's Heptathlon",
+      "phase": "Women's Heptathlon High Jump",
+      "unit": "Women's Heptathlon High Jump",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.HEPTATH-----------.HJ--.000100--",
+          "id": "ATH:W.HEPTATH-----------.HJ--.000100--"
         }
       }
     },
@@ -1381,8 +1392,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "3",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1924,6 +1935,102 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T16:00:00+08:00",
+      "startTimeJst": "2026-09-24T17:00:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 50m Freestyle",
+      "phase": "Women's 50m Freestyle Final",
+      "unit": "Women's 50m Freestyle Final",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Pei-yin"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.50MFR-------------.FNL-.000100--",
+          "id": "SWM:W.50MFR-------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T16:19:00+08:00",
+      "startTimeJst": "2026-09-24T17:19:00+09:00",
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Men's 200m Breaststroke",
+      "phase": "Men's 200m Breaststroke Final",
+      "unit": "Men's 200m Breaststroke Final",
+      "athletes": [],
+      "athletesEn": [
+        "TSAI Ruei-hong",
+        "CHANG Chiao-i"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "TSAI Ruei-hong",
+          "registration": "14556573",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHANG Chiao-i",
+          "registration": "8539844",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.200MBR------------.FNL-.000100--",
+          "id": "SWM:M.200MBR------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T16:20:00+08:00",
       "startTimeJst": "2026-09-24T17:20:00+09:00",
       "disciplineCode": "ELS",
@@ -2029,9 +2136,7 @@
       "phase": "Women's 100m Round 1",
       "unit": "Women's 100m Round 1 Heat 3",
       "athletes": [],
-      "athletesEn": [
-        "LIAO Yan-jun"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2040,7 +2145,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 7,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2070,9 +2175,7 @@
       "phase": "Men's 100m Round 1",
       "unit": "Men's 100m Round 1 Heat 2",
       "athletes": [],
-      "athletesEn": [
-        "CHEN Wen-pu"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2081,7 +2184,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 7,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2152,9 +2255,7 @@
       "phase": "Men's 100m Round 1",
       "unit": "Men's 100m Round 1 Heat 5",
       "athletes": [],
-      "athletesEn": [
-        "YANG Chun-han"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2163,7 +2264,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 6,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2188,10 +2289,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 42,
+    "resultsOnly": 44,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 51
+    "warnings": 52
   },
   "warnings": [
     {
@@ -2203,11 +2304,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 Match 1",
       "row": "ELS:O.NRK---------------.SFNL.00010000"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Doubles Round 2 Match 2",
-      "row": "TTE:W.DOUBLES-----------.R32-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2271,6 +2367,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Doubles Round 2 Match 2",
+      "row": "TTE:W.DOUBLES-----------.R32-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:02 Women's 50m Freestyle Heat 2",
       "row": "SWM:W.50MFR-------------.HEAT.000200--"
     },
@@ -2291,13 +2392,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 09:40 Women's Heptathlon High Jump",
-      "row": "ATH:W.HEPTATH-----------.HJ--.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:40 Women's Doubles Round 2 Match 11",
+      "row": "TTE:W.DOUBLES-----------.R32-.001100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:40 Women's Doubles Round 2 Match 11",
-      "row": "TTE:W.DOUBLES-----------.R32-.001100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 09:40 Women's Heptathlon High Jump",
+      "row": "ATH:W.HEPTATH-----------.HJ--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2376,6 +2477,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:00 Women's 50m Freestyle Final",
+      "row": "SWM:W.50MFR-------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 16:19 Men's 200m Breaststroke Final",
+      "row": "SWM:M.200MBR------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:20 Match 8",
       "row": "ELS:O.PYO---------------.GPB-.000800--"
     },
@@ -2428,11 +2539,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SWM|W.50MFR-------------",
       "message": "SWM Women's 50m Freestyle 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SWM|M.200MBR------------",
-      "message": "SWM Men's 200m Breaststroke 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
