@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFile,mkdir,writeFile} from 'node:fs/promises';import path from 'node:path';
-import {taipeiDate,formatTaipei,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames,resultHeading} from '../lib/schedule.ts';
+import {taipeiDate,formatTaipei,matchTimeLabel,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames,resultHeading} from '../lib/schedule.ts';
 import type {Daily,Row} from '../lib/schedule.ts';
 import {loadSchedule,loadAthletes,loadDisplayNames} from '../lib/load.ts';
 import {athleteLabel} from '../lib/athletes.ts';
@@ -14,6 +14,29 @@ const row = (r:Partial<Row>):Row=>({date:'2026-09-18',startTimeTaipei:null,start
 test('Taiwan calendar day and displayed times are independent of the host timezone',()=>{
   assert.equal(taipeiDate(new Date('2026-09-18T17:00:00Z')),'2026-09-19');
   assert.equal(formatTaipei('2026-09-18T12:00:00+08:00'),'12:00');
+});
+
+test('matchTimeLabel switches purely on timeNote.code, the one place every card and the progression line goes through',()=>{
+  const at = (startTimeTaipei:string)=>({startTimeTaipei});
+  assert.equal(matchTimeLabel({...at('2026-09-25T17:00:00+08:00'),
+    timeNote:{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}}),'前場結束後');
+  assert.equal(matchTimeLabel({...at('2026-09-25T15:50:00+08:00'),
+    timeNote:{code:'NOT_BEFORE',clockTaipei:'15:00',raw:'Not Before 16:00'}}),'不早於 15:00');
+  assert.equal(matchTimeLabel({...at('2026-09-23T10:30:00+08:00'),
+    timeNote:{code:'RESCHEDULED',clockTaipei:'11:10',raw:'New Start Time 12:10'}}),'已改期至 11:10');
+  // PENDING covers both a genuinely blank official note and an EstText this codebase does not
+  // yet recognise -- both fail safe to the same phrase, never a precise or invented time.
+  assert.equal(matchTimeLabel({...at('2026-09-25T15:00:00+08:00'),
+    timeNote:{code:'PENDING',clockTaipei:null,raw:null}}),'時間未定');
+  assert.equal(matchTimeLabel({...at('2026-09-25T15:00:00+08:00'),
+    timeNote:{code:'PENDING',clockTaipei:null,raw:'Delayed Due To Weather'}}),'時間未定');
+  // A conversion that could not be computed (missing wall date) still fails safe, not to null.
+  assert.equal(matchTimeLabel({...at('2026-09-25T15:00:00+08:00'),
+    timeNote:{code:'NOT_BEFORE',clockTaipei:null,raw:'Not Before 16:00'}}),'時間未定');
+  // The real internal time is still there for sorting/bucketing -- only display is replaced.
+  assert.equal(matchTimeLabel({...at('2026-09-25T17:00:00+08:00'),timeNote:null}),'17:00');
+  // Ordinary rows (timeNote absent, e.g. older cached data) behave exactly as before.
+  assert.equal(matchTimeLabel({startTimeTaipei:'2026-09-25T17:00:00+08:00'}),'17:00');
 });
 
 test('only Chinese Taipei rows are shown, never confirmed non-TPE matches',async()=>{

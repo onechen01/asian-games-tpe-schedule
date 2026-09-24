@@ -393,6 +393,58 @@ test('a confirmed unit replaces the provisional row instead of doubling it',()=>
   assert.equal(merged.rows[0].participationState,'TPE_CONFIRMED');
 });
 
+test('timeNote survives from the Results row into the canonical daily row (display trust signal)',()=>{
+  const hidden:ResultsRow = { id:'test-hidden', disciplineCode:'BDM', eventName:'Mixed Doubles',
+    startTimeTaipei:'2026-09-25T08:30:00+08:00', hasTpe:true, orgs:['TPE','MAS'], sourceStatus:'SCHEDULED',
+    timeNote:{ code:'FOLLOWED_BY', clockTaipei:null, raw:'Followed by' } };
+  const visible:ResultsRow = { id:'test-visible', disciplineCode:'BDM', eventName:'Mixed Doubles',
+    startTimeTaipei:'2026-09-25T09:00:00+08:00', hasTpe:true, orgs:['TPE','MAS'], sourceStatus:'SCHEDULED',
+    timeNote:null };
+  const merged = mergeDaily({ date:'2026-09-25', rows:[hidden,visible],
+    coverage:{ fetchComplete:true, missing:[] }, errors:[] }, null, null);
+  assert.deepEqual(merged.rows.find(r=>r.sources.results?.id==='test-hidden')?.timeNote,
+    { code:'FOLLOWED_BY', clockTaipei:null, raw:'Followed by' });
+  assert.equal(merged.rows.find(r=>r.sources.results?.id==='test-visible')?.timeNote,null);
+});
+
+// The real 9/25 badminton case this whole fix is for: 8 confirmed TPE units, all HideStartDate,
+// none of them may fall out of canonical and every one must land on Taiwan 9/25.
+test('the real 9/25 BDM units all reach canonical on 9/25, whatever their timeNote code',()=>{
+  const unit=(id:string,startTimeTaipei:string,timeNote:ResultsRow['timeNote']):ResultsRow=>({
+    id, disciplineCode:'BDM', eventName:'x', startTimeTaipei, hasTpe:true, orgs:['TPE','MAS'],
+    sourceStatus:'SCHEDULED', timeNote });
+  const rows=[
+    unit('m1','2026-09-25T08:30:00+08:00',{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}),
+    unit('m2','2026-09-25T09:10:00+08:00',{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}),
+    unit('m3','2026-09-25T10:10:00+08:00',{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}),
+    unit('m4','2026-09-25T10:50:00+08:00',{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}),
+    unit('m5','2026-09-25T15:50:00+08:00',{code:'NOT_BEFORE',clockTaipei:'15:00',raw:'Not Before 16:00'}),
+    unit('m6','2026-09-25T16:00:00+08:00',{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}),
+    unit('m7','2026-09-25T19:00:00+08:00',null), // HideStartDate=false: no note, ordinary time
+    unit('m8','2026-09-25T19:40:00+08:00',{code:'PENDING',clockTaipei:null,raw:null}),
+  ];
+  const merged=mergeDaily({ date:'2026-09-25', rows, coverage:{fetchComplete:true,missing:[]}, errors:[] },null,null);
+  assert.equal(merged.rows.length,8);
+  assert.ok(merged.rows.every(r=>r.date==='2026-09-25'));
+  assert.ok(merged.rows.every(r=>r.startTimeTaipei?.slice(0,10)==='2026-09-25'));
+  assert.deepEqual(new Set(merged.rows.map(r=>r.participationState)),new Set(['TPE_CONFIRMED']));
+});
+
+// An EstText this codebase has never seen must degrade one row to PENDING, not drop it and not
+// take the rest of the day down with it.
+test('an unrecognised EstText degrades its own row to PENDING without losing it or any other row',()=>{
+  const known:ResultsRow = { id:'known', disciplineCode:'BDM', eventName:'x',
+    startTimeTaipei:'2026-09-25T09:00:00+08:00', hasTpe:true, orgs:['TPE','MAS'], sourceStatus:'SCHEDULED',
+    timeNote:{ code:'FOLLOWED_BY', clockTaipei:null, raw:'Followed by' } };
+  const unknown:ResultsRow = { id:'unknown', disciplineCode:'BDM', eventName:'y',
+    startTimeTaipei:'2026-09-25T09:00:00+08:00', hasTpe:true, orgs:['TPE','KOR'], sourceStatus:'SCHEDULED',
+    timeNote:{ code:'PENDING', clockTaipei:null, raw:'Delayed Due To Weather' } };
+  const merged=mergeDaily({ date:'2026-09-25', rows:[known,unknown],
+    coverage:{fetchComplete:true,missing:[]}, errors:[] },null,null);
+  assert.equal(merged.rows.length,2);
+  assert.equal(merged.rows.find(r=>r.sources.results?.id==='unknown')?.timeNote?.raw,'Delayed Due To Weather');
+});
+
 test('a Wushu component rank cannot carry an aggregate medal; final medals stay with their athlete',()=>{
   const athletes=[{org:'TPE',name:'ATHLETE A',registration:'101',result:'9.720',rank:'5',medal:'ME_BRONZE'},
     {org:'TPE',name:'ATHLETE B',registration:'102',result:'9.703',rank:'7',medal:null}];

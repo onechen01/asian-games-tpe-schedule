@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { deflateSync } from 'node:zlib';
 import { decode, safeData } from '../src/api/asianGames.ts';
-import { normalize, parseDaily, initialEventPhases, wushuResultTarget } from '../src/parsers/schedule.ts';
+import { normalize, parseDaily, initialEventPhases, wushuResultTarget, classifyTimeNote } from '../src/parsers/schedule.ts';
 
 test('official event structure identifies first phases without reading Final or PhaseOrder literally',()=>{
   const event='M.TEAM--------------',disc='GAR';
@@ -68,10 +68,100 @@ test('empty Orgs is unknown; TPE is determined by code, not display name',()=>{
   assert.equal(normalize({...row,Home:{Org:'TPE'}},source).hasTpe,true);
   assert.equal(normalize({...row,Home:{Org:'JPN',Name:'Taiwan'}},source).hasTpe,false);
 });
-test('hidden start times stay hidden while original and UTC remain auditable',()=>{
+test('HideStartDate only hides the display trustworthiness, never the calendar day: a valid DateTimeRaw still buckets and sorts correctly',()=>{
   const row=normalize({Key:'fixture',Disc:'BKB',HideStartDate:true,DateTimeRaw:'2026-09-20T10:00:00+09:00'},source);
-  assert.equal(row.startTimeTaipei,null);
+  assert.equal(row.startTimeTaipei,'2026-09-20T09:00:00+08:00');
   assert.equal(row.startTimeUtc,'2026-09-20T01:00:00.000Z');
+  assert.equal(row.timeHidden,true);
+});
+test('"Followed by" (Estimated + HideStartDate) never claims a precise displayed time, but the display layer decides that, not the parser',()=>{
+  const row=normalize({Key:'fixture',Disc:'BDM',HideStartDate:true,Estimated:true,
+    DateTimeRaw:'2026-09-25T18:00:00+09:00'},source);
+  assert.equal(row.timeHidden,true);
+  assert.equal(row.estimated,true);
+  // The internal time is still real and usable (sorting, day bucketing, opponent matching).
+  assert.equal(row.startTimeTaipei,'2026-09-25T17:00:00+08:00');
+});
+test('an ordinary unit with HideStartDate=false is completely unaffected',()=>{
+  const row=normalize({Key:'fixture',Disc:'SWM',DateTimeRaw:'2026-09-20T10:00:00+09:00'},source);
+  assert.equal(row.startTimeTaipei,'2026-09-20T09:00:00+08:00');
+  assert.equal(row.timeHidden,false);
+  assert.equal(row.estimated,false);
+});
+test('a genuine timezone anomaly (not HideStartDate) still stays null until recovered',()=>{
+  // Wrong offset and no evidence to recover it: the calendar day is genuinely unknown, unlike
+  // a HideStartDate unit whose DateTimeRaw offset is trustworthy.
+  const row=normalize({Key:'fixture',Disc:'SWM',DateTimeRaw:'2026-09-20T10:00:00+00:00'},source);
+  assert.equal(row.startTimeTaipei,null);
+  assert.equal(row.timeHidden,false);
+});
+// Real 2026-09-25 badminton: 8 official TPE units, all "Followed by" (HideStartDate+Estimated),
+// spanning JST 09:30-18:40 -- every one must land on Taiwan calendar day 9/25, never 9/24 or 9/26.
+test('the real 9/25 badminton "Followed by" TPE units all bucket onto Taiwan 9/25, none cross a day',()=>{
+  const raws=['2026-09-25T09:30:00+09:00','2026-09-25T10:10:00+09:00','2026-09-25T12:10:00+09:00',
+    '2026-09-25T12:50:00+09:00','2026-09-25T18:00:00+09:00','2026-09-25T18:40:00+09:00'];
+  for (const DateTimeRaw of raws) {
+    const row=normalize({Key:'fixture-'+DateTimeRaw,Disc:'BDM',HideStartDate:true,Estimated:true,DateTimeRaw},source);
+    assert.equal(row.startTimeTaipei?.slice(0,10),'2026-09-25',DateTimeRaw);
+    assert.equal(row.timeHidden,true);
+  }
+});
+// classifyTimeNote is the single source of truth for what HideStartDate=true actually means;
+// the display layer (matchTimeLabel) only ever switches on the `code` this returns.
+test('classifyTimeNote: "Followed by" in its three observed spellings all become FOLLOWED_BY with no clock',()=>{
+  for (const EstText of ['Followed by','FOLLOWED BY','FOLLOW BY']) {
+    assert.deepEqual(classifyTimeNote({Key:'k',Disc:'BDM',HideStartDate:true,Estimated:true,EstText},'2026-09-25'),
+      {code:'FOLLOWED_BY',clockTaipei:null,raw:EstText});
+  }
+});
+test('classifyTimeNote: "Not Before HH:MM" reads the venue clock and converts to Taipei',()=>{
+  // Real 9/25 BDM case: "Not Before 16:00" is JST (venue), i.e. 15:00 Taipei.
+  const note=classifyTimeNote({Key:'k',Disc:'BDM',HideStartDate:true,Estimated:true,EstText:'Not Before 16:00'},'2026-09-25');
+  assert.deepEqual(note,{code:'NOT_BEFORE',clockTaipei:'15:00',raw:'Not Before 16:00'});
+});
+test('classifyTimeNote: "New Start Time HH:MM" reads the venue clock and converts to Taipei',()=>{
+  // Real 9/23 TST case: "New Start Time 12:10" JST -> 11:10 Taipei.
+  const note=classifyTimeNote({Key:'k',Disc:'TST',HideStartDate:true,Estimated:true,EstText:'New Start Time 12:10'},'2026-09-23');
+  assert.deepEqual(note,{code:'RESCHEDULED',clockTaipei:'11:10',raw:'New Start Time 12:10'});
+});
+test('classifyTimeNote: HideStartDate=true with a blank EstText is PENDING, never a guessed time',()=>{
+  const note=classifyTimeNote({Key:'k',Disc:'BDM',HideStartDate:true,Estimated:false,EstText:''},'2026-09-25');
+  assert.deepEqual(note,{code:'PENDING',clockTaipei:null,raw:null});
+  // Same for BKB's provisional-session-slot case (Estimated:true, no text at all).
+  const bkb=classifyTimeNote({Key:'k',Disc:'BKB',HideStartDate:true,Estimated:true},'2026-09-25');
+  assert.deepEqual(bkb,{code:'PENDING',clockTaipei:null,raw:null});
+});
+test('classifyTimeNote: an EstText shape never seen before degrades to PENDING with the raw text kept, never guessed and never thrown',()=>{
+  const note=classifyTimeNote({Key:'k',Disc:'BDM',HideStartDate:true,Estimated:true,
+    EstText:'Delayed Due To Weather'},'2026-09-25');
+  assert.deepEqual(note,{code:'PENDING',clockTaipei:null,raw:'Delayed Due To Weather'});
+});
+test('classifyTimeNote: HideStartDate=false is always null, whatever EstText says',()=>{
+  assert.equal(classifyTimeNote({Key:'k',Disc:'SWM',HideStartDate:false,EstText:'Followed by'},'2026-09-20'),null);
+  assert.equal(classifyTimeNote({Key:'k',Disc:'SWM'},'2026-09-20'),null);
+});
+test('a day with one unrecognised EstText still parses every other unit; nothing throws and nothing else is lost',()=>{
+  const rows=parseDaily([
+    {Key:'a',Disc:'BDM',HideStartDate:true,Estimated:true,EstText:'Followed by',DateTimeRaw:'2026-09-25T09:30:00+09:00'},
+    {Key:'b',Disc:'BDM',HideStartDate:true,Estimated:true,EstText:'Delayed Due To Weather',DateTimeRaw:'2026-09-25T10:00:00+09:00'},
+    {Key:'c',Disc:'BDM',DateTimeRaw:'2026-09-25T11:00:00+09:00'},
+  ],source);
+  assert.equal(rows.length,3);
+  assert.equal(rows[0].timeNote?.code,'FOLLOWED_BY');
+  assert.equal(rows[1].timeNote?.code,'PENDING');
+  assert.equal(rows[1].timeNote?.raw,'Delayed Due To Weather');
+  assert.equal(rows[1].startTimeTaipei,'2026-09-25T09:00:00+08:00'); // still usable internally
+  assert.equal(rows[2].timeNote,null);
+});
+// timeHidden rows (whatever their timeNote) keep a real startTimeTaipei, so sorting by it still
+// works across mixed FOLLOWED_BY/NOT_BEFORE/normal rows -- the point of this whole fix.
+test('rows with different timeNote codes still sort correctly by their internal startTimeTaipei',()=>{
+  const rows=[
+    normalize({Key:'late',Disc:'BDM',HideStartDate:true,Estimated:true,EstText:'Not Before 16:00',DateTimeRaw:'2026-09-25T18:00:00+09:00'},source),
+    normalize({Key:'early',Disc:'BDM',HideStartDate:true,Estimated:true,EstText:'Followed by',DateTimeRaw:'2026-09-25T09:30:00+09:00'},source),
+    normalize({Key:'mid',Disc:'BDM',DateTimeRaw:'2026-09-25T12:00:00+09:00'},source),
+  ].sort((a,b)=>(a.startTimeTaipei??'').localeCompare(b.startTimeTaipei??''));
+  assert.deepEqual(rows.map(r=>r.unitId),['early','mid','late']);
 });
 test('schema changes fail closed',()=>{
   assert.throws(()=>parseDaily({rows:[]},source));

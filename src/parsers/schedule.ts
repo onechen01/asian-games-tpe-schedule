@@ -9,9 +9,40 @@ export type RawSchedule = {
   Key: string; Disc: string; Orgs?: string[]; Org?: string; Home?: RawCompetitor; Away?: RawCompetitor;
   DiscDesc?: string; Event?: string; EventDesc?: string; Phase?: string; PhaseDesc?: string;
   UnitDesc?: string; UnitDescA?: string; DateTimeRaw?: string; HideStartDate?: boolean;
-  HideLocation?: boolean; Estimated?: boolean; Venue?: string; VenueDesc?: string; isH2H?:boolean;
+  HideLocation?: boolean; Estimated?: boolean; EstText?: string; Venue?: string; VenueDesc?: string; isH2H?:boolean;
   ResCode?: string; Status?: string; StatusDesc?: string; IsLive?: boolean; Medal?: string;
 };
+// What HideStartDate=true actually means, classified from the official EstText note. The parser
+// is the only place that reads English officialese or does venue-to-Taipei clock math; the
+// display layer only ever switches on `code` and interpolates the already-converted clockTaipei.
+// A pattern this classifier does not recognise still degrades to PENDING (never invented, never
+// thrown) -- `raw` keeps the original text so a newly observed officials' phrasing can be found
+// later without a whole day's schedule failing to publish.
+export type TimeNoteCode = 'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING';
+export type TimeNote = { code: TimeNoteCode; clockTaipei: string | null; raw: string | null };
+const FOLLOWED_BY_RE = /^follow(?:ed)?\s+by$/i;
+const NOT_BEFORE_RE = /^not\s+before\s+(\d{1,2}):(\d{2})$/i;
+const RESCHEDULED_RE = /^new\s+start\s+time\s+(\d{1,2}):(\d{2})$/i;
+// The HH:MM in EstText is read at the venue's own offset, the same assumption already used for
+// DateTimeRaw everywhere else in this parser -- not a new, unverified guess.
+function venueClockToTaipei(wallDate: string | null, hh: string, mm: string): string | null {
+  if (!wallDate) return null;
+  const parsed = parseTime(`${wallDate}T${hh.padStart(2,'0')}:${mm}:00${VENUE_OFFSET}`);
+  return parsed ? parsed.taipei.slice(11,16) : null;
+}
+export function classifyTimeNote(row: RawSchedule, wallDate: string | null): TimeNote | null {
+  if (row.HideStartDate !== true) return null;
+  const text = typeof row.EstText === 'string' ? row.EstText.trim() : '';
+  if (!text) return { code:'PENDING', clockTaipei:null, raw:null };
+  if (FOLLOWED_BY_RE.test(text)) return { code:'FOLLOWED_BY', clockTaipei:null, raw:text };
+  const notBefore = NOT_BEFORE_RE.exec(text);
+  if (notBefore) return { code:'NOT_BEFORE', clockTaipei:venueClockToTaipei(wallDate,notBefore[1],notBefore[2]), raw:text };
+  const rescheduled = RESCHEDULED_RE.exec(text);
+  if (rescheduled) return { code:'RESCHEDULED', clockTaipei:venueClockToTaipei(wallDate,rescheduled[1],rescheduled[2]), raw:text };
+  // An EstText shape not seen before: never guessed, never fails the batch -- PENDING with the
+  // raw text preserved so it can be found and classified properly later.
+  return { code:'PENDING', clockTaipei:null, raw:text };
+}
 export type Source = {
   url: string; data_fetched_at?: string; checked_at?: string; captured_at?: string;
   raw_file?: string | null; mode?: string; [key: string]: unknown;
@@ -30,7 +61,7 @@ export function assertRow(value: unknown): asserts value is RawSchedule {
   if (typeof row.Key !== 'string' || !row.Key || typeof row.Disc !== 'string' || !row.Disc) {
     throw new Error('Schedule row missing Key or Disc');
   }
-  for (const name of ['DateTimeRaw','DiscDesc','Status','EventDesc','PhaseDesc','VenueDesc']) {
+  for (const name of ['DateTimeRaw','DiscDesc','Status','EventDesc','PhaseDesc','VenueDesc','EstText']) {
     if (row[name] != null && typeof row[name] !== 'string') throw new Error(`Schema change: ${name}`);
   }
   if (row.Orgs != null && (!Array.isArray(row.Orgs) || !row.Orgs.every(x => typeof x === 'string'))) {
@@ -74,8 +105,16 @@ export function normalize(value: unknown, source: Source, evidence: DayEvidence 
       sourceOffset, venueOffset: VENUE_OFFSET, recoveredStartTime: recovered,
       evidence: recovered ? { requestedDate: evidence.requestedDate ?? null,
         officialDays: evidence.officialDays ?? null, venueTimeZoneSource: 'config.venueTimeZone' } : null } : null,
+    // HideStartDate only means the official clock time must not be shown to a reader as exact
+    // (e.g. an order-dependent "Followed by" match) -- it is not evidence the unit's calendar
+    // day is unknown. The internal time is still derived from DateTimeRaw so date bucketing,
+    // sorting and opponent time-matching keep working; timeHidden below tells the display layer
+    // not to render it as a precise clock time.
     startTimeUtc: suspectTimezone && !recovered ? null : parsed?.utc ?? null,
-    startTimeTaipei: row.HideStartDate || (suspectTimezone && !recovered) ? null : parsed?.taipei ?? null,
+    startTimeTaipei: suspectTimezone && !recovered ? null : parsed?.taipei ?? null,
+    // The single source of truth for how a card should show its time: null means startTimeTaipei
+    // is trustworthy as-is; otherwise the display layer switches on `code`, never on disciplineCode.
+    timeNote: classifyTimeNote(row, wallDate),
     displayTimezone: DISPLAY_TIMEZONE, timeHidden: row.HideStartDate === true, estimated: row.Estimated === true,
     venueCode: row.Venue ?? null, venueName: row.HideLocation ? null : row.VenueDesc ?? null,
     status: statusMap[row.Status || ''] || 'unknown', sourceStatus: row.Status ?? null,

@@ -1,9 +1,13 @@
 // Derived progression: a Chinese Taipei athlete or team is only marked as advanced when the
 // official data already lists them in a later stage. Nothing is inferred from a win, a score
 // or a rank, and canonical data is never modified.
-export type Row = { date:string; startTimeTaipei:string|null; disciplineCode:string|null;
+type TimeNote = { code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING';
+  clockTaipei:string | null; raw:string | null };
+export type Row = { date:string; startTimeTaipei:string|null; timeNote?:TimeNote|null; disciplineCode:string|null;
   event:string|null; phase:string|null; athletesEn?:string[]; athletes?:string[] };
-export type Advance = { stage:string; nextDate:string; nextTimeTaipei:string|null };
+// nextTimeNote alone carries the display decision for the next round's time -- no separate
+// boolean is kept alongside it, so there is only one thing that can go stale.
+export type Advance = { stage:string; nextDate:string; nextTimeTaipei:string|null; nextTimeNote?:TimeNote|null };
 
 // Stages that form a ladder. Anything else (classification, placement, repechage, bronze
 // match, an unnamed group game) has no safe ordering and is ignored.
@@ -50,5 +54,6 @@ export function advanceFor(row:Row, later:Row[]):Advance|null {
       || String(a.next.startTimeTaipei).localeCompare(String(b.next.startTimeTaipei)));
   const hit = candidates[0];
   if (!hit || !hit.stage.label) return null;
-  return { stage:hit.stage.label, nextDate:hit.next.date, nextTimeTaipei:hit.next.startTimeTaipei };
+  return { stage:hit.stage.label, nextDate:hit.next.date, nextTimeTaipei:hit.next.startTimeTaipei,
+    nextTimeNote:hit.next.timeNote ?? null };
 }

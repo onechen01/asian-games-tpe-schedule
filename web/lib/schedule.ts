@@ -1,6 +1,13 @@
 export type Result = { tpe:string | null; opponent:string | null; source:string };
+// The single source of truth for how a card should show its time. Null means startTimeTaipei is
+// trustworthy as-is; otherwise `code` says why and, for NOT_BEFORE/RESCHEDULED, clockTaipei is
+// the already-converted Taipei clock -- the display layer never parses English or does timezone
+// math itself.
+export type TimeNote = { code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING';
+  clockTaipei:string | null; raw:string | null };
 export type Row = {
   date:string; startTimeTaipei:string | null; startTimeJst:string | null;
+  timeNote?:TimeNote | null;
   disciplineCode:string | null; sportZh:string | null; sportEn:string | null;
   event:string | null; phase:string | null; unit:string | null;
   athletes:string[]; athletesEn:string[]; opponent:string | null; opponentCode:string | null;
@@ -36,6 +43,23 @@ export function formatTaipei(value?:string|null,withDate=false){
   if(!value||!/(Z|[+-]\d{2}:\d{2})$/.test(value)||!Number.isFinite(Date.parse(value)))return '時間待確認';
   return new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',hour:'2-digit',minute:'2-digit',hourCycle:'h23',
     ...(withDate?{month:'numeric',day:'numeric'}:{})}).format(new Date(value));
+}
+// The one place that turns Row.timeNote into a displayed string. Every caller (Card,
+// EnteredCard, the progression "next round" line) must go through this -- none of them re-decide
+// the label on their own, and none of them branch on disciplineCode. The underlying
+// startTimeTaipei is still used internally (sorting, day bucketing, broadcast windows) regardless
+// of what is shown here.
+export function matchTimeLabel(row:{startTimeTaipei?:string|null;timeNote?:TimeNote|null}){
+  const note = row.timeNote;
+  if (!note) return formatTaipei(row.startTimeTaipei);
+  switch (note.code) {
+    case 'FOLLOWED_BY': return '前場結束後';
+    case 'NOT_BEFORE': return note.clockTaipei ? `不早於 ${note.clockTaipei}` : '時間未定';
+    case 'RESCHEDULED': return note.clockTaipei ? `已改期至 ${note.clockTaipei}` : '時間未定';
+    // Includes both a genuinely empty official note and an EstText shape this parser does not
+    // yet recognise -- neither is safe to show as a precise time, so both fail safe the same way.
+    case 'PENDING': default: return '時間未定';
+  }
 }
 
 import {athleteLabels} from './athletes.ts';

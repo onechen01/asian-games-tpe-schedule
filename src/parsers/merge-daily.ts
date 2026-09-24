@@ -7,6 +7,12 @@ export type ResultsRow = {
   startTimeTaipei?:string | null; originalStartTime?:string | null; venueName?:string | null;
   eventId?:string | null; hasTpe?:boolean | null; orgs?:string[]; sourceStatus?:string | null;
   entryFallbackInitialPhase?:boolean;
+  // Null when startTimeTaipei is a trustworthy clock time to show as-is; otherwise the single
+  // source of truth for how the display layer should render it instead (see schedule.ts
+  // classifyTimeNote -- this type mirrors its TimeNote, duplicated rather than imported to keep
+  // this parser decoupled from the Results-specific schedule parser, matching every other type
+  // here). startTimeTaipei itself is still a real, usable time for sorting/day-bucketing/matching.
+  timeNote?:{ code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING'; clockTaipei:string | null; raw:string | null } | null;
   resultScope?:'component' | 'aggregate' | null;
   competitors?:Competitor[];
   result?:{ sourceStatus?:string; competitors?:Competitor[] };
@@ -35,6 +41,8 @@ export type EntryLevel = 'unit' | 'event';
 export type Confidence = 'high' | 'medium' | 'none';
 export type DailyRow = {
   date:string; startTimeTaipei:string | null; startTimeJst:string | null;
+  // See ResultsRow.timeNote above.
+  timeNote:{ code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING'; clockTaipei:string | null; raw:string | null } | null;
   disciplineCode:string | null; sportZh:string | null; sportEn:string | null;
   event:string | null; phase:string | null; unit:string | null;
   athletes:string[]; athletesEn:string[]; opponent:string | null; opponentCode:string | null;
@@ -265,6 +273,7 @@ function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | 
     // Canonical time is Asia/Taipei; the Japanese source time is kept alongside it.
     startTimeTaipei:results?.startTimeTaipei ?? tpenoc?.startTimeTaipei ?? null,
     startTimeJst:results?.originalStartTime ?? tpenoc?.startTimeJst ?? null,
+    timeNote:results?.timeNote ?? null,
     disciplineCode:results?.disciplineCode ?? (tpenoc ? CODE_BY_ZH[tpenoc.sport] ?? null : null),
     // One display name per discipline, from the table above; the committee's own wording for
     // the same sport stays in sources.tpenoc.
