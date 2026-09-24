@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T10:05:10.648Z",
+  "generatedAt": "2026-09-24T10:33:59.763Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T10:05:10.497Z",
+      "generatedAt": "2026-09-24T10:33:59.578Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -593,7 +593,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
       "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
@@ -2642,8 +2642,8 @@
         {
           "name": "LEE Chih-kai",
           "registration": "15910117",
-          "result": null,
-          "rank": null
+          "result": "14.333",
+          "rank": "5"
         },
         {
           "name": "SHIAO Yu-jan",
@@ -2652,7 +2652,7 @@
           "rank": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2690,10 +2690,14 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "12.73",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
