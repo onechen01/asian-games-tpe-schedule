@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T06:13:59.758Z",
+  "generatedAt": "2026-09-24T06:25:32.079Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T06:13:59.580Z",
+      "generatedAt": "2026-09-24T06:25:31.906Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2158,8 +2158,12 @@
       "opponentCode": "THA",
       "venue": "",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2891,7 +2895,7 @@
     "resultsOnly": 52,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 54
   },
   "warnings": [
     {
@@ -3163,11 +3167,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "FEN|M.EPEE--------------",
       "message": "FEN Men's Épée Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "BK3|M.TEAM3-------------",
-      "message": "BK3 Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
