@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T06:25:32.079Z",
+  "generatedAt": "2026-09-24T06:36:22.917Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T06:25:31.906Z",
+      "generatedAt": "2026-09-24T06:36:22.725Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2115,12 +2115,12 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "63.97",
+        "tpe": "83.73",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "1",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
