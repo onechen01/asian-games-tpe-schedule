@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T03:13:59.404Z",
+  "generatedAt": "2026-09-24T03:27:18.656Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T03:13:59.238Z",
+      "generatedAt": "2026-09-24T03:27:18.541Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -344,17 +344,17 @@
         {
           "name": "HSIEH Hsiang-Chen",
           "registration": "13709878",
-          "result": "440-5x",
-          "rank": "20"
+          "result": "575-8x",
+          "rank": "18"
         },
         {
           "name": "YEH Ting-Wei",
           "registration": "9615634",
-          "result": "276-11x",
-          "rank": "26"
+          "result": "350-13x",
+          "rank": "35"
         }
       ],
-      "tpeRank": "20",
+      "tpeRank": "18",
       "orgCount": 24,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -427,6 +427,52 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T09:00:00+08:00",
       "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Skeet Mixed Team",
+      "phase": "Skeet Mixed Team Qualification",
+      "unit": "Skeet Mixed Team - Qualification",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Meng-Yuan",
+        "LO Chien-Ya"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "108",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "10",
+      "orgCount": 11,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.SKMT--------------.QUAL.000100--",
+          "id": "SHO:X.SKMT--------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
       "disciplineCode": "FEN",
       "sportZh": "擊劍",
       "sportEn": "Fencing",
@@ -448,7 +494,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -538,7 +584,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -583,7 +629,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -628,7 +674,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -673,7 +719,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -718,7 +764,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -763,7 +809,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -808,7 +854,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -853,7 +899,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -898,7 +944,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -922,52 +968,6 @@
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T09:00:00+08:00",
       "startTimeJst": "2026-09-24T10:00:00+09:00",
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Skeet Mixed Team",
-      "phase": "Skeet Mixed Team Qualification",
-      "unit": "Skeet Mixed Team - Qualification",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Meng-Yuan",
-        "LO Chien-Ya"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "91",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "8",
-      "orgCount": 11,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.SKMT--------------.QUAL.000100--",
-          "id": "SHO:X.SKMT--------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
@@ -979,7 +979,7 @@
         "CHEN Szu-yu",
         "WU Ying-syuan"
       ],
-      "opponent": "LEONG On Na/KUAN Cheok Lam",
+      "opponent": "LEONG On Na / KUAN Cheok Lam",
       "opponentCode": "MAC",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -990,7 +990,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1218,7 +1218,7 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "1.68",
         "opponent": null,
@@ -1260,7 +1260,7 @@
         "YEH Yi-tian",
         "CHENG I-ching"
       ],
-      "opponent": "PYON Song Gyong/CHOE Jong Im",
+      "opponent": "PYON Song Gyong / CHOE Jong Im",
       "opponentCode": "PRK",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1271,7 +1271,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1402,14 +1402,14 @@
       "opponentCode": "MGL",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "10",
-        "opponent": "5",
+        "tpe": "12",
+        "opponent": "7",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1460,8 +1460,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "13",
+        "opponent": "10",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1531,6 +1531,47 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T12:00:00+08:00",
+      "startTimeJst": "2026-09-24T13:00:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Table of 32",
+      "unit": "Men's Épée Individual - Table of 32 - Table of 32",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Rang"
+      ],
+      "opponent": "ULAANKHUU Munkhkhasar",
+      "opponentCode": "MGL",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.R32-.001500--",
+          "id": "FEN:M.EPEE--------------.R32-.001500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T12:15:00+08:00",
       "startTimeJst": "2026-09-24T13:15:00+09:00",
       "disciplineCode": "KAB",
@@ -1565,6 +1606,47 @@
         "results": {
           "unitId": "M.TEAM7-------------.GPA-.001000--",
           "id": "KAB:M.TEAM7-------------.GPA-.001000--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T12:20:00+08:00",
+      "startTimeJst": "2026-09-24T13:20:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Table of 32",
+      "unit": "Men's Épée Individual - Table of 32 - Table of 32",
+      "athletes": [],
+      "athletesEn": [
+        "GUILLEMOT Yilu Gaston"
+      ],
+      "opponent": "BAKYTBEK UULU Ilim",
+      "opponentCode": "KGZ",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.R32-.000600--",
+          "id": "FEN:M.EPEE--------------.R32-.000600--"
         }
       }
     },
@@ -2088,6 +2170,50 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T16:40:00+08:00",
+      "startTimeJst": "2026-09-24T17:40:00+09:00",
+      "disciplineCode": "BK3",
+      "sportZh": "3x3籃球",
+      "sportEn": "3x3 Basketball",
+      "event": "Women",
+      "phase": "Women Quarterfinals",
+      "unit": "Women Quarterfinals Game 1",
+      "athletes": [],
+      "athletesEn": [
+        "YU Chin-hua",
+        "TSAI Yu-lien",
+        "CHEN Wei-han",
+        "CHANG Yu-min"
+      ],
+      "opponent": "Republic of Korea",
+      "opponentCode": "KOR",
+      "venue": "Kinjo Futo Station Square Venue",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM3-------------.QFNL.000100--",
+          "id": "BK3:W.TEAM3-------------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T17:35:00+08:00",
       "startTimeJst": "2026-09-24T18:35:00+09:00",
       "disciplineCode": "GAR",
@@ -2311,10 +2437,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 44,
+    "resultsOnly": 47,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 52
+    "warnings": 55
   },
   "warnings": [
     {
@@ -2326,6 +2452,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 Match 1",
       "row": "ELS:O.NRK---------------.SFNL.00010000"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Mixed Team - Qualification",
+      "row": "SHO:X.SKMT--------------.QUAL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2381,11 +2512,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 6 - Bout 15",
       "row": "FEN:M.EPEE--------------.GPF-.001500--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Skeet Mixed Team - Qualification",
-      "row": "SHO:X.SKMT--------------.QUAL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2449,8 +2575,18 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 12:00 Men's Épée Individual - Table of 32 - Table of 32",
+      "row": "FEN:M.EPEE--------------.R32-.001500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 12:15 Game 10",
       "row": "KAB:M.TEAM7-------------.GPA-.001000--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 12:20 Men's Épée Individual - Table of 32 - Table of 32",
+      "row": "FEN:M.EPEE--------------.R32-.000600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2511,6 +2647,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 16:20 Match 8",
       "row": "ELS:O.PYO---------------.GPB-.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BK3 16:40 Women Quarterfinals Game 1",
+      "row": "BK3:W.TEAM3-------------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
