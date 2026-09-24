@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T14:06:50.200Z",
+  "generatedAt": "2026-09-24T14:18:19.266Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T14:06:50.037Z",
+      "generatedAt": "2026-09-24T14:18:19.091Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -516,8 +516,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -578,6 +578,119 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T08:30:00+08:00",
       "startTimeJst": "2026-09-25T09:30:00+09:00",
+      "disciplineCode": "EQU",
+      "sportZh": "馬術",
+      "sportEn": "Equestrian",
+      "event": "Dressage Team",
+      "phase": "Dressage Team Final",
+      "unit": "Dressage Team Team Final",
+      "athletes": [],
+      "athletesEn": [
+        "YEH Hsiu-hua",
+        "WANG Yu-jun",
+        "SHYONG Tien-chi",
+        "CHEN Yi-ju"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 9,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.DRESTEAM----------.FNL-.000100--",
+          "id": "EQU:O.DRESTEAM----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "startTimeJst": "2026-09-25T09:30:00+09:00",
+      "disciplineCode": "EQU",
+      "sportZh": "馬術",
+      "sportEn": "Equestrian",
+      "event": "Dressage Individual",
+      "phase": "Dressage 1st Individual Qualifier",
+      "unit": "Dressage Individual Team Competition & 1st Individual Qualifier",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Yu-jun",
+        "CHEN Yi-ju",
+        "SHYONG Tien-chi",
+        "YEH Hsiu-hua"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "WANG Yu-jun",
+          "registration": "10521853",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHEN Yi-ju",
+          "registration": "2724373",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "SHYONG Tien-chi",
+          "registration": "2703666",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "YEH Hsiu-hua",
+          "registration": "10513535",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 16,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.DRESINDV----------.1Q--.000100--",
+          "id": "EQU:O.DRESINDV----------.1Q--.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "startTimeJst": "2026-09-25T09:30:00+09:00",
       "disciplineCode": "FEN",
       "sportZh": "擊劍",
       "sportEn": "Fencing",
@@ -610,92 +723,6 @@
         "results": {
           "unitId": "M.TEAMFOIL----------.8FNL.000700--",
           "id": "FEN:M.TEAMFOIL----------.8FNL.000700--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
-      "startTimeJst": "2026-09-25T09:30:00+09:00",
-      "disciplineCode": "EQU",
-      "sportZh": "馬術",
-      "sportEn": "Equestrian",
-      "event": "Dressage Team",
-      "phase": "Dressage Team Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": null,
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Yi-ju",
-        "SHYONG Tien-chi",
-        "WANG Yu-jun",
-        "YEH Hsiu-hua"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "EQU|O.DRESTEAM----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T08:30:00+08:00",
-      "startTimeJst": "2026-09-25T09:30:00+09:00",
-      "disciplineCode": "EQU",
-      "sportZh": "馬術",
-      "sportEn": "Equestrian",
-      "event": "Dressage Individual",
-      "phase": "Dressage 1st Individual Qualifier",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": null,
-      "venueZh": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Yi-ju",
-        "SHYONG Tien-chi",
-        "WANG Yu-jun",
-        "YEH Hsiu-hua"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "EQU|O.DRESINDV----------"
         }
       }
     },
@@ -2442,16 +2469,26 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 42,
-    "entered": 2,
+    "resultsOnly": 44,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 57
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SRF 06:46 Women's Shortboard - Round 1 - Heat 3",
       "row": "SRF:W.SHORTBRD----------.PREL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：EQU 08:30 Dressage Team Team Final",
+      "row": "EQU:O.DRESTEAM----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：EQU 08:30 Dressage Individual Team Competition & 1st Individual Qualifier",
+      "row": "EQU:O.DRESINDV----------.1Q--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
