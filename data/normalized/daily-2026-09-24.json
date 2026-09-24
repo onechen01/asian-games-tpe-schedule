@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T06:45:37.061Z",
+  "generatedAt": "2026-09-24T06:58:52.441Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T06:45:36.887Z",
+      "generatedAt": "2026-09-24T06:58:52.265Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 4,
+          "recovered": 4,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2214,7 +2214,7 @@
       "opponentCode": "PHI",
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
