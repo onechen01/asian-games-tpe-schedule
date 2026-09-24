@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T03:57:04.406Z",
+  "generatedAt": "2026-09-24T04:25:33.128Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T03:57:04.222Z",
+      "generatedAt": "2026-09-24T04:25:32.997Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -338,7 +338,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -351,7 +351,7 @@
           "name": "YEH Ting-Wei",
           "registration": "9615634",
           "result": "569-16x",
-          "rank": "33"
+          "rank": "32"
         }
       ],
       "tpeRank": "19",
@@ -396,7 +396,7 @@
       "opponentCode": "CHN",
       "venue": "",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "3",
@@ -937,7 +937,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "128",
         "opponent": null,
@@ -1442,26 +1442,26 @@
       "athletes": [],
       "athletesEn": [
         "LIN I-min",
-        "YEN Chiao-wen",
-        "FENG Hsiu-chen",
-        "QIN Pei-jyun",
-        "WU Yu-jung",
-        "KANG Yung-chiao",
+        "CHUANG Ya-han",
         "HU Yu-chen",
         "HUANG Ssu-chin",
-        "CHUANG Ya-han",
+        "YEN Chiao-wen",
+        "REN Ming-xiu",
+        "KANG Yung-chiao",
+        "FENG Hsiu-chen",
+        "QIN Pei-jyun",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "REN Ming-xiu"
+        "WU Yu-jung"
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "39",
-        "opponent": "29",
+        "tpe": "43",
+        "opponent": "31",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1506,14 +1506,14 @@
       "opponentCode": "MAS",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
-        "opponent": "0",
+        "tpe": "21",
+        "opponent": "14",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1551,10 +1551,14 @@
       "opponentCode": "MGL",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "15",
+        "opponent": "10",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1586,25 +1590,29 @@
       "unit": "Game 10",
       "athletes": [],
       "athletesEn": [
-        "CHANG Chung-mao",
-        "JIN Wu Fu-kai",
-        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "YEH Jiunn-ming",
-        "CHEN Zheng-wei",
+        "SU Hsiang-chih",
         "CHUANG Chia-ming",
-        "LI Jyun-jie",
         "LIN Po-ting",
-        "CAI Ruei-chen",
-        "SU Hsiang-chih"
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
       ],
       "opponent": "India",
       "opponentCode": "IND",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "4",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1644,8 +1652,12 @@
       "opponentCode": "KGZ",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2231,6 +2243,50 @@
     },
     {
       "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T17:30:00+08:00",
+      "startTimeJst": "2026-09-24T18:30:00+09:00",
+      "disciplineCode": "BK3",
+      "sportZh": "3x3籃球",
+      "sportEn": "3x3 Basketball",
+      "event": "Men",
+      "phase": "Men Quarterfinals",
+      "unit": "Men Quarterfinals Game 1",
+      "athletes": [],
+      "athletesEn": [
+        "YEH Wei-chieh",
+        "TZOU Tzu-hsi",
+        "CHANG Chun-sheng",
+        "HSU Tang-chi"
+      ],
+      "opponent": "Philippines",
+      "opponentCode": "PHI",
+      "venue": "Kinjo Futo Station Square Venue",
+      "venueZh": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM3-------------.QFNL.000100--",
+          "id": "BK3:M.TEAM3-------------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T17:35:00+08:00",
       "startTimeJst": "2026-09-24T18:35:00+09:00",
       "disciplineCode": "GAR",
@@ -2488,6 +2544,47 @@
           "id": "ATH:M.100M--------------.RND1.000500--"
         }
       }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T20:00:00+08:00",
+      "startTimeJst": "2026-09-24T21:00:00+09:00",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's Heptathlon",
+      "phase": "Women's Heptathlon 200 Metres",
+      "unit": "Women's Heptathlon 200 Metres Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Cai-juan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 4,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.HEPTATH-----------.200-.000100--",
+          "id": "ATH:W.HEPTATH-----------.200-.000100--"
+        }
+      }
     }
   ],
   "coverageComplete": true,
@@ -2495,10 +2592,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 48,
+    "resultsOnly": 50,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 56
+    "warnings": 55
   },
   "warnings": [
     {
@@ -2713,6 +2810,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BK3 17:30 Men Quarterfinals Game 1",
+      "row": "BK3:M.TEAM3-------------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：GAR 17:35 Men's Pommel Horse Final",
       "row": "GAR:M.1APPH-------------.FNL-.000001--"
     },
@@ -2742,19 +2844,14 @@
       "row": "ATH:M.100M--------------.RND1.000500--"
     },
     {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:00 Women's Heptathlon 200 Metres Heat 1",
+      "row": "ATH:W.HEPTATH-----------.200-.000100--"
+    },
+    {
       "code": "PENDING_LATER_UNITS",
       "row": "FEN|M.EPEE--------------",
       "message": "FEN Men's Épée Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SHO|X.SKMT--------------",
-      "message": "SHO Skeet Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SHO|M.APM---------------",
-      "message": "SHO 10m Air Pistol Men Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -2775,11 +2872,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BK3|W.TEAM3-------------",
       "message": "BK3 Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ATH|W.HEPTATH-----------",
-      "message": "ATH Women's Heptathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
