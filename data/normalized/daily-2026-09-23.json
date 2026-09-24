@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T03:42:11.505Z",
+  "generatedAt": "2026-09-24T03:53:47.750Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-23/schedule-2026-09-23-AUTO.json",
-      "generatedAt": "2026-09-24T03:42:11.364Z",
+      "generatedAt": "2026-09-24T03:53:47.580Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -307,47 +307,10 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-24",
-            "unitId": "W.PARK--------------.QUAL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-24T11:00:00+08:59",
-            "recoveredStartTime": "2026-09-24T11:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-24",
-            "unitId": "W.PARK--------------.QUAL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-24T11:55:00+08:59",
-            "recoveredStartTime": "2026-09-24T11:55:00+09:00"
-          },
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-24",
-            "unitId": "M.PARK--------------.QUAL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-24T15:00:00+08:59",
-            "recoveredStartTime": "2026-09-24T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-24",
-            "unitId": "M.PARK--------------.QUAL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-24T15:55:00+08:59",
-            "recoveredStartTime": "2026-09-24T15:55:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,

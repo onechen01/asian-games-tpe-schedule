@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T03:45:27.353Z",
+  "generatedAt": "2026-09-24T03:57:04.406Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T03:45:27.219Z",
+      "generatedAt": "2026-09-24T03:57:04.222Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -300,44 +300,7 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-24",
-            "unitId": "W.PARK--------------.QUAL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-24T11:00:00+08:59",
-            "recoveredStartTime": "2026-09-24T11:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-24",
-            "unitId": "W.PARK--------------.QUAL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-24T11:55:00+08:59",
-            "recoveredStartTime": "2026-09-24T11:55:00+09:00"
-          },
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-24",
-            "unitId": "M.PARK--------------.QUAL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-24T15:00:00+08:59",
-            "recoveredStartTime": "2026-09-24T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-24",
-            "unitId": "M.PARK--------------.QUAL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-24T15:55:00+08:59",
-            "recoveredStartTime": "2026-09-24T15:55:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
           "initialMissing": 1,
           "recovered": 1,
@@ -387,8 +350,8 @@
         {
           "name": "YEH Ting-Wei",
           "registration": "9615634",
-          "result": "541-16x",
-          "rank": "32"
+          "result": "569-16x",
+          "rank": "33"
         }
       ],
       "tpeRank": "19",
@@ -981,7 +944,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "9",
+      "tpeRank": "10",
       "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1346,7 +1309,7 @@
       "opponentCode": null,
       "venue": "Obata Ryokuchi Park",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1:35:53",
         "opponent": null,
@@ -1376,7 +1339,7 @@
     {
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T10:00:00+08:00",
-      "startTimeJst": "2026-09-24T11:00:00+08:59",
+      "startTimeJst": "2026-09-24T11:00:00+09:00",
       "disciplineCode": "SKB",
       "sportZh": "滑板",
       "sportEn": "Skateboarding",
@@ -1391,7 +1354,7 @@
       "opponentCode": null,
       "venue": "Aichi Sky Expo Hall B",
       "venueZh": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "78.53",
         "opponent": null,
@@ -1497,8 +1460,8 @@
       "venueZh": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "33",
-        "opponent": "22",
+        "tpe": "39",
+        "opponent": "29",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1543,8 +1506,12 @@
       "opponentCode": "MAS",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1827,7 +1794,7 @@
     {
       "date": "2026-09-24",
       "startTimeTaipei": "2026-09-24T14:00:00+08:00",
-      "startTimeJst": "2026-09-24T15:00:00+08:59",
+      "startTimeJst": "2026-09-24T15:00:00+09:00",
       "disciplineCode": "SKB",
       "sportZh": "滑板",
       "sportEn": "Skateboarding",
@@ -2801,13 +2768,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "BK3|W.TEAM3-------------",
-      "message": "BK3 Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "BK3|M.TEAM3-------------",
+      "message": "BK3 Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "BK3|M.TEAM3-------------",
-      "message": "BK3 Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "BK3|W.TEAM3-------------",
+      "message": "BK3 Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
