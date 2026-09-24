@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T09:05:38.814Z",
+  "generatedAt": "2026-09-24T09:35:10.855Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T09:05:38.700Z",
+      "generatedAt": "2026-09-24T09:35:10.678Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2590,8 +2590,12 @@
       "opponentCode": "PHI",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "2",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
