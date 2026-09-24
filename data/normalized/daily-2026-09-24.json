@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:54:55.413Z",
+  "generatedAt": "2026-09-24T12:04:06.663Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T11:54:55.226Z",
+      "generatedAt": "2026-09-24T12:04:06.487Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2825,8 +2825,12 @@
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -2911,10 +2915,14 @@
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "25.77",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 4,
       "tpeMedal": null,
       "tpenocResult": null,
