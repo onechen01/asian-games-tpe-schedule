@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T08:47:09.160Z",
+  "generatedAt": "2026-09-24T09:05:38.814Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T08:47:08.992Z",
+      "generatedAt": "2026-09-24T09:05:38.700Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1632,17 +1632,17 @@
       "athletes": [],
       "athletesEn": [
         "LIN I-min",
-        "YEN Chiao-wen",
-        "FENG Hsiu-chen",
-        "QIN Pei-jyun",
-        "WU Yu-jung",
-        "KANG Yung-chiao",
+        "CHUANG Ya-han",
         "HU Yu-chen",
         "HUANG Ssu-chin",
-        "CHUANG Ya-han",
+        "YEN Chiao-wen",
+        "REN Ming-xiu",
+        "KANG Yung-chiao",
+        "FENG Hsiu-chen",
+        "QIN Pei-jyun",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "REN Ming-xiu"
+        "WU Yu-jung"
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
@@ -1780,18 +1780,18 @@
       "unit": "Game 10",
       "athletes": [],
       "athletesEn": [
-        "CHANG Chung-mao",
-        "JIN Wu Fu-kai",
-        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "YEH Jiunn-ming",
-        "CHEN Zheng-wei",
+        "SU Hsiang-chih",
         "CHUANG Chia-ming",
-        "LI Jyun-jie",
         "LIN Po-ting",
-        "CAI Ruei-chen",
-        "SU Hsiang-chih"
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
       ],
       "opponent": "India",
       "opponentCode": "IND",
@@ -2214,14 +2214,14 @@
       "opponentCode": "PHI",
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "82",
+        "tpe": "83",
         "opponent": "71",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2542,14 +2542,14 @@
       "opponentCode": "KOR",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "4",
-        "opponent": "6",
+        "tpe": "12",
+        "opponent": "14",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2590,7 +2590,7 @@
       "opponentCode": "PHI",
       "venue": "Kinjo Futo Station Square Venue",
       "venueZh": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
