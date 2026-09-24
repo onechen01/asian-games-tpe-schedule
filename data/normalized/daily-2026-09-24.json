@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:59:08.423Z",
+  "generatedAt": "2026-09-24T05:16:40.062Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-24T04:59:08.252Z",
+      "generatedAt": "2026-09-24T05:16:39.870Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -492,8 +492,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1797,10 +1797,10 @@
       "opponentCode": "IND",
       "venue": "Tokai Citizen Gymnasium",
       "venueZh": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "15",
-        "opponent": "28",
+        "tpe": "21",
+        "opponent": "37",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1881,14 +1881,63 @@
       "unit": "Men's Épée Individual - Table of 16 - Table of 16",
       "athletes": [],
       "athletesEn": [
+        "GUILLEMOT Yilu Gaston"
+      ],
+      "opponent": "PROKHODOV Kirill",
+      "opponentCode": "KAZ",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "9",
+        "opponent": "9",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.EPEE--------------.8FNL.000300--",
+          "id": "FEN:M.EPEE--------------.8FNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T12:55:00+08:00",
+      "startTimeJst": "2026-09-24T13:55:00+09:00",
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Individual",
+      "phase": "Men's Épée Individual Table of 16",
+      "unit": "Men's Épée Individual - Table of 16 - Table of 16",
+      "athletes": [],
+      "athletesEn": [
         "LEE Rang"
       ],
       "opponent": "YAMADA Masaru",
       "opponentCode": "JPN",
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "7",
+        "opponent": "6",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1928,8 +1977,12 @@
       "opponentCode": null,
       "venue": "Nagaragawa International Regatta Course(Gifu)",
       "venueZh": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -2823,10 +2876,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 51,
+    "resultsOnly": 52,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 56
   },
   "warnings": [
     {
@@ -2973,6 +3026,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：FEN 12:20 Men's Épée Individual - Table of 32 - Table of 32",
       "row": "FEN:M.EPEE--------------.R32-.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 12:55 Men's Épée Individual - Table of 16 - Table of 16",
+      "row": "FEN:M.EPEE--------------.8FNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
