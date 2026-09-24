@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T03:59:12.653Z",
+  "generatedAt": "2026-09-24T04:44:36.201Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-24T03:59:12.483Z",
+      "generatedAt": "2026-09-24T04:44:36.037Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -324,7 +324,197 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [],
+        "timezoneAnomalies": [
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.PREL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T07:00:00+08:59",
+            "recoveredStartTime": "2026-09-25T07:00:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.PREL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T07:23:00+08:59",
+            "recoveredStartTime": "2026-09-25T07:23:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.PREL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T07:46:00+08:59",
+            "recoveredStartTime": "2026-09-25T07:46:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.PREL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T08:09:00+08:59",
+            "recoveredStartTime": "2026-09-25T08:09:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.PREL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T08:32:00+08:59",
+            "recoveredStartTime": "2026-09-25T08:32:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.PREL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T08:55:00+08:59",
+            "recoveredStartTime": "2026-09-25T08:55:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.PREL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T09:18:00+08:59",
+            "recoveredStartTime": "2026-09-25T09:18:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.PREL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T09:41:00+08:59",
+            "recoveredStartTime": "2026-09-25T09:41:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "M.SHORTBRD----------.PREL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T10:04:00+08:59",
+            "recoveredStartTime": "2026-09-25T10:04:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "M.SHORTBRD----------.PREL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T10:27:00+08:59",
+            "recoveredStartTime": "2026-09-25T10:27:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "M.SHORTBRD----------.PREL.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T10:50:00+08:59",
+            "recoveredStartTime": "2026-09-25T10:50:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "M.SHORTBRD----------.PREL.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T11:13:00+08:59",
+            "recoveredStartTime": "2026-09-25T11:13:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "M.SHORTBRD----------.PREL.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T11:36:00+08:59",
+            "recoveredStartTime": "2026-09-25T11:36:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "M.SHORTBRD----------.PREL.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T11:59:00+08:59",
+            "recoveredStartTime": "2026-09-25T11:59:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "M.SHORTBRD----------.PREL.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T12:22:00+08:59",
+            "recoveredStartTime": "2026-09-25T12:22:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "M.SHORTBRD----------.PREL.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T12:45:00+08:59",
+            "recoveredStartTime": "2026-09-25T12:45:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.REP-.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T13:08:00+08:59",
+            "recoveredStartTime": "2026-09-25T13:08:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.REP-.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T13:36:00+08:59",
+            "recoveredStartTime": "2026-09-25T13:36:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.REP-.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T14:04:00+08:59",
+            "recoveredStartTime": "2026-09-25T14:04:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.REP-.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T14:32:00+08:59",
+            "recoveredStartTime": "2026-09-25T14:32:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-25",
+            "unitId": "W.SHORTBRD----------.REP-.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-25T15:00:00+08:59",
+            "recoveredStartTime": "2026-09-25T15:00:00+09:00"
+          }
+        ],
         "recovery": {
           "initialMissing": 0,
           "recovered": 0,
@@ -345,42 +535,42 @@
   "rows": [
     {
       "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T06:00:00+08:00",
-      "startTimeJst": "2026-09-25T07:00:00+09:00",
+      "startTimeTaipei": "2026-09-25T06:46:00+08:00",
+      "startTimeJst": "2026-09-25T07:46:00+08:59",
       "disciplineCode": "SRF",
       "sportZh": "衝浪",
       "sportEn": "Surfing",
       "event": "Women's Shortboard",
-      "phase": "Women's Round 1",
-      "unit": null,
+      "phase": "Women's Shortboard Round 1",
+      "unit": "Women's Shortboard - Round 1 - Heat 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Wan-yu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
       "venueZh": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 3,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "CHEN Wan-yu",
-        "CHUNG Yun-jung"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SRF|W.SHORTBRD----------"
+        "results": {
+          "unitId": "W.SHORTBRD----------.PREL.000300--",
+          "id": "SRF:W.SHORTBRD----------.PREL.000300--"
         }
       }
     },
@@ -635,6 +825,47 @@
       "sources": {
         "entries": {
           "eventId": "FEN|M.TEAMFOIL----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T08:41:00+08:00",
+      "startTimeJst": "2026-09-25T09:41:00+08:59",
+      "disciplineCode": "SRF",
+      "sportZh": "衝浪",
+      "sportEn": "Surfing",
+      "event": "Women's Shortboard",
+      "phase": "Women's Shortboard Round 1",
+      "unit": "Women's Shortboard - Round 1 - Heat 8",
+      "athletes": [],
+      "athletesEn": [
+        "CHUNG Yun-jung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "venueZh": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 3,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SHORTBRD----------.PREL.000800--",
+          "id": "SRF:W.SHORTBRD----------.PREL.000800--"
         }
       }
     },
@@ -1877,12 +2108,22 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 20,
-    "entered": 15,
+    "resultsOnly": 22,
+    "entered": 14,
     "unresolvedTbd": 0,
-    "warnings": 26
+    "warnings": 29
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SRF 06:46 Women's Shortboard - Round 1 - Heat 3",
+      "row": "SRF:W.SHORTBRD----------.PREL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SRF 08:41 Women's Shortboard - Round 1 - Heat 8",
+      "row": "SRF:W.SHORTBRD----------.PREL.000800--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:45 10m Air Pistol Mixed Team - Qualification",
@@ -1987,6 +2228,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SHO|X.APMT--------------",
       "message": "SHO 10m Air Pistol Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SRF|W.SHORTBRD----------",
+      "message": "SRF Women's Shortboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
