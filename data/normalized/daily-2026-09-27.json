@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T19:29:05.356Z",
+  "generatedAt": "2026-09-25T19:39:18.626Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-25T19:29:05.162Z",
+      "generatedAt": "2026-09-25T19:39:18.454Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -381,52 +381,6 @@
       "sources": {
         "entries": {
           "eventId": "FEN|M.TEAMEPEE----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T08:30:00+08:00",
-      "startTimeJst": "2026-09-27T09:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "KUR",
-      "sportZh": "克拉術",
-      "sportEn": "Kurash",
-      "event": "Women -57kg",
-      "phase": "Women -57kg Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "locationCode": "PMA",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "LEE Wan-ting",
-        "WANG Pin-chun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "KUR|W.57KG--------------"
         }
       }
     },
@@ -1465,7 +1419,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 7,
-    "entered": 16,
+    "entered": 15,
     "unresolvedTbd": 0,
     "warnings": 7
   },
