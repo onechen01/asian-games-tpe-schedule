@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T00:05:23.465Z",
+  "generatedAt": "2026-09-25T00:15:00.755Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T00:05:23.293Z",
+      "generatedAt": "2026-09-25T00:15:00.584Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -880,7 +880,7 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000600--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -931,7 +931,7 @@
       "locationName": "Court 2",
       "courtSessionChainId": "BDM|2026-09-25|002|X.DOUBLES-----------.R32-.000800--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000800--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1368,7 +1368,7 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
       "courtPredecessorUnitId": "M.SINGLES-----------.R64-.002900--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1796,7 +1796,7 @@
       "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
-      "tpeRank": "9",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3679,11 +3679,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "ELS|O.FTG---------------",
-      "message": "ELS Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "SWM|W.50MBF-------------",
       "message": "SWM Women's 50m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -3691,6 +3686,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TTE|M.DOUBLES-----------",
       "message": "TTE Men's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ELS|O.FTG---------------",
+      "message": "ELS Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
