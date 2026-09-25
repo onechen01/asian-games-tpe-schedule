@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T02:16:38.328Z",
+  "generatedAt": "2026-09-25T02:26:07.310Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T02:16:38.192Z",
+      "generatedAt": "2026-09-25T02:26:07.141Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -426,7 +426,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "6",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -479,7 +479,7 @@
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "62.882",
-          "rank": "8"
+          "rank": "9"
         },
         {
           "name": "CHEN Yi-ju",
@@ -500,7 +500,7 @@
           "rank": null
         }
       ],
-      "tpeRank": "8",
+      "tpeRank": "9",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1179,10 +1179,14 @@
       "locationName": "Swimming Pool",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1:59.40",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1228,8 +1232,12 @@
       "locationName": "Swimming Pool",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -1274,8 +1282,12 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 8,
@@ -1434,6 +1446,55 @@
         "results": {
           "unitId": "M.C1-500M-----------.FNL-.000100--",
           "id": "CSP:M.C1-500M-----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:50:00+08:00",
+      "startTimeJst": "2026-09-25T11:50:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Foil Team",
+      "phase": "Men's Foil Team Quarterfinals",
+      "unit": "Men's Foil Team - Quarterfinals - Quarterfinal 4",
+      "athletes": [],
+      "athletesEn": [
+        "KUO Chun-You",
+        "HSU Sheng-Hung",
+        "CHEN Chih-Chieh",
+        "CHEN Yi-Tung"
+      ],
+      "opponent": "Republic of Korea",
+      "opponentCode": "KOR",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "locationCode": "FER",
+      "locationName": "Red",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAMFOIL----------.QFNL.000400--",
+          "id": "FEN:M.TEAMFOIL----------.QFNL.000400--"
         }
       }
     },
@@ -3636,10 +3697,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 56,
+    "resultsOnly": 57,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 67
+    "warnings": 68
   },
   "warnings": [
     {
@@ -3746,6 +3807,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CSP 10:50 Men's Canoe Single 500m Final Final A",
       "row": "CSP:M.C1-500M-----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 10:50 Men's Foil Team - Quarterfinals - Quarterfinal 4",
+      "row": "FEN:M.TEAMFOIL----------.QFNL.000400--"
     },
     {
       "code": "RESULTS_ONLY",
