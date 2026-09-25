@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-25T04:55:01.713Z",
-  "completeness": "partial",
+  "generatedAt": "2026-09-25T08:28:27.811Z",
+  "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-25T04:55:01.580Z",
+  "standingsUpdatedAt": "2026-09-25T08:28:27.798Z",
   "ledgerCounts": {
     "gold": 1,
-    "silver": 4,
-    "bronze": 11,
-    "total": 16
+    "silver": 5,
+    "bronze": 13,
+    "total": 19
   },
   "officialCounts": {
     "gold": 1,
     "silver": 5,
-    "bronze": 12,
-    "total": 18
+    "bronze": 13,
+    "total": 19
   },
   "missing": {
     "gold": 0,
-    "silver": 1,
-    "bronze": 1,
-    "total": 2
+    "silver": 0,
+    "bronze": 0,
+    "total": 0
   },
   "awards": [
     {
@@ -286,6 +286,38 @@
       "rank": "3"
     },
     {
+      "disciplineCode": "CSP",
+      "sportZh": "輕艇靜水",
+      "event": "Men's Canoe Single 500m",
+      "phase": "Men's Canoe Single 500m Final",
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:50:00+08:00",
+      "resultId": "CSP:M.C1-500M-----------.FNL-.000100--",
+      "unitId": "M.C1-500M-----------.FNL-.000100--",
+      "awardId": "CSP:M.C1-500M-----------.FNL-.000100--",
+      "medal": "ME_BRONZE",
+      "athletes": [
+        "LAI Kuan-chieh"
+      ],
+      "rank": "3"
+    },
+    {
+      "disciplineCode": "SKB",
+      "sportZh": "滑板",
+      "event": "Men's Park",
+      "phase": "Men's Park Final",
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T11:30:00+08:00",
+      "resultId": "SKB:M.PARK--------------.FNL-.000100--",
+      "unitId": "M.PARK--------------.FNL-.000100--",
+      "awardId": "SKB:M.PARK--------------.FNL-.000100--",
+      "medal": "ME_SILVER",
+      "athletes": [
+        "KU Yong-yan"
+      ],
+      "rank": "2"
+    },
+    {
       "disciplineCode": "SKB",
       "sportZh": "滑板",
       "event": "Women's Park",
@@ -300,6 +332,22 @@
         "LIN Yi-fan"
       ],
       "rank": "2"
+    },
+    {
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "event": "Women's 57kg",
+      "phase": "Women's 57kg All Groups",
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T12:30:00+08:00",
+      "resultId": "WLF:W.57KG--------------.FNL-.A00100--",
+      "unitId": "W.57KG--------------.FNL-.A00100--",
+      "awardId": "WLF:W.57KG--------------.FNL-.A00100--",
+      "medal": "ME_BRONZE",
+      "athletes": [
+        "CHEN Guan-ling"
+      ],
+      "rank": "3"
     }
   ]
 }

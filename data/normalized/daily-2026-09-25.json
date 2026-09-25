@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T07:50:31.002Z",
+  "generatedAt": "2026-09-25T08:25:41.519Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T07:50:30.867Z",
+      "generatedAt": "2026-09-25T08:25:41.373Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -324,155 +324,10 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T07:00:00+08:59",
-            "recoveredStartTime": "2026-09-25T07:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T07:23:00+08:59",
-            "recoveredStartTime": "2026-09-25T07:23:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T07:46:00+08:59",
-            "recoveredStartTime": "2026-09-25T07:46:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T08:09:00+08:59",
-            "recoveredStartTime": "2026-09-25T08:09:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T08:32:00+08:59",
-            "recoveredStartTime": "2026-09-25T08:32:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T12:45:00+08:59",
-            "recoveredStartTime": "2026-09-25T12:45:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T13:08:00+08:59",
-            "recoveredStartTime": "2026-09-25T13:08:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "W.SHORTBRD----------.PREL.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T13:31:00+08:59",
-            "recoveredStartTime": "2026-09-25T13:31:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T13:54:00+08:59",
-            "recoveredStartTime": "2026-09-25T13:54:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T14:17:00+08:59",
-            "recoveredStartTime": "2026-09-25T14:17:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T14:40:00+08:59",
-            "recoveredStartTime": "2026-09-25T14:40:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T15:03:00+08:59",
-            "recoveredStartTime": "2026-09-25T15:03:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T15:26:00+08:59",
-            "recoveredStartTime": "2026-09-25T15:26:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T15:49:00+08:59",
-            "recoveredStartTime": "2026-09-25T15:49:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T16:12:00+08:59",
-            "recoveredStartTime": "2026-09-25T16:12:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-25",
-            "unitId": "M.SHORTBRD----------.PREL.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-25T16:35:00+08:59",
-            "recoveredStartTime": "2026-09-25T16:35:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -488,56 +343,6 @@
   },
   "date": "2026-09-25",
   "rows": [
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T06:46:00+08:00",
-      "startTimeJst": "2026-09-25T07:46:00+08:59",
-      "timeNote": null,
-      "disciplineCode": "SRF",
-      "sportZh": "衝浪",
-      "sportEn": "Surfing",
-      "event": "Women's Shortboard",
-      "phase": "Women's Shortboard Round 1",
-      "unit": "Women's Shortboard - Round 1 - Heat 3",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Wan-yu"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "venueZh": null,
-      "locationCode": "SRF",
-      "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "5.53",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "2",
-      "orgCount": 3,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SHORTBRD----------.PREL.000300--",
-          "id": "SRF:W.SHORTBRD----------.PREL.000300--"
-        }
-      }
-    },
     {
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T08:30:00+08:00",
@@ -564,7 +369,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "197.824",
         "opponent": null,
@@ -617,7 +422,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -2019,56 +1824,6 @@
     },
     {
       "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T12:31:00+08:00",
-      "startTimeJst": "2026-09-25T13:31:00+08:59",
-      "timeNote": null,
-      "disciplineCode": "SRF",
-      "sportZh": "衝浪",
-      "sportEn": "Surfing",
-      "event": "Women's Shortboard",
-      "phase": "Women's Shortboard Round 1",
-      "unit": "Women's Shortboard - Round 1 - Heat 8",
-      "athletes": [],
-      "athletesEn": [
-        "CHUNG Yun-jung"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "venueZh": null,
-      "locationCode": "SRF",
-      "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "6.56",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "2",
-      "orgCount": 3,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SHORTBRD----------.PREL.000800--",
-          "id": "SRF:W.SHORTBRD----------.PREL.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T13:00:00+08:00",
       "startTimeJst": "2026-09-25T14:00:00+09:00",
       "timeNote": null,
@@ -2319,14 +2074,14 @@
       "locationName": "Shizuoka Stadium Ecopa",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "1",
         "opponent": "5",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2421,14 +2176,14 @@
       "locationName": "Table 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "2",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2471,8 +2226,12 @@
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -2518,10 +2277,14 @@
       "locationName": "Table 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2564,8 +2327,12 @@
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 9,
@@ -2845,7 +2612,20 @@
       "phase": "Women's Team Semifinals",
       "unit": "Women's Team Semifinals",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIN I-min",
+        "CHUANG Ya-han",
+        "HU Yu-chen",
+        "HUANG Ssu-chin",
+        "YEN Chiao-wen",
+        "REN Ming-xiu",
+        "KANG Yung-chiao",
+        "FENG Hsiu-chen",
+        "QIN Pei-jyun",
+        "HUANG Yi-yun",
+        "CHEN Shi-han",
+        "WU Yu-jung"
+      ],
       "opponent": "Islamic Republic of Iran",
       "opponentCode": "IRI",
       "venue": "Tokai Citizen Gymnasium",
@@ -2854,7 +2634,7 @@
       "locationName": "TCG Crt 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2935,7 +2715,32 @@
       "phase": "Men's Super Round",
       "unit": "Game 15",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Chen-wei",
+        "CHEN Hsiao-yun",
+        "HUANG Wei-sheng",
+        "LIU Ji-hong",
+        "CHEN Min-sih",
+        "KAO Yu-wei",
+        "CHU Chia-en",
+        "TSAI Wei-tai",
+        "YANG Po-hsiang",
+        "WANG Yan-cheng",
+        "LIN Yi-wei",
+        "YU Tsung-ju",
+        "KUO Tzu-chuan",
+        "LI I-wei",
+        "CHANG Hsiang",
+        "WANG Yu-chieh",
+        "LIN Yu-li",
+        "HUANG Chieh-han",
+        "WANG Cheng-hao",
+        "YANG Chen-yu",
+        "GUO Dinghong",
+        "HSU Siang-sheng",
+        "LIN Yu-min",
+        "LIU Chih-jung"
+      ],
       "opponent": "People's Republic of China",
       "opponentCode": "CHN",
       "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
@@ -2944,7 +2749,7 @@
       "locationName": "Okazaki Chuso Park Baseball Stad.",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -4141,17 +3946,12 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 61,
+    "resultsOnly": 59,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 63
+    "warnings": 61
   },
   "warnings": [
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SRF 06:46 Women's Shortboard - Round 1 - Heat 3",
-      "row": "SRF:W.SHORTBRD----------.PREL.000300--"
-    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：EQU 08:30 Dressage Team Team Final",
@@ -4291,11 +4091,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Women's 57kg Group A",
       "row": "WLF:W.57KG--------------.FNL-.A00100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SRF 12:31 Women's Shortboard - Round 1 - Heat 8",
-      "row": "SRF:W.SHORTBRD----------.PREL.000800--"
     },
     {
       "code": "RESULTS_ONLY",
