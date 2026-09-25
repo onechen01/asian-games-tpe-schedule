@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T05:53:20.203Z",
+  "generatedAt": "2026-09-25T06:02:59.185Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-25T05:53:20.053Z",
+      "generatedAt": "2026-09-25T06:02:59.002Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1050,7 +1050,7 @@
         "CHEN Szu-yu",
         "WU Ying-syuan"
       ],
-      "opponent": "LEONG On Na / KUAN Cheok Lam",
+      "opponent": "LEONG On Na/KUAN Cheok Lam",
       "opponentCode": "MAC",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1065,7 +1065,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1361,7 +1361,7 @@
         "YEH Yi-tian",
         "CHENG I-ching"
       ],
-      "opponent": "PYON Song Gyong / CHOE Jong Im",
+      "opponent": "PYON Song Gyong/CHOE Jong Im",
       "opponentCode": "PRK",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1376,7 +1376,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
