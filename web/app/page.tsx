@@ -5,7 +5,10 @@ import type {CourtSessionChain,Daily,Row} from '../lib/schedule';
 import {athleteLabel} from '../lib/athletes';
 import type {AthleteMaster} from '../lib/athletes';
 import {orgLabel,venueLabel} from '../lib/display-names';
-import {loadBroadcasts,loadMedals,loadLaterRows} from '../lib/load';
+import {loadBroadcasts,loadMedals,loadMedalLedger,loadLaterRows} from '../lib/load';
+import {medalGroups,rankLabel,pendingNoticeText,awardWho,awardSport,awardEvent} from '../lib/medal-board';
+import type {MedalLedger} from '../lib/medal-awards';
+import type {Medals} from '../lib/medals';
 import {advanceFor} from '../lib/progression';
 import {medalOf,medalLabel,competitorMedal} from '../lib/medal-match';
 import {broadcastsForRow,disciplineBroadcasts,feedLabel} from '../lib/broadcasts';
@@ -35,6 +38,33 @@ function Card({row,conflict,pending,master,names:display,shows=[],advance,chains
  return <article className="match"><div className="match-time"><time className={timeLabel.includes('\n')?'sequence':undefined}>{timeLabel}</time><span>台灣時間</span></div><div className="match-main"><div className="match-top"><span className="sport">{sportLabel(row)}</span>{status&&<span className={'badge '+(isFinished(row)?'finished':'')}>{status}</span>}</div><h3>{names.length?names.join('、'):tpe}</h3>{opponent&&<p className="opponent">對手：{opponent}</p>}<dl><div><dt>比賽項目</dt><dd>{eventLabel(row.event)||'待確認'}</dd></div><div><dt>階段</dt><dd>{phaseLabel(row.phase,row.event)||'待確認'}</dd></div>{venue&&<div><dt>場館</dt><dd>{venue}</dd></div>}</dl>{solo.length>1?<div className="result solo"><span>{resultHeading(row,true)}</span>{solo.map(e=>{const ownMedal=competitorMedal(row.status,e.medal);const athlete=athleteLabel(e.name??'',master,{reg:e.registration,discipline:row.disciplineCode});const key=e.registration??e.name;return row.resultScope==='aggregate'?<div className="solo-entrant" key={key}><strong>{athlete} <b>{e.result??'尚無成績'}</b>{e.rank?<i>第 {e.rank} 名</i>:null}</strong>{ownMedal&&<p className="medal-result">{medalLabel(ownMedal)}</p>}</div>:<strong key={key}>{athlete} <b>{e.result??'尚無成績'}</b>{e.rank?<i>第 {e.rank} 名</i>:null}{ownMedal?<i>{medalLabel(ownMedal)}</i>:null}</strong>;})}</div>
   :score&&(score.tpe!==null||score.opponent!==null)?<div className="result"><span>{resultHeading(row)}</span><strong>{tpe} <b>{score.tpe??'-'}</b></strong><strong>{opponent||'對手'} <b>{score.opponent??'-'}</b></strong></div>:<p className="result-pending">賽果尚無資料</p>}{medal&&<p className="medal-result">{medalLabel(medal)}</p>}{advance&&<p className="advance">✓ 晉級{advance.stage}{advance.nextTimeTaipei?`・下一場 ${advance.nextDate===row.date?'':advance.nextDate.slice(5).replace('-','/')+' '}${matchTimeLabel({startTimeTaipei:advance.nextTimeTaipei,timeNote:advance.nextTimeNote})}`:''}</p>}{conflict&&<p className="result-pending">官方來源時間不一致，請以最新公告為準。</p>}{pending&&<p className="result-pending">這場的參賽資訊待確認，尚未確定台灣是否出賽。</p>}<BroadcastList items={shows}/>{row.athletesEn.length>0&&<details className="roster"><summary>查看英文名單</summary><p>{row.athletesEn.join('、')}</p></details>}{row.note&&<details className="roster"><summary>查看分組與備註</summary><p>{row.note}</p></details>}</div></article>
 }
+// The official totals and rank stay visible; the confirmed per-medal detail behind them opens on
+// demand. A native <details> keeps this a server component with no client JavaScript, and the
+// browser owns the expanded state, so assistive technology is told the truth without a hand-written
+// aria-expanded that a static page could never keep in sync.
+function MedalBoard({medals,ledger,master}:{medals:Medals;ledger:MedalLedger|null;master:AthleteMaster}){
+ const groups=medalGroups(ledger),rank=rankLabel(medals);
+ const total=groups.reduce((n,g)=>n+g.awards.length,0);
+ const pending=pendingNoticeText(ledger,total);
+ return <section className="medals" aria-label="台灣獎牌">
+  <div className="medals-head"><h2>台灣獎牌</h2>{rank&&<span className="medals-rank">{rank}</span>}</div>
+  <p><span>🥇 {medals.gold}</span><span>🥈 {medals.silver}</span><span>🥉 {medals.bronze}</span></p>
+  <small>共 {medals.total} 面・官方獎牌榜</small>
+  {groups.length>0&&<details className="medal-detail">
+   <summary><span className="when-closed">查看獎牌明細（{total} 面）</span><span className="when-open">收起獎牌明細</span></summary>
+   {pending&&<p className="medal-pending"><span aria-hidden="true">⚠ </span>{pending}</p>}
+   {groups.map(group=><div key={group.medal} className="medal-group">
+    <h3>{group.label}</h3>
+    <ul>{group.awards.map(award=>{const who=awardWho(award,master);return <li key={award.awardId}>
+     <strong>{who.name}</strong>
+     <span className="medal-sport">{awardSport(award)}</span>
+     <span className="medal-event">{awardEvent(award)||'待確認'}</span>
+     {who.roster.length>0&&<span className="medal-roster">{who.roster.join('、')}</span>}
+    </li>;})}</ul>
+   </div>)}
+  </details>}
+ </section>;
+}
 // Any provider, any number of them: the list never assumes a single broadcaster, and a
 // broadcast time is always labelled as such so it is not read as the competition start.
 function BroadcastList({items,heading='轉播'}:{items:Broadcast[];heading?:string}){
@@ -47,7 +77,7 @@ function BroadcastList({items,heading='轉播'}:{items:Broadcast[];heading?:stri
 
 export default async function Page({searchParams}:{searchParams:Promise<{date?:string|string[]}>}){
  const query=await searchParams,today=taipeiDate(),requested=typeof query.date==='string'?query.date:today,invalid=!validDate(requested),date=invalid?today:requested;
- const [loaded,master,display,broadcasts,medals]=await Promise.all([loadSchedule(date),loadAthletes(),loadDisplayNames(),loadBroadcasts(),loadMedals()]);
+ const [loaded,master,display,broadcasts,medals,ledger]=await Promise.all([loadSchedule(date),loadAthletes(),loadDisplayNames(),loadBroadcasts(),loadMedals(),loadMedalLedger()]);
  const data:Daily|null=loaded.kind==='ready'?loaded.data:null;
  const rows=data?taiwanRows(data):[],pending=data?pendingRows(data):[];
  const later=data?await loadLaterRows(date,loaded.kind==='ready'?loaded.dates:[]):[];
@@ -55,9 +85,7 @@ export default async function Page({searchParams}:{searchParams:Promise<{date?:s
  const dateTitle=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',month:'long',day:'numeric',weekday:'long'}).format(new Date(date+'T04:00:00Z'));
  const incomplete=data?.sources?.results?.coverage?.fetchComplete===false;
  return <main><header><a href="/" className="brand"><span className="brand-mark">TPE</span><span>台灣亞運賽程<small>2026 愛知・名古屋</small></span></a><span className="zone">台灣時間 UTC+8</span></header><section className="intro"><p className="eyebrow">台灣賽程</p><h1>{dayLabel}，為台灣加油。</h1><p>查出賽時間、對手與官方賽果。</p></section>
- {medals&&<section className="medals" aria-label="台灣獎牌"><h2>台灣獎牌</h2>
-  <p><span>🥇 {medals.gold}</span><span>🥈 {medals.silver}</span><span>🥉 {medals.bronze}</span></p>
-  <small>共 {medals.total} 面・官方獎牌榜</small></section>}
+ {medals&&<MedalBoard medals={medals} ledger={ledger} master={master}/>}
  <nav className="quick" aria-label="快速選擇日期">{[-1,0,1].map((offset)=><a key={offset} href={'/?date='+shiftDate(today,offset)} aria-current={date===shiftDate(today,offset)?'date':undefined}>{['昨天','今天','明天'][offset+1]}</a>)}</nav>
  <section className="date-panel" aria-label="日期查詢"><div className="date-title"><a className="arrow" aria-label="前一天" href={'/?date='+shiftDate(date,-1)}>‹</a><h2>{dateTitle}<small>{date.slice(0,4)}</small></h2><a className="arrow" aria-label="後一天" href={'/?date='+shiftDate(date,1)}>›</a></div><form action="/" method="get"><label htmlFor="date">選擇日期</label><input id="date" name="date" type="date" defaultValue={date} required/><button type="submit">查詢</button></form></section>
  {invalid&&<p className="notice" role="alert">日期格式不正確，已顯示今天。</p>}

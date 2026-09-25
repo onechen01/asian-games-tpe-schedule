@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T03:51:15.290Z",
+  "generatedAt": "2026-09-25T04:55:01.713Z",
   "completeness": "partial",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-25T03:51:15.283Z",
+  "standingsUpdatedAt": "2026-09-25T04:55:01.580Z",
   "ledgerCounts": {
     "gold": 1,
     "silver": 4,
@@ -11,19 +11,20 @@
   },
   "officialCounts": {
     "gold": 1,
-    "silver": 4,
+    "silver": 5,
     "bronze": 12,
-    "total": 17
+    "total": 18
   },
   "missing": {
     "gold": 0,
-    "silver": 0,
+    "silver": 1,
     "bronze": 1,
-    "total": 1
+    "total": 2
   },
   "awards": [
     {
       "disciplineCode": "KTE",
+      "sportZh": "空手道",
       "event": "Women's Individual Kata",
       "phase": "Women's Individual Kata Bronze Medal Bout",
       "date": "2026-09-20",
@@ -39,6 +40,7 @@
     },
     {
       "disciplineCode": "TST",
+      "sportZh": "軟式網球",
       "event": "Men's Team",
       "phase": "Men's Team Finals",
       "date": "2026-09-20",
@@ -58,6 +60,7 @@
     },
     {
       "disciplineCode": "TST",
+      "sportZh": "軟式網球",
       "event": "Women's Team",
       "phase": "Women's Team Finals",
       "date": "2026-09-20",
@@ -77,6 +80,7 @@
     },
     {
       "disciplineCode": "KTE",
+      "sportZh": "空手道",
       "event": "Men's Kumite -67kg",
       "phase": "Men's Kumite -67kg Bronze Medal Bout",
       "date": "2026-09-21",
@@ -92,6 +96,7 @@
     },
     {
       "disciplineCode": "TST",
+      "sportZh": "軟式網球",
       "event": "Mixed Doubles",
       "phase": "Mixed Doubles Finals",
       "date": "2026-09-21",
@@ -108,6 +113,7 @@
     },
     {
       "disciplineCode": "WSU",
+      "sportZh": "武術",
       "event": "Men's Taijiquan & Taijijian",
       "phase": "Men's Taijiquan & Taijijian",
       "date": "2026-09-21",
@@ -123,6 +129,7 @@
     },
     {
       "disciplineCode": "KTE",
+      "sportZh": "空手道",
       "event": "Men's Kumite -84kg",
       "phase": "Men's Kumite -84kg Bronze Medal Bout",
       "date": "2026-09-22",
@@ -138,6 +145,7 @@
     },
     {
       "disciplineCode": "KTE",
+      "sportZh": "空手道",
       "event": "Women's Team Kata",
       "phase": "Women's Team Kata Bronze Medal Bout",
       "date": "2026-09-22",
@@ -155,6 +163,7 @@
     },
     {
       "disciplineCode": "WSU",
+      "sportZh": "武術",
       "event": "Men's Nanquan & Nangun",
       "phase": "Men's Nanquan & Nangun",
       "date": "2026-09-22",
@@ -170,6 +179,7 @@
     },
     {
       "disciplineCode": "GAR",
+      "sportZh": "競技體操",
       "event": "Men's Team",
       "phase": "Men's Team Final",
       "date": "2026-09-23",
@@ -189,6 +199,7 @@
     },
     {
       "disciplineCode": "SHO",
+      "sportZh": "射擊",
       "event": "Skeet Men Individual",
       "phase": "Skeet Men Individual Final",
       "date": "2026-09-23",
@@ -204,6 +215,7 @@
     },
     {
       "disciplineCode": "TST",
+      "sportZh": "軟式網球",
       "event": "Men's Singles",
       "phase": "Men's Singles Semifinals",
       "date": "2026-09-23",
@@ -219,6 +231,7 @@
     },
     {
       "disciplineCode": "TTE",
+      "sportZh": "桌球",
       "event": "Men's Team",
       "phase": "Men's Team Semifinals",
       "date": "2026-09-23",
@@ -238,6 +251,7 @@
     },
     {
       "disciplineCode": "WSU",
+      "sportZh": "武術",
       "event": "Men's 75kg",
       "phase": "Men's 75kg",
       "date": "2026-09-23",
@@ -253,6 +267,7 @@
     },
     {
       "disciplineCode": "ELS",
+      "sportZh": "電子競技",
       "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
       "phase": "NARAKA : BLADEPOINT Semi-finals",
       "date": "2026-09-24",
@@ -272,6 +287,7 @@
     },
     {
       "disciplineCode": "SKB",
+      "sportZh": "滑板",
       "event": "Women's Park",
       "phase": "Women's Park Final",
       "date": "2026-09-25",

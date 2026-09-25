@@ -7,6 +7,7 @@ import {parseDisplayNames} from './display-names.ts';
 import type {DisplayNames} from './display-names.ts';
 import {parseBroadcasts} from './broadcasts.ts';
 import {parseMedals} from './medals.ts';
+import {parseMedalLedger} from './medal-board.ts';
 import type {Row as ProgressionRow} from './progression.ts';
 import type {Broadcasts} from './broadcasts.ts';
 import {parseAthleteMaster} from './athletes.ts';
@@ -88,6 +89,10 @@ export async function loadLaterRows(date:string,dates:string[]){
 
 // Official medal totals; missing or inconsistent means the summary is simply not shown.
 export async function loadMedals(){ return parseMedals(await readFirst('reference/tpe-medals.json')); }
+// The confirmed per-medal detail behind those totals. Missing or malformed shows the totals alone.
+export async function loadMedalLedger(){
+ return parseMedalLedger(await readFirst('reference/tpe-medal-ledger.json'));
+}
 
 // Verified Chinese athlete names. Missing or malformed leaves every name in English.
 export async function loadAthletes():Promise<AthleteMaster>{

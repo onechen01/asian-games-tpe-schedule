@@ -12,7 +12,8 @@ const isMedal = (value:unknown):value is OfficialMedalCode =>
 // and this file stays usable from both the Node scripts side and the Next app).
 export type MedalAwardSource = {
   status?:string | null;
-  disciplineCode?:string | null; event?:string | null; phase?:string | null;
+  disciplineCode?:string | null; sportZh?:string | null;
+  event?:string | null; phase?:string | null;
   date?:string | null; startTimeTaipei?:string | null;
   resultScope?:'component' | 'aggregate' | null;
   tpeMedal?:string | null; tpeRank?:string | null;
@@ -27,7 +28,10 @@ export type MedalAward = {
   // appends the entrant's identity, so each entrant's medal is its own award.
   awardId:string;
   medal:OfficialMedalCode;
-  disciplineCode:string | null; event:string | null; phase:string | null;
+  // The sport's Chinese name as canonical already resolved it (merge-daily.ts SPORT_ZH). Carried on
+  // the award so the display layer needs nothing but this ledger: web/ has no discipline-code table
+  // of its own, and duplicating one across the package boundary would only invite drift.
+  disciplineCode:string | null; sportZh:string | null; event:string | null; phase:string | null;
   date:string | null; startTimeTaipei:string | null;
   resultId:string | null; unitId:string | null;
   athletes:string[]; rank:string | null;
@@ -50,7 +54,8 @@ export function extractTpeMedalAwards(row:MedalAwardSource):MedalAward[] {
   const resultId = row.sources?.results?.id ?? null;
   const unitId = row.sources?.results?.unitId ?? null;
   const base = {
-    disciplineCode:row.disciplineCode ?? null, event:row.event ?? null, phase:row.phase ?? null,
+    disciplineCode:row.disciplineCode ?? null, sportZh:row.sportZh ?? null,
+    event:row.event ?? null, phase:row.phase ?? null,
     date:row.date ?? null, startTimeTaipei:row.startTimeTaipei ?? null,
     resultId, unitId,
   };

@@ -92,7 +92,7 @@ const rules:Rule[] = [
   [/Heptathlon/, '七項全能'], [/Rings/, '吊環'], [/Vault/, '跳馬'],
   [/Springboard/, '跳板'], [/Synchronised/, '雙人同步'],
   [/Changquan/, '長拳'], [/Taijiquan & Taijijian/, '太極拳與太極劍'],
-  [/Daoshu & Gunshu/, '刀術與棍術'],
+  [/Daoshu & Gunshu/, '刀術與棍術'], [/Nanquan & Nangun/, '南拳南棍全能'],
   [/All-Around/, '全能'], [/Sprint/, '競速賽'], [/Keirin/, '競輪'], [/Omnium/, '全能賽'],
   [/Madison/, '麥迪遜賽'], [/Park/, '公園賽'],
 ];
