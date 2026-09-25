@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T08:37:38.433Z",
+  "generatedAt": "2026-09-25T08:49:31.301Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T08:37:38.257Z",
+      "generatedAt": "2026-09-25T08:49:31.124Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1001,21 +1001,19 @@
     },
     {
       "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T09:30:00+08:00",
-      "startTimeJst": "2026-09-26T10:30:00+09:00",
+      "startTimeTaipei": "2026-09-26T09:15:00+08:00",
+      "startTimeJst": "2026-09-26T10:15:00+09:00",
       "timeNote": null,
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
       "event": "Puzzle [Puyo Puyo Champions]",
       "phase": "Puyo Puyo Champions Quarter-finals",
-      "unit": "Match 4",
+      "unit": "Match 3",
       "athletes": [],
-      "athletesEn": [
-        "KUO Tzu-ang"
-      ],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [],
+      "opponent": "KANG Dongshin",
+      "opponentCode": "KOR",
       "venue": "",
       "venueZh": null,
       "locationCode": "EL1",
@@ -1026,7 +1024,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1174,7 +1172,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1785,7 +1783,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1831,7 +1829,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2154,7 +2152,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 4",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:15 Match 3",
       "row": "ELS:O.PYO---------------.QFNL.000300--"
     },
     {
