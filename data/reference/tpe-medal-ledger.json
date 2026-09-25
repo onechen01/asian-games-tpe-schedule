@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T11:48:01.841Z",
+  "generatedAt": "2026-09-25T12:17:31.173Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-25T11:48:01.841Z",
+  "standingsUpdatedAt": "2026-09-25T12:17:31.172Z",
   "ledgerCounts": {
     "gold": 2,
     "silver": 5,
@@ -21,8 +21,11 @@
     "bronze": 0,
     "total": 0
   },
+  "problems": [],
   "awards": [
     {
+      "awardId": "KTE|W.KATA--------------|9589159",
+      "medal": "ME_BRONZE",
       "disciplineCode": "KTE",
       "sportZh": "空手道",
       "event": "Women's Individual Kata",
@@ -31,14 +34,14 @@
       "startTimeTaipei": "2026-09-20T10:20:00+08:00",
       "resultId": "KTE:W.KATA--------------.REPF.000200--",
       "unitId": "W.KATA--------------.REPF.000200--",
-      "awardId": "KTE:W.KATA--------------.REPF.000200--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "CHIEN Hui-hsuan"
       ],
       "rank": "1"
     },
     {
+      "awardId": "TST|M.TEAM--------------|TSTMTEAM-------TPE01",
+      "medal": "ME_SILVER",
       "disciplineCode": "TST",
       "sportZh": "軟式網球",
       "event": "Men's Team",
@@ -47,8 +50,6 @@
       "startTimeTaipei": "2026-09-20T16:15:00+08:00",
       "resultId": "TST:M.TEAM--------------.FNL-.00010000",
       "unitId": "M.TEAM--------------.FNL-.00010000",
-      "awardId": "TST:M.TEAM--------------.FNL-.00010000",
-      "medal": "ME_SILVER",
       "athletes": [
         "YU Kai-wen",
         "LIN Wei-chieh",
@@ -59,6 +60,8 @@
       "rank": "2"
     },
     {
+      "awardId": "TST|W.TEAM--------------|TSTWTEAM-------TPE01",
+      "medal": "ME_SILVER",
       "disciplineCode": "TST",
       "sportZh": "軟式網球",
       "event": "Women's Team",
@@ -67,8 +70,6 @@
       "startTimeTaipei": "2026-09-20T13:00:00+08:00",
       "resultId": "TST:W.TEAM--------------.FNL-.00010000",
       "unitId": "W.TEAM--------------.FNL-.00010000",
-      "awardId": "TST:W.TEAM--------------.FNL-.00010000",
-      "medal": "ME_SILVER",
       "athletes": [
         "ZHOU Yan-zhen",
         "CHIANG Min-yu",
@@ -79,6 +80,8 @@
       "rank": "2"
     },
     {
+      "awardId": "KTE|M.67KG--------------|9606559",
+      "medal": "ME_BRONZE",
       "disciplineCode": "KTE",
       "sportZh": "空手道",
       "event": "Men's Kumite -67kg",
@@ -87,14 +90,30 @@
       "startTimeTaipei": "2026-09-21T13:15:00+08:00",
       "resultId": "KTE:M.67KG--------------.REPF.000100--",
       "unitId": "M.67KG--------------.REPF.000100--",
-      "awardId": "KTE:M.67KG--------------.REPF.000100--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "SHIH Cheng-chung"
       ],
       "rank": null
     },
     {
+      "awardId": "SHO|M.SKM---------------|13634212",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "event": "Skeet Men Individual",
+      "phase": "Skeet Men Individual Qualification",
+      "date": "2026-09-21",
+      "startTimeTaipei": "2026-09-21T09:00:00+08:00",
+      "resultId": "SHO:M.SKM---------------.QUAL.000100--",
+      "unitId": "M.SKM---------------.QUAL.000100--",
+      "athletes": [
+        "LEE Meng-Yuan"
+      ],
+      "rank": "2"
+    },
+    {
+      "awardId": "TST|X.DOUBLES-----------|TSTXDOUBLES----TPE01",
+      "medal": "ME_GOLD",
       "disciplineCode": "TST",
       "sportZh": "軟式網球",
       "event": "Mixed Doubles",
@@ -103,8 +122,6 @@
       "startTimeTaipei": "2026-09-21T16:00:00+08:00",
       "resultId": "TST:X.DOUBLES-----------.FNL-.000100--",
       "unitId": "X.DOUBLES-----------.FNL-.000100--",
-      "awardId": "TST:X.DOUBLES-----------.FNL-.000100--",
-      "medal": "ME_GOLD",
       "athletes": [
         "YU Kai-wen",
         "HUANG Shih-yuan"
@@ -112,6 +129,8 @@
       "rank": "1"
     },
     {
+      "awardId": "WSU|M.TAIJ--------------|6021490",
+      "medal": "ME_SILVER",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "event": "Men's Taijiquan & Taijijian",
@@ -120,14 +139,14 @@
       "startTimeTaipei": "2026-09-21T13:30:00+08:00",
       "resultId": "WSU:M.TAIJ--------------.FNL-.000200--",
       "unitId": "M.TAIJ--------------.FNL-.000200--",
-      "awardId": "WSU:M.TAIJ--------------.FNL-.000200--",
-      "medal": "ME_SILVER",
       "athletes": [
         "SUN Chia-hung"
       ],
       "rank": "2"
     },
     {
+      "awardId": "KTE|M.84KG--------------|565146",
+      "medal": "ME_BRONZE",
       "disciplineCode": "KTE",
       "sportZh": "空手道",
       "event": "Men's Kumite -84kg",
@@ -136,14 +155,14 @@
       "startTimeTaipei": "2026-09-22T10:20:00+08:00",
       "resultId": "KTE:M.84KG--------------.REPF.000100--",
       "unitId": "M.84KG--------------.REPF.000100--",
-      "awardId": "KTE:M.84KG--------------.REPF.000100--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "CHUNG Meng-yu"
       ],
       "rank": "3"
     },
     {
+      "awardId": "KTE|W.TEAM--------------|KTEWTEAM-------TPE01",
+      "medal": "ME_BRONZE",
       "disciplineCode": "KTE",
       "sportZh": "空手道",
       "event": "Women's Team Kata",
@@ -152,8 +171,6 @@
       "startTimeTaipei": "2026-09-22T09:40:00+08:00",
       "resultId": "KTE:W.TEAM--------------.REPF.000200--",
       "unitId": "W.TEAM--------------.REPF.000200--",
-      "awardId": "KTE:W.TEAM--------------.REPF.000200--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "TIEN Hsin-erh",
         "HUNG Chih-hsuan",
@@ -162,6 +179,8 @@
       "rank": "1"
     },
     {
+      "awardId": "WSU|M.NANG--------------|6020214",
+      "medal": "ME_BRONZE",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "event": "Men's Nanquan & Nangun",
@@ -170,14 +189,14 @@
       "startTimeTaipei": "2026-09-22T13:30:00+08:00",
       "resultId": "WSU:M.NANG--------------.FNL-.000200--",
       "unitId": "M.NANG--------------.FNL-.000200--",
-      "awardId": "WSU:M.NANG--------------.FNL-.000200--#6020214",
-      "medal": "ME_BRONZE",
       "athletes": [
         "LIU Chang-min"
       ],
       "rank": "3"
     },
     {
+      "awardId": "GAR|M.TEAM--------------|GARMTEAM-------TPE01",
+      "medal": "ME_BRONZE",
       "disciplineCode": "GAR",
       "sportZh": "競技體操",
       "event": "Men's Team",
@@ -186,8 +205,6 @@
       "startTimeTaipei": "2026-09-23T12:00:00+08:00",
       "resultId": "GAR:M.TEAM--------------.FNL-.000001--",
       "unitId": "M.TEAM--------------.FNL-.000001--",
-      "awardId": "GAR:M.TEAM--------------.FNL-.000001--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "TANG Chia-hung",
         "HUNG Yuan-hsi",
@@ -198,22 +215,8 @@
       "rank": "3"
     },
     {
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "event": "Skeet Men Individual",
-      "phase": "Skeet Men Individual Final",
-      "date": "2026-09-23",
-      "startTimeTaipei": "2026-09-23T15:00:00+08:00",
-      "resultId": "SHO:M.SKM---------------.FNL-.000100--",
-      "unitId": "M.SKM---------------.FNL-.000100--",
-      "awardId": "SHO:M.SKM---------------.FNL-.000100--",
+      "awardId": "TST|M.SINGLES-----------|13758863",
       "medal": "ME_BRONZE",
-      "athletes": [
-        "LEE Meng-Yuan"
-      ],
-      "rank": "3"
-    },
-    {
       "disciplineCode": "TST",
       "sportZh": "軟式網球",
       "event": "Men's Singles",
@@ -222,14 +225,14 @@
       "startTimeTaipei": "2026-09-23T11:00:00+08:00",
       "resultId": "TST:M.SINGLES-----------.SFNL.000100--",
       "unitId": "M.SINGLES-----------.SFNL.000100--",
-      "awardId": "TST:M.SINGLES-----------.SFNL.000100--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "CHEN Po-yi"
       ],
       "rank": "2"
     },
     {
+      "awardId": "TTE|M.TEAM--------------|TTEMTEAM-------TPE01",
+      "medal": "ME_BRONZE",
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "event": "Men's Team",
@@ -238,8 +241,6 @@
       "startTimeTaipei": "2026-09-23T18:30:00+08:00",
       "resultId": "TTE:M.TEAM--------------.SFNL.00010000",
       "unitId": "M.TEAM--------------.SFNL.00010000",
-      "awardId": "TTE:M.TEAM--------------.SFNL.00010000",
-      "medal": "ME_BRONZE",
       "athletes": [
         "FENG Yi-hsin",
         "HSU Hsien-chia",
@@ -250,6 +251,8 @@
       "rank": "2"
     },
     {
+      "awardId": "WSU|M.75KG--------------|1813658",
+      "medal": "ME_BRONZE",
       "disciplineCode": "WSU",
       "sportZh": "武術",
       "event": "Men's 75kg",
@@ -258,14 +261,14 @@
       "startTimeTaipei": "2026-09-23T18:41:10+08:00",
       "resultId": "WSU:M.75KG--------------.SFNL.000200--",
       "unitId": "M.75KG--------------.SFNL.000200--",
-      "awardId": "WSU:M.75KG--------------.SFNL.000200--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "ZHANG Huan yi"
       ],
       "rank": "2"
     },
     {
+      "awardId": "ELS|O.NRK---------------|ELSONRK--------TPE01",
+      "medal": "ME_BRONZE",
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
@@ -274,8 +277,6 @@
       "startTimeTaipei": "2026-09-24T09:00:00+08:00",
       "resultId": "ELS:O.NRK---------------.SFNL.00010000",
       "unitId": "O.NRK---------------.SFNL.00010000",
-      "awardId": "ELS:O.NRK---------------.SFNL.00010000",
-      "medal": "ME_BRONZE",
       "athletes": [
         "LIU Tang-shiun",
         "YEN Kai-en",
@@ -286,6 +287,8 @@
       "rank": "3"
     },
     {
+      "awardId": "CSP|M.C1-500M-----------|12270735",
+      "medal": "ME_BRONZE",
       "disciplineCode": "CSP",
       "sportZh": "輕艇靜水",
       "event": "Men's Canoe Single 500m",
@@ -294,14 +297,14 @@
       "startTimeTaipei": "2026-09-25T10:50:00+08:00",
       "resultId": "CSP:M.C1-500M-----------.FNL-.000100--",
       "unitId": "M.C1-500M-----------.FNL-.000100--",
-      "awardId": "CSP:M.C1-500M-----------.FNL-.000100--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "LAI Kuan-chieh"
       ],
       "rank": "3"
     },
     {
+      "awardId": "KAB|M.TEAM7-------------|KABMTEAM7------TPE01",
+      "medal": "ME_BRONZE",
       "disciplineCode": "KAB",
       "sportZh": "卡巴迪",
       "event": "Men's Team",
@@ -310,25 +313,25 @@
       "startTimeTaipei": "2026-09-25T18:15:00+08:00",
       "resultId": "KAB:M.TEAM7-------------.SFNL.000200--",
       "unitId": "M.TEAM7-------------.SFNL.000200--",
-      "awardId": "KAB:M.TEAM7-------------.SFNL.000200--",
-      "medal": "ME_BRONZE",
       "athletes": [
+        "CHEN Zheng-wei",
+        "CHUANG Chia-ming",
+        "LI Jyun-jie",
+        "LIN Po-ting",
+        "CAI Ruei-chen",
+        "SU Hsiang-chih",
+        "CHANG Chung-mao",
+        "JIN Wu Fu-kai",
+        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "SU Hsiang-chih",
-        "CHUANG Chia-ming",
-        "LIN Po-ting",
-        "JIN Wu Fu-kai",
-        "YEH Jiunn-ming",
-        "WANG Lun-chu",
-        "LI Jyun-jie",
-        "CHANG Chung-mao",
-        "CHEN Zheng-wei",
-        "CAI Ruei-chen"
+        "YEH Jiunn-ming"
       ],
       "rank": "3"
     },
     {
+      "awardId": "KAB|W.TEAM7-------------|KABWTEAM7------TPE01",
+      "medal": "ME_BRONZE",
       "disciplineCode": "KAB",
       "sportZh": "卡巴迪",
       "event": "Women's Team",
@@ -337,25 +340,25 @@
       "startTimeTaipei": "2026-09-25T17:00:00+08:00",
       "resultId": "KAB:W.TEAM7-------------.SFNL.000200--",
       "unitId": "W.TEAM7-------------.SFNL.000200--",
-      "awardId": "KAB:W.TEAM7-------------.SFNL.000200--",
-      "medal": "ME_BRONZE",
       "athletes": [
-        "LIN I-min",
-        "CHUANG Ya-han",
         "HU Yu-chen",
         "HUANG Ssu-chin",
-        "YEN Chiao-wen",
-        "REN Ming-xiu",
-        "KANG Yung-chiao",
-        "FENG Hsiu-chen",
-        "QIN Pei-jyun",
+        "CHUANG Ya-han",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "WU Yu-jung"
+        "REN Ming-xiu",
+        "LIN I-min",
+        "YEN Chiao-wen",
+        "FENG Hsiu-chen",
+        "QIN Pei-jyun",
+        "WU Yu-jung",
+        "KANG Yung-chiao"
       ],
       "rank": "3"
     },
     {
+      "awardId": "SKB|M.PARK--------------|2585854",
+      "medal": "ME_SILVER",
       "disciplineCode": "SKB",
       "sportZh": "滑板",
       "event": "Men's Park",
@@ -364,14 +367,14 @@
       "startTimeTaipei": "2026-09-25T11:30:00+08:00",
       "resultId": "SKB:M.PARK--------------.FNL-.000100--",
       "unitId": "M.PARK--------------.FNL-.000100--",
-      "awardId": "SKB:M.PARK--------------.FNL-.000100--",
-      "medal": "ME_SILVER",
       "athletes": [
         "KU Yong-yan"
       ],
       "rank": "2"
     },
     {
+      "awardId": "SKB|W.PARK--------------|8000441",
+      "medal": "ME_SILVER",
       "disciplineCode": "SKB",
       "sportZh": "滑板",
       "event": "Women's Park",
@@ -380,14 +383,14 @@
       "startTimeTaipei": "2026-09-25T09:00:00+08:00",
       "resultId": "SKB:W.PARK--------------.FNL-.000100--",
       "unitId": "W.PARK--------------.FNL-.000100--",
-      "awardId": "SKB:W.PARK--------------.FNL-.000100--",
-      "medal": "ME_SILVER",
       "athletes": [
         "LIN Yi-fan"
       ],
       "rank": "2"
     },
     {
+      "awardId": "SWM|M.200MBF------------|399162",
+      "medal": "ME_GOLD",
       "disciplineCode": "SWM",
       "sportZh": "游泳",
       "event": "Men's 200m Butterfly",
@@ -396,14 +399,14 @@
       "startTimeTaipei": "2026-09-25T17:21:00+08:00",
       "resultId": "SWM:M.200MBF------------.FNL-.000100--",
       "unitId": "M.200MBF------------.FNL-.000100--",
-      "awardId": "SWM:M.200MBF------------.FNL-.000100--",
-      "medal": "ME_GOLD",
       "athletes": [
         "WANG Kuan-hung"
       ],
       "rank": "1"
     },
     {
+      "awardId": "WLF|W.57KG--------------|1853876",
+      "medal": "ME_BRONZE",
       "disciplineCode": "WLF",
       "sportZh": "舉重",
       "event": "Women's 57kg",
@@ -412,14 +415,14 @@
       "startTimeTaipei": "2026-09-25T12:30:00+08:00",
       "resultId": "WLF:W.57KG--------------.FNL-.A00100--",
       "unitId": "W.57KG--------------.FNL-.A00100--",
-      "awardId": "WLF:W.57KG--------------.FNL-.A00100--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "CHEN Guan-ling"
       ],
       "rank": "3"
     },
     {
+      "awardId": "WLF|W.61KG--------------|694199",
+      "medal": "ME_BRONZE",
       "disciplineCode": "WLF",
       "sportZh": "舉重",
       "event": "Women's 61kg",
@@ -428,8 +431,6 @@
       "startTimeTaipei": "2026-09-25T16:00:00+08:00",
       "resultId": "WLF:W.61KG--------------.FNL-.A00100--",
       "unitId": "W.61KG--------------.FNL-.A00100--",
-      "awardId": "WLF:W.61KG--------------.FNL-.A00100--",
-      "medal": "ME_BRONZE",
       "athletes": [
         "KUO Hsing-chun"
       ],

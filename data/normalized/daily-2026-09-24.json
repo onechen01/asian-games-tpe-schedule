@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T11:52:56.502Z",
+  "generatedAt": "2026-09-25T12:12:08.355Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-25T11:52:56.363Z",
+      "generatedAt": "2026-09-25T12:12:08.175Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -3392,6 +3392,22 @@
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.001400--",
+          "unitName": "Men's Doubles 1st Round Match 14",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.001400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.001200--",
+          "unitName": "Men's Doubles 1st Round Match 12",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.001400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
         }
       ]
     },
@@ -3456,6 +3472,14 @@
           "unitId": "W.DOUBLES-----------.R32-.000900--",
           "unitName": "Women's Doubles 1st Round Match 9",
           "predecessorUnitId": "M.DOUBLES-----------.R32-.001000--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.000200--",
+          "unitName": "Women's Doubles 1st Round Match 2",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.000900--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
