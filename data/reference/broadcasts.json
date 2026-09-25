@@ -2698,7 +2698,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-25",
-      "broadcastEndTimeTaipei": "2026-09-25T21:45:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T21:56:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -2716,33 +2716,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-26T08:40:00+08:00",
-      "disciplineCode": "ATH",
-      "channelId": "101",
-      "channelName": "愛爾達體育1台",
-      "isLive": true,
-      "title": "亞運 中華隊 田徑 預賽 9/26 LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-09-25",
-      "broadcastEndTimeTaipei": "2026-09-26T12:05:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {
-        "phaseKeywords": [
-          "Heats",
-          "Preliminar",
-          "Qualification",
-          "Round Robin",
-          "Group"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-26T08:55:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-26T08:25:00+08:00",
       "disciplineCode": "BDM",
       "channelId": "105",
       "channelName": "愛爾達體育2台",
@@ -2760,7 +2734,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-26T09:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-26T08:30:00+08:00",
       "disciplineCode": "EQU",
       "channelId": "544",
       "channelName": "愛爾達體育MAX5台",
@@ -2774,6 +2748,32 @@
       "matchHint": {
         "phaseKeywords": [
           "Qualification"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-26T08:35:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華隊 田徑 預賽 9/26 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-25",
+      "broadcastEndTimeTaipei": "2026-09-26T12:05:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
         ]
       }
     },
@@ -2806,14 +2806,14 @@
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-26T10:55:00+08:00",
       "disciplineCode": "BOX",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
+      "channelId": "546",
+      "channelName": "愛爾達體育MAX7台",
       "isLive": true,
       "title": "亞運 林郁婷 拳擊 女子60公斤級16強 9/26(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-25",
-      "broadcastEndTimeTaipei": "2026-09-26T12:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-26T11:55:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -2831,7 +2831,7 @@
       "channelId": "115",
       "channelName": "愛爾達體育4台",
       "isLive": false,
-      "title": "亞運 中華隊 游泳 決賽 9/25 D-LIVE",
+      "title": "亞運 中華隊 游泳 決賽(9/25賽事) 9/25 D-LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-25",
@@ -2894,18 +2894,45 @@
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-26T15:55:00+08:00",
       "disciplineCode": "WLF",
-      "channelId": "541",
-      "channelName": "愛爾達體育MAX2台",
+      "channelId": "549",
+      "channelName": "愛爾達體育MAX10台",
       "isLive": true,
       "title": "亞運 江宗翰 舉重 男子75公斤級決賽 9/26(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-25",
-      "broadcastEndTimeTaipei": "2026-09-26T18:25:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-26T18:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
           "CHIANG Tsung-han"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-26T16:55:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華隊 田徑 預賽/決賽 9/26(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-25",
+      "broadcastEndTimeTaipei": "2026-09-26T21:40:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group",
+          "Final"
         ]
       }
     },
@@ -2924,33 +2951,10 @@
       "note": "原音",
       "capturedAt": "2026-09-25",
       "broadcastEndTimeTaipei": "2026-09-26T18:00:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {}
-    },
-    {
-      "date": "2026-09-26",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-26T17:00:00+08:00",
-      "disciplineCode": "ATH",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
-      "isLive": true,
-      "title": "亞運 中華隊 田徑 預賽/決賽 9/26(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-25",
-      "broadcastEndTimeTaipei": "2026-09-26T21:45:00+08:00",
-      "matchLevel": "discipline",
+      "matchLevel": "unit",
       "matchHint": {
-        "phaseKeywords": [
-          "Heats",
-          "Preliminar",
-          "Qualification",
-          "Round Robin",
-          "Group",
-          "Final"
+        "athleteNames": [
+          "PENG Chia-feng"
         ]
       }
     },
@@ -3000,6 +3004,29 @@
           "Round Robin",
           "Group",
           "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-27T08:55:00+08:00",
+      "disciplineCode": "DIV",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 陳百婕/陳百丹 跳水 女子3M雙人跳板決賽 9/27 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-25",
+      "broadcastEndTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Barbara Miao",
+          "CHEN Jacqueline Liang"
         ]
       }
     },
@@ -3208,8 +3235,12 @@
       "note": "原音",
       "capturedAt": "2026-09-25",
       "broadcastEndTimeTaipei": "2026-09-28T17:50:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {}
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "PENG Chia-feng"
+        ]
+      }
     },
     {
       "date": "2026-09-28",
