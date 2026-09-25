@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T06:35:35.332Z",
+  "generatedAt": "2026-09-25T06:53:09.389Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-25T06:35:35.121Z",
+      "generatedAt": "2026-09-25T06:53:09.249Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -3025,7 +3025,7 @@
       "units": [
         {
           "unitId": "W.TEAM--------------.FNL-.00010000",
-          "unitName": "Women's Team Gold Medal Match",
+          "unitName": "Women's Team Final Gold Medal Match",
           "predecessorUnitId": null,
           "timeNoteCode": null,
           "timeKind": "EXACT",
@@ -3044,7 +3044,7 @@
       "units": [
         {
           "unitId": "M.TEAM--------------.FNL-.00010000",
-          "unitName": "Men's Team Gold Medal Match",
+          "unitName": "Men's Team Final Gold Medal Match",
           "predecessorUnitId": "W.TEAM--------------.FNL-.00010000",
           "timeNoteCode": null,
           "timeKind": "EXACT",
