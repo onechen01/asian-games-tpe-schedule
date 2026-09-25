@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T22:18:29.432Z",
+  "generatedAt": "2026-09-25T01:25:25.616Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-24T22:18:29.277Z",
+      "generatedAt": "2026-09-25T01:25:25.519Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -30,12 +30,12 @@
           "SQU",
           "TEN",
           "TKW",
-          "VBV",
           "VVO",
           "WRE",
           "BKG",
           "BOX",
           "FBL",
+          "VBV",
           "WPO"
         ],
         "allSports": false,
@@ -150,11 +150,6 @@
               "code": "TKW",
               "date": "2026-10-01",
               "medalDay": true
-            },
-            {
-              "code": "VBV",
-              "date": "2026-10-01",
-              "medalDay": false
             },
             {
               "code": "VVO",

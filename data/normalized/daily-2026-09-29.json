@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T22:15:06.965Z",
+  "generatedAt": "2026-09-25T01:21:42.746Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-24T22:15:06.820Z",
+      "generatedAt": "2026-09-25T01:21:42.652Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -29,7 +29,6 @@
           "SPK",
           "SQU",
           "TEN",
-          "VBV",
           "VVO",
           "WLF",
           "WPO",
@@ -147,11 +146,6 @@
               "medalDay": false
             },
             {
-              "code": "VBV",
-              "date": "2026-09-29",
-              "medalDay": false
-            },
-            {
               "code": "VVO",
               "date": "2026-09-29",
               "medalDay": false
@@ -257,11 +251,6 @@
               "medalDay": false
             },
             {
-              "code": "VBV",
-              "date": "2026-09-30",
-              "medalDay": false
-            },
-            {
               "code": "WPO",
               "date": "2026-09-30",
               "medalDay": false
@@ -276,8 +265,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 5,
+          "recovered": 5,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,

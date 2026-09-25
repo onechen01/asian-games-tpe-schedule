@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T00:54:51.204Z",
+  "generatedAt": "2026-09-25T01:09:52.109Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T00:54:51.047Z",
+      "generatedAt": "2026-09-25T01:09:52.000Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -548,8 +548,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "20",
-        "opponent": "16",
+        "tpe": "36",
+        "opponent": "27",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -599,12 +599,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "169-7x",
+        "tpe": "469-14x",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "19",
+      "tpeRank": "10",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -647,10 +647,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "5.66",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -693,8 +697,12 @@
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 5,
@@ -729,8 +737,8 @@
       "unit": "Women's 50m Butterfly Heat 1",
       "athletes": [],
       "athletesEn": [
-        "CHIU Yi-chen",
-        "HAN An-chi"
+        "HAN An-chi",
+        "CHIU Yi-chen"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -740,23 +748,23 @@
       "locationName": "Swimming Pool",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
-          "name": "CHIU Yi-chen",
-          "registration": "478795",
-          "result": null,
-          "rank": null
-        },
-        {
           "name": "HAN An-chi",
           "registration": "477449",
-          "result": null,
-          "rank": null
+          "result": "27.13",
+          "rank": "4"
+        },
+        {
+          "name": "CHIU Yi-chen",
+          "registration": "478795",
+          "result": "27.52",
+          "rank": "5"
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -800,8 +808,12 @@
       "locationName": "Table 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -846,8 +858,12 @@
       "locationName": "Swimming Pool",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 8,
@@ -897,8 +913,12 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000600--",
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -948,8 +968,12 @@
       "locationName": "Court 2",
       "courtSessionChainId": "BDM|2026-09-25|002|X.DOUBLES-----------.R32-.000800--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000800--",
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1527,7 +1551,7 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
       "courtPredecessorUnitId": "W.SINGLES-----------.R64-.001600--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
