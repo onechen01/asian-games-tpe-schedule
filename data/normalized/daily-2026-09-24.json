@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T06:12:04.111Z",
+  "generatedAt": "2026-09-25T06:22:58.163Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-25T06:12:03.996Z",
+      "generatedAt": "2026-09-25T06:22:57.986Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2185,7 +2185,7 @@
       "sportEn": "Basketball",
       "event": "Women",
       "phase": "Women Quarterfinals",
-      "unit": "Women Quarterfinals Game 2",
+      "unit": "Women Quarterfinals Game 1",
       "athletes": [],
       "athletesEn": [
         "CHEN Yen-Yu",
@@ -2231,8 +2231,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "W.TEAM5-------------.QFNL.000200--",
-          "id": "BKB:W.TEAM5-------------.QFNL.000200--"
+          "unitId": "W.TEAM5-------------.QFNL.000100--",
+          "id": "BKB:W.TEAM5-------------.QFNL.000100--"
         }
       }
     },
@@ -3640,8 +3640,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BKB 15:00 Women Quarterfinals Game 2",
-      "row": "BKB:W.TEAM5-------------.QFNL.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：BKB 15:00 Women Quarterfinals Game 1",
+      "row": "BKB:W.TEAM5-------------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
