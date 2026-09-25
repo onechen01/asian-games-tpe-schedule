@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T04:36:20.952Z",
+  "generatedAt": "2026-09-25T04:46:29.230Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T04:36:20.775Z",
+      "generatedAt": "2026-09-25T04:46:29.055Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -646,17 +646,20 @@
     },
     {
       "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T08:05:00+08:00",
-      "startTimeJst": "2026-09-26T09:05:00+09:00",
+      "startTimeTaipei": "2026-09-26T08:45:00+08:00",
+      "startTimeJst": "2026-09-26T09:45:00+09:00",
       "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
       "event": "Men's Decathlon",
-      "phase": "Men's Decathlon 100 Metres",
-      "unit": null,
+      "phase": "Men's Decathlon Long Jump",
+      "unit": "Men's Decathlon Long Jump",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHO Chia-hsuan",
+        "WANG Chen-yu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -665,28 +668,39 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHO Chia-hsuan",
-        "WANG Chen-yu"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.DECATH------------"
+        "results": {
+          "unitId": "M.DECATH------------.LJ--.000100--",
+          "id": "ATH:M.DECATH------------.LJ--.000100--"
         }
       }
     },
@@ -890,6 +904,66 @@
         "results": {
           "unitId": "M.INDVFRST----------.QUAL.000100--",
           "id": "BMF:M.INDVFRST----------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T10:25:00+08:00",
+      "startTimeJst": "2026-09-26T11:25:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Decathlon",
+      "phase": "Men's Decathlon Shot Put",
+      "unit": "Men's Decathlon Shot Put",
+      "athletes": [],
+      "athletesEn": [
+        "CHO Chia-hsuan",
+        "WANG Chen-yu"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DECATH------------.SP--.000100--",
+          "id": "ATH:M.DECATH------------.SP--.000100--"
         }
       }
     },
@@ -1597,51 +1671,6 @@
     },
     {
       "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T19:00:00+08:00",
-      "startTimeJst": "2026-09-26T20:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's Shot Put",
-      "phase": "Men's Shot Put Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "National Stadium",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "MA Hau-wei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.SHOTPUT-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T19:35:00+08:00",
       "startTimeJst": "2026-09-26T20:35:00+09:00",
       "timeNote": null,
@@ -1684,51 +1713,6 @@
           "eventId": "ATH|M.TRPLJUMP----------"
         }
       }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T19:51:00+08:00",
-      "startTimeJst": "2026-09-26T20:51:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's 1500m",
-      "phase": "Men's 1500m Round 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "National Stadium",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHIEN Tzu-chieh"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|M.1500M-------------"
-        }
-      }
     }
   ],
   "sessionChains": [],
@@ -1737,10 +1721,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 19,
-    "entered": 8,
+    "resultsOnly": 21,
+    "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 22
+    "warnings": 25
   },
   "warnings": [
     {
@@ -1765,6 +1749,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 08:45 Men's Decathlon Long Jump",
+      "row": "ATH:M.DECATH------------.LJ--.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:45 50m Rifle 3 Positions Women Individual - Qualification",
       "row": "SHO:W.R3PW--------------.QUAL.000100--"
     },
@@ -1782,6 +1771,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BMF 10:15 Men's Park Qualification Heat 1",
       "row": "BMF:M.INDVFRST----------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:25 Men's Decathlon Shot Put",
+      "row": "ATH:M.DECATH------------.SP--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1837,6 +1831,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 19",
       "row": "BBL:M.TEAM9-------------.SFNL.000300--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ATH|M.DECATH------------",
+      "message": "ATH Men's Decathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
