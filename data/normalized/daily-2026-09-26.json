@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T10:48:14.754Z",
+  "generatedAt": "2026-09-25T10:58:40.054Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T10:48:14.576Z",
+      "generatedAt": "2026-09-25T10:58:39.887Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -779,6 +779,80 @@
         "results": {
           "unitId": "M.DECATH------------.100-.000200--",
           "id": "ATH:M.DECATH------------.100-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T08:30:00+08:00",
+      "startTimeJst": "2026-09-26T09:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "EQU",
+      "sportZh": "馬術",
+      "sportEn": "Equestrian",
+      "event": "Dressage Individual",
+      "phase": "Dressage 2nd Individual Qualifier",
+      "unit": "Dressage Individual 2nd Individual Qualifier",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-ju",
+        "WANG Yu-jun",
+        "SHYONG Tien-chi",
+        "YEH Hsiu-hua"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "EQP",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHEN Yi-ju",
+          "registration": "2724373",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "WANG Yu-jun",
+          "registration": "10521853",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "SHYONG Tien-chi",
+          "registration": "2703666",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "YEH Hsiu-hua",
+          "registration": "10513535",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 16,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.DRESINDV----------.2Q--.000100--",
+          "id": "EQU:O.DRESINDV----------.2Q--.000100--"
         }
       }
     },
@@ -2137,10 +2211,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 34,
+    "resultsOnly": 35,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 41
+    "warnings": 42
   },
   "warnings": [
     {
@@ -2177,6 +2251,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 08:13 Men's Decathlon 100 Metres Heat 2",
       "row": "ATH:M.DECATH------------.100-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：EQU 08:30 Dressage Individual 2nd Individual Qualifier",
+      "row": "EQU:O.DRESINDV----------.2Q--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
