@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T08:28:27.811Z",
-  "completeness": "complete",
+  "generatedAt": "2026-09-25T09:41:56.642Z",
+  "completeness": "partial",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-25T08:28:27.798Z",
+  "standingsUpdatedAt": "2026-09-25T09:41:56.637Z",
   "ledgerCounts": {
     "gold": 1,
     "silver": 5,
@@ -10,16 +10,16 @@
     "total": 19
   },
   "officialCounts": {
-    "gold": 1,
+    "gold": 2,
     "silver": 5,
-    "bronze": 13,
-    "total": 19
+    "bronze": 14,
+    "total": 21
   },
   "missing": {
-    "gold": 0,
+    "gold": 1,
     "silver": 0,
-    "bronze": 0,
-    "total": 0
+    "bronze": 1,
+    "total": 2
   },
   "awards": [
     {
