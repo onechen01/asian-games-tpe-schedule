@@ -50,9 +50,13 @@ jobs:
           set -e
           DATA=data/normalized
           MEDALS=data/reference/tpe-medals.json
+          # update:results rebuilds the medal ledger from the canonical it just published, so it
+          # has to travel with that canonical; leaving it out kept production on a ledger frozen
+          # at the moment it was last written by hand.
+          LEDGER=data/reference/tpe-medal-ledger.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$DATA" "$MEDALS"
+          git add "$DATA" "$MEDALS" "$LEDGER"
           if git diff --cached --quiet; then
             echo "NO_CHANGE: nothing to commit."
             exit 0
@@ -77,7 +81,7 @@ jobs:
               echo "This run's canonical commit no longer exists after rebase; stopping."
               exit 1
             fi
-            if [ -n "$(git diff --name-only origin/main..HEAD -- . ":!$DATA" ":!$MEDALS")" ]; then
+            if [ -n "$(git diff --name-only origin/main..HEAD -- . ":!$DATA" ":!$MEDALS" ":!$LEDGER")" ]; then
               echo "This run would push files outside $DATA; stopping."
               git diff --name-only origin/main..HEAD
               exit 1
