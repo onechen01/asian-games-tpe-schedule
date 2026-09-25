@@ -5,14 +5,7 @@
   "displayOnly": true,
   "purpose": "只供畫面顯示。canonical 保留 Results API 的官方英文場館名稱；查不到對照時顯示官方英文。",
   "rule": "只收錄與 Results 官方英文唯一配對成功、且中文寫法無疑義的場館。",
-  "pending": [
-   {
-    "officialEn": "Ichinomiya City Municipal Gymnasium",
-    "tpenocText": "一宮市総合体育館",
-    "status": "NEEDS_REVIEW",
-    "reason": "中華奧會原文使用日文漢字「総合体育館」，專案內查無正式繁體寫法，未自行改寫"
-   }
-  ]
+  "pending": []
  },
  "venues": {
   "Aichi Prefectural Martial Arts Hall": {
@@ -46,6 +39,118 @@
   "Park Arena Komaki": {
    "zh": "小牧市公園競技場",
    "provenance": { "source": "TPENOC", "snapshotId": "2026-09-20_2026-09-19T000000+0900_6cf6365e33d2", "method": "reconciliation-pair" }
+  },
+  "Aichi International Arena": {
+   "zh": "愛知國際競技場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Shizuoka Stadium Ecopa": {
+   "zh": "靜岡體育場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Okazaki Chuo Sogo Park Gymnasium": {
+   "zh": "岡崎中央綜合公園體育館",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Shinshiro Cycling Road Course": {
+   "zh": "新城市公路自由車賽道",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Gamagori City Triathlon Venue": {
+   "zh": "蒲郡市鐵人三項賽場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Nagoya City General Gymnasium [Rainbow Hall]": {
+   "zh": "名古屋市綜合體育館（彩虹館）",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Gifu Prefectural Green Stadium(Gifu)": {
+   "zh": "岐阜縣綠色體育場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Kinjo Futo Station Square Venue": {
+   "zh": "金城埠頭站前廣場賽場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Nishio Gymnasium": {
+   "zh": "西尾市體育館",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Okazaki Chuo Sogo Park Baseball Stadium": {
+   "zh": "岡崎中央綜合公園棒球場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Tokai Citizen Gymnasium": {
+   "zh": "東海市民體育館",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Ichinomiya City Municipal Gymnasium": {
+   "zh": "一宮市綜合體育館",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Aichi Sky Expo Hall F": {
+   "zh": "愛知國際展示場F館",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Toyohashi Municipal Baseball Stadium": {
+   "zh": "豐橋市民棒球場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Circular course around the Aichi Prefectural Government office and the Nagoya City Hall": {
+   "zh": "愛知縣政府與名古屋市政府周邊環狀賽道",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Nagoya City Trade and Industry Center": {
+   "zh": "名古屋市工商業中心",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Nagaragawa International Regatta Course(Gifu)": {
+   "zh": "長良川國際划船賽道",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Miyoshi Lake Canoe Course": {
+   "zh": "三好池輕艇賽道",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Nagoya City Mizuho Park Athletic Stadium": {
+   "zh": "名古屋市瑞穗公園田徑場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Obata Ryokuchi Park": {
+   "zh": "小幡綠地公園",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Aichi Sky Expo Hall B": {
+   "zh": "愛知國際展示場B館",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Pacific Long Beach (Tahara, Aichi, Japan)": {
+   "zh": "太平洋長灘（愛知縣田原市）",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Anjo Softball Ground": {
+   "zh": "安城壘球場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Aichi Sky Expo Hall C": {
+   "zh": "愛知國際展示場C館",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Kaiyoh Yacht Harbor": {
+   "zh": "海陽遊艇港",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Izu Velodrome(Shizuoka)": {
+   "zh": "伊豆自由車館",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Yahagigawa Canoe Slalom Course": {
+   "zh": "矢作川輕艇激流賽道",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
+  },
+  "Kasugai Country Club East Course": {
+   "zh": "春日井鄉村俱樂部東球場",
+   "provenance": { "source": "project verified display dictionary", "snapshotId": "2026-09-26-production-visible-audit", "method": "approved Traditional Chinese display name" }
   }
  }
 }

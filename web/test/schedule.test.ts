@@ -250,10 +250,10 @@ test('countries and venues display in Chinese and fall back to the official text
   assert.equal(names.orgs.KOR,'南韓');
   assert.equal(names.orgs.PRK,'北韓');
   assert.equal(names.orgs.TPE,'台灣');
-  assert.equal(Object.keys(names.venues).length,8);
+  assert.equal(Object.keys(names.venues).length,36);
   assert.equal(venueLabel(null,'SKY HALL TOYOTA',names),'豐田天空館');
-  // Still under review, so the official English stands.
-  assert.equal(venueLabel(null,'Ichinomiya City Municipal Gymnasium',names),'Ichinomiya City Municipal Gymnasium');
+  assert.equal(venueLabel(null,'Ichinomiya City Municipal Gymnasium',names),'一宮市綜合體育館');
+  assert.equal(venueLabel(null,'Tokyo Aquatics Centre(Tokyo)',names),'東京水上運動中心');
   assert.equal(orgLabel('ZZZ','Some Country',names),'Some Country');
   assert.equal(venueLabel('名古屋市東山公園網球中心','Nagoya City Higashiyama Park Tennis Center',names),'名古屋市東山公園網球中心');
   // Missing or broken files leave everything in English rather than breaking the page.
@@ -307,6 +307,38 @@ test('the phase does not repeat the event that is already on screen',()=>{
   assert.equal(phaseLabel("Women's Team Semifinals","Women's Team"),'準決賽');
   assert.equal(phaseLabel("Women's Team","Women's Team"),'女子團體');
   assert.equal(phaseLabel("Men's Singles Round of 16","Men's Singles"),'16強賽');
+});
+
+test('audited event and phase patterns localize without possessive-prefix damage',()=>{
+  assert.equal(phaseLabel("Women's Preliminary Round - Pool C",'Women'),'女子預賽C組');
+  assert.equal(phaseLabel("Men's Quarterfinals",'Men'),'男子8強賽');
+  assert.equal(phaseLabel('Women’s Preliminary Round','Women'),'女子預賽');
+  assert.equal(phaseLabel('Repechage Bout Round 12',null),'復活賽第12輪');
+  assert.equal(phaseLabel("Women's Classification Match 5th-8th",null),'女子第5至8名排名賽');
+  assert.equal(phaseLabel('Round of Pool 6',null),'分組賽第6輪');
+  assert.equal(phaseLabel('Table of 32',null),'32強賽');
+  assert.equal(phaseLabel('100 Metres Hurdles',null),'100公尺跨欄');
+  assert.equal(phaseLabel('200 Metres',null),'200公尺');
+  assert.equal(phaseLabel('Dressage 12th Individual Qualifier',null),'馬場馬術個人資格賽第12場');
+  assert.equal(phaseLabel('21st Round',null),'第21輪');
+  assert.equal(phaseLabel("Men's Super Round",null),'男子超級循環賽');
+  assert.equal(phaseLabel('Prelims',null),'預賽');
+
+  const events = new Map<string,string>([
+    ["Women's Nanquan & Nandao",'女子南拳與南刀全能'],
+    ["Men's Nanquan & Nangun",'男子南拳南棍全能'],
+    ["Men's Parallel Bars",'男子雙槓'],
+    ["Men's Horizontal Bar",'男子單槓'],
+    ["Men's Pole Vault",'男子撐竿跳高'],
+    ["Women's Hammer Throw",'女子鏈球'],
+    ["Women's Kayak Cross",'女子輕艇越野'],
+    ["Men's Kayak Cross",'男子輕艇越野'],
+    ['Jumping,Individual Competition A(heights of 1.40-1.50m)','障礙超越個人賽A（高度1.40–1.50公尺）'],
+    ['Jumping,Individual Competition B(heights of up to 1.55m)','障礙超越個人賽B（高度最高1.55公尺）'],
+  ]);
+  for (const [official,zh] of events) assert.equal(eventLabel(official),zh);
+  assert.equal(localizeName('Daoshu'),'刀術');
+  assert.equal(localizeName('Taijiquan'),'太極拳');
 });
 
 test('the existing venue, country and athlete Chinese mappings do not regress',async()=>{
@@ -512,7 +544,7 @@ test('several channels at the same time coexist',()=>{
 import {medalOf,medalLabel,competitorMedal} from '../lib/medal-match.ts';
 
 test('Wushu component and aggregate labels stay distinct, with medal on the correct entrant',()=>{
-  assert.equal(resultHeading({resultScope:'component',unit:'Nanquan'},true),'官方分項成績（Nanquan）');
+  assert.equal(resultHeading({resultScope:'component',unit:'Nanquan'},true),'官方分項成績（南拳）');
   assert.equal(resultHeading({resultScope:'aggregate',unit:'Nangun Final'},true),'官方全能總分／排名');
   assert.equal(competitorMedal('OFFICIAL','ME_BRONZE'),'BRONZE');
   assert.equal(competitorMedal('OFFICIAL',null),null);
@@ -649,7 +681,11 @@ test('venues use the verified mapping and are never invented',async()=>{
   const names = await loadDisplayNames();
   assert.equal(venueLabel(null,'Aichi Prefectural Martial Arts Hall',names),'愛知縣武道館');
   assert.equal(venueLabel(null,'Nagoya City General Gymnasium [Rainbow Hall]',names),
-    'Nagoya City General Gymnasium [Rainbow Hall]');
+    '名古屋市綜合體育館（彩虹館）');
+  const ambiguous=parseDisplayNames(null,JSON.stringify({venues:{
+    'Example Centre':{zh:'甲場館'},'Example Centre(City)':{zh:'乙場館'}}}));
+  assert.equal(venueLabel(null,'Example Centre(Town)',ambiguous),'Example Centre(Town)');
+  assert.equal(venueLabel(null,'Example Centre(City)',ambiguous),'乙場館');
 });
 
 // -- explicit event/phase conflict veto: a shared athlete or opponent must never override an

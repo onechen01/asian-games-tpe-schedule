@@ -93,10 +93,11 @@ export function matchTimeLabel(row:TimeLabelRow,chains:CourtSessionChain[]=[]){
 
 import {athleteLabels} from './athletes.ts';
 import type {AthleteMaster} from './athletes.ts';
+import {localizeName} from './event-names.ts';
 
 export const sportLabel=(row:Row)=>row.sportZh||row.sportEn||row.disciplineCode||'運動待確認';
 export const resultHeading=(row:Pick<Row,'resultScope'|'unit'>,multiple=false)=>
-  row.resultScope==='component' ? `官方分項成績（${row.unit||'分項'}）`
+  row.resultScope==='component' ? `官方分項成績（${localizeName(row.unit)||row.unit||'分項'}）`
   : row.resultScope==='aggregate' ? '官方全能總分／排名'
   : multiple ? '官方已公布成績（每人各自計分）' : '官方已公布成績';
 // Chinese names come from the committee sheet when it supplied them; otherwise each official

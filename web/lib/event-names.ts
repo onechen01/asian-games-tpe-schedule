@@ -38,20 +38,32 @@ const rules:Rule[] = [
   [/Opening Round Group ([A-Z])/, '預賽$1組'],
   [/Opening Round/, '預賽'],
   [/Preliminary Round - Pool ([A-Z])/, '預賽$1組'],
+  [/Preliminary Round/, '預賽'],
   [/Opening Round Group ([A-Z])/, '首輪$1組'],
   [/Round Robin Pool ([A-Z])/, '循環賽$1組'],
+  [/Repechage Bout Round (\d+)/, '復活賽第$1輪'],
+  [/Classification Match (\d+)(?:st|nd|rd|th)-(\d+)(?:st|nd|rd|th)/, '第$1至$2名排名賽'],
   [/Classification Match (\S+)/, '排名賽$1'], [/Classification \((\S+)\)/, '排名賽$1'],
+  [/Round of Pool (\d+)/, '分組賽第$1輪'],
+  [/Table of (\d+)/, '$1強賽'],
   [/Play-in/, '附加賽'], [/Placement Round/, '排名賽'],
   [/All Groups/, '總量級'], [/Scratch Race/, '捕捉賽'],
   [/^Men$/, '男子'], [/^Women$/, '女子'],
   [/(\d+) x (\d+)m Medley Relay/, '$1×$2公尺混合式接力'],
-  [/Wrestling/, '角力'], [/Dressage/, '馬場馬術'], [/Jumping/, '障礙超越'],
+  [/Wrestling/, '角力'],
+  [/Dressage (\d+)(?:st|nd|rd|th) Individual Qualifier/, '馬場馬術個人資格賽第$1場'],
+  [/Jumping,\s*Individual Competition ([A-Z])\(heights of (\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)m\)/,
+    '障礙超越個人賽$1（高度$2–$3公尺）'],
+  [/Jumping,\s*Individual Competition ([A-Z])\(heights of up to (\d+(?:\.\d+)?)m\)/,
+    '障礙超越個人賽$1（高度最高$2公尺）'],
+  [/Dressage/, '馬場馬術'], [/Jumping/, '障礙超越'],
   [/Group All-Around/, '團體全能'],
   [/B-Boys/, '霹靈舞男子組'], [/B-Girls/, '霹靈舞女子組'],
   // Distances, relays and weights
   [/(\d+) x (\d+)m Relay/, '$1×$2公尺接力'],
   [/(\d+)m Hurdles/, '$1公尺跨欄'], [/(\d+)m Race Walk/, '$1公尺競走'],
   [/Half Marathon Race Walk/, '半程馬拉松競走'],
+  [/(\d+) Metres Hurdles/, '$1公尺跨欄'], [/(\d+) Metres/, '$1公尺'],
   [/(\d+)m Freestyle/, '$1公尺自由式'], [/(\d+)m Backstroke/, '$1公尺仰式'],
   [/(\d+)m Breaststroke/, '$1公尺蛙式'], [/(\d+)m Butterfly/, '$1公尺蝶式'],
   [/(\d+)m Individual Medley/, '$1公尺個人混合式'], [/(\d+)m Medley Relay/, '$1公尺混合式接力'],
@@ -76,23 +88,30 @@ const rules:Rule[] = [
   [/Quarter-?finals?|Quarter-?Finals?/, '8強賽'],
   [/Semi-?finals?|Semi-?Finals?/, '準決賽'],
   [/Round of (\d+)/, '$1強賽'],
-  [/Qualification Round|Qualifications|Qualification|Qualifier/, '資格賽'],
-  [/Preliminaries|Preliminary race|Preliminary/, '預賽'],
+  [/Qualification Round|Qualifications|Qualification|Qualifier|Qualifying/, '資格賽'],
+  [/Preliminaries|Preliminary race|Preliminary|Prelims/, '預賽'],
   [/Heats|Heat\b/, '預賽'],
   [/Finals?/, '決賽'],
   [/Round Robin/, '循環賽'],
+  [/(\d+)(?:st|nd|rd|th) Round/, '第$1輪'],
+  [/Super Round/, '超級循環賽'],
   [/Round (\d+)/, '第$1輪'], [/First Round/, '第1輪'], [/Second Round/, '第2輪'],
   [/Third Round/, '第3輪'],
   [/Group Phase - Group ([A-Z])/, '小組賽$1組'], [/Group ([A-Z])\b/, '小組賽$1組'],
   [/Pool ([A-Z])\b/, '$1組'],
   // Apparatus and events that appear as whole words
   [/Floor Exercise/, '地板'], [/Pommel Horse/, '鞍馬'], [/Uneven Bars/, '高低槓'],
+  [/Parallel Bars/, '雙槓'], [/Horizontal Bar/, '單槓'],
   [/High Jump/, '跳高'], [/Long Jump/, '跳遠'], [/Triple Jump/, '三級跳遠'],
-  [/Shot Put/, '鉛球'], [/Javelin Throw/, '標槍'], [/Decathlon/, '十項全能'],
+  [/Pole Vault/, '撐竿跳高'], [/Shot Put/, '鉛球'], [/Hammer Throw/, '鏈球'],
+  [/Javelin Throw/, '標槍'], [/Decathlon/, '十項全能'],
   [/Heptathlon/, '七項全能'], [/Rings/, '吊環'], [/Vault/, '跳馬'],
   [/Springboard/, '跳板'], [/Synchronised/, '雙人同步'],
   [/Changquan/, '長拳'], [/Taijiquan & Taijijian/, '太極拳與太極劍'],
-  [/Daoshu & Gunshu/, '刀術與棍術'], [/Nanquan & Nangun/, '南拳南棍全能'],
+  [/Nanquan & Nandao/, '南拳與南刀全能'], [/Nanquan & Nangun/, '南拳南棍全能'],
+  [/Daoshu & Gunshu/, '刀術與棍術'],
+  [/Nanquan/, '南拳'], [/Nandao/, '南刀'], [/Daoshu/, '刀術'], [/Taijiquan/, '太極拳'],
+  [/Kayak Cross/, '輕艇越野'],
   [/All-Around/, '全能'], [/Sprint/, '競速賽'], [/Keirin/, '競輪'], [/Omnium/, '全能賽'],
   [/Madison/, '麥迪遜賽'], [/Park/, '公園賽'],
 ];
@@ -109,11 +128,11 @@ function frontGender(value:string){
 // Anything still holding Latin letters or a leftover connector was not fully understood.
 // A group label keeps its official letter ("C組"); anything else still in Latin means the
 // name was not fully understood.
-const complete = (value:string)=>!/[A-Za-z]/.test(value.replace(/[A-Z](?=組)/g,''));
+const complete = (value:string)=>!/[A-Za-z]/.test(value.replace(/[A-Z](?=組|（)/g,''));
 
 export function localizeName(value:string|null|undefined):string|null {
   if (!value) return value ?? null;
-  const cleaned = clean(value);
+  const cleaned = clean(value).replace(/’/g,"'");
   const esport = esportNames.find(([pattern])=>pattern.test(cleaned));
   if (esport) return esport[1];
   let out = frontGender(cleaned);
@@ -127,8 +146,12 @@ export function localizeName(value:string|null|undefined):string|null {
 export function phaseLabel(phase:string|null|undefined, event?:string|null):string|null {
   if (!phase) return phase ?? null;
   const p = clean(phase), e = event ? clean(event) : '';
-  if (e && p.toLowerCase().startsWith(e.toLowerCase())) {
-    const rest = clean(p.slice(e.length));
+  const remainder = e && p.toLowerCase().startsWith(e.toLowerCase()) ? p.slice(e.length) : '';
+  // "Women" is not a complete prefix of "Women's": a possessive apostrophe belongs to
+  // the gender phrase, so stripping it would leave the untranslatable fragment "'s ...".
+  if (e && p.toLowerCase().startsWith(e.toLowerCase()) &&
+      (!remainder || /^[\s,:;\-–—]/.test(remainder))) {
+    const rest = clean(remainder);
     if (!rest) return localizeName(p);
     return localizeName(rest);
   }

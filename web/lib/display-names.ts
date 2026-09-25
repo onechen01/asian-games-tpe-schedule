@@ -23,5 +23,13 @@ function safe(text:string|null, pick:(d:unknown)=>Record<string,string>|undefine
 export const orgLabel = (code:string|null|undefined, fallback:string|null|undefined, names:DisplayNames)=>
   (code && names.orgs[code]) || fallback || code || null;
 // The committee's Chinese venue name wins, then the mapping, then the official English.
+function mappedVenue(venueEn:string, names:DisplayNames):string|null {
+  if (names.venues[venueEn]) return names.venues[venueEn];
+  const normalized = venueEn.replace(/\s*\([^()]+\)\s*$/, '').trim();
+  if (!normalized || normalized === venueEn) return null;
+  const matches = Object.entries(names.venues)
+    .filter(([official])=>official.replace(/\s*\([^()]+\)\s*$/, '').trim() === normalized);
+  return matches.length === 1 ? matches[0][1] : null;
+}
 export const venueLabel = (venueZh:string|null|undefined, venueEn:string|null|undefined, names:DisplayNames)=>
-  venueZh || (venueEn && names.venues[venueEn]) || venueEn || null;
+  venueZh || (venueEn && mappedVenue(venueEn,names)) || venueEn || null;
