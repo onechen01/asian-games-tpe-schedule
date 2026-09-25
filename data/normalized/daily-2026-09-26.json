@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T08:56:56.577Z",
+  "generatedAt": "2026-09-25T09:19:22.501Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T08:56:56.437Z",
+      "generatedAt": "2026-09-25T09:19:22.327Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1207,7 +1207,7 @@
       "sportEn": "Boxing",
       "event": "Women's 60kg",
       "phase": "Women's 60KG Preliminaries - Round of 16",
-      "unit": "Women's 60KG - Preliminaries",
+      "unit": "Women's 60KG - Preliminaries - Round of 16",
       "athletes": [],
       "athletesEn": [
         "LIN Yu-ting"
@@ -1220,7 +1220,7 @@
       "locationName": "Ring 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1764,6 +1764,52 @@
     },
     {
       "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T17:30:00+08:00",
+      "startTimeJst": "2026-09-26T18:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Men's 55kg",
+      "phase": "Men's 55KG Preliminaries - Round of 16",
+      "unit": "Men's 55KG - Preliminaries - Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "PENG Chia-feng"
+      ],
+      "opponent": "ESHISH Huthaifa",
+      "opponentCode": "JOR",
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "locationCode": "NIS",
+      "locationName": "Ring 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.55KG--------------.8FNL.000700--",
+          "id": "BOX:M.55KG--------------.8FNL.000700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T18:05:00+08:00",
       "startTimeJst": "2026-09-26T19:05:00+09:00",
       "timeNote": null,
@@ -2091,10 +2137,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 33,
+    "resultsOnly": 34,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 40
+    "warnings": 41
   },
   "warnings": [
     {
@@ -2174,7 +2220,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BOX 11:00 Women's 60KG - Preliminaries",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 11:00 Women's 60KG - Preliminaries - Round of 16",
       "row": "BOX:W.60KG--------------.8FNL.000100--"
     },
     {
@@ -2226,6 +2272,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 19",
       "row": "BBL:M.TEAM9-------------.SFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 17:30 Men's 55KG - Preliminaries - Round of 16",
+      "row": "BOX:M.55KG--------------.8FNL.000700--"
     },
     {
       "code": "RESULTS_ONLY",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T09:04:58.342Z",
+  "generatedAt": "2026-09-25T09:16:23.276Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T09:04:58.165Z",
+      "generatedAt": "2026-09-25T09:16:23.094Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2528,14 +2528,14 @@
       "locationName": "Table 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
-        "opponent": "2",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2744,8 +2744,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "3",
-        "opponent": "3",
+        "tpe": "7",
+        "opponent": "8",
         "source": "results"
       },
       "tpeEntrants": [],
