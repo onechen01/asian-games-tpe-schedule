@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T09:41:56.642Z",
+  "generatedAt": "2026-09-25T09:57:32.204Z",
   "completeness": "partial",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-25T09:41:56.637Z",
+  "standingsUpdatedAt": "2026-09-25T09:57:32.198Z",
   "ledgerCounts": {
     "gold": 1,
     "silver": 5,
-    "bronze": 13,
-    "total": 19
+    "bronze": 14,
+    "total": 20
   },
   "officialCounts": {
     "gold": 2,
@@ -18,8 +18,8 @@
   "missing": {
     "gold": 1,
     "silver": 0,
-    "bronze": 1,
-    "total": 2
+    "bronze": 0,
+    "total": 1
   },
   "awards": [
     {
@@ -346,6 +346,22 @@
       "medal": "ME_BRONZE",
       "athletes": [
         "CHEN Guan-ling"
+      ],
+      "rank": "3"
+    },
+    {
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "event": "Women's 61kg",
+      "phase": "Women's 61kg All Groups",
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T16:00:00+08:00",
+      "resultId": "WLF:W.61KG--------------.FNL-.A00100--",
+      "unitId": "W.61KG--------------.FNL-.A00100--",
+      "awardId": "WLF:W.61KG--------------.FNL-.A00100--",
+      "medal": "ME_BRONZE",
+      "athletes": [
+        "KUO Hsing-chun"
       ],
       "rank": "3"
     }
