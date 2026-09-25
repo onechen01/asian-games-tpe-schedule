@@ -69,3 +69,65 @@ test('schedule ResCode may identify a phase result for a different unitId',()=>{
     /Results identity\/structure mismatch/);
   assert.throws(()=>parseRequestedResult(payload,row,row.unitId),/Results identity\/structure mismatch/);
 });
+
+test('started or completed confirmed-TPE results reject an incomplete competitor snapshot',()=>{
+  for(const status of ['RUNNING','OFFICIAL']) {
+    const row=unit(status);
+    assert.throws(()=>parseRequestedResult({Info:{Key:key,Status:status},Competitors:[]},row,key),
+      /confirmed TPE competitor is missing/);
+    assert.throws(()=>parseRequestedResult({Info:{Key:key,Status:status},
+      Competitors:[{Org:'JPN',Name:'Athlete B'}]},row,key),/confirmed TPE competitor is missing/);
+  }
+  const row=unit('START_LIST');
+  assert.throws(()=>parseRequestedResult({Info:{Key:key,Status:'START_LIST',ShowResults:true},
+    Competitors:[]},row,key),/confirmed TPE competitor is missing/);
+});
+
+test('blank organisation-only TPE competitor remains a valid result',()=>{
+  const row=unit('OFFICIAL');
+  const parsed=parseRequestedResult({Info:{Key:key,Status:'OFFICIAL',ShowResults:true},
+    Competitors:[{Org:'TPE',Name:'Chinese Taipei',Reg:'SWMX4X100MMD---TPE01',
+      Members:[],Result:'',Rk:''}]},row,key);
+  assert.equal(parsed?.competitors[0].org,'TPE');
+  assert.equal(parsed?.competitors[0].name,'Chinese Taipei');
+  assert.equal(parsed?.competitors[0].result,'');
+  assert.equal(parsed?.competitors[0].rank,'');
+  assert.deepEqual(parsed?.competitors[0].members,[]);
+});
+
+test('individual, multiple-entrant, and relay TPE result structures remain valid',()=>{
+  const row=unit('OFFICIAL');
+  const info={Key:key,Status:'OFFICIAL',ShowResults:true};
+  const individual=parseRequestedResult({Info:info,
+    Competitors:[{Org:'TPE',Name:'Athlete A',Reg:'1',Result:'28.39',Rk:'6'}]},row,key);
+  assert.equal(individual?.competitors[0].result,'28.39');
+
+  const multiple=parseRequestedResult({Info:info,Competitors:[
+    {Org:'TPE',Name:'Athlete A',Reg:'1',Result:'27.13',Rk:'4'},
+    {Org:'TPE',Name:'Athlete B',Reg:'2',Result:'27.52',Rk:'5'},
+  ]},row,key);
+  assert.deepEqual(multiple?.competitors.map(c=>c.name),['Athlete A','Athlete B']);
+
+  const relay=parseRequestedResult({Info:info,Competitors:[{Org:'TPE',Name:'Chinese Taipei',
+    Reg:'SWMW4X100MMD---TPE01',Result:'4:08.83',Rk:'2',Members:[
+      {Name:'Athlete A',Org:'TPE'},{Name:'Athlete B',Org:'TPE'},
+    ]}]},row,key);
+  assert.deepEqual(relay?.competitors[0].members.map(m=>m.name),['Athlete A','Athlete B']);
+});
+
+test('not-started confirmed-TPE results may still have no competitors',()=>{
+  const row=unit('START_LIST');
+  const parsed=parseRequestedResult({Info:{Key:key,Status:'START_LIST',ShowResults:false},
+    Competitors:[]},row,key);
+  assert.deepEqual(parsed?.competitors,[]);
+});
+
+test('non-SWM results retain the same guarded and valid behavior',()=>{
+  const row=normalize({Key:key,Disc:'JUD',Event:'M.TEST--------------',EventDesc:'Test event',
+    Phase:phase,PhaseDesc:'Final',UnitDesc:'Final',ResCode:key,Orgs:['TPE'],Status:'OFFICIAL',
+    DateTimeRaw:'2026-09-23T14:30:00+09:00'},source);
+  assert.equal(parseRequestedResult({Info:{Key:key,Status:'OFFICIAL'},
+    Competitors:[{Org:'TPE',Name:'Judoka A',Result:'10'}]},row,key)?.competitors[0].name,'Judoka A');
+  assert.throws(()=>parseRequestedResult({Info:{Key:key,Status:'OFFICIAL'},Competitors:[]},row,key),
+    /confirmed TPE competitor is missing/);
+});
