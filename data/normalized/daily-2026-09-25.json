@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T09:16:23.276Z",
+  "generatedAt": "2026-09-25T09:24:11.114Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T09:16:23.094Z",
+      "generatedAt": "2026-09-25T09:24:10.928Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -2744,8 +2744,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "7",
-        "opponent": "8",
+        "tpe": "9",
+        "opponent": "14",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2792,8 +2792,12 @@
       "locationName": "Swimming Pool",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 8,
@@ -3262,7 +3266,20 @@
       "phase": "Men's Team Semifinals",
       "unit": "Men's Team Semifinals",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "PENG Xian-ya",
+        "TSAI Chung-hao",
+        "SU Hsiang-chih",
+        "CHUANG Chia-ming",
+        "LIN Po-ting",
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
+      ],
       "opponent": "Islamic Republic of Iran",
       "opponentCode": "IRI",
       "venue": "Tokai Citizen Gymnasium",
@@ -3271,7 +3288,7 @@
       "locationName": "TCG Crt 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
