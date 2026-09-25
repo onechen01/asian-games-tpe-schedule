@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T06:55:09.070Z",
+  "generatedAt": "2026-09-25T07:35:14.370Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T06:55:08.935Z",
+      "generatedAt": "2026-09-25T07:35:14.185Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -421,12 +421,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "192.323",
+        "tpe": "197.824",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -479,28 +479,28 @@
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "62.882",
-          "rank": "31"
+          "rank": "35"
         },
         {
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "64.147",
-          "rank": "29"
+          "rank": "33"
         },
         {
           "name": "SHYONG Tien-chi",
           "registration": "2703666",
           "result": "65.294",
-          "rank": "23"
+          "rank": "28"
         },
         {
           "name": "YEH Hsiu-hua",
           "registration": "10513535",
-          "result": null,
-          "rank": null
+          "result": "68.383",
+          "rank": "7"
         }
       ],
-      "tpeRank": "31",
+      "tpeRank": "35",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2177,7 +2177,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "3",
+        "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2276,8 +2276,12 @@
       "locationName": "Table 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -3995,7 +3999,7 @@
     "resultsOnly": 61,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 65
+    "warnings": 64
   },
   "warnings": [
     {
@@ -4302,11 +4306,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:15 Women's 400m Round 1 Heat 1",
       "row": "ATH:W.400M--------------.RND1.000100--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "FEN|M.TEAMFOIL----------",
-      "message": "FEN Men's Foil Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
