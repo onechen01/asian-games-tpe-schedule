@@ -2,8 +2,10 @@
 // Only a unit the officials themselves name as a gold or bronze medal match decides a medal,
 // and only once it is official. Ordinary finals, multi-competitor finals, semifinals and the
 // medalCode flag are never interpreted: they stay undecided instead of being guessed.
+import { extractTpeMedalAwards } from './medal-awards.ts';
+import type { MedalAwardSource } from './medal-awards.ts';
 export type Medal = 'GOLD' | 'SILVER' | 'BRONZE';
-export type MedalRow = { unit?:string|null; phase?:string|null; status?:string|null;
+export type MedalRow = MedalAwardSource & { unit?:string|null; phase?:string|null; status?:string|null;
   tpeRank?:string|null; orgCount?:number|null; tpeMedal?:string|null };
 
 const OFFICIAL_MEDAL:Record<string,Medal> = { ME_GOLD:'GOLD', ME_SILVER:'SILVER', ME_BRONZE:'BRONZE' };
@@ -16,10 +18,13 @@ export const competitorMedal=(status:string|null|undefined,code:string|null|unde
 
 export function medalOf(row:MedalRow):Medal|null {
   if (row?.status !== 'OFFICIAL') return null;
-  // The officials' own medal on the competitor wins: it needs no rank, no head-to-head unit
-  // and no wording in the unit name, and it works the same in every sport.
-  const official = competitorMedal(row.status,row.tpeMedal);
-  if (official) return official;
+  // The shared extractor is the single source of truth for an official medal (medal-awards.ts;
+  // the ledger builder calls the same function). Only its unit-level award decides here -- an
+  // entrant-level award (awardId carries "#") belongs to one entrant among several sharing this
+  // row and is shown directly on that entrant's own line instead (Card in web/app/page.tsx),
+  // never as this row's single headline medal.
+  const unitAward = extractTpeMedalAwards(row).find(a=>!a.awardId.includes('#'));
+  if (unitAward) return OFFICIAL_MEDAL[unitAward.medal] ?? null;
   if ((row.orgCount ?? 0) !== 2) return null;
   const rank = row.tpeRank;
   if (rank !== '1' && rank !== '2') return null;

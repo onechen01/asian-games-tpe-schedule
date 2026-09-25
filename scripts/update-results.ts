@@ -101,6 +101,19 @@ for (const date of dates) {
 }
 await rm(resolve(ROOT,'data/staging'),{recursive:true,force:true});
 
+// The medal ledger is derived from whatever production canonical now holds, so it runs only once
+// every day above has either been swapped in or held, and once staging is gone -- a held day never
+// reached data/normalized, so it cannot reach the ledger either. Like the medal totals it rides
+// along with this run: it reads canonical instead of writing it, spawnSync reports a crash as a
+// status rather than throwing, and nothing below derives from it, so a failed rebuild leaves the
+// already-published canonical, the CHANGED signal and the exit code untouched.
+const ledger = run('scripts/build-medal-ledger.ts',[]);
+console.log(`獎牌明細 ledger ${ledger.status === 0 ? '已重建' : '重建失敗，保留既有 ledger'}`);
+if (ledger.status !== 0) {
+  const why = (ledger.stderr || ledger.stdout || '').trim().slice(-400);
+  if (why) console.error(`  ledger stderr: ${why}`);
+}
+
 console.log(`更新範圍：${dates.join('、')}${discovery ? '（含未來賽程探索）' : ''}`);
 console.log(`已發布 ${published.length} 天：${published.join('、') || '無'}`);
 console.log(`內容未變動 ${unchanged.length} 天`);

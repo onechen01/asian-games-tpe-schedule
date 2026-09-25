@@ -22,6 +22,7 @@
     "update:results": "node scripts/update-results.ts",
     "fetch:broadcasts": "node scripts/fetch-broadcasts.ts",
     "fetch:medals": "node scripts/fetch-medals.ts",
+    "build:medal-ledger": "node scripts/build-medal-ledger.ts",
     "qa:athletes": "node scripts/qa-athletes.ts"
   }
 }
