@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T04:16:44.563Z",
+  "generatedAt": "2026-09-25T10:18:07.614Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-25T04:16:44.416Z",
+      "generatedAt": "2026-09-25T10:18:07.458Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -265,8 +265,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -829,7 +829,7 @@
       "sportZh": "帆船",
       "sportEn": "Sailing",
       "event": "Men's Dinghy",
-      "phase": "Men's Dinghy - Qualification Series",
+      "phase": "Qualification Series",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -837,8 +837,8 @@
       "opponentCode": null,
       "venue": "Kaiyoh Yacht Harbor",
       "venueZh": null,
-      "locationCode": "KYH",
-      "locationName": "",
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,

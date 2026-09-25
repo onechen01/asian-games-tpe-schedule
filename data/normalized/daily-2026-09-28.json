@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T04:11:49.039Z",
+  "generatedAt": "2026-09-25T10:13:22.335Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-25T04:11:48.871Z",
+      "generatedAt": "2026-09-25T10:13:22.161Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -30,6 +30,7 @@
           "SWA",
           "TEN",
           "TTE",
+          "VBV",
           "VVO",
           "WLF",
           "WPO",
@@ -152,6 +153,11 @@
               "medalDay": true
             },
             {
+              "code": "VBV",
+              "date": "2026-09-28",
+              "medalDay": false
+            },
+            {
               "code": "VVO",
               "date": "2026-09-28",
               "medalDay": false
@@ -267,6 +273,11 @@
               "medalDay": false
             },
             {
+              "code": "VBV",
+              "date": "2026-09-29",
+              "medalDay": false
+            },
+            {
               "code": "VVO",
               "date": "2026-09-29",
               "medalDay": false
@@ -286,8 +297,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1303,7 +1314,7 @@
       "sportZh": "帆船",
       "sportEn": "Sailing",
       "event": "Men's Dinghy",
-      "phase": "Men's Dinghy - Qualification Series",
+      "phase": "Qualification Series",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -1311,8 +1322,8 @@
       "opponentCode": null,
       "venue": "Kaiyoh Yacht Harbor",
       "venueZh": null,
-      "locationCode": "KYH",
-      "locationName": "",
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,

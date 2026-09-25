@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T04:09:58.514Z",
+  "generatedAt": "2026-09-25T10:11:00.332Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-25T04:09:58.347Z",
+      "generatedAt": "2026-09-25T10:11:00.152Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -295,6 +295,11 @@
               "medalDay": true
             },
             {
+              "code": "VBV",
+              "date": "2026-09-28",
+              "medalDay": false
+            },
+            {
               "code": "VVO",
               "date": "2026-09-28",
               "medalDay": false
@@ -496,9 +501,13 @@
       "sportEn": "Shooting",
       "event": "25m Pistol Women Individual",
       "phase": "25m Pistol Women Individual Qualification",
-      "unit": null,
+      "unit": "25m Pistol Women Individual - Qualification - Qualification Precision",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHENG Yen-Ching",
+        "CHEN Yu-Ju",
+        "TIEN Chia-Chen"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
@@ -507,29 +516,45 @@
       "locationName": "25m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHENG Yen-Ching",
+          "registration": "13649678",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHEN Yu-Ju",
+          "registration": "13694029",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "TIEN Chia-Chen",
+          "registration": "13656350",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Yu-Ju",
-        "CHENG Yen-Ching",
-        "TIEN Chia-Chen"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SHO|W.SPW---------------"
+        "results": {
+          "unitId": "W.SPW---------------.QUAL.000100--",
+          "id": "SHO:W.SPW---------------.QUAL.000100--"
         }
       }
     },
@@ -543,9 +568,13 @@
       "sportEn": "Shooting",
       "event": "25m Pistol Women Team",
       "phase": "25m Pistol Women Team Final",
-      "unit": null,
+      "unit": "25m Pistol Women Team - Final - Final Precision",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHENG Yen-Ching",
+        "TIEN Chia-Chen",
+        "CHEN Yu-Ju"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
@@ -554,29 +583,26 @@
       "locationName": "25m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Yu-Ju",
-        "CHENG Yen-Ching",
-        "TIEN Chia-Chen"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SHO|W.SPTW--------------"
+        "results": {
+          "unitId": "W.SPTW--------------.FNL-.000100--",
+          "id": "SHO:W.SPTW--------------.FNL-.000100--"
         }
       }
     },
@@ -1452,12 +1478,22 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 4,
-    "entered": 19,
+    "resultsOnly": 6,
+    "entered": 17,
     "unresolvedTbd": 0,
-    "warnings": 4
+    "warnings": 6
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:40 25m Pistol Women Individual - Qualification - Qualification Precision",
+      "row": "SHO:W.SPW---------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:40 25m Pistol Women Team - Final - Final Precision",
+      "row": "SHO:W.SPTW--------------.FNL-.000100--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's Synchronised 3m Springboard Final",

@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-25T09:57:32.204Z",
+  "generatedAt": "2026-09-25T10:21:59.387Z",
   "completeness": "partial",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-25T09:57:32.198Z",
+  "standingsUpdatedAt": "2026-09-25T10:21:59.378Z",
   "ledgerCounts": {
     "gold": 1,
     "silver": 5,
-    "bronze": 14,
-    "total": 20
+    "bronze": 15,
+    "total": 21
   },
   "officialCounts": {
     "gold": 2,
     "silver": 5,
-    "bronze": 14,
-    "total": 21
+    "bronze": 15,
+    "total": 22
   },
   "missing": {
     "gold": 1,
@@ -298,6 +298,33 @@
       "medal": "ME_BRONZE",
       "athletes": [
         "LAI Kuan-chieh"
+      ],
+      "rank": "3"
+    },
+    {
+      "disciplineCode": "KAB",
+      "sportZh": "卡巴迪",
+      "event": "Women's Team",
+      "phase": "Women's Team Semifinals",
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T17:00:00+08:00",
+      "resultId": "KAB:W.TEAM7-------------.SFNL.000200--",
+      "unitId": "W.TEAM7-------------.SFNL.000200--",
+      "awardId": "KAB:W.TEAM7-------------.SFNL.000200--",
+      "medal": "ME_BRONZE",
+      "athletes": [
+        "LIN I-min",
+        "CHUANG Ya-han",
+        "HU Yu-chen",
+        "HUANG Ssu-chin",
+        "YEN Chiao-wen",
+        "REN Ming-xiu",
+        "KANG Yung-chiao",
+        "FENG Hsiu-chen",
+        "QIN Pei-jyun",
+        "HUANG Yi-yun",
+        "CHEN Shi-han",
+        "WU Yu-jung"
       ],
       "rank": "3"
     },

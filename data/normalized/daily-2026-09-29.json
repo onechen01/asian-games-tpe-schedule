@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T04:13:56.139Z",
+  "generatedAt": "2026-09-25T10:15:40.385Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-25T04:13:55.989Z",
+      "generatedAt": "2026-09-25T10:15:40.223Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -29,6 +29,7 @@
           "SPK",
           "SQU",
           "TEN",
+          "VBV",
           "VVO",
           "WLF",
           "WPO",
@@ -142,6 +143,11 @@
             },
             {
               "code": "TEN",
+              "date": "2026-09-29",
+              "medalDay": false
+            },
+            {
+              "code": "VBV",
               "date": "2026-09-29",
               "medalDay": false
             },
@@ -265,8 +271,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -329,58 +335,6 @@
         "results": {
           "unitId": "O.PUBGM-------------.FNL-.000700--",
           "id": "ELS:O.PUBGM-------------.FNL-.000700--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T08:00:00+08:00",
-      "startTimeJst": "2026-09-29T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
-      "phase": "Identity V - Asian Games Version Group A",
-      "unit": "Match 6",
-      "athletes": [],
-      "athletesEn": [
-        "CHENG Kai-sheng",
-        "CHEN Kuang-yeh",
-        "CHU Tang-yao",
-        "TANG Sheng-chun",
-        "CHANG Chun-ming",
-        "CHUANG Po-chun",
-        "SU Bin-cheng"
-      ],
-      "opponent": "Thailand",
-      "opponentCode": "THA",
-      "venue": "",
-      "venueZh": null,
-      "locationCode": "EL2",
-      "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "O.IDV---------------.GPA-.000600--",
-          "id": "ELS:O.IDV---------------.GPA-.000600--"
         }
       }
     },
@@ -828,6 +782,58 @@
       "startTimeTaipei": "2026-09-29T09:30:00+08:00",
       "startTimeJst": "2026-09-29T10:30:00+09:00",
       "timeNote": null,
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
+      "phase": "Identity V - Asian Games Version Group A",
+      "unit": "Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "CHENG Kai-sheng",
+        "CHEN Kuang-yeh",
+        "CHU Tang-yao",
+        "TANG Sheng-chun",
+        "CHANG Chun-ming",
+        "CHUANG Po-chun",
+        "SU Bin-cheng"
+      ],
+      "opponent": "Thailand",
+      "opponentCode": "THA",
+      "venue": "",
+      "venueZh": null,
+      "locationCode": "EL2",
+      "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.IDV---------------.GPA-.000600--",
+          "id": "ELS:O.IDV---------------.GPA-.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:30:00+08:00",
+      "startTimeJst": "2026-09-29T10:30:00+09:00",
+      "timeNote": null,
       "disciplineCode": "CSL",
       "sportZh": "輕艇激流",
       "sportEn": "Canoe Slalom",
@@ -1217,7 +1223,7 @@
       "sportZh": "帆船",
       "sportEn": "Sailing",
       "event": "Men's Dinghy",
-      "phase": "Men's Dinghy - Qualification Series",
+      "phase": "Qualification Series",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -1225,8 +1231,8 @@
       "opponentCode": null,
       "venue": "Kaiyoh Yacht Harbor",
       "venueZh": null,
-      "locationCode": "KYH",
-      "locationName": "",
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,
@@ -1555,13 +1561,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 6",
-      "row": "ELS:O.IDV---------------.GPA-.000600--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:10 Match 8",
+      "row": "ELS:O.PUBGM-------------.FNL-.000800--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:10 Match 8",
-      "row": "ELS:O.PUBGM-------------.FNL-.000800--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 6",
+      "row": "ELS:O.IDV---------------.GPA-.000600--"
     },
     {
       "code": "RESULTS_ONLY",
