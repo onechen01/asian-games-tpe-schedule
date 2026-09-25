@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T11:29:16.032Z",
+  "generatedAt": "2026-09-25T12:09:02.233Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T11:29:15.862Z",
+      "generatedAt": "2026-09-25T12:09:02.064Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1075,6 +1075,98 @@
     },
     {
       "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T09:20:00+08:00",
+      "startTimeJst": "2026-09-26T10:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Men's Singles",
+      "phase": "Men's Singles 2nd Round",
+      "unit": "Men's Singles 2nd Round Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chun-Yi"
+      ],
+      "opponent": "YOO Tae Bin",
+      "opponentCode": "KOR",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "courtSessionChainId": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000600--",
+      "courtPredecessorUnitId": "W.SINGLES-----------.R32-.000600--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.R32-.000600--",
+          "id": "BDM:M.SINGLES-----------.R32-.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T09:20:00+08:00",
+      "startTimeJst": "2026-09-26T10:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Men's Singles",
+      "phase": "Men's Singles 2nd Round",
+      "unit": "Men's Singles 2nd Round Match 12",
+      "athletes": [],
+      "athletesEn": [
+        "CHOU Tien-Chen"
+      ],
+      "opponent": "JAMAN Ayman Ibn",
+      "opponentCode": "BAN",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "courtSessionChainId": "BDM|2026-09-26|002|M.SINGLES-----------.R32-.001200--",
+      "courtPredecessorUnitId": "W.SINGLES-----------.R32-.000300--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.R32-.001200--",
+          "id": "BDM:M.SINGLES-----------.R32-.001200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T09:30:00+08:00",
       "startTimeJst": "2026-09-26T10:30:00+09:00",
       "timeNote": null,
@@ -1314,6 +1406,52 @@
         "results": {
           "unitId": "W.60KG--------------.8FNL.000100--",
           "id": "BOX:W.60KG--------------.8FNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T11:20:00+08:00",
+      "startTimeJst": "2026-09-26T12:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Women's Singles",
+      "phase": "Women's Singles 2nd Round",
+      "unit": "Women's Singles 2nd Round Match 14",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Hsiang-Ti"
+      ],
+      "opponent": "CHOCHUWONG Pornpawee",
+      "opponentCode": "THA",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "courtSessionChainId": "BDM|2026-09-26|001|W.SINGLES-----------.R32-.001400--",
+      "courtPredecessorUnitId": "M.SINGLES-----------.R32-.000700--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.R32-.001400--",
+          "id": "BDM:W.SINGLES-----------.R32-.001400--"
         }
       }
     },
@@ -1651,6 +1789,52 @@
     },
     {
       "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T12:00:00+08:00",
+      "startTimeJst": "2026-09-26T13:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Women's Singles",
+      "phase": "Women's Singles 2nd Round",
+      "unit": "Women's Singles 2nd Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "CHIU Pin-chian"
+      ],
+      "opponent": "PUSARLA V. Sindhu",
+      "opponentCode": "IND",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "courtSessionChainId": "BDM|2026-09-26|001|W.SINGLES-----------.R32-.000800--",
+      "courtPredecessorUnitId": "W.SINGLES-----------.R32-.001400--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.R32-.000800--",
+          "id": "BDM:W.SINGLES-----------.R32-.000800--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T12:30:00+08:00",
       "startTimeJst": "2026-09-26T13:30:00+09:00",
       "timeNote": null,
@@ -1692,6 +1876,147 @@
         "results": {
           "unitId": "M.70KG--------------.FNL-.A00100--",
           "id": "WLF:M.70KG--------------.FNL-.A00100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T14:40:00+08:00",
+      "startTimeJst": "2026-09-26T15:40:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles 2nd Round",
+      "unit": "Women's Doubles 2nd Round Match 7",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Jhih-Yun",
+        "HSU Yin-Hui"
+      ],
+      "opponent": "SMAGULOVA Kamila/RAKHMETULLAYEVA Nargiza",
+      "opponentCode": "KAZ",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "courtSessionChainId": "BDM|2026-09-26|003|W.DOUBLES-----------.8FNL.000700--",
+      "courtPredecessorUnitId": "M.DOUBLES-----------.8FNL.000700--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.8FNL.000700--",
+          "id": "BDM:W.DOUBLES-----------.8FNL.000700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T15:20:00+08:00",
+      "startTimeJst": "2026-09-26T16:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles 2nd Round",
+      "unit": "Men's Doubles 2nd Round Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Po-Hsuan",
+        "LEE Jhe-Huei"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "courtSessionChainId": "BDM|2026-09-26|004|M.DOUBLES-----------.8FNL.000200--",
+      "courtPredecessorUnitId": "M.DOUBLES-----------.8FNL.000800--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.8FNL.000200--",
+          "id": "BDM:M.DOUBLES-----------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T15:20:00+08:00",
+      "startTimeJst": "2026-09-26T16:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles 2nd Round",
+      "unit": "Women's Doubles 2nd Round Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Pei-shan",
+        "HUNG En-Tzu"
+      ],
+      "opponent": "KULESHOVA Alissa/NAMENOVA Diana",
+      "opponentCode": "KAZ",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "courtSessionChainId": "BDM|2026-09-26|003|W.DOUBLES-----------.8FNL.000200--",
+      "courtPredecessorUnitId": "W.DOUBLES-----------.8FNL.000700--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.8FNL.000200--",
+          "id": "BDM:W.DOUBLES-----------.8FNL.000200--"
         }
       }
     },
@@ -2207,13 +2532,317 @@
   ],
   "sessionChains": [
     {
+      "id": "BDM|2026-09-26|002|W.SINGLES-----------.R32-.000500--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "W.SINGLES-----------.R32-.000500--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.000500--",
+          "unitName": "Women's Singles 2nd Round Match 5",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T08:30:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|W.SINGLES-----------.R32-.000300--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "W.SINGLES-----------.R32-.000300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T08:40:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.000300--",
+          "unitName": "Women's Singles 2nd Round Match 3",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.000500--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T08:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|M.SINGLES-----------.R32-.001200--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "M.SINGLES-----------.R32-.001200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T09:20:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.001200--",
+          "unitName": "Men's Singles 2nd Round Match 12",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.000300--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T09:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|W.SINGLES-----------.R32-.001100--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "W.SINGLES-----------.R32-.001100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T10:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.001100--",
+          "unitName": "Women's Singles 2nd Round Match 11",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.001200--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T10:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|W.SINGLES-----------.R32-.000900--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "W.SINGLES-----------.R32-.000900--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T10:40:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.000900--",
+          "unitName": "Women's Singles 2nd Round Match 9",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.001100--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T10:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|M.SINGLES-----------.R32-.001100--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "M.SINGLES-----------.R32-.001100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T11:20:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.001100--",
+          "unitName": "Men's Singles 2nd Round Match 11",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.000900--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T11:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|W.SINGLES-----------.R32-.001200--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "W.SINGLES-----------.R32-.001200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T12:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.001200--",
+          "unitName": "Women's Singles 2nd Round Match 12",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.001100--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T12:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|M.SINGLES-----------.R32-.001000--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "M.SINGLES-----------.R32-.001000--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T12:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.001000--",
+          "unitName": "Men's Singles 2nd Round Match 10",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.001200--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T12:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|M.DOUBLES-----------.8FNL.000300--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "M.DOUBLES-----------.8FNL.000300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T13:20:00+08:00",
+      "units": [
+        {
+          "unitId": "M.DOUBLES-----------.8FNL.000300--",
+          "unitName": "Men's Doubles 2nd Round Match 3",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.001000--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T13:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|W.DOUBLES-----------.8FNL.000300--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "W.DOUBLES-----------.8FNL.000300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T14:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.8FNL.000300--",
+          "unitName": "Women's Doubles 2nd Round Match 3",
+          "predecessorUnitId": "M.DOUBLES-----------.8FNL.000300--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T14:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|M.DOUBLES-----------.8FNL.000500--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "M.DOUBLES-----------.8FNL.000500--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T14:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.DOUBLES-----------.8FNL.000500--",
+          "unitName": "Men's Doubles 2nd Round Match 5",
+          "predecessorUnitId": "W.DOUBLES-----------.8FNL.000300--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T14:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|W.DOUBLES-----------.8FNL.000800--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "W.DOUBLES-----------.8FNL.000800--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T15:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.8FNL.000800--",
+          "unitName": "Women's Doubles 2nd Round Match 8",
+          "predecessorUnitId": "M.DOUBLES-----------.8FNL.000500--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T15:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|W.SINGLES-----------.8FNL.000300--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "W.SINGLES-----------.8FNL.000300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.8FNL.000300--",
+          "unitName": "Women's Singles 3rd Round Match 3",
+          "predecessorUnitId": "W.DOUBLES-----------.8FNL.000800--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T16:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|W.SINGLES-----------.8FNL.000200--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "W.SINGLES-----------.8FNL.000200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T16:40:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.8FNL.000200--",
+          "unitName": "Women's Singles 3rd Round Match 2",
+          "predecessorUnitId": "W.SINGLES-----------.8FNL.000300--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T16:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|M.SINGLES-----------.8FNL.000500--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "M.SINGLES-----------.8FNL.000500--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T17:20:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.8FNL.000500--",
+          "unitName": "Men's Singles 3rd Round Match 5",
+          "predecessorUnitId": "W.SINGLES-----------.8FNL.000200--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T17:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|002|M.SINGLES-----------.8FNL.000700--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "M.SINGLES-----------.8FNL.000700--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T18:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.8FNL.000700--",
+          "unitName": "Men's Singles 3rd Round Match 7",
+          "predecessorUnitId": "M.SINGLES-----------.8FNL.000500--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T18:00:00+08:00"
+        }
+      ]
+    },
+    {
       "id": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000300--",
       "disciplineCode": "BDM",
       "locationCode": "001",
       "locationName": "Court 1",
       "anchorUnitId": "M.SINGLES-----------.R32-.000300--",
       "anchorTimeKind": "EXACT",
-      "anchorTimeTaipei": "2026-09-26T08:00:00+08:00",
+      "anchorTimeTaipei": "2026-09-26T08:30:00+08:00",
       "units": [
         {
           "unitId": "M.SINGLES-----------.R32-.000300--",
@@ -2221,7 +2850,824 @@
           "predecessorUnitId": null,
           "timeNoteCode": null,
           "timeKind": "EXACT",
-          "timeTaipei": "2026-09-26T08:00:00+08:00"
+          "timeTaipei": "2026-09-26T08:30:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|W.SINGLES-----------.R32-.000600--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.SINGLES-----------.R32-.000600--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T08:40:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.000600--",
+          "unitName": "Women's Singles 2nd Round Match 6",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.000300--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T08:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000600--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.SINGLES-----------.R32-.000600--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T09:20:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.000600--",
+          "unitName": "Men's Singles 2nd Round Match 6",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.000600--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T09:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|W.SINGLES-----------.R32-.001300--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.SINGLES-----------.R32-.001300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T10:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.001300--",
+          "unitName": "Women's Singles 2nd Round Match 13",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.000600--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T10:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000700--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.SINGLES-----------.R32-.000700--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T10:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.000700--",
+          "unitName": "Men's Singles 2nd Round Match 7",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.001300--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T10:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|W.SINGLES-----------.R32-.001400--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.SINGLES-----------.R32-.001400--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T11:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.001400--",
+          "unitName": "Women's Singles 2nd Round Match 14",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.000700--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T11:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|W.SINGLES-----------.R32-.000800--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.SINGLES-----------.R32-.000800--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T12:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.000800--",
+          "unitName": "Women's Singles 2nd Round Match 8",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.001400--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T12:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.001400--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.SINGLES-----------.R32-.001400--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T12:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.001400--",
+          "unitName": "Men's Singles 2nd Round Match 14",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.000800--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T12:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|W.DOUBLES-----------.8FNL.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.DOUBLES-----------.8FNL.000100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T13:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.8FNL.000100--",
+          "unitName": "Women's Doubles 2nd Round Match 1",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.001400--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T13:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|M.DOUBLES-----------.8FNL.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.DOUBLES-----------.8FNL.000100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T14:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.DOUBLES-----------.8FNL.000100--",
+          "unitName": "Men's Doubles 2nd Round Match 1",
+          "predecessorUnitId": "W.DOUBLES-----------.8FNL.000100--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T14:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|M.DOUBLES-----------.8FNL.000600--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.DOUBLES-----------.8FNL.000600--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T14:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.DOUBLES-----------.8FNL.000600--",
+          "unitName": "Men's Doubles 2nd Round Match 6",
+          "predecessorUnitId": "M.DOUBLES-----------.8FNL.000100--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T14:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|W.DOUBLES-----------.8FNL.000600--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.DOUBLES-----------.8FNL.000600--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T15:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.8FNL.000600--",
+          "unitName": "Women's Doubles 2nd Round Match 6",
+          "predecessorUnitId": "M.DOUBLES-----------.8FNL.000600--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T15:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|M.SINGLES-----------.8FNL.000300--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.SINGLES-----------.8FNL.000300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.8FNL.000300--",
+          "unitName": "Men's Singles 3rd Round Match 3",
+          "predecessorUnitId": "W.DOUBLES-----------.8FNL.000600--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T16:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|W.SINGLES-----------.8FNL.000700--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.SINGLES-----------.8FNL.000700--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T16:40:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.8FNL.000700--",
+          "unitName": "Women's Singles 3rd Round Match 7",
+          "predecessorUnitId": "M.SINGLES-----------.8FNL.000300--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T16:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|W.SINGLES-----------.8FNL.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.SINGLES-----------.8FNL.000400--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T17:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.8FNL.000400--",
+          "unitName": "Women's Singles 3rd Round Match 4",
+          "predecessorUnitId": "W.SINGLES-----------.8FNL.000700--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T17:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|001|M.SINGLES-----------.8FNL.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.SINGLES-----------.8FNL.000100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T18:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.8FNL.000100--",
+          "unitName": "Men's Singles 3rd Round Match 1",
+          "predecessorUnitId": "W.SINGLES-----------.8FNL.000400--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T18:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|M.SINGLES-----------.R32-.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "M.SINGLES-----------.R32-.000100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T08:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.000100--",
+          "unitName": "Men's Singles 2nd Round Match 1",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T08:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|W.SINGLES-----------.R32-.001000--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "W.SINGLES-----------.R32-.001000--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T08:50:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.001000--",
+          "unitName": "Women's Singles 2nd Round Match 10",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.000100--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T08:50:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|M.SINGLES-----------.R32-.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "M.SINGLES-----------.R32-.000400--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T09:20:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.000400--",
+          "unitName": "Men's Singles 2nd Round Match 4",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.001000--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T09:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|W.SINGLES-----------.R32-.000200--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "W.SINGLES-----------.R32-.000200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T10:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.000200--",
+          "unitName": "Women's Singles 2nd Round Match 2",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.000400--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T10:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|M.SINGLES-----------.R32-.000800--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "M.SINGLES-----------.R32-.000800--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T10:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.000800--",
+          "unitName": "Men's Singles 2nd Round Match 8",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.000200--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T10:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|W.SINGLES-----------.R32-.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "W.SINGLES-----------.R32-.000100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T11:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.000100--",
+          "unitName": "Women's Singles 2nd Round Match 1",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.000800--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T11:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|W.SINGLES-----------.R32-.001500--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "W.SINGLES-----------.R32-.001500--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T12:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.001500--",
+          "unitName": "Women's Singles 2nd Round Match 15",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.000100--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T12:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|M.SINGLES-----------.R32-.000900--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "M.SINGLES-----------.R32-.000900--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T12:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.000900--",
+          "unitName": "Men's Singles 2nd Round Match 9",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.001500--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T12:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|W.DOUBLES-----------.8FNL.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "W.DOUBLES-----------.8FNL.000400--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T13:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.8FNL.000400--",
+          "unitName": "Women's Doubles 2nd Round Match 4",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.000900--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T13:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|M.SINGLES-----------.R32-.001300--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "M.SINGLES-----------.R32-.001300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T14:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.001300--",
+          "unitName": "Men's Singles 2nd Round Match 13",
+          "predecessorUnitId": "W.DOUBLES-----------.8FNL.000400--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T14:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|M.DOUBLES-----------.8FNL.000800--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "M.DOUBLES-----------.8FNL.000800--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T14:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.DOUBLES-----------.8FNL.000800--",
+          "unitName": "Men's Doubles 2nd Round Match 8",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.001300--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T14:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|M.DOUBLES-----------.8FNL.000200--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "M.DOUBLES-----------.8FNL.000200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T15:20:00+08:00",
+      "units": [
+        {
+          "unitId": "M.DOUBLES-----------.8FNL.000200--",
+          "unitName": "Men's Doubles 2nd Round Match 2",
+          "predecessorUnitId": "M.DOUBLES-----------.8FNL.000800--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T15:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|W.SINGLES-----------.8FNL.000500--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "W.SINGLES-----------.8FNL.000500--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.8FNL.000500--",
+          "unitName": "Women's Singles 3rd Round Match 5",
+          "predecessorUnitId": "M.DOUBLES-----------.8FNL.000200--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T16:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|004|M.SINGLES-----------.8FNL.000200--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "M.SINGLES-----------.8FNL.000200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T16:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.8FNL.000200--",
+          "unitName": "Men's Singles 3rd Round Match 2",
+          "predecessorUnitId": "W.SINGLES-----------.8FNL.000500--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T16:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|M.SINGLES-----------.R32-.000500--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "M.SINGLES-----------.R32-.000500--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T08:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.000500--",
+          "unitName": "Men's Singles 2nd Round Match 5",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T08:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|M.SINGLES-----------.R32-.000200--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "M.SINGLES-----------.R32-.000200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T08:50:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.000200--",
+          "unitName": "Men's Singles 2nd Round Match 2",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.000500--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T08:50:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|W.SINGLES-----------.R32-.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "W.SINGLES-----------.R32-.000400--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T09:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.000400--",
+          "unitName": "Women's Singles 2nd Round Match 4",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.000200--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T09:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|W.SINGLES-----------.R32-.001600--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "W.SINGLES-----------.R32-.001600--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T10:00:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.001600--",
+          "unitName": "Women's Singles 2nd Round Match 16",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.000400--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T10:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|M.SINGLES-----------.R32-.001600--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "M.SINGLES-----------.R32-.001600--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T10:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.001600--",
+          "unitName": "Men's Singles 2nd Round Match 16",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.001600--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T10:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|W.SINGLES-----------.R32-.000700--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "W.SINGLES-----------.R32-.000700--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T11:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.R32-.000700--",
+          "unitName": "Women's Singles 2nd Round Match 7",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.001600--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T11:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|M.SINGLES-----------.R32-.001500--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "M.SINGLES-----------.R32-.001500--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T12:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.001500--",
+          "unitName": "Men's Singles 2nd Round Match 15",
+          "predecessorUnitId": "W.SINGLES-----------.R32-.000700--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T12:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "M.DOUBLES-----------.8FNL.000400--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T12:40:00+08:00",
+      "units": [
+        {
+          "unitId": "M.DOUBLES-----------.8FNL.000400--",
+          "unitName": "Men's Doubles 2nd Round Match 4",
+          "predecessorUnitId": "M.SINGLES-----------.R32-.001500--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T12:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|W.DOUBLES-----------.8FNL.000500--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "W.DOUBLES-----------.8FNL.000500--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T13:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.8FNL.000500--",
+          "unitName": "Women's Doubles 2nd Round Match 5",
+          "predecessorUnitId": "M.DOUBLES-----------.8FNL.000400--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T13:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000700--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "M.DOUBLES-----------.8FNL.000700--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T14:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.DOUBLES-----------.8FNL.000700--",
+          "unitName": "Men's Doubles 2nd Round Match 7",
+          "predecessorUnitId": "W.DOUBLES-----------.8FNL.000500--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T14:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|W.DOUBLES-----------.8FNL.000700--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "W.DOUBLES-----------.8FNL.000700--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T14:40:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.8FNL.000700--",
+          "unitName": "Women's Doubles 2nd Round Match 7",
+          "predecessorUnitId": "M.DOUBLES-----------.8FNL.000700--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T14:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|W.DOUBLES-----------.8FNL.000200--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "W.DOUBLES-----------.8FNL.000200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T15:20:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.8FNL.000200--",
+          "unitName": "Women's Doubles 2nd Round Match 2",
+          "predecessorUnitId": "W.DOUBLES-----------.8FNL.000700--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T15:20:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|M.SINGLES-----------.8FNL.000600--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "M.SINGLES-----------.8FNL.000600--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.8FNL.000600--",
+          "unitName": "Men's Singles 3rd Round Match 6",
+          "predecessorUnitId": "W.DOUBLES-----------.8FNL.000200--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T16:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-26|003|W.SINGLES-----------.8FNL.000800--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "W.SINGLES-----------.8FNL.000800--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T16:40:00+08:00",
+      "units": [
+        {
+          "unitId": "W.SINGLES-----------.8FNL.000800--",
+          "unitName": "Women's Singles 3rd Round Match 8",
+          "predecessorUnitId": "M.SINGLES-----------.8FNL.000600--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T16:40:00+08:00"
         }
       ]
     }
@@ -2231,10 +3677,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 35,
+    "resultsOnly": 42,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 42
+    "warnings": 53
   },
   "warnings": [
     {
@@ -2299,6 +3745,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 09:20 Men's Singles 2nd Round Match 6",
+      "row": "BDM:M.SINGLES-----------.R32-.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 09:20 Men's Singles 2nd Round Match 12",
+      "row": "BDM:M.SINGLES-----------.R32-.001200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 4",
       "row": "ELS:O.PYO---------------.QFNL.000400--"
     },
@@ -2321,6 +3777,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 11:00 Women's 60KG - Preliminaries - Round of 16",
       "row": "BOX:W.60KG--------------.8FNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 11:20 Women's Singles 2nd Round Match 14",
+      "row": "BDM:W.SINGLES-----------.R32-.001400--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2354,8 +3815,28 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 12:00 Women's Singles 2nd Round Match 8",
+      "row": "BDM:W.SINGLES-----------.R32-.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Men's 70kg Group A",
       "row": "WLF:M.70KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 14:40 Women's Doubles 2nd Round Match 7",
+      "row": "BDM:W.DOUBLES-----------.8FNL.000700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 15:20 Men's Doubles 2nd Round Match 2",
+      "row": "BDM:M.DOUBLES-----------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 15:20 Women's Doubles 2nd Round Match 2",
+      "row": "BDM:W.DOUBLES-----------.8FNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2431,6 +3912,26 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SHO|W.R3PW--------------",
       "message": "SHO 50m Rifle 3 Positions Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BDM|M.DOUBLES-----------",
+      "message": "BDM Men's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BDM|W.DOUBLES-----------",
+      "message": "BDM Women's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BDM|M.SINGLES-----------",
+      "message": "BDM Men's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BDM|W.SINGLES-----------",
+      "message": "BDM Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
