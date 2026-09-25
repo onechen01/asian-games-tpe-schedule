@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T13:05:59.056Z",
+  "generatedAt": "2026-09-25T13:32:27.586Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T13:05:58.929Z",
+      "generatedAt": "2026-09-25T13:32:27.407Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2023,8 +2023,8 @@
         "YANG Po-Hsuan",
         "LEE Jhe-Huei"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "NISHI Hiroki/KUMAGAI Kakeru",
+      "opponentCode": "JPN",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
       "locationCode": "004",
@@ -2035,7 +2035,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -3237,7 +3237,7 @@
     "resultsOnly": 43,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 54
+    "warnings": 53
   },
   "warnings": [
     {
@@ -3479,11 +3479,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BDM|M.DOUBLES-----------",
       "message": "BDM Men's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "BDM|W.DOUBLES-----------",
-      "message": "BDM Women's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
