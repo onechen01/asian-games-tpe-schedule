@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T22:20:44.282Z",
+  "generatedAt": "2026-09-25T13:17:55.286Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-09-24T22:20:44.131Z",
+      "generatedAt": "2026-09-25T13:17:55.182Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -686,100 +686,6 @@
           "eventId": "EQU|O.JUMPINDVCOMB------"
         }
       }
-    },
-    {
-      "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T17:10:00+08:00",
-      "startTimeJst": "2026-10-03T18:10:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Women's Team",
-      "phase": "Women's Team Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|W.TEAM--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T17:25:00+08:00",
-      "startTimeJst": "2026-10-03T18:25:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Men's Team",
-      "phase": "Men's Team Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|M.TEAM--------------"
-        }
-      }
     }
   ],
   "sessionChains": [],
@@ -789,7 +695,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 0,
-    "entered": 13,
+    "entered": 11,
     "unresolvedTbd": 0,
     "warnings": 0
   },
