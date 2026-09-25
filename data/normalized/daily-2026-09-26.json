@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T07:37:18.134Z",
+  "generatedAt": "2026-09-25T07:52:14.430Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T07:37:17.945Z",
+      "generatedAt": "2026-09-25T07:52:14.299Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -904,6 +904,52 @@
         "results": {
           "unitId": "O.PKU---------------.GPA-.000300--",
           "id": "ELS:O.PKU---------------.GPA-.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T09:30:00+08:00",
+      "startTimeJst": "2026-09-26T10:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Puzzle [Puyo Puyo Champions]",
+      "phase": "Puyo Puyo Champions Quarter-finals",
+      "unit": "Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "KUO Tzu-ang"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "",
+      "venueZh": null,
+      "locationCode": "EL1",
+      "locationName": "Aichi Sky Expo Hall D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.PYO---------------.QFNL.000300--",
+          "id": "ELS:O.PYO---------------.QFNL.000300--"
         }
       }
     },
@@ -1857,10 +1903,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 22,
+    "resultsOnly": 23,
     "entered": 7,
     "unresolvedTbd": 0,
-    "warnings": 27
+    "warnings": 29
   },
   "warnings": [
     {
@@ -1907,6 +1953,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 Match 3",
       "row": "ELS:O.PKU---------------.GPA-.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 3",
+      "row": "ELS:O.PYO---------------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1977,6 +2028,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ATH|M.DECATH------------",
       "message": "ATH Men's Decathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ELS|O.PYO---------------",
+      "message": "ELS Puzzle [Puyo Puyo Champions] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
