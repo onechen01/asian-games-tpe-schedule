@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T00:39:22.617Z",
+  "generatedAt": "2026-09-25T00:48:24.762Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T00:39:22.452Z",
+      "generatedAt": "2026-09-25T00:48:24.620Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -580,67 +580,6 @@
         "results": {
           "unitId": "W.CTEAM-------------.QUAL.000100--",
           "id": "ARC:W.CTEAM-------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T08:00:00+08:00",
-      "startTimeJst": "2026-09-26T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SBL",
-      "sportZh": "壘球",
-      "sportEn": "Softball",
-      "event": "Softball Women",
-      "phase": "Women's Preliminary Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Anjo Softball Ground",
-      "venueZh": null,
-      "locationCode": "ASG",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHEN Chia-yi",
-        "CHEN Ching-yu",
-        "CHIANG Ting-en",
-        "CHU Yi-shan",
-        "HO Yi-fan",
-        "KE Hsia-ai",
-        "LI Szu-shih",
-        "LIN Chi-yun",
-        "LIN Chih-ying",
-        "LIN Feng-chen",
-        "LIU Hsuan",
-        "PAN Yu-ling",
-        "SHEN Chia-wen",
-        "SU Yi-hsuan",
-        "TU Ya-ting",
-        "YANG An-chi",
-        "YEH Kuei-ping"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SBL|W.TEAM9-------------"
         }
       }
     },
@@ -1738,7 +1677,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 19,
-    "entered": 8,
+    "entered": 7,
     "unresolvedTbd": 0,
     "warnings": 22
   },
