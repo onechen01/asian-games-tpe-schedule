@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T11:29:16.620Z",
-  "completeness": "partial",
+  "generatedAt": "2026-09-25T11:48:01.841Z",
+  "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-25T11:29:16.611Z",
+  "standingsUpdatedAt": "2026-09-25T11:48:01.841Z",
   "ledgerCounts": {
-    "gold": 1,
+    "gold": 2,
     "silver": 5,
-    "bronze": 15,
-    "total": 21
+    "bronze": 16,
+    "total": 23
   },
   "officialCounts": {
     "gold": 2,
@@ -16,10 +16,10 @@
     "total": 23
   },
   "missing": {
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
-    "bronze": 1,
-    "total": 2
+    "bronze": 0,
+    "total": 0
   },
   "awards": [
     {
@@ -304,6 +304,33 @@
     {
       "disciplineCode": "KAB",
       "sportZh": "卡巴迪",
+      "event": "Men's Team",
+      "phase": "Men's Team Semifinals",
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T18:15:00+08:00",
+      "resultId": "KAB:M.TEAM7-------------.SFNL.000200--",
+      "unitId": "M.TEAM7-------------.SFNL.000200--",
+      "awardId": "KAB:M.TEAM7-------------.SFNL.000200--",
+      "medal": "ME_BRONZE",
+      "athletes": [
+        "PENG Xian-ya",
+        "TSAI Chung-hao",
+        "SU Hsiang-chih",
+        "CHUANG Chia-ming",
+        "LIN Po-ting",
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
+      ],
+      "rank": "3"
+    },
+    {
+      "disciplineCode": "KAB",
+      "sportZh": "卡巴迪",
       "event": "Women's Team",
       "phase": "Women's Team Semifinals",
       "date": "2026-09-25",
@@ -359,6 +386,22 @@
         "LIN Yi-fan"
       ],
       "rank": "2"
+    },
+    {
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "event": "Men's 200m Butterfly",
+      "phase": "Men's 200m Butterfly Final",
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T17:21:00+08:00",
+      "resultId": "SWM:M.200MBF------------.FNL-.000100--",
+      "unitId": "M.200MBF------------.FNL-.000100--",
+      "awardId": "SWM:M.200MBF------------.FNL-.000100--",
+      "medal": "ME_GOLD",
+      "athletes": [
+        "WANG Kuan-hung"
+      ],
+      "rank": "1"
     },
     {
       "disciplineCode": "WLF",
