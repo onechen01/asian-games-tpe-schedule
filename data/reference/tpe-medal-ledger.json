@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T13:51:01.082Z",
+  "generatedAt": "2026-09-25T14:07:10.516Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-25T13:51:01.081Z",
+  "standingsUpdatedAt": "2026-09-25T14:07:10.516Z",
   "ledgerCounts": {
     "gold": 2,
     "silver": 5,
@@ -284,7 +284,7 @@
         "YEH Chih-yu",
         "CHENG Hsu-yu"
       ],
-      "rank": null
+      "rank": "3"
     },
     {
       "awardId": "CSP|M.C1-500M-----------|12270735",
