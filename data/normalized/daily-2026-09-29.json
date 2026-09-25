@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T01:21:42.746Z",
+  "generatedAt": "2026-09-25T04:13:56.139Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-25T01:21:42.652Z",
+      "generatedAt": "2026-09-25T04:13:55.989Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -265,8 +265,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 5,
-          "recovered": 5,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -292,7 +292,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 7",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -783,7 +783,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 8",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -923,7 +923,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 9",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -960,52 +960,6 @@
         "results": {
           "unitId": "O.PUBGM-------------.FNL-.000900--",
           "id": "ELS:O.PUBGM-------------.FNL-.000900--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:40:00+08:00",
-      "startTimeJst": "2026-09-29T11:40:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "WLF",
-      "sportZh": "舉重",
-      "sportEn": "Weightlifting",
-      "event": "Men's 110kg",
-      "phase": "Men's 110kg All Groups",
-      "unit": "Men's 110kg Group A",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Po-jen"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Trade and Industry Center",
-      "venueZh": null,
-      "locationCode": "TIC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 6,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.110KG-------------.FNL-.A00100--",
-          "id": "WLF:M.110KG-------------.FNL-.A00100--"
         }
       }
     },
@@ -1103,6 +1057,52 @@
     },
     {
       "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T11:30:00+08:00",
+      "startTimeJst": "2026-09-29T12:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "sportEn": "Weightlifting",
+      "event": "Men's 110kg",
+      "phase": "Men's 110kg All Groups",
+      "unit": "Men's 110kg Group A",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Po-jen"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Trade and Industry Center",
+      "venueZh": null,
+      "locationCode": "TIC",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.110KG-------------.FNL-.A00100--",
+          "id": "WLF:M.110KG-------------.FNL-.A00100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T12:00:00+08:00",
       "startTimeJst": "2026-09-29T13:00:00+09:00",
       "timeNote": null,
@@ -1111,7 +1111,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 10",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1263,7 +1263,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 11",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1313,7 +1313,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 12",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1550,7 +1550,7 @@
   "warnings": [
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 7",
       "row": "ELS:O.PUBGM-------------.FNL-.000700--"
     },
     {
@@ -1560,22 +1560,22 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:10 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:10 Match 8",
       "row": "ELS:O.PUBGM-------------.FNL-.000800--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:20 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:20 Match 9",
       "row": "ELS:O.PUBGM-------------.FNL-.000900--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WLF 10:40 Men's 110kg Group A",
+      "message": "Results 確認 TPE 但中華奧會未列出：WLF 11:30 Men's 110kg Group A",
       "row": "WLF:M.110KG-------------.FNL-.A00100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 Match 10",
       "row": "ELS:O.PUBGM-------------.FNL-.001000--"
     },
     {
@@ -1585,12 +1585,12 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:10 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:10 Match 11",
       "row": "ELS:O.PUBGM-------------.FNL-.001100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:20 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:20 Match 12",
       "row": "ELS:O.PUBGM-------------.FNL-.001200--"
     },
     {

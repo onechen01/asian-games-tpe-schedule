@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T03:55:06.106Z",
+  "generatedAt": "2026-09-25T04:04:31.986Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T03:55:05.926Z",
+      "generatedAt": "2026-09-25T04:04:31.818Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -426,7 +426,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "6",
+      "tpeRank": null,
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -479,13 +479,13 @@
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "62.882",
-          "rank": "16"
+          "rank": "18"
         },
         {
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "64.147",
-          "rank": "14"
+          "rank": "16"
         },
         {
           "name": "SHYONG Tien-chi",
@@ -500,7 +500,7 @@
           "rank": null
         }
       ],
-      "tpeRank": "16",
+      "tpeRank": "18",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -654,7 +654,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "4",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1487,14 +1487,14 @@
       "locationName": "Red",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "37",
-        "opponent": "43",
+        "opponent": "45",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1648,7 +1648,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "5",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1694,7 +1694,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "1",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1745,8 +1745,12 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
       "courtPredecessorUnitId": "W.SINGLES-----------.R64-.001600--",
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1791,7 +1795,7 @@
       "locationName": "Table 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,

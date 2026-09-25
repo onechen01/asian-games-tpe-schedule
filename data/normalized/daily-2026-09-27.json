@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T01:14:38.773Z",
+  "generatedAt": "2026-09-25T04:09:58.514Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-25T01:14:38.677Z",
+      "generatedAt": "2026-09-25T04:09:58.347Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -589,40 +589,41 @@
       "sportZh": "跳水",
       "sportEn": "Diving",
       "event": "Women's Synchronised 3m Springboard",
-      "phase": "Women's Synchronised 3m Springboard",
-      "unit": null,
+      "phase": "Women's Synchronised 3m Springboard Final",
+      "unit": "Women's Synchronised 3m Springboard Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Barbara",
+        "CHEN Jacqueline"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre(Tokyo)",
       "venueZh": null,
-      "locationCode": "TAC",
-      "locationName": "",
+      "locationCode": "001",
+      "locationName": "Centro Acuático",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Barbara Miao",
-        "CHEN Jacqueline Liang"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "DIV|W.3MTEAM2-----------"
+        "results": {
+          "unitId": "W.3MTEAM2-----------.FNL-.000100--",
+          "id": "DIV:W.3MTEAM2-----------.FNL-.000100--"
         }
       }
     },
@@ -1451,12 +1452,17 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 3,
-    "entered": 20,
+    "resultsOnly": 4,
+    "entered": 19,
     "unresolvedTbd": 0,
-    "warnings": 3
+    "warnings": 4
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's Synchronised 3m Springboard Final",
+      "row": "DIV:W.3MTEAM2-----------.FNL-.000100--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 12:00 Women Pool A Match 14",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T01:24:11.278Z",
+  "generatedAt": "2026-09-25T04:16:44.563Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-25T01:24:11.187Z",
+      "generatedAt": "2026-09-25T04:16:44.416Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -265,8 +265,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -386,7 +386,7 @@
       "sportEn": "Esports",
       "event": "MOBA [League of Legends]",
       "phase": "League of Legends Group B",
-      "unit": "League of Legends Group B",
+      "unit": "Match 2",
       "athletes": [],
       "athletesEn": [
         "LIN Yu-en",
@@ -493,6 +493,66 @@
       "startTimeTaipei": "2026-09-30T09:00:00+08:00",
       "startTimeJst": "2026-09-30T10:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "DIV",
+      "sportZh": "跳水",
+      "sportEn": "Diving",
+      "event": "Women's 3m Springboard",
+      "phase": "Women's 3m Springboard Preliminary",
+      "unit": "Women's 3m Springboard Preliminary",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Jacqueline",
+        "CHEN Barbara"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre(Tokyo)",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Centro Acuático",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHEN Jacqueline",
+          "registration": "7958609",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHEN Barbara",
+          "registration": "14561657",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.3M----------------.PREL.000100--",
+          "id": "DIV:W.3M----------------.PREL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
+      "startTimeJst": "2026-09-30T10:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "CTR",
       "sportZh": "自由車場地賽",
       "sportEn": "Cycling Track",
@@ -576,52 +636,6 @@
       "sources": {
         "entries": {
           "eventId": "CTR|W.KEIRIN------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
-      "startTimeJst": "2026-09-30T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "DIV",
-      "sportZh": "跳水",
-      "sportEn": "Diving",
-      "event": "Women's 3m Springboard",
-      "phase": "Women's 3m Springboard Preliminary",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokyo Aquatics Centre(Tokyo)",
-      "venueZh": null,
-      "locationCode": "TAC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Barbara Miao",
-        "CHEN Jacqueline Liang"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "DIV|W.3M----------------"
         }
       }
     },
@@ -861,7 +875,7 @@
       "sportEn": "Esports",
       "event": "MOBA [League of Legends]",
       "phase": "League of Legends Group B",
-      "unit": "League of Legends Group B",
+      "unit": "Match 4",
       "athletes": [],
       "athletesEn": [
         "LIN Yu-en",
@@ -912,7 +926,7 @@
       "sportEn": "Esports",
       "event": "MOBA [League of Legends]",
       "phase": "League of Legends Group B",
-      "unit": "League of Legends Group B",
+      "unit": "Match 5",
       "athletes": [],
       "athletesEn": [
         "LIN Yu-en",
@@ -960,26 +974,36 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 3,
-    "entered": 11,
+    "resultsOnly": 4,
+    "entered": 10,
     "unresolvedTbd": 0,
-    "warnings": 3
+    "warnings": 5
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 League of Legends Group B",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 2",
       "row": "ELS:O.LOL---------------.GPB-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:30 League of Legends Group B",
+      "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's 3m Springboard Preliminary",
+      "row": "DIV:W.3M----------------.PREL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:30 Match 4",
       "row": "ELS:O.LOL---------------.GPB-.000400--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:00 League of Legends Group B",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:00 Match 5",
       "row": "ELS:O.LOL---------------.GPB-.000500--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "DIV|W.3M----------------",
+      "message": "DIV Women's 3m Springboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

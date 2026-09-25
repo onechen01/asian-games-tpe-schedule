@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T01:17:40.159Z",
+  "generatedAt": "2026-09-25T04:11:49.039Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-25T01:17:40.064Z",
+      "generatedAt": "2026-09-25T04:11:48.871Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -286,8 +286,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -313,7 +313,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 1",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -615,7 +615,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 2",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -665,39 +665,53 @@
       "sportEn": "Diving",
       "event": "Women's 1m Springboard",
       "phase": "Women's 1m Springboard Final",
-      "unit": null,
+      "unit": "Women's 1m Springboard Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Jacqueline",
+        "CHEN Barbara"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre(Tokyo)",
       "venueZh": null,
-      "locationCode": "TAC",
-      "locationName": "",
+      "locationCode": "001",
+      "locationName": "Centro Acuático",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHEN Jacqueline",
+          "registration": "7958609",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "CHEN Barbara",
+          "registration": "14561657",
+          "result": null,
+          "rank": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Barbara Miao",
-        "CHEN Jacqueline Liang"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "DIV|W.1M----------------"
+        "results": {
+          "unitId": "W.1M----------------.FNL-.000100--",
+          "id": "DIV:W.1M----------------.FNL-.000100--"
         }
       }
     },
@@ -1044,7 +1058,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 3",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1094,7 +1108,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 4",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1144,7 +1158,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 5",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1240,7 +1254,7 @@
       "sportEn": "Esports",
       "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
       "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 6",
       "athletes": [],
       "athletesEn": [
         "CHIANG Chien-ting",
@@ -1389,15 +1403,15 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 10,
-    "entered": 12,
+    "resultsOnly": 11,
+    "entered": 11,
     "unresolvedTbd": 0,
-    "warnings": 10
+    "warnings": 11
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 1",
       "row": "ELS:O.PUBGM-------------.FNL-.000100--"
     },
     {
@@ -1407,8 +1421,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:50 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:50 Match 2",
       "row": "ELS:O.PUBGM-------------.FNL-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's 1m Springboard Final",
+      "row": "DIV:W.1M----------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1417,17 +1436,17 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:40 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:40 Match 3",
       "row": "ELS:O.PUBGM-------------.FNL-.000300--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 11:15 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 11:15 Match 4",
       "row": "ELS:O.PUBGM-------------.FNL-.000400--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:05 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:05 Match 5",
       "row": "ELS:O.PUBGM-------------.FNL-.000500--"
     },
     {
@@ -1437,7 +1456,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:55 PUBG MOBILE - Asian Games Version Finals",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:55 Match 6",
       "row": "ELS:O.PUBGM-------------.FNL-.000600--"
     },
     {
