@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T10:21:59.387Z",
+  "generatedAt": "2026-09-25T11:09:14.562Z",
   "completeness": "partial",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-25T10:21:59.378Z",
+  "standingsUpdatedAt": "2026-09-25T11:09:14.553Z",
   "ledgerCounts": {
     "gold": 1,
     "silver": 5,
@@ -314,19 +314,19 @@
       "medal": "ME_BRONZE",
       "athletes": [
         "LIN I-min",
-        "CHUANG Ya-han",
-        "HU Yu-chen",
-        "HUANG Ssu-chin",
         "YEN Chiao-wen",
-        "REN Ming-xiu",
-        "KANG Yung-chiao",
         "FENG Hsiu-chen",
         "QIN Pei-jyun",
+        "WU Yu-jung",
+        "KANG Yung-chiao",
+        "HU Yu-chen",
+        "HUANG Ssu-chin",
+        "CHUANG Ya-han",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "WU Yu-jung"
+        "REN Ming-xiu"
       ],
-      "rank": "3"
+      "rank": null
     },
     {
       "disciplineCode": "SKB",
