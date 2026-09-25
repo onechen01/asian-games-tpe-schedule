@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T01:09:52.109Z",
+  "generatedAt": "2026-09-25T01:58:38.466Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T01:09:52.000Z",
+      "generatedAt": "2026-09-25T01:58:38.295Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -421,12 +421,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "62.882",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -478,8 +478,8 @@
         {
           "name": "WANG Yu-jun",
           "registration": "10521853",
-          "result": null,
-          "rank": null
+          "result": "62.882",
+          "rank": "6"
         },
         {
           "name": "CHEN Yi-ju",
@@ -500,7 +500,7 @@
           "rank": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -546,14 +546,14 @@
       "locationName": "Red",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "36",
-        "opponent": "27",
+        "tpe": "45",
+        "opponent": "32",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -597,14 +597,14 @@
       "locationName": "10m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "469-14x",
+        "tpe": "572-16x",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "10",
+      "tpeRank": "11",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -647,14 +647,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5.66",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "5",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -697,14 +697,14 @@
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "85.15",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -721,66 +721,6 @@
         "results": {
           "unitId": "W.PARK--------------.FNL-.000100--",
           "id": "SKB:W.PARK--------------.FNL-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
-      "startTimeJst": "2026-09-25T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SWM",
-      "sportZh": "游泳",
-      "sportEn": "Swimming",
-      "event": "Women's 50m Butterfly",
-      "phase": "Women's 50m Butterfly Heats",
-      "unit": "Women's 50m Butterfly Heat 1",
-      "athletes": [],
-      "athletesEn": [
-        "HAN An-chi",
-        "CHIU Yi-chen"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokyo Aquatics Centre",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "Swimming Pool",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": null,
-      "tpeEntrants": [
-        {
-          "name": "HAN An-chi",
-          "registration": "477449",
-          "result": "27.13",
-          "rank": "4"
-        },
-        {
-          "name": "CHIU Yi-chen",
-          "registration": "478795",
-          "result": "27.52",
-          "rank": "5"
-        }
-      ],
-      "tpeRank": "4",
-      "orgCount": 8,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.50MBF-------------.HEAT.000100--",
-          "id": "SWM:W.50MBF-------------.HEAT.000100--"
         }
       }
     },
@@ -808,14 +748,14 @@
       "locationName": "Table 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "2",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -837,6 +777,50 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:00:00+08:00",
+      "startTimeJst": "2026-09-25T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SWM",
+      "sportZh": "游泳",
+      "sportEn": "Swimming",
+      "event": "Women's 50m Butterfly",
+      "phase": "Women's 50m Butterfly Heats",
+      "unit": "Women's 50m Butterfly Heat 1",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Swimming Pool",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.50MBF-------------.HEAT.000100--",
+          "id": "SWM:W.50MBF-------------.HEAT.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T09:08:00+08:00",
       "startTimeJst": "2026-09-25T10:08:00+09:00",
       "timeNote": null,
@@ -847,9 +831,7 @@
       "phase": "Men's 50m Breaststroke Heats",
       "unit": "Men's 50m Breaststroke Heat 2",
       "athletes": [],
-      "athletesEn": [
-        "CHANG Chiao-i"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -858,15 +840,11 @@
       "locationName": "Swimming Pool",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "",
-        "opponent": null,
-        "source": "results"
-      },
+      "status": "OFFICIAL",
+      "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 8,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -913,14 +891,14 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000600--",
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -968,14 +946,14 @@
       "locationName": "Court 2",
       "courtSessionChainId": "BDM|2026-09-25|002|X.DOUBLES-----------.R32-.000800--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000800--",
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1007,9 +985,7 @@
       "phase": "Men's 50m Breaststroke Heats",
       "unit": "Men's 50m Breaststroke Heat 3",
       "athletes": [],
-      "athletesEn": [
-        "YANG Yu-xiang"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -1018,11 +994,11 @@
       "locationName": "Swimming Pool",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 10,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1053,10 +1029,7 @@
       "phase": "Men's 200m Backstroke Heats",
       "unit": "Men's 200m Backstroke Heat 2",
       "athletes": [],
-      "athletesEn": [
-        "CHANG Kai-yueh",
-        "HUANG Yu-teng"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -1065,24 +1038,11 @@
       "locationName": "Swimming Pool",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "CHANG Kai-yueh",
-          "registration": "465030",
-          "result": null,
-          "rank": null
-        },
-        {
-          "name": "HUANG Yu-teng",
-          "registration": "8546357",
-          "result": null,
-          "rank": null
-        }
-      ],
+      "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 5,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1125,8 +1085,12 @@
       "locationName": "Table 5",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1160,9 +1124,7 @@
       "phase": "Men's 200m Butterfly Heats",
       "unit": "Men's 200m Butterfly Heat 3",
       "athletes": [],
-      "athletesEn": [
-        "WANG Kuan-hung"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -1175,7 +1137,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 9,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1206,12 +1168,7 @@
       "phase": "Women's 4 x 100m Medley Relay Heats",
       "unit": "Women's 4 x 100m Medley Relay Heat 1",
       "athletes": [],
-      "athletesEn": [
-        "CHANG Ya-jia",
-        "LIN Pei-wun",
-        "HAN An-chi",
-        "LIU Pei-yin"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre",
@@ -1224,7 +1181,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 6,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1266,7 +1223,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1286,6 +1243,53 @@
         "results": {
           "unitId": "W.HEPTATH-----------.JT--.000100--",
           "id": "ATH:W.HEPTATH-----------.JT--.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T10:30:00+08:00",
+      "startTimeJst": "2026-09-25T11:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CSP",
+      "sportZh": "輕艇靜水",
+      "sportEn": "Canoe Sprint",
+      "event": "Men's Kayak Double 500m",
+      "phase": "Men's Kayak Double 500m Finals",
+      "unit": "Men's Kayak Double 500m Finals Final A",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yong-bo",
+        "LIN Yung-chieh"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Miyoshi Lake Canoe Course",
+      "venueZh": null,
+      "locationCode": "MYC",
+      "locationName": "Miyoshi Lake Canoe Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 9,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.K2-500M-----------.FNL-.000100--",
+          "id": "CSP:M.K2-500M-----------.FNL-.000100--"
         }
       }
     },
@@ -2256,6 +2260,57 @@
         "results": {
           "unitId": "M.DOUBLES-----------.R32-.000900--",
           "id": "BDM:M.DOUBLES-----------.R32-.000900--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T17:00:00+08:00",
+      "startTimeJst": "2026-09-25T18:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles 2nd Round",
+      "unit": "Mixed Doubles 2nd Round Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "YE Hong-Wei",
+        "CHAN Nicole Gonzales"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "courtSessionChainId": "BDM|2026-09-25|001|M.DOUBLES-----------.R32-.000500--",
+      "courtPredecessorUnitId": "W.DOUBLES-----------.R32-.000700--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000600--",
+          "id": "BDM:X.DOUBLES-----------.8FNL.000600--"
         }
       }
     },
@@ -3437,10 +3492,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 52,
+    "resultsOnly": 54,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 65
+    "warnings": 66
   },
   "warnings": [
     {
@@ -3480,13 +3535,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:00 Women's 50m Butterfly Heat 1",
-      "row": "SWM:W.50MBF-------------.HEAT.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Mixed Doubles Quarterfinals Match 1",
+      "row": "TTE:X.DOUBLES-----------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Mixed Doubles Quarterfinals Match 1",
-      "row": "TTE:X.DOUBLES-----------.QFNL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:00 Women's 50m Butterfly Heat 1",
+      "row": "SWM:W.50MBF-------------.HEAT.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3532,6 +3587,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:25 Women's Heptathlon Javelin Throw",
       "row": "ATH:W.HEPTATH-----------.JT--.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSP 10:30 Men's Kayak Double 500m Finals Final A",
+      "row": "CSP:M.K2-500M-----------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3635,6 +3695,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:00 Mixed Doubles 2nd Round Match 6",
+      "row": "BDM:X.DOUBLES-----------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KAB 17:00 Women's Team Semifinals",
       "row": "KAB:W.TEAM7-------------.SFNL.000200--"
     },
@@ -3710,11 +3775,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "SHO|X.APMT--------------",
-      "message": "SHO 10m Air Pistol Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "BDM|X.DOUBLES-----------",
       "message": "BDM Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -3725,13 +3785,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "SWM|W.50MBF-------------",
-      "message": "SWM Women's 50m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TTE|M.DOUBLES-----------",
+      "message": "TTE Men's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TTE|M.DOUBLES-----------",
-      "message": "TTE Men's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "SWM|W.50MBF-------------",
+      "message": "SWM Women's 50m Butterfly 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
