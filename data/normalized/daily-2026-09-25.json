@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T08:25:41.519Z",
+  "generatedAt": "2026-09-25T08:34:59.306Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T08:25:41.373Z",
+      "generatedAt": "2026-09-25T08:34:59.127Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -343,6 +343,56 @@
   },
   "date": "2026-09-25",
   "rows": [
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T06:46:00+08:00",
+      "startTimeJst": "2026-09-25T07:46:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SRF",
+      "sportZh": "衝浪",
+      "sportEn": "Surfing",
+      "event": "Women's Shortboard",
+      "phase": "Women's Shortboard Round 1",
+      "unit": "Women's Shortboard - Round 1 - Heat 3",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Wan-yu"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "venueZh": null,
+      "locationCode": "SRF",
+      "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5.53",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 3,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SHORTBRD----------.PREL.000300--",
+          "id": "SRF:W.SHORTBRD----------.PREL.000300--"
+        }
+      }
+    },
     {
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T08:30:00+08:00",
@@ -1824,6 +1874,56 @@
     },
     {
       "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T12:31:00+08:00",
+      "startTimeJst": "2026-09-25T13:31:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SRF",
+      "sportZh": "衝浪",
+      "sportEn": "Surfing",
+      "event": "Women's Shortboard",
+      "phase": "Women's Shortboard Round 1",
+      "unit": "Women's Shortboard - Round 1 - Heat 8",
+      "athletes": [],
+      "athletesEn": [
+        "CHUNG Yun-jung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "venueZh": null,
+      "locationCode": "SRF",
+      "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "6.56",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 3,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SHORTBRD----------.PREL.000800--",
+          "id": "SRF:W.SHORTBRD----------.PREL.000800--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T13:00:00+08:00",
       "startTimeJst": "2026-09-25T14:00:00+09:00",
       "timeNote": null,
@@ -2377,10 +2477,14 @@
       "locationName": "Swimming Pool",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2:03.41",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "10",
       "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2424,7 +2528,7 @@
       "locationName": "Table 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -3946,12 +4050,17 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 59,
+    "resultsOnly": 61,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 61
+    "warnings": 63
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SRF 06:46 Women's Shortboard - Round 1 - Heat 3",
+      "row": "SRF:W.SHORTBRD----------.PREL.000300--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：EQU 08:30 Dressage Team Team Final",
@@ -4091,6 +4200,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Women's 57kg Group A",
       "row": "WLF:W.57KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SRF 12:31 Women's Shortboard - Round 1 - Heat 8",
+      "row": "SRF:W.SHORTBRD----------.PREL.000800--"
     },
     {
       "code": "RESULTS_ONLY",
