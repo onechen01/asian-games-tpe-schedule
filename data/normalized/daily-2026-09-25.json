@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T11:07:05.908Z",
+  "generatedAt": "2026-09-25T11:15:15.320Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T11:07:05.700Z",
+      "generatedAt": "2026-09-25T11:15:15.142Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2181,7 +2181,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2734,17 +2734,17 @@
       "athletes": [],
       "athletesEn": [
         "LIN I-min",
-        "YEN Chiao-wen",
-        "FENG Hsiu-chen",
-        "QIN Pei-jyun",
-        "WU Yu-jung",
-        "KANG Yung-chiao",
+        "CHUANG Ya-han",
         "HU Yu-chen",
         "HUANG Ssu-chin",
-        "CHUANG Ya-han",
+        "YEN Chiao-wen",
+        "REN Ming-xiu",
+        "KANG Yung-chiao",
+        "FENG Hsiu-chen",
+        "QIN Pei-jyun",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "REN Ming-xiu"
+        "WU Yu-jung"
       ],
       "opponent": "Islamic Republic of Iran",
       "opponentCode": "IRI",
@@ -2761,7 +2761,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
       "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
@@ -2850,12 +2850,12 @@
         "LIU Ji-hong",
         "CHEN Min-sih",
         "KAO Yu-wei",
+        "YU Tsung-ju",
         "CHU Chia-en",
         "TSAI Wei-tai",
         "YANG Po-hsiang",
         "WANG Yan-cheng",
         "LIN Yi-wei",
-        "YU Tsung-ju",
         "KUO Tzu-chuan",
         "LI I-wei",
         "CHANG Hsiang",
@@ -2880,7 +2880,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "3",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2985,8 +2985,12 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-25|001|M.DOUBLES-----------.R32-.000500--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.8FNL.000600--",
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -3299,18 +3303,18 @@
       "unit": "Men's Team Semifinals",
       "athletes": [],
       "athletesEn": [
-        "CHANG Chung-mao",
-        "JIN Wu Fu-kai",
-        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "YEH Jiunn-ming",
-        "CHEN Zheng-wei",
+        "SU Hsiang-chih",
         "CHUANG Chia-ming",
-        "LI Jyun-jie",
         "LIN Po-ting",
-        "CAI Ruei-chen",
-        "SU Hsiang-chih"
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
       ],
       "opponent": "Islamic Republic of Iran",
       "opponentCode": "IRI",
@@ -3320,14 +3324,14 @@
       "locationName": "TCG Crt 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "16",
-        "opponent": "51",
+        "tpe": "21",
+        "opponent": "59",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3531,10 +3535,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "2:31.69",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "7",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
