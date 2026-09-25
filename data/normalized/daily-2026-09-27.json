@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T18:27:49.516Z",
+  "generatedAt": "2026-09-25T18:39:01.437Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-25T18:27:49.384Z",
+      "generatedAt": "2026-09-25T18:39:01.256Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -966,52 +966,6 @@
     },
     {
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T11:35:00+08:00",
-      "startTimeJst": "2026-09-27T12:35:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 400m Hurdles",
-      "phase": "Women's 400m Hurdles Round 1",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "National Stadium",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHUNG Hsin-ju",
-        "LO Pei-lin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.400MHURD----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T11:40:00+08:00",
       "startTimeJst": "2026-09-27T12:40:00+09:00",
       "timeNote": null,
@@ -1313,52 +1267,6 @@
     },
     {
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T20:03:00+08:00",
-      "startTimeJst": "2026-09-27T21:03:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's Javelin Throw",
-      "phase": "Women's Javelin Throw Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "National Stadium",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHU Pin-hsun",
-        "LI Hui-jun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "ATH|W.JAVELIN-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T21:12:00+08:00",
       "startTimeJst": "2026-09-27T22:12:00+09:00",
       "timeNote": null,
@@ -1406,6 +1314,56 @@
           "eventId": "ATH|M.4X100M------------"
         }
       }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T21:30:00+08:00",
+      "startTimeJst": "2026-09-27T22:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 4 x 400m Relay",
+      "phase": "Women's 4 x 400m Relay Round 1",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "CHEN Yi-cen",
+        "CHUNG Hsin-ju",
+        "HSU Chin-hui",
+        "LIAO Yan-jun",
+        "LIU Chen-yu",
+        "LO Pei-lin"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|W.4X400M------------"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -1415,7 +1373,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 7,
-    "entered": 15,
+    "entered": 14,
     "unresolvedTbd": 0,
     "warnings": 7
   },
