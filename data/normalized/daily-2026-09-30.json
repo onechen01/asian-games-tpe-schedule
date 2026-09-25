@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T16:14:30.700Z",
+  "generatedAt": "2026-09-25T19:11:02.220Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-25T16:14:30.569Z",
+      "generatedAt": "2026-09-25T19:11:02.060Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -265,8 +265,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -502,13 +502,15 @@
           "name": "CHEN Jacqueline",
           "registration": "7958609",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "CHEN Barbara",
           "registration": "14561657",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
