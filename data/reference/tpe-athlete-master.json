@@ -3903,14 +3903,16 @@
     },
     {
       "reg": "14561657",
-      "officialEn": "CHEN Barbara Miao",
+      "officialEn": "CHEN Barbara",
       "gender": "W",
-      "zh": "陳百婕",
+      "zh": "陳百丹",
       "disciplines": [
         "DIV"
       ],
       "confidence": "VERIFIED",
-      "aliases": [],
+      "aliases": [
+        "CHEN Barbara Miao"
+      ],
       "participationStatus": "UNKNOWN",
       "evidence": [
         {
@@ -3927,14 +3929,16 @@
     },
     {
       "reg": "7958609",
-      "officialEn": "CHEN Jacqueline Liang",
+      "officialEn": "CHEN Jacqueline",
       "gender": "W",
-      "zh": "陳百丹",
+      "zh": "陳百婕",
       "disciplines": [
         "DIV"
       ],
       "confidence": "VERIFIED",
-      "aliases": [],
+      "aliases": [
+        "CHEN Jacqueline Liang"
+      ],
       "participationStatus": "UNKNOWN",
       "evidence": [
         {

@@ -213,6 +213,18 @@ test('two different people sharing one romanisation never overwrite each other',
   assert.equal(athleteLabel('LIN Yi-chen',master),'LIN Yi-chen');
 });
 
+test('diving CHEN athletes resolve by Results Reg without crossing identities',async()=>{
+  const master = await loadAthletes();
+  assert.equal(athleteLabel('CHEN Barbara',master,{reg:'14561657',discipline:'DIV'}),'陳百丹');
+  assert.equal(athleteLabel('CHEN Jacqueline',master,{reg:'7958609',discipline:'DIV'}),'陳百婕');
+  // Synchronised-event card headings do not carry Reg, so the exact Results short names
+  // must also resolve inside the DIV pool without treating a shared surname as identity.
+  assert.equal(athleteLabel('CHEN Barbara',master,{discipline:'DIV'}),'陳百丹');
+  assert.equal(athleteLabel('CHEN Jacqueline',master,{discipline:'DIV'}),'陳百婕');
+  assert.notEqual(athleteLabel('CHEN Barbara',master,{discipline:'DIV'}),'陳百婕');
+  assert.notEqual(athleteLabel('CHEN Jacqueline',master,{discipline:'DIV'}),'陳百丹');
+});
+
 test('a withdrawn athlete keeps the verified Chinese identity',async()=>{
   const master = await loadAthletes();
   const doc = JSON.parse(await readFile('data/reference/tpe-athlete-master.json','utf8'));
