@@ -180,13 +180,15 @@ test('the real ledger shows Chen Po-yi twice, and Liu Chang-min and Lin Yi-fan o
   assert.equal(lin[0].medal,'ME_SILVER');
 });
 
-test('the canoe bronze the officials have not confirmed on the competitor is absent from the UI',async()=>{
+test('the officially confirmed canoe bronze appears once with its stable award identity',async()=>{
   const {ledger,master} = await production();
   const rows = medalGroups(ledger).flatMap(g=>g.awards);
-  const names = rows.flatMap(a=>[awardWho(a,master).name,...awardWho(a,master).roster]);
-  // Rank 3 in a medal final is not a medal until the officials say so, so he must not appear.
-  assert.ok(!names.some(n=>n.includes('賴冠傑')));
-  assert.ok(!rows.some(a=>a.disciplineCode === 'CSP'));
+  const awardId = 'CSP:M.C1-500M-----------.FNL-.000100--';
+  const canoe = rows.filter(a=>a.awardId === awardId);
+  assert.equal(canoe.length,1);
+  assert.equal(canoe[0].medal,'ME_BRONZE');
+  assert.deepEqual(canoe[0].athletes,['LAI Kuan-chieh']);
+  assert.equal(awardWho(canoe[0],master).name,'賴冠傑');
 });
 
 test('a malformed or missing ledger leaves the totals standing alone instead of throwing',()=>{

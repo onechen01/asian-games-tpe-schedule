@@ -22,3 +22,44 @@
 .medal-group li{grid-template-columns:1fr}
 .medal-sport{text-align:left;white-space:normal}
 }
+
+.schedule-tools{margin:20px 0 0;background:white;border:1px solid #d4e0e6;border-radius:12px;padding:14px}
+.filter-panel{width:100%;min-width:0;border:1px solid #c8d6dd;border-radius:8px;background:#f8fafb}
+.filter-panel>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:46px;padding:8px 14px;font-weight:700;color:#183b4a;list-style:none}
+.filter-panel>summary::-webkit-details-marker{display:none}
+.filter-panel>summary::after{content:"⌄";font-size:18px;color:#59717f}
+.filter-panel[open]>summary::after{content:"⌃"}
+.filter-panel>summary span{margin-left:auto;font-size:13px;color:#0c6974}
+.filter-panel-body{border-top:1px solid #dce5ea;padding:14px;display:grid;gap:16px}
+.filter-panel fieldset{min-width:0;margin:0;padding:0;border:0}
+.filter-panel legend{padding:0;margin:0 0 7px;font-size:14px;font-weight:700;color:#405d6e}
+.sport-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px 12px;max-height:270px;overflow-y:auto;overscroll-behavior:contain;padding:2px 5px 2px 2px}
+.compact-options{display:flex;flex-wrap:wrap;gap:7px 16px}
+.sport-options label,.compact-options label{display:flex;align-items:flex-start;gap:7px;min-width:0;padding:5px 3px;cursor:pointer}
+.sport-options input,.compact-options input{flex:0 0 auto;width:18px;height:18px;margin:3px 0 0;accent-color:#124456}
+.sport-options span,.compact-options span{min-width:0;overflow-wrap:anywhere}
+.finish-filters{width:100%;min-height:44px;font-weight:700}
+.schedule-locator{display:flex;margin:12px 0 0}
+.jump-button{min-height:44px;background:transparent;color:#075b66;border:1px solid #a9c1cc;font-weight:700;padding:9px 14px}
+.active-filters{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-top:12px;padding-top:12px;border-top:1px solid #e2e9ed}
+.filter-chips{display:flex;flex-wrap:wrap;gap:7px;min-width:0}
+.filter-chips button{display:inline-flex;align-items:center;gap:7px;max-width:100%;padding:6px 9px;background:#e8f2f4;color:#154b59;border:1px solid #c8dde2;border-radius:999px;font-size:14px}
+.filter-chips button span{overflow-wrap:anywhere}
+.filter-chips button b{font-size:17px;line-height:1;font-weight:400}
+.clear-filters{flex:0 0 auto;background:transparent;color:#075b66;border:1px solid #b8cbd4;padding:7px 10px;font-weight:700}
+.schedule-item{scroll-margin-top:18px;border-radius:12px}
+.schedule-item:focus{outline:3px solid #117d91;outline-offset:4px}
+.filtered-empty button{margin-top:18px}
+.back-to-top{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:20;min-height:44px;max-width:calc(100vw - 32px);padding:8px 12px;background:rgba(255,255,255,.96);color:#075b66;border:1px solid #a9c1cc;border-radius:999px;box-shadow:0 3px 12px rgba(24,45,63,.16);font-size:14px;font-weight:700}
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(max-width:640px){
+ .schedule-tools{padding:12px;margin-top:16px}
+ .jump-button{width:100%;min-height:46px}
+ .sport-options{grid-template-columns:minmax(0,1fr);max-height:48vh}
+ .active-filters{display:block}
+ .clear-filters{width:100%;margin-top:11px}
+ .filter-panel-body{padding:12px}
+ .back-to-top{right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom))}
+ .list-heading{align-items:flex-start;gap:12px}
+ .list-heading>span{text-align:right}
+}
