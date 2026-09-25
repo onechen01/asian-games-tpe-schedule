@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T02:22:59.285Z",
+  "generatedAt": "2026-09-25T02:54:08.211Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-25T02:22:59.118Z",
+      "generatedAt": "2026-09-25T02:54:08.017Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -3332,7 +3332,7 @@
         {
           "unitId": "X.DOUBLES-----------.8FNL.000100--",
           "unitName": "Mixed Doubles 2nd Round Match 1",
-          "predecessorUnitId": "W.SINGLES-----------.R64-.002500--",
+          "predecessorUnitId": "M.SINGLES-----------.R64-.001600--",
           "timeNoteCode": "NOT_BEFORE",
           "timeKind": "LOWER_BOUND",
           "timeTaipei": "2026-09-25T15:00:00+08:00"
@@ -3399,7 +3399,7 @@
         {
           "unitId": "X.DOUBLES-----------.8FNL.000200--",
           "unitName": "Mixed Doubles 2nd Round Match 2",
-          "predecessorUnitId": "X.DOUBLES-----------.R32-.001000--",
+          "predecessorUnitId": "W.SINGLES-----------.R64-.001700--",
           "timeNoteCode": "NOT_BEFORE",
           "timeKind": "LOWER_BOUND",
           "timeTaipei": "2026-09-25T15:00:00+08:00"

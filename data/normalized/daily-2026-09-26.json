@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T02:30:55.170Z",
+  "generatedAt": "2026-09-25T03:00:08.813Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T02:30:54.996Z",
+      "generatedAt": "2026-09-25T03:00:08.641Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -925,7 +925,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 6,
+      "unitCount": 5,
       "enteredAthletes": [
         "KE Wu-yen-ming"
       ],
@@ -1502,6 +1502,233 @@
           "id": "BBL:M.TEAM9-------------.SFNL.000300--"
         }
       }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T18:05:00+08:00",
+      "startTimeJst": "2026-09-26T19:05:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 110m Hurdles",
+      "phase": "Men's 110m Hurdles Round 1",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 3,
+      "enteredAthletes": [
+        "HSIEH Yuan-kai",
+        "LIN Yi-kai"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|M.110MHURD----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T18:34:00+08:00",
+      "startTimeJst": "2026-09-26T19:34:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 100m Hurdles",
+      "phase": "Women's 100m Hurdles Round 1",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "YI Bo-an",
+        "ZHANG Bo-ya"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|W.100MHURD----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T19:00:00+08:00",
+      "startTimeJst": "2026-09-26T20:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Shot Put",
+      "phase": "Men's Shot Put Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "MA Hau-wei"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|M.SHOTPUT-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T19:35:00+08:00",
+      "startTimeJst": "2026-09-26T20:35:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Triple Jump",
+      "phase": "Men's Triple Jump Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "LI Yun-chen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|M.TRPLJUMP----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T19:51:00+08:00",
+      "startTimeJst": "2026-09-26T20:51:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 1500m",
+      "phase": "Men's 1500m Round 1",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "CHIEN Tzu-chieh"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|M.1500M-------------"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -1511,7 +1738,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 19,
-    "entered": 3,
+    "entered": 8,
     "unresolvedTbd": 0,
     "warnings": 22
   },
