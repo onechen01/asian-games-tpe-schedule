@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T03:44:28.780Z",
+  "generatedAt": "2026-09-25T03:55:06.106Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T03:44:28.645Z",
+      "generatedAt": "2026-09-25T03:55:05.926Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -426,7 +426,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "6",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -479,13 +479,13 @@
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "62.882",
-          "rank": "15"
+          "rank": "16"
         },
         {
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "64.147",
-          "rank": "13"
+          "rank": "14"
         },
         {
           "name": "SHYONG Tien-chi",
@@ -500,7 +500,7 @@
           "rank": null
         }
       ],
-      "tpeRank": "15",
+      "tpeRank": "16",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1489,8 +1489,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "31",
-        "opponent": "33",
+        "tpe": "37",
+        "opponent": "43",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1591,14 +1591,14 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
       "courtPredecessorUnitId": "M.SINGLES-----------.R64-.002900--",
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1648,7 +1648,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1694,7 +1694,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "1",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2309,11 +2309,7 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T16:00:00+08:00",
       "startTimeJst": "2026-09-25T17:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": null
-      },
+      "timeNote": null,
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
@@ -2329,11 +2325,11 @@
       "opponentCode": "KAZ",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "locationCode": "010",
-      "locationName": "TBD",
+      "locationCode": "003",
+      "locationName": "Table 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2452,11 +2448,7 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T16:45:00+08:00",
       "startTimeJst": "2026-09-25T17:45:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": null
-      },
+      "timeNote": null,
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
@@ -2472,11 +2464,11 @@
       "opponentCode": "JPN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "locationCode": "010",
-      "locationName": "TBD",
+      "locationCode": "001",
+      "locationName": "Table 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
