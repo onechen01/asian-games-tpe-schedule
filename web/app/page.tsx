@@ -1,4 +1,4 @@
-import {loadSchedule,loadAthletes,loadDisplayNames} from '../lib/load';
+import {loadSchedule,loadAthletes,loadDisplayNames,loadSportOptions} from '../lib/load';
 import {taipeiDate,shiftDate,validDate,formatTaipei,matchTimeLabel,sportLabel,displayNames,entryNames,emptyState,isEntered,
  statusLabel,isFinished,taiwanRows,pendingRows,hasTimeConflict,resultHeading} from '../lib/schedule';
 import type {CourtSessionChain,Daily,Row} from '../lib/schedule';
@@ -15,6 +15,9 @@ import {broadcastsForRow,disciplineBroadcasts,feedLabel} from '../lib/broadcasts
 import type {Broadcast,Broadcasts} from '../lib/broadcasts';
 import {eventLabel,phaseLabel} from '../lib/event-names';
 import type {DisplayNames} from '../lib/display-names';
+import ScheduleExplorer from './ScheduleExplorer';
+import {parseFilterQuery,scheduleUrl} from '../lib/schedule-filter';
+import type {ScheduleItemMeta} from '../lib/schedule-filter';
 export const dynamic='force-dynamic';
 export const revalidate=0;
 // A registered-but-undrawn event is never shown as a confirmed start time: it names the event
@@ -75,33 +78,50 @@ function BroadcastList({items,heading='轉播'}:{items:Broadcast[];heading?:stri
    {b.title&&<span className="programme">{b.title}</span>}</li>)}</ul></div>;
 }
 
-export default async function Page({searchParams}:{searchParams:Promise<{date?:string|string[]}>}){
+type PageQuery={date?:string|string[];sports?:string|string[];status?:string|string[];broadcast?:string|string[];jump?:string|string[]};
+
+export default async function Page({searchParams}:{searchParams:Promise<PageQuery>}){
  const query=await searchParams,today=taipeiDate(),requested=typeof query.date==='string'?query.date:today,invalid=!validDate(requested),date=invalid?today:requested;
- const [loaded,master,display,broadcasts,medals,ledger]=await Promise.all([loadSchedule(date),loadAthletes(),loadDisplayNames(),loadBroadcasts(),loadMedals(),loadMedalLedger()]);
+ const [loaded,master,display,broadcasts,medals,ledger,sportOptions]=await Promise.all([loadSchedule(date),loadAthletes(),loadDisplayNames(),loadBroadcasts(),loadMedals(),loadMedalLedger(),loadSportOptions()]);
  const data:Daily|null=loaded.kind==='ready'?loaded.data:null;
  const rows=data?taiwanRows(data):[],pending=data?pendingRows(data):[];
  const later=data?await loadLaterRows(date,loaded.kind==='ready'?loaded.dates:[]):[];
+ const filters=parseFilterQuery(query,sportOptions.map(option=>option.code));
+ const jumpRequested=(Array.isArray(query.jump)?query.jump[0]:query.jump)==='1';
  const dayLabel=date===today?'今天':date===shiftDate(today,1)?'明天':date===shiftDate(today,-1)?'昨天':'所選日期';
  const dateTitle=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',month:'long',day:'numeric',weekday:'long'}).format(new Date(date+'T04:00:00Z'));
  const incomplete=data?.sources?.results?.coverage?.fetchComplete===false;
+ const itemRows=[...rows.map(row=>({row,pending:false})),...pending.map(row=>({row,pending:true}))];
+ const rendered=itemRows.map(({row,pending:pendingCard},index)=>{
+  const shows=data?broadcastsForRow(broadcasts,date,row,data.sessionChains):[];
+  const id=row.sources.results?.id??`schedule-${date}-${row.disciplineCode??'unknown'}-${row.event??'event'}-${row.startTimeTaipei??index}-${index}`;
+  const item:ScheduleItemMeta={id,disciplineCode:row.disciplineCode,sportLabel:sportLabel(row),status:row.status,
+   hasBroadcast:shows.length>0,timeNoteCode:row.timeNote?.code??null};
+  const card=isEntered(row)
+   ?<EnteredCard key={id} row={row} master={master} names={display} shows={shows}/>
+   :<Card key={id} row={row} conflict={pendingCard?false:!!data&&hasTimeConflict(data,row)} pending={pendingCard||undefined}
+     master={master} names={display} shows={shows} chains={data?.sessionChains}
+     advance={!pendingCard?advanceFor({...row,date},later):undefined}/>;
+  return {item,card};
+ });
+ const items=rendered.map(entry=>entry.item),cards=rendered.map(entry=>entry.card);
+ const baseSummary=data?`${rows.filter(row=>!isEntered(row)).length} 場確定${rows.filter(isEntered).length>0?`・${rows.filter(isEntered).length} 項待確認`:''}`:null;
+ const emptyContent=loaded.kind==='error'?<section className="empty" role="alert"><h3>這一天的資料暫時無法讀取</h3><p>本機檔案格式有誤，請重新整理資料後再查看；這不代表沒有賽事。</p></section>
+  :!data?<section className="empty"><span className="empty-symbol">—</span><h3>這一天的台灣賽程資料尚未更新</h3><p>目前沒有可顯示的資料，並非台灣沒有參賽。</p>{loaded.dates.length>0&&<div className="available"><span>已有資料的日期</span>{loaded.dates.map(day=><a key={day} href={scheduleUrl(day,filters)}>{day.slice(5).replace('-','/')}</a>)}</div>}</section>
+  :<section className="empty"><span className="empty-symbol">—</span>{(()=>{const state=emptyState(data);
+   if(state==='confirmed-none')return <><h3>這一天台灣沒有賽程</h3><p>已與官方資料核對。</p></>;
+   if(state==='incomplete')return <><h3>目前查到 0 場，但這天的資料同步未完成</h3><p>不能據此判定當天沒有台灣出賽。</p></>;
+   return <><h3>這一天尚無已確認的台灣賽事</h3><p>僅限已取得的項目，不能據此判定當天沒有台灣出賽。</p></>;})()}</section>;
  return <main><header><a href="/" className="brand"><span className="brand-mark">TPE</span><span>台灣亞運賽程<small>2026 愛知・名古屋</small></span></a><span className="zone">台灣時間 UTC+8</span></header><section className="intro"><p className="eyebrow">台灣賽程</p><h1>{dayLabel}，為台灣加油。</h1><p>查出賽時間、對手與官方賽果。</p></section>
  {medals&&<MedalBoard medals={medals} ledger={ledger} master={master}/>}
- <nav className="quick" aria-label="快速選擇日期">{[-1,0,1].map((offset)=><a key={offset} href={'/?date='+shiftDate(today,offset)} aria-current={date===shiftDate(today,offset)?'date':undefined}>{['昨天','今天','明天'][offset+1]}</a>)}</nav>
- <section className="date-panel" aria-label="日期查詢"><div className="date-title"><a className="arrow" aria-label="前一天" href={'/?date='+shiftDate(date,-1)}>‹</a><h2>{dateTitle}<small>{date.slice(0,4)}</small></h2><a className="arrow" aria-label="後一天" href={'/?date='+shiftDate(date,1)}>›</a></div><form action="/" method="get"><label htmlFor="date">選擇日期</label><input id="date" name="date" type="date" defaultValue={date} required/><button type="submit">查詢</button></form></section>
+ <nav className="quick" aria-label="快速選擇日期">{[-1,0,1].map((offset)=><a key={offset} href={scheduleUrl(shiftDate(today,offset),filters)} aria-current={date===shiftDate(today,offset)?'date':undefined}>{['昨天','今天','明天'][offset+1]}</a>)}</nav>
+ <section className="date-panel" aria-label="日期查詢"><div className="date-title"><a className="arrow" aria-label="前一天" href={scheduleUrl(shiftDate(date,-1),filters)}>‹</a><h2>{dateTitle}<small>{date.slice(0,4)}</small></h2><a className="arrow" aria-label="後一天" href={scheduleUrl(shiftDate(date,1),filters)}>›</a></div><form action="/" method="get"><label htmlFor="date">選擇日期</label><input id="date" name="date" type="date" defaultValue={date} required/>{filters.sports.length>0&&<input type="hidden" name="sports" value={filters.sports.join(',')}/>} {filters.statuses.length>0&&<input type="hidden" name="status" value={filters.statuses.join(',')}/>} {filters.broadcast&&<input type="hidden" name="broadcast" value="1"/>}<button type="submit">查詢</button></form></section>
  {invalid&&<p className="notice" role="alert">日期格式不正確，已顯示今天。</p>}
- <section className="coverage" aria-label="資料範圍"><strong>只顯示台灣相關賽事，未涵蓋全部亞運項目。</strong>{data&&<span>資料更新：{formatTaipei(data.generatedAt,true)}（台灣時間）・<a href={'/?date='+date}>重新讀取</a></span>}<span>賽果與狀態為上次同步的官方快照，尚待交叉查核。</span></section>
+ <section className="coverage" aria-label="資料範圍"><strong>只顯示台灣相關賽事，未涵蓋全部亞運項目。</strong>{data&&<span>資料更新：{formatTaipei(data.generatedAt,true)}（台灣時間）・<a href={scheduleUrl(date,filters)}>重新讀取</a></span>}<span>賽果與狀態為上次同步的官方快照，尚待交叉查核。</span></section>
  {incomplete&&<div className="notice" role="alert">這一天的資料同步未完整完成，以下只顯示已取得的賽事。</div>}
  {pending.length>0&&<aside className="notice"><strong>部分參賽資訊待確認</strong><p>{pending.length} 場比賽尚無法確認參賽名單，不能據此判定台灣未參賽。</p></aside>}
- <div className="list-heading"><h2>台灣出賽</h2>{data&&<span>{rows.filter(r=>!isEntered(r)).length} 場確定{rows.filter(isEntered).length>0&&`・${rows.filter(isEntered).length} 項待確認`}</span>}</div>
- {loaded.kind==='error'?<section className="empty" role="alert"><h3>這一天的資料暫時無法讀取</h3><p>本機檔案格式有誤，請重新整理資料後再查看；這不代表沒有賽事。</p></section>
- :!data?<section className="empty"><span className="empty-symbol">—</span><h3>這一天的台灣賽程資料尚未更新</h3><p>目前沒有可顯示的資料，並非台灣沒有參賽。</p>{loaded.dates.length>0&&<div className="available"><span>已有資料的日期</span>{loaded.dates.map(d=><a key={d} href={'/?date='+d}>{d.slice(5).replace('-','/')}</a>)}</div>}</section>
- :rows.length===0&&pending.length===0?<section className="empty"><span className="empty-symbol">—</span>{(()=>{const state=emptyState(data);
-  if(state==='confirmed-none')return <><h3>這一天台灣沒有賽程</h3><p>已與官方資料核對。</p></>;
-  if(state==='incomplete')return <><h3>目前查到 0 場，但這天的資料同步未完成</h3><p>不能據此判定當天沒有台灣出賽。</p></>;
-  return <><h3>這一天尚無已確認的台灣賽事</h3><p>僅限已取得的項目，不能據此判定當天沒有台灣出賽。</p></>;})()}</section>
- :<div className="matches">{rows.map(row=>isEntered(row)
-   ?<EnteredCard key={'entered-'+row.disciplineCode+'-'+row.event+'-'+row.startTimeTaipei} row={row} master={master} names={display} shows={broadcastsForRow(broadcasts,date,row,data.sessionChains)}/>
-   :<Card key={row.sources.results?.id||row.sources.tpenoc?.sport+'-'+row.startTimeTaipei} row={row} conflict={hasTimeConflict(data,row)} master={master} names={display} shows={broadcastsForRow(broadcasts,date,row,data.sessionChains)} chains={data.sessionChains} advance={advanceFor({...row,date},later)}/>)}{pending.map(row=><Card key={'tbd-'+(row.sources.results?.id||row.startTimeTaipei)} row={row} conflict={false} pending master={master} names={display} shows={broadcastsForRow(broadcasts,date,row,data.sessionChains)} chains={data.sessionChains}/>)}</div>}
+ <ScheduleExplorer date={date} sports={sportOptions} initialFilters={filters} jumpRequested={jumpRequested}
+  items={items} baseSummary={baseSummary} emptyContent={emptyContent}>{cards}</ScheduleExplorer>
  {(()=>{const groups=[...disciplineBroadcasts(broadcasts,date,rows.concat(pending),data?.sessionChains).entries()];
   if(!groups.length)return null;
   // Programmes that cover a whole session are listed once per sport, never copied onto cards.

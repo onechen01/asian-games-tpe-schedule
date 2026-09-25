@@ -12,6 +12,7 @@ import type {Row as ProgressionRow} from './progression.ts';
 import type {Broadcasts} from './broadcasts.ts';
 import {parseAthleteMaster} from './athletes.ts';
 import type {AthleteMaster} from './athletes.ts';
+import type {SportOption} from './schedule-filter.ts';
 
 // The working directory differs between `next start` from the repo root, `next start` inside
 // web/, and a deployed serverless function, so data/ is located by probing instead of being
@@ -50,6 +51,28 @@ export async function loadSchedule(date:string,override?:string){
  if(!files.includes(filename))return {kind:'missing' as const,dates};
  try{return {kind:'ready' as const,data:parseDaily(JSON.parse(await readFile(path.join(folder,filename),'utf8')),date),dates};}
  catch{return {kind:'error' as const,dates};}
+}
+
+// Stable filter choices come from sports that actually have a Chinese Taipei canonical row
+// somewhere in the published event period. The label is the canonical sportZh, never a second
+// hand-maintained web lookup table.
+export async function loadSportOptions(override?:string):Promise<SportOption[]> {
+ let files:string[],folder:string;
+ if(override){folder=override;try{files=await readdir(folder);}catch{return [];}}
+ else{const found=await listFirst('normalized');if(!found)return [];({files,folder}=found);}
+ const labels=new Map<string,string>();
+ for(const filename of files.filter(file=>/^daily-\d{4}-\d{2}-\d{2}\.json$/.test(file)).sort()){
+  const date=/^daily-(\d{4}-\d{2}-\d{2})\.json$/.exec(filename)?.[1];
+  if(!date)continue;
+  try{
+   const daily=parseDaily(JSON.parse(await readFile(path.join(folder,filename),'utf8')),date);
+   for(const row of daily.rows){
+    if((row.participationState==='TPE_CONFIRMED'||row.participationState==='TPE_ENTERED')
+      &&row.disciplineCode&&row.sportZh&&!labels.has(row.disciplineCode))labels.set(row.disciplineCode,row.sportZh);
+   }
+  }catch{}
+ }
+ return [...labels].map(([code,label])=>({code,label})).sort((a,b)=>a.label.localeCompare(b.label,'zh-TW')||a.code.localeCompare(b.code));
 }
 
 // Static Chinese-name reference. Missing or malformed means no Chinese fallback, never a crash.
