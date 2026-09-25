@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T05:10:19.471Z",
+  "generatedAt": "2026-09-25T05:26:50.712Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T05:10:19.302Z",
+      "generatedAt": "2026-09-25T05:26:50.569Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -421,12 +421,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "127.029",
+        "tpe": "192.323",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -479,19 +479,19 @@
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "62.882",
-          "rank": "23"
+          "rank": "25"
         },
         {
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "64.147",
-          "rank": "21"
+          "rank": "23"
         },
         {
           "name": "SHYONG Tien-chi",
           "registration": "2703666",
-          "result": null,
-          "rank": null
+          "result": "65.294",
+          "rank": "19"
         },
         {
           "name": "YEH Hsiu-hua",
@@ -500,7 +500,7 @@
           "rank": null
         }
       ],
-      "tpeRank": "23",
+      "tpeRank": "25",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1945,10 +1945,10 @@
       "locationName": "Table 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "3",
-        "opponent": "0",
+        "tpe": "4",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2000,7 +2000,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
