@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T20:24:19.634Z",
+  "generatedAt": "2026-09-25T20:34:57.041Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T20:24:19.453Z",
+      "generatedAt": "2026-09-25T20:34:56.894Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -612,7 +612,7 @@
       "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
