@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T05:07:39.121Z",
+  "generatedAt": "2026-09-25T05:32:07.514Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-25T05:07:38.955Z",
+      "generatedAt": "2026-09-25T05:32:07.334Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 14,
-          "recovered": 14,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -3053,140 +3053,6 @@
       ]
     },
     {
-      "id": "BDM|2026-09-25|002|X.DOUBLES-----------.R32-.000800--",
-      "disciplineCode": "BDM",
-      "locationCode": "002",
-      "locationName": "Court 2",
-      "anchorUnitId": "X.DOUBLES-----------.R32-.000800--",
-      "anchorTimeKind": "EXACT",
-      "anchorTimeTaipei": "2026-09-25T08:30:00+08:00",
-      "units": [
-        {
-          "unitId": "X.DOUBLES-----------.R32-.000800--",
-          "unitName": "Mixed Doubles 1st Round Match 8",
-          "predecessorUnitId": null,
-          "timeNoteCode": null,
-          "timeKind": "EXACT",
-          "timeTaipei": "2026-09-25T08:30:00+08:00"
-        },
-        {
-          "unitId": "X.DOUBLES-----------.R32-.001200--",
-          "unitName": "Mixed Doubles 1st Round Match 12",
-          "predecessorUnitId": "X.DOUBLES-----------.R32-.000800--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "X.DOUBLES-----------.R32-.001500--",
-          "unitName": "Mixed Doubles 1st Round Match 15",
-          "predecessorUnitId": "X.DOUBLES-----------.R32-.001200--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "X.DOUBLES-----------.R32-.001100--",
-          "unitName": "Mixed Doubles 1st Round Match 11",
-          "predecessorUnitId": "X.DOUBLES-----------.R32-.001500--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.SINGLES-----------.R64-.002100--",
-          "unitName": "Men's Singles 1st Round Match 21",
-          "predecessorUnitId": "X.DOUBLES-----------.R32-.001100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.SINGLES-----------.R64-.002500--",
-          "unitName": "Men's Singles 1st Round Match 25",
-          "predecessorUnitId": "M.SINGLES-----------.R64-.002100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        }
-      ]
-    },
-    {
-      "id": "BDM|2026-09-25|002|X.DOUBLES-----------.8FNL.000800--",
-      "disciplineCode": "BDM",
-      "locationCode": "002",
-      "locationName": "Court 2",
-      "anchorUnitId": "X.DOUBLES-----------.8FNL.000800--",
-      "anchorTimeKind": "LOWER_BOUND",
-      "anchorTimeTaipei": "2026-09-25T15:00:00+08:00",
-      "units": [
-        {
-          "unitId": "X.DOUBLES-----------.8FNL.000800--",
-          "unitName": "Mixed Doubles 2nd Round Match 8",
-          "predecessorUnitId": "M.SINGLES-----------.R64-.002500--",
-          "timeNoteCode": "NOT_BEFORE",
-          "timeKind": "LOWER_BOUND",
-          "timeTaipei": "2026-09-25T15:00:00+08:00"
-        },
-        {
-          "unitId": "X.DOUBLES-----------.8FNL.000300--",
-          "unitName": "Mixed Doubles 2nd Round Match 3",
-          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000800--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "W.DOUBLES-----------.R32-.000600--",
-          "unitName": "Women's Doubles 1st Round Match 6",
-          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000300--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.DOUBLES-----------.R32-.000900--",
-          "unitName": "Men's Doubles 1st Round Match 9",
-          "predecessorUnitId": "W.DOUBLES-----------.R32-.000600--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "W.DOUBLES-----------.R32-.001300--",
-          "unitName": "Women's Doubles 1st Round Match 13",
-          "predecessorUnitId": "M.DOUBLES-----------.R32-.000900--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.DOUBLES-----------.R32-.001500--",
-          "unitName": "Men's Doubles 1st Round Match 15",
-          "predecessorUnitId": "W.DOUBLES-----------.R32-.001300--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "W.DOUBLES-----------.R32-.001100--",
-          "unitName": "Women's Doubles 1st Round Match 11",
-          "predecessorUnitId": "M.DOUBLES-----------.R32-.001500--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.DOUBLES-----------.R32-.000800--",
-          "unitName": "Men's Doubles 1st Round Match 8",
-          "predecessorUnitId": "W.DOUBLES-----------.R32-.001100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        }
-      ]
-    },
-    {
       "id": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
       "disciplineCode": "BDM",
       "locationCode": "001",
@@ -3314,6 +3180,140 @@
           "unitId": "M.DOUBLES-----------.R32-.001600--",
           "unitName": "Men's Doubles 1st Round Match 16",
           "predecessorUnitId": "M.DOUBLES-----------.R32-.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-25|002|X.DOUBLES-----------.R32-.000800--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "X.DOUBLES-----------.R32-.000800--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-25T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.R32-.000800--",
+          "unitName": "Mixed Doubles 1st Round Match 8",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-25T08:30:00+08:00"
+        },
+        {
+          "unitId": "X.DOUBLES-----------.R32-.001200--",
+          "unitName": "Mixed Doubles 1st Round Match 12",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.000800--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "X.DOUBLES-----------.R32-.001500--",
+          "unitName": "Mixed Doubles 1st Round Match 15",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.001200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "X.DOUBLES-----------.R32-.001100--",
+          "unitName": "Mixed Doubles 1st Round Match 11",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.001500--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.R64-.002100--",
+          "unitName": "Men's Singles 1st Round Match 21",
+          "predecessorUnitId": "X.DOUBLES-----------.R32-.001100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.R64-.002500--",
+          "unitName": "Men's Singles 1st Round Match 25",
+          "predecessorUnitId": "M.SINGLES-----------.R64-.002100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-25|002|X.DOUBLES-----------.8FNL.000800--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "X.DOUBLES-----------.8FNL.000800--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-25T15:00:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000800--",
+          "unitName": "Mixed Doubles 2nd Round Match 8",
+          "predecessorUnitId": "M.SINGLES-----------.R64-.002500--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-25T15:00:00+08:00"
+        },
+        {
+          "unitId": "X.DOUBLES-----------.8FNL.000300--",
+          "unitName": "Mixed Doubles 2nd Round Match 3",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000800--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.000600--",
+          "unitName": "Women's Doubles 1st Round Match 6",
+          "predecessorUnitId": "X.DOUBLES-----------.8FNL.000300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000900--",
+          "unitName": "Men's Doubles 1st Round Match 9",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.000600--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.001300--",
+          "unitName": "Women's Doubles 1st Round Match 13",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.000900--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.001500--",
+          "unitName": "Men's Doubles 1st Round Match 15",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.001300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.001100--",
+          "unitName": "Women's Doubles 1st Round Match 11",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.001500--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.R32-.000800--",
+          "unitName": "Men's Doubles 1st Round Match 8",
+          "predecessorUnitId": "W.DOUBLES-----------.R32-.001100--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
