@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T13:32:27.586Z",
+  "generatedAt": "2026-09-25T13:50:59.920Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T13:32:27.407Z",
+      "generatedAt": "2026-09-25T13:50:59.749Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -631,67 +631,6 @@
     },
     {
       "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T08:00:00+08:00",
-      "startTimeJst": "2026-09-26T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SBL",
-      "sportZh": "壘球",
-      "sportEn": "Softball",
-      "event": "Softball Women",
-      "phase": "Women's Preliminary Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Anjo Softball Ground",
-      "venueZh": null,
-      "locationCode": "ASG",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHEN Chia-yi",
-        "CHEN Ching-yu",
-        "CHIANG Ting-en",
-        "CHU Yi-shan",
-        "HO Yi-fan",
-        "KE Hsia-ai",
-        "LI Szu-shih",
-        "LIN Chi-yun",
-        "LIN Chih-ying",
-        "LIN Feng-chen",
-        "LIU Hsuan",
-        "PAN Yu-ling",
-        "SHEN Chia-wen",
-        "SU Yi-hsuan",
-        "TU Ya-ting",
-        "YANG An-chi",
-        "YEH Kuei-ping"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SBL|W.TEAM9-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T08:05:00+08:00",
       "startTimeJst": "2026-09-26T09:05:00+09:00",
       "timeNote": null,
@@ -1216,6 +1155,50 @@
         "results": {
           "unitId": "O.PYO---------------.QFNL.000400--",
           "id": "ELS:O.PYO---------------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T10:00:00+08:00",
+      "startTimeJst": "2026-09-26T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "sportEn": "Softball",
+      "event": "Softball Women",
+      "phase": "Women’s Preliminary Round",
+      "unit": "Game  2",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "Hong Kong, China",
+      "opponentCode": "HKG",
+      "venue": "Anjo Softball Ground",
+      "venueZh": null,
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM9-------------.GP--.000200--",
+          "id": "SBL:W.TEAM9-------------.GP--.000200--"
         }
       }
     },
@@ -2199,6 +2182,66 @@
         "results": {
           "unitId": "O.PKU---------------.GPA-.000600--",
           "id": "ELS:O.PKU---------------.GPA-.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T17:05:00+08:00",
+      "startTimeJst": "2026-09-26T18:05:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Decathlon",
+      "phase": "Men's Decathlon High Jump",
+      "unit": "Men's Decathlon High Jump",
+      "athletes": [],
+      "athletesEn": [
+        "CHO Chia-hsuan",
+        "WANG Chen-yu"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": null,
+          "rank": null
+        },
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": null,
+          "rank": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DECATH------------.HJ--.000100--",
+          "id": "ATH:M.DECATH------------.HJ--.000100--"
         }
       }
     },
@@ -3234,10 +3277,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 43,
-    "entered": 1,
+    "resultsOnly": 45,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 53
+    "warnings": 55
   },
   "warnings": [
     {
@@ -3314,6 +3357,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 4",
       "row": "ELS:O.PYO---------------.QFNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  2",
+      "row": "SBL:W.TEAM9-------------.GP--.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3412,6 +3460,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 17:05 Men's Decathlon High Jump",
+      "row": "ATH:M.DECATH------------.HJ--.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BBL 17:30 Game 19",
       "row": "BBL:M.TEAM9-------------.SFNL.000300--"
     },
@@ -3492,11 +3545,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "ATH|M.DECATH------------",
-      "message": "ATH Men's Decathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "ELS|O.PKU---------------",
       "message": "ELS MOBA [Pokémon UNITE] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -3504,6 +3552,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ATH|M.200M--------------",
       "message": "ATH Men's 200m 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ATH|M.DECATH------------",
+      "message": "ATH Men's Decathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

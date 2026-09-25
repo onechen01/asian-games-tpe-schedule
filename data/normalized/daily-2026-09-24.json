@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T13:28:40.613Z",
+  "generatedAt": "2026-09-25T13:46:29.948Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-25T13:28:40.431Z",
+      "generatedAt": "2026-09-25T13:46:29.774Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 11,
+          "recovered": 11,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -376,60 +376,6 @@
         "results": {
           "unitId": "M.APM---------------.QUAL.000100--",
           "id": "SHO:M.APM---------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
-      "startTimeJst": "2026-09-24T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
-      "phase": "NARAKA : BLADEPOINT Semi-finals",
-      "unit": "Match 1",
-      "athletes": [],
-      "athletesEn": [
-        "LIU Tang-shiun",
-        "YEN Kai-en",
-        "CHEN Shang-yi",
-        "YEH Chih-yu",
-        "CHENG Hsu-yu"
-      ],
-      "opponent": "People's Republic of China",
-      "opponentCode": "CHN",
-      "venue": "",
-      "venueZh": null,
-      "locationCode": "EL1",
-      "locationName": "Aichi Sky Expo Hall D",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "3",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "3",
-      "orgCount": 2,
-      "tpeMedal": "ME_BRONZE",
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "O.NRK---------------.SFNL.00010000",
-          "id": "ELS:O.NRK---------------.SFNL.00010000"
         }
       }
     },
@@ -1082,6 +1028,60 @@
         "results": {
           "unitId": "W.DOUBLES-----------.R32-.000200--",
           "id": "TTE:W.DOUBLES-----------.R32-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "startTimeTaipei": "2026-09-24T09:00:00+08:00",
+      "startTimeJst": "2026-09-24T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Action-adventure / Battle Royale [NARAKA : BLADEPOINT]",
+      "phase": "NARAKA : BLADEPOINT Semi-finals",
+      "unit": "Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Tang-shiun",
+        "YEN Kai-en",
+        "CHEN Shang-yi",
+        "YEH Chih-yu",
+        "CHENG Hsu-yu"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "",
+      "venueZh": null,
+      "locationCode": "EL1",
+      "locationName": "Aichi Sky Expo Hall D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "3",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": "ME_BRONZE",
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.NRK---------------.SFNL.00010000",
+          "id": "ELS:O.NRK---------------.SFNL.00010000"
         }
       }
     },
@@ -3505,11 +3505,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 Match 1",
-      "row": "ELS:O.NRK---------------.SFNL.00010000"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:00 Men's Épée Individual - Round of Pool 1 - Bout 1",
       "row": "FEN:M.EPEE--------------.GPA-.000100--"
     },
@@ -3572,6 +3567,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 09:00 Women's Doubles Round 2 Match 2",
       "row": "TTE:W.DOUBLES-----------.R32-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:00 Match 1",
+      "row": "ELS:O.NRK---------------.SFNL.00010000"
     },
     {
       "code": "RESULTS_ONLY",
