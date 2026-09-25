@@ -46,18 +46,34 @@ type MatchRow = { disciplineCode:string|null; opponentCode:string|null;
   athletesEn?:string[]; enteredAthletes?:string[];
   startTimeTaipei?:string|null; phase?:string|null; event?:string|null;
   locationCode?:string|null; locationName?:string|null; courtSessionChainId?:string|null;
+  // Present when the official unit response gave one or more Chinese Taipei entrants their own
+  // clock time (e.g. an equestrian rider's turn within one long qualifying session) — a row's
+  // own startTimeTaipei is otherwise the unit's, which for a sequential-entry session can be a
+  // different competitor's slot entirely. See hasWindowEvidence below.
+  tpeEntrants?:{ registration?:string|null; startTimeTaipei?:string|null }[];
   // An entered row's time is the event window's start, not a Taiwan start time.
   participationState?:string|null; entryLevel?:string|null };
 const key = (name:string)=>name.replace(/[^A-Za-z]/g,'').toUpperCase();
 
 // The official window a programme covers. It is used to limit a session programme, never to
 // reject an athlete or opponent match: a delayed competition is still that competition.
-const insideWindow = (r:Broadcast, row:MatchRow)=>{
-  if (!r.broadcastEndTimeTaipei || !row.startTimeTaipei) return false;
+const timeIsInsideWindow = (r:Broadcast, timeTaipei:string|null|undefined)=>{
+  if (!r.broadcastEndTimeTaipei || !timeTaipei) return false;
   const start = Date.parse(r.broadcastStartTimeTaipei), end = Date.parse(r.broadcastEndTimeTaipei);
-  const competition = Date.parse(row.startTimeTaipei);
+  const competition = Date.parse(timeTaipei);
   if (![start,end,competition].every(Number.isFinite) || end <= start) return false;
   return competition >= start && competition < end;
+};
+const insideWindow = (r:Broadcast, row:MatchRow)=>timeIsInsideWindow(r, row.startTimeTaipei);
+// A Chinese Taipei entrant's own official start time is strictly more precise than the unit's —
+// when at least one exists, it alone decides the time axis, never falling back to the coarser
+// unit time just because every precise time happens to land outside the window (that would
+// silently discard the more trustworthy evidence). Only a unit with no such per-entrant time at
+// all keeps the previous, unit-level behaviour untouched.
+const hasWindowEvidence = (r:Broadcast, row:MatchRow)=>{
+  const withTime = (row.tpeEntrants ?? []).filter(e=>typeof e.startTimeTaipei === 'string');
+  if (withTime.length) return withTime.some(e=>timeIsInsideWindow(r, e.startTimeTaipei));
+  return insideWindow(r, row);
 };
 export const isProvisional = (row:MatchRow)=>
   row.participationState === 'TPE_ENTERED' || row.entryLevel === 'event';
@@ -89,7 +105,11 @@ const PHASE_FAMILIES:FamilyTable = [
   // too (some disciplines write it hyphenated, others solid), so those two are excluded here.
   { family:'FINAL', title:/決賽|金牌戰/, row:/(?<!Quarter-?)(?<!Semi-?)\bFinals?\b|Gold Medal/i },
   // \bGroup\b (not "Groups") avoids matching weightlifting's "All Groups" final-ranking phase.
-  { family:'PRELIM', title:/資格賽|預賽/, row:/Qualification|Heats|Preliminar|Round Robin|\bGroup\b/i },
+  // \bQualif (not the full word "Qualification") also reaches "Qualifier"/"Qualifying"/
+  // "Qualifications" — official phase names use all four for the same qualifying stage (e.g.
+  // shooting's "...Qualification" vs equestrian's "...Qualifier"). The \b keeps it from firing
+  // inside an unrelated word like "Disqualified", which never appears as a phase name anyway.
+  { family:'PRELIM', title:/資格賽|預賽/, row:/\bQualif|Heats|Preliminar|Round Robin|\bGroup\b/i },
   { family:'PLAYIN', title:/附加賽/, row:/\bPlay-in\b/i },
   { family:'QUARTERFINAL', title:/八強/, row:/\bQuarter-?finals?\b/i },
   { family:'SEMIFINAL', title:/四強|準決賽/, row:/\bSemi-?finals?\b/i },
@@ -179,7 +199,7 @@ function matchesDirectly(r:Broadcast, row:MatchRow, chains:CourtSessionChain[]):
   // An event-level row has no Taiwan start time to compare with, so the window cannot be
   // used against it; the sport, the day and the phase still have to agree.
   if (isProvisional(row)) return true;
-  return insideWindow(r, row);
+  return hasWindowEvidence(r, row);
 }
 
 // A D-LIVE rerun with no evidence of its own — the exact situation the phase branch above

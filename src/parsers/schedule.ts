@@ -1,9 +1,14 @@
 import { parseTime, DISPLAY_TIMEZONE, VENUE_OFFSET, offsetOf, readAtVenueOffset } from '../utils/timezone.ts';
 
 export type RawMember = { Name?: string; Org?: string; Bib?: string; FuncDesc?: string; PosDesc?: string };
+export type RawExtension = { Code?: string; Value?: string };
 export type RawCompetitor = {
   Org?: string; Name?: string; Reg?: string; Result?: string; Winner?: boolean; Rk?: string;
   Members?: RawMember[];
+  // Only some disciplines' unit responses carry a per-competitor STARTTIME extension (e.g. an
+  // equestrian qualifier where each rider goes in sequence). Most do not -- a head-to-head bout
+  // or a simultaneous shooting relay has nothing to put here, and that is expected, not missing.
+  Extensions?: RawExtension[];
 };
 export type RawSchedule = {
   Key: string; Disc: string; Orgs?: string[]; Org?: string; Home?: RawCompetitor; Away?: RawCompetitor;
@@ -24,12 +29,16 @@ export type TimeNote = { code: TimeNoteCode; clockTaipei: string | null; raw: st
 const FOLLOWED_BY_RE = /^follow(?:ed)?\s+by$/i;
 const NOT_BEFORE_RE = /^not\s+before\s+(\d{1,2}):(\d{2})$/i;
 const RESCHEDULED_RE = /^new\s+start\s+time\s+(\d{1,2}):(\d{2})$/i;
-// The HH:MM in EstText is read at the venue's own offset, the same assumption already used for
-// DateTimeRaw everywhere else in this parser -- not a new, unverified guess.
-function venueClockToTaipei(wallDate: string | null, hh: string, mm: string): string | null {
+// An HH:MM read at the venue's own offset, the same assumption already used for DateTimeRaw
+// everywhere else in this parser -- not a new, unverified conversion. Exported so a per-
+// competitor clock time (see competitor() below) can reuse the identical reading instead of a
+// second, easy-to-get-wrong implementation.
+export function venueClockToTaipeiISO(wallDate: string | null, hh: string, mm: string): string | null {
   if (!wallDate) return null;
-  const parsed = parseTime(`${wallDate}T${hh.padStart(2,'0')}:${mm}:00${VENUE_OFFSET}`);
-  return parsed ? parsed.taipei.slice(11,16) : null;
+  return parseTime(`${wallDate}T${hh.padStart(2,'0')}:${mm}:00${VENUE_OFFSET}`)?.taipei ?? null;
+}
+function venueClockToTaipei(wallDate: string | null, hh: string, mm: string): string | null {
+  return venueClockToTaipeiISO(wallDate, hh, mm)?.slice(11,16) ?? null;
 }
 export function classifyTimeNote(row: RawSchedule, wallDate: string | null): TimeNote | null {
   if (row.HideStartDate !== true) return null;
@@ -48,11 +57,23 @@ export type Source = {
   url: string; data_fetched_at?: string; checked_at?: string; captured_at?: string;
   raw_file?: string | null; mode?: string; [key: string]: unknown;
 };
-export function competitor(c: RawCompetitor) {
+const STARTTIME_RE = /^(\d{1,2}):(\d{2})$/;
+// The competitor's own STARTTIME extension, when the discipline's unit response carries one, at
+// the same wall date as the unit itself (the unit is one competition session; a rider going at
+// 14:48 is still that day). Malformed or absent extensions resolve to null -- never guessed,
+// never thrown -- so a discipline without this data behaves exactly as before.
+function competitorStartTimeTaipei(c: RawCompetitor, wallDate: string | null): string | null {
+  const raw = c.Extensions?.find(e => e.Code === 'STARTTIME')?.Value;
+  const match = typeof raw === 'string' ? STARTTIME_RE.exec(raw.trim()) : null;
+  return match ? venueClockToTaipeiISO(wallDate, match[1], match[2]) : null;
+}
+export function competitor(c: RawCompetitor, wallDate: string | null = null) {
   return { org: c.Org ?? null, name: c.Name ?? null, registration: c.Reg ?? null,
     result: c.Result ?? null, winner: c.Winner ?? null, rank: c.Rk ?? null,
     // The officials mark the medal on the competitor itself (ME_GOLD/ME_SILVER/ME_BRONZE).
     medal: (c as {Medal?:string}).Medal ?? null,
+    // Optional: only set when this competitor carries its own STARTTIME (see RawCompetitor).
+    startTimeTaipei: competitorStartTimeTaipei(c, wallDate),
     members: (c.Members || []).map(m => ({ name: m.Name ?? null, org: m.Org ?? null,
       bib: m.Bib ?? null, role: m.FuncDesc ?? null, position: m.PosDesc ?? null })) };
 }
@@ -126,7 +147,7 @@ export function normalize(value: unknown, source: Source, evidence: DayEvidence 
     status: statusMap[row.Status || ''] || 'unknown', sourceStatus: row.Status ?? null,
     sourceStatusDescription: row.StatusDesc ?? null, isLive: row.IsLive ?? null,
     hasTpe: participation === 'confirmed' ? true : participation === 'unknown' ? null : false,
-    participation, orgs, competitors: [row.Home,row.Away].filter((c): c is RawCompetitor => !!c).map(competitor),
+    participation, orgs, competitors: [row.Home,row.Away].filter((c): c is RawCompetitor => !!c).map(c=>competitor(c)),
     medalCode: row.Medal ?? null, broadcast: { status:'unverified', platforms:[] as string[] },
     sourceUrl: source.url, fetchedAt: source.data_fetched_at ?? source.captured_at ?? null,
     checkedAt: source.checked_at ?? source.captured_at ?? null, source

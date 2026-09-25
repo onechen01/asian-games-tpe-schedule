@@ -21,7 +21,11 @@ export type ResultsRow = {
   result?:{ sourceStatus?:string; competitors?:Competitor[] };
 };
 export type Competitor = { org?:string | null; name?:string | null; result?:string | null; rank?:string | null; medal?:string | null;
-  registration?:string | null; members?:{ name?:string | null }[] };
+  registration?:string | null; members?:{ name?:string | null }[];
+  // Set only when the official unit response carries this competitor's own STARTTIME
+  // extension (e.g. an equestrian rider's turn within one long qualifying session) -- most
+  // disciplines never populate it, and that is the ordinary case, not a gap.
+  startTimeTaipei?:string | null };
 // A competitor is one person when it carries no member list and its registration is the
 // numeric athlete id. A team slot instead carries a structured id such as
 // "BBLMTEAM9------TPE01", and its name is the delegation, not a person.
@@ -56,7 +60,9 @@ export type DailyRow = {
   // Several Chinese Taipei athletes can start in one unit of an individual event. Each one
   // owns their own mark and place, so they are listed separately instead of sharing one.
   tpeEntrants:{ name:string | null; registration:string | null; result:string | null; rank:string | null;
-    medal?:string | null }[];
+    medal?:string | null;
+    // See Competitor.startTimeTaipei -- null on every discipline that does not publish it.
+    startTimeTaipei:string | null }[];
   resultScope?:'component' | 'aggregate';
   // Just enough of the official unit to let the display layer recognise a medal match:
   // how many sides competed and where Chinese Taipei placed. Nothing is interpreted here.
@@ -139,6 +145,8 @@ const tpeEntrantList = (row:ResultsRow | null)=>{
   if (entries.length < 2) return [];
   return entries.map(c=>({ name:c.name ?? null, registration:c.registration ?? null,
     result:blank(c.result), rank:blank(c.rank),
+    // Each entrant keeps their own identity beside their own time -- never a bare time list.
+    startTimeTaipei:c.startTimeTaipei ?? null,
     ...(row?.resultScope === 'aggregate' && blank(c.medal) ? { medal:blank(c.medal) } : {}) }));
 };
 // "Opponent" only means something in a two-sided unit. A heat or a routine final lists many

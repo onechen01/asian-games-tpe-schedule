@@ -725,6 +725,189 @@ test('case E — an explicit different shooting event is never matched, even wit
   assert.equal(broadcastsForRow(show,'2026-09-23',skeetFinal).length,0,'不得因 athlete 相同配到明確不同 event 的 Skeet 卡');
 });
 
+// -- PRELIM family normalization: official phase text spells the qualifying stage differently
+// per discipline ("...Qualification" in shooting, "...Qualifier" in equestrian, "...Qualifying"
+// in cycling), but ELTA's Chinese titles only ever say "資格賽"/"預賽". \bQualif must reach all
+// three without also firing on an unrelated word that happens to contain the substring. --
+
+test('Qualifier is recognised as the same PRELIM family as Qualification (real 9/26 equestrian)',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-26',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-26T09:00:00+08:00',broadcastEndTimeTaipei:'2026-09-26T16:20:00+08:00',
+      disciplineCode:'EQU',title:'亞運 中華隊 馬術 馬場馬術個人賽第2輪資格賽 9/26(原音) LIVE',feed:'original',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Qualification']} }]}));
+  const dressageQualifier = { disciplineCode:'EQU', opponentCode:null,
+    athletesEn:['CHEN Yi-ju','WANG Yu-jun','SHYONG Tien-chi','YEH Hsiu-hua'],
+    // Inside the broadcast's own window: this isolates the phase-family question from the
+    // real row's separate, pre-existing 08:30-vs-09:00 window gap (not this test's concern —
+    // see the follow-up note in the PR/report).
+    startTimeTaipei:'2026-09-26T09:05:00+08:00',
+    event:'Dressage Individual', phase:'Dressage 2nd Individual Qualifier',
+    participationState:'TPE_CONFIRMED', entryLevel:'unit' };
+  assert.equal(broadcastsForRow(show,'2026-09-26',dressageQualifier).length,1,
+    'Qualifier 應與資格賽廣播的 Qualification family 視為同一 phase');
+});
+
+test('Qualification still matches Qualification — the normalization is additive, not a regression',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-23',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-23T08:00:00+08:00',broadcastEndTimeTaipei:'2026-09-23T09:00:00+08:00',
+      disciplineCode:'SHO',title:'亞運 中華隊 射擊 資格賽 9/23 LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{} }]}));
+  const qualification = { disciplineCode:'SHO', opponentCode:null, athletesEn:['CHENG Yen-Ching'],
+    startTimeTaipei:'2026-09-23T08:30:00+08:00',
+    event:'10m Air Pistol Women Individual', phase:'10m Air Pistol Women Individual Qualification',
+    participationState:'TPE_CONFIRMED', entryLevel:'unit' };
+  assert.equal(broadcastsForRow(show,'2026-09-23',qualification).length,1,
+    '既有的 Qualification/Qualification 配對不受這次改動影響');
+});
+
+test('a clearly different phase still does not match just because both mention qualifying',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-26',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-26T09:00:00+08:00',broadcastEndTimeTaipei:'2026-09-26T16:20:00+08:00',
+      disciplineCode:'EQU',title:'亞運 中華隊 馬術 馬場馬術個人賽第2輪資格賽 9/26(原音) LIVE',feed:'original',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Qualification']} }]}));
+  // Same discipline, same day, but the row is explicitly a Final — 決賽/資格賽 stay two
+  // different families, exactly as before this change.
+  const dressageFinal = { disciplineCode:'EQU', opponentCode:null, athletesEn:['CHEN Yi-ju'],
+    startTimeTaipei:'2026-09-26T09:05:00+08:00',
+    event:'Dressage Individual', phase:'Dressage Individual Final',
+    participationState:'TPE_CONFIRMED', entryLevel:'unit' };
+  assert.equal(broadcastsForRow(show,'2026-09-26',dressageFinal).length,0,
+    '資格賽廣播不得配到明確的決賽卡');
+});
+
+test('the PRELIM family is not discipline-specific — any sport spelling the stage "Qualifier"/"Qualifying" benefits, not just equestrian',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-24',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-24T09:00:00+08:00',broadcastEndTimeTaipei:'2026-09-24T11:00:00+08:00',
+      disciplineCode:'ARC',title:'亞運 中華隊 射箭 資格賽 9/24 LIVE',feed:'main',
+      matchLevel:'discipline',matchHint:{} }]}));
+  const qualifyingRound = { disciplineCode:'ARC', opponentCode:null, athletesEn:['SOME Archer'],
+    startTimeTaipei:'2026-09-24T09:30:00+08:00',
+    event:"Men's Individual", phase:"Recurve Men's Individual Qualification Round",
+    participationState:'TPE_CONFIRMED', entryLevel:'unit' };
+  const qualifyingSpelling = { disciplineCode:'ARC', opponentCode:null, athletesEn:['SOME Cyclist'],
+    startTimeTaipei:'2026-09-24T09:30:00+08:00',
+    event:'Team Pursuit', phase:'Men\'s Team Pursuit, Qualifying',
+    participationState:'TPE_CONFIRMED', entryLevel:'unit' };
+  assert.equal(broadcastsForRow(show,'2026-09-24',qualifyingRound).length,1,
+    '"Qualification Round" 這個變體同樣受惠，不是只為 EQU 寫死');
+  assert.equal(broadcastsForRow(show,'2026-09-24',qualifyingSpelling).length,1,
+    '"Qualifying"（動名詞拼法）同樣受惠');
+});
+
+test('the broadened PRELIM regex does not fire on an unrelated word that merely contains "qualif"',()=>{
+  const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+    { date:'2026-09-26',providerId:'elta',providerName:'愛爾達',isLive:true,
+      broadcastStartTimeTaipei:'2026-09-26T09:00:00+08:00',broadcastEndTimeTaipei:'2026-09-26T16:20:00+08:00',
+      disciplineCode:'EQU',title:'亞運 中華隊 馬術 馬場馬術個人賽第2輪資格賽 9/26(原音) LIVE',feed:'original',
+      matchLevel:'discipline',matchHint:{phaseKeywords:['Qualification']} }]}));
+  // "Disqualified" is never an official phase name in this dataset, but the \b boundary is
+  // what keeps a word like this safe in principle — assert it directly rather than trust that
+  // no such phase will ever appear.
+  const disqualified = { disciplineCode:'EQU', opponentCode:null, athletesEn:['CHEN Yi-ju'],
+    startTimeTaipei:'2026-09-26T09:05:00+08:00',
+    event:'Dressage Individual', phase:'Dressage Individual Disqualified',
+    participationState:'TPE_CONFIRMED', entryLevel:'unit' };
+  assert.equal(broadcastsForRow(show,'2026-09-26',disqualified).length,0,
+    '"Disqualified" 不應被誤判為 PRELIM family（\\b 邊界防呆）');
+});
+
+// -- per-entrant STARTTIME evidence: a unit's own startTimeTaipei can be another competitor's
+// slot in a long, sequential-entry session (many riders/throwers/shooters going in turn). When
+// the official response gives one or more Chinese Taipei entrants their own clock time, that
+// evidence is used instead of — never in addition to, never overridden by — the coarser unit
+// time. A discipline that never publishes this per-competitor time is completely unaffected. --
+
+const equShow = (over:Record<string,unknown> = {})=>parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+  { date:'2026-09-26',providerId:'elta',providerName:'愛爾達',isLive:true,
+    broadcastStartTimeTaipei:'2026-09-26T09:00:00+08:00',broadcastEndTimeTaipei:'2026-09-26T16:20:00+08:00',
+    disciplineCode:'EQU',title:'亞運 中華隊 馬術 馬場馬術個人賽第2輪資格賽 9/26(原音) LIVE',feed:'original',
+    matchLevel:'discipline',matchHint:{phaseKeywords:['Qualification']},...over }]}));
+// The real 9/26 row: unit time 08:30 (before the broadcast even starts), four TPE riders whose
+// own official times are 09:18/09:26/10:45/13:48 — all inside the 09:00–16:20 window.
+const equRow = (entrants:{registration:string;startTimeTaipei:string|null}[])=>({
+  disciplineCode:'EQU', opponentCode:null,
+  athletesEn:['CHEN Yi-ju','WANG Yu-jun','SHYONG Tien-chi','YEH Hsiu-hua'],
+  startTimeTaipei:'2026-09-26T08:30:00+08:00',
+  event:'Dressage Individual', phase:'Dressage 2nd Individual Qualifier',
+  participationState:'TPE_CONFIRMED', entryLevel:'unit',
+  tpeEntrants:entrants.map(e=>({ name:null, registration:e.registration, result:null, rank:null,
+    startTimeTaipei:e.startTimeTaipei })) });
+
+test('1 — real 9/26 equestrian case: unit time 08:30 is outside the window, but the TPE entrants\' own times put it inside, and Qualifier/Qualification is the same PRELIM family',()=>{
+  const row = equRow([
+    { registration:'2724373', startTimeTaipei:'2026-09-26T09:18:00+08:00' },
+    { registration:'10521853', startTimeTaipei:'2026-09-26T09:26:00+08:00' },
+    { registration:'2703666', startTimeTaipei:'2026-09-26T10:45:00+08:00' },
+    { registration:'10513535', startTimeTaipei:'2026-09-26T13:48:00+08:00' },
+  ]);
+  assert.equal(broadcastsForRow(equShow(),'2026-09-26',row).length,1,
+    '真實9/26案例：unit時間08:30在窗口外，但TPE選手個別時間應成立時間證據，唯一配對成功');
+});
+
+test('2 — every TPE entrant\'s own time is outside the window: must not fall back to the unit time even though the unit time is inside it',()=>{
+  const row = equRow([
+    { registration:'2724373', startTimeTaipei:'2026-09-26T17:00:00+08:00' },
+    { registration:'10521853', startTimeTaipei:'2026-09-26T17:10:00+08:00' },
+  ]);
+  // The unit's own startTimeTaipei (08:30) IS inside the broadcast window (09:00–16:20), but
+  // once precise per-entrant evidence exists, it alone decides — the coarser unit time must
+  // never be consulted as a fallback just because the precise evidence came up empty.
+  assert.equal(broadcastsForRow(equShow(),'2026-09-26',row).length,0,
+    '有精確的選手個別時間證據時，即使全部落在窗口外，也不能退回去用unit時間放行');
+});
+
+test('3 — no competitor carries a STARTTIME at all (e.g. boxing): behaviour is exactly the pre-existing unit-time fallback',()=>{
+  const withoutTimes = equRow([
+    { registration:'2724373', startTimeTaipei:null },
+    { registration:'10521853', startTimeTaipei:null },
+  ]);
+  // Unit time 08:30 is genuinely outside this window (09:00–16:20), same as the real bug: with
+  // no per-entrant evidence at all, the row falls back to the ordinary unit-time check and is
+  // correctly left unmatched — proving the fallback path is untouched, not silently loosened.
+  assert.equal(broadcastsForRow(equShow(),'2026-09-26',withoutTimes).length,0,
+    '完全沒有STARTTIME時，行為必須跟改動前的 unit time 判斷完全一樣');
+  const insideUnitWindow = { ...withoutTimes, startTimeTaipei:'2026-09-26T09:30:00+08:00' };
+  assert.equal(broadcastsForRow(equShow(),'2026-09-26',insideUnitWindow).length,1,
+    '沒有STARTTIME、但unit時間本身在窗口內時，照舊fallback邏輯成功配對');
+});
+
+test('4 — several TPE entrants, only one official time inside the window: that one is enough',()=>{
+  const row = equRow([
+    { registration:'2724373', startTimeTaipei:'2026-09-26T17:00:00+08:00' }, // outside
+    { registration:'10521853', startTimeTaipei:'2026-09-26T09:26:00+08:00' }, // inside
+    { registration:'2703666', startTimeTaipei:'2026-09-26T18:00:00+08:00' }, // outside
+  ]);
+  assert.equal(broadcastsForRow(equShow(),'2026-09-26',row).length,1,
+    '多位TPE選手，只要其中一位官方時間落在窗口內即可形成時間證據');
+});
+
+test('5 — malformed or missing STARTTIME on some entrants is safely ignored, never guessed',()=>{
+  const row = equRow([
+    { registration:'2724373', startTimeTaipei:null },
+    { registration:'10521853', startTimeTaipei:'2026-09-26T09:26:00+08:00' },
+  ]);
+  assert.equal(broadcastsForRow(equShow(),'2026-09-26',row).length,1,
+    '缺欄位的entrant被安全忽略，另一位有效的官方時間仍然成立');
+  // No entrants array at all (older canonical rows this discipline had before the schema
+  // addition, or a discipline that never populates it) degrades to the unit-time fallback.
+  const noEntrantsField = { ...row, tpeEntrants:undefined };
+  assert.equal(broadcastsForRow(equShow(),'2026-09-26',noEntrantsField).length,0,
+    '完全沒有 tpeEntrants 欄位時退回 unit time（08:30 在窗口外），不得因為欄位缺失而誤判');
+});
+
+test('6 — an explicit phase conflict is never bridged by a hit competitor time',()=>{
+  const finalShow = equShow({ title:'亞運 中華隊 馬術 馬場馬術個人賽決賽 9/26 LIVE',
+    matchHint:{ phaseKeywords:['Final'] } });
+  const row = { ...equRow([{ registration:'2724373', startTimeTaipei:'2026-09-26T09:18:00+08:00' }]),
+    phase:'Dressage 2nd Individual Qualifier' }; // still the qualifier, broadcast is now the final
+  assert.equal(broadcastsForRow(finalShow,'2026-09-26',row).length,0,
+    '廣播明確是決賽、卡是資格賽，即使選手個別時間命中窗口，phase 衝突仍必須擋下');
+});
+
 test('explicit conflict veto does not disturb one-to-many or same-card multi-channel behaviour',async()=>{
   const shows = await loadBroadcasts();
   const day = parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-23.json','utf8')),'2026-09-23');

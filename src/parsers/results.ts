@@ -1,7 +1,8 @@
 import { competitor } from './schedule.ts';
 import type { RawCompetitor, Schedule } from './schedule.ts';
 
-type ResultTarget = Pick<Schedule,'unitId' | 'eventId' | 'phaseId' | 'resultCode' | 'status' | 'hasTpe'> & {
+type ResultTarget = Pick<Schedule,'unitId' | 'eventId' | 'phaseId' | 'resultCode' | 'status' | 'hasTpe'
+  | 'originalStartTime'> & {
   resultScope?:'component' | 'aggregate' | null;
 };
 
@@ -30,7 +31,10 @@ export function parseRequestedResult(data:unknown,row:ResultTarget,resultKey:str
   if (row.hasTpe === true && resultStarted && !result.Competitors.some(c=>c.Org === 'TPE')) {
     throw new Error('Incomplete Results snapshot: confirmed TPE competitor is missing');
   }
+  // The unit's own wall date (at venue offset), the same reading DateTimeRaw already uses
+  // elsewhere -- a per-competitor STARTTIME is a clock time within this same session's day.
+  const wallDate = typeof row.originalStartTime === 'string' ? row.originalStartTime.slice(0,10) : null;
   return { sourceStatus:result.Info.Status,isLive:result.Info.IsLive,
     currentPeriod:result.Results?.CurrentPeriod ?? null,
-    competitors:result.Competitors.map(competitor) };
+    competitors:result.Competitors.map(c=>competitor(c,wallDate)) };
 }
