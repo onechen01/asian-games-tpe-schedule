@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T08:49:31.301Z",
+  "generatedAt": "2026-09-25T08:56:56.577Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T08:49:31.124Z",
+      "generatedAt": "2026-09-25T08:56:56.437Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1001,19 +1001,21 @@
     },
     {
       "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T09:15:00+08:00",
-      "startTimeJst": "2026-09-26T10:15:00+09:00",
+      "startTimeTaipei": "2026-09-26T09:30:00+08:00",
+      "startTimeJst": "2026-09-26T10:30:00+09:00",
       "timeNote": null,
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
       "event": "Puzzle [Puyo Puyo Champions]",
       "phase": "Puyo Puyo Champions Quarter-finals",
-      "unit": "Match 3",
+      "unit": "Match 4",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": "KANG Dongshin",
-      "opponentCode": "KOR",
+      "athletesEn": [
+        "KUO Tzu-ang"
+      ],
+      "opponent": null,
+      "opponentCode": null,
       "venue": "",
       "venueZh": null,
       "locationCode": "EL1",
@@ -1024,7 +1026,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 2,
+      "orgCount": 1,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1038,8 +1040,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "O.PYO---------------.QFNL.000300--",
-          "id": "ELS:O.PYO---------------.QFNL.000300--"
+          "unitId": "O.PYO---------------.QFNL.000400--",
+          "id": "ELS:O.PYO---------------.QFNL.000400--"
         }
       }
     },
@@ -2152,8 +2154,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:15 Match 3",
-      "row": "ELS:O.PYO---------------.QFNL.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 4",
+      "row": "ELS:O.PYO---------------.QFNL.000400--"
     },
     {
       "code": "RESULTS_ONLY",
