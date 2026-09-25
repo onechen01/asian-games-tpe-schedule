@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T21:56:42.610Z",
+  "generatedAt": "2026-09-25T22:06:56.712Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T21:56:42.423Z",
+      "generatedAt": "2026-09-25T22:06:56.537Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -586,52 +586,6 @@
         "results": {
           "unitId": "W.CTEAM-------------.QUAL.000100--",
           "id": "ARC:W.CTEAM-------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T07:24:00+08:00",
-      "startTimeJst": "2026-09-26T08:24:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SRF",
-      "sportZh": "衝浪",
-      "sportEn": "Surfing",
-      "event": "Women's Shortboard",
-      "phase": "Women's Shortboard Round 2",
-      "unit": "Women's Shortboard - Round 2 - Heat 7",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Wan-yu"
-      ],
-      "opponent": "GAYEN Sugar Shanti",
-      "opponentCode": "IND",
-      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "venueZh": null,
-      "locationCode": "SRF",
-      "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SHORTBRD----------.REP-.000700--",
-          "id": "SRF:W.SHORTBRD----------.REP-.000700--"
         }
       }
     },
@@ -1989,6 +1943,52 @@
         "results": {
           "unitId": "M.70KG--------------.FNL-.A00100--",
           "id": "WLF:M.70KG--------------.FNL-.A00100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T13:39:00+08:00",
+      "startTimeJst": "2026-09-26T14:39:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SRF",
+      "sportZh": "衝浪",
+      "sportEn": "Surfing",
+      "event": "Women's Shortboard",
+      "phase": "Women's Shortboard Round 2",
+      "unit": "Women's Shortboard - Round 2 - Heat 7",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Wan-yu"
+      ],
+      "opponent": "GAYEN Sugar Shanti",
+      "opponentCode": "IND",
+      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "venueZh": null,
+      "locationCode": "SRF",
+      "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SHORTBRD----------.REP-.000700--",
+          "id": "SRF:W.SHORTBRD----------.REP-.000700--"
         }
       }
     },
@@ -3443,7 +3443,7 @@
     "resultsOnly": 48,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 58
+    "warnings": 57
   },
   "warnings": [
     {
@@ -3465,11 +3465,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:00 Compound Women's Team Qualification Round",
       "row": "ARC:W.CTEAM-------------.QUAL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SRF 07:24 Women's Shortboard - Round 2 - Heat 7",
-      "row": "SRF:W.SHORTBRD----------.REP-.000700--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3603,6 +3598,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SRF 13:39 Women's Shortboard - Round 2 - Heat 7",
+      "row": "SRF:W.SHORTBRD----------.REP-.000700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 14:30 Men's Doubles Quarterfinals Match 1",
       "row": "TTE:M.DOUBLES-----------.QFNL.000100--"
     },
@@ -3695,11 +3695,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CSP|M.K1-500M-----------",
       "message": "CSP Men's Kayak Single 500m 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SRF|W.SHORTBRD----------",
-      "message": "SRF Women's Shortboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
