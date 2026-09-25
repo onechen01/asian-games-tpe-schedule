@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T10:58:40.054Z",
+  "generatedAt": "2026-09-25T11:29:16.032Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T10:58:39.887Z",
+      "generatedAt": "2026-09-25T11:29:15.862Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2205,7 +2205,27 @@
       }
     }
   ],
-  "sessionChains": [],
+  "sessionChains": [
+    {
+      "id": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000300--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.SINGLES-----------.R32-.000300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-26T08:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.R32-.000300--",
+          "unitName": "Men's Singles 2nd Round Match 3",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-26T08:00:00+08:00"
+        }
+      ]
+    }
+  ],
   "coverageComplete": true,
   "officialNoCompetition": false,
   "summary": {
