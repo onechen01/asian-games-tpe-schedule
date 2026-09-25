@@ -117,34 +117,42 @@ const realCanonicalRows = async()=>{
   return rows;
 };
 
-test('the real canonical data yields one award per official medal, with stable unique identities',async()=>{
+test('a component result never becomes a medal on a card, whatever else changes',async()=>{
   const rows = await realCanonicalRows();
-  const counts = { gold:0, silver:0, bronze:0, total:0 };
-  const ledger = buildMedalLedger(rows, counts, '2026-09-25T00:00:00Z');
-  const {gold,silver,bronze,total} = ledger.ledgerCounts;
-  assert.equal(gold+silver+bronze,total);
-  // Every award is uniquely identified, and no identity fell back to an unstable one.
-  assert.equal(new Set(ledger.awards.map(a=>a.awardId)).size, ledger.awards.length);
-  assert.equal(ledger.awards.filter(a=>a.identityUnstable).length,0);
-  // A component result never becomes a medal, whatever else changes.
   assert.equal(rows.filter(r=>r.resultScope==='component').flatMap(r=>extractTpeMedalAwards(r)).length,0);
-  // The two cases this extractor was built around: an entrant-level medal inside a multi-entrant
-  // aggregate unit, and a unit-level one that only a manual backfill recovered.
-  assert.ok(ledger.awards.some(a=>a.athletes.includes('LIU Chang-min') && a.medal==='ME_BRONZE'
-    && a.awardId.includes('#')));
-  assert.ok(ledger.awards.some(a=>a.athletes.includes('CHEN Po-yi') && a.medal==='ME_BRONZE'));
 });
 
-test('an official total higher than what canonical currently has yields a partial ledger, keeping every known award',async()=>{
-  const rows = await realCanonicalRows();
-  const actual = buildMedalLedger(rows, { gold:0, silver:0, bronze:0, total:0 }, '2026-09-25T00:00:00Z').ledgerCounts;
-  // One more bronze than canonical can see, whatever canonical currently holds.
-  const ledger = buildMedalLedger(rows,
-    { ...actual, bronze:actual.bronze+1, total:actual.total+1 }, '2026-09-25T00:00:00Z');
+test('an official total higher than the awards published yields a partial ledger, keeping every award',()=>{
+  const awards = twoAwards();
+  // One more bronze than the official medal list handed us, whatever it currently holds.
+  const ledger = buildMedalLedger(awards, { gold:0, silver:0, bronze:3, total:3 }, '2026-09-25T00:00:00Z');
   assert.equal(ledger.completeness,'partial');
   // A partial ledger still publishes everything it does know, and never invents the shortfall.
-  assert.equal(ledger.awards.length,actual.total);
+  assert.equal(ledger.awards.length,2);
   assert.deepEqual(ledger.missing,{ gold:0, silver:0, bronze:1, total:1 });
+});
+
+test('more awards than the standings admit is also partial, never a ledger that overrides the officials',()=>{
+  const ledger = buildMedalLedger(twoAwards(), { gold:0, silver:0, bronze:1, total:1 }, 't');
+  assert.equal(ledger.completeness,'partial');
+  assert.equal(ledger.awards.length,2);
+  assert.deepEqual(ledger.missing,{ gold:0, silver:0, bronze:-1, total:-1 });
+});
+
+test('two awards sharing one identity are reported as a problem, never silently deduplicated',()=>{
+  const clash = award({ athletes:['SOMEONE ELSE'] });
+  const ledger = buildMedalLedger([award(), clash], { gold:0, silver:0, bronze:1, total:1 }, 't');
+  assert.equal(ledger.awards.length,1);
+  assert.equal(ledger.completeness,'partial','a collision must block a complete claim');
+  assert.ok(ledger.problems.some(p=>p.includes('duplicate award id')));
+});
+
+test('a problem reported by the parser blocks completeness even when the counts line up',()=>{
+  const ledger = buildMedalLedger(twoAwards(), { gold:0, silver:0, bronze:2, total:2 }, 't',
+    { verified:true, updatedAt:null }, ['medal_conflict: KTE|M.67KG|1: ME_GOLD vs ME_SILVER']);
+  assert.deepEqual(ledger.ledgerCounts,ledger.officialCounts);
+  assert.equal(ledger.completeness,'partial');
+  assert.equal(ledger.problems.length,1);
 });
 
 // The real shape of the 9/25 skateboarding silver: an eight-competitor final with no head-to-head
@@ -174,17 +182,21 @@ test('an official final with a medal-winning rank but no official Medal field yi
 
 // --- ledger lifecycle: what the updater relies on when it rebuilds the ledger every run ---
 
-// One unit-level medal and one entrant-level medal inside a multi-entrant aggregate unit.
-const twoMedalRows = ():MedalAwardSource[]=>[
-  row({ tpeMedal:'ME_BRONZE', tpeRank:'3', athletesEn:['A ATHLETE'] }),
-  row({ resultScope:'aggregate', tpeMedal:null, date:'2026-09-22',
-    sources:{ results:{ unitId:'M.NANG--------------.FNL-.000200--', id:'WSU:M.NANG--------------.FNL-.000200--' } },
-    tpeEntrants:[{ name:'B ATHLETE', registration:'6020214', rank:'3', medal:'ME_BRONZE' },
-      { name:'C ATHLETE', registration:'16537768', rank:'4' }] }),
+// The ledger is assembled from awards the official medal list already decided, so these are awards
+// rather than canonical rows: the builder no longer re-derives medals from Results evidence.
+const award = (o:Partial<MedalAward> = {}):MedalAward=>({
+  awardId:'KTE|M.67KG--------------|9606559', medal:'ME_BRONZE',
+  disciplineCode:'KTE', sportZh:'空手道', event:"Men's Kumite -67kg", phase:null,
+  date:'2026-09-21', startTimeTaipei:null, resultId:null, unitId:null,
+  athletes:['A ATHLETE'], rank:'3', ...o });
+const twoAwards = ():MedalAward[]=>[
+  award(),
+  award({ awardId:'WSU|M.NANG--------------|6020214', disciplineCode:'WSU', sportZh:'武術',
+    event:"Men's Nanquan & Nangun", date:'2026-09-22', athletes:['B ATHLETE'] }),
 ];
 
 test('canonical and verified standings agreeing yields a complete ledger',()=>{
-  const ledger = buildMedalLedger(twoMedalRows(), { gold:0, silver:0, bronze:2, total:2 },
+  const ledger = buildMedalLedger(twoAwards(), { gold:0, silver:0, bronze:2, total:2 },
     '2026-09-25T00:00:00Z', { verified:true, updatedAt:'2026-09-25T03:00:00Z' });
   assert.equal(ledger.completeness,'complete');
   assert.equal(ledger.standingsVerified,true);
@@ -192,23 +204,22 @@ test('canonical and verified standings agreeing yields a complete ledger',()=>{
 });
 
 test('a medal newly present in canonical raises the ledger on the next build, with no code change',()=>{
-  const before = buildMedalLedger(twoMedalRows(), { gold:0, silver:0, bronze:3, total:3 },
+  const before = buildMedalLedger(twoAwards(), { gold:0, silver:0, bronze:3, total:3 },
     't1', { verified:true, updatedAt:null });
   assert.equal(before.ledgerCounts.total,2);
   assert.equal(before.completeness,'partial');
   assert.deepEqual(before.missing,{ gold:0, silver:0, bronze:1, total:1 });
   // The officials fill in the Medal field on a third unit; nothing else changes.
-  const after = buildMedalLedger([...twoMedalRows(),
-    row({ disciplineCode:'CSP', event:"Men's Canoe Single 500m", date:'2026-09-25',
-      sources:{ results:{ unitId:'M.C1-500M-----------.FNL-.000100--', id:'CSP:M.C1-500M-----------.FNL-.000100--' } },
-      tpeMedal:'ME_BRONZE', tpeRank:'3', athletesEn:['LAI Kuan-chieh'] })],
+  const after = buildMedalLedger([...twoAwards(),
+    award({ awardId:'CSP|M.C1-500M-----------|12270735', disciplineCode:'CSP', sportZh:'輕艇靜水',
+      event:"Men's Canoe Single 500m", date:'2026-09-25', athletes:['LAI Kuan-chieh'] })],
     { gold:0, silver:0, bronze:3, total:3 }, 't2', { verified:true, updatedAt:null });
   assert.equal(after.ledgerCounts.total,3);
   assert.equal(after.completeness,'complete');
 });
 
 test('standings one ahead of canonical stays partial and never fabricates the missing award',()=>{
-  const ledger = buildMedalLedger(twoMedalRows(), { gold:0, silver:0, bronze:3, total:3 },
+  const ledger = buildMedalLedger(twoAwards(), { gold:0, silver:0, bronze:3, total:3 },
     '2026-09-25T00:00:00Z', { verified:true, updatedAt:null });
   assert.equal(ledger.completeness,'partial');
   assert.equal(ledger.awards.length,2);
@@ -220,8 +231,8 @@ test('standings one ahead of canonical stays partial and never fabricates the mi
 // an unverified comparison is the only safe reading even when the numbers line up exactly.
 test('an unverified standings snapshot can never report complete, even when the counts match',()=>{
   const matching = { gold:0, silver:0, bronze:2, total:2 };
-  const verified = buildMedalLedger(twoMedalRows(), matching, 't', { verified:true, updatedAt:null });
-  const stale = buildMedalLedger(twoMedalRows(), matching, 't', { verified:false, updatedAt:'2026-09-24T00:00:00Z' });
+  const verified = buildMedalLedger(twoAwards(), matching, 't', { verified:true, updatedAt:null });
+  const stale = buildMedalLedger(twoAwards(), matching, 't', { verified:false, updatedAt:'2026-09-24T00:00:00Z' });
   assert.equal(verified.completeness,'complete');
   assert.equal(stale.completeness,'partial');
   assert.equal(stale.standingsVerified,false);
@@ -232,24 +243,24 @@ test('an unverified standings snapshot can never report complete, even when the 
 
 test('an unchanged ledger is not rewritten, but a changed medal or official total is',()=>{
   const official = { gold:0, silver:0, bronze:2, total:2 };
-  const first = buildMedalLedger(twoMedalRows(), official, '2026-09-25T01:00:00Z');
-  const laterSameContent = buildMedalLedger(twoMedalRows(), official, '2026-09-25T02:00:00Z');
+  const first = buildMedalLedger(twoAwards(), official, '2026-09-25T01:00:00Z');
+  const laterSameContent = buildMedalLedger(twoAwards(), official, '2026-09-25T02:00:00Z');
   assert.equal(ledgerContentChanged(laterSameContent, first),false);
   // A live standings fetch stamps the moment it checked, so that timestamp moves every run on its
   // own; by itself it must not count as a change or the ledger would churn on every updater pass.
-  const reverified = buildMedalLedger(twoMedalRows(), official, '2026-09-25T03:00:00Z',
+  const reverified = buildMedalLedger(twoAwards(), official, '2026-09-25T03:00:00Z',
     { verified:true, updatedAt:'2026-09-25T03:00:00Z' });
   assert.equal(ledgerContentChanged(reverified, first),false);
   // Losing verification, though, is a real state change worth recording.
-  const unverified = buildMedalLedger(twoMedalRows(), official, '2026-09-25T03:00:00Z',
+  const unverified = buildMedalLedger(twoAwards(), official, '2026-09-25T03:00:00Z',
     { verified:false, updatedAt:'2026-09-25T03:00:00Z' });
   assert.equal(ledgerContentChanged(unverified, first),true);
   assert.equal(ledgerContentChanged(first, null),true);
-  const officialMoved = buildMedalLedger(twoMedalRows(), { ...official, bronze:3, total:3 }, '2026-09-25T02:00:00Z');
+  const officialMoved = buildMedalLedger(twoAwards(), { ...official, bronze:3, total:3 }, '2026-09-25T02:00:00Z');
   assert.equal(ledgerContentChanged(officialMoved, first),true);
-  const medalAdded = buildMedalLedger([...twoMedalRows(),
-    row({ date:'2026-09-25', tpeMedal:'ME_GOLD', tpeRank:'1', athletesEn:['D ATHLETE'],
-      sources:{ results:{ unitId:'X', id:'ZZZ:X' } } })], official, '2026-09-25T02:00:00Z');
+  const medalAdded = buildMedalLedger([...twoAwards(),
+    award({ awardId:'ZZZ|X.NEW--------------|1', medal:'ME_GOLD', disciplineCode:'ZZZ',
+      date:'2026-09-25', athletes:['D ATHLETE'] })], official, '2026-09-25T02:00:00Z');
   assert.equal(ledgerContentChanged(medalAdded, first),true);
 });
 

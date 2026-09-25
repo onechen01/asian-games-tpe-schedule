@@ -98,17 +98,26 @@ export type MedalLedger = {
   officialCounts:LedgerCounts;
   // officialCounts minus ledgerCounts, per colour and total; zero everywhere when complete.
   missing:LedgerCounts;
+  // Anything the official medal list could not be read cleanly: a row with no usable medal code,
+  // two rows sharing one identity, or one identity claiming two colours. A ledger carrying any of
+  // these can never report 'complete', so a bad payload degrades loudly instead of being
+  // deduplicated into a tidy-looking lie.
+  problems:string[];
   awards:MedalAward[];
 };
 
-// Pure aggregation: no fetching, no file reads. The officially-confirmed totals are supplied by
-// the caller (a live standings fetch), never derived from the awards themselves -- the ledger
-// must be able to say "we only have 14 of the official 15" instead of quietly agreeing with itself.
-export function buildMedalLedger(rows:MedalAwardSource[], officialCounts:LedgerCounts, generatedAt:string,
-  standings:{ verified:boolean; updatedAt:string | null } = { verified:true, updatedAt:null }):MedalLedger {
+// Pure aggregation over awards the caller already built from the official medal list. The
+// officially-confirmed totals come separately (a live standings fetch) and are never derived from
+// the awards themselves -- the ledger must be able to say "we only have 21 of the official 22"
+// instead of quietly agreeing with itself.
+export function buildMedalLedger(input:MedalAward[], officialCounts:LedgerCounts, generatedAt:string,
+  standings:{ verified:boolean; updatedAt:string | null } = { verified:true, updatedAt:null },
+  problems:string[] = []):MedalLedger {
   const byId = new Map<string,MedalAward>();
-  for (const row of rows) for (const award of extractTpeMedalAwards(row)) {
-    if (!byId.has(award.awardId)) byId.set(award.awardId, award);
+  const duplicates:string[] = [];
+  for (const award of input) {
+    if (byId.has(award.awardId)) { duplicates.push(`duplicate award id ${award.awardId}`); continue; }
+    byId.set(award.awardId, award);
   }
   const awards = [...byId.values()].sort((a,b)=>
     (a.date ?? '').localeCompare(b.date ?? '') || a.awardId.localeCompare(b.awardId));
@@ -117,12 +126,15 @@ export function buildMedalLedger(rows:MedalAwardSource[], officialCounts:LedgerC
     bronze:count('ME_BRONZE'), total:awards.length };
   const matches = ledgerCounts.gold === officialCounts.gold && ledgerCounts.silver === officialCounts.silver
     && ledgerCounts.bronze === officialCounts.bronze && ledgerCounts.total === officialCounts.total;
+  const allProblems = [...problems, ...duplicates];
   return {
-    generatedAt, completeness:matches && standings.verified ? 'complete' : 'partial',
+    generatedAt,
+    completeness:matches && standings.verified && allProblems.length === 0 ? 'complete' : 'partial',
     standingsVerified:standings.verified, standingsUpdatedAt:standings.updatedAt,
     ledgerCounts, officialCounts,
     missing:{ gold:officialCounts.gold-ledgerCounts.gold, silver:officialCounts.silver-ledgerCounts.silver,
       bronze:officialCounts.bronze-ledgerCounts.bronze, total:officialCounts.total-ledgerCounts.total },
+    problems:allProblems,
     awards,
   };
 }
