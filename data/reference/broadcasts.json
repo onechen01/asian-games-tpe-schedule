@@ -2305,7 +2305,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-25",
-      "broadcastEndTimeTaipei": "2026-09-25T13:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T13:30:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -2442,7 +2442,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-25",
-      "broadcastEndTimeTaipei": "2026-09-25T15:55:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T16:05:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -2464,17 +2464,13 @@
       "channelId": "543",
       "channelName": "愛爾達體育MAX4台",
       "isLive": true,
-      "title": "亞運 李哲輝/楊博軒 羽球 個人賽第1輪(下-第1球場) 9/25(原音) LIVE",
+      "title": "亞運 中華隊 羽球 個人賽第1輪(下-第1球場) 9/25(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-25",
       "broadcastEndTimeTaipei": "2026-09-25T21:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
-        "athleteNames": [
-          "YANG Po-hsuan",
-          "LEE Jhe-huei"
-        ],
         "courtSession": {
           "locationLabel": "Court 1",
           "roundKeyword": "1st Round",
@@ -2556,7 +2552,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-25T15:55:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-25T16:05:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
