@@ -2596,7 +2596,29 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-25T17:15:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-25T17:20:00+08:00",
+      "disciplineCode": "BBL",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華VS中國 棒球 超級循環賽 9/25 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-25",
+      "broadcastEndTimeTaipei": "2026-09-25T20:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-25T17:40:00+08:00",
       "disciplineCode": "ATH",
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
@@ -2615,28 +2637,6 @@
           "Round Robin",
           "Group",
           "Final"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-25T17:20:00+08:00",
-      "disciplineCode": "BBL",
-      "channelId": "101",
-      "channelName": "愛爾達體育1台",
-      "isLive": true,
-      "title": "亞運 中華VS中國 棒球 超級循環賽 9/25 LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-09-25",
-      "broadcastEndTimeTaipei": "2026-09-25T20:30:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "opponentCodes": [
-          "CHN"
         ]
       }
     },
