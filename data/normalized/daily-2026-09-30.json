@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T10:18:07.614Z",
+  "generatedAt": "2026-09-25T16:14:30.700Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-25T10:18:07.458Z",
+      "generatedAt": "2026-09-25T16:14:30.569Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -265,8 +265,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -436,55 +436,38 @@
       "sportZh": "壘球",
       "sportEn": "Softball",
       "event": "Softball Women",
-      "phase": "Women's Preliminary Round",
-      "unit": null,
+      "phase": "Women’s Preliminary Round",
+      "unit": "Game  17",
       "athletes": [],
       "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "Thailand",
+      "opponentCode": "THA",
       "venue": "Anjo Softball Ground",
       "venueZh": null,
-      "locationCode": "ASG",
-      "locationName": "",
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHEN Chia-yi",
-        "CHEN Ching-yu",
-        "CHIANG Ting-en",
-        "CHU Yi-shan",
-        "HO Yi-fan",
-        "KE Hsia-ai",
-        "LI Szu-shih",
-        "LIN Chi-yun",
-        "LIN Chih-ying",
-        "LIN Feng-chen",
-        "LIU Hsuan",
-        "PAN Yu-ling",
-        "SHEN Chia-wen",
-        "SU Yi-hsuan",
-        "TU Ya-ting",
-        "YANG An-chi",
-        "YEH Kuei-ping"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SBL|W.TEAM9-------------"
+        "results": {
+          "unitId": "W.TEAM9-------------.GP--.001700--",
+          "id": "SBL:W.TEAM9-------------.GP--.001700--"
         }
       }
     },
@@ -974,16 +957,21 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 4,
-    "entered": 10,
+    "resultsOnly": 5,
+    "entered": 9,
     "unresolvedTbd": 0,
-    "warnings": 5
+    "warnings": 6
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 2",
       "row": "ELS:O.LOL---------------.GPB-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 08:00 Game  17",
+      "row": "SBL:W.TEAM9-------------.GP--.001700--"
     },
     {
       "code": "RESULTS_ONLY",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T10:11:00.332Z",
+  "generatedAt": "2026-09-25T16:06:40.160Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-25T10:11:00.152Z",
+      "generatedAt": "2026-09-25T16:06:40.016Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,67 +336,6 @@
   },
   "date": "2026-09-27",
   "rows": [
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T08:00:00+08:00",
-      "startTimeJst": "2026-09-27T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SBL",
-      "sportZh": "壘球",
-      "sportEn": "Softball",
-      "event": "Softball Women",
-      "phase": "Women's Preliminary Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Anjo Softball Ground",
-      "venueZh": null,
-      "locationCode": "ASG",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHEN Chia-yi",
-        "CHEN Ching-yu",
-        "CHIANG Ting-en",
-        "CHU Yi-shan",
-        "HO Yi-fan",
-        "KE Hsia-ai",
-        "LI Szu-shih",
-        "LIN Chi-yun",
-        "LIN Chih-ying",
-        "LIN Feng-chen",
-        "LIU Hsuan",
-        "PAN Yu-ling",
-        "SHEN Chia-wen",
-        "SU Yi-hsuan",
-        "TU Ya-ting",
-        "YANG An-chi",
-        "YEH Kuei-ping"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SBL|W.TEAM9-------------"
-        }
-      }
-    },
     {
       "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T08:30:00+08:00",
@@ -929,6 +868,50 @@
       "sources": {
         "entries": {
           "eventId": "TEN|W.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
+      "startTimeJst": "2026-09-27T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "sportEn": "Softball",
+      "event": "Softball Women",
+      "phase": "Women’s Preliminary Round",
+      "unit": "Game  6",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "Philippines",
+      "opponentCode": "PHI",
+      "venue": "Anjo Softball Ground",
+      "venueZh": null,
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM9-------------.GP--.000600--",
+          "id": "SBL:W.TEAM9-------------.GP--.000600--"
         }
       }
     },
@@ -1478,10 +1461,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 6,
-    "entered": 17,
+    "resultsOnly": 7,
+    "entered": 16,
     "unresolvedTbd": 0,
-    "warnings": 6
+    "warnings": 7
   },
   "warnings": [
     {
@@ -1498,6 +1481,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's Synchronised 3m Springboard Final",
       "row": "DIV:W.3MTEAM2-----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  6",
+      "row": "SBL:W.TEAM9-------------.GP--.000600--"
     },
     {
       "code": "RESULTS_ONLY",

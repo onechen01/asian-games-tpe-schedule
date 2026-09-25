@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T13:11:39.952Z",
+  "generatedAt": "2026-09-25T16:12:02.947Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-25T13:11:39.852Z",
+      "generatedAt": "2026-09-25T16:12:02.813Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -271,8 +271,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -335,67 +335,6 @@
         "results": {
           "unitId": "O.PUBGM-------------.FNL-.000700--",
           "id": "ELS:O.PUBGM-------------.FNL-.000700--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T08:00:00+08:00",
-      "startTimeJst": "2026-09-29T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SBL",
-      "sportZh": "壘球",
-      "sportEn": "Softball",
-      "event": "Softball Women",
-      "phase": "Women's Preliminary Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Anjo Softball Ground",
-      "venueZh": null,
-      "locationCode": "ASG",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "CHEN Chia-yi",
-        "CHEN Ching-yu",
-        "CHIANG Ting-en",
-        "CHU Yi-shan",
-        "HO Yi-fan",
-        "KE Hsia-ai",
-        "LI Szu-shih",
-        "LIN Chi-yun",
-        "LIN Chih-ying",
-        "LIN Feng-chen",
-        "LIU Hsuan",
-        "PAN Yu-ling",
-        "SHEN Chia-wen",
-        "SU Yi-hsuan",
-        "TU Ya-ting",
-        "YANG An-chi",
-        "YEH Kuei-ping"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SBL|W.TEAM9-------------"
         }
       }
     },
@@ -871,6 +810,50 @@
       "sources": {
         "entries": {
           "eventId": "CSL|M.K1----------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
+      "startTimeJst": "2026-09-29T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "sportEn": "Softball",
+      "event": "Softball Women",
+      "phase": "Women’s Preliminary Round",
+      "unit": "Game  14",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "Anjo Softball Ground",
+      "venueZh": null,
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM9-------------.GP--.001400--",
+          "id": "SBL:W.TEAM9-------------.GP--.001400--"
         }
       }
     },
@@ -1548,10 +1531,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 10,
-    "entered": 16,
+    "resultsOnly": 11,
+    "entered": 15,
     "unresolvedTbd": 0,
-    "warnings": 10
+    "warnings": 11
   },
   "warnings": [
     {
@@ -1568,6 +1551,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 6",
       "row": "ELS:O.IDV---------------.GPA-.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  14",
+      "row": "SBL:W.TEAM9-------------.GP--.001400--"
     },
     {
       "code": "RESULTS_ONLY",
