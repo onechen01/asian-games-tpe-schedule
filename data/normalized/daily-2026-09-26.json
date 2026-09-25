@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T16:33:27.268Z",
+  "generatedAt": "2026-09-25T16:48:03.474Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T16:33:27.086Z",
+      "generatedAt": "2026-09-25T16:48:03.293Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -385,19 +385,22 @@
           "name": "TANG Chih-chun",
           "registration": "2091847",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "LIN Zih-siang",
           "registration": "2093480",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "CHENG Hsiang-hui",
           "registration": "5358471",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
@@ -500,19 +503,22 @@
           "name": "HUANG I-jou",
           "registration": "2233657",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "CHEN Yi-hsuan",
           "registration": "2235185",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "CHEN Fang-yi",
           "registration": "3179916",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
@@ -754,25 +760,29 @@
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": "2026-09-26T09:18:00+08:00"
         },
         {
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": "2026-09-26T09:26:00+08:00"
         },
         {
           "name": "SHYONG Tien-chi",
           "registration": "2703666",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": "2026-09-26T10:45:00+08:00"
         },
         {
           "name": "YEH Hsiu-hua",
           "registration": "10513535",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": "2026-09-26T13:48:00+08:00"
         }
       ],
       "tpeRank": null,
@@ -826,13 +836,15 @@
           "name": "CHO Chia-hsuan",
           "registration": "5038063",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "WANG Chen-yu",
           "registration": "5036850",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
@@ -886,13 +898,15 @@
           "name": "CHEN Chi",
           "registration": "4338109",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "SUNG Yu-Ting",
           "registration": "7719153",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
@@ -1279,13 +1293,15 @@
           "name": "CHO Chia-hsuan",
           "registration": "5038063",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "WANG Chen-yu",
           "registration": "5036850",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
@@ -1574,19 +1590,22 @@
           "name": "HSU Hsin-tzu",
           "registration": "2094993",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "LI Tsai-chi",
           "registration": "3174589",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "FONG You-jhu",
           "registration": "5471256",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
@@ -1740,19 +1759,22 @@
           "name": "CHANG Cheng-wei",
           "registration": "2036175",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "CHEN Chieh-lun",
           "registration": "3175093",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "YEN Tzu-hsiang",
           "registration": "5473113",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
@@ -2355,13 +2377,15 @@
           "name": "CHO Chia-hsuan",
           "registration": "5038063",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         },
         {
           "name": "WANG Chen-yu",
           "registration": "5036850",
           "result": null,
-          "rank": null
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
