@@ -1045,6 +1045,56 @@ test('the real 9/25 north-korea-vs-taiwan football quarterfinal still matches by
     '"Quarter-finals" 的連字號不得被誤判成 FINAL family 而擋掉既有的 opponent 證據');
 });
 
+// A broad official phase such as "Women Finals" describes the medal stage, not necessarily the
+// gold-medal game. The canonical unit carries the more specific medal-game evidence.
+const bronzeShow = (over:Record<string,unknown> = {})=>parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
+  { date:'2026-09-26',providerId:'elta',providerName:'愛爾達',isLive:true,channelId:'101',
+    broadcastStartTimeTaipei:'2026-09-26T14:50:00+08:00',broadcastEndTimeTaipei:'2026-09-26T17:00:00+08:00',
+    disciplineCode:'BKB',title:'亞運 中華VS中國 籃球 女子銅牌戰 9/26 LIVE',feed:'main',
+    matchLevel:'unit',matchHint:{opponentCodes:['CHN']},...over }]}));
+const bronzeRow = (over:Record<string,unknown> = {})=>({
+  disciplineCode:'BKB',opponentCode:'CHN',athletesEn:[],
+  startTimeTaipei:'2026-09-26T15:00:00+08:00',event:'Women',phase:'Women Finals',
+  unit:'Women Finals Bronze Medal Game',...over,
+});
+
+test('a bronze-medal broadcast matches a canonical Bronze Medal Game inside the broad Women Finals phase',()=>{
+  assert.equal(broadcastsForRow(bronzeShow(),'2026-09-26',bronzeRow()).length,1);
+});
+
+test('a bronze-medal broadcast still conflicts with a true gold-medal game',()=>{
+  const gold=bronzeRow({unit:'Women Finals Gold Medal Game'});
+  assert.equal(broadcastsForRow(bronzeShow(),'2026-09-26',gold).length,0);
+});
+
+test('a bronze-medal broadcast still conflicts with semifinals and quarterfinals',()=>{
+  for (const phase of ['Women Semifinals','Women Quarterfinals']) {
+    assert.equal(broadcastsForRow(bronzeShow(),'2026-09-26',bronzeRow({phase,unit:phase})).length,0,phase);
+  }
+});
+
+test('specific bronze-game evidence never overrides an opponent mismatch',()=>{
+  assert.equal(broadcastsForRow(bronzeShow(),'2026-09-26',bronzeRow({opponentCode:'JPN'})).length,0);
+});
+
+test('a phase-only bronze programme still requires its existing time-window evidence',()=>{
+  const phaseOnly=bronzeShow({matchLevel:'discipline',matchHint:{}});
+  assert.equal(broadcastsForRow(phaseOnly,'2026-09-26',bronzeRow({
+    opponentCode:null,startTimeTaipei:'2026-09-26T17:00:00+08:00',
+  })).length,0);
+});
+
+test('the real 9/26 women\'s basketball bronze game has exactly one production broadcast match',async()=>{
+  const shows=await loadBroadcasts();
+  const date='2026-09-26';
+  const day=parseDaily(JSON.parse(await readFile(`data/normalized/daily-${date}.json`,'utf8')),date);
+  const row=taiwanRows(day).find(r=>r.disciplineCode==='BKB'&&r.unit?.includes('Bronze Medal Game'))!;
+  assert.ok(row);
+  const found=broadcastsForRow(shows,date,row,day.sessionChains??[]);
+  assert.equal(found.length,1);
+  assert.equal(found[0].title,'亞運 中華VS中國 籃球 女子銅牌戰 9/26 LIVE');
+});
+
 // -- third cut: a D-LIVE rerun with no evidence of its own inherits whatever cards its LIVE
 // original already safely matched, but only when the two titles are identical once pure
 // playback markers (LIVE/D-LIVE/原音/續看) are stripped. Nothing else changes: competition time

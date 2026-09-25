@@ -44,7 +44,7 @@ export const forDate = (all:Broadcasts, date:string)=>
 
 type MatchRow = { disciplineCode:string|null; opponentCode:string|null;
   athletesEn?:string[]; enteredAthletes?:string[];
-  startTimeTaipei?:string|null; phase?:string|null; event?:string|null;
+  startTimeTaipei?:string|null; phase?:string|null; event?:string|null; unit?:string|null;
   locationCode?:string|null; locationName?:string|null; courtSessionChainId?:string|null;
   // Present when the official unit response gave one or more Chinese Taipei entrants their own
   // clock time (e.g. an equestrian rider's turn within one long qualifying session) — a row's
@@ -120,6 +120,16 @@ const familiesIn = (text:string|null|undefined, table:FamilyTable, side:'title'|
   if (text) for (const entry of table) if (entry[side]?.test(text)) out.add(entry.family);
   return out;
 };
+// Some team sports use a broad row phase such as "Women Finals" for the entire medal stage,
+// while the canonical unit names the actual game (for example, "Bronze Medal Game"). That
+// unit-level medal evidence is more specific than the umbrella phase. Keep genuinely different
+// rounds (quarterfinal/semifinal) on the ordinary phase path; this is not an opponent-based
+// bypass and does not weaken their conflict veto.
+const rowPhaseFamilies = (row:MatchRow)=>{
+  const unitFamilies=familiesIn(row.unit,PHASE_FAMILIES,'row');
+  if (unitFamilies.has('BRONZE')) return new Set(['BRONZE']);
+  return familiesIn(row.phase,PHASE_FAMILIES,'row');
+};
 // A broadcast naming a specific athlete, with none of the event markers above, follows the same
 // convention the adapter itself uses to tell a personal broadcast from a team match (an explicit
 // "VS" opponent): it is that athlete's own individual or paired participation, never an unnamed
@@ -135,7 +145,7 @@ const explicitConflict = (a:Set<string>, b:Set<string>)=>
   a.size>0 && b.size>0 && ![...a].some(f=>b.has(f));
 const hasExplicitConflict = (r:Broadcast, row:MatchRow)=>
   explicitConflict(titleEventFamilies(r), familiesIn(row.event,EVENT_FAMILIES,'row'))
-  || explicitConflict(familiesIn(r.title,PHASE_FAMILIES,'title'), familiesIn(row.phase,PHASE_FAMILIES,'row'));
+  || explicitConflict(familiesIn(r.title,PHASE_FAMILIES,'title'), rowPhaseFamilies(row));
 
 const sameLabel = (a:string,b:string)=>a.trim().toLowerCase() === b.trim().toLowerCase();
 const anchorInsideWindow = (r:Broadcast,chain:CourtSessionChain)=>{
@@ -188,7 +198,7 @@ function matchesDirectly(r:Broadcast, row:MatchRow, chains:CourtSessionChain[]):
   // directly in the title — the same table the veto above already checked for conflicts, so
   // one alias list serves both. Neither is required to know about the other's vocabulary.
   const sharedPhase = familiesIn(r.title,PHASE_FAMILIES,'title');
-  const rowPhase = familiesIn(row.phase,PHASE_FAMILIES,'row');
+  const rowPhase = rowPhaseFamilies(row);
   const phaseMatch = hits(hint.phaseKeywords, row.phase)
     || (sharedPhase.size>0 && rowPhase.size>0 && [...sharedPhase].some(f=>rowPhase.has(f)));
   if (!hint.phaseKeywords?.length && !sharedPhase.size) return false;
