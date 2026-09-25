@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T03:17:22.137Z",
+  "generatedAt": "2026-09-25T03:35:16.855Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T03:17:21.967Z",
+      "generatedAt": "2026-09-25T03:35:16.674Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -421,12 +421,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "62.882",
+        "tpe": "127.029",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -479,13 +479,13 @@
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "62.882",
-          "rank": "13"
+          "rank": "14"
         },
         {
           "name": "CHEN Yi-ju",
           "registration": "2724373",
-          "result": null,
-          "rank": null
+          "result": "64.147",
+          "rank": "12"
         },
         {
           "name": "SHYONG Tien-chi",
@@ -500,7 +500,7 @@
           "rank": null
         }
       ],
-      "tpeRank": "13",
+      "tpeRank": "14",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -553,7 +553,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -800,7 +800,7 @@
         "LIN Yun-ju",
         "CHENG I-ching"
       ],
-      "opponent": "LIM Jonghoon / SHIN Yubin",
+      "opponent": "LIM Jonghoon/SHIN Yubin",
       "opponentCode": "KOR",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -815,7 +815,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1121,7 +1121,7 @@
         "FENG Yi-hsin",
         "KUO Guan-hong"
       ],
-      "opponent": "VONGSA Anane / HAGBERG Johan",
+      "opponent": "VONGSA Anane/HAGBERG Johan",
       "opponentCode": "LAO",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1136,7 +1136,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1376,7 +1376,7 @@
         "HSU Hsien-chia",
         "HUNG Jing-kai"
       ],
-      "opponent": "SALEH Mohamed / RASHED Rashed",
+      "opponent": "SALEH Mohamed/RASHED Rashed",
       "opponentCode": "BRN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1391,7 +1391,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1489,8 +1489,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "15",
-        "opponent": "10",
+        "tpe": "25",
+        "opponent": "27",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1537,7 +1537,7 @@
       "locationName": "Ring 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": "0",
@@ -1593,7 +1593,7 @@
       "courtPredecessorUnitId": "M.SINGLES-----------.R64-.002900--",
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -1641,8 +1641,12 @@
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -1687,8 +1691,12 @@
       "locationName": "Table 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2173,7 +2181,7 @@
         "YEH Yi-tian",
         "CHENG I-ching"
       ],
-      "opponent": "SAWETTABUT Suthasini / PARANANG Orawan",
+      "opponent": "SAWETTABUT Suthasini/PARANANG Orawan",
       "opponentCode": "THA",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -2220,7 +2228,7 @@
         "CHEN Szu-yu",
         "WU Ying-syuan"
       ],
-      "opponent": "HARIMOTO Miwa / HAYATA Hina",
+      "opponent": "HARIMOTO Miwa/HAYATA Hina",
       "opponentCode": "JPN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -2301,6 +2309,57 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T16:00:00+08:00",
       "startTimeJst": "2026-09-25T17:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": null
+      },
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Round 3",
+      "unit": "Men's Doubles Round 3 Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "FENG Yi-hsin",
+        "KUO Guan-hong"
+      ],
+      "opponent": "GERASSIMENKO Kirill/KURMANGALIYEV Alan",
+      "opponentCode": "KAZ",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "locationCode": "010",
+      "locationName": "TBD",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.8FNL.000200--",
+          "id": "TTE:M.DOUBLES-----------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T16:00:00+08:00",
+      "startTimeJst": "2026-09-25T17:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "WLF",
       "sportZh": "舉重",
@@ -2340,57 +2399,6 @@
         "results": {
           "unitId": "W.61KG--------------.FNL-.A00100--",
           "id": "WLF:W.61KG--------------.FNL-.A00100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T16:00:00+08:00",
-      "startTimeJst": "2026-09-25T17:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": null
-      },
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Round 3",
-      "unit": "Men's Doubles Round 3 Match 2",
-      "athletes": [],
-      "athletesEn": [
-        "FENG Yi-hsin",
-        "KUO Guan-hong"
-      ],
-      "opponent": "GERASSIMENKO Kirill / KURMANGALIYEV Alan",
-      "opponentCode": "KAZ",
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "locationCode": "010",
-      "locationName": "TBD",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DOUBLES-----------.8FNL.000200--",
-          "id": "TTE:M.DOUBLES-----------.8FNL.000200--"
         }
       }
     },
@@ -2460,8 +2468,8 @@
         "HSU Hsien-chia",
         "HUNG Jing-kai"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "HARIMOTO Tomokazu/SHINOZUKA Hiroto",
+      "opponentCode": "JPN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
       "locationCode": "010",
@@ -2472,7 +2480,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -3950,7 +3958,7 @@
     "resultsOnly": 61,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 66
+    "warnings": 65
   },
   "warnings": [
     {
@@ -4145,13 +4153,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 61kg Group A",
-      "row": "WLF:W.61KG--------------.FNL-.A00100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Doubles Round 3 Match 2",
+      "row": "TTE:M.DOUBLES-----------.8FNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Doubles Round 3 Match 2",
-      "row": "TTE:M.DOUBLES-----------.8FNL.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Women's 61kg Group A",
+      "row": "WLF:W.61KG--------------.FNL-.A00100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -4267,11 +4275,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ELS|O.FTG---------------",
       "message": "ELS Fighting Games [Street Fighter 6, TEKKEN™ 8, THE KING OF FIGHTERS XV] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TTE|M.DOUBLES-----------",
-      "message": "TTE Men's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
