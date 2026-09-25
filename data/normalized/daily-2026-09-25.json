@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T10:34:46.606Z",
+  "generatedAt": "2026-09-25T10:45:16.135Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-25T10:34:46.427Z",
+      "generatedAt": "2026-09-25T10:45:15.983Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -889,6 +889,116 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T09:10:00+08:00",
       "startTimeJst": "2026-09-25T10:10:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles 1st Round",
+      "unit": "Mixed Doubles 1st Round Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Po-Hsuan",
+        "HU Ling-Fang"
+      ],
+      "opponent": "LAI Shevon Jemie/GOH Soon Huat",
+      "opponentCode": "MAS",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "courtSessionChainId": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
+      "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000600--",
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.R32-.000400--",
+          "id": "BDM:X.DOUBLES-----------.R32-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:10:00+08:00",
+      "startTimeJst": "2026-09-25T10:10:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles 1st Round",
+      "unit": "Mixed Doubles 1st Round Match 12",
+      "athletes": [],
+      "athletesEn": [
+        "YE Hong-Wei",
+        "CHAN Nicole Gonzales"
+      ],
+      "opponent": "MAHARJAN Praful/MAHARJAN Rashila",
+      "opponentCode": "NEP",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "courtSessionChainId": "BDM|2026-09-25|002|X.DOUBLES-----------.R32-.000800--",
+      "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000800--",
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.R32-.001200--",
+          "id": "BDM:X.DOUBLES-----------.R32-.001200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T09:10:00+08:00",
+      "startTimeJst": "2026-09-25T10:10:00+09:00",
       "timeNote": null,
       "disciplineCode": "SWM",
       "sportZh": "游泳",
@@ -932,116 +1042,6 @@
         "results": {
           "unitId": "M.50MBR-------------.HEAT.000300--",
           "id": "SWM:M.50MBR-------------.HEAT.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T09:10:00+08:00",
-      "startTimeJst": "2026-09-25T10:10:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles 1st Round",
-      "unit": "Mixed Doubles 1st Round Match 4",
-      "athletes": [],
-      "athletesEn": [
-        "YANG Po-Hsuan",
-        "HU Ling-Fang"
-      ],
-      "opponent": "LAI Shevon Jemie / GOH Soon Huat",
-      "opponentCode": "MAS",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "Court 1",
-      "courtSessionChainId": "BDM|2026-09-25|001|X.DOUBLES-----------.R32-.000600--",
-      "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000600--",
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "2",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.R32-.000400--",
-          "id": "BDM:X.DOUBLES-----------.R32-.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T09:10:00+08:00",
-      "startTimeJst": "2026-09-25T10:10:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles 1st Round",
-      "unit": "Mixed Doubles 1st Round Match 12",
-      "athletes": [],
-      "athletesEn": [
-        "YE Hong-Wei",
-        "CHAN Nicole Gonzales"
-      ],
-      "opponent": "MAHARJAN Praful / MAHARJAN Rashila",
-      "opponentCode": "NEP",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "002",
-      "locationName": "Court 2",
-      "courtSessionChainId": "BDM|2026-09-25|002|X.DOUBLES-----------.R32-.000800--",
-      "courtPredecessorUnitId": "X.DOUBLES-----------.R32-.000800--",
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "2",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.R32-.001200--",
-          "id": "BDM:X.DOUBLES-----------.R32-.001200--"
         }
       }
     },
@@ -1598,7 +1598,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1752,7 +1752,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2559,67 +2559,6 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T17:00:00+08:00",
       "startTimeJst": "2026-09-25T18:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "KAB",
-      "sportZh": "卡巴迪",
-      "sportEn": "Kabaddi",
-      "event": "Women's Team",
-      "phase": "Women's Team Semifinals",
-      "unit": "Women's Team Semifinals",
-      "athletes": [],
-      "athletesEn": [
-        "LIN I-min",
-        "CHUANG Ya-han",
-        "HU Yu-chen",
-        "HUANG Ssu-chin",
-        "YEN Chiao-wen",
-        "REN Ming-xiu",
-        "KANG Yung-chiao",
-        "FENG Hsiu-chen",
-        "QIN Pei-jyun",
-        "HUANG Yi-yun",
-        "CHEN Shi-han",
-        "WU Yu-jung"
-      ],
-      "opponent": "Islamic Republic of Iran",
-      "opponentCode": "IRI",
-      "venue": "Tokai Citizen Gymnasium",
-      "venueZh": null,
-      "locationCode": "KA2",
-      "locationName": "TCG Crt 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "19",
-        "opponent": "23",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "3",
-      "orgCount": 2,
-      "tpeMedal": "ME_BRONZE",
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TEAM7-------------.SFNL.000200--",
-          "id": "KAB:W.TEAM7-------------.SFNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T17:00:00+08:00",
-      "startTimeJst": "2026-09-25T18:00:00+09:00",
       "timeNote": {
         "code": "FOLLOWED_BY",
         "clockTaipei": null,
@@ -2636,7 +2575,7 @@
         "YE Hong-Wei",
         "CHAN Nicole Gonzales"
       ],
-      "opponent": "HOBARA Sayaka / SHIMOGAMI Yuichi",
+      "opponent": "HOBARA Sayaka/SHIMOGAMI Yuichi",
       "opponentCode": "JPN",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2691,7 +2630,7 @@
         "WANG Chi-Lin",
         "CHIU Hsiang-Chieh"
       ],
-      "opponent": "MOHD. R. Nur Izzuddin / GOH Sze Fei",
+      "opponent": "MOHD. R. Nur Izzuddin/GOH Sze Fei",
       "opponentCode": "MAS",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2699,7 +2638,7 @@
       "locationName": "Court 2",
       "courtSessionChainId": "BDM|2026-09-25|002|X.DOUBLES-----------.8FNL.000800--",
       "courtPredecessorUnitId": "W.DOUBLES-----------.R32-.000600--",
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2742,7 +2681,7 @@
         "HSIEH Pei-shan",
         "HUNG En-Tzu"
       ],
-      "opponent": "TSELMEG-OD Enkhlen / ODBAYAR Amin-erdene",
+      "opponent": "TSELMEG-OD Enkhlen/ODBAYAR Amin-erdene",
       "opponentCode": "MGL",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2757,7 +2696,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2774,6 +2713,67 @@
         "results": {
           "unitId": "W.DOUBLES-----------.R32-.000400--",
           "id": "BDM:W.DOUBLES-----------.R32-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T17:00:00+08:00",
+      "startTimeJst": "2026-09-25T18:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KAB",
+      "sportZh": "卡巴迪",
+      "sportEn": "Kabaddi",
+      "event": "Women's Team",
+      "phase": "Women's Team Semifinals",
+      "unit": "Women's Team Semifinals",
+      "athletes": [],
+      "athletesEn": [
+        "LIN I-min",
+        "CHUANG Ya-han",
+        "HU Yu-chen",
+        "HUANG Ssu-chin",
+        "YEN Chiao-wen",
+        "REN Ming-xiu",
+        "KANG Yung-chiao",
+        "FENG Hsiu-chen",
+        "QIN Pei-jyun",
+        "HUANG Yi-yun",
+        "CHEN Shi-han",
+        "WU Yu-jung"
+      ],
+      "opponent": "Islamic Republic of Iran",
+      "opponentCode": "IRI",
+      "venue": "Tokai Citizen Gymnasium",
+      "venueZh": null,
+      "locationCode": "KA2",
+      "locationName": "TCG Crt 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "19",
+        "opponent": "23",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "3",
+      "orgCount": 2,
+      "tpeMedal": "ME_BRONZE",
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM7-------------.SFNL.000200--",
+          "id": "KAB:W.TEAM7-------------.SFNL.000200--"
         }
       }
     },
@@ -2957,56 +2957,6 @@
       "date": "2026-09-25",
       "startTimeTaipei": "2026-09-25T17:40:00+08:00",
       "startTimeJst": "2026-09-25T18:40:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "GAR",
-      "sportZh": "競技體操",
-      "sportEn": "Artistic Gymnastics",
-      "event": "Men's Horizontal Bar",
-      "phase": "Men's Horizontal Bar Final",
-      "unit": "Men's Horizontal Bar Final",
-      "athletes": [],
-      "athletesEn": [
-        "TANG Chia-hung"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 7,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.1APHB-------------.FNL-.000001--",
-          "id": "GAR:M.1APHB-------------.FNL-.000001--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-25",
-      "startTimeTaipei": "2026-09-25T17:40:00+08:00",
-      "startTimeJst": "2026-09-25T18:40:00+09:00",
       "timeNote": {
         "code": "FOLLOWED_BY",
         "clockTaipei": null,
@@ -3023,7 +2973,7 @@
         "YANG Po-Hsuan",
         "LEE Jhe-Huei"
       ],
-      "opponent": "HE Ji Ting / LIU Yi",
+      "opponent": "HE Ji Ting/LIU Yi",
       "opponentCode": "CHN",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -3074,7 +3024,7 @@
         "LIN Jhih-Yun",
         "HSU Yin-Hui"
       ],
-      "opponent": "RAMDAN Noraqilah Maisarah / LOW Zi Yu",
+      "opponent": "RAMDAN Noraqilah Maisarah/LOW Zi Yu",
       "opponentCode": "MAS",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -3102,6 +3052,56 @@
         "results": {
           "unitId": "W.DOUBLES-----------.R32-.001300--",
           "id": "BDM:W.DOUBLES-----------.R32-.001300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "startTimeTaipei": "2026-09-25T17:40:00+08:00",
+      "startTimeJst": "2026-09-25T18:40:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "GAR",
+      "sportZh": "競技體操",
+      "sportEn": "Artistic Gymnastics",
+      "event": "Men's Horizontal Bar",
+      "phase": "Men's Horizontal Bar Final",
+      "unit": "Men's Horizontal Bar Final",
+      "athletes": [],
+      "athletesEn": [
+        "TANG Chia-hung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "13.466",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.1APHB-------------.FNL-.000001--",
+          "id": "GAR:M.1APHB-------------.FNL-.000001--"
         }
       }
     },
@@ -3185,8 +3185,8 @@
       "unit": "Women's Shot Put Final",
       "athletes": [],
       "athletesEn": [
-        "WU Ci-en",
-        "CHIANG Ching-yuan"
+        "CHIANG Ching-yuan",
+        "WU Ci-en"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -3200,15 +3200,15 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "WU Ci-en",
-          "registration": "5093083",
-          "result": "16.05",
+          "name": "CHIANG Ching-yuan",
+          "registration": "5070298",
+          "result": "16.36",
           "rank": "6"
         },
         {
-          "name": "CHIANG Ching-yuan",
-          "registration": "5070298",
-          "result": "15.66",
+          "name": "WU Ci-en",
+          "registration": "5093083",
+          "result": "16.05",
           "rank": "7"
         }
       ],
@@ -3318,8 +3318,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
-        "opponent": "19",
+        "tpe": "7",
+        "opponent": "32",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -3379,8 +3379,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "11",
-        "opponent": "17",
+        "tpe": "16",
+        "opponent": "25",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -3427,10 +3427,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "10.29",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -4185,11 +4189,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:10 Men's 50m Breaststroke Heat 3",
-      "row": "SWM:M.50MBR-------------.HEAT.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 09:10 Mixed Doubles 1st Round Match 4",
       "row": "BDM:X.DOUBLES-----------.R32-.000400--"
     },
@@ -4197,6 +4196,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 09:10 Mixed Doubles 1st Round Match 12",
       "row": "BDM:X.DOUBLES-----------.R32-.001200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SWM 09:10 Men's 50m Breaststroke Heat 3",
+      "row": "SWM:M.50MBR-------------.HEAT.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -4345,11 +4349,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KAB 17:00 Women's Team Semifinals",
-      "row": "KAB:W.TEAM7-------------.SFNL.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:00 Mixed Doubles 2nd Round Match 6",
       "row": "BDM:X.DOUBLES-----------.8FNL.000600--"
     },
@@ -4362,6 +4361,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:00 Women's Doubles 1st Round Match 4",
       "row": "BDM:W.DOUBLES-----------.R32-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KAB 17:00 Women's Team Semifinals",
+      "row": "KAB:W.TEAM7-------------.SFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -4380,11 +4384,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：GAR 17:40 Men's Horizontal Bar Final",
-      "row": "GAR:M.1APHB-------------.FNL-.000001--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:40 Men's Doubles 1st Round Match 3",
       "row": "BDM:M.DOUBLES-----------.R32-.000300--"
     },
@@ -4392,6 +4391,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 17:40 Women's Doubles 1st Round Match 13",
       "row": "BDM:W.DOUBLES-----------.R32-.001300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GAR 17:40 Men's Horizontal Bar Final",
+      "row": "GAR:M.1APHB-------------.FNL-.000001--"
     },
     {
       "code": "RESULTS_ONLY",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T10:32:08.281Z",
+  "generatedAt": "2026-09-25T10:42:07.688Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-24/schedule-2026-09-24-AUTO.json",
-      "generatedAt": "2026-09-25T10:32:08.108Z",
+      "generatedAt": "2026-09-25T10:42:07.543Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -3384,6 +3384,14 @@
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.001400--",
+          "unitName": "Women's Doubles 1st Round Match 14",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.001300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
         }
       ]
     },
@@ -3440,6 +3448,14 @@
           "unitId": "M.DOUBLES-----------.R32-.001000--",
           "unitName": "Men's Doubles 1st Round Match 10",
           "predecessorUnitId": "M.DOUBLES-----------.R32-.000600--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.DOUBLES-----------.R32-.000900--",
+          "unitName": "Women's Doubles 1st Round Match 9",
+          "predecessorUnitId": "M.DOUBLES-----------.R32-.001000--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
