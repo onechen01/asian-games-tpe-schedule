@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T05:35:27.797Z",
+  "generatedAt": "2026-09-26T05:46:14.468Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T05:35:27.614Z",
+      "generatedAt": "2026-09-26T05:46:14.292Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -373,8 +373,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -415,28 +415,28 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "TANG Chih-chun",
           "registration": "2091847",
-          "result": "633",
+          "result": "692",
           "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "LIN Zih-siang",
           "registration": "2093480",
-          "result": "601",
-          "rank": "35",
+          "result": "657",
+          "rank": "32",
           "startTimeTaipei": null
         },
         {
           "name": "CHENG Hsiang-hui",
           "registration": "5358471",
-          "result": "620",
-          "rank": "19",
+          "result": "677",
+          "rank": "18",
           "startTimeTaipei": null
         }
       ],
@@ -485,14 +485,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1854",
+        "tpe": "2026",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "4",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -767,21 +767,21 @@
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "126.412",
-          "rank": "22",
+          "rank": "23",
           "startTimeTaipei": "2026-09-26T09:18:00+08:00"
         },
         {
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "126.117",
-          "rank": "23",
+          "rank": "24",
           "startTimeTaipei": "2026-09-26T09:26:00+08:00"
         },
         {
           "name": "SHYONG Tien-chi",
           "registration": "2703666",
           "result": "128.471",
-          "rank": "20",
+          "rank": "21",
           "startTimeTaipei": "2026-09-26T10:45:00+08:00"
         },
         {
@@ -792,7 +792,7 @@
           "startTimeTaipei": "2026-09-26T13:48:00+08:00"
         }
       ],
-      "tpeRank": "22",
+      "tpeRank": "23",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1075,7 +1075,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1129,7 +1129,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1347,7 +1347,7 @@
       "tpeEntrants": [],
       "tpeRank": "3",
       "orgCount": 2,
-      "tpeMedal": null,
+      "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1762,22 +1762,22 @@
         {
           "name": "HSU Hsin-tzu",
           "registration": "2094993",
-          "result": "335",
+          "result": "390",
           "rank": "7",
           "startTimeTaipei": null
         },
         {
           "name": "LI Tsai-chi",
           "registration": "3174589",
-          "result": "335",
-          "rank": "8",
+          "result": "390",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
           "name": "FONG You-jhu",
           "registration": "5471256",
-          "result": "328",
-          "rank": "19",
+          "result": "380",
+          "rank": "21",
           "startTimeTaipei": null
         }
       ],
@@ -1879,12 +1879,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1027",
+        "tpe": "1082",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "3",
       "orgCount": 20,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1935,26 +1935,26 @@
         {
           "name": "CHANG Cheng-wei",
           "registration": "2036175",
-          "result": "353",
-          "rank": "9",
+          "result": "411",
+          "rank": "10",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Chieh-lun",
           "registration": "3175093",
-          "result": "350",
-          "rank": "18",
+          "result": "409",
+          "rank": "17",
           "startTimeTaipei": null
         },
         {
           "name": "YEN Tzu-hsiang",
           "registration": "5473113",
-          "result": "350",
-          "rank": "20",
+          "result": "406",
+          "rank": "28",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "9",
+      "tpeRank": "10",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2001,12 +2001,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1053",
+        "tpe": "1226",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "6",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2052,7 +2052,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1051",
+        "tpe": "1109",
         "opponent": null,
         "source": "results"
       },
@@ -2139,9 +2139,7 @@
       "phase": "Men's 70kg All Groups",
       "unit": "Men's 70kg Group A",
       "athletes": [],
-      "athletesEn": [
-        "CHEN Wang-heng"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
@@ -2151,14 +2149,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
-      "result": {
-        "tpe": "",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 9,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2244,7 +2238,7 @@
         "LIN Jhih-Yun",
         "HSU Yin-Hui"
       ],
-      "opponent": "SMAGULOVA Kamila/RAKHMETULLAYEVA Nargiza",
+      "opponent": "SMAGULOVA Kamila / RAKHMETULLAYEVA Nargiza",
       "opponentCode": "KAZ",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2352,7 +2346,7 @@
         "HSIEH Pei-shan",
         "HUNG En-Tzu"
       ],
-      "opponent": "KULESHOVA Alissa/NAMENOVA Diana",
+      "opponent": "KULESHOVA Alissa / NAMENOVA Diana",
       "opponentCode": "KAZ",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2403,7 +2397,7 @@
         "YANG Po-Hsuan",
         "LEE Jhe-Huei"
       ],
-      "opponent": "NISHI Hiroki/KUMAGAI Kakeru",
+      "opponent": "NISHI Hiroki / KUMAGAI Kakeru",
       "opponentCode": "JPN",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2431,56 +2425,6 @@
         "results": {
           "unitId": "M.DOUBLES-----------.8FNL.000200--",
           "id": "BDM:M.DOUBLES-----------.8FNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
-      "startTimeJst": "2026-09-26T17:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Singles",
-      "phase": "Men's Singles 3rd Round",
-      "unit": "Men's Singles 3rd Round Match 6",
-      "athletes": [],
-      "athletesEn": [
-        "CHOU Tien-Chen"
-      ],
-      "opponent": "SHETTY Ayush",
-      "opponentCode": "IND",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "003",
-      "locationName": "Court 3",
-      "courtSessionChainId": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000700--",
-      "courtPredecessorUnitId": "W.DOUBLES-----------.8FNL.000200--",
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.8FNL.000600--",
-          "id": "BDM:M.SINGLES-----------.8FNL.000600--"
         }
       }
     },
@@ -2580,6 +2524,56 @@
       "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T16:00:00+08:00",
       "startTimeJst": "2026-09-26T17:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Men's Singles",
+      "phase": "Men's Singles 3rd Round",
+      "unit": "Men's Singles 3rd Round Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "CHOU Tien-Chen"
+      ],
+      "opponent": "SHETTY Ayush",
+      "opponentCode": "IND",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "courtSessionChainId": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000700--",
+      "courtPredecessorUnitId": "W.DOUBLES-----------.8FNL.000200--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.8FNL.000600--",
+          "id": "BDM:M.SINGLES-----------.8FNL.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "startTimeJst": "2026-09-26T17:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "WLF",
       "sportZh": "舉重",
@@ -2588,9 +2582,7 @@
       "phase": "Men's 75kg All Groups",
       "unit": "Men's 75kg Group A",
       "athletes": [],
-      "athletesEn": [
-        "CHIANG Tsung-han"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
@@ -2603,7 +2595,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 9,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -4098,11 +4090,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 16:00 Men's Singles 3rd Round Match 6",
-      "row": "BDM:M.SINGLES-----------.8FNL.000600--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 1",
       "row": "TTE:M.SINGLES-----------.QFNL.000100--"
     },
@@ -4110,6 +4097,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 3",
       "row": "TTE:M.SINGLES-----------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 16:00 Men's Singles 3rd Round Match 6",
+      "row": "BDM:M.SINGLES-----------.8FNL.000600--"
     },
     {
       "code": "RESULTS_ONLY",
