@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T00:04:33.912Z",
+  "generatedAt": "2026-09-26T00:13:09.261Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-26T00:04:33.748Z",
+      "generatedAt": "2026-09-26T00:13:09.106Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 4,
-          "recovered": 4,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2742,17 +2742,17 @@
       "athletes": [],
       "athletesEn": [
         "LIN I-min",
-        "YEN Chiao-wen",
-        "FENG Hsiu-chen",
-        "QIN Pei-jyun",
-        "WU Yu-jung",
-        "KANG Yung-chiao",
+        "CHUANG Ya-han",
         "HU Yu-chen",
         "HUANG Ssu-chin",
-        "CHUANG Ya-han",
+        "YEN Chiao-wen",
+        "REN Ming-xiu",
+        "KANG Yung-chiao",
+        "FENG Hsiu-chen",
+        "QIN Pei-jyun",
         "HUANG Yi-yun",
         "CHEN Shi-han",
-        "REN Ming-xiu"
+        "WU Yu-jung"
       ],
       "opponent": "Islamic Republic of Iran",
       "opponentCode": "IRI",
@@ -2769,7 +2769,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
       "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
@@ -3317,18 +3317,18 @@
       "unit": "Men's Team Semifinals",
       "athletes": [],
       "athletesEn": [
-        "CHANG Chung-mao",
-        "JIN Wu Fu-kai",
-        "WANG Lun-chu",
         "PENG Xian-ya",
         "TSAI Chung-hao",
-        "YEH Jiunn-ming",
-        "CHEN Zheng-wei",
+        "SU Hsiang-chih",
         "CHUANG Chia-ming",
-        "LI Jyun-jie",
         "LIN Po-ting",
-        "CAI Ruei-chen",
-        "SU Hsiang-chih"
+        "JIN Wu Fu-kai",
+        "YEH Jiunn-ming",
+        "WANG Lun-chu",
+        "LI Jyun-jie",
+        "CHANG Chung-mao",
+        "CHEN Zheng-wei",
+        "CAI Ruei-chen"
       ],
       "opponent": "Islamic Republic of Iran",
       "opponentCode": "IRI",
@@ -3345,7 +3345,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
       "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
