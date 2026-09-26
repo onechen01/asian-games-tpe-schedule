@@ -1,8 +1,8 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFile,mkdir,writeFile} from 'node:fs/promises';import path from 'node:path';
-import {taipeiDate,formatTaipei,matchTimeLabel,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames,resultHeading} from '../lib/schedule.ts';
+import {taipeiDate,formatTaipei,matchTimeLabel,statusLabel,taiwanRows,pendingRows,hasTimeConflict,nameList,parseDaily,emptyState,isEntered,entryNames,resultHeading,displayNames} from '../lib/schedule.ts';
 import type {Daily,Row} from '../lib/schedule.ts';
 import {loadSchedule,loadAthletes,loadDisplayNames} from '../lib/load.ts';
-import {athleteLabel} from '../lib/athletes.ts';
+import {athleteLabel,parseAthleteMaster} from '../lib/athletes.ts';
 import {orgLabel,venueLabel,parseDisplayNames} from '../lib/display-names.ts';
 
 const daily = async ()=>parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-18.json','utf8')),'2026-09-18');
@@ -664,8 +664,27 @@ test('athlete identity is scoped to the discipline, and a shared romanisation ne
   assert.equal(athleteLabel('LIN Yi-chen',master),'LIN Yi-chen');
   // A name that is unique in the master still resolves without a discipline.
   assert.equal(athleteLabel('CHENG I-ching',master),'鄭怡靜');
+  assert.equal(athleteLabel('GARLAND Joanna',master,{discipline:'TEN'}),'葛藍喬安娜');
+  assert.equal(athleteLabel('Joanna GARLAND',master,{discipline:'TEN'}),'葛藍喬安娜');
   // Nobody outside the master is ever translated.
   assert.equal(athleteLabel('NOBODY In-master',master,{discipline:'BBL'}),'NOBODY In-master');
+});
+
+test('the real GARLAND tennis card resolves its Results short name to Chinese',async()=>{
+  const day=parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-27.json','utf8')),'2026-09-27');
+  const card=taiwanRows(day).find(r=>r.disciplineCode==='TEN'&&r.athletesEn.includes('GARLAND Joanna'));
+  assert.ok(card);
+  assert.deepEqual(displayNames(card,await loadAthletes()).names,['葛藍喬安娜']);
+});
+
+test('surname-order variants fail closed when they identify different people',()=>{
+  const ambiguous=parseAthleteMaster(JSON.stringify({schemaVersion:2,athletes:[
+    {reg:'1',officialEn:'SMITH Jane',zh:'甲',disciplines:['TST'],confidence:'VERIFIED',aliases:[]},
+    {reg:'2',officialEn:'Jane SMITH',zh:'乙',disciplines:['TST'],confidence:'VERIFIED',aliases:[]},
+  ]}));
+  assert.equal(athleteLabel('SMITH Jane',ambiguous,{discipline:'TST'}),'SMITH Jane');
+  assert.equal(athleteLabel('Jane SMITH',ambiguous,{discipline:'TST'}),'Jane SMITH');
+  assert.equal(athleteLabel('SMITH Jane',ambiguous,{reg:'1',discipline:'TST'}),'甲');
 });
 
 test('phase and status read in Chinese, and unknown wording is left alone',()=>{

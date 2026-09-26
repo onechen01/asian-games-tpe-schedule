@@ -102,6 +102,9 @@ export const resultHeading=(row:Pick<Row,'resultScope'|'unit'>,multiple=false)=>
   : multiple ? '官方已公布成績（每人各自計分）' : '官方已公布成績';
 // Chinese names come from the committee sheet when it supplied them; otherwise each official
 // English name is looked up in the athlete master, and an unverified name stays in English.
+// TODO(athlete-identity): single-athlete canonical rows currently reach this layer as bare
+// athletesEn strings without their Results Reg. Carry Reg through the canonical/display boundary
+// and make it the primary identity; English spellings should remain aliases/fallbacks only.
 export function displayNames(row:Row,master:AthleteMaster):{names:string[];fromMaster:boolean}{
  if(row.athletes.length)return {names:row.athletes,fromMaster:false};
  if(!row.athletesEn.length)return {names:[],fromMaster:false};

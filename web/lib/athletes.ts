@@ -8,6 +8,15 @@ export type AthleteMaster = { byEnglish:Map<string,string>; byReg:Map<string,str
 
 const key = (name:string)=>name.normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
   .replace(/['’`.]/g,'').replace(/[-\u2010-\u2015_]/g,' ').replace(/\s+/g,' ').trim().toUpperCase();
+// Results normally publishes SURNAME Given-name, while some official feeds and embeds use
+// Given-name SURNAME. Index the latter form from each verified source spelling rather than
+// guessing at lookup time. Collisions are removed below, so order alone can never choose
+// between two different people.
+const nameKeys = (name:string)=>{
+  const direct=key(name), parts=direct.split(' ').filter(Boolean);
+  const givenFirst=parts.length > 1 ? [...parts.slice(1),parts[0]].join(' ') : direct;
+  return [...new Set([direct,givenFirst])];
+};
 
 export function parseAthleteMaster(text:string|null):AthleteMaster {
   const empty = { byEnglish:new Map<string,string>(), byReg:new Map<string,string>(),
@@ -28,11 +37,12 @@ export function parseAthleteMaster(text:string|null):AthleteMaster {
     for (const a of (doc.review ?? [])) {
       if (typeof a?.reg === 'string' && a.reg) master.blocked.add('reg:' + a.reg);
       if (typeof a?.officialEn === 'string')
-        for (const disc of (a.disciplines ?? [])) master.blocked.add(disc + '|' + key(a.officialEn));
+        for (const disc of (a.disciplines ?? []))
+          for (const nameKey of nameKeys(a.officialEn)) master.blocked.add(disc + '|' + nameKey);
     }
     // Two different people can share one romanisation (LIN Yi-chen: TKW 林翊榛 / GAR 林宜蓁),
     // so an English name that is not unique never decides a Chinese name on its own.
-    const ambiguous = new Set<string>();
+    const ambiguous = new Set<string>(), scopedAmbiguous = new Set<string>();
     const remember = (map:Map<string,string>, k:string, zh:string, drop?:Set<string>)=>{
       const seen = map.get(k);
       if (seen === undefined) map.set(k, zh);
@@ -46,11 +56,18 @@ export function parseAthleteMaster(text:string|null):AthleteMaster {
       if (typeof a.reg === 'string' && a.reg) master.byReg.set(a.reg, a.zh);
       const names = [a.officialEn, ...(a.aliases ?? [])].filter((n):n is string=>typeof n === 'string' && !!n);
       for (const name of names) {
-        if (!ambiguous.has(key(name))) remember(master.byEnglish, key(name), a.zh, ambiguous);
-        for (const disc of (a.disciplines ?? [])) remember(master.byDisciplineEnglish, disc + '|' + key(name), a.zh);
+        for (const nameKey of nameKeys(name)) {
+          if (!ambiguous.has(nameKey)) remember(master.byEnglish, nameKey, a.zh, ambiguous);
+          for (const disc of (a.disciplines ?? [])) {
+            const scoped=disc + '|' + nameKey;
+            if (!scopedAmbiguous.has(scoped))
+              remember(master.byDisciplineEnglish, scoped, a.zh, scopedAmbiguous);
+          }
+        }
       }
     }
     for (const k of ambiguous) master.byEnglish.delete(k);
+    for (const k of scopedAmbiguous) master.byDisciplineEnglish.delete(k);
     return master;
   } catch { return empty; }
 }
