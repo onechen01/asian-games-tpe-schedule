@@ -3391,6 +3391,50 @@
           "KOR"
         ]
       }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T16:00:00+08:00",
+      "disciplineCode": "WLF",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": false,
+      "title": "亞運 陳柏任 舉重 男子110公斤級決賽 9/29 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-29T18:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Po-jen"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T18:00:00+08:00",
+      "disciplineCode": "WLF",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": true,
+      "title": "亞運 董秉誠 舉重 男子110公斤以上級決賽 9/29 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-29T20:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "DONG Bing-cheng"
+        ]
+      }
     }
   ]
 }
