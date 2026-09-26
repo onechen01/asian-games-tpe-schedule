@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T23:35:10.834Z",
+  "generatedAt": "2026-09-26T23:45:38.133Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T23:35:10.715Z",
+      "generatedAt": "2026-09-26T23:45:38.019Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -361,10 +361,10 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "173",
-        "opponent": "167",
+        "tpe": "231",
+        "opponent": "220",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -413,10 +413,10 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "177",
-        "opponent": "167",
+        "tpe": "236",
+        "opponent": "227",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -465,12 +465,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "3.37",
-        "opponent": "2.40",
+        "tpe": "5.33",
+        "opponent": "5.77",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -514,7 +514,7 @@
       "locationName": "Court 2",
       "courtSessionChainId": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -930,7 +930,7 @@
       "locationName": "Court 2",
       "courtSessionChainId": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.QFNL.000300--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -981,7 +981,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.QFNL.000200--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1150,100 +1150,6 @@
       "startTimeTaipei": "2026-09-27T10:00:00+08:00",
       "startTimeJst": "2026-09-27T11:00:00+09:00",
       "timeNote": null,
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Recurve Mixed Team",
-      "phase": "Recurve Mixed Team 1/8 Eliminations",
-      "unit": "Recurve Mixed Team 1/8 Elimination",
-      "athletes": [],
-      "athletesEn": [
-        "LI Tsai-chi",
-        "TANG Chih-chun"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": null,
-      "venueZh": null,
-      "locationCode": "OCM",
-      "locationName": null,
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.RTEAM2------------.8FNL.000400--",
-          "id": "ARC:X.RTEAM2------------.8FNL.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
-      "startTimeJst": "2026-09-27T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Compound Mixed Team",
-      "phase": "Compound Mixed Team 1/8 Eliminations",
-      "unit": "Compound Mixed Team 1/8 Elimination",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Fang-yi",
-        "CHANG Cheng-wei"
-      ],
-      "opponent": "Kazakhstan",
-      "opponentCode": "KAZ",
-      "venue": null,
-      "venueZh": null,
-      "locationCode": "OCM",
-      "locationName": null,
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.CTEAM2------------.8FNL.000200--",
-          "id": "ARC:X.CTEAM2------------.8FNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
-      "startTimeJst": "2026-09-27T11:00:00+09:00",
-      "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
@@ -1397,6 +1303,100 @@
     },
     {
       "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
+      "startTimeJst": "2026-09-27T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Mixed Team",
+      "phase": "Recurve Mixed Team 1/8 Eliminations",
+      "unit": "Recurve Mixed Team 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "LI Tsai-chi",
+        "TANG Chih-chun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.RTEAM2------------.8FNL.000400--",
+          "id": "ARC:X.RTEAM2------------.8FNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
+      "startTimeJst": "2026-09-27T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Mixed Team",
+      "phase": "Compound Mixed Team 1/8 Eliminations",
+      "unit": "Compound Mixed Team 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Fang-yi",
+        "CHANG Cheng-wei"
+      ],
+      "opponent": "Kazakhstan",
+      "opponentCode": "KAZ",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.CTEAM2------------.8FNL.000200--",
+          "id": "ARC:X.CTEAM2------------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T10:15:00+08:00",
       "startTimeJst": "2026-09-27T11:15:00+09:00",
       "timeNote": null,
@@ -1468,7 +1468,7 @@
       "locationName": "Court 3",
       "courtSessionChainId": "BDM|2026-09-27|003|W.DOUBLES-----------.QFNL.000300--",
       "courtPredecessorUnitId": "M.DOUBLES-----------.QFNL.000300--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1817,7 +1817,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
       "courtPredecessorUnitId": "W.SINGLES-----------.QFNL.000200--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2841,57 +2841,6 @@
   ],
   "sessionChains": [
     {
-      "id": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
-      "disciplineCode": "BDM",
-      "locationCode": "002",
-      "locationName": "Court 2",
-      "anchorUnitId": "X.DOUBLES-----------.QFNL.000300--",
-      "anchorTimeKind": "EXACT",
-      "anchorTimeTaipei": "2026-09-27T08:30:00+08:00",
-      "units": [
-        {
-          "unitId": "X.DOUBLES-----------.QFNL.000300--",
-          "unitName": "Mixed Doubles Quarterfinals Match 3",
-          "predecessorUnitId": null,
-          "timeNoteCode": null,
-          "timeKind": "EXACT",
-          "timeTaipei": "2026-09-27T08:30:00+08:00"
-        },
-        {
-          "unitId": "W.DOUBLES-----------.QFNL.000100--",
-          "unitName": "Women's Doubles Quarterfinals Match 1",
-          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000300--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.DOUBLES-----------.QFNL.000100--",
-          "unitName": "Men's Doubles Quarterfinals Match 1",
-          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "W.SINGLES-----------.QFNL.000100--",
-          "unitName": "Women's Singles Quarterfinals Match 1",
-          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.SINGLES-----------.QFNL.000100--",
-          "unitName": "Men's Singles Quarterfinals Match 1",
-          "predecessorUnitId": "W.SINGLES-----------.QFNL.000100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        }
-      ]
-    },
-    {
       "id": "BDM|2026-09-27|001|X.DOUBLES-----------.QFNL.000400--",
       "disciplineCode": "BDM",
       "locationCode": "001",
@@ -2943,61 +2892,50 @@
       ]
     },
     {
-      "id": "BDM|2026-09-27|004|X.DOUBLES-----------.QFNL.000200--",
+      "id": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
       "disciplineCode": "BDM",
-      "locationCode": "004",
-      "locationName": "Court 4",
-      "anchorUnitId": "X.DOUBLES-----------.QFNL.000200--",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "X.DOUBLES-----------.QFNL.000300--",
       "anchorTimeKind": "EXACT",
-      "anchorTimeTaipei": "2026-09-27T08:40:00+08:00",
+      "anchorTimeTaipei": "2026-09-27T08:30:00+08:00",
       "units": [
         {
-          "unitId": "X.DOUBLES-----------.QFNL.000200--",
-          "unitName": "Mixed Doubles Quarterfinals Match 2",
+          "unitId": "X.DOUBLES-----------.QFNL.000300--",
+          "unitName": "Mixed Doubles Quarterfinals Match 3",
           "predecessorUnitId": null,
           "timeNoteCode": null,
           "timeKind": "EXACT",
-          "timeTaipei": "2026-09-27T08:40:00+08:00"
-        }
-      ]
-    },
-    {
-      "id": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
-      "disciplineCode": "BDM",
-      "locationCode": "004",
-      "locationName": "Court 4",
-      "anchorUnitId": "W.DOUBLES-----------.QFNL.000400--",
-      "anchorTimeKind": "LOWER_BOUND",
-      "anchorTimeTaipei": "2026-09-27T10:30:00+08:00",
-      "units": [
-        {
-          "unitId": "W.DOUBLES-----------.QFNL.000400--",
-          "unitName": "Women's Doubles Quarterfinals Match 4",
-          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000200--",
-          "timeNoteCode": "NOT_BEFORE",
-          "timeKind": "LOWER_BOUND",
-          "timeTaipei": "2026-09-27T10:30:00+08:00"
+          "timeTaipei": "2026-09-27T08:30:00+08:00"
         },
         {
-          "unitId": "M.DOUBLES-----------.QFNL.000200--",
-          "unitName": "Men's Doubles Quarterfinals Match 2",
-          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000400--",
+          "unitId": "W.DOUBLES-----------.QFNL.000100--",
+          "unitName": "Women's Doubles Quarterfinals Match 1",
+          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000300--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
         },
         {
-          "unitId": "W.SINGLES-----------.QFNL.000200--",
-          "unitName": "Women's Singles Quarterfinals Match 2",
-          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000200--",
+          "unitId": "M.DOUBLES-----------.QFNL.000100--",
+          "unitName": "Men's Doubles Quarterfinals Match 1",
+          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000100--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
         },
         {
-          "unitId": "M.SINGLES-----------.QFNL.000300--",
-          "unitName": "Men's Singles Quarterfinals Match 3",
-          "predecessorUnitId": "W.SINGLES-----------.QFNL.000200--",
+          "unitId": "W.SINGLES-----------.QFNL.000100--",
+          "unitName": "Women's Singles Quarterfinals Match 1",
+          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.QFNL.000100--",
+          "unitName": "Men's Singles Quarterfinals Match 1",
+          "predecessorUnitId": "W.SINGLES-----------.QFNL.000100--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
@@ -3060,6 +2998,68 @@
           "unitId": "M.SINGLES-----------.QFNL.000400--",
           "unitName": "Men's Singles Quarterfinals Match 4",
           "predecessorUnitId": "W.SINGLES-----------.QFNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-27|004|X.DOUBLES-----------.QFNL.000200--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "X.DOUBLES-----------.QFNL.000200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-27T08:40:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.QFNL.000200--",
+          "unitName": "Mixed Doubles Quarterfinals Match 2",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-27T08:40:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "W.DOUBLES-----------.QFNL.000400--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.QFNL.000400--",
+          "unitName": "Women's Doubles Quarterfinals Match 4",
+          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000200--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-27T10:30:00+08:00"
+        },
+        {
+          "unitId": "M.DOUBLES-----------.QFNL.000200--",
+          "unitName": "Men's Doubles Quarterfinals Match 2",
+          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.QFNL.000200--",
+          "unitName": "Women's Singles Quarterfinals Match 2",
+          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.QFNL.000300--",
+          "unitName": "Men's Singles Quarterfinals Match 3",
+          "predecessorUnitId": "W.SINGLES-----------.QFNL.000200--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
@@ -3160,16 +3160,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:00 Recurve Mixed Team 1/8 Elimination",
-      "row": "ARC:X.RTEAM2------------.8FNL.000400--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:00 Compound Mixed Team 1/8 Elimination",
-      "row": "ARC:X.CTEAM2------------.8FNL.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:00 Men's Decathlon 110 Metres Hurdles Heat 1",
       "row": "ATH:M.DECATH------------.110H.000100--"
     },
@@ -3182,6 +3172,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Women's Singles First Round Match 11",
       "row": "TEN:W.SINGLES-----------.R32-.001100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:00 Recurve Mixed Team 1/8 Elimination",
+      "row": "ARC:X.RTEAM2------------.8FNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:00 Compound Mixed Team 1/8 Elimination",
+      "row": "ARC:X.CTEAM2------------.8FNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
