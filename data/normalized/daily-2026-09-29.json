@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:17:55.325Z",
+  "generatedAt": "2026-09-26T10:16:01.553Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-26T07:17:55.167Z",
+      "generatedAt": "2026-09-26T10:16:01.393Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -357,41 +357,41 @@
       "disciplineCode": "KUR",
       "sportZh": "克拉術",
       "sportEn": "Kurash",
-      "event": "Men -66kg",
-      "phase": "Men -66kg Round of 16",
-      "unit": null,
+      "event": "Women +87kg",
+      "phase": "Women +87kg Round of 16",
+      "unit": "Round of 16 Bout 2",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "YANG Ya-chun"
+      ],
+      "opponent": "SUWANPAIRAT Waraporn",
+      "opponentCode": "THA",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "locationCode": "PMA",
-      "locationName": "",
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "CHAN Hao-cheng",
-        "PAN Ssu-cheng"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "KUR|M.66KG--------------"
+        "results": {
+          "unitId": "W.O87KG-------------.8FNL.000200--",
+          "id": "KUR:W.O87KG-------------.8FNL.000200--"
         }
       }
     },
@@ -780,6 +780,98 @@
     },
     {
       "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:45:00+08:00",
+      "startTimeJst": "2026-09-29T10:45:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women +87kg",
+      "phase": "Women +87kg Quarterfinals",
+      "unit": "Quarterfinal Bout 2",
+      "athletes": [],
+      "athletesEn": [
+        "SHIH Liu Li-ling"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.O87KG-------------.QFNL.000200--",
+          "id": "KUR:W.O87KG-------------.QFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:54:00+08:00",
+      "startTimeJst": "2026-09-29T10:54:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Men -66kg",
+      "phase": "Men -66kg Round of 16",
+      "unit": "Round of 16 Bout 6",
+      "athletes": [],
+      "athletesEn": [
+        "CHAN Hao-cheng"
+      ],
+      "opponent": "BILAL Bolat",
+      "opponentCode": "KAZ",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU1",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.66KG--------------.8FNL.000600--",
+          "id": "KUR:M.66KG--------------.8FNL.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T10:00:00+08:00",
       "startTimeJst": "2026-09-29T11:00:00+09:00",
       "timeNote": null,
@@ -819,6 +911,97 @@
         "results": {
           "unitId": "W.TEAM9-------------.GP--.001400--",
           "id": "SBL:W.TEAM9-------------.GP--.001400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T10:06:00+08:00",
+      "startTimeJst": "2026-09-29T11:06:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Men -66kg",
+      "phase": "Men -66kg Round of 16",
+      "unit": "Round of 16 Bout 7",
+      "athletes": [],
+      "athletesEn": [
+        "PAN Ssu-cheng"
+      ],
+      "opponent": "MUHAMMEDOV Hydyr",
+      "opponentCode": "TKM",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU1",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.66KG--------------.8FNL.000700--",
+          "id": "KUR:M.66KG--------------.8FNL.000700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T10:18:00+08:00",
+      "startTimeJst": "2026-09-29T11:18:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Canoe Single",
+      "phase": "Women's Canoe Single Heat",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHUNG Yu-han"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "CSL|W.C1----------------"
         }
       }
     },
@@ -869,6 +1052,98 @@
         "results": {
           "unitId": "O.PUBGM-------------.FNL-.000900--",
           "id": "ELS:O.PUBGM-------------.FNL-.000900--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T10:48:00+08:00",
+      "startTimeJst": "2026-09-29T11:48:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Men's Canoe Single",
+      "phase": "Men's Canoe Single Heat",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHANG Fu-hua",
+        "WU Jung-cheng"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "CSL|M.C1----------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T11:25:00+08:00",
+      "startTimeJst": "2026-09-29T12:25:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Kayak Single",
+      "phase": "Women's Kayak Single Heat",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHANG Chu-han",
+        "WU Ting-i"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "CSL|W.K1----------------"
         }
       }
     },
@@ -1351,6 +1626,56 @@
           "eventId": "ATH|W.HAMMER------------"
         }
       }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T20:05:00+08:00",
+      "startTimeJst": "2026-09-29T21:05:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 4 x 400m Relay",
+      "phase": "Women's 4 x 400m Relay Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHEN Yi-cen",
+        "CHUNG Hsin-ju",
+        "HSU Chin-hui",
+        "LIAO Yan-jun",
+        "LIU Chen-yu",
+        "LO Pei-lin"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "ATH|W.4X400M------------"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -1359,16 +1684,21 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 11,
-    "entered": 11,
+    "resultsOnly": 15,
+    "entered": 14,
     "unresolvedTbd": 0,
-    "warnings": 11
+    "warnings": 17
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 7",
       "row": "ELS:O.PUBGM-------------.FNL-.000700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 08:30 Round of 16 Bout 2",
+      "row": "KUR:W.O87KG-------------.8FNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1382,8 +1712,23 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:45 Quarterfinal Bout 2",
+      "row": "KUR:W.O87KG-------------.QFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:54 Round of 16 Bout 6",
+      "row": "KUR:M.66KG--------------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  14",
       "row": "SBL:W.TEAM9-------------.GP--.001400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 10:06 Round of 16 Bout 7",
+      "row": "KUR:M.66KG--------------.8FNL.000700--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1419,6 +1764,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 18:10 Men's +110kg Group A",
       "row": "WLF:M.O110KG------------.FNL-.A00100--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "KUR|M.66KG--------------",
+      "message": "KUR Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "KUR|W.O87KG-------------",
+      "message": "KUR Women +87kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
