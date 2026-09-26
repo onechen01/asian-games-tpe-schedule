@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T22:31:42.627Z",
+  "generatedAt": "2026-09-26T22:48:11.044Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T22:31:42.448Z",
+      "generatedAt": "2026-09-26T22:48:10.898Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -577,7 +577,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/EQU/results/O.DRESINDV----------.2Q--.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-26T22-28-13-926Z-1b36f180b26b-9d19992e.json"
+              "data/raw/2026-09-26T22-45-28-988Z-1b36f180b26b-b60ac80d.json"
             ]
           }
         }
@@ -1150,6 +1150,100 @@
       "startTimeTaipei": "2026-09-27T10:00:00+08:00",
       "startTimeJst": "2026-09-27T11:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Mixed Team",
+      "phase": "Recurve Mixed Team 1/8 Eliminations",
+      "unit": "Recurve Mixed Team 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "LI Tsai-chi",
+        "TANG Chih-chun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.RTEAM2------------.8FNL.000400--",
+          "id": "ARC:X.RTEAM2------------.8FNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
+      "startTimeJst": "2026-09-27T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Mixed Team",
+      "phase": "Compound Mixed Team 1/8 Eliminations",
+      "unit": "Compound Mixed Team 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Fang-yi",
+        "CHANG Cheng-wei"
+      ],
+      "opponent": "Kazakhstan",
+      "opponentCode": "KAZ",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.CTEAM2------------.8FNL.000200--",
+          "id": "ARC:X.CTEAM2------------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
+      "startTimeJst": "2026-09-27T11:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
@@ -1298,100 +1392,6 @@
         "results": {
           "unitId": "W.SINGLES-----------.R32-.001100--",
           "id": "TEN:W.SINGLES-----------.R32-.001100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
-      "startTimeJst": "2026-09-27T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Recurve Mixed Team",
-      "phase": "Recurve Mixed Team 1/8 Eliminations",
-      "unit": "Recurve Mixed Team 1/8 Elimination",
-      "athletes": [],
-      "athletesEn": [
-        "LI Tsai-chi",
-        "TANG Chih-chun"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": null,
-      "venueZh": null,
-      "locationCode": "OCM",
-      "locationName": null,
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.RTEAM2------------.8FNL.000400--",
-          "id": "ARC:X.RTEAM2------------.8FNL.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
-      "startTimeJst": "2026-09-27T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Compound Mixed Team",
-      "phase": "Compound Mixed Team 1/8 Eliminations",
-      "unit": "Compound Mixed Team 1/8 Elimination",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Fang-yi",
-        "CHANG Cheng-wei"
-      ],
-      "opponent": "Kazakhstan",
-      "opponentCode": "KAZ",
-      "venue": null,
-      "venueZh": null,
-      "locationCode": "OCM",
-      "locationName": null,
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.CTEAM2------------.8FNL.000200--",
-          "id": "ARC:X.CTEAM2------------.8FNL.000200--"
         }
       }
     },
@@ -3160,6 +3160,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:00 Recurve Mixed Team 1/8 Elimination",
+      "row": "ARC:X.RTEAM2------------.8FNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:00 Compound Mixed Team 1/8 Elimination",
+      "row": "ARC:X.CTEAM2------------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:00 Men's Decathlon 110 Metres Hurdles Heat 1",
       "row": "ATH:M.DECATH------------.110H.000100--"
     },
@@ -3172,16 +3182,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Women's Singles First Round Match 11",
       "row": "TEN:W.SINGLES-----------.R32-.001100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:00 Recurve Mixed Team 1/8 Elimination",
-      "row": "ARC:X.RTEAM2------------.8FNL.000400--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:00 Compound Mixed Team 1/8 Elimination",
-      "row": "ARC:X.CTEAM2------------.8FNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
