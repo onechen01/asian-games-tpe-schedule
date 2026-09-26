@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T02:16:15.684Z",
+  "generatedAt": "2026-09-26T02:24:40.885Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T02:16:15.509Z",
+      "generatedAt": "2026-09-26T02:24:40.740Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -500,32 +500,32 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "HUANG I-jou",
           "registration": "2233657",
-          "result": "636",
-          "rank": "21",
+          "result": "696",
+          "rank": "19",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yi-hsuan",
           "registration": "2235185",
-          "result": "640",
-          "rank": "16",
+          "result": "697",
+          "rank": "17",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Fang-yi",
           "registration": "3179916",
-          "result": "642",
-          "rank": "10",
+          "result": "698",
+          "rank": "15",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "21",
+      "tpeRank": "19",
       "orgCount": 22,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -570,9 +570,9 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "1918",
+        "tpe": "2091",
         "opponent": null,
         "source": "results"
       },
@@ -730,14 +730,14 @@
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "126.412",
-          "rank": "3",
+          "rank": "4",
           "startTimeTaipei": "2026-09-26T09:18:00+08:00"
         },
         {
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "126.117",
-          "rank": "4",
+          "rank": "5",
           "startTimeTaipei": "2026-09-26T09:26:00+08:00"
         },
         {
@@ -755,7 +755,7 @@
           "startTimeTaipei": "2026-09-26T13:48:00+08:00"
         }
       ],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1083,7 +1083,7 @@
       "courtPredecessorUnitId": "W.SINGLES-----------.R32-.000300--",
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -1131,8 +1131,12 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1196,7 +1200,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1243,7 +1247,7 @@
       "locationName": "Hall C",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1290,7 +1294,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [
         {
