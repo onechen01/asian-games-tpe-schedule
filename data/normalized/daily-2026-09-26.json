@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T05:05:07.730Z",
+  "generatedAt": "2026-09-26T05:15:53.961Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T05:05:07.583Z",
+      "generatedAt": "2026-09-26T05:15:53.783Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -373,8 +373,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -767,21 +767,21 @@
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "126.412",
-          "rank": "18",
+          "rank": "20",
           "startTimeTaipei": "2026-09-26T09:18:00+08:00"
         },
         {
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "126.117",
-          "rank": "19",
+          "rank": "21",
           "startTimeTaipei": "2026-09-26T09:26:00+08:00"
         },
         {
           "name": "SHYONG Tien-chi",
           "registration": "2703666",
           "result": "128.471",
-          "rank": "16",
+          "rank": "18",
           "startTimeTaipei": "2026-09-26T10:45:00+08:00"
         },
         {
@@ -792,7 +792,7 @@
           "startTimeTaipei": "2026-09-26T13:48:00+08:00"
         }
       ],
-      "tpeRank": "18",
+      "tpeRank": "20",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1014,7 +1014,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "2",
@@ -1704,7 +1704,7 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000700--",
       "courtPredecessorUnitId": "M.SINGLES-----------.R32-.000700--",
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1758,26 +1758,26 @@
         {
           "name": "HSU Hsin-tzu",
           "registration": "2094993",
-          "result": "277",
-          "rank": "8",
+          "result": "335",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
           "name": "LI Tsai-chi",
           "registration": "3174589",
-          "result": "281",
-          "rank": "2",
+          "result": "335",
+          "rank": "8",
           "startTimeTaipei": null
         },
         {
           "name": "FONG You-jhu",
           "registration": "5471256",
-          "result": "270",
-          "rank": "21",
+          "result": "328",
+          "rank": "19",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "8",
+      "tpeRank": "7",
       "orgCount": 22,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1862,7 +1862,7 @@
       "unit": "Recurve Mixed Team Qualification Round",
       "athletes": [],
       "athletesEn": [
-        "LI Tsai-chi",
+        "HSU Hsin-tzu",
         "TANG Chih-chun"
       ],
       "opponent": null,
@@ -1875,7 +1875,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "973",
+        "tpe": "1027",
         "opponent": null,
         "source": "results"
       },
@@ -1931,26 +1931,26 @@
         {
           "name": "CHANG Cheng-wei",
           "registration": "2036175",
-          "result": "293",
-          "rank": "12",
+          "result": "353",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Chieh-lun",
           "registration": "3175093",
-          "result": "290",
-          "rank": "26",
+          "result": "350",
+          "rank": "18",
           "startTimeTaipei": null
         },
         {
           "name": "YEN Tzu-hsiang",
           "registration": "5473113",
-          "result": "291",
-          "rank": "23",
+          "result": "350",
+          "rank": "20",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "12",
+      "tpeRank": "9",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1997,12 +1997,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "874",
+        "tpe": "1053",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "7",
+      "tpeRank": "5",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2048,12 +2048,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "991",
+        "tpe": "1051",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "9",
+      "tpeRank": "8",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2170,52 +2170,6 @@
         "results": {
           "unitId": "M.70KG--------------.FNL-.A00100--",
           "id": "WLF:M.70KG--------------.FNL-.A00100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T14:24:00+08:00",
-      "startTimeJst": "2026-09-26T15:24:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SRF",
-      "sportZh": "衝浪",
-      "sportEn": "Surfing",
-      "event": "Women's Shortboard",
-      "phase": "Women's Shortboard Round 2",
-      "unit": "Women's Shortboard - Round 2 - Heat 7",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Wan-yu"
-      ],
-      "opponent": "GAYEN Sugar Shanti",
-      "opponentCode": "IND",
-      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "venueZh": null,
-      "locationCode": "SRF",
-      "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SHORTBRD----------.REP-.000700--",
-          "id": "SRF:W.SHORTBRD----------.REP-.000700--"
         }
       }
     },
@@ -3947,10 +3901,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 56,
+    "resultsOnly": 55,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 59
+    "warnings": 58
   },
   "warnings": [
     {
@@ -4112,11 +4066,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Men's 70kg Group A",
       "row": "WLF:M.70KG--------------.FNL-.A00100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SRF 14:24 Women's Shortboard - Round 2 - Heat 7",
-      "row": "SRF:W.SHORTBRD----------.REP-.000700--"
     },
     {
       "code": "RESULTS_ONLY",
