@@ -3069,28 +3069,6 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-26T19:45:00+08:00",
-      "disciplineCode": "BDM",
-      "channelId": "549",
-      "channelName": "愛爾達體育MAX10台",
-      "isLive": true,
-      "title": "亞運 林湘緹 羽球 單打/雙打32強/16強 9/26(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-26T23:00:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "LIN Hsiang-ti"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-26T20:30:00+08:00",
       "disciplineCode": "ATH",
       "channelId": "101",
@@ -3211,6 +3189,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-27T11:55:00+08:00",
+      "disciplineCode": "HOC",
+      "channelId": "547",
+      "channelName": "愛爾達體育MAX8台",
+      "isLive": true,
+      "title": "亞運 中華VS孟加拉 曲棍球 女子預賽 9/27(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-27T13:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "BAN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-27T12:25:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "115",
@@ -3255,7 +3255,29 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-27T17:30:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-27T17:50:00+08:00",
+      "disciplineCode": "VVO",
+      "channelId": "542",
+      "channelName": "愛爾達體育MAX3台",
+      "isLive": true,
+      "title": "亞運 中華VS中國 排球 男子預賽 9/27(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-27T20:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-27T17:55:00+08:00",
       "disciplineCode": "ATH",
       "channelId": "540",
       "channelName": "愛爾達體育MAX1台",
@@ -3274,28 +3296,6 @@
           "Round Robin",
           "Group",
           "Final"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-27T17:50:00+08:00",
-      "disciplineCode": "VVO",
-      "channelId": "542",
-      "channelName": "愛爾達體育MAX3台",
-      "isLive": true,
-      "title": "亞運 中華VS中國 排球 男子預賽 9/27(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-27T20:00:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "opponentCodes": [
-          "CHN"
         ]
       }
     },
