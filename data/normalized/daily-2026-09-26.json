@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T23:33:14.162Z",
+  "generatedAt": "2026-09-26T23:52:23.627Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T23:33:14.058Z",
+      "generatedAt": "2026-09-26T23:52:23.495Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -329,10 +329,191 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [],
+        "timezoneAnomalies": [
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.REP-.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T07:00:00+08:59",
+            "recoveredStartTime": "2026-09-27T07:00:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.REP-.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T07:28:00+08:59",
+            "recoveredStartTime": "2026-09-27T07:28:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.REP-.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T07:56:00+08:59",
+            "recoveredStartTime": "2026-09-27T07:56:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.REP-.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T08:24:00+08:59",
+            "recoveredStartTime": "2026-09-27T08:24:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.REP-.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T08:52:00+08:59",
+            "recoveredStartTime": "2026-09-27T08:52:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "M.SHORTBRD----------.REP-.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T09:20:00+08:59",
+            "recoveredStartTime": "2026-09-27T09:20:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "M.SHORTBRD----------.REP-.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T09:48:00+08:59",
+            "recoveredStartTime": "2026-09-27T09:48:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "M.SHORTBRD----------.REP-.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T10:16:00+08:59",
+            "recoveredStartTime": "2026-09-27T10:16:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "M.SHORTBRD----------.REP-.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T10:44:00+08:59",
+            "recoveredStartTime": "2026-09-27T10:44:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "M.SHORTBRD----------.REP-.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T11:12:00+08:59",
+            "recoveredStartTime": "2026-09-27T11:12:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "M.SHORTBRD----------.REP-.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T11:40:00+08:59",
+            "recoveredStartTime": "2026-09-27T11:40:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "M.SHORTBRD----------.REP-.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T12:08:00+08:59",
+            "recoveredStartTime": "2026-09-27T12:08:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.RND3.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T12:36:00+08:59",
+            "recoveredStartTime": "2026-09-27T12:36:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.RND3.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T13:04:00+08:59",
+            "recoveredStartTime": "2026-09-27T13:04:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.RND3.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T13:32:00+08:59",
+            "recoveredStartTime": "2026-09-27T13:32:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.RND3.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T14:00:00+08:59",
+            "recoveredStartTime": "2026-09-27T14:00:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.RND3.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T14:28:00+08:59",
+            "recoveredStartTime": "2026-09-27T14:28:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.RND3.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T14:56:00+08:59",
+            "recoveredStartTime": "2026-09-27T14:56:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.RND3.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T15:24:00+08:59",
+            "recoveredStartTime": "2026-09-27T15:24:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-27",
+            "unitId": "W.SHORTBRD----------.RND3.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-27T15:52:00+08:59",
+            "recoveredStartTime": "2026-09-27T15:52:00+09:00"
+          }
+        ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -4061,57 +4242,6 @@
       ]
     },
     {
-      "id": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
-      "disciplineCode": "BDM",
-      "locationCode": "002",
-      "locationName": "Court 2",
-      "anchorUnitId": "X.DOUBLES-----------.QFNL.000300--",
-      "anchorTimeKind": "EXACT",
-      "anchorTimeTaipei": "2026-09-27T08:30:00+08:00",
-      "units": [
-        {
-          "unitId": "X.DOUBLES-----------.QFNL.000300--",
-          "unitName": "Mixed Doubles Quarterfinals Match 3",
-          "predecessorUnitId": null,
-          "timeNoteCode": null,
-          "timeKind": "EXACT",
-          "timeTaipei": "2026-09-27T08:30:00+08:00"
-        },
-        {
-          "unitId": "W.DOUBLES-----------.QFNL.000100--",
-          "unitName": "Women's Doubles Quarterfinals Match 1",
-          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000300--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.DOUBLES-----------.QFNL.000100--",
-          "unitName": "Men's Doubles Quarterfinals Match 1",
-          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "W.SINGLES-----------.QFNL.000100--",
-          "unitName": "Women's Singles Quarterfinals Match 1",
-          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.SINGLES-----------.QFNL.000100--",
-          "unitName": "Men's Singles Quarterfinals Match 1",
-          "predecessorUnitId": "W.SINGLES-----------.QFNL.000100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        }
-      ]
-    },
-    {
       "id": "BDM|2026-09-27|001|X.DOUBLES-----------.QFNL.000400--",
       "disciplineCode": "BDM",
       "locationCode": "001",
@@ -4163,42 +4293,50 @@
       ]
     },
     {
-      "id": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
+      "id": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
       "disciplineCode": "BDM",
-      "locationCode": "004",
-      "locationName": "Court 4",
-      "anchorUnitId": "W.DOUBLES-----------.QFNL.000400--",
-      "anchorTimeKind": "LOWER_BOUND",
-      "anchorTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "X.DOUBLES-----------.QFNL.000300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-27T08:30:00+08:00",
       "units": [
         {
-          "unitId": "W.DOUBLES-----------.QFNL.000400--",
-          "unitName": "Women's Doubles Quarterfinals Match 4",
-          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000200--",
-          "timeNoteCode": "NOT_BEFORE",
-          "timeKind": "LOWER_BOUND",
-          "timeTaipei": "2026-09-27T10:30:00+08:00"
+          "unitId": "X.DOUBLES-----------.QFNL.000300--",
+          "unitName": "Mixed Doubles Quarterfinals Match 3",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-27T08:30:00+08:00"
         },
         {
-          "unitId": "M.DOUBLES-----------.QFNL.000200--",
-          "unitName": "Men's Doubles Quarterfinals Match 2",
-          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000400--",
+          "unitId": "W.DOUBLES-----------.QFNL.000100--",
+          "unitName": "Women's Doubles Quarterfinals Match 1",
+          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000300--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
         },
         {
-          "unitId": "W.SINGLES-----------.QFNL.000200--",
-          "unitName": "Women's Singles Quarterfinals Match 2",
-          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000200--",
+          "unitId": "M.DOUBLES-----------.QFNL.000100--",
+          "unitName": "Men's Doubles Quarterfinals Match 1",
+          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000100--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
         },
         {
-          "unitId": "M.SINGLES-----------.QFNL.000300--",
-          "unitName": "Men's Singles Quarterfinals Match 3",
-          "predecessorUnitId": "W.SINGLES-----------.QFNL.000200--",
+          "unitId": "W.SINGLES-----------.QFNL.000100--",
+          "unitName": "Women's Singles Quarterfinals Match 1",
+          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.QFNL.000100--",
+          "unitName": "Men's Singles Quarterfinals Match 1",
+          "predecessorUnitId": "W.SINGLES-----------.QFNL.000100--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
@@ -4242,6 +4380,49 @@
           "unitId": "M.SINGLES-----------.QFNL.000400--",
           "unitName": "Men's Singles Quarterfinals Match 4",
           "predecessorUnitId": "W.SINGLES-----------.QFNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "W.DOUBLES-----------.QFNL.000400--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.QFNL.000400--",
+          "unitName": "Women's Doubles Quarterfinals Match 4",
+          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000200--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-27T10:30:00+08:00"
+        },
+        {
+          "unitId": "M.DOUBLES-----------.QFNL.000200--",
+          "unitName": "Men's Doubles Quarterfinals Match 2",
+          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.QFNL.000200--",
+          "unitName": "Women's Singles Quarterfinals Match 2",
+          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.QFNL.000300--",
+          "unitName": "Men's Singles Quarterfinals Match 3",
+          "predecessorUnitId": "W.SINGLES-----------.QFNL.000200--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
