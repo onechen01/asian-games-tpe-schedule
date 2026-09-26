@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:10:43.880Z",
+  "generatedAt": "2026-09-26T09:27:46.468Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T09:10:43.761Z",
+      "generatedAt": "2026-09-26T09:27:46.295Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -336,6 +336,102 @@
   },
   "date": "2026-09-27",
   "rows": [
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T07:15:00+08:00",
+      "startTimeJst": "2026-09-27T08:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Men's Team",
+      "phase": "Compound Men's Team 1/8 Eliminations",
+      "unit": "Compound Men's Team 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Cheng-wei",
+        "CHEN Chieh-lun",
+        "YEN Tzu-hsiang"
+      ],
+      "opponent": "Mongolia",
+      "opponentCode": "MGL",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.CTEAM-------------.8FNL.000400--",
+          "id": "ARC:M.CTEAM-------------.8FNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T07:15:00+08:00",
+      "startTimeJst": "2026-09-27T08:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Team",
+      "phase": "Compound Women's Team 1/8 Eliminations",
+      "unit": "Compound Women's Team 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "HUANG I-jou",
+        "CHEN Yi-hsuan",
+        "CHEN Fang-yi"
+      ],
+      "opponent": "Philippines",
+      "opponentCode": "PHI",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CTEAM-------------.8FNL.000300--",
+          "id": "ARC:W.CTEAM-------------.8FNL.000300--"
+        }
+      }
+    },
     {
       "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T07:24:00+08:00",
@@ -657,194 +753,6 @@
     },
     {
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T09:00:00+08:00",
-      "startTimeJst": "2026-09-27T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles First Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "HSU Yu-hsiou",
-        "TSENG Chun-hsin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|M.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T09:00:00+08:00",
-      "startTimeJst": "2026-09-27T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 10,
-      "enteredAthletes": [
-        "GARLAND Joanna Jessie",
-        "YANG Ya-yi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|W.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T09:00:00+08:00",
-      "startTimeJst": "2026-09-27T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 9,
-      "enteredAthletes": [
-        "HO Chenjui",
-        "HSU Yu-hsiou",
-        "LEE Kuan-yi",
-        "WU Tung-lin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|M.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T09:00:00+08:00",
-      "startTimeJst": "2026-09-27T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHAN Hao-ching",
-        "GARLAND Joanna Jessie",
-        "HSIEH Su-wei",
-        "WU Fang-hsien"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|W.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T09:05:00+08:00",
       "startTimeJst": "2026-09-27T10:05:00+09:00",
       "timeNote": null,
@@ -1118,6 +1026,52 @@
     },
     {
       "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
+      "startTimeJst": "2026-09-27T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles First Round",
+      "unit": "Women's Singles First Round Match 11",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Ya-yi"
+      ],
+      "opponent": "REINNAMAH Meydiana",
+      "opponentCode": "INA",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "010",
+      "locationName": "Court 8",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.R32-.001100--",
+          "id": "TEN:W.SINGLES-----------.R32-.001100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T10:08:00+08:00",
       "startTimeJst": "2026-09-27T11:08:00+09:00",
       "timeNote": null,
@@ -1267,6 +1221,99 @@
         "results": {
           "unitId": "M.DECATH------------.DT--.000100--",
           "id": "ATH:M.DECATH------------.DT--.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T11:00:00+08:00",
+      "startTimeJst": "2026-09-27T12:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles First Round",
+      "unit": "Women's Singles First Round Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "GARLAND Joanna"
+      ],
+      "opponent": "CHOGSOMJAV Martaa",
+      "opponentCode": "MGL",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "010",
+      "locationName": "Court 8",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.R32-.000400--",
+          "id": "TEN:W.SINGLES-----------.R32-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T11:00:00+08:00",
+      "startTimeJst": "2026-09-27T12:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles First Round",
+      "unit": "Men's Doubles First Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "HUANG Tsung-hao",
+        "WU Tung-lin"
+      ],
+      "opponent": "FOMIN Sergey/SULTANOV Khumoyun",
+      "opponentCode": "UZB",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Center Court",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.R32-.000800--",
+          "id": "TEN:M.DOUBLES-----------.R32-.000800--"
         }
       }
     },
@@ -1995,12 +2042,22 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 29,
-    "entered": 4,
+    "resultsOnly": 34,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 34
+    "warnings": 41
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:15 Compound Men's Team 1/8 Elimination",
+      "row": "ARC:M.CTEAM-------------.8FNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:15 Compound Women's Team 1/8 Elimination",
+      "row": "ARC:W.CTEAM-------------.8FNL.000300--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SRF 07:24 Women's Shortboard - Round 2 - Heat 7",
@@ -2063,6 +2120,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Women's Singles First Round Match 11",
+      "row": "TEN:W.SINGLES-----------.R32-.001100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:08 Men's Decathlon 110 Metres Hurdles Heat 2",
       "row": "ATH:M.DECATH------------.110H.000200--"
     },
@@ -2075,6 +2137,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:40 Men's Decathlon Discus Throw",
       "row": "ATH:M.DECATH------------.DT--.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Women's Singles First Round Match 4",
+      "row": "TEN:W.SINGLES-----------.R32-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Men's Doubles First Round Match 8",
+      "row": "TEN:M.DOUBLES-----------.R32-.000800--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2145,6 +2217,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:12 Men's 4 x 100m Relay Round 1 Heat 1",
       "row": "ATH:M.4X100M------------.RND1.000100--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|M.CTEAM-------------",
+      "message": "ARC Compound Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|W.CTEAM-------------",
+      "message": "ARC Compound Women's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
