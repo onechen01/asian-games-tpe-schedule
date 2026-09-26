@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:25:16.626Z",
+  "generatedAt": "2026-09-26T11:36:22.116Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T11:25:16.480Z",
+      "generatedAt": "2026-09-26T11:36:21.984Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2749,7 +2749,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -2860,20 +2860,20 @@
         "CHANG Hsiang",
         "YANG Po-hsiang",
         "HSU Siang-sheng",
-        "LIN Yu-min",
-        "LIU Chih-jung",
-        "CHU Chia-en",
-        "GUO Dinghong",
-        "LIN Yu-li",
-        "HUANG Chieh-han",
-        "WANG Cheng-hao",
-        "WANG Yan-cheng",
         "LIN Yi-wei",
         "YU Tsung-ju",
         "KUO Tzu-chuan",
         "LI I-wei",
+        "WANG Yan-cheng",
         "WANG Yu-chieh",
-        "TSAI Wei-tai"
+        "TSAI Wei-tai",
+        "HUANG Chieh-han",
+        "WANG Cheng-hao",
+        "LIN Yu-li",
+        "LIN Yu-min",
+        "LIU Chih-jung",
+        "CHU Chia-en",
+        "GUO Dinghong"
       ],
       "opponent": "Japan",
       "opponentCode": "JPN",
@@ -3183,10 +3183,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "20.71",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3229,8 +3233,12 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 10,
