@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:15:09.799Z",
+  "generatedAt": "2026-09-26T15:25:29.273Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T15:15:09.621Z",
+      "generatedAt": "2026-09-26T15:25:29.166Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2705,7 +2705,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "1",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
