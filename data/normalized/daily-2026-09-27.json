@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:39:28.828Z",
+  "generatedAt": "2026-09-26T08:59:16.094Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T08:39:28.646Z",
+      "generatedAt": "2026-09-26T08:59:15.932Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1946,57 +1946,6 @@
           "eventId": "ATH|M.4X100M------------"
         }
       }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T21:40:00+08:00",
-      "startTimeJst": "2026-09-27T22:40:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 4 x 400m Relay",
-      "phase": "Women's 4 x 400m Relay Round 1",
-      "unit": "Women's 4 x 400m Relay Round 1 Heat 2",
-      "athletes": [],
-      "athletesEn": [
-        "LIU Chen-yu",
-        "LIAO Yan-jun",
-        "LO Pei-lin",
-        "CHUNG Hsin-ju",
-        "CHEN Yi-cen",
-        "HSU Chin-hui"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "National Stadium",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 4,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.4X400M------------.RND1.000200--",
-          "id": "ATH:W.4X400M------------.RND1.000200--"
-        }
-      }
     }
   ],
   "sessionChains": [],
@@ -2005,10 +1954,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 28,
+    "resultsOnly": 27,
     "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 32
+    "warnings": 31
   },
   "warnings": [
     {
@@ -2145,11 +2094,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:03 Women's Javelin Throw Final",
       "row": "ATH:W.JAVELIN-----------.FNL-.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:40 Women's 4 x 400m Relay Round 1 Heat 2",
-      "row": "ATH:W.4X400M------------.RND1.000200--"
     },
     {
       "code": "PENDING_LATER_UNITS",
