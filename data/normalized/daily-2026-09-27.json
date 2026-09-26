@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:19:28.979Z",
+  "generatedAt": "2026-09-26T08:28:31.343Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T08:19:28.798Z",
+      "generatedAt": "2026-09-26T08:28:31.165Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -794,6 +794,98 @@
       "sources": {
         "entries": {
           "eventId": "TEN|W.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T09:05:00+08:00",
+      "startTimeJst": "2026-09-27T10:05:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Round of 32",
+      "unit": "Round of 32 Bout 7",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Wan-ting"
+      ],
+      "opponent": "MATHITANO Chanyanuch",
+      "opponentCode": "THA",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU1",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.57KG--------------.R32-.000700--",
+          "id": "KUR:W.57KG--------------.R32-.000700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T09:20:00+08:00",
+      "startTimeJst": "2026-09-27T10:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Round of 16",
+      "unit": "Round of 16 Bout 1",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Pin-chun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.57KG--------------.8FNL.000100--",
+          "id": "KUR:W.57KG--------------.8FNL.000100--"
         }
       }
     },
@@ -1761,15 +1853,15 @@
     },
     {
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T21:22:00+08:00",
-      "startTimeJst": "2026-09-27T22:22:00+09:00",
+      "startTimeTaipei": "2026-09-27T21:12:00+08:00",
+      "startTimeJst": "2026-09-27T22:12:00+09:00",
       "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
       "event": "Men's 4 x 100m Relay",
       "phase": "Men's 4 x 100m Relay Round 1",
-      "unit": "Men's 4 x 100m Relay Round 1 Heat 2",
+      "unit": null,
       "athletes": [],
       "athletesEn": [],
       "opponent": null,
@@ -1780,7 +1872,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": null,
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1789,17 +1881,23 @@
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 2,
+      "enteredAthletes": [
+        "CHEN Wen-pu",
+        "HUANG Zuo-jyun",
+        "KE Wu-yen-ming",
+        "LAI Po-hsiang",
+        "LIN Po-hsun",
+        "YANG Chun-han"
+      ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "results": {
-          "unitId": "M.4X100M------------.RND1.000200--",
-          "id": "ATH:M.4X100M------------.RND1.000200--"
+        "entries": {
+          "eventId": "ATH|M.4X100M------------"
         }
       }
     },
@@ -1861,10 +1959,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 26,
-    "entered": 4,
+    "resultsOnly": 27,
+    "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 28
+    "warnings": 30
   },
   "warnings": [
     {
@@ -1891,6 +1989,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Women Individual - Qualification - Qualification - Day 1",
       "row": "SHO:W.TRW---------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:05 Round of 32 Bout 7",
+      "row": "KUR:W.57KG--------------.R32-.000700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:20 Round of 16 Bout 1",
+      "row": "KUR:W.57KG--------------.8FNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1989,13 +2097,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:22 Men's 4 x 100m Relay Round 1 Heat 2",
-      "row": "ATH:M.4X100M------------.RND1.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:40 Women's 4 x 400m Relay Round 1 Heat 2",
       "row": "ATH:W.4X400M------------.RND1.000200--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "KUR|W.57KG--------------",
+      "message": "KUR Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
