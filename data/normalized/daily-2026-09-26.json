@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:41:52.524Z",
+  "generatedAt": "2026-09-26T08:16:08.333Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T07:41:52.353Z",
+      "generatedAt": "2026-09-26T08:16:08.158Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -31,7 +31,6 @@
           "SHO",
           "SKB",
           "SQU",
-          "SRF",
           "SWA",
           "TTE",
           "VBV",
@@ -40,6 +39,7 @@
           "GTR",
           "KUR",
           "SPK",
+          "SRF",
           "TEN",
           "VVO"
         ],
@@ -158,11 +158,6 @@
             },
             {
               "code": "SQU",
-              "date": "2026-09-26",
-              "medalDay": false
-            },
-            {
-              "code": "SRF",
               "date": "2026-09-26",
               "medalDay": false
             },
@@ -336,8 +331,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -594,52 +589,6 @@
         "results": {
           "unitId": "W.CTEAM-------------.QUAL.000100--",
           "id": "ARC:W.CTEAM-------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T07:24:00+08:00",
-      "startTimeJst": "2026-09-26T08:24:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SRF",
-      "sportZh": "衝浪",
-      "sportEn": "Surfing",
-      "event": "Women's Shortboard",
-      "phase": "Women's Shortboard Round 2",
-      "unit": "Women's Shortboard - Round 2 - Heat 7",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Wan-yu"
-      ],
-      "opponent": "GAYEN Sugar Shanti",
-      "opponentCode": "IND",
-      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "venueZh": null,
-      "locationCode": "SRF",
-      "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.SHORTBRD----------.REP-.000700--",
-          "id": "SRF:W.SHORTBRD----------.REP-.000700--"
         }
       }
     },
@@ -1084,7 +1033,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1138,7 +1087,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1466,7 +1415,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1666,7 +1615,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1720,7 +1669,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2120,7 +2069,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2164,14 +2113,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "314",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
       "tpeRank": "5",
-      "orgCount": 9,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2206,7 +2151,7 @@
         "FENG Yi-hsin",
         "KUO Guan-hong"
       ],
-      "opponent": "HUANG Youzheng/LIN Shidong",
+      "opponent": "HUANG Youzheng / LIN Shidong",
       "opponentCode": "CHN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -2221,7 +2166,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2261,7 +2206,7 @@
         "LIN Jhih-Yun",
         "HSU Yin-Hui"
       ],
-      "opponent": "SMAGULOVA Kamila/RAKHMETULLAYEVA Nargiza",
+      "opponent": "SMAGULOVA Kamila / RAKHMETULLAYEVA Nargiza",
       "opponentCode": "KAZ",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2269,8 +2214,12 @@
       "locationName": "Court 3",
       "courtSessionChainId": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000700--",
       "courtPredecessorUnitId": "M.DOUBLES-----------.8FNL.000700--",
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2328,8 +2277,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "36",
-        "opponent": "36",
+        "tpe": "47",
+        "opponent": "59",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2373,7 +2322,7 @@
         "HSIEH Pei-shan",
         "HUNG En-Tzu"
       ],
-      "opponent": "KULESHOVA Alissa/NAMENOVA Diana",
+      "opponent": "KULESHOVA Alissa / NAMENOVA Diana",
       "opponentCode": "KAZ",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2424,7 +2373,7 @@
         "YANG Po-Hsuan",
         "LEE Jhe-Huei"
       ],
-      "opponent": "NISHI Hiroki/KUMAGAI Kakeru",
+      "opponent": "NISHI Hiroki / KUMAGAI Kakeru",
       "opponentCode": "JPN",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2432,10 +2381,10 @@
       "locationName": "Court 4",
       "courtSessionChainId": "BDM|2026-09-26|004|M.SINGLES-----------.R32-.001300--",
       "courtPredecessorUnitId": "M.DOUBLES-----------.8FNL.000800--",
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2456,6 +2405,56 @@
         "results": {
           "unitId": "M.DOUBLES-----------.8FNL.000200--",
           "id": "BDM:M.DOUBLES-----------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "startTimeJst": "2026-09-26T17:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "sportEn": "Weightlifting",
+      "event": "Men's 75kg",
+      "phase": "Men's 75kg All Groups",
+      "unit": "Men's 75kg Group A",
+      "athletes": [],
+      "athletesEn": [
+        "CHIANG Tsung-han"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Trade and Industry Center",
+      "venueZh": null,
+      "locationCode": "TIC",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 9,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.75KG--------------.FNL-.A00100--",
+          "id": "WLF:M.75KG--------------.FNL-.A00100--"
         }
       }
     },
@@ -2532,8 +2531,12 @@
       "locationName": "Table 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2578,8 +2581,12 @@
       "locationName": "Table 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2598,52 +2605,6 @@
         "results": {
           "unitId": "M.SINGLES-----------.QFNL.000300--",
           "id": "TTE:M.SINGLES-----------.QFNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
-      "startTimeJst": "2026-09-26T17:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "WLF",
-      "sportZh": "舉重",
-      "sportEn": "Weightlifting",
-      "event": "Men's 75kg",
-      "phase": "Men's 75kg All Groups",
-      "unit": "Men's 75kg Group A",
-      "athletes": [],
-      "athletesEn": [
-        "CHIANG Tsung-han"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Trade and Industry Center",
-      "venueZh": null,
-      "locationCode": "TIC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 9,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.75KG--------------.FNL-.A00100--",
-          "id": "WLF:M.75KG--------------.FNL-.A00100--"
         }
       }
     },
@@ -2675,8 +2636,12 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -4012,10 +3977,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 57,
+    "resultsOnly": 56,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 61
+    "warnings": 58
   },
   "warnings": [
     {
@@ -4037,11 +4002,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:00 Compound Women's Team Qualification Round",
       "row": "ARC:W.CTEAM-------------.QUAL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SRF 07:24 Women's Shortboard - Round 2 - Heat 7",
-      "row": "SRF:W.SHORTBRD----------.REP-.000700--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -4210,6 +4170,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Men's 75kg Group A",
+      "row": "WLF:M.75KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 16:00 Men's Singles 3rd Round Match 6",
       "row": "BDM:M.SINGLES-----------.8FNL.000600--"
     },
@@ -4222,11 +4187,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 3",
       "row": "TTE:M.SINGLES-----------.QFNL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Men's 75kg Group A",
-      "row": "WLF:M.75KG--------------.FNL-.A00100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -4305,18 +4265,8 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "SRF|W.SHORTBRD----------",
-      "message": "SRF Women's Shortboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "BDM|W.SINGLES-----------",
       "message": "BDM Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ELS|O.PKU---------------",
-      "message": "ELS MOBA [Pokémon UNITE] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
