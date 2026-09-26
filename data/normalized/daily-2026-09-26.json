@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T03:35:23.655Z",
+  "generatedAt": "2026-09-26T03:45:06.929Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T03:35:23.486Z",
+      "generatedAt": "2026-09-26T03:45:06.751Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -334,10 +334,47 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [],
+        "timezoneAnomalies": [
+          {
+            "disciplineCode": "SKB",
+            "date": "2026-09-26",
+            "unitId": "W.STREET------------.QUAL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-26T11:00:00+08:59",
+            "recoveredStartTime": "2026-09-26T11:00:00+09:00"
+          },
+          {
+            "disciplineCode": "SKB",
+            "date": "2026-09-26",
+            "unitId": "W.STREET------------.QUAL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-26T11:50:00+08:59",
+            "recoveredStartTime": "2026-09-26T11:50:00+09:00"
+          },
+          {
+            "disciplineCode": "SKB",
+            "date": "2026-09-26",
+            "unitId": "M.STREET------------.QUAL.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-26T15:00:00+08:59",
+            "recoveredStartTime": "2026-09-26T15:00:00+09:00"
+          },
+          {
+            "disciplineCode": "SKB",
+            "date": "2026-09-26",
+            "unitId": "M.STREET------------.QUAL.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-26T16:10:00+08:59",
+            "recoveredStartTime": "2026-09-26T16:10:00+09:00"
+          }
+        ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -730,21 +767,21 @@
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "126.412",
-          "rank": "11",
+          "rank": "12",
           "startTimeTaipei": "2026-09-26T09:18:00+08:00"
         },
         {
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "126.117",
-          "rank": "12",
+          "rank": "13",
           "startTimeTaipei": "2026-09-26T09:26:00+08:00"
         },
         {
           "name": "SHYONG Tien-chi",
           "registration": "2703666",
           "result": "128.471",
-          "rank": "9",
+          "rank": "10",
           "startTimeTaipei": "2026-09-26T10:45:00+08:00"
         },
         {
@@ -755,7 +792,7 @@
           "startTimeTaipei": "2026-09-26T13:48:00+08:00"
         }
       ],
-      "tpeRank": "11",
+      "tpeRank": "12",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1038,7 +1075,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1092,7 +1129,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1301,14 +1338,14 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "3",
         "opponent": "10",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1615,7 +1652,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -2237,7 +2274,7 @@
         "LIN Jhih-Yun",
         "HSU Yin-Hui"
       ],
-      "opponent": "SMAGULOVA Kamila/RAKHMETULLAYEVA Nargiza",
+      "opponent": "SMAGULOVA Kamila / RAKHMETULLAYEVA Nargiza",
       "opponentCode": "KAZ",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2345,7 +2382,7 @@
         "HSIEH Pei-shan",
         "HUNG En-Tzu"
       ],
-      "opponent": "KULESHOVA Alissa/NAMENOVA Diana",
+      "opponent": "KULESHOVA Alissa / NAMENOVA Diana",
       "opponentCode": "KAZ",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2396,7 +2433,7 @@
         "YANG Po-Hsuan",
         "LEE Jhe-Huei"
       ],
-      "opponent": "NISHI Hiroki/KUMAGAI Kakeru",
+      "opponent": "NISHI Hiroki / KUMAGAI Kakeru",
       "opponentCode": "JPN",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2424,56 +2461,6 @@
         "results": {
           "unitId": "M.DOUBLES-----------.8FNL.000200--",
           "id": "BDM:M.DOUBLES-----------.8FNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
-      "startTimeJst": "2026-09-26T17:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Singles",
-      "phase": "Men's Singles 3rd Round",
-      "unit": "Men's Singles 3rd Round Match 6",
-      "athletes": [],
-      "athletesEn": [
-        "CHOU Tien-Chen"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "003",
-      "locationName": "Court 3",
-      "courtSessionChainId": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000700--",
-      "courtPredecessorUnitId": "W.DOUBLES-----------.8FNL.000200--",
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.8FNL.000600--",
-          "id": "BDM:M.SINGLES-----------.8FNL.000600--"
         }
       }
     },
@@ -2566,6 +2553,56 @@
         "results": {
           "unitId": "M.75KG--------------.FNL-.A00100--",
           "id": "WLF:M.75KG--------------.FNL-.A00100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "startTimeJst": "2026-09-26T17:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Men's Singles",
+      "phase": "Men's Singles 3rd Round",
+      "unit": "Men's Singles 3rd Round Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "CHOU Tien-Chen"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "courtSessionChainId": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000700--",
+      "courtPredecessorUnitId": "W.DOUBLES-----------.8FNL.000200--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.8FNL.000600--",
+          "id": "BDM:M.SINGLES-----------.8FNL.000600--"
         }
       }
     },
@@ -2999,6 +3036,52 @@
         "results": {
           "unitId": "M.SHOTPUT-----------.FNL-.000100--",
           "id": "ATH:M.SHOTPUT-----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T19:24:00+08:00",
+      "startTimeJst": "2026-09-26T20:24:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 200m",
+      "phase": "Men's 200m Semifinal",
+      "unit": "Men's 200m Semifinal Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "KE Wu-yen-ming"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 8,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.200M--------------.SFNL.000100--",
+          "id": "ATH:M.200M--------------.SFNL.000100--"
         }
       }
     },
@@ -3714,7 +3797,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 52,
+    "resultsOnly": 53,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 58
@@ -3912,11 +3995,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 16:00 Men's Singles 3rd Round Match 6",
-      "row": "BDM:M.SINGLES-----------.8FNL.000600--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 1",
       "row": "TTE:M.SINGLES-----------.QFNL.000100--"
     },
@@ -3924,6 +4002,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Men's 75kg Group A",
       "row": "WLF:M.75KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 16:00 Men's Singles 3rd Round Match 6",
+      "row": "BDM:M.SINGLES-----------.8FNL.000600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3972,6 +4055,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:24 Men's 200m Semifinal Heat 1",
+      "row": "ATH:M.200M--------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:35 Men's Triple Jump Final",
       "row": "ATH:M.TRPLJUMP----------.FNL-.000100--"
     },
@@ -3982,13 +4070,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "BDM|W.SINGLES-----------",
-      "message": "BDM Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TTE|M.SINGLES-----------",
+      "message": "TTE Men's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TTE|M.SINGLES-----------",
-      "message": "TTE Men's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "BDM|W.SINGLES-----------",
+      "message": "BDM Women's Singles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -3999,11 +4087,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ELS|O.PKU---------------",
       "message": "ELS MOBA [Pokémon UNITE] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ATH|M.200M--------------",
-      "message": "ATH Men's 200m 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
