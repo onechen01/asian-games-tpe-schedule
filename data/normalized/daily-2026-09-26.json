@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:25:31.925Z",
+  "generatedAt": "2026-09-26T09:34:33.030Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T09:25:31.752Z",
+      "generatedAt": "2026-09-26T09:34:32.860Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2600,7 +2600,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": "3",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2738,8 +2738,8 @@
       "unit": "Men's Decathlon High Jump",
       "athletes": [],
       "athletesEn": [
-        "WANG Chen-yu",
-        "CHO Chia-hsuan"
+        "CHO Chia-hsuan",
+        "WANG Chen-yu"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -2753,17 +2753,17 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "WANG Chen-yu",
-          "registration": "5036850",
-          "result": "1.76",
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": "1.79",
           "rank": "1",
           "startTimeTaipei": null
         },
         {
-          "name": "CHO Chia-hsuan",
-          "registration": "5038063",
-          "result": "1.70",
-          "rank": "5",
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": "1.79",
+          "rank": "1",
           "startTimeTaipei": null
         }
       ],
