@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:25:29.273Z",
+  "generatedAt": "2026-09-26T15:55:15.847Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T15:25:29.166Z",
+      "generatedAt": "2026-09-26T15:55:15.723Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2702,14 +2702,14 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-26|001|M.DOUBLES-----------.8FNL.000100--",
       "courtPredecessorUnitId": "M.SINGLES-----------.8FNL.000300--",
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,

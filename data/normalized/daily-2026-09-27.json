@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:47:36.092Z",
+  "generatedAt": "2026-09-26T15:57:10.218Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T15:47:35.908Z",
+      "generatedAt": "2026-09-26T15:57:10.103Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1333,6 +1333,56 @@
         "results": {
           "unitId": "M.INDVFRST----------.FNL-.000100--",
           "id": "BMF:M.INDVFRST----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "startTimeJst": "2026-09-27T11:30:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Quarterfinals",
+      "unit": "Women's Singles Quarterfinals Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Hsiang-Ti"
+      ],
+      "opponent": "WANG Zhi Yi",
+      "opponentCode": "CHN",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "courtSessionChainId": "BDM|2026-09-27|003|W.DOUBLES-----------.QFNL.000300--",
+      "courtPredecessorUnitId": "M.DOUBLES-----------.QFNL.000300--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.QFNL.000400--",
+          "id": "BDM:W.SINGLES-----------.QFNL.000400--"
         }
       }
     },
@@ -2821,10 +2871,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 45,
+    "resultsOnly": 46,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 54
+    "warnings": 55
   },
   "warnings": [
     {
@@ -2926,6 +2976,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BMF 10:15 Men's Park Final",
       "row": "BMF:M.INDVFRST----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 10:30 Women's Singles Quarterfinals Match 4",
+      "row": "BDM:W.SINGLES-----------.QFNL.000400--"
     },
     {
       "code": "RESULTS_ONLY",
