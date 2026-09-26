@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:35:43.618Z",
+  "generatedAt": "2026-09-26T06:44:00.911Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T06:35:43.494Z",
+      "generatedAt": "2026-09-26T06:44:00.784Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -776,32 +776,32 @@
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "126.412",
-          "rank": "28",
+          "rank": "29",
           "startTimeTaipei": "2026-09-26T09:18:00+08:00"
         },
         {
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "126.117",
-          "rank": "29",
+          "rank": "30",
           "startTimeTaipei": "2026-09-26T09:26:00+08:00"
         },
         {
           "name": "SHYONG Tien-chi",
           "registration": "2703666",
           "result": "128.471",
-          "rank": "26",
+          "rank": "27",
           "startTimeTaipei": "2026-09-26T10:45:00+08:00"
         },
         {
           "name": "YEH Hsiu-hua",
           "registration": "10513535",
           "result": "137.148",
-          "rank": "3",
+          "rank": "4",
           "startTimeTaipei": "2026-09-26T13:48:00+08:00"
         }
       ],
-      "tpeRank": "28",
+      "tpeRank": "29",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1938,32 +1938,32 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "CHANG Cheng-wei",
           "registration": "2036175",
-          "result": "648",
-          "rank": "8",
+          "result": "708",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Chieh-lun",
           "registration": "3175093",
-          "result": "645",
-          "rank": "16",
+          "result": "704",
+          "rank": "15",
           "startTimeTaipei": null
         },
         {
           "name": "YEN Tzu-hsiang",
           "registration": "5473113",
-          "result": "640",
-          "rank": "27",
+          "result": "699",
+          "rank": "26",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "8",
+      "tpeRank": "7",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2217,7 +2217,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2428,7 +2428,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": "BDM|2026-09-26|004|M.SINGLES-----------.R32-.001300--",
       "courtPredecessorUnitId": "M.DOUBLES-----------.8FNL.000800--",
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -3818,6 +3818,22 @@
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.8FNL.000400--",
+          "unitName": "Men's Singles 3rd Round Match 4",
+          "predecessorUnitId": "W.SINGLES-----------.8FNL.000800--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.8FNL.000800--",
+          "unitName": "Men's Singles 3rd Round Match 8",
+          "predecessorUnitId": "M.SINGLES-----------.8FNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
         }
       ]
     },
@@ -3960,6 +3976,22 @@
           "unitId": "M.SINGLES-----------.8FNL.000200--",
           "unitName": "Men's Singles 3rd Round Match 2",
           "predecessorUnitId": "W.SINGLES-----------.8FNL.000500--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.8FNL.000600--",
+          "unitName": "Women's Singles 3rd Round Match 6",
+          "predecessorUnitId": "M.SINGLES-----------.8FNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.8FNL.000100--",
+          "unitName": "Women's Singles 3rd Round Match 1",
+          "predecessorUnitId": "W.SINGLES-----------.8FNL.000600--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
