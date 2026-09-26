@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T10:46:00.283Z",
+  "generatedAt": "2026-09-26T11:15:05.871Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T10:46:00.110Z",
+      "generatedAt": "2026-09-26T11:15:05.700Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -331,8 +331,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2756,18 +2756,18 @@
           "name": "CHO Chia-hsuan",
           "registration": "5038063",
           "result": "1.88",
-          "rank": "5",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "WANG Chen-yu",
           "registration": "5036850",
           "result": "1.88",
-          "rank": "6",
+          "rank": "7",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "5",
+      "tpeRank": "6",
       "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2886,7 +2886,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "1",
-        "opponent": "0",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -3033,7 +3033,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "13.08",
         "opponent": null,
@@ -3083,7 +3083,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "14.05",
         "opponent": null,
@@ -3133,10 +3133,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "17.26",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "8",
       "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3225,7 +3229,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,

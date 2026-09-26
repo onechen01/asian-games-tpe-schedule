@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:00:52.471Z",
+  "generatedAt": "2026-09-26T11:17:50.058Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T11:00:52.328Z",
+      "generatedAt": "2026-09-26T11:17:49.884Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -840,6 +840,57 @@
         "results": {
           "unitId": "W.57KG--------------.8FNL.000100--",
           "id": "KUR:W.57KG--------------.8FNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T09:25:00+08:00",
+      "startTimeJst": "2026-09-27T10:25:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "MOBA [Pokémon UNITE]",
+      "phase": "Pokemon UNITE Quarter-finals",
+      "unit": "Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHIN Yung-chi",
+        "HU Hsin-rui",
+        "KUO Yi-shuo",
+        "CHEN Yi-tian",
+        "TUCKER Sean",
+        "LIOU Ting-yi"
+      ],
+      "opponent": "Japan",
+      "opponentCode": "JPN",
+      "venue": "",
+      "venueZh": null,
+      "locationCode": "EL1",
+      "locationName": "Aichi Sky Expo Hall D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.PKU---------------.QFNL.000200--",
+          "id": "ELS:O.PKU---------------.QFNL.000200--"
         }
       }
     },
@@ -1977,6 +2028,114 @@
     },
     {
       "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T19:08:00+08:00",
+      "startTimeJst": "2026-09-27T20:08:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 110m Hurdles",
+      "phase": "Men's 110m Hurdles Final",
+      "unit": "Men's 110m Hurdles Final",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Yuan-kai",
+        "LIN Yi-kai"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "HSIEH Yuan-kai",
+          "registration": "5029429",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "LIN Yi-kai",
+          "registration": "2262913",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.110MHURD----------.FNL-.000100--",
+          "id": "ATH:M.110MHURD----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T19:23:00+08:00",
+      "startTimeJst": "2026-09-27T20:23:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 100m Hurdles",
+      "phase": "Women's 100m Hurdles Final",
+      "unit": "Women's 100m Hurdles Final",
+      "athletes": [],
+      "athletesEn": [
+        "ZHANG Bo-ya"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.100MHURD----------.FNL-.000100--",
+          "id": "ATH:W.100MHURD----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T19:36:00+08:00",
       "startTimeJst": "2026-09-27T20:36:00+09:00",
       "timeNote": null,
@@ -2134,10 +2293,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 36,
+    "resultsOnly": 39,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 43
+    "warnings": 47
   },
   "warnings": [
     {
@@ -2189,6 +2348,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:20 Round of 16 Bout 1",
       "row": "KUR:W.57KG--------------.8FNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:25 Match 2",
+      "row": "ELS:O.PKU---------------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2307,6 +2471,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:08 Men's 110m Hurdles Final",
+      "row": "ATH:M.110MHURD----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:23 Women's 100m Hurdles Final",
+      "row": "ATH:W.100MHURD----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:36 Men's 800m Round 1 Heat 1",
       "row": "ATH:M.800M--------------.RND1.000100--"
     },
@@ -2349,6 +2523,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SRF|W.SHORTBRD----------",
       "message": "SRF Women's Shortboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ELS|O.PKU---------------",
+      "message": "ELS MOBA [Pokémon UNITE] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
