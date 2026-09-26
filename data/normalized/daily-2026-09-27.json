@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:59:16.094Z",
+  "generatedAt": "2026-09-26T09:10:43.880Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T08:59:15.932Z",
+      "generatedAt": "2026-09-26T09:10:43.761Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -984,6 +984,53 @@
       "startTimeTaipei": "2026-09-27T10:00:00+08:00",
       "startTimeJst": "2026-09-27T11:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Mixed Team",
+      "phase": "Compound Mixed Team 1/8 Eliminations",
+      "unit": "Compound Mixed Team 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Fang-yi",
+        "CHANG Cheng-wei"
+      ],
+      "opponent": "Kazakhstan",
+      "opponentCode": "KAZ",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.CTEAM2------------.8FNL.000200--",
+          "id": "ARC:X.CTEAM2------------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
+      "startTimeJst": "2026-09-27T11:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
@@ -1907,7 +1954,7 @@
       "sportEn": "Athletics",
       "event": "Men's 4 x 100m Relay",
       "phase": "Men's 4 x 100m Relay Round 1",
-      "unit": null,
+      "unit": "Men's 4 x 100m Relay Round 1 Heat 1",
       "athletes": [],
       "athletesEn": [],
       "opponent": null,
@@ -1918,32 +1965,26 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Wen-pu",
-        "HUANG Zuo-jyun",
-        "KE Wu-yen-ming",
-        "LAI Po-hsiang",
-        "LIN Po-hsun",
-        "YANG Chun-han"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.4X100M------------"
+        "results": {
+          "unitId": "M.4X100M------------.RND1.000100--",
+          "id": "ATH:M.4X100M------------.RND1.000100--"
         }
       }
     }
@@ -1954,10 +1995,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 27,
-    "entered": 5,
+    "resultsOnly": 29,
+    "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 31
+    "warnings": 34
   },
   "warnings": [
     {
@@ -2004,6 +2045,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:50 Men's Épée Team - Table of 16 - Table of 16",
       "row": "FEN:M.TEAMEPEE----------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:00 Compound Mixed Team 1/8 Elimination",
+      "row": "ARC:X.CTEAM2------------.8FNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2096,6 +2142,11 @@
       "row": "ATH:W.JAVELIN-----------.FNL-.000100--"
     },
     {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:12 Men's 4 x 100m Relay Round 1 Heat 1",
+      "row": "ATH:M.4X100M------------.RND1.000100--"
+    },
+    {
       "code": "PENDING_LATER_UNITS",
       "row": "KUR|W.57KG--------------",
       "message": "KUR Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
@@ -2104,6 +2155,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "FEN|M.TEAMEPEE----------",
       "message": "FEN Men's Épée Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|X.CTEAM2------------",
+      "message": "ARC Compound Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

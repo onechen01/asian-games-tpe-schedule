@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:56:28.922Z",
+  "generatedAt": "2026-09-26T09:07:20.381Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T08:56:28.770Z",
+      "generatedAt": "2026-09-26T09:07:20.259Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2443,8 +2443,12 @@
       "locationName": "Court 3",
       "courtSessionChainId": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000700--",
       "courtPredecessorUnitId": "W.DOUBLES-----------.8FNL.000200--",
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2644,9 +2648,9 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
@@ -2745,14 +2749,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
           "name": "CHO Chia-hsuan",
           "registration": "5038063",
-          "result": null,
-          "rank": null,
+          "result": "1.70",
+          "rank": "1",
           "startTimeTaipei": null
         },
         {
@@ -2763,7 +2767,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
