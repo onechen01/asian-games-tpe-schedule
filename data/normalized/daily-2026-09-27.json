@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T23:05:39.356Z",
+  "generatedAt": "2026-09-26T23:14:14.581Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T23:05:39.216Z",
+      "generatedAt": "2026-09-26T23:14:14.388Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -577,7 +577,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/EQU/results/O.DRESINDV----------.2Q--.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-26T23-02-10-189Z-1b36f180b26b-890d36d7.json"
+              "data/raw/2026-09-26T23-12-06-911Z-1b36f180b26b-451a1436.json"
             ]
           }
         }
