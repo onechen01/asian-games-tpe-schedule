@@ -3070,6 +3070,24 @@
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-27T08:25:00+08:00",
+      "disciplineCode": "BDM",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 中華隊 羽球 八強(第2場地)  9/27 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-27T13:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-27",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-27T08:25:00+08:00",
       "disciplineCode": "EQU",
       "channelId": "544",
       "channelName": "愛爾達體育MAX5台",
@@ -3078,7 +3096,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-27T12:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-27T11:55:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -3091,7 +3109,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-27T08:55:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-27T08:50:00+08:00",
       "disciplineCode": "DIV",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
@@ -3162,14 +3180,36 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-27T10:55:00+08:00",
-      "disciplineCode": "BOX",
-      "channelId": "110",
-      "channelName": "愛爾達體育3台",
+      "broadcastStartTimeTaipei": "2026-09-27T10:50:00+08:00",
+      "disciplineCode": "BBL",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 黃筱雯 拳擊 女子54公斤級八強 9/27 LIVE",
+      "title": "亞運 中國VS中華 棒球 銅牌戰 9/27 LIVE",
       "feed": "main",
       "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-27T14:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-27T10:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 黃筱雯 拳擊 女子54公斤級16強 9/25(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
       "capturedAt": "2026-09-26",
       "broadcastEndTimeTaipei": "2026-09-27T11:55:00+08:00",
       "matchLevel": "unit",
@@ -3206,7 +3246,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-27T12:25:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-27T12:35:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
@@ -3220,6 +3260,28 @@
       "matchHint": {
         "athleteNames": [
           "CHEN Wen-huei"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-27T15:00:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": false,
+      "title": "亞運 黃筱雯 拳擊 女子54公斤級八強 9/27 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-27T15:55:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "HUANG Hsiao-wen"
         ]
       }
     },
@@ -3370,6 +3432,29 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-28T09:00:00+08:00",
+      "disciplineCode": "DIV",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 陳百婕/陳百丹 跳水 女子1M跳板決賽 9/28 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Barbara",
+          "CHEN Jacqueline"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-28T12:30:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "101",
@@ -3463,6 +3548,50 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T10:00:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 中國VS中華 壘球 預賽 9/29 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-29T12:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T12:00:00+08:00",
+      "disciplineCode": "VVO",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 菲律賓VS中華 排球 男子預賽 9/29 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-29T14:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "PHI"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-29T16:00:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "105",
@@ -3507,6 +3636,50 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T08:00:00+08:00",
+      "disciplineCode": "ARC",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 中華隊 射箭 複合弓女子團體決賽 9/30 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T10:30:00+08:00",
+      "disciplineCode": "ARC",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 中華隊 射箭 複合弓混合團體決賽 9/30 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-30T12:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-30T10:30:00+08:00",
       "disciplineCode": "JUD",
       "channelId": "101",
@@ -3522,6 +3695,28 @@
         "athleteNames": [
           "LIN Chen-hao",
           "YANG Yung-wei"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T13:00:00+08:00",
+      "disciplineCode": "ARC",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 中華隊 射箭 複合弓男子團體決賽 9/30 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
         ]
       }
     },
