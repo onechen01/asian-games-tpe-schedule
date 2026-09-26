@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T10:39:09.855Z",
+  "generatedAt": "2026-09-26T11:00:52.471Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T10:39:09.687Z",
+      "generatedAt": "2026-09-26T11:00:52.328Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1229,6 +1229,52 @@
       "startTimeTaipei": "2026-09-27T11:00:00+08:00",
       "startTimeJst": "2026-09-27T12:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Women's 54kg",
+      "phase": "Women's 54KG Quarterfinal",
+      "unit": "Women's 54KG - Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "HUANG Hsiao-wen"
+      ],
+      "opponent": "NAMIKI Tsukimi",
+      "opponentCode": "JPN",
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "locationCode": "NIS",
+      "locationName": "Ring 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.54KG--------------.QFNL.000100--",
+          "id": "BOX:W.54KG--------------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T11:00:00+08:00",
+      "startTimeJst": "2026-09-27T12:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1720,6 +1766,52 @@
     },
     {
       "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T16:00:00+08:00",
+      "startTimeJst": "2026-09-27T17:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Women's 65kg",
+      "phase": "Women's 65KG Quarterfinal",
+      "unit": "Women's 65KG - Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Nien-chin"
+      ],
+      "opponent": "SUWANNAPHENG Janjaem",
+      "opponentCode": "THA",
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "locationCode": "NIS",
+      "locationName": "Ring 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.65KG--------------.QFNL.000100--",
+          "id": "BOX:W.65KG--------------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T18:00:00+08:00",
       "startTimeJst": "2026-09-27T19:00:00+09:00",
       "timeNote": null,
@@ -2042,10 +2134,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 34,
+    "resultsOnly": 36,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 41
+    "warnings": 43
   },
   "warnings": [
     {
@@ -2140,6 +2232,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 11:00 Women's 54KG - Quarterfinal",
+      "row": "BOX:W.54KG--------------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Women's Singles First Round Match 4",
       "row": "TEN:W.SINGLES-----------.R32-.000400--"
     },
@@ -2187,6 +2284,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Women's 69kg Group A",
       "row": "WLF:W.69KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:00 Women's 65KG - Quarterfinal",
+      "row": "BOX:W.65KG--------------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
