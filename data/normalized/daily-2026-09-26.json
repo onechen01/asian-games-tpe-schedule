@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T00:25:12.498Z",
+  "generatedAt": "2026-09-26T00:34:16.304Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T00:25:12.324Z",
+      "generatedAt": "2026-09-26T00:34:16.131Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,8 +336,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -384,22 +384,22 @@
         {
           "name": "TANG Chih-chun",
           "registration": "2091847",
-          "result": "234",
+          "result": "291",
           "rank": "1",
           "startTimeTaipei": null
         },
         {
           "name": "LIN Zih-siang",
           "registration": "2093480",
-          "result": "224",
-          "rank": "21",
+          "result": "275",
+          "rank": "30",
           "startTimeTaipei": null
         },
         {
           "name": "CHENG Hsiang-hui",
           "registration": "5358471",
-          "result": "224",
-          "rank": "20",
+          "result": "281",
+          "rank": "21",
           "startTimeTaipei": null
         }
       ],
@@ -450,12 +450,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "682",
+        "tpe": "847",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "5",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -506,26 +506,26 @@
         {
           "name": "HUANG I-jou",
           "registration": "2233657",
-          "result": "229",
-          "rank": "33",
+          "result": "288",
+          "rank": "28",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yi-hsuan",
           "registration": "2235185",
-          "result": "233",
-          "rank": "9",
+          "result": "292",
+          "rank": "5",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Fang-yi",
           "registration": "3179916",
-          "result": "232",
-          "rank": "14",
+          "result": "291",
+          "rank": "12",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "33",
+      "tpeRank": "28",
       "orgCount": 22,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -572,12 +572,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "694",
+        "tpe": "871",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "6",
+      "tpeRank": "5",
       "orgCount": 15,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -723,7 +723,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
