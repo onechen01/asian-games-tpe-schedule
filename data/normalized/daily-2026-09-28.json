@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T18:26:16.459Z",
+  "generatedAt": "2026-09-26T18:38:18.124Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-26T18:26:16.345Z",
+      "generatedAt": "2026-09-26T18:38:17.959Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1586,7 +1586,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-26T18-21-49-125Z-4f89d4a22205-df042d11.json"
+              "data/raw/2026-09-26T18-32-07-733Z-4f89d4a22205-e629dd15.json"
             ]
           }
         }
