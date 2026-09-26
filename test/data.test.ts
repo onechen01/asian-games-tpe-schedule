@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { deflateSync } from 'node:zlib';
 import { decode, safeData } from '../src/api/asianGames.ts';
-import { normalize, parseDaily, initialEventPhases, wushuResultTarget, classifyTimeNote } from '../src/parsers/schedule.ts';
+import { normalize, parseDaily, initialEventPhases, qualificationPredecessors,
+  wushuResultTarget, classifyTimeNote } from '../src/parsers/schedule.ts';
 
 test('official event structure identifies first phases without reading Final or PhaseOrder literally',()=>{
   const event='M.TEAM--------------',disc='GAR';
@@ -19,6 +20,21 @@ test('official event structure identifies first phases without reading Final or 
     [`${event}.GPA-`,`${event}.GPB-`]);
   assert.throws(()=>initialEventPhases([{...unit('FNL-','13:00',1),Event:'wrong'}],disc,event));
   assert.throws(()=>initialEventPhases([],disc,event));
+});
+
+test('official event order identifies a safe qualification predecessor only for one destination unit',()=>{
+  const disc='EQU',event='O.DRESINDV----------';
+  const unit=(key:string,phase:string,date:string,orgs:string[]=[])=>({Key:key,ResCode:key,Disc:disc,
+    Event:event,Phase:`${event}.${phase}`,DateTimeRaw:`${date}T09:30:00+09:00`,Status:'OFFICIAL',Orgs:orgs});
+  const qualifier=unit(`${event}.2Q--.000100--`,'2Q--','2026-09-26',['TPE','JPN']);
+  const final={...unit(`${event}.FNL-.000100--`,'FNL-','2026-09-27'),Status:'SCHEDULED'};
+  assert.deepEqual(qualificationPredecessors([qualifier,final],disc,event,final.Key)
+    .map(row=>row.unitId),[qualifier.Key]);
+  const secondFinal={...final,Key:`${event}.FNL-.000200--`,ResCode:`${event}.FNL-.000200--`};
+  assert.deepEqual(qualificationPredecessors([qualifier,final,secondFinal],disc,event,final.Key),[],
+    'multiple destination units stay unresolved because the qualifier-to-unit mapping is unknown');
+  assert.deepEqual(qualificationPredecessors([{...qualifier,Status:'SCHEDULED'},final],disc,event,final.Key),[],
+    'a non-official previous phase is not qualification evidence');
 });
 
 test('multi-routine Wushu medal unit uses the official phase summary; single units keep their result',()=>{

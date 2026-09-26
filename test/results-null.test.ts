@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { normalize } from '../src/parsers/schedule.ts';
-import { parseRequestedResult } from '../src/parsers/results.ts';
+import { confirmFromQualifiedCompetitors, officialQualifiedCompetitors,
+  parseRequestedResult } from '../src/parsers/results.ts';
 import { mergeDaily } from '../src/parsers/merge-daily.ts';
 import { qualityGate } from '../src/parsers/publish-gate.ts';
 
@@ -50,6 +51,27 @@ test('normal unit and aggregate JSON retain identity checks and competitor data'
   assert.throws(()=>parseRequestedResult({Info:{Key:'wrong'},Competitors:[]},row,key));
   assert.throws(()=>parseRequestedResult({Info:{Key:key,IsPhase:true},Competitors:[]},row,key));
   assert.throws(()=>parseRequestedResult({},row,key));
+});
+
+test('only an explicit official Qualified marker is progression evidence',()=>{
+  const row=unit('OFFICIAL');
+  const payload={Info:{Key:key,Status:'OFFICIAL'},Competitors:[
+    {Org:'TPE',Name:'Qualified Athlete',Reg:'1',Result:'137.148',Rk:'7',Qualified:'Q'},
+    {Org:'TPE',Name:'Ranked Only',Reg:'2',Result:'136.000',Rk:'8',Qualified:''},
+  ]};
+  const parsed=parseRequestedResult(payload,row,key)!;
+  assert.deepEqual(parsed.competitors.map(c=>c.qualified),['Q',null]);
+  assert.deepEqual(officialQualifiedCompetitors(payload,row,key).map(c=>c.name),['Qualified Athlete']);
+  assert.deepEqual(officialQualifiedCompetitors({...payload,Info:{Key:key,Status:'UNOFFICIAL'}},row,key),[],
+    'rank and a provisional marker never seed the next phase before Results is official');
+  const next=normalize({Key:'M.TEST--------------.NEXT.000100--',Disc:'WSU',
+    Event:'M.TEST--------------',Phase:'M.TEST--------------.NEXT',Orgs:[],Status:'SCHEDULED',
+    DateTimeRaw:'2026-09-24T14:30:00+09:00'},source);
+  assert.equal(confirmFromQualifiedCompetitors(next,parsed.competitors),true);
+  assert.equal(next.hasTpe,true);
+  assert.deepEqual(next.competitors.map(c=>({name:c.name,result:c.result,rank:c.rank,qualified:c.qualified})),[
+    {name:'Qualified Athlete',result:null,rank:null,qualified:'Q'},
+  ],'only identity and the official progression marker cross into the next phase');
 });
 
 test('schedule ResCode may identify a phase result for a different unitId',()=>{

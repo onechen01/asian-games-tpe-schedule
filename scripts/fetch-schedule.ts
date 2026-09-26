@@ -1,7 +1,9 @@
 // npm run fetch:schedule -- 2026-09-21 [BKB,SWM|ALL|AUTO]
 import { get, BASE, ApiError, recordFailure } from '../src/api/asianGames.ts';
-import { parseDaily, buildCourtSessionChains, competitor, initialEventPhases, wushuResultTarget } from '../src/parsers/schedule.ts';
-import { parseRequestedResult } from '../src/parsers/results.ts';
+import { parseDaily, buildCourtSessionChains, competitor, initialEventPhases,
+  qualificationPredecessors, wushuResultTarget } from '../src/parsers/schedule.ts';
+import { confirmFromQualifiedCompetitors, officialQualifiedCompetitors,
+  parseRequestedResult } from '../src/parsers/results.ts';
 import { entryIndex, parseTpeEntries } from '../src/parsers/entries.ts';
 import { parseMatrix, activeDisciplineDays } from '../src/parsers/matrix.ts';
 import type { Schedule, CourtSessionChain } from '../src/parsers/schedule.ts';
@@ -156,6 +158,36 @@ for (const eventRows of candidateEvents.values()) {
     requests.push(meta);
     const first=initialEventPhases(data,disciplineCode,eventId!);
     for (const row of eventRows) if (first.has(row.phaseId!)) row.entryFallbackInitialPhase=true;
+    // Entries prove only that TPE entered the event. A later phase becomes confirmed solely from
+    // the official previous-phase Results marker (Qualified), and only when every qualifier feeds
+    // one unambiguous destination unit. Scores/ranks from the previous phase are deliberately not
+    // copied onto the later unit.
+    for (const row of eventRows.filter(row=>!row.entryFallbackInitialPhase)) {
+      const previous=qualificationPredecessors(data,disciplineCode,eventId!,row.unitId)
+        .filter(unit=>unit.hasTpe===true);
+      if (!previous.length) continue;
+      const qualified:ReturnType<typeof competitor>[]=[];
+      const metas:Meta[]=[];
+      let complete=true;
+      for (const unit of previous) {
+        const resultKey=unit.resultCode!;
+        const resultPath=`${disciplineCode}/results/${resultKey}`;
+        try {
+          const fetched=await get(resultPath);
+          requests.push(fetched.meta); metas.push(fetched.meta);
+          qualified.push(...officialQualifiedCompetitors(fetched.data,unit,resultKey)
+            .filter(c=>c.org==='TPE'));
+        } catch(e) {
+          complete=false;
+          console.error(`晉級證據無法取得，略過 ${resultPath}: ${e instanceof Error ? e.message : String(e)}`);
+          break;
+        }
+      }
+      if (!complete || !confirmFromQualifiedCompetitors(row,qualified)) continue;
+      row.qualificationSource={ kind:'previous-results-qualified',
+        previousUnitIds:previous.map(unit=>unit.unitId), urls:metas.map(item=>item.url),
+        rawFiles:metas.map(item=>item.raw_file) };
+    }
   } catch(e) {
     console.error(`Entries 首階段無法驗證，略過 ${path}: ${e instanceof Error ? e.message : String(e)}`);
   }

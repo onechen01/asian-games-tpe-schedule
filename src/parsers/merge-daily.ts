@@ -9,6 +9,8 @@ export type ResultsRow = {
   courtSessionChainId?:string | null; courtPredecessorUnitId?:string | null;
   eventId?:string | null; hasTpe?:boolean | null; orgs?:string[]; sourceStatus?:string | null;
   entryFallbackInitialPhase?:boolean;
+  qualificationSource?:{ kind:'previous-results-qualified'; previousUnitIds:string[];
+    urls:string[]; rawFiles:(string|null)[] } | null;
   // Null when startTimeTaipei is a trustworthy clock time to show as-is; otherwise the single
   // source of truth for how the display layer should render it instead (see schedule.ts
   // classifyTimeNote -- this type mirrors its TimeNote, duplicated rather than imported to keep
@@ -74,7 +76,8 @@ export type DailyRow = {
   // Event-level rows only: how many units of this event run that day, and who is entered.
   unitCount:number | null; enteredAthletes:string[];
   matchStatus:MatchStatus; matchConfidence:Confidence;
-  matchSignals:string[]; sources:{ results?:{ unitId?:string; id:string }; tpenoc?:{ sport:string; timeJst:string };
+  matchSignals:string[]; sources:{ results?:{ unitId?:string; id:string;
+    qualification?:ResultsRow['qualificationSource'] }; tpenoc?:{ sport:string; timeJst:string };
     entries?:{ eventId:string } };
 };
 export type MergeWarning = { code:string; message:string; row?:string };
@@ -338,7 +341,8 @@ function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | 
     participationState:results && results.hasTpe !== true && !tpenoc ? 'PARTICIPANTS_TBD' : 'TPE_CONFIRMED',
     entryLevel:'unit', unitCount:null, enteredAthletes:[],
     matchStatus, matchConfidence, matchSignals,
-    sources:{ ...(results ? { results:{ unitId:results.unitId, id:results.id } } : {}),
+    sources:{ ...(results ? { results:{ unitId:results.unitId, id:results.id,
+      ...(results.qualificationSource ? {qualification:results.qualificationSource} : {}) } } : {}),
       ...(tpenoc ? { tpenoc:{ sport:tpenoc.sport, timeJst:tpenoc.timeJst } } : {}) },
   };
 }

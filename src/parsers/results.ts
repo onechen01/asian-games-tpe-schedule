@@ -38,3 +38,23 @@ export function parseRequestedResult(data:unknown,row:ResultTarget,resultKey:str
     currentPeriod:result.Results?.CurrentPeriod ?? null,
     competitors:result.Competitors.map(c=>competitor(c,wallDate)) };
 }
+
+export function officialQualifiedCompetitors(data:unknown,row:ResultTarget,resultKey:string) {
+  const result=parseRequestedResult(data,row,resultKey);
+  if (!result || result.sourceStatus!=='OFFICIAL') return [];
+  return result.competitors.filter(c=>c.qualified !== null);
+}
+
+export function confirmFromQualifiedCompetitors(row:Schedule,
+  competitors:ReturnType<typeof competitor>[]):boolean {
+  const qualified=competitors.filter(c=>c.org==='TPE' && c.qualified !== null);
+  if (!qualified.length) return false;
+  row.hasTpe=true;
+  row.participation='confirmed';
+  row.orgs=['TPE'];
+  // Previous-phase scores, ranks, medals and start slots belong to that previous competition.
+  // Only the official identity and Qualified marker cross into the later unit.
+  row.competitors=qualified.map(c=>({ ...c, result:null, winner:null, rank:null, medal:null,
+    startTimeTaipei:null }));
+  return true;
+}

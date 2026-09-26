@@ -4,6 +4,7 @@ export type RawMember = { Name?: string; Org?: string; Bib?: string; FuncDesc?: 
 export type RawExtension = { Code?: string; Value?: string };
 export type RawCompetitor = {
   Org?: string; Name?: string; Reg?: string; Result?: string; Winner?: boolean; Rk?: string;
+  Qualified?: string;
   Members?: RawMember[];
   // Only some disciplines' unit responses carry a per-competitor STARTTIME extension (e.g. an
   // equestrian qualifier where each rider goes in sequence). Most do not -- a head-to-head bout
@@ -57,6 +58,8 @@ export type Source = {
   url: string; data_fetched_at?: string; checked_at?: string; captured_at?: string;
   raw_file?: string | null; mode?: string; [key: string]: unknown;
 };
+export type QualificationSource = { kind:'previous-results-qualified'; previousUnitIds:string[];
+  urls:string[]; rawFiles:(string|null)[] };
 const STARTTIME_RE = /^(\d{1,2}):(\d{2})$/;
 // The competitor's own STARTTIME extension, when the discipline's unit response carries one, at
 // the same wall date as the unit itself (the unit is one competition session; a rider going at
@@ -70,6 +73,9 @@ function competitorStartTimeTaipei(c: RawCompetitor, wallDate: string | null): s
 export function competitor(c: RawCompetitor, wallDate: string | null = null) {
   return { org: c.Org ?? null, name: c.Name ?? null, registration: c.Reg ?? null,
     result: c.Result ?? null, winner: c.Winner ?? null, rank: c.Rk ?? null,
+    // An explicit official progression marker (normally "Q"). It is evidence for a later
+    // undrawn phase; an empty value is neutral and a rank is never treated as qualification.
+    qualified:typeof c.Qualified === 'string' && c.Qualified.trim() ? c.Qualified.trim() : null,
     // The officials mark the medal on the competitor itself (ME_GOLD/ME_SILVER/ME_BRONZE).
     medal: (c as {Medal?:string}).Medal ?? null,
     // Optional: only set when this competitor carries its own STARTTIME (see RawCompetitor).
@@ -148,6 +154,7 @@ export function normalize(value: unknown, source: Source, evidence: DayEvidence 
     sourceStatusDescription: row.StatusDesc ?? null, isLive: row.IsLive ?? null,
     hasTpe: participation === 'confirmed' ? true : participation === 'unknown' ? null : false,
     participation, orgs, competitors: [row.Home,row.Away].filter((c): c is RawCompetitor => !!c).map(c=>competitor(c)),
+    qualificationSource:null as QualificationSource | null,
     medalCode: row.Medal ?? null, broadcast: { status:'unverified', platforms:[] as string[] },
     sourceUrl: source.url, fetchedAt: source.data_fetched_at ?? source.captured_at ?? null,
     checkedAt: source.checked_at ?? source.captured_at ?? null, source
@@ -249,6 +256,39 @@ export function initialEventPhases(value:unknown,disciplineCode:string,eventId:s
   }
   const first=Math.min(...starts.values());
   return new Set([...starts].filter(([,start])=>start===first).map(([phase])=>phase));
+}
+
+// For an undrawn later phase, identify the immediately preceding official phase only when the
+// destination phase has exactly one unit. This makes an official Qualified marker safe to carry
+// forward into a single final/session, while multi-unit brackets remain unresolved because this
+// endpoint does not say which destination unit a qualifier belongs in.
+export function qualificationPredecessors(value:unknown,disciplineCode:string,eventId:string,
+  currentUnitId:string):Schedule[] {
+  if (!Array.isArray(value) || !value.length) throw new Error('Event schedule missing units');
+  const rows=value.map(item=>normalize(item,{url:'event-schedule'}));
+  if (rows.some(row=>row.disciplineCode!==disciplineCode || row.eventId!==eventId)) {
+    throw new Error('Event qualification identity mismatch');
+  }
+  const current=rows.filter(row=>row.unitId===currentUnitId);
+  if (current.length!==1 || !current[0].phaseId) throw new Error('Current event unit missing or ambiguous');
+  const destination=rows.filter(row=>row.phaseId===current[0].phaseId);
+  if (destination.length!==1 || !current[0].startTimeUtc) return [];
+  const currentStart=Date.parse(current[0].startTimeUtc);
+  const phases=new Map<string,{start:number;rows:Schedule[]}>();
+  for (const row of rows) {
+    if (!row.phaseId || !row.startTimeUtc || row.phaseId===current[0].phaseId) continue;
+    const start=Date.parse(row.startTimeUtc);
+    if (!Number.isFinite(start) || start>=currentStart) continue;
+    const phase=phases.get(row.phaseId) ?? {start,rows:[]};
+    phase.start=Math.min(phase.start,start);
+    phase.rows.push(row);
+    phases.set(row.phaseId,phase);
+  }
+  if (!phases.size) return [];
+  const latest=Math.max(...[...phases.values()].map(phase=>phase.start));
+  const previous=[...phases.values()].filter(phase=>phase.start===latest);
+  if (previous.length!==1 || previous[0].rows.some(row=>row.status!=='finished' || !row.resultCode)) return [];
+  return previous[0].rows;
 }
 
 // The official Wushu event lists separate routines, then a medal unit. Its Results UI reads
