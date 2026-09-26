@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T04:46:17.220Z",
+  "generatedAt": "2026-09-26T04:56:14.999Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T04:46:17.043Z",
+      "generatedAt": "2026-09-26T04:56:14.851Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1758,26 +1758,26 @@
         {
           "name": "HSU Hsin-tzu",
           "registration": "2094993",
-          "result": "167",
-          "rank": "8",
+          "result": "224",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
           "name": "LI Tsai-chi",
           "registration": "3174589",
-          "result": "169",
+          "result": "225",
           "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "FONG You-jhu",
           "registration": "5471256",
-          "result": "164",
-          "rank": "22",
+          "result": "218",
+          "rank": "20",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "8",
+      "tpeRank": "7",
       "orgCount": 22,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1875,7 +1875,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "861",
+        "tpe": "917",
         "opponent": null,
         "source": "results"
       },
@@ -1931,26 +1931,26 @@
         {
           "name": "CHANG Cheng-wei",
           "registration": "2036175",
-          "result": "178",
-          "rank": "5",
+          "result": "236",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Chieh-lun",
           "registration": "3175093",
-          "result": "175",
-          "rank": "26",
+          "result": "233",
+          "rank": "20",
           "startTimeTaipei": null
         },
         {
           "name": "YEN Tzu-hsiang",
           "registration": "5473113",
-          "result": "175",
-          "rank": "21",
+          "result": "231",
+          "rank": "31",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "5",
+      "tpeRank": "6",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1997,12 +1997,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "528",
+        "tpe": "700",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "0",
+      "tpeRank": "8",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2048,7 +2048,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "876",
+        "tpe": "934",
         "opponent": null,
         "source": "results"
       },
