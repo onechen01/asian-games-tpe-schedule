@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:58:30.601Z",
+  "generatedAt": "2026-09-26T12:07:05.745Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T11:58:30.455Z",
+      "generatedAt": "2026-09-26T12:07:05.587Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2333,7 +2333,27 @@
       }
     }
   ],
-  "sessionChains": [],
+  "sessionChains": [
+    {
+      "id": "BDM|2026-09-27|001|X.DOUBLES-----------.QFNL.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "X.DOUBLES-----------.QFNL.000400--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-27T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.QFNL.000400--",
+          "unitName": "Mixed Doubles Quarterfinals Match 4",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-27T08:30:00+08:00"
+        }
+      ]
+    }
+  ],
   "coverageComplete": true,
   "officialNoCompetition": false,
   "summary": {
