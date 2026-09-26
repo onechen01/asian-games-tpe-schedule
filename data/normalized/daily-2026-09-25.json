@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:43:13.199Z",
+  "generatedAt": "2026-09-26T09:54:22.725Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-25/schedule-2026-09-25-AUTO.json",
-      "generatedAt": "2026-09-26T09:43:13.021Z",
+      "generatedAt": "2026-09-26T09:54:22.555Z",
       "coverage": {
         "sports": [
           "ATH",
@@ -321,8 +321,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 4,
+          "recovered": 4,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1379,7 +1379,7 @@
         "HSU Hsien-chia",
         "HUNG Jing-kai"
       ],
-      "opponent": "SALEH Mohamed/RASHED Rashed",
+      "opponent": "SALEH Mohamed / RASHED Rashed",
       "opponentCode": "BRN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -1394,7 +1394,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
