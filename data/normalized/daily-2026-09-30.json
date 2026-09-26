@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T22:17:09.195Z",
+  "generatedAt": "2026-09-26T01:15:28.869Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-25T22:17:09.036Z",
+      "generatedAt": "2026-09-26T01:15:28.713Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -27,6 +27,7 @@
           "SPK",
           "SQU",
           "TEN",
+          "VBV",
           "WPO",
           "WRE",
           "CKT",
@@ -132,6 +133,11 @@
             },
             {
               "code": "TEN",
+              "date": "2026-09-30",
+              "medalDay": false
+            },
+            {
+              "code": "VBV",
               "date": "2026-09-30",
               "medalDay": false
             },
@@ -251,6 +257,11 @@
               "medalDay": true
             },
             {
+              "code": "VBV",
+              "date": "2026-10-01",
+              "medalDay": false
+            },
+            {
               "code": "VVO",
               "date": "2026-10-01",
               "medalDay": false
@@ -265,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -282,53 +293,6 @@
   },
   "date": "2026-09-30",
   "rows": [
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T05:30:00+08:00",
-      "startTimeJst": "2026-09-30T06:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Men's Individual Stroke Play",
-      "phase": "Men's Individual Stroke Play",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|M.STROKE------------"
-        }
-      }
-    },
     {
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T05:30:00+08:00",
@@ -723,51 +687,6 @@
       "disciplineCode": "JUD",
       "sportZh": "柔道",
       "sportEn": "Judo",
-      "event": "Men -60kg",
-      "phase": "Men -60 kg Elimination Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "AIA",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "YANG Yung-wei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JUD|M.60KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
       "event": "Men -66kg",
       "phase": "Men -66 kg Elimination Round of 16",
       "unit": null,
@@ -960,7 +879,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 5,
-    "entered": 9,
+    "entered": 7,
     "unresolvedTbd": 0,
     "warnings": 6
   },

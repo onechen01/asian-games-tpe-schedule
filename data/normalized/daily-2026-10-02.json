@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T22:21:55.034Z",
+  "generatedAt": "2026-09-26T01:19:03.591Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-25T22:21:54.852Z",
+      "generatedAt": "2026-09-26T01:19:03.414Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -518,7 +518,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 34,
+      "unitCount": 16,
       "enteredAthletes": [
         "LIN Yi-hui"
       ],
@@ -563,7 +563,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 34,
+      "unitCount": 16,
       "enteredAthletes": [
         "CHANG Hui-tsz"
       ],
