@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T03:56:26.359Z",
+  "generatedAt": "2026-09-26T04:07:13.891Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T03:56:26.184Z",
+      "generatedAt": "2026-09-26T04:07:13.712Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -767,21 +767,21 @@
           "name": "CHEN Yi-ju",
           "registration": "2724373",
           "result": "126.412",
-          "rank": "13",
+          "rank": "14",
           "startTimeTaipei": "2026-09-26T09:18:00+08:00"
         },
         {
           "name": "WANG Yu-jun",
           "registration": "10521853",
           "result": "126.117",
-          "rank": "14",
+          "rank": "15",
           "startTimeTaipei": "2026-09-26T09:26:00+08:00"
         },
         {
           "name": "SHYONG Tien-chi",
           "registration": "2703666",
           "result": "128.471",
-          "rank": "11",
+          "rank": "12",
           "startTimeTaipei": "2026-09-26T10:45:00+08:00"
         },
         {
@@ -792,7 +792,7 @@
           "startTimeTaipei": "2026-09-26T13:48:00+08:00"
         }
       ],
-      "tpeRank": "13",
+      "tpeRank": "14",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1650,14 +1650,14 @@
       "locationName": "Table 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "2",
+        "tpe": "4",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2557,6 +2557,52 @@
         "results": {
           "unitId": "M.SINGLES-----------.QFNL.000100--",
           "id": "TTE:M.SINGLES-----------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "startTimeJst": "2026-09-26T17:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Quarterfinals",
+      "unit": "Men's Singles Quarterfinals Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yun-ju"
+      ],
+      "opponent": "CHAN Baldwin",
+      "opponentCode": "HKG",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "locationCode": "010",
+      "locationName": "TBD",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.QFNL.000300--",
+          "id": "TTE:M.SINGLES-----------.QFNL.000300--"
         }
       }
     },
@@ -3797,10 +3843,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 53,
+    "resultsOnly": 54,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 58
+    "warnings": 59
   },
   "warnings": [
     {
@@ -4002,6 +4048,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 1",
       "row": "TTE:M.SINGLES-----------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 3",
+      "row": "TTE:M.SINGLES-----------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
