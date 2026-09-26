@@ -3034,7 +3034,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-26T20:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-26T22:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -3061,33 +3061,6 @@
       "matchHint": {
         "athleteNames": [
           "LIN Hsiang-ti"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-26T20:30:00+08:00",
-      "disciplineCode": "ATH",
-      "channelId": "101",
-      "channelName": "愛爾達體育1台",
-      "isLive": true,
-      "title": "亞運 中華隊 田徑 預賽/決賽 9/26 LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-26T22:00:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {
-        "phaseKeywords": [
-          "Heats",
-          "Preliminar",
-          "Qualification",
-          "Round Robin",
-          "Group",
-          "Final"
         ]
       }
     },
