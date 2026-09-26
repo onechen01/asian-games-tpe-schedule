@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-26T00:18:19.137Z",
+  "generatedAt": "2026-09-26T03:58:29.379Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-26T00:18:19.137Z",
+  "standingsUpdatedAt": "2026-09-26T03:58:29.375Z",
   "ledgerCounts": {
     "gold": 2,
     "silver": 5,
-    "bronze": 16,
-    "total": 23
+    "bronze": 17,
+    "total": 24
   },
   "officialCounts": {
     "gold": 2,
     "silver": 5,
-    "bronze": 16,
-    "total": 23
+    "bronze": 17,
+    "total": 24
   },
   "missing": {
     "gold": 0,
@@ -433,6 +433,22 @@
       "unitId": "W.61KG--------------.FNL-.A00100--",
       "athletes": [
         "KUO Hsing-chun"
+      ],
+      "rank": "3"
+    },
+    {
+      "awardId": "ELS|O.PYO---------------|2800288",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "event": "Puzzle [Puyo Puyo Champions]",
+      "phase": "Puyo Puyo Champions Semi-finals",
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T10:15:00+08:00",
+      "resultId": "ELS:O.PYO---------------.SFNL.000200--",
+      "unitId": "O.PYO---------------.SFNL.000200--",
+      "athletes": [
+        "KUO Tzu-ang"
       ],
       "rank": "3"
     }
