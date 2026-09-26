@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T23:54:12.002Z",
+  "generatedAt": "2026-09-26T00:06:29.970Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-25T23:54:11.891Z",
+      "generatedAt": "2026-09-26T00:06:29.792Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -384,26 +384,26 @@
         {
           "name": "TANG Chih-chun",
           "registration": "2091847",
-          "result": "59",
-          "rank": "1",
+          "result": "117",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "LIN Zih-siang",
           "registration": "2093480",
-          "result": "55",
-          "rank": "27",
+          "result": "112",
+          "rank": "22",
           "startTimeTaipei": null
         },
         {
           "name": "CHENG Hsiang-hui",
           "registration": "5358471",
-          "result": "55",
-          "rank": "31",
+          "result": "111",
+          "rank": "26",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "1",
+      "tpeRank": "3",
       "orgCount": 24,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -450,7 +450,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "169",
+        "tpe": "340",
         "opponent": null,
         "source": "results"
       },
@@ -506,26 +506,26 @@
         {
           "name": "HUANG I-jou",
           "registration": "2233657",
-          "result": "56",
-          "rank": "31",
+          "result": "113",
+          "rank": "36",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yi-hsuan",
           "registration": "2235185",
-          "result": "60",
-          "rank": "1",
+          "result": "118",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Fang-yi",
           "registration": "3179916",
-          "result": "58",
-          "rank": "16",
+          "result": "117",
+          "rank": "12",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "31",
+      "tpeRank": "36",
       "orgCount": 22,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -572,12 +572,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "174",
+        "tpe": "348",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "0",
+      "tpeRank": "5",
       "orgCount": 15,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -620,8 +620,12 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
