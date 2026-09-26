@@ -2787,7 +2787,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-26T12:05:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-26T11:15:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -2796,29 +2796,6 @@
           "Qualification",
           "Round Robin",
           "Group"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-26T08:55:00+08:00",
-      "disciplineCode": "TTE",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
-      "isLive": true,
-      "title": "亞運 桌球 馮翊新/郭冠宏 女單/男單16強/雙打八強 (第2桌) 9/26(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-26T13:00:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "FENG Yi-hsin",
-          "KUO Guan-hong"
         ]
       }
     },
@@ -2836,7 +2813,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-26T12:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-26T11:32:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -2938,9 +2915,9 @@
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 桌球 馮翊新/郭冠宏 女單/男單16強/雙打八強 (第2桌) 9/26(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 馮翊新/郭冠宏 桌球 單打/雙打八強 9/26(第1桌) LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-09-26",
       "broadcastEndTimeTaipei": "2026-09-26T17:30:00+08:00",
       "matchLevel": "unit",
