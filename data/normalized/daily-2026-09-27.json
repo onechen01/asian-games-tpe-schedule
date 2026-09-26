@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:28:31.343Z",
+  "generatedAt": "2026-09-26T08:39:28.828Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T08:28:31.165Z",
+      "generatedAt": "2026-09-26T08:39:28.646Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -336,6 +336,52 @@
   },
   "date": "2026-09-27",
   "rows": [
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T07:24:00+08:00",
+      "startTimeJst": "2026-09-27T08:24:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SRF",
+      "sportZh": "衝浪",
+      "sportEn": "Surfing",
+      "event": "Women's Shortboard",
+      "phase": "Women's Shortboard Round 2",
+      "unit": "Women's Shortboard - Round 2 - Heat 7",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Wan-yu"
+      ],
+      "opponent": "GAYEN Sugar Shanti",
+      "opponentCode": "IND",
+      "venue": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "venueZh": null,
+      "locationCode": "SRF",
+      "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SHORTBRD----------.REP-.000700--",
+          "id": "SRF:W.SHORTBRD----------.REP-.000700--"
+        }
+      }
+    },
     {
       "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T08:40:00+08:00",
@@ -1959,12 +2005,17 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 27,
+    "resultsOnly": 28,
     "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 30
+    "warnings": 32
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SRF 07:24 Women's Shortboard - Round 2 - Heat 7",
+      "row": "SRF:W.SHORTBRD----------.REP-.000700--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:40 25m Pistol Women Individual - Qualification - Qualification Precision",
@@ -2109,6 +2160,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "FEN|M.TEAMEPEE----------",
       "message": "FEN Men's Épée Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SRF|W.SHORTBRD----------",
+      "message": "SRF Women's Shortboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
