@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T01:45:47.028Z",
+  "generatedAt": "2026-09-26T01:53:23.518Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T01:45:46.851Z",
+      "generatedAt": "2026-09-26T01:53:23.348Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -868,18 +868,18 @@
           "name": "CHEN Chi",
           "registration": "4338109",
           "result": "582-22x",
-          "rank": "29",
+          "rank": "27",
           "startTimeTaipei": null
         },
         {
           "name": "SUNG Yu-Ting",
           "registration": "7719153",
-          "result": "413-13x",
-          "rank": "44",
+          "result": "481-18x",
+          "rank": "43",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "29",
+      "tpeRank": "27",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -977,10 +977,10 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1577,7 +1577,7 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000700--",
       "courtPredecessorUnitId": "M.SINGLES-----------.R32-.000700--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1965,7 +1965,7 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000700--",
       "courtPredecessorUnitId": "W.SINGLES-----------.R32-.001400--",
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
