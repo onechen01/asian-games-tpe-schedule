@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T03:58:28.110Z",
+  "generatedAt": "2026-09-26T04:37:24.191Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T03:58:27.923Z",
+      "generatedAt": "2026-09-26T04:37:24.037Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -896,6 +896,52 @@
       "startTimeTaipei": "2026-09-27T10:00:00+08:00",
       "startTimeJst": "2026-09-27T11:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Decathlon",
+      "phase": "Men's Decathlon 110 Metres Hurdles",
+      "unit": "Men's Decathlon 110 Metres Hurdles Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHO Chia-hsuan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 4,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DECATH------------.110H.000100--",
+          "id": "ATH:M.DECATH------------.110H.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:00:00+08:00",
+      "startTimeJst": "2026-09-27T11:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "SBL",
       "sportZh": "壘球",
       "sportEn": "Softball",
@@ -937,17 +983,19 @@
     },
     {
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T11:05:00+08:00",
-      "startTimeJst": "2026-09-27T12:05:00+09:00",
+      "startTimeTaipei": "2026-09-27T10:08:00+08:00",
+      "startTimeJst": "2026-09-27T11:08:00+09:00",
       "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
-      "event": "Men's 400m Hurdles",
-      "phase": "Men's 400m Hurdles Round 1",
-      "unit": null,
+      "event": "Men's Decathlon",
+      "phase": "Men's Decathlon 110 Metres Hurdles",
+      "unit": "Men's Decathlon 110 Metres Hurdles Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Chen-yu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -956,28 +1004,226 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 4,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "CHEN Jian-rong",
-        "LIN Chung-wei"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.400MHURD----------"
+        "results": {
+          "unitId": "M.DECATH------------.110H.000200--",
+          "id": "ATH:M.DECATH------------.110H.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:15:00+08:00",
+      "startTimeJst": "2026-09-27T11:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BMF",
+      "sportZh": "自由車BMX自由式",
+      "sportEn": "Cycling BMX Freestyle",
+      "event": "Men's Park",
+      "phase": "Men's Park Final",
+      "unit": "Men's Park Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHENG Chiao-hung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Sky Expo Hall C",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Hall C",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 5,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.INDVFRST----------.FNL-.000100--",
+          "id": "BMF:M.INDVFRST----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:40:00+08:00",
+      "startTimeJst": "2026-09-27T11:40:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Decathlon",
+      "phase": "Men's Decathlon Discus Throw",
+      "unit": "Men's Decathlon Discus Throw",
+      "athletes": [],
+      "athletesEn": [
+        "CHO Chia-hsuan",
+        "WANG Chen-yu"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DECATH------------.DT--.000100--",
+          "id": "ATH:M.DECATH------------.DT--.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T11:05:00+08:00",
+      "startTimeJst": "2026-09-27T12:05:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 400m Hurdles",
+      "phase": "Men's 400m Hurdles Round 1",
+      "unit": "Men's 400m Hurdles Round 1 Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chung-wei"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.400MHURD----------.RND1.000100--",
+          "id": "ATH:M.400MHURD----------.RND1.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T11:21:00+08:00",
+      "startTimeJst": "2026-09-27T12:21:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 400m Hurdles",
+      "phase": "Men's 400m Hurdles Round 1",
+      "unit": "Men's 400m Hurdles Round 1 Heat 3",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Jian-rong"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.400MHURD----------.RND1.000300--",
+          "id": "ATH:M.400MHURD----------.RND1.000300--"
         }
       }
     },
@@ -991,9 +1237,11 @@
       "sportEn": "Athletics",
       "event": "Women's 400m Hurdles",
       "phase": "Women's 400m Hurdles Round 1",
-      "unit": null,
+      "unit": "Women's 400m Hurdles Round 1 Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LO Pei-lin"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1002,28 +1250,26 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHUNG Hsin-ju",
-        "LO Pei-lin"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|W.400MHURD----------"
+        "results": {
+          "unitId": "W.400MHURD----------.RND1.000100--",
+          "id": "ATH:W.400MHURD----------.RND1.000100--"
         }
       }
     },
@@ -1037,9 +1283,11 @@
       "sportEn": "Athletics",
       "event": "Men's Long Jump",
       "phase": "Men's Long Jump Qualification",
-      "unit": null,
+      "unit": "Men's Long Jump Qualification Group A",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIN Yu-tang"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1048,27 +1296,72 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "LIN Yu-tang"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.LONGJUMP----------"
+        "results": {
+          "unitId": "M.LONGJUMP----------.QUAL.000100--",
+          "id": "ATH:M.LONGJUMP----------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T11:43:00+08:00",
+      "startTimeJst": "2026-09-27T12:43:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 400m Hurdles",
+      "phase": "Women's 400m Hurdles Round 1",
+      "unit": "Women's 400m Hurdles Round 1 Heat 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHUNG Hsin-ju"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.400MHURD----------.RND1.000200--",
+          "id": "ATH:W.400MHURD----------.RND1.000200--"
         }
       }
     },
@@ -1132,6 +1425,68 @@
         "results": {
           "unitId": "W.TEAM11------------.GPA-.001400--",
           "id": "HOC:W.TEAM11------------.GPA-.001400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T12:20:00+08:00",
+      "startTimeJst": "2026-09-27T13:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Decathlon",
+      "phase": "Men's Decathlon Pole Vault",
+      "unit": "Men's Decathlon Pole Vault",
+      "athletes": [],
+      "athletesEn": [
+        "CHO Chia-hsuan",
+        "WANG Chen-yu"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DECATH------------.PV--.000100--",
+          "id": "ATH:M.DECATH------------.PV--.000100--"
         }
       }
     },
@@ -1240,17 +1595,20 @@
     },
     {
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T18:45:00+08:00",
-      "startTimeJst": "2026-09-27T19:45:00+09:00",
+      "startTimeTaipei": "2026-09-27T18:05:00+08:00",
+      "startTimeJst": "2026-09-27T19:05:00+09:00",
       "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
-      "event": "Men's High Jump",
-      "phase": "Men's High Jump Final",
-      "unit": null,
+      "event": "Men's Decathlon",
+      "phase": "Men's Decathlon Javelin Throw",
+      "unit": "Men's Decathlon Javelin Throw",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHO Chia-hsuan",
+        "WANG Chen-yu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1259,27 +1617,87 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "FU Chao-hsuan"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.HIGHJUMP----------"
+        "results": {
+          "unitId": "M.DECATH------------.JT--.000100--",
+          "id": "ATH:M.DECATH------------.JT--.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T18:45:00+08:00",
+      "startTimeJst": "2026-09-27T19:45:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's High Jump",
+      "phase": "Men's High Jump Final",
+      "unit": "Men's High Jump Final",
+      "athletes": [],
+      "athletesEn": [
+        "FU Chao-hsuan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 11,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.HIGHJUMP----------.FNL-.000100--",
+          "id": "ATH:M.HIGHJUMP----------.FNL-.000100--"
         }
       }
     },
@@ -1293,9 +1711,11 @@
       "sportEn": "Athletics",
       "event": "Men's 800m",
       "phase": "Men's 800m Round 1",
-      "unit": null,
+      "unit": "Men's 800m Round 1 Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "HUANG Jyun-siang"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1304,27 +1724,26 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "HUANG Jyun-siang"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.800M--------------"
+        "results": {
+          "unitId": "M.800M--------------.RND1.000100--",
+          "id": "ATH:M.800M--------------.RND1.000100--"
         }
       }
     },
@@ -1338,9 +1757,12 @@
       "sportEn": "Athletics",
       "event": "Women's Javelin Throw",
       "phase": "Women's Javelin Throw Final",
-      "unit": null,
+      "unit": "Women's Javelin Throw Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LI Hui-jun",
+        "CHU Pin-hsun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1349,44 +1771,64 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "LI Hui-jun",
+          "registration": "2325863",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHU Pin-hsun",
+          "registration": "16036544",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHU Pin-hsun",
-        "LI Hui-jun"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|W.JAVELIN-----------"
+        "results": {
+          "unitId": "W.JAVELIN-----------.FNL-.000100--",
+          "id": "ATH:W.JAVELIN-----------.FNL-.000100--"
         }
       }
     },
     {
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T21:12:00+08:00",
-      "startTimeJst": "2026-09-27T22:12:00+09:00",
+      "startTimeTaipei": "2026-09-27T21:22:00+08:00",
+      "startTimeJst": "2026-09-27T22:22:00+09:00",
       "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
       "event": "Men's 4 x 100m Relay",
       "phase": "Men's 4 x 100m Relay Round 1",
-      "unit": null,
+      "unit": "Men's 4 x 100m Relay Round 1 Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "KE Wu-yen-ming",
+        "LIN Po-hsun",
+        "CHEN Wen-pu",
+        "HUANG Zuo-jyun",
+        "LAI Po-hsiang",
+        "YANG Chun-han"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1395,48 +1837,49 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Wen-pu",
-        "HUANG Zuo-jyun",
-        "KE Wu-yen-ming",
-        "LAI Po-hsiang",
-        "LIN Po-hsun",
-        "YANG Chun-han"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.4X100M------------"
+        "results": {
+          "unitId": "M.4X100M------------.RND1.000200--",
+          "id": "ATH:M.4X100M------------.RND1.000200--"
         }
       }
     },
     {
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T21:30:00+08:00",
-      "startTimeJst": "2026-09-27T22:30:00+09:00",
+      "startTimeTaipei": "2026-09-27T21:40:00+08:00",
+      "startTimeJst": "2026-09-27T22:40:00+09:00",
       "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
       "event": "Women's 4 x 400m Relay",
       "phase": "Women's 4 x 400m Relay Round 1",
-      "unit": null,
+      "unit": "Women's 4 x 400m Relay Round 1 Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIU Chen-yu",
+        "LIAO Yan-jun",
+        "LO Pei-lin",
+        "CHUNG Hsin-ju",
+        "CHEN Yi-cen",
+        "HSU Chin-hui"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1445,32 +1888,26 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 4,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHEN Yi-cen",
-        "CHUNG Hsin-ju",
-        "HSU Chin-hui",
-        "LIAO Yan-jun",
-        "LIU Chen-yu",
-        "LO Pei-lin"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|W.4X400M------------"
+        "results": {
+          "unitId": "W.4X400M------------.RND1.000200--",
+          "id": "ATH:W.4X400M------------.RND1.000200--"
         }
       }
     }
@@ -1481,10 +1918,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 9,
-    "entered": 14,
+    "resultsOnly": 25,
+    "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 9
+    "warnings": 26
   },
   "warnings": [
     {
@@ -1514,13 +1951,63 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:00 Men's Decathlon 110 Metres Hurdles Heat 1",
+      "row": "ATH:M.DECATH------------.110H.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  6",
       "row": "SBL:W.TEAM9-------------.GP--.000600--"
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:08 Men's Decathlon 110 Metres Hurdles Heat 2",
+      "row": "ATH:M.DECATH------------.110H.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BMF 10:15 Men's Park Final",
+      "row": "BMF:M.INDVFRST----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 10:40 Men's Decathlon Discus Throw",
+      "row": "ATH:M.DECATH------------.DT--.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 11:05 Men's 400m Hurdles Round 1 Heat 1",
+      "row": "ATH:M.400MHURD----------.RND1.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 11:21 Men's 400m Hurdles Round 1 Heat 3",
+      "row": "ATH:M.400MHURD----------.RND1.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 11:35 Women's 400m Hurdles Round 1 Heat 1",
+      "row": "ATH:W.400MHURD----------.RND1.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 11:40 Men's Long Jump Qualification Group A",
+      "row": "ATH:M.LONGJUMP----------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 11:43 Women's 400m Hurdles Round 1 Heat 2",
+      "row": "ATH:W.400MHURD----------.RND1.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 12:00 Women Pool A Match 14",
       "row": "HOC:W.TEAM11------------.GPA-.001400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 12:20 Men's Decathlon Pole Vault",
+      "row": "ATH:M.DECATH------------.PV--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1531,6 +2018,41 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：VVO 18:00 Match 8",
       "row": "VVO:M.TEAM6-------------.GPD-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:05 Men's Decathlon Javelin Throw",
+      "row": "ATH:M.DECATH------------.JT--.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:45 Men's High Jump Final",
+      "row": "ATH:M.HIGHJUMP----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:36 Men's 800m Round 1 Heat 1",
+      "row": "ATH:M.800M--------------.RND1.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:03 Women's Javelin Throw Final",
+      "row": "ATH:W.JAVELIN-----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:22 Men's 4 x 100m Relay Round 1 Heat 2",
+      "row": "ATH:M.4X100M------------.RND1.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:40 Women's 4 x 400m Relay Round 1 Heat 2",
+      "row": "ATH:W.4X400M------------.RND1.000200--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ATH|M.DECATH------------",
+      "message": "ATH Men's Decathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
