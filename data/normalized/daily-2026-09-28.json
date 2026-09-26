@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T22:07:21.932Z",
+  "generatedAt": "2026-09-26T22:33:43.805Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-26T22:07:21.764Z",
+      "generatedAt": "2026-09-26T22:33:43.641Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1294,6 +1294,98 @@
     },
     {
       "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T12:15:00+08:00",
+      "startTimeJst": "2026-09-28T13:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Individual",
+      "phase": "Compound Women's Individual 1/16 Eliminations",
+      "unit": "Compound Women's Individual 1/16 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-hsuan"
+      ],
+      "opponent": "MANEESOMBATKUL Kanyavee",
+      "opponentCode": "THA",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CINDIVID----------.R32-.000200--",
+          "id": "ARC:W.CINDIVID----------.R32-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T12:15:00+08:00",
+      "startTimeJst": "2026-09-28T13:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Individual",
+      "phase": "Compound Women's Individual 1/16 Eliminations",
+      "unit": "Compound Women's Individual 1/16 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Fang-yi"
+      ],
+      "opponent": "NORAZAM Iman Aisyah",
+      "opponentCode": "MAS",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CINDIVID----------.R32-.001000--",
+          "id": "ARC:W.CINDIVID----------.R32-.001000--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T12:30:00+08:00",
       "startTimeJst": "2026-09-28T13:30:00+09:00",
       "timeNote": null,
@@ -1586,7 +1678,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-26T22-01-53-098Z-4f89d4a22205-79c6967c.json"
+              "data/raw/2026-09-26T22-27-50-925Z-4f89d4a22205-93941ec3.json"
             ]
           }
         }
@@ -1599,10 +1691,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 17,
+    "resultsOnly": 19,
     "entered": 9,
     "unresolvedTbd": 0,
-    "warnings": 20
+    "warnings": 23
   },
   "warnings": [
     {
@@ -1667,6 +1759,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:15 Compound Women's Individual 1/16 Elimination",
+      "row": "ARC:W.CINDIVID----------.R32-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:15 Compound Women's Individual 1/16 Elimination",
+      "row": "ARC:W.CINDIVID----------.R32-.001000--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Men's 85kg Group A",
       "row": "WLF:M.85KG--------------.FNL-.A00100--"
     },
@@ -1699,6 +1801,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "KUR|M.81KG--------------",
       "message": "KUR Men -81kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|W.CINDIVID----------",
+      "message": "ARC Compound Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
