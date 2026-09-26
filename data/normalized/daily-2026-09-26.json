@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:07:26.577Z",
+  "generatedAt": "2026-09-26T07:41:52.524Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T07:07:26.404Z",
+      "generatedAt": "2026-09-26T07:41:52.353Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -334,47 +334,10 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-26",
-            "unitId": "W.STREET------------.QUAL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-26T11:00:00+08:59",
-            "recoveredStartTime": "2026-09-26T11:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-26",
-            "unitId": "W.STREET------------.QUAL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-26T11:50:00+08:59",
-            "recoveredStartTime": "2026-09-26T11:50:00+09:00"
-          },
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-26",
-            "unitId": "M.STREET------------.QUAL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-26T15:00:00+08:59",
-            "recoveredStartTime": "2026-09-26T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SKB",
-            "date": "2026-09-26",
-            "unitId": "M.STREET------------.QUAL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-26T16:10:00+08:59",
-            "recoveredStartTime": "2026-09-26T16:10:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -806,7 +769,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -1802,32 +1765,32 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "HSU Hsin-tzu",
           "registration": "2094993",
-          "result": "609",
-          "rank": "11",
+          "result": "668",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
           "name": "LI Tsai-chi",
           "registration": "3174589",
-          "result": "613",
-          "rank": "8",
+          "result": "669",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "FONG You-jhu",
           "registration": "5471256",
-          "result": "596",
-          "rank": "22",
+          "result": "653",
+          "rank": "19",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "11",
+      "tpeRank": "7",
       "orgCount": 22,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1872,14 +1835,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "998",
+        "tpe": "1990",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "3",
       "orgCount": 15,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1923,9 +1886,9 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1305",
+        "tpe": "1361",
         "opponent": null,
         "source": "results"
       },
@@ -1975,7 +1938,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -2045,9 +2008,9 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1933",
+        "tpe": "2111",
         "opponent": null,
         "source": "results"
       },
@@ -2096,14 +2059,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1346",
+        "tpe": "1406",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "9",
+      "tpeRank": "8",
       "orgCount": 16,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2150,14 +2113,14 @@
       "locationName": "Court 1",
       "courtSessionChainId": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000700--",
       "courtPredecessorUnitId": "W.SINGLES-----------.R32-.001400--",
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2365,8 +2328,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "11",
-        "opponent": "12",
+        "tpe": "36",
+        "opponent": "36",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2471,8 +2434,8 @@
       "courtPredecessorUnitId": "M.DOUBLES-----------.8FNL.000800--",
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "1",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],

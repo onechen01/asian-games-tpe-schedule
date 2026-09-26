@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:10:27.563Z",
+  "generatedAt": "2026-09-26T07:45:04.958Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T07:10:27.381Z",
+      "generatedAt": "2026-09-26T07:45:04.775Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -379,54 +379,6 @@
         "results": {
           "unitId": "W.SHORTBRD----------.REP-.000700--",
           "id": "SRF:W.SHORTBRD----------.REP-.000700--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T08:30:00+08:00",
-      "startTimeJst": "2026-09-27T09:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "FEN",
-      "sportZh": "擊劍",
-      "sportEn": "Fencing",
-      "event": "Men's Épée Team",
-      "phase": "Men's Épée Team Table of 32",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Sky Expo Hall F",
-      "venueZh": null,
-      "locationCode": "FEB",
-      "locationName": "Blue",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "GUILLEMOT Yilu Gaston",
-        "HSU Ching-Wen",
-        "LEE Rang",
-        "WU Chun-Ming"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "FEN|M.TEAMEPEE----------"
         }
       }
     },
@@ -934,6 +886,50 @@
       "sources": {
         "entries": {
           "eventId": "TEN|W.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T09:50:00+08:00",
+      "startTimeJst": "2026-09-27T10:50:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "FEN",
+      "sportZh": "擊劍",
+      "sportEn": "Fencing",
+      "event": "Men's Épée Team",
+      "phase": "Men's Épée Team Table of 16",
+      "unit": "Men's Épée Team - Table of 16 - Table of 16",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "Kyrgyzstan",
+      "opponentCode": "KGZ",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "locationCode": "FE7",
+      "locationName": "Piste 7",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAMEPEE----------.8FNL.000600--",
+          "id": "FEN:M.TEAMEPEE----------.8FNL.000600--"
         }
       }
     },
@@ -1964,10 +1960,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 26,
-    "entered": 6,
+    "resultsOnly": 27,
+    "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 28
+    "warnings": 30
   },
   "warnings": [
     {
@@ -1999,6 +1995,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Women Individual - Qualification - Qualification - Day 1",
       "row": "SHO:W.TRW---------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：FEN 09:50 Men's Épée Team - Table of 16 - Table of 16",
+      "row": "FEN:M.TEAMEPEE----------.8FNL.000600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2099,6 +2100,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:40 Women's 4 x 400m Relay Round 1 Heat 2",
       "row": "ATH:W.4X400M------------.RND1.000200--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "FEN|M.TEAMEPEE----------",
+      "message": "FEN Men's Épée Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
