@@ -3034,7 +3034,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-26T22:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-26T21:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -3154,6 +3154,28 @@
       "matchHint": {
         "opponentCodes": [
           "PHI"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-27T10:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 黃筱雯 拳擊 女子54公斤級八強 9/27 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-27T11:55:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "HUANG Hsiao-wen"
         ]
       }
     },
@@ -3304,7 +3326,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-27T20:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-27T20:30:00+08:00",
       "disciplineCode": "VVO",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
@@ -3313,11 +3335,55 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-26",
-      "broadcastEndTimeTaipei": "2026-09-27T22:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-27T22:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
           "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-28T08:00:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 新加坡VS中華 壘球 預賽 9/28 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "SGP"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-28T12:30:00+08:00",
+      "disciplineCode": "WLF",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 謝孟恩 舉重 男子85公斤級決賽 9/28 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-28T15:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "HSIEH Meng-en"
         ]
       }
     },
@@ -3331,15 +3397,42 @@
       "channelId": "115",
       "channelName": "愛爾達體育4台",
       "isLive": true,
-      "title": "亞運 彭家豐 拳擊 男子50公斤級16強 9/26(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 林郁婷 拳擊 女子60公斤級八強 9/28 LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-09-26",
       "broadcastEndTimeTaipei": "2026-09-28T17:50:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
-          "PENG Chia-feng"
+          "LIN Yu-ting"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-28T17:00:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華隊 田徑 預賽/決賽 9/28 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-28T22:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group",
+          "Final"
         ]
       }
     },
@@ -3406,6 +3499,75 @@
       "matchHint": {
         "athleteNames": [
           "DONG Bing-cheng"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T10:30:00+08:00",
+      "disciplineCode": "JUD",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 林真豪/楊勇緯 柔道 女48/52/男60/66公斤級預賽 9/30 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-30T13:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Chen-hao",
+          "YANG Yung-wei"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T15:30:00+08:00",
+      "disciplineCode": "JUD",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 林真豪/楊勇緯 柔道 女48/52/男60/66公斤級預賽 9/30 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-30T18:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Chen-hao",
+          "YANG Yung-wei"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T18:30:00+08:00",
+      "disciplineCode": "DIV",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": false,
+      "title": "亞運 陳百婕/陳百丹 跳水 女子3M跳板決賽 9/30 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-26",
+      "broadcastEndTimeTaipei": "2026-09-30T21:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Barbara",
+          "CHEN Jacqueline"
         ]
       }
     }
