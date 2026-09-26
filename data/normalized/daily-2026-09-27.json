@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T23:14:14.581Z",
+  "generatedAt": "2026-09-26T23:24:22.433Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T23:14:14.388Z",
+      "generatedAt": "2026-09-26T23:24:22.317Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -361,8 +361,12 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "56",
+        "opponent": "57",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -409,8 +413,12 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "59",
+        "opponent": "53",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -455,8 +463,12 @@
       "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -548,11 +560,11 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -577,7 +589,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/EQU/results/O.DRESINDV----------.2Q--.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-26T23-12-06-911Z-1b36f180b26b-451a1436.json"
+              "data/raw/2026-09-26T23-22-14-964Z-1b36f180b26b-e073316f.json"
             ]
           }
         }

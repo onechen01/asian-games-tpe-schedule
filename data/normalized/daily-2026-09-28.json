@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T23:16:15.717Z",
+  "generatedAt": "2026-09-26T23:27:13.751Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-26T23:16:15.563Z",
+      "generatedAt": "2026-09-26T23:27:13.643Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -611,6 +611,53 @@
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
+      "event": "25m Pistol Women Individual",
+      "phase": "25m Pistol Women Individual Qualification",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH3",
+      "locationName": "25m Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHEN Yu-Ju",
+        "CHENG Yen-Ching",
+        "TIEN Chia-Chen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SHO|W.SPW---------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T08:40:00+08:00",
+      "startTimeJst": "2026-09-28T09:40:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
       "event": "25m Pistol Women Team",
       "phase": "25m Pistol Women Team Final",
       "unit": null,
@@ -804,52 +851,6 @@
       "sources": {
         "entries": {
           "eventId": "SHO|M.TRM---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
-      "startTimeJst": "2026-09-28T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Trap Women Individual",
-      "phase": "Trap Women Individual Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "locationCode": "SH5",
-      "locationName": "Shotgun Range",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LIN Yi-Chun",
-        "LIU Wan-Yu"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|W.TRW---------------"
         }
       }
     },
@@ -1631,7 +1632,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-26T23-11-43-917Z-4f89d4a22205-07f22d97.json"
+              "data/raw/2026-09-26T23-21-52-227Z-4f89d4a22205-8319a6bd.json"
             ]
           }
         }
