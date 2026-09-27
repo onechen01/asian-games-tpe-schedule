@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T07:55:12.862Z",
+  "generatedAt": "2026-09-27T08:06:35.472Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T07:55:12.682Z",
+      "generatedAt": "2026-09-27T08:06:35.328Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -23,7 +23,6 @@
           "HBL",
           "HOC",
           "KUR",
-          "SAL",
           "SBL",
           "SHO",
           "SKB",
@@ -39,7 +38,8 @@
           "WPO",
           "BMX",
           "CKT",
-          "PDL"
+          "PDL",
+          "SAL"
         ],
         "allSports": false,
         "selection": {
@@ -118,11 +118,6 @@
               "code": "KUR",
               "date": "2026-09-27",
               "medalDay": true
-            },
-            {
-              "code": "SAL",
-              "date": "2026-09-27",
-              "medalDay": false
             },
             {
               "code": "SBL",
@@ -319,8 +314,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2077,6 +2072,57 @@
       "startTimeTaipei": "2026-09-27T11:00:00+08:00",
       "startTimeJst": "2026-09-27T12:00:00+09:00",
       "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles First Round",
+      "unit": "Men's Doubles First Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "HUANG Tsung-hao",
+        "WU Tung-lin"
+      ],
+      "opponent": "FOMIN Sergey/SULTANOV Khumoyun",
+      "opponentCode": "UZB",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "014",
+      "locationName": "Indoor Court C",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "INTERRUPTED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.R32-.000800--",
+          "id": "TEN:M.DOUBLES-----------.R32-.000800--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T11:00:00+08:00",
+      "startTimeJst": "2026-09-27T12:00:00+09:00",
+      "timeNote": {
         "code": "NOT_BEFORE",
         "clockTaipei": "12:00",
         "raw": "Not Before 13:00"
@@ -2123,57 +2169,6 @@
         "results": {
           "unitId": "W.SINGLES-----------.R32-.000400--",
           "id": "TEN:W.SINGLES-----------.R32-.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T11:00:00+08:00",
-      "startTimeJst": "2026-09-27T12:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles First Round",
-      "unit": "Men's Doubles First Round Match 8",
-      "athletes": [],
-      "athletesEn": [
-        "HUANG Tsung-hao",
-        "WU Tung-lin"
-      ],
-      "opponent": "FOMIN Sergey/SULTANOV Khumoyun",
-      "opponentCode": "UZB",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "014",
-      "locationName": "Indoor Court C",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "INTERRUPTED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DOUBLES-----------.R32-.000800--",
-          "id": "TEN:M.DOUBLES-----------.R32-.000800--"
         }
       }
     },
@@ -3144,8 +3139,12 @@
       "locationName": "Ring 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -3180,18 +3179,18 @@
       "unit": "Match 8",
       "athletes": [],
       "athletesEn": [
-        "WEN Yi-kai",
-        "JHANG Yun-liang",
-        "WANG Ping-hsun",
-        "CHEN Jie-ting",
-        "LIU Yu-lin",
-        "TSAI Pei-chang",
-        "HUANG Jheng-liang",
         "LU Chiang Yao-kai",
         "HUANG Yu-chen",
-        "CHANG Yu-chen",
+        "CHEN Jie-ting",
         "CHUANG Shao-chieh",
-        "CHANG Yu-sheng"
+        "TSAI Pei-chang",
+        "CHANG Yu-chen",
+        "LIU Yu-lin",
+        "CHANG Yu-sheng",
+        "WANG Ping-hsun",
+        "JHANG Yun-liang",
+        "WEN Yi-kai",
+        "HUANG Jheng-liang"
       ],
       "opponent": "People's Republic of China",
       "opponentCode": "CHN",
@@ -4153,13 +4152,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Women's Singles First Round Match 4",
-      "row": "TEN:W.SINGLES-----------.R32-.000400--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Men's Doubles First Round Match 8",
+      "row": "TEN:M.DOUBLES-----------.R32-.000800--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Men's Doubles First Round Match 8",
-      "row": "TEN:M.DOUBLES-----------.R32-.000800--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Women's Singles First Round Match 4",
+      "row": "TEN:W.SINGLES-----------.R32-.000400--"
     },
     {
       "code": "RESULTS_ONLY",

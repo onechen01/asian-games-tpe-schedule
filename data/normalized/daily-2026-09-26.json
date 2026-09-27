@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T07:52:22.009Z",
+  "generatedAt": "2026-09-27T08:03:24.993Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-27T07:52:21.845Z",
+      "generatedAt": "2026-09-27T08:03:24.852Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -257,11 +257,6 @@
               "medalDay": true
             },
             {
-              "code": "SAL",
-              "date": "2026-09-27",
-              "medalDay": false
-            },
-            {
               "code": "SBL",
               "date": "2026-09-27",
               "medalDay": false
@@ -331,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
