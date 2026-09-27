@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T07:08:05.982Z",
+  "generatedAt": "2026-09-27T07:32:02.325Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T07:08:05.811Z",
+      "generatedAt": "2026-09-27T07:32:02.149Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -554,53 +554,6 @@
         "results": {
           "unitId": "W.TEAM9-------------.GP--.000900--",
           "id": "SBL:W.TEAM9-------------.GP--.000900--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T08:30:00+08:00",
-      "startTimeJst": "2026-09-28T09:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Semifinals",
-      "unit": "Mixed Doubles Semifinals Match 2",
-      "athletes": [],
-      "athletesEn": [
-        "YE Hong-Wei",
-        "CHAN Nicole Gonzales"
-      ],
-      "opponent": "JIANG Zhen Bang/WEI Yaxin",
-      "opponentCode": "CHN",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "002",
-      "locationName": "Court 2",
-      "courtSessionChainId": "BDM|2026-09-28|002|X.DOUBLES-----------.SFNL.000200--",
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.SFNL.000200--",
-          "id": "BDM:X.DOUBLES-----------.SFNL.000200--"
         }
       }
     },
@@ -1166,6 +1119,57 @@
       "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T09:30:00+08:00",
       "startTimeJst": "2026-09-28T10:30:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Semifinals",
+      "unit": "Mixed Doubles Semifinals Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "YE Hong-Wei",
+        "CHAN Nicole Gonzales"
+      ],
+      "opponent": "JIANG Zhen Bang/WEI Yaxin",
+      "opponentCode": "CHN",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "courtSessionChainId": "BDM|2026-09-28|002|W.DOUBLES-----------.SFNL.000100--",
+      "courtPredecessorUnitId": "W.DOUBLES-----------.SFNL.000100--",
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.SFNL.000200--",
+          "id": "BDM:X.DOUBLES-----------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:30:00+08:00",
+      "startTimeJst": "2026-09-28T10:30:00+09:00",
       "timeNote": null,
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
@@ -1261,6 +1265,51 @@
         "results": {
           "unitId": "O.PUBGM-------------.FNL-.000300--",
           "id": "ELS:O.PUBGM-------------.FNL-.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "startTimeJst": "2026-09-28T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Qualification Series",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 3,
+      "enteredAthletes": [
+        "WU Tsai-chien"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SAL|M.ILCA7-------------"
         }
       }
     },
@@ -1554,51 +1603,6 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T13:00:00+08:00",
-      "startTimeJst": "2026-09-28T14:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Qualification Series",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "locationCode": "KY2",
-      "locationName": "Racing Area B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "WU Tsai-chien"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SAL|M.ILCA7-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T13:15:00+08:00",
       "startTimeJst": "2026-09-28T14:15:00+09:00",
       "timeNote": null,
@@ -1752,8 +1756,8 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T07-04-20-182Z-10083e55f948-e390acbb.json",
-              "data/raw/2026-09-27T07-04-22-188Z-2ca9198958a0-84a8a3e4.json"
+              "data/raw/2026-09-27T07-28-41-603Z-10083e55f948-06901045.json",
+              "data/raw/2026-09-27T07-28-43-816Z-2ca9198958a0-2e76d758.json"
             ]
           }
         }
@@ -1967,26 +1971,26 @@
       ]
     },
     {
-      "id": "BDM|2026-09-28|002|X.DOUBLES-----------.SFNL.000200--",
+      "id": "BDM|2026-09-28|002|W.DOUBLES-----------.SFNL.000100--",
       "disciplineCode": "BDM",
       "locationCode": "002",
       "locationName": "Court 2",
-      "anchorUnitId": "X.DOUBLES-----------.SFNL.000200--",
+      "anchorUnitId": "W.DOUBLES-----------.SFNL.000100--",
       "anchorTimeKind": "EXACT",
       "anchorTimeTaipei": "2026-09-28T08:30:00+08:00",
       "units": [
         {
-          "unitId": "X.DOUBLES-----------.SFNL.000200--",
-          "unitName": "Mixed Doubles Semifinals Match 2",
+          "unitId": "W.DOUBLES-----------.SFNL.000100--",
+          "unitName": "Women's Doubles Semifinals Match 1",
           "predecessorUnitId": null,
           "timeNoteCode": null,
           "timeKind": "EXACT",
           "timeTaipei": "2026-09-28T08:30:00+08:00"
         },
         {
-          "unitId": "W.DOUBLES-----------.SFNL.000100--",
-          "unitName": "Women's Doubles Semifinals Match 1",
-          "predecessorUnitId": "X.DOUBLES-----------.SFNL.000200--",
+          "unitId": "X.DOUBLES-----------.SFNL.000200--",
+          "unitName": "Mixed Doubles Semifinals Match 2",
+          "predecessorUnitId": "W.DOUBLES-----------.SFNL.000100--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
@@ -1994,7 +1998,7 @@
         {
           "unitId": "W.SINGLES-----------.SFNL.000100--",
           "unitName": "Women's Singles Semifinals Match 1",
-          "predecessorUnitId": "W.DOUBLES-----------.SFNL.000100--",
+          "predecessorUnitId": "X.DOUBLES-----------.SFNL.000200--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
@@ -2056,11 +2060,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 08:30 Mixed Doubles Semifinals Match 2",
-      "row": "BDM:X.DOUBLES-----------.SFNL.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 08:40 Round of 16 Bout 3",
       "row": "KUR:M.81KG--------------.8FNL.000300--"
     },
@@ -2093,6 +2092,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Women Individual - Qualification - Qualification - Day 2",
       "row": "SHO:W.TRW---------------.QUAL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 09:30 Mixed Doubles Semifinals Match 2",
+      "row": "BDM:X.DOUBLES-----------.SFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T07:05:36.548Z",
+  "generatedAt": "2026-09-27T07:29:28.035Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T07:05:36.370Z",
+      "generatedAt": "2026-09-27T07:29:27.857Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2585,7 +2585,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3933,26 +3933,26 @@
       ]
     },
     {
-      "id": "BDM|2026-09-28|002|X.DOUBLES-----------.SFNL.000200--",
+      "id": "BDM|2026-09-28|002|W.DOUBLES-----------.SFNL.000100--",
       "disciplineCode": "BDM",
       "locationCode": "002",
       "locationName": "Court 2",
-      "anchorUnitId": "X.DOUBLES-----------.SFNL.000200--",
+      "anchorUnitId": "W.DOUBLES-----------.SFNL.000100--",
       "anchorTimeKind": "EXACT",
       "anchorTimeTaipei": "2026-09-28T08:30:00+08:00",
       "units": [
         {
-          "unitId": "X.DOUBLES-----------.SFNL.000200--",
-          "unitName": "Mixed Doubles Semifinals Match 2",
+          "unitId": "W.DOUBLES-----------.SFNL.000100--",
+          "unitName": "Women's Doubles Semifinals Match 1",
           "predecessorUnitId": null,
           "timeNoteCode": null,
           "timeKind": "EXACT",
           "timeTaipei": "2026-09-28T08:30:00+08:00"
         },
         {
-          "unitId": "W.DOUBLES-----------.SFNL.000100--",
-          "unitName": "Women's Doubles Semifinals Match 1",
-          "predecessorUnitId": "X.DOUBLES-----------.SFNL.000200--",
+          "unitId": "X.DOUBLES-----------.SFNL.000200--",
+          "unitName": "Mixed Doubles Semifinals Match 2",
+          "predecessorUnitId": "W.DOUBLES-----------.SFNL.000100--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
@@ -3960,7 +3960,7 @@
         {
           "unitId": "W.SINGLES-----------.SFNL.000100--",
           "unitName": "Women's Singles Semifinals Match 1",
-          "predecessorUnitId": "W.DOUBLES-----------.SFNL.000100--",
+          "predecessorUnitId": "X.DOUBLES-----------.SFNL.000200--",
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
