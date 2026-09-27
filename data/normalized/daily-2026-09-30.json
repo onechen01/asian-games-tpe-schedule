@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T10:14:09.794Z",
+  "generatedAt": "2026-09-27T13:11:32.847Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-27T10:14:09.660Z",
+      "generatedAt": "2026-09-27T13:11:32.692Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1091,8 +1091,8 @@
         "WANG Wen-Tsen",
         "YAO Wen-Xuan"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "Thailand",
+      "opponentCode": "THA",
       "venue": "Gifu Prefectural Green Stadium(Gifu)",
       "venueZh": null,
       "locationCode": "001",
@@ -1103,7 +1103,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1132,7 +1132,7 @@
     "resultsOnly": 8,
     "entered": 9,
     "unresolvedTbd": 0,
-    "warnings": 12
+    "warnings": 11
   },
   "warnings": [
     {
@@ -1174,11 +1174,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 13:00 Women Classification-1 (5th-8th) Match 2",
       "row": "HOC:W.TEAM11------------.SF51.000200--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "HOC|W.TEAM11------------",
-      "message": "HOC Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

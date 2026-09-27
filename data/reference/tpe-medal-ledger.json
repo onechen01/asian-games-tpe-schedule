@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-27T06:37:34.029Z",
+  "generatedAt": "2026-09-27T13:17:08.221Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-27T06:37:34.029Z",
+  "standingsUpdatedAt": "2026-09-27T13:17:08.219Z",
   "ledgerCounts": {
-    "gold": 2,
+    "gold": 3,
     "silver": 7,
     "bronze": 18,
-    "total": 27
+    "total": 28
   },
   "officialCounts": {
-    "gold": 2,
+    "gold": 3,
     "silver": 7,
     "bronze": 18,
-    "total": 27
+    "total": 28
   },
   "missing": {
     "gold": 0,
@@ -451,6 +451,22 @@
         "KUO Tzu-ang"
       ],
       "rank": "3"
+    },
+    {
+      "awardId": "ATH|M.HIGHJUMP----------|998221",
+      "medal": "ME_GOLD",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "event": "Men's High Jump",
+      "phase": "Men's High Jump Final",
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T18:45:00+08:00",
+      "resultId": "ATH:M.HIGHJUMP----------.FNL-.000100--",
+      "unitId": "M.HIGHJUMP----------.FNL-.000100--",
+      "athletes": [
+        "FU Chao-hsuan"
+      ],
+      "rank": "1"
     },
     {
       "awardId": "KUR|W.57KG--------------|11632493",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T12:53:47.898Z",
+  "generatedAt": "2026-09-27T13:03:58.046Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-27T12:53:47.765Z",
+      "generatedAt": "2026-09-27T13:03:57.916Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1410,7 +1410,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1610,7 +1610,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2150,7 +2150,7 @@
         "FENG Yi-hsin",
         "KUO Guan-hong"
       ],
-      "opponent": "HUANG Youzheng / LIN Shidong",
+      "opponent": "HUANG Youzheng/LIN Shidong",
       "opponentCode": "CHN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -2165,7 +2165,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2470,56 +2470,6 @@
       "startTimeTaipei": "2026-09-26T16:00:00+08:00",
       "startTimeJst": "2026-09-26T17:00:00+09:00",
       "timeNote": null,
-      "disciplineCode": "WLF",
-      "sportZh": "舉重",
-      "sportEn": "Weightlifting",
-      "event": "Men's 75kg",
-      "phase": "Men's 75kg All Groups",
-      "unit": "Men's 75kg Group A",
-      "athletes": [],
-      "athletesEn": [
-        "CHIANG Tsung-han"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Trade and Industry Center",
-      "venueZh": null,
-      "locationCode": "TIC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "337",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "4",
-      "orgCount": 9,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.75KG--------------.FNL-.A00100--",
-          "id": "WLF:M.75KG--------------.FNL-.A00100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
-      "startTimeJst": "2026-09-26T17:00:00+09:00",
-      "timeNote": null,
       "disciplineCode": "TTE",
       "sportZh": "桌球",
       "sportEn": "Table Tennis",
@@ -2545,7 +2495,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2595,7 +2545,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2612,6 +2562,56 @@
         "results": {
           "unitId": "M.SINGLES-----------.QFNL.000300--",
           "id": "TTE:M.SINGLES-----------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "startTimeJst": "2026-09-26T17:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "sportEn": "Weightlifting",
+      "event": "Men's 75kg",
+      "phase": "Men's 75kg All Groups",
+      "unit": "Men's 75kg Group A",
+      "athletes": [],
+      "athletesEn": [
+        "CHIANG Tsung-han"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Trade and Industry Center",
+      "venueZh": null,
+      "locationCode": "TIC",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "337",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "4",
+      "orgCount": 9,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.75KG--------------.FNL-.A00100--",
+          "id": "WLF:M.75KG--------------.FNL-.A00100--"
         }
       }
     },
@@ -4458,11 +4458,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Men's 75kg Group A",
-      "row": "WLF:M.75KG--------------.FNL-.A00100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 1",
       "row": "TTE:M.SINGLES-----------.QFNL.000100--"
     },
@@ -4470,6 +4465,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 3",
       "row": "TTE:M.SINGLES-----------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WLF 16:00 Men's 75kg Group A",
+      "row": "WLF:M.75KG--------------.FNL-.A00100--"
     },
     {
       "code": "RESULTS_ONLY",
