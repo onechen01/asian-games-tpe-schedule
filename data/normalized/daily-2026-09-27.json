@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T17:53:25.457Z",
+  "generatedAt": "2026-09-27T18:02:40.232Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T17:53:25.340Z",
+      "generatedAt": "2026-09-27T18:02:40.061Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -314,8 +314,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1304,9 +1304,9 @@
       "athletes": [],
       "athletesEn": [
         "HSU Ching-Wen",
+        "WU Chun-Ming",
         "LEE Rang",
-        "GUILLEMOT Yilu Gaston",
-        "WU Chun-Ming"
+        "GUILLEMOT Yilu Gaston"
       ],
       "opponent": "Kyrgyzstan",
       "opponentCode": "KGZ",
@@ -1323,7 +1323,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2494,9 +2494,9 @@
       "athletes": [],
       "athletesEn": [
         "HSU Ching-Wen",
-        "LEE Rang",
+        "WU Chun-Ming",
         "GUILLEMOT Yilu Gaston",
-        "WU Chun-Ming"
+        "LEE Rang"
       ],
       "opponent": "Hong Kong, China",
       "opponentCode": "HKG",
@@ -2513,7 +2513,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
