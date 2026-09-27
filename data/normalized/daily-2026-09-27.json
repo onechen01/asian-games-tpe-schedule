@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T10:48:13.396Z",
+  "generatedAt": "2026-09-27T10:55:57.786Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T10:48:13.215Z",
+      "generatedAt": "2026-09-27T10:55:57.601Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -3316,7 +3316,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "21.02",
         "opponent": null,
@@ -3606,6 +3606,68 @@
         "results": {
           "unitId": "W.JAVELIN-----------.FNL-.000100--",
           "id": "ATH:W.JAVELIN-----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T20:10:00+08:00",
+      "startTimeJst": "2026-09-27T21:10:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Decathlon",
+      "phase": "Men's Decathlon 1500 Metres",
+      "unit": "Men's Decathlon 1500 Metres",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Chen-yu",
+        "CHO Chia-hsuan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DECATH------------.1500.000100--",
+          "id": "ATH:M.DECATH------------.1500.000100--"
         }
       }
     },
@@ -4000,7 +4062,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 62,
+    "resultsOnly": 63,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 64
@@ -4313,6 +4375,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:10 Men's Decathlon 1500 Metres",
+      "row": "ATH:M.DECATH------------.1500.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:12 Men's 4 x 100m Relay Round 1 Heat 1",
       "row": "ATH:M.4X100M------------.RND1.000100--"
     },
@@ -4320,11 +4387,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SRF|W.SHORTBRD----------",
       "message": "SRF Women's Shortboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ATH|M.DECATH------------",
-      "message": "ATH Men's Decathlon 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
