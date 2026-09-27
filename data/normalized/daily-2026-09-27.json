@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T00:04:40.933Z",
+  "generatedAt": "2026-09-27T00:16:00.640Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T00:04:40.743Z",
+      "generatedAt": "2026-09-27T00:16:00.460Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -517,8 +517,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "57",
-        "opponent": "60",
+        "tpe": "175",
+        "opponent": "174",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -569,8 +569,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "60",
-        "opponent": "57",
+        "tpe": "176",
+        "opponent": "172",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -3035,14 +3035,25 @@
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
-        },
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-27|002|M.SINGLES-----------.QFNL.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "M.SINGLES-----------.QFNL.000100--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-27T13:00:00+08:00",
+      "units": [
         {
           "unitId": "M.SINGLES-----------.QFNL.000100--",
           "unitName": "Men's Singles Quarterfinals Match 1",
           "predecessorUnitId": "W.SINGLES-----------.QFNL.000100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-27T13:00:00+08:00"
         }
       ]
     },
