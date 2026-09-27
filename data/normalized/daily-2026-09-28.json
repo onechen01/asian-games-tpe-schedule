@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T05:23:42.894Z",
+  "generatedAt": "2026-09-27T05:40:15.623Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T05:23:42.767Z",
+      "generatedAt": "2026-09-27T05:40:15.488Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -613,9 +613,13 @@
       "sportEn": "Shooting",
       "event": "25m Pistol Women Individual",
       "phase": "25m Pistol Women Individual Qualification",
-      "unit": null,
+      "unit": "25m Pistol Women Individual - Qualification - Qualification Rapid",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHENG Yen-Ching",
+        "CHEN Yu-Ju",
+        "TIEN Chia-Chen"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
@@ -624,29 +628,96 @@
       "locationName": "25m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHENG Yen-Ching",
+          "registration": "13649678",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHEN Yu-Ju",
+          "registration": "13694029",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "TIEN Chia-Chen",
+          "registration": "13656350",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Yu-Ju",
-        "CHENG Yen-Ching",
-        "TIEN Chia-Chen"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SHO|W.SPW---------------"
+        "results": {
+          "unitId": "W.SPW---------------.QUAL.000200--",
+          "id": "SHO:W.SPW---------------.QUAL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T08:40:00+08:00",
+      "startTimeJst": "2026-09-28T09:40:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "25m Pistol Women Team",
+      "phase": "25m Pistol Women Team Final",
+      "unit": "25m Pistol Women Team - Final - Final Rapid",
+      "athletes": [],
+      "athletesEn": [
+        "CHENG Yen-Ching",
+        "TIEN Chia-Chen",
+        "CHEN Yu-Ju"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH3",
+      "locationName": "25m Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 12,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SPTW--------------.FNL-.000200--",
+          "id": "SHO:W.SPTW--------------.FNL-.000200--"
         }
       }
     },
@@ -897,6 +968,54 @@
       "sources": {
         "entries": {
           "eventId": "TEN|W.SINGLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
+      "startTimeJst": "2026-09-28T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Second Round",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "HPT",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 5,
+      "enteredAthletes": [
+        "HO Chenjui",
+        "HSU Yu-hsiou",
+        "LEE Kuan-yi",
+        "WU Tung-lin"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TEN|M.DOUBLES-----------"
         }
       }
     },
@@ -1536,65 +1655,6 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T18:23:00+08:00",
-      "startTimeJst": "2026-09-28T19:23:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Women's 400m Hurdles",
-      "phase": "Women's 400m Hurdles Final",
-      "unit": "Women's 400m Hurdles Final",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "National Stadium",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.400MHURD----------.FNL-.000100--",
-          "id": "ATH:W.400MHURD----------.FNL-.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "W.400MHURD----------.RND1.000100--",
-              "W.400MHURD----------.RND1.000200--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000100--",
-              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000200--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-27T05-20-00-215Z-10083e55f948-0ebf02b9.json",
-              "data/raw/2026-09-27T05-20-02-213Z-2ca9198958a0-5ebbcc4d.json"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T18:33:00+08:00",
       "startTimeJst": "2026-09-28T19:33:00+09:00",
       "timeNote": null,
@@ -1645,8 +1705,8 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.400MHURD----------.RND1.000300--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T05-19-58-213Z-813c4961ab5e-9098bfa4.json",
-              "data/raw/2026-09-27T05-19-59-236Z-9d001ac20f79-aff2f792.json"
+              "data/raw/2026-09-27T05-36-41-284Z-813c4961ab5e-83e530f1.json",
+              "data/raw/2026-09-27T05-36-42-289Z-9d001ac20f79-9bf55837.json"
             ]
           }
         }
@@ -1697,62 +1757,6 @@
           "id": "ATH:M.LONGJUMP----------.FNL-.000100--"
         }
       }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T19:05:00+08:00",
-      "startTimeJst": "2026-09-28T20:05:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's 1500m",
-      "phase": "Men's 1500m Final",
-      "unit": "Men's 1500m Final",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "National Stadium",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.1500M-------------.FNL-.000100--",
-          "id": "ATH:M.1500M-------------.FNL-.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "M.1500M-------------.RND1.000200--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-27T05-16-39-263Z-4f89d4a22205-5a9f1483.json"
-            ]
-          }
-        }
-      }
     }
   ],
   "sessionChains": [],
@@ -1764,7 +1768,7 @@
     "resultsOnly": 24,
     "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 28
+    "warnings": 29
   },
   "warnings": [
     {
@@ -1796,6 +1800,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 08:40 Round of 16 Bout 3",
       "row": "KUR:M.81KG--------------.8FNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:40 25m Pistol Women Individual - Qualification - Qualification Rapid",
+      "row": "SHO:W.SPW---------------.QUAL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:40 25m Pistol Women Team - Final - Final Rapid",
+      "row": "SHO:W.SPTW--------------.FNL-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1869,11 +1883,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:23 Women's 400m Hurdles Final",
-      "row": "ATH:W.400MHURD----------.FNL-.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:33 Men's 400m Hurdles Final",
       "row": "ATH:M.400MHURD----------.FNL-.000100--"
     },
@@ -1881,11 +1890,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:55 Men's Long Jump Final",
       "row": "ATH:M.LONGJUMP----------.FNL-.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:05 Men's 1500m Final",
-      "row": "ATH:M.1500M-------------.FNL-.000100--"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -1901,6 +1905,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.CINDIVID----------",
       "message": "ARC Compound Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SHO|W.SPW---------------",
+      "message": "SHO 25m Pistol Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

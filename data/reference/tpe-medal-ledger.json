@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-27T05:23:44.206Z",
+  "generatedAt": "2026-09-27T05:40:16.878Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-27T05:23:44.203Z",
+  "standingsUpdatedAt": "2026-09-27T05:40:16.875Z",
   "ledgerCounts": {
     "gold": 2,
     "silver": 5,
@@ -458,13 +458,13 @@
       "disciplineCode": "KUR",
       "sportZh": "克拉術",
       "event": "Women -57kg",
-      "phase": "Women -57kg Quarterfinals",
+      "phase": "Women -57kg Semifinals",
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T10:30:00+08:00",
-      "resultId": "KUR:W.57KG--------------.QFNL.000200--",
-      "unitId": "W.57KG--------------.QFNL.000200--",
+      "startTimeTaipei": "2026-09-27T13:00:00+08:00",
+      "resultId": "KUR:W.57KG--------------.SFNL.000100--",
+      "unitId": "W.57KG--------------.SFNL.000100--",
       "athletes": [
-        "LEE Wan-ting"
+        "WANG Pin-chun"
       ],
       "rank": null
     }

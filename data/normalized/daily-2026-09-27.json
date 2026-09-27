@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T05:21:15.617Z",
+  "generatedAt": "2026-09-27T05:37:52.762Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T05:21:15.476Z",
+      "generatedAt": "2026-09-27T05:37:52.619Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -720,7 +720,7 @@
       "locationName": "25m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -1744,14 +1744,14 @@
       "locationName": "Court 3",
       "courtSessionChainId": "BDM|2026-09-27|003|W.DOUBLES-----------.QFNL.000300--",
       "courtPredecessorUnitId": "M.DOUBLES-----------.QFNL.000300--",
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1768,56 +1768,6 @@
         "results": {
           "unitId": "W.SINGLES-----------.QFNL.000400--",
           "id": "BDM:W.SINGLES-----------.QFNL.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T10:30:00+08:00",
-      "startTimeJst": "2026-09-27T11:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "KUR",
-      "sportZh": "克拉術",
-      "sportEn": "Kurash",
-      "event": "Women -57kg",
-      "phase": "Women -57kg Quarterfinals",
-      "unit": "Quarterfinal Bout 2",
-      "athletes": [],
-      "athletesEn": [
-        "LEE Wan-ting"
-      ],
-      "opponent": "QUELINO Charmea",
-      "opponentCode": "PHI",
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "locationCode": "KU2",
-      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "3",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.57KG--------------.QFNL.000200--",
-          "id": "KUR:W.57KG--------------.QFNL.000200--"
         }
       }
     },
@@ -1884,6 +1834,56 @@
         "results": {
           "unitId": "W.TEAM9-------------.GP--.000600--",
           "id": "SBL:W.TEAM9-------------.GP--.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "startTimeJst": "2026-09-27T11:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Quarterfinals",
+      "unit": "Quarterfinal Bout 2",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Wan-ting"
+      ],
+      "opponent": "QUELINO Charmea",
+      "opponentCode": "PHI",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.57KG--------------.QFNL.000200--",
+          "id": "KUR:W.57KG--------------.QFNL.000200--"
         }
       }
     },
@@ -1973,8 +1973,8 @@
         "CHU Chia-en",
         "TSAI Wei-tai",
         "YANG Po-hsiang",
-        "LIN Yu-min",
         "WANG Cheng-hao",
+        "LIN Yu-min",
         "LIU Chih-jung",
         "HSU Siang-sheng",
         "GUO Dinghong",
@@ -1995,10 +1995,10 @@
       "locationName": "Okazaki Chuso Park Baseball Stad.",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "5",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2574,14 +2574,14 @@
       "locationName": "Gifu Prefectural Green Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "3",
         "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2775,14 +2775,14 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "WANG Pin-chun",
           "registration": "11632493",
           "result": "0",
-          "rank": "3",
+          "rank": null,
           "startTimeTaipei": null
         },
         {
@@ -2793,7 +2793,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "3",
+      "tpeRank": null,
       "orgCount": 1,
       "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
@@ -2838,10 +2838,10 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "2",
-        "opponent": "0",
+        "tpe": "5",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2890,9 +2890,9 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "2",
+        "tpe": "6",
         "opponent": "0",
         "source": "results"
       },
@@ -2940,6 +2940,56 @@
       "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "7.43",
+        "opponent": "8.86",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SHORTBRD----------.RND3.000300--",
+          "id": "SRF:W.SHORTBRD----------.RND3.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T14:00:00+08:00",
+      "startTimeJst": "2026-09-27T15:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Final",
+      "unit": "Final",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Wan-ting"
+      ],
+      "opponent": "AGOJONOVA Ibodatkhon",
+      "opponentCode": "UZB",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
@@ -2958,8 +3008,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "W.SHORTBRD----------.RND3.000300--",
-          "id": "SRF:W.SHORTBRD----------.RND3.000300--"
+          "unitId": "W.57KG--------------.FNL-.000100--",
+          "id": "KUR:W.57KG--------------.FNL-.000100--"
         }
       }
     },
@@ -3725,7 +3775,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 59,
+    "resultsOnly": 60,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 66
@@ -3868,13 +3918,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KUR 10:30 Quarterfinal Bout 2",
-      "row": "KUR:W.57KG--------------.QFNL.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:30 Game  6",
+      "row": "SBL:W.TEAM9-------------.GP--.000600--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:30 Game  6",
-      "row": "SBL:W.TEAM9-------------.GP--.000600--"
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 10:30 Quarterfinal Bout 2",
+      "row": "KUR:W.57KG--------------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3978,6 +4028,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 14:00 Final",
+      "row": "KUR:W.57KG--------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:00 Women's 65KG - Quarterfinal",
       "row": "BOX:W.65KG--------------.QFNL.000100--"
     },
@@ -4040,11 +4095,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.RTEAM-------------",
       "message": "ARC Recurve Women's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "KUR|W.57KG--------------",
-      "message": "KUR Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
