@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T13:47:56.093Z",
+  "generatedAt": "2026-09-27T13:57:17.612Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T13:47:55.924Z",
+      "generatedAt": "2026-09-27T13:57:17.443Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1919,7 +1919,12 @@
       "phase": "Men's 4 x 100m Relay Final",
       "unit": "Men's 4 x 100m Relay Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Wen-pu",
+        "HUANG Zuo-jyun",
+        "LAI Po-hsiang",
+        "YANG Chun-han"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1928,11 +1933,11 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1947,19 +1952,7 @@
       "sources": {
         "results": {
           "unitId": "M.4X100M------------.FNL-.000100--",
-          "id": "ATH:M.4X100M------------.FNL-.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "M.4X100M------------.RND1.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.4X100M------------.RND1.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-27T13-45-50-394Z-e2c14a3577e8-6e2628c2.json"
-            ]
-          }
+          "id": "ATH:M.4X100M------------.FNL-.000100--"
         }
       }
     }
