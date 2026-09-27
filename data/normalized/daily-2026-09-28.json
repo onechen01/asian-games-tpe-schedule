@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T04:11:32.020Z",
+  "generatedAt": "2026-09-27T04:43:29.997Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T04:11:31.863Z",
+      "generatedAt": "2026-09-27T04:43:29.863Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -652,53 +652,6 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T08:40:00+08:00",
-      "startTimeJst": "2026-09-28T09:40:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "25m Pistol Women Team",
-      "phase": "25m Pistol Women Team Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "locationCode": "SH3",
-      "locationName": "25m Range",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Yu-Ju",
-        "CHENG Yen-Ching",
-        "TIEN Chia-Chen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|W.SPTW--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T08:50:00+08:00",
       "startTimeJst": "2026-09-28T09:50:00+09:00",
       "timeNote": null,
@@ -817,6 +770,52 @@
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
+      "event": "Trap Men Individual",
+      "phase": "Trap Men Individual Qualification",
+      "unit": "Trap Men Individual - Qualification - Qualification - Day 2",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Kun-Pi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH5",
+      "locationName": "Shotgun Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 19,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TRM---------------.QUAL.000200--",
+          "id": "SHO:M.TRM---------------.QUAL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
+      "startTimeJst": "2026-09-28T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
       "event": "Trap Women Individual",
       "phase": "Trap Women Individual Qualification",
       "unit": "Trap Women Individual - Qualification - Qualification - Day 2",
@@ -868,97 +867,6 @@
         "results": {
           "unitId": "W.TRW---------------.QUAL.000200--",
           "id": "SHO:W.TRW---------------.QUAL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
-      "startTimeJst": "2026-09-28T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Trap Men Individual",
-      "phase": "Trap Men Individual Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "locationCode": "SH5",
-      "locationName": "Shotgun Range",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "YANG Kun-Pi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|M.TRM---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
-      "startTimeJst": "2026-09-28T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "GARLAND Joanna Jessie",
-        "YANG Ya-yi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|W.SINGLES-----------"
         }
       }
     },
@@ -1648,10 +1556,56 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.400MHURD----------.RND1.000300--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T04-09-42-407Z-813c4961ab5e-b61248b1.json",
-              "data/raw/2026-09-27T04-09-43-406Z-9d001ac20f79-8496e27f.json"
+              "data/raw/2026-09-27T04-38-06-676Z-813c4961ab5e-90a2c1ed.json",
+              "data/raw/2026-09-27T04-38-07-669Z-9d001ac20f79-2aa83b53.json"
             ]
           }
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T18:55:00+08:00",
+      "startTimeJst": "2026-09-28T19:55:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Long Jump",
+      "phase": "Men's Long Jump Final",
+      "unit": "Men's Long Jump Final",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yu-tang"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 9,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.LONGJUMP----------.FNL-.000100--",
+          "id": "ATH:M.LONGJUMP----------.FNL-.000100--"
         }
       }
     },
@@ -1705,7 +1659,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T04-03-38-537Z-4f89d4a22205-afe25138.json"
+              "data/raw/2026-09-27T04-35-29-522Z-4f89d4a22205-bd12cd23.json"
             ]
           }
         }
@@ -1718,10 +1672,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 21,
-    "entered": 7,
+    "resultsOnly": 23,
+    "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 25
+    "warnings": 27
   },
   "warnings": [
     {
@@ -1763,6 +1717,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's 1m Springboard Final",
       "row": "DIV:W.1M----------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Men Individual - Qualification - Qualification - Day 2",
+      "row": "SHO:M.TRM---------------.QUAL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1823,6 +1782,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:33 Men's 400m Hurdles Final",
       "row": "ATH:M.400MHURD----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:55 Men's Long Jump Final",
+      "row": "ATH:M.LONGJUMP----------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
