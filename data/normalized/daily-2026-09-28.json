@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T05:03:41.495Z",
+  "generatedAt": "2026-09-27T05:23:42.894Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T05:03:41.317Z",
+      "generatedAt": "2026-09-27T05:23:42.767Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -647,53 +647,6 @@
       "sources": {
         "entries": {
           "eventId": "SHO|W.SPW---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T08:40:00+08:00",
-      "startTimeJst": "2026-09-28T09:40:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "25m Pistol Women Team",
-      "phase": "25m Pistol Women Team Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "locationCode": "SH3",
-      "locationName": "25m Range",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Yu-Ju",
-        "CHENG Yen-Ching",
-        "TIEN Chia-Chen"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|W.SPTW--------------"
         }
       }
     },
@@ -1633,8 +1586,8 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T04-59-36-190Z-10083e55f948-6a28071b.json",
-              "data/raw/2026-09-27T04-59-38-193Z-2ca9198958a0-9f06abca.json"
+              "data/raw/2026-09-27T05-20-00-215Z-10083e55f948-0ebf02b9.json",
+              "data/raw/2026-09-27T05-20-02-213Z-2ca9198958a0-5ebbcc4d.json"
             ]
           }
         }
@@ -1692,8 +1645,8 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.400MHURD----------.RND1.000300--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T04-59-34-191Z-813c4961ab5e-3bf9c1f6.json",
-              "data/raw/2026-09-27T04-59-35-187Z-9d001ac20f79-f969158e.json"
+              "data/raw/2026-09-27T05-19-58-213Z-813c4961ab5e-9098bfa4.json",
+              "data/raw/2026-09-27T05-19-59-236Z-9d001ac20f79-aff2f792.json"
             ]
           }
         }
@@ -1795,7 +1748,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T04-55-35-189Z-4f89d4a22205-09ef2f4b.json"
+              "data/raw/2026-09-27T05-16-39-263Z-4f89d4a22205-5a9f1483.json"
             ]
           }
         }
@@ -1809,7 +1762,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 24,
-    "entered": 6,
+    "entered": 5,
     "unresolvedTbd": 0,
     "warnings": 28
   },

@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-26T15:36:21.794Z",
+  "generatedAt": "2026-09-27T05:23:44.206Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-26T15:36:21.794Z",
+  "standingsUpdatedAt": "2026-09-27T05:23:44.203Z",
   "ledgerCounts": {
     "gold": 2,
     "silver": 5,
-    "bronze": 17,
-    "total": 24
+    "bronze": 18,
+    "total": 25
   },
   "officialCounts": {
     "gold": 2,
     "silver": 5,
-    "bronze": 17,
-    "total": 24
+    "bronze": 18,
+    "total": 25
   },
   "missing": {
     "gold": 0,
@@ -451,6 +451,22 @@
         "KUO Tzu-ang"
       ],
       "rank": "3"
+    },
+    {
+      "awardId": "KUR|W.57KG--------------|11632493",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Quarterfinals",
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "resultId": "KUR:W.57KG--------------.QFNL.000200--",
+      "unitId": "W.57KG--------------.QFNL.000200--",
+      "athletes": [
+        "LEE Wan-ting"
+      ],
+      "rank": null
     }
   ]
 }

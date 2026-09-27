@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T05:01:13.710Z",
+  "generatedAt": "2026-09-27T05:21:15.617Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T05:01:13.509Z",
+      "generatedAt": "2026-09-27T05:21:15.476Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,8 +319,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -790,7 +790,7 @@
       "locationName": "25m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "858-22x",
         "opponent": null,
@@ -1747,7 +1747,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1974,6 +1974,7 @@
         "TSAI Wei-tai",
         "YANG Po-hsiang",
         "LIN Yu-min",
+        "WANG Cheng-hao",
         "LIU Chih-jung",
         "HSU Siang-sheng",
         "GUO Dinghong",
@@ -1984,8 +1985,7 @@
         "KUO Tzu-chuan",
         "WANG Yu-chieh",
         "LIN Yu-li",
-        "HUANG Chieh-han",
-        "WANG Cheng-hao"
+        "HUANG Chieh-han"
       ],
       "opponent": "People's Republic of China",
       "opponentCode": "CHN",
@@ -2576,7 +2576,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
+        "tpe": "3",
         "opponent": "2",
         "source": "results"
       },
@@ -2631,7 +2631,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "5",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2775,27 +2775,27 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "WANG Pin-chun",
           "registration": "11632493",
-          "result": null,
-          "rank": null,
+          "result": "0",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "LEE Wan-ting",
           "registration": "2624547",
-          "result": null,
+          "result": "10",
           "rank": null,
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 1,
-      "tpeMedal": null,
+      "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2838,8 +2838,12 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2886,8 +2890,12 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
