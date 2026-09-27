@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T00:25:16.019Z",
+  "generatedAt": "2026-09-27T00:35:57.794Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T00:25:15.869Z",
+      "generatedAt": "2026-09-27T00:35:57.607Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -618,8 +618,12 @@
       "locationName": "Court 2",
       "courtSessionChainId": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -664,7 +668,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
