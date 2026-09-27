@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T05:40:15.623Z",
+  "generatedAt": "2026-09-27T05:56:11.863Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T05:40:15.488Z",
+      "generatedAt": "2026-09-27T05:56:11.693Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1655,15 +1655,15 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T18:33:00+08:00",
-      "startTimeJst": "2026-09-28T19:33:00+09:00",
+      "startTimeTaipei": "2026-09-28T18:23:00+08:00",
+      "startTimeJst": "2026-09-28T19:23:00+09:00",
       "timeNote": null,
       "disciplineCode": "ATH",
       "sportZh": "田徑",
       "sportEn": "Athletics",
-      "event": "Men's 400m Hurdles",
-      "phase": "Men's 400m Hurdles Final",
-      "unit": "Men's 400m Hurdles Final",
+      "event": "Women's 400m Hurdles",
+      "phase": "Women's 400m Hurdles Final",
+      "unit": "Women's 400m Hurdles Final",
       "athletes": [],
       "athletesEn": [],
       "opponent": null,
@@ -1692,23 +1692,85 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "M.400MHURD----------.FNL-.000100--",
-          "id": "ATH:M.400MHURD----------.FNL-.000100--",
+          "unitId": "W.400MHURD----------.FNL-.000100--",
+          "id": "ATH:W.400MHURD----------.FNL-.000100--",
           "qualification": {
             "kind": "previous-results-qualified",
             "previousUnitIds": [
-              "M.400MHURD----------.RND1.000100--",
-              "M.400MHURD----------.RND1.000300--"
+              "W.400MHURD----------.RND1.000100--",
+              "W.400MHURD----------.RND1.000200--"
             ],
             "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.400MHURD----------.RND1.000100--",
-              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.400MHURD----------.RND1.000300--"
+              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000100--",
+              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T05-36-41-284Z-813c4961ab5e-83e530f1.json",
-              "data/raw/2026-09-27T05-36-42-289Z-9d001ac20f79-9bf55837.json"
+              "data/raw/2026-09-27T05-53-43-153Z-10083e55f948-d03b31bc.json",
+              "data/raw/2026-09-27T05-53-45-146Z-2ca9198958a0-2ccc6764.json"
             ]
           }
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T18:33:00+08:00",
+      "startTimeJst": "2026-09-28T19:33:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 400m Hurdles",
+      "phase": "Men's 400m Hurdles Final",
+      "unit": "Men's 400m Hurdles Final",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chung-wei",
+        "CHEN Jian-rong"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "LIN Chung-wei",
+          "registration": "15982339",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHEN Jian-rong",
+          "registration": "2322618",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.400MHURD----------.FNL-.000100--",
+          "id": "ATH:M.400MHURD----------.FNL-.000100--"
         }
       }
     },
@@ -1757,6 +1819,52 @@
           "id": "ATH:M.LONGJUMP----------.FNL-.000100--"
         }
       }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T19:05:00+08:00",
+      "startTimeJst": "2026-09-28T20:05:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 1500m",
+      "phase": "Men's 1500m Final",
+      "unit": "Men's 1500m Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHIEN Tzu-chieh"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.1500M-------------.FNL-.000100--",
+          "id": "ATH:M.1500M-------------.FNL-.000100--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -1765,10 +1873,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 24,
+    "resultsOnly": 26,
     "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 29
+    "warnings": 31
   },
   "warnings": [
     {
@@ -1883,6 +1991,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:23 Women's 400m Hurdles Final",
+      "row": "ATH:W.400MHURD----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:33 Men's 400m Hurdles Final",
       "row": "ATH:M.400MHURD----------.FNL-.000100--"
     },
@@ -1890,6 +2003,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:55 Men's Long Jump Final",
       "row": "ATH:M.LONGJUMP----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:05 Men's 1500m Final",
+      "row": "ATH:M.1500M-------------.FNL-.000100--"
     },
     {
       "code": "PENDING_LATER_UNITS",
