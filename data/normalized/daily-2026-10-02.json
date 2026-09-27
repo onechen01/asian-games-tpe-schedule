@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T13:16:19.209Z",
+  "generatedAt": "2026-09-27T16:13:23.284Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-27T13:16:19.066Z",
+      "generatedAt": "2026-09-27T16:13:23.100Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1078,6 +1078,52 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:45:00+08:00",
+      "startTimeJst": "2026-10-02T14:45:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BKG",
+      "sportZh": "霹靂舞",
+      "sportEn": "Breaking",
+      "event": "B-Boys",
+      "phase": "B-Boys Pre-Selection",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "locationCode": "SKEF",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 5,
+      "enteredAthletes": [
+        "SUN Chen",
+        "WU Ding-jie"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "BKG|M.INDIVID-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T14:00:00+08:00",
       "startTimeJst": "2026-10-02T15:00:00+09:00",
       "timeNote": null,
@@ -1224,7 +1270,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 2,
-    "entered": 18,
+    "entered": 19,
     "unresolvedTbd": 0,
     "warnings": 3
   },
