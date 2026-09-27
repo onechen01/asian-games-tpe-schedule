@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T12:43:17.582Z",
+  "generatedAt": "2026-09-27T12:53:47.898Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-27T12:43:17.407Z",
+      "generatedAt": "2026-09-27T12:53:47.765Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1028,7 +1028,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1082,7 +1082,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1410,7 +1410,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1610,7 +1610,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1664,7 +1664,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2064,7 +2064,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2150,7 +2150,7 @@
         "FENG Yi-hsin",
         "KUO Guan-hong"
       ],
-      "opponent": "HUANG Youzheng/LIN Shidong",
+      "opponent": "HUANG Youzheng / LIN Shidong",
       "opponentCode": "CHN",
       "venue": "SKY HALL TOYOTA",
       "venueZh": null,
@@ -2165,7 +2165,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2205,7 +2205,7 @@
         "LIN Jhih-Yun",
         "HSU Yin-Hui"
       ],
-      "opponent": "SMAGULOVA Kamila / RAKHMETULLAYEVA Nargiza",
+      "opponent": "SMAGULOVA Kamila/RAKHMETULLAYEVA Nargiza",
       "opponentCode": "KAZ",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2220,7 +2220,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2321,7 +2321,7 @@
         "HSIEH Pei-shan",
         "HUNG En-Tzu"
       ],
-      "opponent": "KULESHOVA Alissa / NAMENOVA Diana",
+      "opponent": "KULESHOVA Alissa/NAMENOVA Diana",
       "opponentCode": "KAZ",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2336,7 +2336,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2376,7 +2376,7 @@
         "YANG Po-Hsuan",
         "LEE Jhe-Huei"
       ],
-      "opponent": "NISHI Hiroki / KUMAGAI Kakeru",
+      "opponent": "NISHI Hiroki/KUMAGAI Kakeru",
       "opponentCode": "JPN",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -2391,7 +2391,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2415,78 +2415,32 @@
       "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T16:00:00+08:00",
       "startTimeJst": "2026-09-26T17:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Quarterfinals",
-      "unit": "Men's Singles Quarterfinals Match 1",
-      "athletes": [],
-      "athletesEn": [
-        "FENG Yi-hsin"
-      ],
-      "opponent": "WANG Chuqin",
-      "opponentCode": "CHN",
-      "venue": "SKY HALL TOYOTA",
-      "venueZh": null,
-      "locationCode": "002",
-      "locationName": "Table 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "4",
-        "source": "results"
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
       },
-      "tpeEntrants": [],
-      "tpeRank": "2",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.QFNL.000100--",
-          "id": "TTE:M.SINGLES-----------.QFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
-      "startTimeJst": "2026-09-26T17:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TTE",
-      "sportZh": "桌球",
-      "sportEn": "Table Tennis",
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
       "event": "Men's Singles",
-      "phase": "Men's Singles Quarterfinals",
-      "unit": "Men's Singles Quarterfinals Match 3",
+      "phase": "Men's Singles 3rd Round",
+      "unit": "Men's Singles 3rd Round Match 6",
       "athletes": [],
       "athletesEn": [
-        "LIN Yun-ju"
+        "CHOU Tien-Chen"
       ],
-      "opponent": "CHAN Baldwin",
-      "opponentCode": "HKG",
-      "venue": "SKY HALL TOYOTA",
+      "opponent": "SHETTY Ayush",
+      "opponentCode": "IND",
+      "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
       "locationCode": "003",
-      "locationName": "Table 3",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
+      "locationName": "Court 3",
+      "courtSessionChainId": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000700--",
+      "courtPredecessorUnitId": "W.DOUBLES-----------.8FNL.000200--",
       "status": "OFFICIAL",
       "result": {
-        "tpe": "4",
+        "tpe": "2",
         "opponent": "1",
         "source": "results"
       },
@@ -2506,8 +2460,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "M.SINGLES-----------.QFNL.000300--",
-          "id": "TTE:M.SINGLES-----------.QFNL.000300--"
+          "unitId": "M.SINGLES-----------.8FNL.000600--",
+          "id": "BDM:M.SINGLES-----------.8FNL.000600--"
         }
       }
     },
@@ -2565,32 +2519,78 @@
       "date": "2026-09-26",
       "startTimeTaipei": "2026-09-26T16:00:00+08:00",
       "startTimeJst": "2026-09-26T17:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
+      "timeNote": null,
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
       "event": "Men's Singles",
-      "phase": "Men's Singles 3rd Round",
-      "unit": "Men's Singles 3rd Round Match 6",
+      "phase": "Men's Singles Quarterfinals",
+      "unit": "Men's Singles Quarterfinals Match 1",
       "athletes": [],
       "athletesEn": [
-        "CHOU Tien-Chen"
+        "FENG Yi-hsin"
       ],
-      "opponent": "SHETTY Ayush",
-      "opponentCode": "IND",
-      "venue": "Ichinomiya City Municipal Gymnasium",
+      "opponent": "WANG Chuqin",
+      "opponentCode": "CHN",
+      "venue": "SKY HALL TOYOTA",
       "venueZh": null,
-      "locationCode": "003",
-      "locationName": "Court 3",
-      "courtSessionChainId": "BDM|2026-09-26|003|M.DOUBLES-----------.8FNL.000700--",
-      "courtPredecessorUnitId": "W.DOUBLES-----------.8FNL.000200--",
+      "locationCode": "002",
+      "locationName": "Table 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
-        "tpe": "2",
+        "tpe": "0",
+        "opponent": "4",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.QFNL.000100--",
+          "id": "TTE:M.SINGLES-----------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T16:00:00+08:00",
+      "startTimeJst": "2026-09-26T17:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "sportEn": "Table Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Quarterfinals",
+      "unit": "Men's Singles Quarterfinals Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yun-ju"
+      ],
+      "opponent": "CHAN Baldwin",
+      "opponentCode": "HKG",
+      "venue": "SKY HALL TOYOTA",
+      "venueZh": null,
+      "locationCode": "003",
+      "locationName": "Table 3",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
         "opponent": "1",
         "source": "results"
       },
@@ -2610,8 +2610,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "M.SINGLES-----------.8FNL.000600--",
-          "id": "BDM:M.SINGLES-----------.8FNL.000600--"
+          "unitId": "M.SINGLES-----------.QFNL.000300--",
+          "id": "TTE:M.SINGLES-----------.QFNL.000300--"
         }
       }
     },
@@ -2704,7 +2704,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3412,205 +3412,6 @@
   ],
   "sessionChains": [
     {
-      "id": "BDM|2026-09-27|001|X.DOUBLES-----------.QFNL.000400--",
-      "disciplineCode": "BDM",
-      "locationCode": "001",
-      "locationName": "Court 1",
-      "anchorUnitId": "X.DOUBLES-----------.QFNL.000400--",
-      "anchorTimeKind": "EXACT",
-      "anchorTimeTaipei": "2026-09-27T08:30:00+08:00",
-      "units": [
-        {
-          "unitId": "X.DOUBLES-----------.QFNL.000400--",
-          "unitName": "Mixed Doubles Quarterfinals Match 4",
-          "predecessorUnitId": null,
-          "timeNoteCode": null,
-          "timeKind": "EXACT",
-          "timeTaipei": "2026-09-27T08:30:00+08:00"
-        },
-        {
-          "unitId": "W.DOUBLES-----------.QFNL.000200--",
-          "unitName": "Women's Doubles Quarterfinals Match 2",
-          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000400--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.DOUBLES-----------.QFNL.000400--",
-          "unitName": "Men's Doubles Quarterfinals Match 4",
-          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000200--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "W.SINGLES-----------.QFNL.000300--",
-          "unitName": "Women's Singles Quarterfinals Match 3",
-          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000400--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.SINGLES-----------.QFNL.000200--",
-          "unitName": "Men's Singles Quarterfinals Match 2",
-          "predecessorUnitId": "W.SINGLES-----------.QFNL.000300--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        }
-      ]
-    },
-    {
-      "id": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
-      "disciplineCode": "BDM",
-      "locationCode": "002",
-      "locationName": "Court 2",
-      "anchorUnitId": "X.DOUBLES-----------.QFNL.000300--",
-      "anchorTimeKind": "EXACT",
-      "anchorTimeTaipei": "2026-09-27T08:30:00+08:00",
-      "units": [
-        {
-          "unitId": "X.DOUBLES-----------.QFNL.000300--",
-          "unitName": "Mixed Doubles Quarterfinals Match 3",
-          "predecessorUnitId": null,
-          "timeNoteCode": null,
-          "timeKind": "EXACT",
-          "timeTaipei": "2026-09-27T08:30:00+08:00"
-        },
-        {
-          "unitId": "W.DOUBLES-----------.QFNL.000100--",
-          "unitName": "Women's Doubles Quarterfinals Match 1",
-          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000300--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.DOUBLES-----------.QFNL.000100--",
-          "unitName": "Men's Doubles Quarterfinals Match 1",
-          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "W.SINGLES-----------.QFNL.000100--",
-          "unitName": "Women's Singles Quarterfinals Match 1",
-          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000100--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        }
-      ]
-    },
-    {
-      "id": "BDM|2026-09-27|002|M.SINGLES-----------.QFNL.000100--",
-      "disciplineCode": "BDM",
-      "locationCode": "002",
-      "locationName": "Court 2",
-      "anchorUnitId": "M.SINGLES-----------.QFNL.000100--",
-      "anchorTimeKind": "LOWER_BOUND",
-      "anchorTimeTaipei": "2026-09-27T13:00:00+08:00",
-      "units": [
-        {
-          "unitId": "M.SINGLES-----------.QFNL.000100--",
-          "unitName": "Men's Singles Quarterfinals Match 1",
-          "predecessorUnitId": "W.SINGLES-----------.QFNL.000100--",
-          "timeNoteCode": "NOT_BEFORE",
-          "timeKind": "LOWER_BOUND",
-          "timeTaipei": "2026-09-27T13:00:00+08:00"
-        }
-      ]
-    },
-    {
-      "id": "BDM|2026-09-27|003|W.DOUBLES-----------.QFNL.000300--",
-      "disciplineCode": "BDM",
-      "locationCode": "003",
-      "locationName": "Court 3",
-      "anchorUnitId": "W.DOUBLES-----------.QFNL.000300--",
-      "anchorTimeKind": "LOWER_BOUND",
-      "anchorTimeTaipei": "2026-09-27T10:30:00+08:00",
-      "units": [
-        {
-          "unitId": "W.DOUBLES-----------.QFNL.000300--",
-          "unitName": "Women's Doubles Quarterfinals Match 3",
-          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000100--",
-          "timeNoteCode": "NOT_BEFORE",
-          "timeKind": "LOWER_BOUND",
-          "timeTaipei": "2026-09-27T10:30:00+08:00"
-        },
-        {
-          "unitId": "M.DOUBLES-----------.QFNL.000300--",
-          "unitName": "Men's Doubles Quarterfinals Match 3",
-          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000300--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "W.SINGLES-----------.QFNL.000400--",
-          "unitName": "Women's Singles Quarterfinals Match 4",
-          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000300--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.SINGLES-----------.QFNL.000400--",
-          "unitName": "Men's Singles Quarterfinals Match 4",
-          "predecessorUnitId": "W.SINGLES-----------.QFNL.000400--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        }
-      ]
-    },
-    {
-      "id": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
-      "disciplineCode": "BDM",
-      "locationCode": "004",
-      "locationName": "Court 4",
-      "anchorUnitId": "W.DOUBLES-----------.QFNL.000400--",
-      "anchorTimeKind": "LOWER_BOUND",
-      "anchorTimeTaipei": "2026-09-27T10:30:00+08:00",
-      "units": [
-        {
-          "unitId": "W.DOUBLES-----------.QFNL.000400--",
-          "unitName": "Women's Doubles Quarterfinals Match 4",
-          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000200--",
-          "timeNoteCode": "NOT_BEFORE",
-          "timeKind": "LOWER_BOUND",
-          "timeTaipei": "2026-09-27T10:30:00+08:00"
-        },
-        {
-          "unitId": "M.DOUBLES-----------.QFNL.000200--",
-          "unitName": "Men's Doubles Quarterfinals Match 2",
-          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000400--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "W.SINGLES-----------.QFNL.000200--",
-          "unitName": "Women's Singles Quarterfinals Match 2",
-          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000200--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        },
-        {
-          "unitId": "M.SINGLES-----------.QFNL.000300--",
-          "unitName": "Men's Singles Quarterfinals Match 3",
-          "predecessorUnitId": "W.SINGLES-----------.QFNL.000200--",
-          "timeNoteCode": "FOLLOWED_BY",
-          "timeKind": "NONE",
-          "timeTaipei": null
-        }
-      ]
-    },
-    {
       "id": "BDM|2026-09-26|001|M.SINGLES-----------.R32-.000300--",
       "disciplineCode": "BDM",
       "locationCode": "001",
@@ -4253,6 +4054,205 @@
           "timeTaipei": null
         }
       ]
+    },
+    {
+      "id": "BDM|2026-09-27|001|X.DOUBLES-----------.QFNL.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "X.DOUBLES-----------.QFNL.000400--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-27T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.QFNL.000400--",
+          "unitName": "Mixed Doubles Quarterfinals Match 4",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-27T08:30:00+08:00"
+        },
+        {
+          "unitId": "W.DOUBLES-----------.QFNL.000200--",
+          "unitName": "Women's Doubles Quarterfinals Match 2",
+          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.QFNL.000400--",
+          "unitName": "Men's Doubles Quarterfinals Match 4",
+          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.QFNL.000300--",
+          "unitName": "Women's Singles Quarterfinals Match 3",
+          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.QFNL.000200--",
+          "unitName": "Men's Singles Quarterfinals Match 2",
+          "predecessorUnitId": "W.SINGLES-----------.QFNL.000300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "X.DOUBLES-----------.QFNL.000300--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-27T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.QFNL.000300--",
+          "unitName": "Mixed Doubles Quarterfinals Match 3",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-27T08:30:00+08:00"
+        },
+        {
+          "unitId": "W.DOUBLES-----------.QFNL.000100--",
+          "unitName": "Women's Doubles Quarterfinals Match 1",
+          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.QFNL.000100--",
+          "unitName": "Men's Doubles Quarterfinals Match 1",
+          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.QFNL.000100--",
+          "unitName": "Women's Singles Quarterfinals Match 1",
+          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-27|002|M.SINGLES-----------.QFNL.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "M.SINGLES-----------.QFNL.000100--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-27T13:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.QFNL.000100--",
+          "unitName": "Men's Singles Quarterfinals Match 1",
+          "predecessorUnitId": "W.SINGLES-----------.QFNL.000100--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-27T13:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-27|003|W.DOUBLES-----------.QFNL.000300--",
+      "disciplineCode": "BDM",
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "anchorUnitId": "W.DOUBLES-----------.QFNL.000300--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.QFNL.000300--",
+          "unitName": "Women's Doubles Quarterfinals Match 3",
+          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000100--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-27T10:30:00+08:00"
+        },
+        {
+          "unitId": "M.DOUBLES-----------.QFNL.000300--",
+          "unitName": "Men's Doubles Quarterfinals Match 3",
+          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.QFNL.000400--",
+          "unitName": "Women's Singles Quarterfinals Match 4",
+          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000300--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.QFNL.000400--",
+          "unitName": "Men's Singles Quarterfinals Match 4",
+          "predecessorUnitId": "W.SINGLES-----------.QFNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
+      "disciplineCode": "BDM",
+      "locationCode": "004",
+      "locationName": "Court 4",
+      "anchorUnitId": "W.DOUBLES-----------.QFNL.000400--",
+      "anchorTimeKind": "LOWER_BOUND",
+      "anchorTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.QFNL.000400--",
+          "unitName": "Women's Doubles Quarterfinals Match 4",
+          "predecessorUnitId": "X.DOUBLES-----------.QFNL.000200--",
+          "timeNoteCode": "NOT_BEFORE",
+          "timeKind": "LOWER_BOUND",
+          "timeTaipei": "2026-09-27T10:30:00+08:00"
+        },
+        {
+          "unitId": "M.DOUBLES-----------.QFNL.000200--",
+          "unitName": "Men's Doubles Quarterfinals Match 2",
+          "predecessorUnitId": "W.DOUBLES-----------.QFNL.000400--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.QFNL.000200--",
+          "unitName": "Women's Singles Quarterfinals Match 2",
+          "predecessorUnitId": "M.DOUBLES-----------.QFNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.QFNL.000300--",
+          "unitName": "Men's Singles Quarterfinals Match 3",
+          "predecessorUnitId": "W.SINGLES-----------.QFNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        }
+      ]
     }
   ],
   "coverageComplete": true,
@@ -4453,13 +4453,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 1",
-      "row": "TTE:M.SINGLES-----------.QFNL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 3",
-      "row": "TTE:M.SINGLES-----------.QFNL.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 16:00 Men's Singles 3rd Round Match 6",
+      "row": "BDM:M.SINGLES-----------.8FNL.000600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -4468,8 +4463,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 16:00 Men's Singles 3rd Round Match 6",
-      "row": "BDM:M.SINGLES-----------.8FNL.000600--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 1",
+      "row": "TTE:M.SINGLES-----------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TTE 16:00 Men's Singles Quarterfinals Match 3",
+      "row": "TTE:M.SINGLES-----------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
