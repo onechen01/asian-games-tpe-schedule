@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T01:41:01.263Z",
+  "generatedAt": "2026-09-27T02:01:23.447Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T01:41:01.083Z",
+      "generatedAt": "2026-09-27T02:01:23.267Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -773,25 +773,25 @@
           "name": "CHENG Yen-Ching",
           "registration": "13649678",
           "result": "286-8x",
-          "rank": "6",
+          "rank": "12",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yu-Ju",
           "registration": "13694029",
-          "result": null,
-          "rank": "11",
+          "result": "46-  0x",
+          "rank": "19",
           "startTimeTaipei": null
         },
         {
           "name": "TIEN Chia-Chen",
           "registration": "13656350",
           "result": null,
-          "rank": "11",
+          "rank": "22",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "6",
+      "tpeRank": "12",
       "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -838,12 +838,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "286-8x",
+        "tpe": "332-8x",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "6",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -887,7 +887,7 @@
       "locationName": "Centro Acuático",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "219.30",
         "opponent": null,
@@ -939,12 +939,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "10",
+        "tpe": "24",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "13",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -994,8 +994,8 @@
         {
           "name": "LIN Yi-Chun",
           "registration": "4305607",
-          "result": "9",
-          "rank": "18",
+          "result": "21",
+          "rank": "14",
           "startTimeTaipei": null
         },
         {
@@ -1006,7 +1006,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "18",
+      "tpeRank": "14",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1107,7 +1107,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1159,7 +1159,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.QFNL.000200--",
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1205,9 +1205,9 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "5",
         "opponent": "0",
         "source": "results"
       },
@@ -1306,7 +1306,7 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1355,8 +1355,12 @@
       "locationName": "Piste 7",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "14",
+        "opponent": "10",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1394,19 +1398,23 @@
         "LI Tsai-chi",
         "TANG Chih-chun"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "Malaysia",
+      "opponentCode": "MAS",
       "venue": null,
       "venueZh": null,
       "locationCode": "OCM",
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1449,8 +1457,12 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "38",
+        "opponent": "40",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1496,7 +1508,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -1623,7 +1635,7 @@
       "locationName": "Court 8",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1689,6 +1701,52 @@
         "results": {
           "unitId": "M.INDVFRST----------.FNL-.000100--",
           "id": "BMF:M.INDVFRST----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:20:00+08:00",
+      "startTimeJst": "2026-09-27T11:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Quarterfinals",
+      "unit": "Quarterfinal Bout 1",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Pin-chun"
+      ],
+      "opponent": "AZARPEIVAND Tahereh",
+      "opponentCode": "IRI",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.57KG--------------.QFNL.000100--",
+          "id": "KUR:W.57KG--------------.QFNL.000100--"
         }
       }
     },
@@ -1766,7 +1824,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [
         {
@@ -3380,10 +3438,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 54,
+    "resultsOnly": 55,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 65
+    "warnings": 66
   },
   "warnings": [
     {
@@ -3510,6 +3568,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BMF 10:15 Men's Park Final",
       "row": "BMF:M.INDVFRST----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 10:20 Quarterfinal Bout 1",
+      "row": "KUR:W.57KG--------------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3673,13 +3736,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "KUR|W.57KG--------------",
-      "message": "KUR Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "ARC|X.CTEAM2------------",
+      "message": "ARC Compound Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "ARC|X.CTEAM2------------",
-      "message": "ARC Compound Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "KUR|W.57KG--------------",
+      "message": "KUR Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
