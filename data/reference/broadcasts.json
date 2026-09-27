@@ -3141,7 +3141,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-27T13:50:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-27T13:56:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -3211,7 +3211,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-27T11:55:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-27T12:02:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -3419,7 +3419,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-28T09:55:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -3477,7 +3477,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-28T11:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-28T10:55:00+08:00",
       "disciplineCode": "TTE",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
@@ -3521,7 +3521,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-28T16:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-28T15:55:00+08:00",
       "disciplineCode": "BOX",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
