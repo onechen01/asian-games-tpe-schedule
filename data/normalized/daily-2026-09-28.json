@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T06:27:18.708Z",
+  "generatedAt": "2026-09-27T06:37:32.726Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T06:27:18.537Z",
+      "generatedAt": "2026-09-27T06:37:32.562Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -554,6 +554,53 @@
         "results": {
           "unitId": "W.TEAM9-------------.GP--.000900--",
           "id": "SBL:W.TEAM9-------------.GP--.000900--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T08:30:00+08:00",
+      "startTimeJst": "2026-09-28T09:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Semifinals",
+      "unit": "Mixed Doubles Semifinals Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "YE Hong-Wei",
+        "CHAN Nicole Gonzales"
+      ],
+      "opponent": "JIANG Zhen Bang/WEI Yaxin",
+      "opponentCode": "CHN",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "courtSessionChainId": "BDM|2026-09-28|002|X.DOUBLES-----------.SFNL.000200--",
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.SFNL.000200--",
+          "id": "BDM:X.DOUBLES-----------.SFNL.000200--"
         }
       }
     },
@@ -1705,8 +1752,8 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T06-23-59-200Z-10083e55f948-22ed53bd.json",
-              "data/raw/2026-09-27T06-24-01-200Z-2ca9198958a0-e73af201.json"
+              "data/raw/2026-09-27T06-35-08-020Z-10083e55f948-0a1d1d53.json",
+              "data/raw/2026-09-27T06-35-10-019Z-2ca9198958a0-ff99da3c.json"
             ]
           }
         }
@@ -1867,16 +1914,55 @@
       }
     }
   ],
-  "sessionChains": [],
+  "sessionChains": [
+    {
+      "id": "BDM|2026-09-28|001|X.DOUBLES-----------.SFNL.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "X.DOUBLES-----------.SFNL.000100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-28T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.SFNL.000100--",
+          "unitName": "Mixed Doubles Semifinals Match 1",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-28T08:30:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-28|002|X.DOUBLES-----------.SFNL.000200--",
+      "disciplineCode": "BDM",
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "anchorUnitId": "X.DOUBLES-----------.SFNL.000200--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-28T08:30:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.SFNL.000200--",
+          "unitName": "Mixed Doubles Semifinals Match 2",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-28T08:30:00+08:00"
+        }
+      ]
+    }
+  ],
   "coverageComplete": true,
   "officialNoCompetition": false,
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 26,
+    "resultsOnly": 27,
     "entered": 5,
     "unresolvedTbd": 0,
-    "warnings": 31
+    "warnings": 32
   },
   "warnings": [
     {
@@ -1903,6 +1989,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 08:00 Game  9",
       "row": "SBL:W.TEAM9-------------.GP--.000900--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 08:30 Mixed Doubles Semifinals Match 2",
+      "row": "BDM:X.DOUBLES-----------.SFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",

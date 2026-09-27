@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-27T06:18:19.206Z",
+  "generatedAt": "2026-09-27T06:37:34.029Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-27T06:18:19.206Z",
+  "standingsUpdatedAt": "2026-09-27T06:37:34.029Z",
   "ledgerCounts": {
     "gold": 2,
-    "silver": 6,
+    "silver": 7,
     "bronze": 18,
-    "total": 26
+    "total": 27
   },
   "officialCounts": {
     "gold": 2,
-    "silver": 6,
+    "silver": 7,
     "bronze": 18,
-    "total": 26
+    "total": 27
   },
   "missing": {
     "gold": 0,
@@ -483,6 +483,22 @@
         "LEE Wan-ting"
       ],
       "rank": null
+    },
+    {
+      "awardId": "WLF|W.69KG--------------|696828",
+      "medal": "ME_SILVER",
+      "disciplineCode": "WLF",
+      "sportZh": "舉重",
+      "event": "Women's 69kg",
+      "phase": "Women's 69kg All Groups",
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T12:30:00+08:00",
+      "resultId": "WLF:W.69KG--------------.FNL-.A00100--",
+      "unitId": "W.69KG--------------.FNL-.A00100--",
+      "athletes": [
+        "CHEN Wen-huei"
+      ],
+      "rank": "2"
     }
   ]
 }
