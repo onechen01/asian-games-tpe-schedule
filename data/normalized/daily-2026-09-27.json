@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T07:29:28.035Z",
+  "generatedAt": "2026-09-27T07:46:36.354Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T07:29:27.857Z",
+      "generatedAt": "2026-09-27T07:46:36.184Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2128,61 +2128,6 @@
     },
     {
       "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T11:00:00+08:00",
-      "startTimeJst": "2026-09-27T12:00:00+09:00",
-      "timeNote": {
-        "code": "NOT_BEFORE",
-        "clockTaipei": "11:00",
-        "raw": "Not Before 12:00"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles First Round",
-      "unit": "Men's Doubles First Round Match 8",
-      "athletes": [],
-      "athletesEn": [
-        "HUANG Tsung-hao",
-        "WU Tung-lin"
-      ],
-      "opponent": "FOMIN Sergey/SULTANOV Khumoyun",
-      "opponentCode": "UZB",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "Center Court",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "1",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DOUBLES-----------.R32-.000800--",
-          "id": "TEN:M.DOUBLES-----------.R32-.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T11:05:00+08:00",
       "startTimeJst": "2026-09-27T12:05:00+09:00",
       "timeNote": null,
@@ -2814,6 +2759,57 @@
         "results": {
           "unitId": "W.57KG--------------.SFNL.000100--",
           "id": "KUR:W.57KG--------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T13:00:00+08:00",
+      "startTimeJst": "2026-09-27T14:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles First Round",
+      "unit": "Men's Doubles First Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "HUANG Tsung-hao",
+        "WU Tung-lin"
+      ],
+      "opponent": "FOMIN Sergey/SULTANOV Khumoyun",
+      "opponentCode": "UZB",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "012",
+      "locationName": "Indoor Court A",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "INTERRUPTED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.R32-.000800--",
+          "id": "TEN:M.DOUBLES-----------.R32-.000800--"
         }
       }
     },
@@ -4162,11 +4158,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Men's Doubles First Round Match 8",
-      "row": "TEN:M.DOUBLES-----------.R32-.000800--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 11:05 Men's 400m Hurdles Round 1 Heat 1",
       "row": "ATH:M.400MHURD----------.RND1.000100--"
     },
@@ -4224,6 +4215,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 13:00 Semifinal Bout 1",
       "row": "KUR:W.57KG--------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Men's Doubles First Round Match 8",
+      "row": "TEN:M.DOUBLES-----------.R32-.000800--"
     },
     {
       "code": "RESULTS_ONLY",

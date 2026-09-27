@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T07:32:02.325Z",
+  "generatedAt": "2026-09-27T07:49:05.270Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T07:32:02.149Z",
+      "generatedAt": "2026-09-27T07:49:05.092Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1756,8 +1756,8 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T07-28-41-603Z-10083e55f948-06901045.json",
-              "data/raw/2026-09-27T07-28-43-816Z-2ca9198958a0-2e76d758.json"
+              "data/raw/2026-09-27T07-45-50-185Z-10083e55f948-0e09388b.json",
+              "data/raw/2026-09-27T07-45-52-190Z-2ca9198958a0-2b35dc1c.json"
             ]
           }
         }
