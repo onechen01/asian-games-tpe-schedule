@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T04:43:29.997Z",
+  "generatedAt": "2026-09-27T05:03:41.495Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T04:43:29.863Z",
+      "generatedAt": "2026-09-27T05:03:41.317Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -652,6 +652,53 @@
     },
     {
       "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T08:40:00+08:00",
+      "startTimeJst": "2026-09-28T09:40:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "25m Pistol Women Team",
+      "phase": "25m Pistol Women Team Final",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH3",
+      "locationName": "25m Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHEN Yu-Ju",
+        "CHENG Yen-Ching",
+        "TIEN Chia-Chen"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SHO|W.SPTW--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T08:50:00+08:00",
       "startTimeJst": "2026-09-28T09:50:00+09:00",
       "timeNote": null,
@@ -713,8 +760,7 @@
       "unit": "Women's 1m Springboard Final",
       "athletes": [],
       "athletesEn": [
-        "CHEN Jacqueline",
-        "CHEN Barbara"
+        "CHEN Jacqueline"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -726,22 +772,7 @@
       "courtPredecessorUnitId": null,
       "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "CHEN Jacqueline",
-          "registration": "7958609",
-          "result": null,
-          "rank": null,
-          "startTimeTaipei": null
-        },
-        {
-          "name": "CHEN Barbara",
-          "registration": "14561657",
-          "result": null,
-          "rank": null,
-          "startTimeTaipei": null
-        }
-      ],
+      "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
       "tpeMedal": null,
@@ -867,6 +898,52 @@
         "results": {
           "unitId": "W.TRW---------------.QUAL.000200--",
           "id": "SHO:W.TRW---------------.QUAL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
+      "startTimeJst": "2026-09-28T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Second Round",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "HPT",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 6,
+      "enteredAthletes": [
+        "GARLAND Joanna Jessie",
+        "YANG Ya-yi"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TEN|W.SINGLES-----------"
         }
       }
     },
@@ -1506,6 +1583,65 @@
     },
     {
       "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T18:23:00+08:00",
+      "startTimeJst": "2026-09-28T19:23:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 400m Hurdles",
+      "phase": "Women's 400m Hurdles Final",
+      "unit": "Women's 400m Hurdles Final",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.400MHURD----------.FNL-.000100--",
+          "id": "ATH:W.400MHURD----------.FNL-.000100--",
+          "qualification": {
+            "kind": "previous-results-qualified",
+            "previousUnitIds": [
+              "W.400MHURD----------.RND1.000100--",
+              "W.400MHURD----------.RND1.000200--"
+            ],
+            "urls": [
+              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000100--",
+              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000200--"
+            ],
+            "rawFiles": [
+              "data/raw/2026-09-27T04-59-36-190Z-10083e55f948-6a28071b.json",
+              "data/raw/2026-09-27T04-59-38-193Z-2ca9198958a0-9f06abca.json"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T18:33:00+08:00",
       "startTimeJst": "2026-09-28T19:33:00+09:00",
       "timeNote": null,
@@ -1556,8 +1692,8 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.400MHURD----------.RND1.000300--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T04-38-06-676Z-813c4961ab5e-90a2c1ed.json",
-              "data/raw/2026-09-27T04-38-07-669Z-9d001ac20f79-2aa83b53.json"
+              "data/raw/2026-09-27T04-59-34-191Z-813c4961ab5e-3bf9c1f6.json",
+              "data/raw/2026-09-27T04-59-35-187Z-9d001ac20f79-f969158e.json"
             ]
           }
         }
@@ -1659,7 +1795,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T04-35-29-522Z-4f89d4a22205-bd12cd23.json"
+              "data/raw/2026-09-27T04-55-35-189Z-4f89d4a22205-09ef2f4b.json"
             ]
           }
         }
@@ -1672,10 +1808,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 23,
-    "entered": 4,
+    "resultsOnly": 24,
+    "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 27
+    "warnings": 28
   },
   "warnings": [
     {
@@ -1777,6 +1913,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：VVO 18:00 Match 16",
       "row": "VVO:M.TEAM6-------------.GPD-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:23 Women's 400m Hurdles Final",
+      "row": "ATH:W.400MHURD----------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T03:47:26.100Z",
+  "generatedAt": "2026-09-27T05:01:13.710Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T03:47:25.908Z",
+      "generatedAt": "2026-09-27T05:01:13.509Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -317,188 +317,7 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T07:00:00+08:59",
-            "recoveredStartTime": "2026-09-27T07:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T07:28:00+08:59",
-            "recoveredStartTime": "2026-09-27T07:28:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T07:56:00+08:59",
-            "recoveredStartTime": "2026-09-27T07:56:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T08:24:00+08:59",
-            "recoveredStartTime": "2026-09-27T08:24:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T08:52:00+08:59",
-            "recoveredStartTime": "2026-09-27T08:52:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T09:20:00+08:59",
-            "recoveredStartTime": "2026-09-27T09:20:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T09:48:00+08:59",
-            "recoveredStartTime": "2026-09-27T09:48:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T10:16:00+08:59",
-            "recoveredStartTime": "2026-09-27T10:16:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T10:44:00+08:59",
-            "recoveredStartTime": "2026-09-27T10:44:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T11:12:00+08:59",
-            "recoveredStartTime": "2026-09-27T11:12:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T11:40:00+08:59",
-            "recoveredStartTime": "2026-09-27T11:40:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T12:08:00+08:59",
-            "recoveredStartTime": "2026-09-27T12:08:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T13:30:00+08:59",
-            "recoveredStartTime": "2026-09-27T13:30:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T13:58:00+08:59",
-            "recoveredStartTime": "2026-09-27T13:58:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T14:26:00+08:59",
-            "recoveredStartTime": "2026-09-27T14:26:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T14:54:00+08:59",
-            "recoveredStartTime": "2026-09-27T14:54:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T15:22:00+08:59",
-            "recoveredStartTime": "2026-09-27T15:22:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T15:50:00+08:59",
-            "recoveredStartTime": "2026-09-27T15:50:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T16:18:00+08:59",
-            "recoveredStartTime": "2026-09-27T16:18:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T16:46:00+08:59",
-            "recoveredStartTime": "2026-09-27T16:46:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
           "initialMissing": 3,
           "recovered": 3,
@@ -542,7 +361,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "231",
         "opponent": "220",
@@ -594,7 +413,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "236",
         "opponent": "227",
@@ -624,7 +443,7 @@
     {
       "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T07:24:00+08:00",
-      "startTimeJst": "2026-09-27T08:24:00+08:59",
+      "startTimeJst": "2026-09-27T08:24:00+09:00",
       "timeNote": null,
       "disciplineCode": "SRF",
       "sportZh": "衝浪",
@@ -901,32 +720,32 @@
       "locationName": "25m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "CHENG Yen-Ching",
           "registration": "13649678",
           "result": "286-8x",
-          "rank": "14",
+          "rank": "17",
           "startTimeTaipei": null
         },
         {
           "name": "TIEN Chia-Chen",
           "registration": "13656350",
           "result": "286-8x",
-          "rank": "15",
+          "rank": "18",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yu-Ju",
           "registration": "13694029",
           "result": "286-6x",
-          "rank": "16",
+          "rank": "19",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "14",
+      "tpeRank": "17",
       "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -971,14 +790,14 @@
       "locationName": "25m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "858-22x",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "4",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1072,14 +891,14 @@
       "locationName": "Shotgun Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "48",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "4",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1123,7 +942,7 @@
       "locationName": "Shotgun Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -1399,10 +1218,10 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "0",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1553,14 +1372,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "7",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1720,14 +1539,14 @@
       "locationName": "Court 8",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1871,7 +1690,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "6",
@@ -1925,8 +1744,12 @@
       "locationName": "Court 3",
       "courtSessionChainId": "BDM|2026-09-27|003|W.DOUBLES-----------.QFNL.000300--",
       "courtPredecessorUnitId": "M.DOUBLES-----------.QFNL.000300--",
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2037,7 +1860,7 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "10",
         "opponent": "1",
@@ -2140,9 +1963,11 @@
       "athletes": [],
       "athletesEn": [
         "CHEN Chen-wei",
+        "YANG Chen-yu",
         "CHEN Hsiao-yun",
         "HUANG Wei-sheng",
         "LIU Ji-hong",
+        "LI I-wei",
         "CHEN Min-sih",
         "KAO Yu-wei",
         "CHU Chia-en",
@@ -2152,17 +1977,15 @@
         "LIU Chih-jung",
         "HSU Siang-sheng",
         "GUO Dinghong",
-        "LIN Yu-li",
-        "HUANG Chieh-han",
-        "WANG Cheng-hao",
-        "YANG Chen-yu",
         "CHANG Hsiang",
         "WANG Yan-cheng",
         "LIN Yi-wei",
         "YU Tsung-ju",
         "KUO Tzu-chuan",
-        "LI I-wei",
-        "WANG Yu-chieh"
+        "WANG Yu-chieh",
+        "LIN Yu-li",
+        "HUANG Chieh-han",
+        "WANG Cheng-hao"
       ],
       "opponent": "People's Republic of China",
       "opponentCode": "CHN",
@@ -2174,7 +1997,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "2",
+        "tpe": "5",
         "opponent": "0",
         "source": "results"
       },
@@ -2255,8 +2078,8 @@
       "startTimeJst": "2026-09-27T12:00:00+09:00",
       "timeNote": {
         "code": "NOT_BEFORE",
-        "clockTaipei": "11:00",
-        "raw": "Not Before 12:00"
+        "clockTaipei": "12:00",
+        "raw": "Not Before 13:00"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -2272,14 +2095,18 @@
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "locationCode": "010",
-      "locationName": "Court 8",
+      "locationCode": "009",
+      "locationName": "Court 7",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2319,7 +2146,7 @@
         "HUANG Tsung-hao",
         "WU Tung-lin"
       ],
-      "opponent": "FOMIN Sergey / SULTANOV Khumoyun",
+      "opponent": "FOMIN Sergey/SULTANOV Khumoyun",
       "opponentCode": "UZB",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2329,7 +2156,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -2577,14 +2404,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "7.68",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2627,7 +2454,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "56.57",
         "opponent": null,
@@ -2680,10 +2507,14 @@
       "locationName": "Green",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "40",
+        "opponent": "45",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2743,8 +2574,12 @@
       "locationName": "Gifu Prefectural Green Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2789,10 +2624,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "4.20",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2835,10 +2674,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "4.50",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2881,8 +2724,12 @@
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 10,
@@ -2928,7 +2775,7 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [
         {
@@ -3065,7 +2912,7 @@
     {
       "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T13:26:00+08:00",
-      "startTimeJst": "2026-09-27T14:26:00+08:59",
+      "startTimeJst": "2026-09-27T14:26:00+09:00",
       "timeNote": null,
       "disciplineCode": "SRF",
       "sportZh": "衝浪",
@@ -3085,7 +2932,7 @@
       "locationName": "Pacific Long Beach (Tahara, Aichi, Japan)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -4183,11 +4030,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "ELS|O.PKU---------------",
-      "message": "ELS MOBA [Pokémon UNITE] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.RTEAM-------------",
       "message": "ARC Recurve Women's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -4195,6 +4037,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "KUR|W.57KG--------------",
       "message": "KUR Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ELS|O.PKU---------------",
+      "message": "ELS MOBA [Pokémon UNITE] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
