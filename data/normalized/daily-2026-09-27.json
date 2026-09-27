@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T08:35:15.382Z",
+  "generatedAt": "2026-09-27T08:45:53.423Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T08:35:15.204Z",
+      "generatedAt": "2026-09-27T08:45:53.305Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -314,8 +314,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1541,7 +1541,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2087,7 +2087,7 @@
         "HUANG Tsung-hao",
         "WU Tung-lin"
       ],
-      "opponent": "FOMIN Sergey/SULTANOV Khumoyun",
+      "opponent": "FOMIN Sergey / SULTANOV Khumoyun",
       "opponentCode": "UZB",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2098,7 +2098,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "1",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2156,7 +2156,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
