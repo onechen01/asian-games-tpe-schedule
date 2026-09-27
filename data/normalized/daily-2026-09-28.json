@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T06:37:32.726Z",
+  "generatedAt": "2026-09-27T06:48:31.357Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T06:37:32.562Z",
+      "generatedAt": "2026-09-27T06:48:31.221Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1752,8 +1752,8 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/W.400MHURD----------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T06-35-08-020Z-10083e55f948-0a1d1d53.json",
-              "data/raw/2026-09-27T06-35-10-019Z-2ca9198958a0-ff99da3c.json"
+              "data/raw/2026-09-27T06-46-06-820Z-10083e55f948-8df68c46.json",
+              "data/raw/2026-09-27T06-46-08-824Z-2ca9198958a0-b5828280.json"
             ]
           }
         }
@@ -1931,6 +1931,38 @@
           "timeNoteCode": null,
           "timeKind": "EXACT",
           "timeTaipei": "2026-09-28T08:30:00+08:00"
+        },
+        {
+          "unitId": "W.DOUBLES-----------.SFNL.000200--",
+          "unitName": "Women's Doubles Semifinals Match 2",
+          "predecessorUnitId": "X.DOUBLES-----------.SFNL.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.SFNL.000100--",
+          "unitName": "Men's Doubles Semifinals Match 1",
+          "predecessorUnitId": "W.DOUBLES-----------.SFNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.SFNL.000200--",
+          "unitName": "Women's Singles Semifinals Match 2",
+          "predecessorUnitId": "M.DOUBLES-----------.SFNL.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.SFNL.000200--",
+          "unitName": "Men's Singles Semifinals Match 2",
+          "predecessorUnitId": "W.SINGLES-----------.SFNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
         }
       ]
     },
@@ -1950,6 +1982,38 @@
           "timeNoteCode": null,
           "timeKind": "EXACT",
           "timeTaipei": "2026-09-28T08:30:00+08:00"
+        },
+        {
+          "unitId": "W.DOUBLES-----------.SFNL.000100--",
+          "unitName": "Women's Doubles Semifinals Match 1",
+          "predecessorUnitId": "X.DOUBLES-----------.SFNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "W.SINGLES-----------.SFNL.000100--",
+          "unitName": "Women's Singles Semifinals Match 1",
+          "predecessorUnitId": "W.DOUBLES-----------.SFNL.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.SFNL.000200--",
+          "unitName": "Men's Doubles Semifinals Match 2",
+          "predecessorUnitId": "W.SINGLES-----------.SFNL.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.SINGLES-----------.SFNL.000100--",
+          "unitName": "Men's Singles Semifinals Match 1",
+          "predecessorUnitId": "M.DOUBLES-----------.SFNL.000200--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
         }
       ]
     }
