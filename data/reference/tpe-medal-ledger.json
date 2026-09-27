@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-27T13:17:08.221Z",
+  "generatedAt": "2026-09-27T13:37:58.783Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-27T13:17:08.219Z",
+  "standingsUpdatedAt": "2026-09-27T13:37:58.783Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 7,
-    "bronze": 18,
-    "total": 28
+    "bronze": 19,
+    "total": 29
   },
   "officialCounts": {
     "gold": 3,
     "silver": 7,
-    "bronze": 18,
-    "total": 28
+    "bronze": 19,
+    "total": 29
   },
   "missing": {
     "gold": 0,
@@ -467,6 +467,45 @@
         "FU Chao-hsuan"
       ],
       "rank": "1"
+    },
+    {
+      "awardId": "BBL|M.TEAM9-------------|BBLMTEAM9------TPE01",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "BBL",
+      "sportZh": "棒球",
+      "event": "Baseball Men",
+      "phase": "Men’s Finals",
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T11:00:00+08:00",
+      "resultId": "BBL:M.TEAM9-------------.FNL-.000200--",
+      "unitId": "M.TEAM9-------------.FNL-.000200--",
+      "athletes": [
+        "YU Tsung-ju",
+        "HUANG Chieh-han",
+        "YANG Po-hsiang",
+        "GUO Dinghong",
+        "HSU Siang-sheng",
+        "LIU Chih-jung",
+        "WANG Yu-chieh",
+        "TSAI Wei-tai",
+        "CHANG Hsiang",
+        "WANG Yan-cheng",
+        "LIN Yi-wei",
+        "KUO Tzu-chuan",
+        "LI I-wei",
+        "KAO Yu-wei",
+        "CHEN Min-sih",
+        "LIN Yu-li",
+        "LIU Ji-hong",
+        "CHEN Chen-wei",
+        "WANG Cheng-hao",
+        "YANG Chen-yu",
+        "CHEN Hsiao-yun",
+        "HUANG Wei-sheng",
+        "LIN Yu-min",
+        "CHU Chia-en"
+      ],
+      "rank": null
     },
     {
       "awardId": "KUR|W.57KG--------------|11632493",
