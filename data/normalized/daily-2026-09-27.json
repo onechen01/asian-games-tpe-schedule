@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T12:34:26.487Z",
+  "generatedAt": "2026-09-27T12:46:05.938Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T12:34:26.305Z",
+      "generatedAt": "2026-09-27T12:46:05.760Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -314,8 +314,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -3204,7 +3204,7 @@
       "locationName": "Park Arena Komaki",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "3",
@@ -3366,7 +3366,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "2.25",
         "opponent": null,
@@ -3691,7 +3691,12 @@
       "phase": "Men's 4 x 100m Relay Round 1",
       "unit": "Men's 4 x 100m Relay Round 1 Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LAI Po-hsiang",
+        "CHEN Wen-pu",
+        "HUANG Zuo-jyun",
+        "YANG Chun-han"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
