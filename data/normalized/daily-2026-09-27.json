@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T10:06:16.301Z",
+  "generatedAt": "2026-09-27T10:33:00.000Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T10:06:16.158Z",
+      "generatedAt": "2026-09-27T10:32:59.827Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -314,8 +314,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1541,7 +1541,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2087,7 +2087,7 @@
         "HUANG Tsung-hao",
         "WU Tung-lin"
       ],
-      "opponent": "FOMIN Sergey/SULTANOV Khumoyun",
+      "opponent": "FOMIN Sergey / SULTANOV Khumoyun",
       "opponentCode": "UZB",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2102,7 +2102,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2156,7 +2156,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3183,18 +3183,18 @@
       "unit": "Match 8",
       "athletes": [],
       "athletesEn": [
-        "WEN Yi-kai",
-        "JHANG Yun-liang",
-        "WANG Ping-hsun",
-        "CHEN Jie-ting",
-        "LIU Yu-lin",
-        "TSAI Pei-chang",
-        "HUANG Jheng-liang",
         "LU Chiang Yao-kai",
         "HUANG Yu-chen",
-        "CHANG Yu-chen",
+        "CHEN Jie-ting",
         "CHUANG Shao-chieh",
-        "CHANG Yu-sheng"
+        "TSAI Pei-chang",
+        "CHANG Yu-chen",
+        "LIU Yu-lin",
+        "CHANG Yu-sheng",
+        "WANG Ping-hsun",
+        "JHANG Yun-liang",
+        "WEN Yi-kai",
+        "HUANG Jheng-liang"
       ],
       "opponent": "People's Republic of China",
       "opponentCode": "CHN",
@@ -3207,7 +3207,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -3261,19 +3261,19 @@
         {
           "name": "CHO Chia-hsuan",
           "registration": "5038063",
-          "result": null,
-          "rank": null,
+          "result": "61.94",
+          "rank": "2",
           "startTimeTaipei": null
         },
         {
           "name": "WANG Chen-yu",
           "registration": "5036850",
-          "result": null,
-          "rank": null,
+          "result": "59.81",
+          "rank": "3",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3316,7 +3316,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
