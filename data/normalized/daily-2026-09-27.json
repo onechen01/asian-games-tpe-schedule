@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T23:54:20.017Z",
+  "generatedAt": "2026-09-27T00:04:40.933Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-26T23:54:19.878Z",
+      "generatedAt": "2026-09-27T00:04:40.743Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -487,6 +487,110 @@
         "results": {
           "unitId": "W.SHORTBRD----------.REP-.000700--",
           "id": "SRF:W.SHORTBRD----------.REP-.000700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T07:45:00+08:00",
+      "startTimeJst": "2026-09-27T08:45:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Men's Team",
+      "phase": "Compound Men's Team Quarterfinals",
+      "unit": "Compound Men's Team Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Cheng-wei",
+        "CHEN Chieh-lun",
+        "YEN Tzu-hsiang"
+      ],
+      "opponent": "Vietnam",
+      "opponentCode": "VIE",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "57",
+        "opponent": "60",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.CTEAM-------------.QFNL.000200--",
+          "id": "ARC:M.CTEAM-------------.QFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T07:45:00+08:00",
+      "startTimeJst": "2026-09-27T08:45:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Team",
+      "phase": "Compound Women's Team Quarterfinals",
+      "unit": "Compound Women's Team Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "HUANG I-jou",
+        "CHEN Yi-hsuan",
+        "CHEN Fang-yi"
+      ],
+      "opponent": "Indonesia",
+      "opponentCode": "INA",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "60",
+        "opponent": "57",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CTEAM-------------.QFNL.000200--",
+          "id": "ARC:W.CTEAM-------------.QFNL.000200--"
         }
       }
     },
@@ -3072,10 +3176,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 50,
+    "resultsOnly": 52,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 61
+    "warnings": 63
   },
   "warnings": [
     {
@@ -3092,6 +3196,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SRF 07:24 Women's Shortboard - Round 2 - Heat 7",
       "row": "SRF:W.SHORTBRD----------.REP-.000700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:45 Compound Men's Team Quarterfinal",
+      "row": "ARC:M.CTEAM-------------.QFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:45 Compound Women's Team Quarterfinal",
+      "row": "ARC:W.CTEAM-------------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",

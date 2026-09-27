@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T23:52:23.627Z",
+  "generatedAt": "2026-09-27T00:02:21.553Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-26T23:52:23.495Z",
+      "generatedAt": "2026-09-27T00:02:21.379Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -329,188 +329,7 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T07:00:00+08:59",
-            "recoveredStartTime": "2026-09-27T07:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T07:28:00+08:59",
-            "recoveredStartTime": "2026-09-27T07:28:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T07:56:00+08:59",
-            "recoveredStartTime": "2026-09-27T07:56:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T08:24:00+08:59",
-            "recoveredStartTime": "2026-09-27T08:24:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T08:52:00+08:59",
-            "recoveredStartTime": "2026-09-27T08:52:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T09:20:00+08:59",
-            "recoveredStartTime": "2026-09-27T09:20:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T09:48:00+08:59",
-            "recoveredStartTime": "2026-09-27T09:48:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T10:16:00+08:59",
-            "recoveredStartTime": "2026-09-27T10:16:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T10:44:00+08:59",
-            "recoveredStartTime": "2026-09-27T10:44:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T11:12:00+08:59",
-            "recoveredStartTime": "2026-09-27T11:12:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T11:40:00+08:59",
-            "recoveredStartTime": "2026-09-27T11:40:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T12:08:00+08:59",
-            "recoveredStartTime": "2026-09-27T12:08:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T12:36:00+08:59",
-            "recoveredStartTime": "2026-09-27T12:36:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T13:04:00+08:59",
-            "recoveredStartTime": "2026-09-27T13:04:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T13:32:00+08:59",
-            "recoveredStartTime": "2026-09-27T13:32:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T14:00:00+08:59",
-            "recoveredStartTime": "2026-09-27T14:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T14:28:00+08:59",
-            "recoveredStartTime": "2026-09-27T14:28:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T14:56:00+08:59",
-            "recoveredStartTime": "2026-09-27T14:56:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T15:24:00+08:59",
-            "recoveredStartTime": "2026-09-27T15:24:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T15:52:00+08:59",
-            "recoveredStartTime": "2026-09-27T15:52:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
           "initialMissing": 0,
           "recovered": 0,
