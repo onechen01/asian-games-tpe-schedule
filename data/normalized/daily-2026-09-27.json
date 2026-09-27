@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T00:44:15.796Z",
+  "generatedAt": "2026-09-27T00:54:16.070Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T00:44:15.672Z",
+      "generatedAt": "2026-09-27T00:54:15.891Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -620,7 +620,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -726,8 +726,8 @@
         {
           "name": "CHENG Yen-Ching",
           "registration": "13649678",
-          "result": "45-0x",
-          "rank": "9",
+          "result": "123-3x",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
@@ -745,7 +745,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "9",
+      "tpeRank": "7",
       "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -792,12 +792,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "45",
+        "tpe": "123-3x",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "3",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1429,7 +1429,25 @@
       "phase": "Women’s Preliminary Round",
       "unit": "Game  6",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LI Szu-shih",
+        "YANG An-chi",
+        "KE Hsia-ai",
+        "LIN Chi-yun",
+        "LIN Chih-ying",
+        "HO Yi-fan",
+        "SHEN Chia-wen",
+        "LIU Hsuan",
+        "SU Yi-hsuan",
+        "LIN Feng-chen",
+        "CHIANG Ting-en",
+        "TU Ya-ting",
+        "CHEN Chia-yi",
+        "PAN Yu-ling",
+        "CHU Yi-shan",
+        "CHEN Ching-yu",
+        "YEH Kuei-ping"
+      ],
       "opponent": "Philippines",
       "opponentCode": "PHI",
       "venue": "Anjo Softball Ground",

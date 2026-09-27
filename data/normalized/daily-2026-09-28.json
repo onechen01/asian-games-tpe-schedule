@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T00:46:16.627Z",
+  "generatedAt": "2026-09-27T00:56:58.047Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T00:46:16.514Z",
+      "generatedAt": "2026-09-27T00:56:57.873Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -611,8 +611,8 @@
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
-      "event": "25m Pistol Women Team",
-      "phase": "25m Pistol Women Team Final",
+      "event": "25m Pistol Women Individual",
+      "phase": "25m Pistol Women Individual Qualification",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -646,7 +646,7 @@
       "matchSignals": [],
       "sources": {
         "entries": {
-          "eventId": "SHO|W.SPTW--------------"
+          "eventId": "SHO|W.SPW---------------"
         }
       }
     },
@@ -1631,7 +1631,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T00-41-44-373Z-4f89d4a22205-f0014bf5.json"
+              "data/raw/2026-09-27T00-51-44-555Z-4f89d4a22205-a9069756.json"
             ]
           }
         }
