@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T02:47:50.401Z",
+  "generatedAt": "2026-09-27T02:59:17.647Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T02:47:50.222Z",
+      "generatedAt": "2026-09-27T02:59:17.477Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -300,44 +300,7 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-28",
-            "unitId": "M.TEAM7-------------.SFNL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-28T15:00:00+02:00",
-            "recoveredStartTime": "2026-09-28T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-28",
-            "unitId": "M.TEAM7-------------.SFNL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-28T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-28T17:30:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-29",
-            "unitId": "M.TEAM7-------------.FNL-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-29T17:00:00+02:00",
-            "recoveredStartTime": "2026-09-29T17:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-29",
-            "unitId": "M.TEAM7-------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-29T19:30:00+02:00",
-            "recoveredStartTime": "2026-09-29T19:30:00+09:00"
-          }
-        ],
+        "timezoneAnomalies": [],
         "recovery": {
           "initialMissing": 0,
           "recovered": 0,
@@ -854,51 +817,6 @@
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
-      "event": "Trap Men Individual",
-      "phase": "Trap Men Individual Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "locationCode": "SH5",
-      "locationName": "Shotgun Range",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "YANG Kun-Pi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|M.TRM---------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
-      "startTimeJst": "2026-09-28T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
       "event": "Trap Women Individual",
       "phase": "Trap Women Individual Qualification",
       "unit": null,
@@ -982,6 +900,54 @@
       "sources": {
         "entries": {
           "eventId": "TEN|W.DOUBLES-----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
+      "startTimeJst": "2026-09-28T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "HPT",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "HO Chenjui",
+        "HSIEH Su-wei",
+        "HUANG Tsung-hao",
+        "LIANG En-shuo"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TEN|X.DOUBLES-----------"
         }
       }
     },
@@ -1573,7 +1539,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T02-41-51-488Z-4f89d4a22205-c38ab52e.json"
+              "data/raw/2026-09-27T02-52-09-634Z-4f89d4a22205-5d28ee78.json"
             ]
           }
         }
