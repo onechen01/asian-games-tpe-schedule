@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T08:06:35.472Z",
+  "generatedAt": "2026-09-27T08:15:10.059Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T08:06:35.328Z",
+      "generatedAt": "2026-09-27T08:15:09.878Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -314,8 +314,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -3179,18 +3179,18 @@
       "unit": "Match 8",
       "athletes": [],
       "athletesEn": [
+        "WEN Yi-kai",
+        "JHANG Yun-liang",
+        "WANG Ping-hsun",
+        "CHEN Jie-ting",
+        "LIU Yu-lin",
+        "TSAI Pei-chang",
+        "HUANG Jheng-liang",
         "LU Chiang Yao-kai",
         "HUANG Yu-chen",
-        "CHEN Jie-ting",
-        "CHUANG Shao-chieh",
-        "TSAI Pei-chang",
         "CHANG Yu-chen",
-        "LIU Yu-lin",
-        "CHANG Yu-sheng",
-        "WANG Ping-hsun",
-        "JHANG Yun-liang",
-        "WEN Yi-kai",
-        "HUANG Jheng-liang"
+        "CHUANG Shao-chieh",
+        "CHANG Yu-sheng"
       ],
       "opponent": "People's Republic of China",
       "opponentCode": "CHN",
@@ -3987,7 +3987,7 @@
     "resultsOnly": 62,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 66
+    "warnings": 65
   },
   "warnings": [
     {
@@ -4304,11 +4304,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SRF|W.SHORTBRD----------",
       "message": "SRF Women's Shortboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ELS|O.PKU---------------",
-      "message": "ELS MOBA [Pokémon UNITE] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
