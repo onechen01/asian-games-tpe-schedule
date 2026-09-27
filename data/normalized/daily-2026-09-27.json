@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T02:21:09.418Z",
+  "generatedAt": "2026-09-27T02:37:29.736Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T02:21:09.232Z",
+      "generatedAt": "2026-09-27T02:37:29.562Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -545,8 +545,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -901,7 +901,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -934,8 +934,8 @@
       "unit": "25m Pistol Women Individual - Qualification - Qualification Precision",
       "athletes": [],
       "athletesEn": [
-        "CHEN Yu-Ju",
         "CHENG Yen-Ching",
+        "CHEN Yu-Ju",
         "TIEN Chia-Chen"
       ],
       "opponent": null,
@@ -950,17 +950,17 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "CHEN Yu-Ju",
-          "registration": "13694029",
-          "result": "211-4x",
-          "rank": "8",
-          "startTimeTaipei": null
-        },
-        {
           "name": "CHENG Yen-Ching",
           "registration": "13649678",
           "result": "286-8x",
-          "rank": "11",
+          "rank": "9",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHEN Yu-Ju",
+          "registration": "13694029",
+          "result": "286-6x",
+          "rank": "10",
           "startTimeTaipei": null
         },
         {
@@ -971,7 +971,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "8",
+      "tpeRank": "9",
       "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1018,7 +1018,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "497-12x",
+        "tpe": "572-14x",
         "opponent": null,
         "source": "results"
       },
@@ -1124,7 +1124,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "9",
+      "tpeRank": "7",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1181,8 +1181,8 @@
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
-          "result": "20",
-          "rank": "21",
+          "result": "25",
+          "rank": "16",
           "startTimeTaipei": null
         }
       ],
@@ -1339,8 +1339,12 @@
       "locationName": "Court 4",
       "courtSessionChainId": "BDM|2026-09-27|004|W.DOUBLES-----------.QFNL.000400--",
       "courtPredecessorUnitId": "X.DOUBLES-----------.QFNL.000200--",
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1590,9 +1594,9 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "4",
+        "tpe": "5",
         "opponent": "4",
         "source": "results"
       },
@@ -1641,14 +1645,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "156",
         "opponent": "160",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1692,7 +1696,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -1927,6 +1931,52 @@
       "startTimeTaipei": "2026-09-27T10:30:00+08:00",
       "startTimeJst": "2026-09-27T11:30:00+09:00",
       "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Quarterfinals",
+      "unit": "Quarterfinal Bout 2",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Wan-ting"
+      ],
+      "opponent": "QUELINO Charmea",
+      "opponentCode": "PHI",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.57KG--------------.QFNL.000200--",
+          "id": "KUR:W.57KG--------------.QFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "startTimeJst": "2026-09-27T11:30:00+09:00",
+      "timeNote": null,
       "disciplineCode": "SBL",
       "sportZh": "壘球",
       "sportEn": "Softball",
@@ -1961,8 +2011,12 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2008,7 +2062,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [
         {
@@ -2027,7 +2081,7 @@
         }
       ],
       "tpeRank": null,
-      "orgCount": 7,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2058,7 +2112,32 @@
       "phase": "Men’s Finals",
       "unit": "Bronze Medal Match - Game 21",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Chen-wei",
+        "CHEN Hsiao-yun",
+        "HUANG Wei-sheng",
+        "LIU Ji-hong",
+        "CHEN Min-sih",
+        "KAO Yu-wei",
+        "CHU Chia-en",
+        "TSAI Wei-tai",
+        "YANG Po-hsiang",
+        "LIN Yu-min",
+        "LIU Chih-jung",
+        "HSU Siang-sheng",
+        "GUO Dinghong",
+        "LIN Yu-li",
+        "HUANG Chieh-han",
+        "WANG Cheng-hao",
+        "YANG Chen-yu",
+        "CHANG Hsiang",
+        "WANG Yan-cheng",
+        "LIN Yi-wei",
+        "YU Tsung-ju",
+        "KUO Tzu-chuan",
+        "LI I-wei",
+        "WANG Yu-chieh"
+      ],
       "opponent": "People's Republic of China",
       "opponentCode": "CHN",
       "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
@@ -2067,7 +2146,7 @@
       "locationName": "Okazaki Chuso Park Baseball Stad.",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -3622,10 +3701,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 55,
+    "resultsOnly": 56,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 66
+    "warnings": 65
   },
   "warnings": [
     {
@@ -3757,6 +3836,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 10:30 Women's Singles Quarterfinals Match 4",
       "row": "BDM:W.SINGLES-----------.QFNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 10:30 Quarterfinal Bout 2",
+      "row": "KUR:W.57KG--------------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3902,16 +3986,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:12 Men's 4 x 100m Relay Round 1 Heat 1",
       "row": "ATH:M.4X100M------------.RND1.000100--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ARC|M.CTEAM-------------",
-      "message": "ARC Compound Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ARC|W.CTEAM-------------",
-      "message": "ARC Compound Women's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

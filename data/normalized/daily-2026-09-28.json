@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T02:24:49.013Z",
+  "generatedAt": "2026-09-27T02:39:50.697Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T02:24:48.844Z",
+      "generatedAt": "2026-09-27T02:39:50.526Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -851,6 +851,51 @@
       "startTimeTaipei": "2026-09-28T09:00:00+08:00",
       "startTimeJst": "2026-09-28T10:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Trap Men Individual",
+      "phase": "Trap Men Individual Qualification",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH5",
+      "locationName": "Shotgun Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "YANG Kun-Pi"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SHO|M.TRM---------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
+      "startTimeJst": "2026-09-28T10:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1527,6 +1572,62 @@
           "id": "VVO:M.TEAM6-------------.GPD-.000400--"
         }
       }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T19:05:00+08:00",
+      "startTimeJst": "2026-09-28T20:05:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's 1500m",
+      "phase": "Men's 1500m Final",
+      "unit": "Men's 1500m Final",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.1500M-------------.FNL-.000100--",
+          "id": "ATH:M.1500M-------------.FNL-.000100--",
+          "qualification": {
+            "kind": "previous-results-qualified",
+            "previousUnitIds": [
+              "M.1500M-------------.RND1.000200--"
+            ],
+            "urls": [
+              "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
+            ],
+            "rawFiles": [
+              "data/raw/2026-09-27T02-32-14-069Z-4f89d4a22205-b76ba5d4.json"
+            ]
+          }
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -1535,10 +1636,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 18,
-    "entered": 6,
+    "resultsOnly": 19,
+    "entered": 7,
     "unresolvedTbd": 0,
-    "warnings": 22
+    "warnings": 23
   },
   "warnings": [
     {
@@ -1630,6 +1731,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：VVO 18:00 Match 16",
       "row": "VVO:M.TEAM6-------------.GPD-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 19:05 Men's 1500m Final",
+      "row": "ATH:M.1500M-------------.FNL-.000100--"
     },
     {
       "code": "PENDING_LATER_UNITS",
