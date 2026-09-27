@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T00:18:32.512Z",
+  "generatedAt": "2026-09-27T00:28:27.595Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T00:18:32.341Z",
+      "generatedAt": "2026-09-27T00:28:27.453Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1044,54 +1044,6 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
-      "startTimeJst": "2026-09-28T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "HO Chenjui",
-        "HSIEH Su-wei",
-        "HUANG Tsung-hao",
-        "LIANG En-shuo"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|X.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T09:30:00+08:00",
       "startTimeJst": "2026-09-28T10:30:00+09:00",
       "timeNote": null,
@@ -1482,51 +1434,6 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T13:00:00+08:00",
-      "startTimeJst": "2026-09-28T14:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Qualification Series",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "locationCode": "KY2",
-      "locationName": "Racing Area B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "WU Tsai-chien"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SAL|M.ILCA7-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T13:15:00+08:00",
       "startTimeJst": "2026-09-28T14:15:00+09:00",
       "timeNote": null,
@@ -1678,7 +1585,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T00-11-48-481Z-4f89d4a22205-88e1d53e.json"
+              "data/raw/2026-09-27T00-22-15-140Z-4f89d4a22205-5b0702b5.json"
             ]
           }
         }
@@ -1692,7 +1599,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 19,
-    "entered": 9,
+    "entered": 7,
     "unresolvedTbd": 0,
     "warnings": 23
   },
