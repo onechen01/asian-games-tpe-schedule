@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T10:34:31.721Z",
+  "generatedAt": "2026-09-27T11:08:04.290Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T10:34:31.563Z",
+      "generatedAt": "2026-09-27T11:08:04.127Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -927,6 +927,52 @@
     },
     {
       "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
+      "startTimeJst": "2026-09-28T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Second Round",
+      "unit": "Women's Singles Second Round Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "GARLAND Joanna"
+      ],
+      "opponent": "FARZAMI Mandegar",
+      "opponentCode": "IRI",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "006",
+      "locationName": "Court 4",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.8FNL.000200--",
+          "id": "TEN:W.SINGLES-----------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T09:30:00+08:00",
       "startTimeJst": "2026-09-28T10:30:00+09:00",
       "timeNote": {
@@ -1082,6 +1128,56 @@
       "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T10:00:00+08:00",
       "startTimeJst": "2026-09-28T11:00:00+09:00",
+      "timeNote": {
+        "code": "NOT_BEFORE",
+        "clockTaipei": "10:00",
+        "raw": "Not Before 11:00"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Second Round",
+      "unit": "Men's Singles Second Round Match 14",
+      "athletes": [],
+      "athletesEn": [
+        "HSU Yu-hsiou"
+      ],
+      "opponent": "ALKOTOP Mohammad",
+      "opponentCode": "JOR",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "005",
+      "locationName": "Court 3",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.R32-.001400--",
+          "id": "TEN:M.SINGLES-----------.R32-.001400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "startTimeJst": "2026-09-28T11:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "SAL",
       "sportZh": "帆船",
@@ -1120,6 +1216,57 @@
       "sources": {
         "entries": {
           "eventId": "SAL|M.ILCA7-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T11:00:00+08:00",
+      "startTimeJst": "2026-09-28T12:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "After Rest, Not Before 12:30"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles First Round",
+      "unit": "Mixed Doubles First Round Match 15",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "FARZAMI Mandegar/YAZDANI Ali",
+      "opponentCode": "IRI",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "004",
+      "locationName": "Court 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.R32-.001500--",
+          "id": "TEN:X.DOUBLES-----------.R32-.001500--"
         }
       }
     },
@@ -1870,10 +2017,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 28,
+    "resultsOnly": 31,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 33
+    "warnings": 36
   },
   "warnings": [
     {
@@ -1938,6 +2085,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 09:00 Women's Singles Second Round Match 2",
+      "row": "TEN:W.SINGLES-----------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BDM 09:30 Mixed Doubles Semifinals Match 2",
       "row": "BDM:X.DOUBLES-----------.SFNL.000200--"
     },
@@ -1950,6 +2102,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:40 Match 3",
       "row": "ELS:O.PUBGM-------------.FNL-.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Men's Singles Second Round Match 14",
+      "row": "TEN:M.SINGLES-----------.R32-.001400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Mixed Doubles First Round Match 15",
+      "row": "TEN:X.DOUBLES-----------.R32-.001500--"
     },
     {
       "code": "RESULTS_ONLY",

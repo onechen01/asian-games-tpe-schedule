@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T10:55:57.786Z",
+  "generatedAt": "2026-09-27T11:06:34.789Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T10:55:57.601Z",
+      "generatedAt": "2026-09-27T11:06:34.601Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -314,8 +314,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1949,79 +1949,6 @@
       "startTimeTaipei": "2026-09-27T11:00:00+08:00",
       "startTimeJst": "2026-09-27T12:00:00+09:00",
       "timeNote": null,
-      "disciplineCode": "BBL",
-      "sportZh": "棒球",
-      "sportEn": "Baseball",
-      "event": "Baseball Men",
-      "phase": "Men’s Finals",
-      "unit": "Bronze Medal Match - Game 21",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Chen-wei",
-        "YANG Chen-yu",
-        "CHEN Hsiao-yun",
-        "HUANG Wei-sheng",
-        "LIU Ji-hong",
-        "LI I-wei",
-        "CHEN Min-sih",
-        "KAO Yu-wei",
-        "CHU Chia-en",
-        "TSAI Wei-tai",
-        "YANG Po-hsiang",
-        "WANG Cheng-hao",
-        "LIN Yu-min",
-        "LIU Chih-jung",
-        "HSU Siang-sheng",
-        "GUO Dinghong",
-        "CHANG Hsiang",
-        "WANG Yan-cheng",
-        "LIN Yi-wei",
-        "YU Tsung-ju",
-        "KUO Tzu-chuan",
-        "WANG Yu-chieh",
-        "LIN Yu-li",
-        "HUANG Chieh-han"
-      ],
-      "opponent": "People's Republic of China",
-      "opponentCode": "CHN",
-      "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
-      "venueZh": null,
-      "locationCode": "OCB",
-      "locationName": "Okazaki Chuso Park Baseball Stad.",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "5",
-        "opponent": "1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.TEAM9-------------.FNL-.000200--",
-          "id": "BBL:M.TEAM9-------------.FNL-.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T11:00:00+08:00",
-      "startTimeJst": "2026-09-27T12:00:00+09:00",
-      "timeNote": null,
       "disciplineCode": "BOX",
       "sportZh": "拳擊",
       "sportEn": "Boxing",
@@ -2173,6 +2100,79 @@
         "results": {
           "unitId": "W.SINGLES-----------.R32-.000400--",
           "id": "TEN:W.SINGLES-----------.R32-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T11:00:00+08:00",
+      "startTimeJst": "2026-09-27T12:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BBL",
+      "sportZh": "棒球",
+      "sportEn": "Baseball",
+      "event": "Baseball Men",
+      "phase": "Men’s Finals",
+      "unit": "Bronze Medal Match - Game 21",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Chen-wei",
+        "YANG Chen-yu",
+        "CHEN Hsiao-yun",
+        "HUANG Wei-sheng",
+        "LIU Ji-hong",
+        "LI I-wei",
+        "CHEN Min-sih",
+        "KAO Yu-wei",
+        "CHU Chia-en",
+        "TSAI Wei-tai",
+        "YANG Po-hsiang",
+        "WANG Cheng-hao",
+        "LIN Yu-min",
+        "LIU Chih-jung",
+        "HSU Siang-sheng",
+        "GUO Dinghong",
+        "CHANG Hsiang",
+        "WANG Yan-cheng",
+        "LIN Yi-wei",
+        "YU Tsung-ju",
+        "KUO Tzu-chuan",
+        "WANG Yu-chieh",
+        "LIN Yu-li",
+        "HUANG Chieh-han"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "Okazaki Chuo Sogo Park Baseball Stadium",
+      "venueZh": null,
+      "locationCode": "OCB",
+      "locationName": "Okazaki Chuso Park Baseball Stad.",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM9-------------.FNL-.000200--",
+          "id": "BBL:M.TEAM9-------------.FNL-.000200--"
         }
       }
     },
@@ -3206,7 +3206,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "1",
         "source": "results"
       },
@@ -3417,7 +3417,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [
         {
@@ -4220,11 +4220,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BBL 11:00 Bronze Medal Match - Game 21",
-      "row": "BBL:M.TEAM9-------------.FNL-.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 11:00 Women's 54KG - Quarterfinal",
       "row": "BOX:W.54KG--------------.QFNL.000100--"
     },
@@ -4237,6 +4232,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Women's Singles First Round Match 4",
       "row": "TEN:W.SINGLES-----------.R32-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BBL 11:00 Bronze Medal Match - Game 21",
+      "row": "BBL:M.TEAM9-------------.FNL-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
