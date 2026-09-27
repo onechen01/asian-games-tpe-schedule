@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T19:11:05.521Z",
+  "generatedAt": "2026-09-27T22:12:52.329Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-27T19:11:05.366Z",
+      "generatedAt": "2026-09-27T22:12:52.163Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 4,
+          "recovered": 4,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -337,53 +337,6 @@
       "sources": {
         "entries": {
           "eventId": "GLF|M.STROKE------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T05:30:00+08:00",
-      "startTimeJst": "2026-09-30T06:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Women's Individual Stroke Play",
-      "phase": "Women's Individual Stroke Play",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|W.STROKE------------"
         }
       }
     },
@@ -589,97 +542,6 @@
         "results": {
           "unitId": "W.3M----------------.PREL.000100--",
           "id": "DIV:W.3M----------------.PREL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
-      "startTimeJst": "2026-09-30T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CTR",
-      "sportZh": "自由車場地賽",
-      "sportEn": "Cycling Track",
-      "event": "Men's Sprint",
-      "phase": "Men's Sprint, 1/16 Finals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Izu Velodrome(Shizuoka)",
-      "venueZh": null,
-      "locationCode": "IVD",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 13,
-      "enteredAthletes": [
-        "KANG Shih-feng"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CTR|M.SPRINT------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
-      "startTimeJst": "2026-09-30T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CTR",
-      "sportZh": "自由車場地賽",
-      "sportEn": "Cycling Track",
-      "event": "Women's Keirin",
-      "phase": "Women's Keirin, First Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Izu Velodrome(Shizuoka)",
-      "venueZh": null,
-      "locationCode": "IVD",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 9,
-      "enteredAthletes": [
-        "CHEN Ching-yun",
-        "LIU Shang-ying"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CTR|W.KEIRIN------------"
         }
       }
     },
@@ -1130,7 +992,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 8,
-    "entered": 9,
+    "entered": 6,
     "unresolvedTbd": 0,
     "warnings": 11
   },

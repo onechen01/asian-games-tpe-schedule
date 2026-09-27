@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T19:12:21.075Z",
+  "generatedAt": "2026-09-27T22:14:48.668Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-27T19:12:20.909Z",
+      "generatedAt": "2026-09-27T22:14:48.488Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -454,51 +454,6 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T08:00:00+08:00",
-      "startTimeJst": "2026-10-01T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TKW",
-      "sportZh": "跆拳道",
-      "sportEn": "Taekwondo",
-      "event": "Women Individual Poomsae",
-      "phase": "Women Individual Poomsae Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Toyohashi Gymnasium",
-      "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Hsin-ya"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TKW|W.INDPOOM-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T08:30:00+08:00",
       "startTimeJst": "2026-10-01T09:30:00+09:00",
       "timeNote": null,
@@ -818,51 +773,6 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T10:30:00+08:00",
-      "startTimeJst": "2026-10-01T11:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TKW",
-      "sportZh": "跆拳道",
-      "sportEn": "Taekwondo",
-      "event": "Men Individual Poomsae",
-      "phase": "Men Individual Poomsae Semifinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Toyohashi Gymnasium",
-      "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "KE Hsiang-shuo"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TKW|M.INDPOOM-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T14:00:00+08:00",
       "startTimeJst": "2026-10-01T15:00:00+09:00",
       "timeNote": null,
@@ -959,7 +869,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 1,
-    "entered": 13,
+    "entered": 11,
     "unresolvedTbd": 0,
     "warnings": 1
   },
