@@ -2279,7 +2279,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-25T10:35:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T10:50:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -2468,7 +2468,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-25T21:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T22:14:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "courtSession": {
@@ -2492,7 +2492,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-25T21:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-25T22:04:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "courtSession": {
@@ -2901,7 +2901,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-26T17:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-26T17:41:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
     },
@@ -2985,7 +2985,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-26T21:40:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-26T21:47:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -3012,7 +3012,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-26T18:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-26T18:10:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -3078,7 +3078,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-27T13:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-27T14:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
     },
@@ -3233,7 +3233,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-27T13:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-27T13:35:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -3410,7 +3410,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-28T08:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-28T07:50:00+08:00",
       "disciplineCode": "SBL",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
@@ -3432,7 +3432,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-28T09:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-28T08:55:00+08:00",
       "disciplineCode": "DIV",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
@@ -3441,7 +3441,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-27",
-      "broadcastEndTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-28T09:55:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -3477,7 +3477,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-28T12:30:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-28T12:25:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
