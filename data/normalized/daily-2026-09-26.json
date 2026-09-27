@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T12:22:59.796Z",
+  "generatedAt": "2026-09-27T12:32:28.985Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-26/schedule-2026-09-26-AUTO.json",
-      "generatedAt": "2026-09-27T12:22:59.638Z",
+      "generatedAt": "2026-09-27T12:32:28.820Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -326,8 +326,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -599,7 +599,9 @@
       "phase": "Men's Decathlon 100 Metres",
       "unit": "Men's Decathlon 100 Metres Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHO Chia-hsuan"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -609,10 +611,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "11.29",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "5",
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -643,7 +649,9 @@
       "phase": "Men's Decathlon 100 Metres",
       "unit": "Men's Decathlon 100 Metres Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Chen-yu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -653,10 +661,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "11.15",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "5",
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -758,6 +770,68 @@
       "startTimeTaipei": "2026-09-26T08:45:00+08:00",
       "startTimeJst": "2026-09-26T09:45:00+09:00",
       "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Men's Decathlon",
+      "phase": "Men's Decathlon Long Jump",
+      "unit": "Men's Decathlon Long Jump",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Chen-yu",
+        "CHO Chia-hsuan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": "7.10",
+          "rank": "7",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": "6.84",
+          "rank": "10",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "7",
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DECATH------------.LJ--.000100--",
+          "id": "ATH:M.DECATH------------.LJ--.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T08:45:00+08:00",
+      "startTimeJst": "2026-09-26T09:45:00+09:00",
+      "timeNote": null,
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
@@ -812,50 +886,6 @@
         "results": {
           "unitId": "W.R3PW--------------.QUAL.000100--",
           "id": "SHO:W.R3PW--------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "startTimeTaipei": "2026-09-26T08:45:00+08:00",
-      "startTimeJst": "2026-09-26T09:45:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "sportEn": "Athletics",
-      "event": "Men's Decathlon",
-      "phase": "Men's Decathlon Long Jump",
-      "unit": "Men's Decathlon Long Jump",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Mizuho Park Athletic Stadium",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "National Stadium",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DECATH------------.LJ--.000100--",
-          "id": "ATH:M.DECATH------------.LJ--.000100--"
         }
       }
     },
@@ -1300,7 +1330,10 @@
       "phase": "Men's Decathlon Shot Put",
       "unit": "Men's Decathlon Shot Put",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Chen-yu",
+        "CHO Chia-hsuan"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1311,9 +1344,24 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": "13.56",
+          "rank": "2",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": "12.90",
+          "rank": "8",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "2",
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1394,7 +1442,9 @@
       "phase": "Men's 200m Round 1",
       "unit": "Men's 200m Round 1 Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "KE Wu-yen-ming"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1404,10 +1454,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "20.84",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "2",
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2682,7 +2736,10 @@
       "phase": "Men's Decathlon High Jump",
       "unit": "Men's Decathlon High Jump",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHO Chia-hsuan",
+        "WANG Chen-yu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2693,9 +2750,24 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "CHO Chia-hsuan",
+          "registration": "5038063",
+          "result": "1.88",
+          "rank": "6",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "WANG Chen-yu",
+          "registration": "5036850",
+          "result": "1.88",
+          "rank": "7",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "6",
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2849,7 +2921,9 @@
       "phase": "Men's 110m Hurdles Round 1",
       "unit": "Men's 110m Hurdles Round 1 Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIN Yi-kai"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2859,10 +2933,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "13.82",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "1",
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2893,7 +2971,9 @@
       "phase": "Men's 110m Hurdles Round 1",
       "unit": "Men's 110m Hurdles Round 1 Heat 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "HSIEH Yuan-kai"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2903,10 +2983,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "13.60",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "3",
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2937,7 +3021,9 @@
       "phase": "Women's 100m Hurdles Round 1",
       "unit": "Women's 100m Hurdles Round 1 Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "ZHANG Bo-ya"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2947,10 +3033,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "13.08",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "2",
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2981,7 +3071,9 @@
       "phase": "Women's 100m Hurdles Round 1",
       "unit": "Women's 100m Hurdles Round 1 Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "YI Bo-an"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2991,10 +3083,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "14.05",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "5",
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -3025,7 +3121,9 @@
       "phase": "Men's Shot Put Final",
       "unit": "Men's Shot Put Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "MA Hau-wei"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -3035,10 +3133,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "18.12",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "11",
+      "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -3069,7 +3171,9 @@
       "phase": "Men's 200m Semifinal",
       "unit": "Men's 200m Semifinal Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "KE Wu-yen-ming"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -3079,10 +3183,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "20.71",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "2",
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -3113,7 +3221,9 @@
       "phase": "Men's Triple Jump Final",
       "unit": "Men's Triple Jump Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LI Yun-chen"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -3123,10 +3233,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "15.57",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "11",
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -3157,7 +3271,9 @@
       "phase": "Men's 1500m Round 1",
       "unit": "Men's 1500m Round 1 Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIEN Tzu-chieh"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -3167,10 +3283,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "3:45.82",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "4",
+      "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -3201,7 +3321,9 @@
       "phase": "Men's Decathlon 400 Metres",
       "unit": "Men's Decathlon 400 Metres Heat 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHO Chia-hsuan"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -3211,10 +3333,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "51.79",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "3",
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -3245,7 +3371,9 @@
       "phase": "Men's Decathlon 400 Metres",
       "unit": "Men's Decathlon 400 Metres Heat 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Chen-yu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -3255,10 +3383,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "51.10",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "5",
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -4171,13 +4303,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:45 50m Rifle 3 Positions Women Individual - Qualification",
-      "row": "SHO:W.R3PW--------------.QUAL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 08:45 Men's Decathlon Long Jump",
+      "row": "ATH:M.DECATH------------.LJ--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ATH 08:45 Men's Decathlon Long Jump",
-      "row": "ATH:M.DECATH------------.LJ--.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:45 50m Rifle 3 Positions Women Individual - Qualification",
+      "row": "SHO:W.R3PW--------------.QUAL.000100--"
     },
     {
       "code": "RESULTS_ONLY",

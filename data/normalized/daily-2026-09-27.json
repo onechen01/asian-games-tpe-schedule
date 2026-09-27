@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T12:24:57.366Z",
+  "generatedAt": "2026-09-27T12:34:26.487Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T12:24:57.179Z",
+      "generatedAt": "2026-09-27T12:34:26.305Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -3568,8 +3568,8 @@
       "unit": "Women's Javelin Throw Final",
       "athletes": [],
       "athletesEn": [
-        "LI Hui-jun",
-        "CHU Pin-hsun"
+        "CHU Pin-hsun",
+        "LI Hui-jun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -3583,21 +3583,21 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "LI Hui-jun",
-          "registration": "2325863",
-          "result": "55.68",
-          "rank": "6",
+          "name": "CHU Pin-hsun",
+          "registration": "16036544",
+          "result": "56.01",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
-          "name": "CHU Pin-hsun",
-          "registration": "16036544",
-          "result": "52.21",
-          "rank": "7",
+          "name": "LI Hui-jun",
+          "registration": "2325863",
+          "result": "55.68",
+          "rank": "8",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "6",
+      "tpeRank": "7",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
