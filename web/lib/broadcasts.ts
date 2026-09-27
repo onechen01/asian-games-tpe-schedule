@@ -130,15 +130,11 @@ const rowPhaseFamilies = (row:MatchRow)=>{
   if (unitFamilies.has('BRONZE')) return new Set(['BRONZE']);
   return familiesIn(row.phase,PHASE_FAMILIES,'row');
 };
-// A broadcast naming a specific athlete, with none of the event markers above, follows the same
-// convention the adapter itself uses to tell a personal broadcast from a team match (an explicit
-// "VS" opponent): it is that athlete's own individual or paired participation, never an unnamed
-// team roster.
-const titleEventFamilies = (r:Broadcast)=>{
-  const found = familiesIn(r.title,EVENT_FAMILIES,'title');
-  if (!found.size && r.matchHint?.athleteNames?.length) found.add('INDIVIDUAL');
-  return found;
-};
+// Athlete names identify people, not an event family. A title naming one or more athletes may
+// still describe singles, doubles, mixed doubles or a team event. Keep that axis unspecified
+// unless the title itself contains an explicit event marker; only two explicit, incompatible
+// families may trigger the conflict veto below.
+const titleEventFamilies = (r:Broadcast)=>familiesIn(r.title,EVENT_FAMILIES,'title');
 // Two non-empty family sets that share nothing are an explicit mismatch. Either side being
 // unrecognised (empty) leaves nothing to compare, so nothing is vetoed.
 const explicitConflict = (a:Set<string>, b:Set<string>)=>
@@ -191,7 +187,13 @@ function matchesDirectly(r:Broadcast, row:MatchRow, chains:CourtSessionChain[]):
   if (hint.opponentCodes?.length) return !!row.opponentCode && hint.opponentCodes.includes(row.opponentCode);
   if (hint.athleteNames?.length) {
     const names = [...(row.athletesEn ?? []), ...(row.enteredAthletes ?? [])].map(key);
-    return hint.athleteNames.some(n=>names.includes(key(n)));
+    if (!hint.athleteNames.some(n=>names.includes(key(n)))) return false;
+    // A named member alone does not prove that an unspecified programme covers that person's
+    // team event. This is an evidence threshold, not an inferred INDIVIDUAL family or a conflict:
+    // explicit team wording still matches normally, while an unspecified paired/individual row
+    // may use the athlete evidence it actually carries.
+    if (!titleEventFamilies(r).size && familiesIn(row.event,EVENT_FAMILIES,'row').has('TEAM')) return false;
+    return true;
   }
   // Phase evidence: either the stored hint (manually verified, may use English round names
   // the shared tables don't know, e.g. "Round 2") or the shared PHASE_FAMILIES recognised

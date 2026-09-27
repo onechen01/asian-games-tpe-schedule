@@ -97,9 +97,16 @@ const ordinal = (value:number)=>{
 // for diagnosis; the matcher must select the official chain from court, round and time evidence.
 export function badmintonCourtSessionHint(title:string):CourtSessionHint|null {
   const hit=/羽球\s+個人賽第(\d+)輪\s*[（(]\s*([^\-)）]+)\s*-\s*第(\d+)球場\s*[)）]/.exec(title);
-  if (!hit) return null;
-  return { locationLabel:`Court ${Number(hit[3])}`, roundKeyword:ordinal(Number(hit[1])),
+  if (hit) return { locationLabel:`Court ${Number(hit[3])}`, roundKeyword:ordinal(Number(hit[1])),
     sourceSessionLabel:hit[2].trim() };
+  // Knockout programmes use a shorter "stage + court" form. The court is only a resolver for
+  // an already-existing official canonical unit; it never supplies participation or a schedule.
+  const knockout=/羽球(?:\s+[^\s（）()]+)*?\s+(八強|四強|準決賽|決賽)\s*(?:[（(]\s*)?第(\d+)球場\s*[)）]?/.exec(title);
+  if (!knockout) return null;
+  const roundKeyword=knockout[1]==='八強'?'Quarterfinal'
+    : knockout[1]==='決賽'?'Final':'Semifinal';
+  return {locationLabel:`Court ${Number(knockout[2])}`,roundKeyword,
+    sourceSessionLabel:knockout[1]};
 }
 
 type Programme = { format_s_time?:unknown; start_datetime?:unknown; program_desc?:unknown;

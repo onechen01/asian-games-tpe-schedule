@@ -764,6 +764,50 @@ test('case C — a personal broadcast never overrides an explicit team conflict,
   assert.equal(broadcastsForRow(show,'2026-09-22',womensTeamQF).length,0,'不配女團八強');
 });
 
+test('an unspecified named-event title matches the unique official 9/28 badminton semifinal by athlete, stage and Court 2',async()=>{
+  const date='2026-09-28';
+  const day=parseDaily(JSON.parse(await readFile(`data/normalized/daily-${date}.json`,'utf8')),date);
+  const target=taiwanRows(day).find(r=>r.sources.results?.unitId==='X.DOUBLES-----------.SFNL.000200--')!;
+  assert.ok(target);
+  assert.equal(target.timeNote?.code,'FOLLOWED_BY');
+  const show=parseBroadcasts(JSON.stringify({schemaVersion:1,records:[{
+    date,providerId:'elta',providerName:'愛爾達',isLive:true,
+    broadcastStartTimeTaipei:'2026-09-28T08:25:00+08:00',
+    broadcastEndTimeTaipei:'2026-09-28T14:00:00+08:00',disciplineCode:'BDM',
+    title:'亞運 葉宏蔚/詹又蓁 羽球 四強(第2球場) 9/28 LIVE',feed:'main',matchLevel:'discipline',
+    matchHint:{athleteNames:['YE Hong-wei','CHAN Nicole Gonzales'],courtSession:{
+      locationLabel:'Court 2',roundKeyword:'Semifinal',sourceSessionLabel:'四強'}}}]}));
+  const matched=taiwanRows(day).filter(row=>broadcastsForRow(show,date,row,day.sessionChains??[]).length);
+  assert.deepEqual(matched.map(row=>row.sources.results?.unitId),['X.DOUBLES-----------.SFNL.000200--']);
+  assert.equal(broadcastsForRow(show,date,target,day.sessionChains??[]).length,1);
+  assert.equal(broadcastsForRow(show,date,{...target,startTimeTaipei:'2026-09-28T23:59:00+08:00'},
+    day.sessionChains??[]).length,1,
+  'FOLLOWED_BY 的排序 placeholder 不參與 court-session window 判定');
+});
+
+test('an explicit individual event marker still conflicts with a mixed-doubles canonical row',()=>{
+  const show=parseBroadcasts(JSON.stringify({schemaVersion:1,records:[{
+    date:'2026-09-28',providerId:'elta',providerName:'愛爾達',isLive:true,
+    broadcastStartTimeTaipei:'2026-09-28T08:25:00+08:00',broadcastEndTimeTaipei:'2026-09-28T14:00:00+08:00',
+    disciplineCode:'BDM',title:'亞運 葉宏蔚 羽球 個人四強 9/28 LIVE',feed:'main',matchLevel:'unit',
+    matchHint:{athleteNames:['YE Hong-wei']}}]}));
+  const mixed={disciplineCode:'BDM',opponentCode:'CHN',athletesEn:['YE Hong-wei','CHAN Nicole Gonzales'],
+    startTimeTaipei:'2026-09-28T09:30:00+08:00',timeNote:{code:'FOLLOWED_BY'},
+    event:'Mixed Doubles',phase:'Mixed Doubles Semifinals'};
+  assert.equal(broadcastsForRow(show,'2026-09-28',mixed).length,0);
+});
+
+test('an event-unspecified broadcast with no athlete, opponent, court or phase evidence remains unmatched',()=>{
+  const show=parseBroadcasts(JSON.stringify({schemaVersion:1,records:[{
+    date:'2026-09-28',providerId:'elta',providerName:'愛爾達',isLive:true,
+    broadcastStartTimeTaipei:'2026-09-28T08:25:00+08:00',broadcastEndTimeTaipei:'2026-09-28T14:00:00+08:00',
+    disciplineCode:'BDM',title:'亞運 中華隊 羽球 9/28 LIVE',feed:'main',matchLevel:'discipline',matchHint:{}}]}));
+  const candidates=[1,2].map(n=>({disciplineCode:'BDM',opponentCode:null,athletesEn:[],
+    startTimeTaipei:`2026-09-28T0${8+n}:30:00+08:00`,event:'Mixed Doubles',
+    phase:'Mixed Doubles Semifinals',unit:`Mixed Doubles Semifinals Match ${n}`}));
+  assert.deepEqual(candidates.map(row=>broadcastsForRow(show,'2026-09-28',row).length),[0,0]);
+});
+
 test('case D — a shared athlete never overrides an explicit final-vs-heats conflict (real 9/22 swimming)',()=>{
   const show = parseBroadcasts(JSON.stringify({ schemaVersion:1, records:[
     { date:'2026-09-22',providerId:'elta',providerName:'愛爾達',isLive:true,

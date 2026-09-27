@@ -1,5 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import { extractScheduleList, toBroadcasts, gateBroadcasts, athleteHint, preserveVerifiedMatchHints, PROVIDER } from '../src/broadcast/elta.ts';
+import { extractScheduleList, toBroadcasts, gateBroadcasts, athleteHint, badmintonCourtSessionHint,
+  preserveVerifiedMatchHints, PROVIDER } from '../src/broadcast/elta.ts';
 
 const page = (json:string)=>`<html><script>\n let schedule_list = ${json};\n</script></html>`;
 const programme = (o:Record<string,unknown>)=>({ is_taipei_team:1, ...o });
@@ -70,6 +71,32 @@ test('a badminton Court programme stays a multi-unit session even when its title
   assert.deepEqual(records[0].matchHint.athleteNames,['YE Hong-Wei','CHAN Nicole Gonzales']);
   assert.deepEqual(records[0].matchHint.courtSession,
     {locationLabel:'Court 2',roundKeyword:'1st Round',sourceSessionLabel:'上'});
+});
+
+test('badminton knockout stage plus court syntax is parsed without inventing an event family',()=>{
+  for (const [title,expected] of [
+    ['亞運 葉宏蔚/詹又蓁 羽球 四強(第2球場) 9/28 LIVE',['Court 2','Semifinal','四強']],
+    ['亞運 中華隊 羽球 四強（第2球場） LIVE',['Court 2','Semifinal','四強']],
+    ['亞運 中華隊 羽球 四強 第2球場 LIVE',['Court 2','Semifinal','四強']],
+    ['亞運 中華隊 羽球 八強(第1球場) LIVE',['Court 1','Quarterfinal','八強']],
+    ['亞運 中華隊 羽球 決賽（第3球場） LIVE',['Court 3','Final','決賽']],
+  ] as const) {
+    const hint=badmintonCourtSessionHint(title)!;
+    assert.deepEqual([hint.locationLabel,hint.roundKeyword,hint.sourceSessionLabel],expected,title);
+  }
+  assert.equal(badmintonCourtSessionHint('亞運 中華隊 羽球 四強 LIVE'),null,
+    '沒有官方 court resolver 時不可製造 court hint');
+});
+
+test('the real 9/28 knockout title carries athletes and a Court 2 semifinal hint',()=>{
+  const byZh=new Map([['葉宏蔚','YE Hong-wei'],['詹又蓁','CHAN Nicole Gonzales']]);
+  const html=page(JSON.stringify({'2026-09-28':{0:programme({format_s_time:'2026-09-28 08:25:00',
+    program_desc:'亞運 葉宏蔚/詹又蓁 羽球 四強(第2球場) 9/28 LIVE',
+    sport_item:{sp_name:'羽球'}})}}));
+  const record=toBroadcasts(extractScheduleList(html),{capturedAt:'2026-09-27',athletesByZh:byZh}).records[0];
+  assert.equal(record.matchLevel,'discipline');
+  assert.deepEqual(record.matchHint,{athleteNames:['YE Hong-wei','CHAN Nicole Gonzales'],
+    courtSession:{locationLabel:'Court 2',roundKeyword:'Semifinal',sourceSessionLabel:'四強'}});
 });
 
 test('several programmes of one sport on one day all survive, duplicates do not',()=>{
