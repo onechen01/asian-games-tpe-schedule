@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T02:39:50.697Z",
+  "generatedAt": "2026-09-27T02:47:50.401Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T02:39:50.526Z",
+      "generatedAt": "2026-09-27T02:47:50.222Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -896,20 +896,20 @@
       "startTimeTaipei": "2026-09-28T09:00:00+08:00",
       "startTimeJst": "2026-09-28T10:00:00+09:00",
       "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Second Round",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Trap Women Individual",
+      "phase": "Trap Women Individual Qualification",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venue": "Aichi Prefectural General Shooting Gallery",
       "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
+      "locationCode": "SH5",
+      "locationName": "Shotgun Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,
@@ -923,19 +923,17 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 5,
+      "unitCount": 1,
       "enteredAthletes": [
-        "HO Chenjui",
-        "HSU Yu-hsiou",
-        "LEE Kuan-yi",
-        "WU Tung-lin"
+        "LIN Yi-Chun",
+        "LIU Wan-Yu"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
         "entries": {
-          "eventId": "TEN|M.DOUBLES-----------"
+          "eventId": "SHO|W.TRW---------------"
         }
       }
     },
@@ -984,54 +982,6 @@
       "sources": {
         "entries": {
           "eventId": "TEN|W.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T09:00:00+08:00",
-      "startTimeJst": "2026-09-28T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "HO Chenjui",
-        "HSIEH Su-wei",
-        "HUANG Tsung-hao",
-        "LIANG En-shuo"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|X.DOUBLES-----------"
         }
       }
     },
@@ -1623,7 +1573,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/ATH/results/M.1500M-------------.RND1.000200--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-27T02-32-14-069Z-4f89d4a22205-b76ba5d4.json"
+              "data/raw/2026-09-27T02-41-51-488Z-4f89d4a22205-c38ab52e.json"
             ]
           }
         }
@@ -1637,7 +1587,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 19,
-    "entered": 7,
+    "entered": 6,
     "unresolvedTbd": 0,
     "warnings": 23
   },

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T02:37:29.736Z",
+  "generatedAt": "2026-09-27T02:45:08.907Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T02:37:29.562Z",
+      "generatedAt": "2026-09-27T02:45:08.714Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -346,186 +346,6 @@
             "recoveredStartTime": "2026-09-27T18:00:00+09:00"
           },
           {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T07:00:00+08:59",
-            "recoveredStartTime": "2026-09-27T07:00:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T07:28:00+08:59",
-            "recoveredStartTime": "2026-09-27T07:28:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T07:56:00+08:59",
-            "recoveredStartTime": "2026-09-27T07:56:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T08:24:00+08:59",
-            "recoveredStartTime": "2026-09-27T08:24:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.REP-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T08:52:00+08:59",
-            "recoveredStartTime": "2026-09-27T08:52:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T09:20:00+08:59",
-            "recoveredStartTime": "2026-09-27T09:20:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T09:48:00+08:59",
-            "recoveredStartTime": "2026-09-27T09:48:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T10:16:00+08:59",
-            "recoveredStartTime": "2026-09-27T10:16:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T10:44:00+08:59",
-            "recoveredStartTime": "2026-09-27T10:44:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T11:12:00+08:59",
-            "recoveredStartTime": "2026-09-27T11:12:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T11:40:00+08:59",
-            "recoveredStartTime": "2026-09-27T11:40:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "M.SHORTBRD----------.REP-.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T12:08:00+08:59",
-            "recoveredStartTime": "2026-09-27T12:08:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T13:30:00+08:59",
-            "recoveredStartTime": "2026-09-27T13:30:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T13:58:00+08:59",
-            "recoveredStartTime": "2026-09-27T13:58:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000300--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T14:26:00+08:59",
-            "recoveredStartTime": "2026-09-27T14:26:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000400--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T14:54:00+08:59",
-            "recoveredStartTime": "2026-09-27T14:54:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000500--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T15:22:00+08:59",
-            "recoveredStartTime": "2026-09-27T15:22:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000600--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T15:50:00+08:59",
-            "recoveredStartTime": "2026-09-27T15:50:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000700--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T16:18:00+08:59",
-            "recoveredStartTime": "2026-09-27T16:18:00+09:00"
-          },
-          {
-            "disciplineCode": "SRF",
-            "date": "2026-09-27",
-            "unitId": "W.SHORTBRD----------.RND3.000800--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+08:59",
-            "originalStartTime": "2026-09-27T16:46:00+08:59",
-            "recoveredStartTime": "2026-09-27T16:46:00+09:00"
-          },
-          {
             "disciplineCode": "HBL",
             "date": "2026-09-28",
             "unitId": "M.TEAM7-------------.SFNL.000100--",
@@ -545,8 +365,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -669,7 +489,7 @@
     {
       "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T07:24:00+08:00",
-      "startTimeJst": "2026-09-27T08:24:00+08:59",
+      "startTimeJst": "2026-09-27T08:24:00+09:00",
       "timeNote": null,
       "disciplineCode": "SRF",
       "sportZh": "衝浪",
@@ -825,57 +645,6 @@
       "startTimeTaipei": "2026-09-27T08:30:00+08:00",
       "startTimeJst": "2026-09-27T09:30:00+09:00",
       "timeNote": null,
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Quarterfinals",
-      "unit": "Mixed Doubles Quarterfinals Match 3",
-      "athletes": [],
-      "athletesEn": [
-        "YE Hong-Wei",
-        "CHAN Nicole Gonzales"
-      ],
-      "opponent": "OUPTHONG Ruttanapak/SUDJAIPRAPARAT Jhenicha",
-      "opponentCode": "THA",
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "002",
-      "locationName": "Court 2",
-      "courtSessionChainId": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "2",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.QFNL.000300--",
-          "id": "BDM:X.DOUBLES-----------.QFNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T08:30:00+08:00",
-      "startTimeJst": "2026-09-27T09:30:00+09:00",
-      "timeNote": null,
       "disciplineCode": "EQU",
       "sportZh": "馬術",
       "sportEn": "Equestrian",
@@ -901,7 +670,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "3",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -918,6 +687,57 @@
         "results": {
           "unitId": "O.DRESINDV----------.FNL-.000100--",
           "id": "EQU:O.DRESINDV----------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T08:30:00+08:00",
+      "startTimeJst": "2026-09-27T09:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Quarterfinals",
+      "unit": "Mixed Doubles Quarterfinals Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "YE Hong-Wei",
+        "CHAN Nicole Gonzales"
+      ],
+      "opponent": "OUPTHONG Ruttanapak / SUDJAIPRAPARAT Jhenicha",
+      "opponentCode": "THA",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "002",
+      "locationName": "Court 2",
+      "courtSessionChainId": "BDM|2026-09-27|002|X.DOUBLES-----------.QFNL.000300--",
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.QFNL.000300--",
+          "id": "BDM:X.DOUBLES-----------.QFNL.000300--"
         }
       }
     },
@@ -1157,8 +977,8 @@
       "unit": "Trap Women Individual - Qualification - Qualification - Day 1",
       "athletes": [],
       "athletesEn": [
-        "LIN Yi-Chun",
-        "LIU Wan-Yu"
+        "LIU Wan-Yu",
+        "LIN Yi-Chun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1172,21 +992,21 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "LIN Yi-Chun",
-          "registration": "4305607",
-          "result": "21",
-          "rank": "14",
+          "name": "LIU Wan-Yu",
+          "registration": "13637506",
+          "result": "31",
+          "rank": "12",
           "startTimeTaipei": null
         },
         {
-          "name": "LIU Wan-Yu",
-          "registration": "13637506",
-          "result": "25",
-          "rank": "16",
+          "name": "LIN Yi-Chun",
+          "registration": "4305607",
+          "result": "21",
+          "rank": "17",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "14",
+      "tpeRank": "12",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1276,7 +1096,7 @@
         "HSIEH Pei-shan",
         "HUNG En-Tzu"
       ],
-      "opponent": "LIU Sheng Shu/TAN Ning",
+      "opponent": "LIU Sheng Shu / TAN Ning",
       "opponentCode": "CHN",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -1291,7 +1111,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1331,7 +1151,7 @@
         "LIN Jhih-Yun",
         "HSU Yin-Hui"
       ],
-      "opponent": "LEE Sohee/BAEK Hana",
+      "opponent": "LEE Sohee / BAEK Hana",
       "opponentCode": "KOR",
       "venue": "Ichinomiya City Municipal Gymnasium",
       "venueZh": null,
@@ -1444,8 +1264,12 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1880,31 +1704,32 @@
       "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T10:30:00+08:00",
       "startTimeJst": "2026-09-27T11:30:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Quarterfinals",
-      "unit": "Women's Singles Quarterfinals Match 4",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Mixed Team",
+      "phase": "Recurve Mixed Team Quarterfinals",
+      "unit": "Recurve Mixed Team Quarterfinal",
       "athletes": [],
       "athletesEn": [
-        "LIN Hsiang-Ti"
+        "LI Tsai-chi",
+        "TANG Chih-chun"
       ],
-      "opponent": "WANG Zhi Yi",
+      "opponent": "People's Republic of China",
       "opponentCode": "CHN",
-      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venue": null,
       "venueZh": null,
-      "locationCode": "003",
-      "locationName": "Court 3",
-      "courtSessionChainId": "BDM|2026-09-27|003|W.DOUBLES-----------.QFNL.000300--",
-      "courtPredecessorUnitId": "M.DOUBLES-----------.QFNL.000300--",
-      "status": "START_LIST",
-      "result": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "4",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1921,8 +1746,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "W.SINGLES-----------.QFNL.000400--",
-          "id": "BDM:W.SINGLES-----------.QFNL.000400--"
+          "unitId": "X.RTEAM2------------.QFNL.000200--",
+          "id": "ARC:X.RTEAM2------------.QFNL.000200--"
         }
       }
     },
@@ -2040,6 +1865,56 @@
     },
     {
       "date": "2026-09-27",
+      "startTimeTaipei": "2026-09-27T10:30:00+08:00",
+      "startTimeJst": "2026-09-27T11:30:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "sportEn": "Badminton",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Quarterfinals",
+      "unit": "Women's Singles Quarterfinals Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Hsiang-Ti"
+      ],
+      "opponent": "WANG Zhi Yi",
+      "opponentCode": "CHN",
+      "venue": "Ichinomiya City Municipal Gymnasium",
+      "venueZh": null,
+      "locationCode": "003",
+      "locationName": "Court 3",
+      "courtSessionChainId": "BDM|2026-09-27|003|W.DOUBLES-----------.QFNL.000300--",
+      "courtPredecessorUnitId": "M.DOUBLES-----------.QFNL.000300--",
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.QFNL.000400--",
+          "id": "BDM:W.SINGLES-----------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T10:40:00+08:00",
       "startTimeJst": "2026-09-27T11:40:00+09:00",
       "timeNote": null,
@@ -2062,7 +1937,7 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -2732,7 +2607,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 6,
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2896,7 +2771,7 @@
     {
       "date": "2026-09-27",
       "startTimeTaipei": "2026-09-27T13:26:00+08:00",
-      "startTimeJst": "2026-09-27T14:26:00+08:59",
+      "startTimeJst": "2026-09-27T14:26:00+09:00",
       "timeNote": null,
       "disciplineCode": "SRF",
       "sportZh": "衝浪",
@@ -3701,10 +3576,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 56,
+    "resultsOnly": 57,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 65
+    "warnings": 64
   },
   "warnings": [
     {
@@ -3734,13 +3609,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 08:30 Mixed Doubles Quarterfinals Match 3",
-      "row": "BDM:X.DOUBLES-----------.QFNL.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：EQU 08:30 Dressage Individual Individual Final",
+      "row": "EQU:O.DRESINDV----------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：EQU 08:30 Dressage Individual Individual Final",
-      "row": "EQU:O.DRESINDV----------.FNL-.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 08:30 Mixed Doubles Quarterfinals Match 3",
+      "row": "BDM:X.DOUBLES-----------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3834,8 +3709,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：BDM 10:30 Women's Singles Quarterfinals Match 4",
-      "row": "BDM:W.SINGLES-----------.QFNL.000400--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 10:30 Recurve Mixed Team Quarterfinal",
+      "row": "ARC:X.RTEAM2------------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3846,6 +3721,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:30 Game  6",
       "row": "SBL:W.TEAM9-------------.GP--.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BDM 10:30 Women's Singles Quarterfinals Match 4",
+      "row": "BDM:W.SINGLES-----------.QFNL.000400--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3986,16 +3866,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 21:12 Men's 4 x 100m Relay Round 1 Heat 1",
       "row": "ATH:M.4X100M------------.RND1.000100--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ARC|X.RTEAM2------------",
-      "message": "ARC Recurve Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ARC|X.CTEAM2------------",
-      "message": "ARC Compound Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
