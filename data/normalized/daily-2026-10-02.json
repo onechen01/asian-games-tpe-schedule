@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T04:23:36.353Z",
+  "generatedAt": "2026-09-27T10:18:26.367Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-27T04:23:36.189Z",
+      "generatedAt": "2026-09-27T10:18:26.229Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -942,6 +942,54 @@
       "startTimeTaipei": "2026-10-02T13:00:00+08:00",
       "startTimeJst": "2026-10-02T14:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Men's Team",
+      "phase": "Recurve Men's Team Semifinals",
+      "unit": "Recurve Men's Team Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "TANG Chih-chun",
+        "LIN Zih-siang",
+        "CHENG Hsiang-hui"
+      ],
+      "opponent": "Republic of Korea",
+      "opponentCode": "KOR",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.RTEAM-------------.SFNL.000100--",
+          "id": "ARC:M.RTEAM-------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:00:00+08:00",
+      "startTimeJst": "2026-10-02T14:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "BKG",
       "sportZh": "霹靂舞",
       "sportEn": "Breaking",
@@ -1221,16 +1269,26 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 1,
+    "resultsOnly": 2,
     "entered": 19,
     "unresolvedTbd": 0,
-    "warnings": 1
+    "warnings": 3
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  26",
       "row": "SBL:W.TEAM9-------------.GP--.002600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 13:00 Recurve Men's Team Semifinal",
+      "row": "ARC:M.RTEAM-------------.SFNL.000100--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|M.RTEAM-------------",
+      "message": "ARC Recurve Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

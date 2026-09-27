@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T07:11:47.704Z",
+  "generatedAt": "2026-09-27T10:14:09.794Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-27T07:11:47.546Z",
+      "generatedAt": "2026-09-27T10:14:09.660Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -384,6 +384,54 @@
       "sources": {
         "entries": {
           "eventId": "GLF|W.STROKE------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T08:00:00+08:00",
+      "startTimeJst": "2026-09-30T09:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Team",
+      "phase": "Compound Women's Team Semifinals",
+      "unit": "Compound Women's Team Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "HUANG I-jou",
+        "CHEN Yi-hsuan",
+        "CHEN Fang-yi"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CTEAM-------------.SFNL.000100--",
+          "id": "ARC:W.CTEAM-------------.SFNL.000100--"
         }
       }
     },
@@ -917,6 +965,54 @@
       "startTimeTaipei": "2026-09-30T13:00:00+08:00",
       "startTimeJst": "2026-09-30T14:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Men's Team",
+      "phase": "Compound Men's Team Semifinals",
+      "unit": "Compound Men's Team Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Cheng-wei",
+        "CHEN Chieh-lun",
+        "YEN Tzu-hsiang"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.CTEAM-------------.SFNL.000100--",
+          "id": "ARC:M.CTEAM-------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T13:00:00+08:00",
+      "startTimeJst": "2026-09-30T14:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -962,6 +1058,69 @@
           "id": "ELS:O.LOL---------------.GPB-.000500--"
         }
       }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T13:00:00+08:00",
+      "startTimeJst": "2026-09-30T14:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "HOC",
+      "sportZh": "曲棍球",
+      "sportEn": "Hockey",
+      "event": "Women",
+      "phase": "Women Classification-1 (5th-8th)",
+      "unit": "Women Classification-1 (5th-8th) Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Yu-chiu",
+        "TSAI Chen-wei",
+        "LIAO Pei-shan",
+        "HUANG Pei-Lun",
+        "CHEN Ting-Chun",
+        "PU AGUSTIN Linmey",
+        "FAN Hui-Yun",
+        "LAI Ya-Han",
+        "CHANG Tzu-ling",
+        "MAO I-Hsuan",
+        "HUANG Yu-ting",
+        "ZHU Yi-Chun",
+        "LO Tzu-Yin",
+        "WANG Shih-Han",
+        "YE Shu-Qin",
+        "CHANG Chih-Hsien",
+        "WANG Wen-Tsen",
+        "YAO Wen-Xuan"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Gifu Prefectural Green Stadium(Gifu)",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Gifu Prefectural Green Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM11------------.SF51.000200--",
+          "id": "HOC:W.TEAM11------------.SF51.000200--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -970,12 +1129,17 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 5,
+    "resultsOnly": 8,
     "entered": 9,
     "unresolvedTbd": 0,
-    "warnings": 6
+    "warnings": 12
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:00 Compound Women's Team Semifinal",
+      "row": "ARC:W.CTEAM-------------.SFNL.000100--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 2",
@@ -998,8 +1162,33 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 13:00 Compound Men's Team Semifinal",
+      "row": "ARC:M.CTEAM-------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:00 Match 5",
       "row": "ELS:O.LOL---------------.GPB-.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：HOC 13:00 Women Classification-1 (5th-8th) Match 2",
+      "row": "HOC:W.TEAM11------------.SF51.000200--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "HOC|W.TEAM11------------",
+      "message": "HOC Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|W.CTEAM-------------",
+      "message": "ARC Compound Women's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|M.CTEAM-------------",
+      "message": "ARC Compound Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
