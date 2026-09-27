@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T23:43:51.249Z",
+  "generatedAt": "2026-09-27T23:54:44.823Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-27T23:43:51.070Z",
+      "generatedAt": "2026-09-27T23:54:44.658Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -319,6 +319,206 @@
   },
   "date": "2026-09-28",
   "rows": [
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T07:15:00+08:00",
+      "startTimeJst": "2026-09-28T08:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Men's Individual",
+      "phase": "Compound Men's Individual 1/16 Eliminations",
+      "unit": "Compound Men's Individual 1/16 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Chieh-lun"
+      ],
+      "opponent": "CHAINAK Sirapop",
+      "opponentCode": "THA",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "147",
+        "opponent": "145",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.CINDIVID----------.R32-.000700--",
+          "id": "ARC:M.CINDIVID----------.R32-.000700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T07:15:00+08:00",
+      "startTimeJst": "2026-09-28T08:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Men's Individual",
+      "phase": "Compound Men's Individual 1/16 Eliminations",
+      "unit": "Compound Men's Individual 1/16 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Cheng-wei"
+      ],
+      "opponent": "REAPORT Jeremy Ebbinghans",
+      "opponentCode": "PHI",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "148",
+        "opponent": "144",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.CINDIVID----------.R32-.001300--",
+          "id": "ARC:M.CINDIVID----------.R32-.001300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T07:55:00+08:00",
+      "startTimeJst": "2026-09-28T08:55:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Men's Individual",
+      "phase": "Compound Men's Individual 1/8 Eliminations",
+      "unit": "Compound Men's Individual 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Chieh-lun"
+      ],
+      "opponent": "DORJI Tandin",
+      "opponentCode": "BHU",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "30",
+        "opponent": "28",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.CINDIVID----------.8FNL.000400--",
+          "id": "ARC:M.CINDIVID----------.8FNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T07:55:00+08:00",
+      "startTimeJst": "2026-09-28T08:55:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Men's Individual",
+      "phase": "Compound Men's Individual 1/8 Eliminations",
+      "unit": "Compound Men's Individual 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Cheng-wei"
+      ],
+      "opponent": "DELA CRUZ Paul Marton",
+      "opponentCode": "PHI",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "30",
+        "opponent": "30",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.CINDIVID----------.8FNL.000700--",
+          "id": "ARC:M.CINDIVID----------.8FNL.000700--"
+        }
+      }
+    },
     {
       "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T08:00:00+08:00",
@@ -1280,6 +1480,98 @@
     },
     {
       "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T12:15:00+08:00",
+      "startTimeJst": "2026-09-28T13:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Individual",
+      "phase": "Compound Women's Individual 1/16 Eliminations",
+      "unit": "Compound Women's Individual 1/16 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-hsuan"
+      ],
+      "opponent": "MANEESOMBATKUL Kanyavee",
+      "opponentCode": "THA",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CINDIVID----------.R32-.000200--",
+          "id": "ARC:W.CINDIVID----------.R32-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T12:15:00+08:00",
+      "startTimeJst": "2026-09-28T13:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Individual",
+      "phase": "Compound Women's Individual 1/16 Eliminations",
+      "unit": "Compound Women's Individual 1/16 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Fang-yi"
+      ],
+      "opponent": "NORAZAM Iman Aisyah",
+      "opponentCode": "MAS",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CINDIVID----------.R32-.001000--",
+          "id": "ARC:W.CINDIVID----------.R32-.001000--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T12:30:00+08:00",
       "startTimeJst": "2026-09-28T13:30:00+09:00",
       "timeNote": null,
@@ -1882,12 +2174,32 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 28,
+    "resultsOnly": 34,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 31
+    "warnings": 39
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:15 Compound Men's Individual 1/16 Elimination",
+      "row": "ARC:M.CINDIVID----------.R32-.000700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:15 Compound Men's Individual 1/16 Elimination",
+      "row": "ARC:M.CINDIVID----------.R32-.001300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:55 Compound Men's Individual 1/8 Elimination",
+      "row": "ARC:M.CINDIVID----------.8FNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:55 Compound Men's Individual 1/8 Elimination",
+      "row": "ARC:M.CINDIVID----------.8FNL.000700--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 1",
@@ -1980,6 +2292,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:15 Compound Women's Individual 1/16 Elimination",
+      "row": "ARC:W.CINDIVID----------.R32-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:15 Compound Women's Individual 1/16 Elimination",
+      "row": "ARC:W.CINDIVID----------.R32-.001000--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Men's 85kg Group A",
       "row": "WLF:M.85KG--------------.FNL-.A00100--"
     },
@@ -2030,8 +2352,18 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "ARC|M.CINDIVID----------",
+      "message": "ARC Compound Men's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "KUR|M.81KG--------------",
       "message": "KUR Men -81kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|W.CINDIVID----------",
+      "message": "ARC Compound Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
