@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T12:14:16.430Z",
+  "generatedAt": "2026-09-27T12:24:57.366Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-27T12:14:16.229Z",
+      "generatedAt": "2026-09-27T12:24:57.179Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -3204,10 +3204,10 @@
       "locationName": "Park Arena Komaki",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "2",
-        "opponent": "2",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -3368,12 +3368,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "2.22",
+        "tpe": "2.25",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "1",
       "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3586,18 +3586,18 @@
           "name": "LI Hui-jun",
           "registration": "2325863",
           "result": "55.68",
-          "rank": "5",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "CHU Pin-hsun",
           "registration": "16036544",
           "result": "52.21",
-          "rank": "6",
+          "rank": "7",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "5",
+      "tpeRank": "6",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3641,25 +3641,25 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "WANG Chen-yu",
           "registration": "5036850",
-          "result": null,
-          "rank": null,
+          "result": "4:54.01",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "CHO Chia-hsuan",
           "registration": "5038063",
-          "result": null,
-          "rank": null,
+          "result": "4:56.40",
+          "rank": "7",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
