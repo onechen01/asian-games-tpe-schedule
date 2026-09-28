@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T06:55:57.438Z",
+  "generatedAt": "2026-09-28T07:08:14.874Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T06:55:57.305Z",
+      "generatedAt": "2026-09-28T07:08:14.722Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -492,6 +492,54 @@
       "startTimeTaipei": "2026-09-29T09:00:00+08:00",
       "startTimeJst": "2026-09-29T10:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Women's Team Sprint",
+      "phase": "Women's Team Sprint, Qualifying",
+      "unit": "Women's Team Sprint, Qualifying",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Sin-ting",
+        "CHEN Ching-yun",
+        "LIU Shang-ying"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SPRTEAM3----------.QUAL.000100--",
+          "id": "CTR:W.SPRTEAM3----------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
+      "startTimeJst": "2026-09-29T10:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
@@ -600,19 +648,19 @@
       "startTimeTaipei": "2026-09-29T09:00:00+08:00",
       "startTimeJst": "2026-09-29T10:00:00+09:00",
       "timeNote": null,
-      "disciplineCode": "CTR",
-      "sportZh": "自由車場地賽",
-      "sportEn": "Cycling Track",
-      "event": "Men's Team Pursuit",
-      "phase": "Men's Team Pursuit, Qualifying",
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
-      "venue": "Izu Velodrome(Shizuoka)",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "locationCode": "IVD",
+      "locationCode": "HPT",
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
@@ -627,68 +675,21 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 1,
+      "unitCount": 6,
       "enteredAthletes": [
-        "CHANG Chih-sheng",
-        "CHIEN Yun-tse",
-        "LI Jing-feng",
-        "TU Chih-hao",
-        "XU Shi-ru"
+        "CHAN Hao-ching",
+        "HO Chenjui",
+        "HSIEH Su-wei",
+        "HUANG Tsung-hao",
+        "LIANG En-shuo",
+        "TSENG Chun-hsin"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
         "entries": {
-          "eventId": "CTR|M.PURTEAM4----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CTR",
-      "sportZh": "自由車場地賽",
-      "sportEn": "Cycling Track",
-      "event": "Women's Team Sprint",
-      "phase": "Women's Team Sprint, Qualifying",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Izu Velodrome(Shizuoka)",
-      "venueZh": null,
-      "locationCode": "IVD",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Ching-yun",
-        "LIU Shang-ying",
-        "QIU Jing-wen",
-        "WANG Sin-ting"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CTR|W.SPRTEAM3----------"
+          "eventId": "TEN|X.DOUBLES-----------"
         }
       }
     },
@@ -1018,6 +1019,55 @@
         "results": {
           "unitId": "M.66KG--------------.8FNL.000700--",
           "id": "KUR:M.66KG--------------.8FNL.000700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T10:17:00+08:00",
+      "startTimeJst": "2026-09-29T11:17:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Men's Team Pursuit",
+      "phase": "Men's Team Pursuit, Qualifying",
+      "unit": "Men's Team Pursuit, Qualifying",
+      "athletes": [],
+      "athletesEn": [
+        "LI Jing-feng",
+        "CHIEN Yun-tse",
+        "TU Chih-hao",
+        "XU Shi-ru"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.PURTEAM4----------.QUAL.000100--",
+          "id": "CTR:M.PURTEAM4----------.QUAL.000100--"
         }
       }
     },
@@ -1911,10 +1961,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 21,
-    "entered": 11,
+    "resultsOnly": 23,
+    "entered": 10,
     "unresolvedTbd": 0,
-    "warnings": 27
+    "warnings": 31
   },
   "warnings": [
     {
@@ -1936,6 +1986,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 08:30 Round of 16 Bout 2",
       "row": "KUR:W.O87KG-------------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 09:00 Women's Team Sprint, Qualifying",
+      "row": "CTR:W.SPRTEAM3----------.QUAL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1976,6 +2031,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 10:06 Round of 16 Bout 7",
       "row": "KUR:M.66KG--------------.8FNL.000700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 10:17 Men's Team Pursuit, Qualifying",
+      "row": "CTR:M.PURTEAM4----------.QUAL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2049,8 +2109,18 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "CTR|W.SPRTEAM3----------",
+      "message": "CTR Women's Team Sprint 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "SHO|M.TRM---------------",
       "message": "SHO Trap Men Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "CTR|M.PURTEAM4----------",
+      "message": "CTR Men's Team Pursuit 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T06:46:06.116Z",
+  "generatedAt": "2026-09-28T07:06:39.105Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T06:46:05.948Z",
+      "generatedAt": "2026-09-28T07:06:38.947Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1498,14 +1498,14 @@
       "locationName": "Racing Area B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "8",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "8",
       "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1522,6 +1522,52 @@
         "results": {
           "unitId": "M.ILCA7-------------.PREL.000200--",
           "id": "SAL:M.ILCA7-------------.PREL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "startTimeJst": "2026-09-28T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Qualification Series",
+      "unit": "Race 3",
+      "athletes": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "DELAYED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 18,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.ILCA7-------------.PREL.000300--",
+          "id": "SAL:M.ILCA7-------------.PREL.000300--"
         }
       }
     },
@@ -2089,57 +2135,6 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T14:00:00+08:00",
-      "startTimeJst": "2026-09-28T15:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "TBD"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles First Round",
-      "unit": "Mixed Doubles First Round Match 15",
-      "athletes": [],
-      "athletesEn": [
-        "HSIEH Su-wei",
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "FARZAMI Mandegar/YAZDANI Ali",
-      "opponentCode": "IRI",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "012",
-      "locationName": "Indoor Court A",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.R32-.001500--",
-          "id": "TEN:X.DOUBLES-----------.R32-.001500--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T16:00:00+08:00",
       "startTimeJst": "2026-09-28T17:00:00+09:00",
       "timeNote": null,
@@ -2657,7 +2652,7 @@
     "resultsOnly": 40,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 44
+    "warnings": 43
   },
   "warnings": [
     {
@@ -2767,6 +2762,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 3",
+      "row": "SAL:M.ILCA7-------------.PREL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Men's Singles Second Round Match 14",
       "row": "TEN:M.SINGLES-----------.R32-.001400--"
     },
@@ -2822,11 +2822,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles First Round Match 15",
-      "row": "TEN:X.DOUBLES-----------.R32-.001500--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:00 Women's 60KG - Quarterfinal",
       "row": "BOX:W.60KG--------------.QFNL.000100--"
     },
@@ -2864,11 +2859,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|M.CINDIVID----------",
       "message": "ARC Compound Men's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SAL|M.ILCA7-------------",
-      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

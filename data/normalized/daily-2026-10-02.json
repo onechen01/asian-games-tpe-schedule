@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T04:16:40.529Z",
+  "generatedAt": "2026-09-28T07:13:16.980Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-28T04:16:40.386Z",
+      "generatedAt": "2026-09-28T07:13:16.791Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -406,38 +406,85 @@
       "sportEn": "Cycling Track",
       "event": "Women's Omnium",
       "phase": "Women's Omnium, Scratch Race 1/4",
-      "unit": null,
+      "unit": "Women's Omnium, Scratch Race 1/4",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "HUANG Ting-ying"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Izu Velodrome(Shizuoka)",
       "venueZh": null,
       "locationCode": "IVD",
-      "locationName": "",
+      "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 13,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "HUANG Ting-ying"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "CTR|W.OMNIUM------------"
+        "results": {
+          "unitId": "W.OMNIUM------------.SCR-.000100--",
+          "id": "CTR:W.OMNIUM------------.SCR-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T09:30:00+08:00",
+      "startTimeJst": "2026-10-02T10:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Men's Keirin",
+      "phase": "Men's Keirin, First Round",
+      "unit": "Men's Keirin, First Round - Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "KANG Shih-feng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.KEIRIN------------.RND1.000100--",
+          "id": "CTR:M.KEIRIN------------.RND1.000100--"
         }
       }
     },
@@ -943,6 +990,51 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T12:30:00+08:00",
+      "startTimeJst": "2026-10-02T13:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Women -49kg",
+      "phase": "Women -49kg Round of 16",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TYH",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "WANG Chieh-ling"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TKW|W.49KG--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T13:00:00+08:00",
       "startTimeJst": "2026-10-02T14:00:00+09:00",
       "timeNote": null,
@@ -1128,52 +1220,6 @@
     },
     {
       "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T14:00:00+08:00",
-      "startTimeJst": "2026-10-02T15:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CTR",
-      "sportZh": "自由車場地賽",
-      "sportEn": "Cycling Track",
-      "event": "Men's Madison",
-      "phase": "Men's Madison, Victory Ceremony",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Izu Velodrome(Shizuoka)",
-      "venueZh": null,
-      "locationCode": "IVD",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "CHIEN Yun-tse",
-        "XU Shi-ru"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CTR|M.MADISON-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T14:20:00+08:00",
       "startTimeJst": "2026-10-02T15:20:00+09:00",
       "timeNote": null,
@@ -1214,6 +1260,53 @@
       "sources": {
         "entries": {
           "eventId": "TKW|M.80KG--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T14:46:00+08:00",
+      "startTimeJst": "2026-10-02T15:46:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Men's Madison",
+      "phase": "Men's Madison, Final",
+      "unit": "Men's Madison, Final",
+      "athletes": [],
+      "athletesEn": [
+        "LI Jing-feng",
+        "XU Shi-ru"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 11,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.MADISON-----------.FNL-.000100--",
+          "id": "CTR:M.MADISON-----------.FNL-.000100--"
         }
       }
     },
@@ -1273,12 +1366,22 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 2,
-    "entered": 19,
+    "resultsOnly": 5,
+    "entered": 18,
     "unresolvedTbd": 0,
-    "warnings": 3
+    "warnings": 8
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 09:00 Women's Omnium, Scratch Race 1/4",
+      "row": "CTR:W.OMNIUM------------.SCR-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 09:30 Men's Keirin, First Round - Heat 1",
+      "row": "CTR:M.KEIRIN------------.RND1.000100--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  26",
@@ -1288,6 +1391,21 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 13:00 Recurve Men's Team Semifinal",
       "row": "ARC:M.RTEAM-------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:46 Men's Madison, Final",
+      "row": "CTR:M.MADISON-----------.FNL-.000100--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "CTR|W.OMNIUM------------",
+      "message": "CTR Women's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "CTR|M.KEIRIN------------",
+      "message": "CTR Men's Keirin 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
