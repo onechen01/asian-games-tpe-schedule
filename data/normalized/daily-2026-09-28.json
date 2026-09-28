@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T05:46:01.907Z",
+  "generatedAt": "2026-09-28T05:55:46.267Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T05:46:01.734Z",
+      "generatedAt": "2026-09-28T05:55:46.097Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -375,8 +375,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -806,7 +806,7 @@
       "tpeEntrants": [],
       "tpeRank": "3",
       "orgCount": 12,
-      "tpeMedal": null,
+      "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1117,14 +1117,14 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1228,7 +1228,7 @@
       "locationName": "Aichi Sky Expo Esport Competition Room M4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "0",
@@ -1480,9 +1480,9 @@
       "startTimeTaipei": "2026-09-28T10:00:00+08:00",
       "startTimeJst": "2026-09-28T11:00:00+09:00",
       "timeNote": {
-        "code": "NOT_BEFORE",
-        "clockTaipei": "13:00",
-        "raw": "Not Before 14:00"
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1763,7 +1763,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "7",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2011,7 +2011,7 @@
       "locationName": "Final Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "17",
         "opponent": null,
@@ -2064,7 +2064,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "2",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2111,7 +2111,7 @@
       "locationName": "Ring 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2591,7 +2591,7 @@
     "resultsOnly": 39,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 44
+    "warnings": 43
   },
   "warnings": [
     {
@@ -2803,11 +2803,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.CINDIVID----------",
       "message": "ARC Compound Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "KUR|M.81KG--------------",
-      "message": "KUR Men -81kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
