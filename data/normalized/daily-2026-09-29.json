@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T06:07:21.690Z",
+  "generatedAt": "2026-09-28T06:18:18.484Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T06:07:21.516Z",
+      "generatedAt": "2026-09-28T06:18:18.342Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1867,6 +1867,14 @@
           "timeNoteCode": null,
           "timeKind": "EXACT",
           "timeTaipei": "2026-09-29T11:30:00+08:00"
+        },
+        {
+          "unitId": "W.SINGLES-----------.FNL-.000100--",
+          "unitName": "Women's Singles Final Gold Medal Match",
+          "predecessorUnitId": "W.DOUBLES-----------.FNL-.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
         }
       ]
     },
@@ -1882,7 +1890,7 @@
         {
           "unitId": "M.SINGLES-----------.FNL-.000100--",
           "unitName": "Men's Singles Final Gold Medal Match",
-          "predecessorUnitId": "W.DOUBLES-----------.FNL-.000100--",
+          "predecessorUnitId": "W.SINGLES-----------.FNL-.000100--",
           "timeNoteCode": null,
           "timeKind": "EXACT",
           "timeTaipei": "2026-09-29T16:00:00+08:00"
