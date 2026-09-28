@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T01:05:49.423Z",
+  "generatedAt": "2026-09-28T01:30:40.634Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T01:05:49.263Z",
+      "generatedAt": "2026-09-28T01:30:40.464Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -302,8 +302,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -634,56 +634,6 @@
       "startTimeTaipei": "2026-09-28T08:40:00+08:00",
       "startTimeJst": "2026-09-28T09:40:00+09:00",
       "timeNote": null,
-      "disciplineCode": "KUR",
-      "sportZh": "克拉術",
-      "sportEn": "Kurash",
-      "event": "Men -81kg",
-      "phase": "Men -81kg Round of 16",
-      "unit": "Round of 16 Bout 3",
-      "athletes": [],
-      "athletesEn": [
-        "SUNG Hsiao-chung"
-      ],
-      "opponent": "HAJKADOOR Majd",
-      "opponentCode": "SYR",
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "locationCode": "KU1",
-      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "10",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.81KG--------------.8FNL.000300--",
-          "id": "KUR:M.81KG--------------.8FNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T08:40:00+08:00",
-      "startTimeJst": "2026-09-28T09:40:00+09:00",
-      "timeNote": null,
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
@@ -803,6 +753,56 @@
     },
     {
       "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T08:45:00+08:00",
+      "startTimeJst": "2026-09-28T09:45:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Men -81kg",
+      "phase": "Men -81kg Round of 16",
+      "unit": "Round of 16 Bout 3",
+      "athletes": [],
+      "athletesEn": [
+        "SUNG Hsiao-chung"
+      ],
+      "opponent": "HAJKADOOR Majd",
+      "opponentCode": "SYR",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU1",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "10",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.81KG--------------.8FNL.000300--",
+          "id": "KUR:M.81KG--------------.8FNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T08:50:00+08:00",
       "startTimeJst": "2026-09-28T09:50:00+09:00",
       "timeNote": null,
@@ -876,12 +876,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "142.65",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "8",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -926,12 +926,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "48",
+        "tpe": "55",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "3",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1139,7 +1139,7 @@
       "locationName": "Aichi Sky Expo Esport Competition Room M4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1201,7 +1201,7 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2300,11 +2300,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KUR 08:40 Round of 16 Bout 3",
-      "row": "KUR:M.81KG--------------.8FNL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:40 25m Pistol Women Individual - Qualification - Qualification Rapid",
       "row": "SHO:W.SPW---------------.QUAL.000200--"
     },
@@ -2312,6 +2307,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 08:40 25m Pistol Women Team - Final - Final Rapid",
       "row": "SHO:W.SPTW--------------.FNL-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 08:45 Round of 16 Bout 3",
+      "row": "KUR:M.81KG--------------.8FNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
