@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T05:55:46.267Z",
+  "generatedAt": "2026-09-28T06:05:27.780Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T05:55:46.097Z",
+      "generatedAt": "2026-09-28T06:05:27.609Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -375,8 +375,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1448,6 +1448,56 @@
       "locationName": "Racing Area B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "7",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "7",
+      "orgCount": 18,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.ILCA7-------------.PREL.000100--",
+          "id": "SAL:M.ILCA7-------------.PREL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "startTimeJst": "2026-09-28T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Qualification Series",
+      "unit": "Race 2",
+      "athletes": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
         "tpe": "",
@@ -1470,8 +1520,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "M.ILCA7-------------.PREL.000100--",
-          "id": "SAL:M.ILCA7-------------.PREL.000100--"
+          "unitId": "M.ILCA7-------------.PREL.000200--",
+          "id": "SAL:M.ILCA7-------------.PREL.000200--"
         }
       }
     },
@@ -2011,7 +2061,7 @@
       "locationName": "Final Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "17",
         "opponent": null,
@@ -2064,7 +2114,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "2",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2588,10 +2638,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 39,
+    "resultsOnly": 40,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 43
+    "warnings": 44
   },
   "warnings": [
     {
@@ -2693,6 +2743,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 1",
       "row": "SAL:M.ILCA7-------------.PREL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 2",
+      "row": "SAL:M.ILCA7-------------.PREL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
