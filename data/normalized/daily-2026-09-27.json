@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T03:53:22.305Z",
+  "generatedAt": "2026-09-28T04:03:21.158Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-28T03:53:22.194Z",
+      "generatedAt": "2026-09-28T04:03:21.010Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1646,7 +1646,9 @@
       "phase": "Men's Park Final",
       "unit": "Men's Park Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHENG Chiao-hung"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Sky Expo Hall C",
@@ -1656,10 +1658,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "45.20",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "8",
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,

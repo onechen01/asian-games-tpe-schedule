@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T01:10:41.703Z",
+  "generatedAt": "2026-09-28T04:10:47.976Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-28T01:10:41.527Z",
+      "generatedAt": "2026-09-28T04:10:47.843Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -597,6 +597,53 @@
       "startTimeTaipei": "2026-09-30T09:00:00+08:00",
       "startTimeJst": "2026-09-30T10:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Trap Mixed Team",
+      "phase": "Trap Mixed Team Qualification",
+      "unit": "Trap Mixed Team - Qualification",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Wan-Yu",
+        "YANG Kun-Pi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH5",
+      "locationName": "Shotgun Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 12,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.TRMT--------------.QUAL.000100--",
+          "id": "SHO:X.TRMT--------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
+      "startTimeJst": "2026-09-30T10:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "CTR",
       "sportZh": "自由車場地賽",
       "sportEn": "Cycling Track",
@@ -680,52 +727,6 @@
       "sources": {
         "entries": {
           "eventId": "CTR|W.KEIRIN------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
-      "startTimeJst": "2026-09-30T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Trap Mixed Team",
-      "phase": "Trap Mixed Team Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "locationCode": "SH5",
-      "locationName": "Shotgun Range",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LIU Wan-Yu",
-        "YANG Kun-Pi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|X.TRMT--------------"
         }
       }
     },
@@ -1223,10 +1224,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 8,
-    "entered": 11,
+    "resultsOnly": 9,
+    "entered": 10,
     "unresolvedTbd": 0,
-    "warnings": 11
+    "warnings": 13
   },
   "warnings": [
     {
@@ -1248,6 +1249,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's 3m Springboard Preliminary",
       "row": "DIV:W.3M----------------.PREL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Mixed Team - Qualification",
+      "row": "SHO:X.TRMT--------------.QUAL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1273,6 +1279,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.CTEAM-------------",
       "message": "ARC Compound Women's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SHO|X.TRMT--------------",
+      "message": "SHO Trap Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
