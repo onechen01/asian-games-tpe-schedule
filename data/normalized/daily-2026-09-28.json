@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T00:54:14.175Z",
+  "generatedAt": "2026-09-28T01:05:49.423Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T00:54:14.046Z",
+      "generatedAt": "2026-09-28T01:05:49.263Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -546,8 +546,12 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 12,
@@ -648,9 +652,9 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "3",
+        "tpe": "10",
         "opponent": "0",
         "source": "results"
       },
@@ -706,8 +710,8 @@
         {
           "name": "CHENG Yen-Ching",
           "registration": "13649678",
-          "result": "531-16x",
-          "rank": "7",
+          "result": "580-20x",
+          "rank": "5",
           "startTimeTaipei": null
         },
         {
@@ -725,7 +729,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "7",
+      "tpeRank": "5",
       "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -772,7 +776,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1053-27x",
+        "tpe": "1152-34x",
         "opponent": null,
         "source": "results"
       },
@@ -824,7 +828,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -870,8 +874,12 @@
       "locationName": "Centro Acuático",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -916,10 +924,14 @@
       "locationName": "Shotgun Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "48",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -963,25 +975,25 @@
       "locationName": "Shotgun Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
-          "result": null,
-          "rank": null,
+          "result": "45",
+          "rank": "5",
           "startTimeTaipei": null
         },
         {
           "name": "LIN Yi-Chun",
           "registration": "4305607",
-          "result": null,
-          "rank": null,
+          "result": "45",
+          "rank": "6",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1024,7 +1036,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "DELAYED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1189,7 +1201,7 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RESCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1259,6 +1271,52 @@
         "results": {
           "unitId": "O.PUBGM-------------.FNL-.000300--",
           "id": "ELS:O.PUBGM-------------.FNL-.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "startTimeJst": "2026-09-28T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Men -81kg",
+      "phase": "Men -81kg Quarterfinals",
+      "unit": "Quarterfinal Bout 2",
+      "athletes": [],
+      "athletesEn": [
+        "SUNG Hsiao-chung"
+      ],
+      "opponent": "AKHMETGALI Adilet",
+      "opponentCode": "KAZ",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU1",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.81KG--------------.QFNL.000200--",
+          "id": "KUR:M.81KG--------------.QFNL.000200--"
         }
       }
     },
@@ -2204,10 +2262,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 34,
+    "resultsOnly": 35,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 39
+    "warnings": 40
   },
   "warnings": [
     {
@@ -2299,6 +2357,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:40 Match 3",
       "row": "ELS:O.PUBGM-------------.FNL-.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 10:00 Quarterfinal Bout 2",
+      "row": "KUR:M.81KG--------------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",

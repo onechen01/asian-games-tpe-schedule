@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T22:17:08.598Z",
+  "generatedAt": "2026-09-28T01:16:13.175Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-27T22:17:08.422Z",
+      "generatedAt": "2026-09-28T01:16:12.989Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -320,7 +320,7 @@
       "venue": "Kasugai Country Club East Course",
       "venueZh": null,
       "locationCode": "CCE",
-      "locationName": "",
+      "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,
@@ -357,8 +357,8 @@
       "disciplineCode": "GLF",
       "sportZh": "高爾夫",
       "sportEn": "Golf",
-      "event": "Women's Individual Stroke Play",
-      "phase": "Women's Individual Stroke Play",
+      "event": "Men's Team",
+      "phase": "Men's Team",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -367,7 +367,7 @@
       "venue": "Kasugai Country Club East Course",
       "venueZh": null,
       "locationCode": "CCE",
-      "locationName": "",
+      "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,
@@ -383,16 +383,16 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
+        "CHAN Shih-chang",
+        "HUNG Chien-yao",
+        "WANG Wei-hsuan"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
         "entries": {
-          "eventId": "GLF|W.STROKE------------"
+          "eventId": "GLF|M.TEAM--------------"
         }
       }
     },
@@ -848,6 +848,100 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:20:00+08:00",
+      "startTimeJst": "2026-10-02T11:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "GLF",
+      "sportZh": "高爾夫",
+      "sportEn": "Golf",
+      "event": "Women's Individual Stroke Play",
+      "phase": "Women's Individual Stroke Play",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kasugai Country Club East Course",
+      "venueZh": null,
+      "locationCode": "CCE",
+      "locationName": "Kasugai Country Club East Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHIEN Pei-yun",
+        "HSU Wei-ling",
+        "TSENG Ya-ni"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GLF|W.STROKE------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:20:00+08:00",
+      "startTimeJst": "2026-10-02T11:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "GLF",
+      "sportZh": "高爾夫",
+      "sportEn": "Golf",
+      "event": "Women's Team",
+      "phase": "Women's Team",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kasugai Country Club East Course",
+      "venueZh": null,
+      "locationCode": "CCE",
+      "locationName": "Kasugai Country Club East Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHIEN Pei-yun",
+        "HSU Wei-ling",
+        "TSENG Ya-ni"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GLF|W.TEAM--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T10:32:00+08:00",
       "startTimeJst": "2026-10-02T11:32:00+09:00",
       "timeNote": null,
@@ -1270,7 +1364,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 2,
-    "entered": 19,
+    "entered": 21,
     "unresolvedTbd": 0,
     "warnings": 3
   },
