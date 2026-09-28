@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T02:06:56.942Z",
+  "generatedAt": "2026-09-28T02:34:05.417Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T02:06:56.772Z",
+      "generatedAt": "2026-09-28T02:34:05.258Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -375,8 +375,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -415,7 +415,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "147",
         "opponent": "145",
@@ -465,7 +465,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "148",
         "opponent": "144",
@@ -515,7 +515,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "145",
         "opponent": "144",
@@ -565,7 +565,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "149",
         "opponent": "145",
@@ -715,8 +715,8 @@
       "unit": "25m Pistol Women Individual - Qualification - Qualification Rapid",
       "athletes": [],
       "athletesEn": [
-        "CHENG Yen-Ching",
         "TIEN Chia-Chen",
+        "CHENG Yen-Ching",
         "CHEN Yu-Ju"
       ],
       "opponent": null,
@@ -731,24 +731,24 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "CHENG Yen-Ching",
-          "registration": "13649678",
-          "result": "580-20x",
+          "name": "TIEN Chia-Chen",
+          "registration": "13656350",
+          "result": "484-14x",
           "rank": "6",
           "startTimeTaipei": null
         },
         {
-          "name": "TIEN Chia-Chen",
-          "registration": "13656350",
-          "result": "286-8x",
-          "rank": "20",
+          "name": "CHENG Yen-Ching",
+          "registration": "13649678",
+          "result": "580-20x",
+          "rank": "8",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yu-Ju",
           "registration": "13694029",
           "result": "571-9x",
-          "rank": "22",
+          "rank": "24",
           "startTimeTaipei": null
         }
       ],
@@ -1008,7 +1008,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "3",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1059,18 +1059,18 @@
           "name": "LIN Yi-Chun",
           "registration": "4305607",
           "result": "69",
-          "rank": "3",
+          "rank": "4",
           "startTimeTaipei": null
         },
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
-          "result": "50",
-          "rank": "10",
+          "result": "67",
+          "rank": "8",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1113,7 +1113,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1164,8 +1164,12 @@
       "locationName": "Court 2",
       "courtSessionChainId": "BDM|2026-09-28|002|W.DOUBLES-----------.SFNL.000100--",
       "courtPredecessorUnitId": "W.DOUBLES-----------.SFNL.000100--",
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1259,13 +1263,13 @@
         "SU Yi-hsuan",
         "SHEN Chia-wen",
         "CHIANG Ting-en",
+        "LIN Feng-chen",
         "HO Yi-fan",
         "LIN Chi-yun",
         "CHU Yi-shan",
         "CHEN Ching-yu",
-        "PAN Yu-ling",
-        "LIN Feng-chen",
         "TU Ya-ting",
+        "PAN Yu-ling",
         "LI Szu-shih",
         "YANG An-chi",
         "KE Hsia-ai"
@@ -1280,8 +1284,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
-        "opponent": "0",
+        "tpe": "7",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1378,14 +1382,14 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "5",
+        "opponent": "10",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
