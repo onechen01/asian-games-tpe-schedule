@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T05:14:02.996Z",
+  "generatedAt": "2026-09-28T05:23:37.731Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-28T05:14:02.885Z",
+      "generatedAt": "2026-09-28T05:23:37.560Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -387,8 +387,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2793,7 +2793,7 @@
       "venue": "Nagoya City Trade and Industry Center",
       "venueZh": null,
       "locationCode": "TIC",
-      "locationName": "",
+      "locationName": "Nagoya City Trade & Industry Center",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
