@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T10:09:23.808Z",
+  "generatedAt": "2026-09-28T13:07:06.123Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-28T10:09:23.631Z",
+      "generatedAt": "2026-09-28T13:07:05.942Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1152,6 +1152,52 @@
     },
     {
       "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T12:30:00+08:00",
+      "startTimeJst": "2026-09-30T13:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Women's 60kg",
+      "phase": "Women's 60KG Semifinal",
+      "unit": "Women's 60KG - Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yu-ting"
+      ],
+      "opponent": "TURDIBEKOVA Sitora",
+      "opponentCode": "UZB",
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "locationCode": "NIS",
+      "locationName": "Ring 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.60KG--------------.SFNL.000100--",
+          "id": "BOX:W.60KG--------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T13:00:00+08:00",
       "startTimeJst": "2026-09-30T14:00:00+09:00",
       "timeNote": null,
@@ -1319,10 +1365,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 16,
+    "resultsOnly": 17,
     "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 22
+    "warnings": 23
   },
   "warnings": [
     {
@@ -1389,6 +1435,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:30 Match 4",
       "row": "ELS:O.LOL---------------.GPB-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 12:30 Women's 60KG - Semifinal",
+      "row": "BOX:W.60KG--------------.SFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",

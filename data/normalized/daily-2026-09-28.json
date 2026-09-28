@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T12:34:02.650Z",
+  "generatedAt": "2026-09-28T13:04:08.156Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T12:34:02.485Z",
+      "generatedAt": "2026-09-28T13:04:07.973Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2373,9 +2373,9 @@
       "unit": "Men's 4 x 100m Relay Final",
       "athletes": [],
       "athletesEn": [
+        "LAI Po-hsiang",
         "CHEN Wen-pu",
         "HUANG Zuo-jyun",
-        "LAI Po-hsiang",
         "YANG Chun-han"
       ],
       "opponent": null,
