@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T10:19:08.156Z",
+  "generatedAt": "2026-09-28T10:37:15.148Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T10:19:07.988Z",
+      "generatedAt": "2026-09-28T10:37:15.014Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2017,7 +2017,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
@@ -2123,7 +2123,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -2171,10 +2171,14 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "56.65",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "7",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2218,25 +2222,25 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
           "name": "LIN Chung-wei",
           "registration": "15982339",
-          "result": null,
-          "rank": null,
+          "result": "48.74",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Jian-rong",
           "registration": "2322618",
-          "result": null,
-          "rank": null,
+          "result": "49.25",
+          "rank": "4",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
