@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T08:31:07.435Z",
+  "generatedAt": "2026-09-28T08:47:26.562Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T08:31:07.252Z",
+      "generatedAt": "2026-09-28T08:47:26.379Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1551,17 +1551,19 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T13:00:00+08:00",
-      "startTimeJst": "2026-09-29T14:00:00+09:00",
+      "startTimeTaipei": "2026-09-29T12:30:00+08:00",
+      "startTimeJst": "2026-09-29T13:30:00+09:00",
       "timeNote": null,
       "disciplineCode": "SAL",
       "sportZh": "帆船",
       "sportEn": "Sailing",
       "event": "Men's Dinghy",
       "phase": "Qualification Series",
-      "unit": null,
+      "unit": "Race 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kaiyoh Yacht Harbor",
@@ -1570,27 +1572,26 @@
       "locationName": "Racing Area B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "DELAYED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "WU Tsai-chien"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SAL|M.ILCA7-------------"
+        "results": {
+          "unitId": "M.ILCA7-------------.PREL.000300--",
+          "id": "SAL:M.ILCA7-------------.PREL.000300--"
         }
       }
     },
@@ -1704,9 +1705,12 @@
       "sportEn": "Athletics",
       "event": "Men's Pole Vault",
       "phase": "Men's Pole Vault Final",
-      "unit": null,
+      "unit": "Men's Pole Vault Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WU Yan-han",
+        "HUANG Yong-fu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1715,28 +1719,41 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "WU Yan-han",
+          "registration": "1123657",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HUANG Yong-fu",
+          "registration": "1124699",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "HUANG Yong-fu",
-        "WU Yan-han"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|M.PLEVAULT----------"
+        "results": {
+          "unitId": "M.PLEVAULT----------.FNL-.000100--",
+          "id": "ATH:M.PLEVAULT----------.FNL-.000100--"
         }
       }
     },
@@ -1750,9 +1767,11 @@
       "sportEn": "Athletics",
       "event": "Women's High Jump",
       "phase": "Women's High Jump Final",
-      "unit": null,
+      "unit": "Women's High Jump Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "JHANG Chiau-yin"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1761,27 +1780,26 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "JHANG Chiau-yin"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|W.HIGHJUMP----------"
+        "results": {
+          "unitId": "W.HIGHJUMP----------.FNL-.000100--",
+          "id": "ATH:W.HIGHJUMP----------.FNL-.000100--"
         }
       }
     },
@@ -1841,9 +1859,11 @@
       "sportEn": "Athletics",
       "event": "Women's Hammer Throw",
       "phase": "Women's Hammer Throw Final",
-      "unit": null,
+      "unit": "Women's Hammer Throw Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "YU Ya-chien"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -1852,27 +1872,26 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "YU Ya-chien"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "ATH|W.HAMMER------------"
+        "results": {
+          "unitId": "W.HAMMER------------.FNL-.000100--",
+          "id": "ATH:W.HAMMER------------.FNL-.000100--"
         }
       }
     },
@@ -2007,10 +2026,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 24,
-    "entered": 10,
+    "resultsOnly": 28,
+    "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 32
+    "warnings": 37
   },
   "warnings": [
     {
@@ -2120,6 +2139,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 12:30 Race 3",
+      "row": "SAL:M.ILCA7-------------.PREL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:10 Match 11",
       "row": "ELS:O.PUBGM-------------.FNL-.001100--"
     },
@@ -2130,8 +2154,23 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 17:20 Men's Pole Vault Final",
+      "row": "ATH:M.PLEVAULT----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:05 Women's High Jump Final",
+      "row": "ATH:W.HIGHJUMP----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 18:10 Men's +110kg Group A",
       "row": "WLF:M.O110KG------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:35 Women's Hammer Throw Final",
+      "row": "ATH:W.HAMMER------------.FNL-.000100--"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -2152,6 +2191,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.RINDIVID----------",
       "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SAL|M.ILCA7-------------",
+      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

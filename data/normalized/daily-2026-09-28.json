@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T08:28:52.744Z",
+  "generatedAt": "2026-09-28T08:45:31.243Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T08:28:52.584Z",
+      "generatedAt": "2026-09-28T08:45:31.082Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -375,13 +375,13 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
-        "participationComplete": false
+        "participationComplete": true
       }
     },
     "tpenoc": null,
@@ -1124,7 +1124,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1522,52 +1522,6 @@
         "results": {
           "unitId": "M.ILCA7-------------.PREL.000200--",
           "id": "SAL:M.ILCA7-------------.PREL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T10:00:00+08:00",
-      "startTimeJst": "2026-09-28T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Qualification Series",
-      "unit": "Race 3",
-      "athletes": [],
-      "athletesEn": [
-        "WU Tsai-chien"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "locationCode": "KY2",
-      "locationName": "Racing Area B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "DELAYED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 18,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.ILCA7-------------.PREL.000300--",
-          "id": "SAL:M.ILCA7-------------.PREL.000300--"
         }
       }
     },
@@ -2065,7 +2019,7 @@
       "tpeEntrants": [],
       "tpeRank": "2",
       "orgCount": 2,
-      "tpeMedal": null,
+      "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2603,10 +2557,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 39,
+    "resultsOnly": 38,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 42
+    "warnings": 41
   },
   "warnings": [
     {
@@ -2713,11 +2667,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 2",
       "row": "SAL:M.ILCA7-------------.PREL.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 3",
-      "row": "SAL:M.ILCA7-------------.PREL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
