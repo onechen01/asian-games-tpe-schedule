@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T01:47:16.736Z",
+  "generatedAt": "2026-09-28T01:53:36.662Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T01:47:16.569Z",
+      "generatedAt": "2026-09-28T01:53:36.500Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -300,7 +300,80 @@
           ]
         },
         "missing": [],
-        "timezoneAnomalies": [],
+        "timezoneAnomalies": [
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-28",
+            "unitId": "M.SHORTBRD----------.RND3.000100--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-28T07:00:00+08:59",
+            "recoveredStartTime": "2026-09-28T07:00:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-28",
+            "unitId": "M.SHORTBRD----------.RND3.000200--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-28T07:28:00+08:59",
+            "recoveredStartTime": "2026-09-28T07:28:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-28",
+            "unitId": "M.SHORTBRD----------.RND3.000300--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-28T07:56:00+08:59",
+            "recoveredStartTime": "2026-09-28T07:56:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-28",
+            "unitId": "M.SHORTBRD----------.RND3.000400--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-28T08:24:00+08:59",
+            "recoveredStartTime": "2026-09-28T08:24:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-28",
+            "unitId": "M.SHORTBRD----------.RND3.000500--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-28T08:52:00+08:59",
+            "recoveredStartTime": "2026-09-28T08:52:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-28",
+            "unitId": "M.SHORTBRD----------.RND3.000600--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-28T09:20:00+08:59",
+            "recoveredStartTime": "2026-09-28T09:20:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-28",
+            "unitId": "M.SHORTBRD----------.RND3.000700--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-28T09:48:00+08:59",
+            "recoveredStartTime": "2026-09-28T09:48:00+09:00"
+          },
+          {
+            "disciplineCode": "SRF",
+            "date": "2026-09-28",
+            "unitId": "M.SHORTBRD----------.RND3.000800--",
+            "code": "RECOVERED_OFFICIAL_TIME",
+            "sourceOffset": "+08:59",
+            "originalStartTime": "2026-09-28T10:16:00+08:59",
+            "recoveredStartTime": "2026-09-28T10:16:00+09:00"
+          }
+        ],
         "recovery": {
           "initialMissing": 1,
           "recovered": 1,
@@ -661,25 +734,25 @@
           "name": "CHENG Yen-Ching",
           "registration": "13649678",
           "result": "580-20x",
-          "rank": "5",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "TIEN Chia-Chen",
           "registration": "13656350",
           "result": "286-8x",
-          "rank": "19",
+          "rank": "20",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yu-Ju",
           "registration": "13694029",
-          "result": "543-9x",
-          "rank": "21",
+          "result": "571-9x",
+          "rank": "22",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "5",
+      "tpeRank": "6",
       "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -828,7 +901,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -926,12 +999,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "68",
+        "tpe": "73",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "2",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -981,19 +1054,19 @@
         {
           "name": "LIN Yi-Chun",
           "registration": "4305607",
-          "result": "58",
-          "rank": "5",
+          "result": "63",
+          "rank": "4",
           "startTimeTaipei": null
         },
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
           "result": "45",
-          "rank": "6",
+          "rank": "5",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "5",
+      "tpeRank": "4",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1139,7 +1212,7 @@
       "locationName": "Aichi Sky Expo Esport Competition Room M4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1330,8 +1403,8 @@
       "startTimeJst": "2026-09-28T11:00:00+09:00",
       "timeNote": {
         "code": "NOT_BEFORE",
-        "clockTaipei": "10:00",
-        "raw": "Not Before 11:00"
+        "clockTaipei": "12:00",
+        "raw": "Not Before 13:00"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1347,8 +1420,8 @@
       "opponentCode": "JOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "locationCode": "005",
-      "locationName": "Court 3",
+      "locationCode": "002",
+      "locationName": "Show Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "SCHEDULED",
