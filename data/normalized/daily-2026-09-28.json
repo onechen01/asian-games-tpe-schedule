@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T04:32:09.181Z",
+  "generatedAt": "2026-09-28T05:15:37.360Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T04:32:09.007Z",
+      "generatedAt": "2026-09-28T05:15:37.252Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -375,8 +375,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1095,9 +1095,9 @@
       "startTimeTaipei": "2026-09-28T09:00:00+08:00",
       "startTimeJst": "2026-09-28T10:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "Starting at 13:30"
+        "code": "NOT_BEFORE",
+        "clockTaipei": "12:30",
+        "raw": "Not Before 13:30"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1117,8 +1117,12 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1425,6 +1429,56 @@
       "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T10:00:00+08:00",
       "startTimeJst": "2026-09-28T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Qualification Series",
+      "unit": "Race 1",
+      "athletes": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 18,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.ILCA7-------------.PREL.000100--",
+          "id": "SAL:M.ILCA7-------------.PREL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T10:00:00+08:00",
+      "startTimeJst": "2026-09-28T11:00:00+09:00",
       "timeNote": {
         "code": "NOT_BEFORE",
         "clockTaipei": "13:00",
@@ -1473,51 +1527,6 @@
     },
     {
       "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T10:00:00+08:00",
-      "startTimeJst": "2026-09-28T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Qualification Series",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "locationCode": "KY2",
-      "locationName": "Racing Area B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 3,
-      "enteredAthletes": [
-        "WU Tsai-chien"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SAL|M.ILCA7-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T11:15:00+08:00",
       "startTimeJst": "2026-09-28T12:15:00+09:00",
       "timeNote": null,
@@ -1543,7 +1552,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": null,
@@ -1597,8 +1606,12 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 12,
@@ -1643,7 +1656,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "145",
         "opponent": "143",
@@ -1693,7 +1706,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "145",
         "opponent": "145",
@@ -1743,8 +1756,12 @@
       "locationName": "Nagoya City Trade & Industry Center",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 8,
@@ -1763,6 +1780,106 @@
         "results": {
           "unitId": "M.85KG--------------.FNL-.A00100--",
           "id": "WLF:M.85KG--------------.FNL-.A00100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T12:55:00+08:00",
+      "startTimeJst": "2026-09-28T13:55:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Individual",
+      "phase": "Compound Women's Individual 1/8 Eliminations",
+      "unit": "Compound Women's Individual 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Yi-hsuan"
+      ],
+      "opponent": "TANIPARTHI Chikitha",
+      "opponentCode": "IND",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "148",
+        "opponent": "148",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "9",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CINDIVID----------.8FNL.000100--",
+          "id": "ARC:W.CINDIVID----------.8FNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T12:55:00+08:00",
+      "startTimeJst": "2026-09-28T13:55:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Compound Women's Individual",
+      "phase": "Compound Women's Individual 1/8 Eliminations",
+      "unit": "Compound Women's Individual 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Fang-yi"
+      ],
+      "opponent": "PARK Jungyoon",
+      "opponentCode": "KOR",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "147",
+        "opponent": "148",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "9",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.CINDIVID----------.8FNL.000500--",
+          "id": "ARC:W.CINDIVID----------.8FNL.000500--"
         }
       }
     },
@@ -1890,10 +2007,14 @@
       "locationName": "Final Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1936,8 +2057,12 @@
       "locationName": "Table 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2459,10 +2584,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 36,
-    "entered": 1,
+    "resultsOnly": 39,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 40
+    "warnings": 44
   },
   "warnings": [
     {
@@ -2562,6 +2687,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 1",
+      "row": "SAL:M.ILCA7-------------.PREL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Men's Singles Second Round Match 14",
       "row": "TEN:M.SINGLES-----------.R32-.001400--"
     },
@@ -2589,6 +2719,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WLF 12:30 Men's 85kg Group A",
       "row": "WLF:M.85KG--------------.FNL-.A00100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:55 Compound Women's Individual 1/8 Elimination",
+      "row": "ARC:W.CINDIVID----------.8FNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:55 Compound Women's Individual 1/8 Elimination",
+      "row": "ARC:W.CINDIVID----------.8FNL.000500--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2649,6 +2789,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|M.CINDIVID----------",
       "message": "ARC Compound Men's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SAL|M.ILCA7-------------",
+      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
