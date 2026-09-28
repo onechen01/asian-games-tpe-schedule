@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-28T13:56:49.848Z",
+  "generatedAt": "2026-09-28T14:49:16.490Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-28T13:56:49.847Z",
+  "standingsUpdatedAt": "2026-09-28T14:49:16.487Z",
   "ledgerCounts": {
     "gold": 3,
-    "silver": 8,
+    "silver": 7,
     "bronze": 23,
-    "total": 34
+    "total": 33
   },
   "officialCounts": {
     "gold": 3,
-    "silver": 8,
+    "silver": 7,
     "bronze": 23,
-    "total": 34
+    "total": 33
   },
   "missing": {
     "gold": 0,
@@ -451,25 +451,6 @@
         "KUO Tzu-ang"
       ],
       "rank": "3"
-    },
-    {
-      "awardId": "ATH|M.4X100M------------|ATHM4X100M-----TPE01",
-      "medal": "ME_SILVER",
-      "disciplineCode": "ATH",
-      "sportZh": "田徑",
-      "event": "Men's 4 x 100m Relay",
-      "phase": "Men's 4 x 100m Relay Round 1",
-      "date": "2026-09-27",
-      "startTimeTaipei": "2026-09-27T21:12:00+08:00",
-      "resultId": "ATH:M.4X100M------------.RND1.000100--",
-      "unitId": "M.4X100M------------.RND1.000100--",
-      "athletes": [
-        "YANG Chun-han",
-        "LAI Po-hsiang",
-        "HUANG Zuo-jyun",
-        "CHEN Wen-pu"
-      ],
-      "rank": "2"
     },
     {
       "awardId": "ATH|M.HIGHJUMP----------|998221",
