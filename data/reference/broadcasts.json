@@ -3668,9 +3668,9 @@
       "channelId": "540",
       "channelName": "愛爾達體育MAX1台",
       "isLive": true,
-      "title": "亞運 陳柏任 舉重 男子110公斤級決賽 9/29 LIVE",
-      "feed": "main",
-      "note": null,
+      "title": "亞運 陳柏任 舉重 男子110公斤級決賽 9/29(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
       "capturedAt": "2026-09-28",
       "broadcastEndTimeTaipei": "2026-09-29T13:30:00+08:00",
       "matchLevel": "unit",
@@ -3734,9 +3734,9 @@
       "channelId": "105",
       "channelName": "愛爾達體育2台",
       "isLive": false,
-      "title": "亞運 陳柏任 舉重 男子110公斤級決賽 9/29 D-LIVE",
-      "feed": "main",
-      "note": null,
+      "title": "亞運 陳柏任 舉重 男子110公斤級決賽 9/29(原音) D-LIVE",
+      "feed": "original",
+      "note": "原音",
       "capturedAt": "2026-09-28",
       "broadcastEndTimeTaipei": "2026-09-29T18:10:00+08:00",
       "matchLevel": "unit",
@@ -3922,29 +3922,6 @@
         "athleteNames": [
           "CHEN Barbara",
           "CHEN Jacqueline"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T15:55:00+08:00",
-      "disciplineCode": "JUD",
-      "channelId": "101",
-      "channelName": "愛爾達體育1台",
-      "isLive": true,
-      "title": "亞運 林真豪/楊勇緯 柔道 女48/52/男60/66公斤級預賽 9/30 LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-09-28",
-      "broadcastEndTimeTaipei": "2026-09-30T18:20:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "LIN Chen-hao",
-          "YANG Yung-wei"
         ]
       }
     },
