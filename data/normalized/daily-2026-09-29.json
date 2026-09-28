@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T08:58:23.182Z",
+  "generatedAt": "2026-09-28T09:07:41.234Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T08:58:23.032Z",
+      "generatedAt": "2026-09-28T09:07:41.063Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -645,56 +645,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHAN Hao-ching",
-        "HO Chenjui",
-        "HSIEH Su-wei",
-        "HUANG Tsung-hao",
-        "LIANG En-shuo",
-        "TSENG Chun-hsin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|X.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T09:10:00+08:00",
       "startTimeJst": "2026-09-29T10:10:00+09:00",
       "timeNote": null,
@@ -804,7 +754,7 @@
       "sportZh": "輕艇激流",
       "sportEn": "Canoe Slalom",
       "event": "Men's Kayak Single",
-      "phase": "Men's Kayak Single Heat",
+      "phase": "Men's Kayak Single Heats",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -813,7 +763,7 @@
       "venue": "Yahagigawa Canoe Slalom Course",
       "venueZh": null,
       "locationCode": "YSC",
-      "locationName": "",
+      "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,
@@ -1073,51 +1023,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:18:00+08:00",
-      "startTimeJst": "2026-09-29T11:18:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Women's Canoe Single",
-      "phase": "Women's Canoe Single Heat",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUNG Yu-han"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CSL|W.C1----------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T10:20:00+08:00",
       "startTimeJst": "2026-09-29T11:20:00+09:00",
       "timeNote": null,
@@ -1168,14 +1073,14 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:48:00+08:00",
-      "startTimeJst": "2026-09-29T11:48:00+09:00",
+      "startTimeTaipei": "2026-09-29T10:47:00+08:00",
+      "startTimeJst": "2026-09-29T11:47:00+09:00",
       "timeNote": null,
       "disciplineCode": "CSL",
       "sportZh": "輕艇激流",
       "sportEn": "Canoe Slalom",
       "event": "Men's Canoe Single",
-      "phase": "Men's Canoe Single Heat",
+      "phase": "Men's Canoe Single Heats",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -1184,7 +1089,7 @@
       "venue": "Yahagigawa Canoe Slalom Course",
       "venueZh": null,
       "locationCode": "YSC",
-      "locationName": "",
+      "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,
@@ -1209,52 +1114,6 @@
       "sources": {
         "entries": {
           "eventId": "CSL|M.C1----------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T11:25:00+08:00",
-      "startTimeJst": "2026-09-29T12:25:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Women's Kayak Single",
-      "phase": "Women's Kayak Single Heat",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHANG Chu-han",
-        "WU Ting-i"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CSL|W.K1----------------"
         }
       }
     },
@@ -1894,6 +1753,50 @@
           "id": "ATH:W.HAMMER------------.FNL-.000100--"
         }
       }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T20:05:00+08:00",
+      "startTimeJst": "2026-09-29T21:05:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "sportEn": "Athletics",
+      "event": "Women's 4 x 400m Relay",
+      "phase": "Women's 4 x 400m Relay Final",
+      "unit": "Women's 4 x 400m Relay Final",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Mizuho Park Athletic Stadium",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "National Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 9,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.4X400M------------.FNL-.000100--",
+          "id": "ATH:W.4X400M------------.FNL-.000100--"
+        }
+      }
     }
   ],
   "sessionChains": [
@@ -1976,10 +1879,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 28,
-    "entered": 5,
+    "resultsOnly": 29,
+    "entered": 2,
     "unresolvedTbd": 0,
-    "warnings": 37
+    "warnings": 38
   },
   "warnings": [
     {
@@ -2121,6 +2024,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ATH 18:35 Women's Hammer Throw Final",
       "row": "ATH:W.HAMMER------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ATH 20:05 Women's 4 x 400m Relay Final",
+      "row": "ATH:W.4X400M------------.FNL-.000100--"
     },
     {
       "code": "PENDING_LATER_UNITS",
