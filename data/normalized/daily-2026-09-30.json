@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T07:10:00.713Z",
+  "generatedAt": "2026-09-28T10:09:23.808Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-28T07:10:00.536Z",
+      "generatedAt": "2026-09-28T10:09:23.631Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -303,9 +303,13 @@
       "sportEn": "Golf",
       "event": "Men's Individual Stroke Play",
       "phase": "Men's Individual Stroke Play",
-      "unit": null,
+      "unit": "Round 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Wei-hsuan",
+        "CHAN Shih-chang",
+        "HUNG Chien-yao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -314,29 +318,48 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "WANG Wei-hsuan",
+          "registration": "11704760",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHAN Shih-chang",
+          "registration": "12708292",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HUNG Chien-yao",
+          "registration": "905667",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GLF|M.STROKE------------"
+        "results": {
+          "unitId": "M.STROKE------------.FNL-.000100--",
+          "id": "GLF:M.STROKE------------.FNL-.000100--"
         }
       }
     },
@@ -350,9 +373,13 @@
       "sportEn": "Golf",
       "event": "Men's Team",
       "phase": "Men's Team",
-      "unit": null,
+      "unit": "Round 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Wei-hsuan",
+        "CHAN Shih-chang",
+        "HUNG Chien-yao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -361,29 +388,26 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GLF|M.TEAM--------------"
+        "results": {
+          "unitId": "M.TEAM--------------.FNL-.000100--",
+          "id": "GLF:M.TEAM--------------.FNL-.000100--"
         }
       }
     },
@@ -944,7 +968,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 3,
+      "unitCount": 2,
       "enteredAthletes": [
         "WU Tsai-chien"
       ],
@@ -967,9 +991,13 @@
       "sportEn": "Golf",
       "event": "Women's Individual Stroke Play",
       "phase": "Women's Individual Stroke Play",
-      "unit": null,
+      "unit": "Round 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIEN Pei-yun",
+        "TSENG Ya-ni",
+        "HSU Wei-ling"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -978,29 +1006,48 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHIEN Pei-yun",
+          "registration": "10587356",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "TSENG Ya-ni",
+          "registration": "8374574",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HSU Wei-ling",
+          "registration": "8390832",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GLF|W.STROKE------------"
+        "results": {
+          "unitId": "W.STROKE------------.FNL-.000100--",
+          "id": "GLF:W.STROKE------------.FNL-.000100--"
         }
       }
     },
@@ -1014,9 +1061,13 @@
       "sportEn": "Golf",
       "event": "Women's Team",
       "phase": "Women's Team",
-      "unit": null,
+      "unit": "Round 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIEN Pei-yun",
+        "TSENG Ya-ni",
+        "HSU Wei-ling"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -1025,29 +1076,26 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GLF|W.TEAM--------------"
+        "results": {
+          "unitId": "W.TEAM--------------.FNL-.000100--",
+          "id": "GLF:W.TEAM--------------.FNL-.000100--"
         }
       }
     },
@@ -1271,12 +1319,22 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 12,
-    "entered": 8,
+    "resultsOnly": 16,
+    "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 18
+    "warnings": 22
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 05:30 Round 1",
+      "row": "GLF:M.STROKE------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 05:30 Round 1",
+      "row": "GLF:M.TEAM--------------.FNL-.000100--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:00 Compound Women's Team Semifinal",
@@ -1316,6 +1374,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 09:30 Women's Keirin, First Round - Heat 2",
       "row": "CTR:W.KEIRIN------------.RND1.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 10:20 Round 1",
+      "row": "GLF:W.STROKE------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 10:20 Round 1",
+      "row": "GLF:W.TEAM--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
