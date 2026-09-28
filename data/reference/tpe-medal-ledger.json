@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-28T10:21:07.301Z",
+  "generatedAt": "2026-09-28T10:56:25.499Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-28T10:21:07.298Z",
+  "standingsUpdatedAt": "2026-09-28T10:56:25.499Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 7,
-    "bronze": 22,
-    "total": 32
+    "bronze": 23,
+    "total": 33
   },
   "officialCounts": {
     "gold": 3,
     "silver": 7,
-    "bronze": 22,
-    "total": 32
+    "bronze": 23,
+    "total": 33
   },
   "missing": {
     "gold": 0,
@@ -556,6 +556,22 @@
       "rank": "2"
     },
     {
+      "awardId": "ATH|M.400MHURD----------|15982339",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "event": "Men's 400m Hurdles",
+      "phase": "Men's 400m Hurdles Final",
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T18:33:00+08:00",
+      "resultId": "ATH:M.400MHURD----------.FNL-.000100--",
+      "unitId": "M.400MHURD----------.FNL-.000100--",
+      "athletes": [
+        "LIN Chung-wei"
+      ],
+      "rank": "3"
+    },
+    {
       "awardId": "BDM|X.DOUBLES-----------|BDMXDOUBLES----TPE01",
       "medal": "ME_BRONZE",
       "disciplineCode": "BDM",
@@ -604,7 +620,7 @@
       "athletes": [
         "LIN Yun-ju"
       ],
-      "rank": null
+      "rank": "2"
     }
   ]
 }
