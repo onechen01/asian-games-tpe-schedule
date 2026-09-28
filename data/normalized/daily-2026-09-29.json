@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T06:18:18.484Z",
+  "generatedAt": "2026-09-28T06:28:27.238Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T06:18:18.342Z",
+      "generatedAt": "2026-09-28T06:28:27.108Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -689,6 +689,56 @@
       "sources": {
         "entries": {
           "eventId": "CTR|W.SPRTEAM3----------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
+      "startTimeJst": "2026-09-29T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "HPT",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 6,
+      "enteredAthletes": [
+        "CHAN Hao-ching",
+        "HO Chenjui",
+        "HSIEH Su-wei",
+        "HUANG Tsung-hao",
+        "LIANG En-shuo",
+        "TSENG Chun-hsin"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "TEN|X.DOUBLES-----------"
         }
       }
     },
@@ -1875,6 +1925,14 @@
           "timeNoteCode": "FOLLOWED_BY",
           "timeKind": "NONE",
           "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.FNL-.000100--",
+          "unitName": "Men's Doubles Final Gold Medal Match",
+          "predecessorUnitId": "W.SINGLES-----------.FNL-.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
         }
       ]
     },
@@ -1885,15 +1943,15 @@
       "locationName": "Court 1",
       "anchorUnitId": "M.SINGLES-----------.FNL-.000100--",
       "anchorTimeKind": "EXACT",
-      "anchorTimeTaipei": "2026-09-29T16:00:00+08:00",
+      "anchorTimeTaipei": "2026-09-29T17:00:00+08:00",
       "units": [
         {
           "unitId": "M.SINGLES-----------.FNL-.000100--",
           "unitName": "Men's Singles Final Gold Medal Match",
-          "predecessorUnitId": "W.SINGLES-----------.FNL-.000100--",
+          "predecessorUnitId": "M.DOUBLES-----------.FNL-.000100--",
           "timeNoteCode": null,
           "timeKind": "EXACT",
-          "timeTaipei": "2026-09-29T16:00:00+08:00"
+          "timeTaipei": "2026-09-29T17:00:00+08:00"
         }
       ]
     }
@@ -1904,7 +1962,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 21,
-    "entered": 11,
+    "entered": 12,
     "unresolvedTbd": 0,
     "warnings": 27
   },

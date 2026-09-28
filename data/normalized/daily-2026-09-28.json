@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T06:16:24.447Z",
+  "generatedAt": "2026-09-28T06:26:33.445Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T06:16:24.325Z",
+      "generatedAt": "2026-09-28T06:26:33.317Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -375,8 +375,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1960,7 +1960,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "6",
         "opponent": null,
@@ -2114,7 +2114,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "3",
-        "opponent": "2",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2610,6 +2610,22 @@
           "timeNoteCode": null,
           "timeKind": "EXACT",
           "timeTaipei": "2026-09-29T11:30:00+08:00"
+        },
+        {
+          "unitId": "W.SINGLES-----------.FNL-.000100--",
+          "unitName": "Women's Singles Final Gold Medal Match",
+          "predecessorUnitId": "W.DOUBLES-----------.FNL-.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
+        },
+        {
+          "unitId": "M.DOUBLES-----------.FNL-.000100--",
+          "unitName": "Men's Doubles Final Gold Medal Match",
+          "predecessorUnitId": "W.SINGLES-----------.FNL-.000100--",
+          "timeNoteCode": "FOLLOWED_BY",
+          "timeKind": "NONE",
+          "timeTaipei": null
         }
       ]
     },
@@ -2620,15 +2636,15 @@
       "locationName": "Court 1",
       "anchorUnitId": "M.SINGLES-----------.FNL-.000100--",
       "anchorTimeKind": "EXACT",
-      "anchorTimeTaipei": "2026-09-29T16:00:00+08:00",
+      "anchorTimeTaipei": "2026-09-29T17:00:00+08:00",
       "units": [
         {
           "unitId": "M.SINGLES-----------.FNL-.000100--",
           "unitName": "Men's Singles Final Gold Medal Match",
-          "predecessorUnitId": "W.DOUBLES-----------.FNL-.000100--",
+          "predecessorUnitId": "M.DOUBLES-----------.FNL-.000100--",
           "timeNoteCode": null,
           "timeKind": "EXACT",
-          "timeTaipei": "2026-09-29T16:00:00+08:00"
+          "timeTaipei": "2026-09-29T17:00:00+08:00"
         }
       ]
     }
