@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T04:08:44.745Z",
+  "generatedAt": "2026-09-28T04:35:38.981Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T04:08:44.610Z",
+      "generatedAt": "2026-09-28T04:35:38.807Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 4,
+          "recovered": 4,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -538,6 +538,68 @@
       "startTimeTaipei": "2026-09-29T09:00:00+08:00",
       "startTimeJst": "2026-09-29T10:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Trap Women Individual",
+      "phase": "Trap Women Individual Qualification",
+      "unit": "Trap Women Individual - Qualification - Qualification - Day 3",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Wan-Yu",
+        "LIN Yi-Chun"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH5",
+      "locationName": "Shotgun Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "LIU Wan-Yu",
+          "registration": "13637506",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "LIN Yi-Chun",
+          "registration": "4305607",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": null,
+      "orgCount": 12,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TRW---------------.QUAL.000300--",
+          "id": "SHO:W.TRW---------------.QUAL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
+      "startTimeJst": "2026-09-29T10:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "CTR",
       "sportZh": "自由車場地賽",
       "sportEn": "Cycling Track",
@@ -627,52 +689,6 @@
       "sources": {
         "entries": {
           "eventId": "CTR|W.SPRTEAM3----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Trap Women Individual",
-      "phase": "Trap Women Individual Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "locationCode": "SH5",
-      "locationName": "Shotgun Range",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LIN Yi-Chun",
-        "LIU Wan-Yu"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|W.TRW---------------"
         }
       }
     },
@@ -1011,194 +1027,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "IMG",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHOU Tien-Chen",
-        "LIN Chun-Yi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|M.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Women's Singles",
-      "phase": "Women's Singles Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "IMG",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIU Pin-chian",
-        "LIN Hsiang-Ti"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|W.SINGLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "IMG",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIU Hsiang-Chieh",
-        "LEE Jhe-Huei",
-        "WANG Chi-Lin",
-        "YANG Po-Hsuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|M.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "BDM",
-      "sportZh": "羽球",
-      "sportEn": "Badminton",
-      "event": "Women's Doubles",
-      "phase": "Women's Doubles Final",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Ichinomiya City Municipal Gymnasium",
-      "venueZh": null,
-      "locationCode": "IMG",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "HSIEH Pei-shan",
-        "HSU Yin-Hui",
-        "HUNG En-Tzu",
-        "LIN Jhih-Yun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "BDM|W.DOUBLES-----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T10:06:00+08:00",
       "startTimeJst": "2026-09-29T11:06:00+09:00",
       "timeNote": null,
@@ -1450,7 +1278,7 @@
       "venue": "Nagoya City Trade and Industry Center",
       "venueZh": null,
       "locationCode": "TIC",
-      "locationName": "",
+      "locationName": "Nagoya City Trade & Industry Center",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "START_LIST",
@@ -1931,7 +1759,7 @@
       "venue": "Nagoya City Trade and Industry Center",
       "venueZh": null,
       "locationCode": "TIC",
-      "locationName": "",
+      "locationName": "Nagoya City Trade & Industry Center",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "START_LIST",
@@ -2053,16 +1881,74 @@
       }
     }
   ],
-  "sessionChains": [],
+  "sessionChains": [
+    {
+      "id": "BDM|2026-09-29|001|X.DOUBLES-----------.FNL-.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "X.DOUBLES-----------.FNL-.000100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-29T10:00:00+08:00",
+      "units": [
+        {
+          "unitId": "X.DOUBLES-----------.FNL-.000100--",
+          "unitName": "Mixed Doubles Final Gold Medal Match",
+          "predecessorUnitId": null,
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-29T10:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-29|001|W.DOUBLES-----------.FNL-.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "W.DOUBLES-----------.FNL-.000100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-29T11:30:00+08:00",
+      "units": [
+        {
+          "unitId": "W.DOUBLES-----------.FNL-.000100--",
+          "unitName": "Women's Doubles Final Gold Medal Match",
+          "predecessorUnitId": "X.DOUBLES-----------.FNL-.000100--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-29T11:30:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "BDM|2026-09-29|001|M.SINGLES-----------.FNL-.000100--",
+      "disciplineCode": "BDM",
+      "locationCode": "001",
+      "locationName": "Court 1",
+      "anchorUnitId": "M.SINGLES-----------.FNL-.000100--",
+      "anchorTimeKind": "EXACT",
+      "anchorTimeTaipei": "2026-09-29T16:00:00+08:00",
+      "units": [
+        {
+          "unitId": "M.SINGLES-----------.FNL-.000100--",
+          "unitName": "Men's Singles Final Gold Medal Match",
+          "predecessorUnitId": "W.DOUBLES-----------.FNL-.000100--",
+          "timeNoteCode": null,
+          "timeKind": "EXACT",
+          "timeTaipei": "2026-09-29T16:00:00+08:00"
+        }
+      ]
+    }
+  ],
   "coverageComplete": true,
   "officialNoCompetition": false,
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 20,
-    "entered": 17,
+    "resultsOnly": 21,
+    "entered": 12,
     "unresolvedTbd": 0,
-    "warnings": 25
+    "warnings": 27
   },
   "warnings": [
     {
@@ -2089,6 +1975,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Men Individual - Qualification - Qualification - Day 3",
       "row": "SHO:M.TRM---------------.QUAL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Women Individual - Qualification - Qualification - Day 3",
+      "row": "SHO:W.TRW---------------.QUAL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2184,6 +2075,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.RINDIVID----------",
       "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SHO|W.TRW---------------",
+      "message": "SHO Trap Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
