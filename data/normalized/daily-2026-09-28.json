@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T03:04:09.470Z",
+  "generatedAt": "2026-09-28T03:34:59.454Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T03:04:09.314Z",
+      "generatedAt": "2026-09-28T03:34:59.324Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -619,7 +619,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": null,
@@ -675,10 +675,10 @@
       "locationName": "Aichi Sky Expo Esport Competition Room M5",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "2",
+        "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -734,25 +734,25 @@
           "name": "TIEN Chia-Chen",
           "registration": "13656350",
           "result": "583-19x",
-          "rank": "4",
+          "rank": "5",
           "startTimeTaipei": null
         },
         {
           "name": "CHENG Yen-Ching",
           "registration": "13649678",
           "result": "580-20x",
-          "rank": "7",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yu-Ju",
           "registration": "13694029",
           "result": "571-9x",
-          "rank": "24",
+          "rank": "26",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "4",
+      "tpeRank": "5",
       "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -901,7 +901,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": null,
@@ -1003,7 +1003,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "78",
+        "tpe": "98",
         "opponent": null,
         "source": "results"
       },
@@ -1058,19 +1058,19 @@
         {
           "name": "LIN Yi-Chun",
           "registration": "4305607",
-          "result": "72",
-          "rank": "4",
+          "result": "93",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
-          "result": "67",
-          "rank": "8",
+          "result": "76",
+          "rank": "7",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "4",
+      "tpeRank": "3",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1094,7 +1094,11 @@
       "date": "2026-09-28",
       "startTimeTaipei": "2026-09-28T09:00:00+08:00",
       "startTimeJst": "2026-09-28T10:00:00+09:00",
-      "timeNote": null,
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "Starting at 13:00"
+      },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1220,7 +1224,7 @@
       "locationName": "Aichi Sky Expo Esport Competition Room M4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1266,13 +1270,13 @@
         "LIN Feng-chen",
         "HO Yi-fan",
         "LIN Chi-yun",
+        "YANG An-chi",
         "CHU Yi-shan",
         "CHEN Ching-yu",
-        "TU Ya-ting",
         "PAN Yu-ling",
-        "LI Szu-shih",
-        "YANG An-chi",
-        "KE Hsia-ai"
+        "TU Ya-ting",
+        "KE Hsia-ai",
+        "LI Szu-shih"
       ],
       "opponent": "Singapore",
       "opponentCode": "SGP",
@@ -1282,9 +1286,9 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "8",
+        "tpe": "9",
         "opponent": "2",
         "source": "results"
       },
@@ -1419,8 +1423,8 @@
       "startTimeJst": "2026-09-28T11:00:00+09:00",
       "timeNote": {
         "code": "NOT_BEFORE",
-        "clockTaipei": "12:00",
-        "raw": "Not Before 13:00"
+        "clockTaipei": "13:00",
+        "raw": "Not Before 14:00"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1436,8 +1440,8 @@
       "opponentCode": "JOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "locationCode": "002",
-      "locationName": "Show Court",
+      "locationCode": "006",
+      "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "SCHEDULED",
