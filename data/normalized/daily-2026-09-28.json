@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T03:44:52.687Z",
+  "generatedAt": "2026-09-28T03:55:42.388Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T03:44:52.508Z",
+      "generatedAt": "2026-09-28T03:55:42.283Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -727,7 +727,7 @@
       "locationName": "25m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -797,7 +797,7 @@
       "locationName": "25m Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1734-48x",
         "opponent": null,
@@ -1001,7 +1001,7 @@
       "locationName": "Shotgun Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "98",
         "opponent": null,
@@ -1059,18 +1059,18 @@
           "name": "LIN Yi-Chun",
           "registration": "4305607",
           "result": "93",
-          "rank": "3",
+          "rank": "4",
           "startTimeTaipei": null
         },
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
-          "result": "84",
-          "rank": "7",
+          "result": "92",
+          "rank": "6",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1724,7 +1724,7 @@
       "venue": "Nagoya City Trade and Industry Center",
       "venueZh": null,
       "locationCode": "TIC",
-      "locationName": "",
+      "locationName": "Nagoya City Trade & Industry Center",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "START_LIST",
@@ -1848,6 +1848,52 @@
         "results": {
           "unitId": "X.DOUBLES-----------.R32-.001500--",
           "id": "TEN:X.DOUBLES-----------.R32-.001500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T13:15:00+08:00",
+      "startTimeJst": "2026-09-28T14:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "25m Pistol Women Individual",
+      "phase": "25m Pistol Women Individual Final",
+      "unit": "25m Pistol Women Individual - Final",
+      "athletes": [],
+      "athletesEn": [
+        "TIEN Chia-Chen"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH1",
+      "locationName": "Final Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SPW---------------.FNL-.000100--",
+          "id": "SHO:W.SPW---------------.FNL-.000100--"
         }
       }
     },
@@ -2359,7 +2405,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 35,
+    "resultsOnly": 36,
     "entered": 1,
     "unresolvedTbd": 0,
     "warnings": 40
@@ -2502,6 +2548,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 13:15 25m Pistol Women Individual - Final",
+      "row": "SHO:W.SPW---------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TTE 13:15 Men's Singles Semifinals Match 2",
       "row": "TTE:M.SINGLES-----------.SFNL.000200--"
     },
@@ -2549,11 +2600,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.CINDIVID----------",
       "message": "ARC Compound Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SHO|W.SPW---------------",
-      "message": "SHO 25m Pistol Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

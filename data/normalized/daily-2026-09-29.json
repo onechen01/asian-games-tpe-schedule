@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T03:46:29.199Z",
+  "generatedAt": "2026-09-28T03:57:40.339Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T03:46:29.035Z",
+      "generatedAt": "2026-09-28T03:57:40.230Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -492,6 +492,52 @@
       "startTimeTaipei": "2026-09-29T09:00:00+08:00",
       "startTimeJst": "2026-09-29T10:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Trap Men Individual",
+      "phase": "Trap Men Individual Qualification",
+      "unit": "Trap Men Individual - Qualification - Qualification - Day 3",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Kun-Pi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH5",
+      "locationName": "Shotgun Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 19,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TRM---------------.QUAL.000300--",
+          "id": "SHO:M.TRM---------------.QUAL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
+      "startTimeJst": "2026-09-29T10:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "CTR",
       "sportZh": "自由車場地賽",
       "sportEn": "Cycling Track",
@@ -581,51 +627,6 @@
       "sources": {
         "entries": {
           "eventId": "CTR|W.SPRTEAM3----------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Trap Men Individual",
-      "phase": "Trap Men Individual Qualification",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "locationCode": "SH5",
-      "locationName": "Shotgun Range",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "YANG Kun-Pi"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SHO|M.TRM---------------"
         }
       }
     },
@@ -1870,10 +1871,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 19,
-    "entered": 14,
+    "resultsOnly": 20,
+    "entered": 13,
     "unresolvedTbd": 0,
-    "warnings": 23
+    "warnings": 25
   },
   "warnings": [
     {
@@ -1895,6 +1896,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 08:30 Round of 16 Bout 2",
       "row": "KUR:W.O87KG-------------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Men Individual - Qualification - Qualification - Day 3",
+      "row": "SHO:M.TRM---------------.QUAL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1990,6 +1996,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.RINDIVID----------",
       "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SHO|M.TRM---------------",
+      "message": "SHO Trap Men Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

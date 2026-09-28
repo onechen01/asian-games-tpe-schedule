@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-28T03:05:47.267Z",
+  "generatedAt": "2026-09-28T03:57:41.604Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-28T03:05:47.264Z",
+  "standingsUpdatedAt": "2026-09-28T03:57:41.602Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 7,
-    "bronze": 20,
-    "total": 30
+    "bronze": 21,
+    "total": 31
   },
   "officialCounts": {
     "gold": 3,
     "silver": 7,
-    "bronze": 20,
-    "total": 30
+    "bronze": 21,
+    "total": 31
   },
   "missing": {
     "gold": 0,
@@ -571,6 +571,24 @@
         "CHAN Nicole Gonzales"
       ],
       "rank": "2"
+    },
+    {
+      "awardId": "SHO|W.SPTW--------------|SHOWSPTW-------TPE01",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "event": "25m Pistol Women Team",
+      "phase": "25m Pistol Women Team Final",
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T08:40:00+08:00",
+      "resultId": "SHO:W.SPTW--------------.FNL-.000200--",
+      "unitId": "W.SPTW--------------.FNL-.000200--",
+      "athletes": [
+        "CHENG Yen-Ching",
+        "TIEN Chia-Chen",
+        "CHEN Yu-Ju"
+      ],
+      "rank": "3"
     }
   ]
 }
