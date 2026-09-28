@@ -3419,7 +3419,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-28",
-      "broadcastEndTimeTaipei": "2026-09-28T09:55:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-28T11:16:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -3482,7 +3482,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-28T10:55:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-28T11:16:00+08:00",
       "disciplineCode": "TTE",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
@@ -3518,6 +3518,50 @@
       "matchHint": {
         "athleteNames": [
           "HSIEH Meng-en"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-28T13:10:00+08:00",
+      "disciplineCode": "SHO",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 田家榛 射擊 女子25M手槍決賽 9/28(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-28T14:35:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "TIEN Chia-chen"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-28T15:30:00+08:00",
+      "disciplineCode": "SHO",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": false,
+      "title": "亞運 田家榛 射擊 女子25M手槍決賽 9/28 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-28T16:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "TIEN Chia-chen"
         ]
       }
     },
@@ -3729,6 +3773,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T07:50:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 泰國VS中華 壘球 預賽 9/30(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-30T07:55:00+08:00",
       "disciplineCode": "ARC",
       "channelId": "110",
@@ -3751,6 +3817,29 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T08:55:00+08:00",
+      "disciplineCode": "DIV",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 陳百婕/陳百丹 跳水 女子3M跳板決賽 9/30(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-30T09:55:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Barbara",
+          "CHEN Jacqueline"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-30T09:55:00+08:00",
       "disciplineCode": "JUD",
       "channelId": "101",
@@ -3760,7 +3849,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-28",
-      "broadcastEndTimeTaipei": "2026-09-30T13:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T12:55:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -3776,8 +3865,8 @@
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-30T12:55:00+08:00",
       "disciplineCode": "ARC",
-      "channelId": "110",
-      "channelName": "愛爾達體育3台",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
       "isLive": true,
       "title": "亞運 中華隊 射箭 複合弓男子團體決賽 9/30 LIVE",
       "feed": "main",
@@ -3788,29 +3877,6 @@
       "matchHint": {
         "phaseKeywords": [
           "Final"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T14:15:00+08:00",
-      "disciplineCode": "DIV",
-      "channelId": "101",
-      "channelName": "愛爾達體育1台",
-      "isLive": true,
-      "title": "亞運 陳百婕/陳百丹 跳水 女子3M跳板決賽 9/30 LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-09-28",
-      "broadcastEndTimeTaipei": "2026-09-30T15:55:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "CHEN Barbara",
-          "CHEN Jacqueline"
         ]
       }
     },
