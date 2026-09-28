@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T01:30:40.634Z",
+  "generatedAt": "2026-09-28T01:47:16.736Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T01:30:40.464Z",
+      "generatedAt": "2026-09-28T01:47:16.569Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -668,14 +668,14 @@
           "name": "TIEN Chia-Chen",
           "registration": "13656350",
           "result": "286-8x",
-          "rank": "18",
+          "rank": "19",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yu-Ju",
           "registration": "13694029",
-          "result": "286-6x",
-          "rank": "19",
+          "result": "543-9x",
+          "rank": "21",
           "startTimeTaipei": null
         }
       ],
@@ -828,7 +828,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -874,9 +874,9 @@
       "locationName": "Centro Acuático",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "142.65",
+        "tpe": "175.65",
         "opponent": null,
         "source": "results"
       },
@@ -926,7 +926,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "55",
+        "tpe": "68",
         "opponent": null,
         "source": "results"
       },
@@ -964,8 +964,8 @@
       "unit": "Trap Women Individual - Qualification - Qualification - Day 2",
       "athletes": [],
       "athletesEn": [
-        "LIU Wan-Yu",
-        "LIN Yi-Chun"
+        "LIN Yi-Chun",
+        "LIU Wan-Yu"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -979,15 +979,15 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "LIU Wan-Yu",
-          "registration": "13637506",
-          "result": "45",
+          "name": "LIN Yi-Chun",
+          "registration": "4305607",
+          "result": "58",
           "rank": "5",
           "startTimeTaipei": null
         },
         {
-          "name": "LIN Yi-Chun",
-          "registration": "4305607",
+          "name": "LIU Wan-Yu",
+          "registration": "13637506",
           "result": "45",
           "rank": "6",
           "startTimeTaipei": null
@@ -1036,7 +1036,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "DELAYED",
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1201,8 +1201,12 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1412,57 +1416,6 @@
       "sources": {
         "entries": {
           "eventId": "SAL|M.ILCA7-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "startTimeTaipei": "2026-09-28T11:00:00+08:00",
-      "startTimeJst": "2026-09-28T12:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest, Not Before 12:30"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles First Round",
-      "unit": "Mixed Doubles First Round Match 15",
-      "athletes": [],
-      "athletesEn": [
-        "HSIEH Su-wei",
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "FARZAMI Mandegar/YAZDANI Ali",
-      "opponentCode": "IRI",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "004",
-      "locationName": "Court 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.R32-.001500--",
-          "id": "TEN:X.DOUBLES-----------.R32-.001500--"
         }
       }
     },
@@ -1751,6 +1704,57 @@
         "results": {
           "unitId": "O.PUBGM-------------.FNL-.000600--",
           "id": "ELS:O.PUBGM-------------.FNL-.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T13:00:00+08:00",
+      "startTimeJst": "2026-09-28T14:00:00+09:00",
+      "timeNote": {
+        "code": "NOT_BEFORE",
+        "clockTaipei": "14:00",
+        "raw": "Not Before 15:00"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles First Round",
+      "unit": "Mixed Doubles First Round Match 15",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "FARZAMI Mandegar/YAZDANI Ali",
+      "opponentCode": "IRI",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "012",
+      "locationName": "Indoor Court A",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.R32-.001500--",
+          "id": "TEN:X.DOUBLES-----------.R32-.001500--"
         }
       }
     },
@@ -2370,11 +2374,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Mixed Doubles First Round Match 15",
-      "row": "TEN:X.DOUBLES-----------.R32-.001500--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 11:15 Match 4",
       "row": "ELS:O.PUBGM-------------.FNL-.000400--"
     },
@@ -2402,6 +2401,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:55 Match 6",
       "row": "ELS:O.PUBGM-------------.FNL-.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Mixed Doubles First Round Match 15",
+      "row": "TEN:X.DOUBLES-----------.R32-.001500--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2450,11 +2454,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "KUR|M.81KG--------------",
-      "message": "KUR Men -81kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.CINDIVID----------",
       "message": "ARC Compound Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2462,6 +2461,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SHO|W.SPW---------------",
       "message": "SHO 25m Pistol Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "KUR|M.81KG--------------",
+      "message": "KUR Men -81kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
