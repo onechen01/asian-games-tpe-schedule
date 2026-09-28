@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T07:06:39.105Z",
+  "generatedAt": "2026-09-28T07:27:41.202Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T07:06:38.947Z",
+      "generatedAt": "2026-09-28T07:27:41.041Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2192,18 +2192,18 @@
       "unit": "Match 16",
       "athletes": [],
       "athletesEn": [
-        "WEN Yi-kai",
-        "JHANG Yun-liang",
-        "WANG Ping-hsun",
-        "CHEN Jie-ting",
-        "LIU Yu-lin",
-        "TSAI Pei-chang",
-        "HUANG Jheng-liang",
         "LU Chiang Yao-kai",
         "HUANG Yu-chen",
-        "CHANG Yu-chen",
+        "CHEN Jie-ting",
         "CHUANG Shao-chieh",
-        "CHANG Yu-sheng"
+        "TSAI Pei-chang",
+        "CHANG Yu-chen",
+        "LIU Yu-lin",
+        "CHANG Yu-sheng",
+        "WANG Ping-hsun",
+        "JHANG Yun-liang",
+        "WEN Yi-kai",
+        "HUANG Jheng-liang"
       ],
       "opponent": "Republic of Korea",
       "opponentCode": "KOR",

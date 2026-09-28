@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T07:08:14.874Z",
+  "generatedAt": "2026-09-28T07:30:47.384Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T07:08:14.722Z",
+      "generatedAt": "2026-09-28T07:30:47.216Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -640,56 +640,6 @@
         "results": {
           "unitId": "W.TRW---------------.QUAL.000300--",
           "id": "SHO:W.TRW---------------.QUAL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "HPT",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 6,
-      "enteredAthletes": [
-        "CHAN Hao-ching",
-        "HO Chenjui",
-        "HSIEH Su-wei",
-        "HUANG Tsung-hao",
-        "LIANG En-shuo",
-        "TSENG Chun-hsin"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TEN|X.DOUBLES-----------"
         }
       }
     },
@@ -1505,6 +1455,52 @@
     },
     {
       "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T12:30:00+08:00",
+      "startTimeJst": "2026-09-29T13:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Women's 65kg",
+      "phase": "Women's 65KG Semifinal",
+      "unit": "Women's 65KG - Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Nien-chin"
+      ],
+      "opponent": "HWANG Hyo Sun",
+      "opponentCode": "PRK",
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "locationCode": "NIS",
+      "locationName": "Ring 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.65KG--------------.SFNL.000100--",
+          "id": "BOX:W.65KG--------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T13:00:00+08:00",
       "startTimeJst": "2026-09-29T14:00:00+09:00",
       "timeNote": null,
@@ -1961,10 +1957,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 23,
-    "entered": 10,
+    "resultsOnly": 24,
+    "entered": 9,
     "unresolvedTbd": 0,
-    "warnings": 31
+    "warnings": 32
   },
   "warnings": [
     {
@@ -2066,6 +2062,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:15 Recurve Women's Individual 1/16 Elimination",
       "row": "ARC:W.RINDIVID----------.R32-.001200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 12:30 Women's 65KG - Semifinal",
+      "row": "BOX:W.65KG--------------.SFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
