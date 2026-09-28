@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T01:53:36.662Z",
+  "generatedAt": "2026-09-28T02:06:56.942Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T01:53:36.500Z",
+      "generatedAt": "2026-09-28T02:06:56.772Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -375,8 +375,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -901,8 +901,12 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 12,
@@ -1054,19 +1058,19 @@
         {
           "name": "LIN Yi-Chun",
           "registration": "4305607",
-          "result": "63",
-          "rank": "4",
+          "result": "69",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
-          "result": "45",
-          "rank": "5",
+          "result": "50",
+          "rank": "10",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "4",
+      "tpeRank": "3",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1276,7 +1280,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -1374,8 +1378,12 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "5",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
