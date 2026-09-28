@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T23:57:33.748Z",
+  "generatedAt": "2026-09-28T00:09:33.103Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-27T23:57:33.565Z",
+      "generatedAt": "2026-09-28T00:09:32.938Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -484,55 +484,6 @@
         "results": {
           "unitId": "W.O87KG-------------.8FNL.000200--",
           "id": "KUR:W.O87KG-------------.8FNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CTR",
-      "sportZh": "自由車場地賽",
-      "sportEn": "Cycling Track",
-      "event": "Men's Team Pursuit",
-      "phase": "Men's Team Pursuit, Qualifying",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Izu Velodrome(Shizuoka)",
-      "venueZh": null,
-      "locationCode": "IVD",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHANG Chih-sheng",
-        "CHIEN Yun-tse",
-        "LI Jing-feng",
-        "TU Chih-hao",
-        "XU Shi-ru"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CTR|M.PURTEAM4----------"
         }
       }
     },
@@ -1054,51 +1005,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:18:00+08:00",
-      "startTimeJst": "2026-09-29T11:18:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Women's Canoe Single",
-      "phase": "Women's Canoe Single Heat",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHUNG Yu-han"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CSL|W.C1----------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T10:20:00+08:00",
       "startTimeJst": "2026-09-29T11:20:00+09:00",
       "timeNote": null,
@@ -1190,52 +1096,6 @@
       "sources": {
         "entries": {
           "eventId": "CSL|M.C1----------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T11:25:00+08:00",
-      "startTimeJst": "2026-09-29T12:25:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Women's Kayak Single",
-      "phase": "Women's Kayak Single Heat",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHANG Chu-han",
-        "WU Ting-i"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "CSL|W.K1----------------"
         }
       }
     },
@@ -1869,7 +1729,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 19,
-    "entered": 14,
+    "entered": 11,
     "unresolvedTbd": 0,
     "warnings": 23
   },
