@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T09:03:33.296Z",
+  "generatedAt": "2026-09-28T09:26:17.559Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-28T09:03:33.124Z",
+      "generatedAt": "2026-09-28T09:26:17.377Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -387,8 +387,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 9,
+          "recovered": 9,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2171,11 +2171,11 @@
       "status": "OFFICIAL",
       "result": {
         "tpe": "1",
-        "opponent": "0",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
