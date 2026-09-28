@@ -4058,24 +4058,90 @@
       }
     },
     {
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T17:55:00+08:00",
-      "disciplineCode": "HOC",
-      "channelId": "115",
-      "channelName": "愛爾達體育4台",
+      "broadcastStartTimeTaipei": "2026-10-01T14:05:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 中華VS泰國 曲棍球 女子5-8排名賽 9/30(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 日本VS中華 壘球 預賽 10/1 LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-09-28",
-      "broadcastEndTimeTaipei": "2026-09-30T20:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-01T15:55:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
-          "THA"
+          "JPN"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T09:50:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 南韓VS中華 壘球 預賽 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-10-02T12:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KOR"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T12:55:00+08:00",
+      "disciplineCode": "ARC",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": true,
+      "title": "亞運 中華隊 射箭 男子團體反曲弓四強/決賽 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-10-02T15:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T16:55:00+08:00",
+      "disciplineCode": "GRY",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華隊 韻律體操 團體全能資格賽 10/2 LIVE (第 3 集)",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-10-02T19:45:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Qualification"
         ]
       }
     }
