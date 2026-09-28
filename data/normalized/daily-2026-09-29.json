@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T07:46:45.413Z",
+  "generatedAt": "2026-09-28T07:56:55.373Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T07:46:45.244Z",
+      "generatedAt": "2026-09-28T07:56:55.224Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -986,7 +986,7 @@
       "athletes": [],
       "athletesEn": [
         "LI Jing-feng",
-        "CHIEN Yun-tse",
+        "CHANG Chih-sheng",
         "TU Chih-hao",
         "XU Shi-ru"
       ],
