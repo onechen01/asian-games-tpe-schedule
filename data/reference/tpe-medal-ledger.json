@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-28T14:49:16.490Z",
+  "generatedAt": "2026-09-28T15:19:08.307Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-28T14:49:16.487Z",
+  "standingsUpdatedAt": "2026-09-28T15:19:08.307Z",
   "ledgerCounts": {
     "gold": 3,
-    "silver": 7,
+    "silver": 8,
     "bronze": 23,
-    "total": 33
+    "total": 34
   },
   "officialCounts": {
     "gold": 3,
-    "silver": 7,
+    "silver": 8,
     "bronze": 23,
-    "total": 33
+    "total": 34
   },
   "missing": {
     "gold": 0,
@@ -570,6 +570,25 @@
         "LIN Chung-wei"
       ],
       "rank": "3"
+    },
+    {
+      "awardId": "ATH|M.4X100M------------|ATHM4X100M-----TPE01",
+      "medal": "ME_SILVER",
+      "disciplineCode": "ATH",
+      "sportZh": "田徑",
+      "event": "Men's 4 x 100m Relay",
+      "phase": "Men's 4 x 100m Relay Final",
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T21:23:00+08:00",
+      "resultId": "ATH:M.4X100M------------.FNL-.000100--",
+      "unitId": "M.4X100M------------.FNL-.000100--",
+      "athletes": [
+        "YANG Chun-han",
+        "LAI Po-hsiang",
+        "HUANG Zuo-jyun",
+        "CHEN Wen-pu"
+      ],
+      "rank": "2"
     },
     {
       "awardId": "BDM|X.DOUBLES-----------|BDMXDOUBLES----TPE01",
