@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T09:07:41.234Z",
+  "generatedAt": "2026-09-28T09:17:39.191Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T09:07:41.063Z",
+      "generatedAt": "2026-09-28T09:17:39.010Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1073,6 +1073,51 @@
     },
     {
       "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T10:20:00+08:00",
+      "startTimeJst": "2026-09-29T11:20:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Canoe Single",
+      "phase": "Women's Canoe Single Heats",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHUNG Yu-han"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "CSL|W.C1----------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T10:47:00+08:00",
       "startTimeJst": "2026-09-29T11:47:00+09:00",
       "timeNote": null,
@@ -1114,6 +1159,52 @@
       "sources": {
         "entries": {
           "eventId": "CSL|M.C1----------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T11:17:00+08:00",
+      "startTimeJst": "2026-09-29T12:17:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Kayak Single",
+      "phase": "Women's Kayak Single Heats",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHANG Chu-han",
+        "WU Ting-i"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "CSL|W.K1----------------"
         }
       }
     },
@@ -1880,7 +1971,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 29,
-    "entered": 2,
+    "entered": 4,
     "unresolvedTbd": 0,
     "warnings": 38
   },
