@@ -3637,6 +3637,28 @@
       }
     },
     {
+      "date": "2026-09-28",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-28T18:50:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "545",
+      "channelName": "愛爾達體育MAX6台",
+      "isLive": true,
+      "title": "亞運 林昱堂 田徑 跳遠決賽 9/28(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-28T20:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Yu-tang"
+        ]
+      }
+    },
+    {
       "date": "2026-09-29",
       "providerId": "elta",
       "providerName": "愛爾達",
