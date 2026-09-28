@@ -3804,7 +3804,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-28",
-      "broadcastEndTimeTaipei": "2026-09-30T09:55:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T10:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -3863,6 +3863,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T11:55:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": true,
+      "title": "亞運 林郁婷 拳擊 女子60公斤級四強 9/30 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Yu-ting"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-30T12:55:00+08:00",
       "disciplineCode": "ARC",
       "channelId": "101",
@@ -3877,6 +3899,29 @@
       "matchHint": {
         "phaseKeywords": [
           "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T14:15:00+08:00",
+      "disciplineCode": "DIV",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 陳百婕/陳百丹 跳水 女子3M跳板決賽 9/30 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-30T15:45:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Barbara",
+          "CHEN Jacqueline"
         ]
       }
     },
@@ -3900,6 +3945,28 @@
         "athleteNames": [
           "LIN Chen-hao",
           "YANG Yung-wei"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T17:55:00+08:00",
+      "disciplineCode": "HOC",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 中華VS泰國 曲棍球 女子5-8排名賽 9/30(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-30T20:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
         ]
       }
     }
