@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T02:04:12.571Z",
+  "generatedAt": "2026-09-28T02:47:27.567Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-27/schedule-2026-09-27-AUTO.json",
-      "generatedAt": "2026-09-28T02:04:12.389Z",
+      "generatedAt": "2026-09-28T02:47:27.383Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -387,8 +387,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -583,7 +583,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "232",
         "opponent": "232",
@@ -635,7 +635,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "234",
         "opponent": "227",
@@ -860,7 +860,7 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
-        "tpe": "1437-37x",
+        "tpe": "858-22x",
         "opponent": null,
         "source": "results"
       },
@@ -1491,7 +1491,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "156",
         "opponent": "160",
@@ -2214,7 +2214,7 @@
       "athletesEn": [
         "GARLAND Joanna"
       ],
-      "opponent": "CHOGSOMJAV Martaa",
+      "opponent": "M. CHOGSOMJAV Martaa",
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2910,7 +2910,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": "1",
@@ -2962,14 +2962,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "6",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "8",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3064,7 +3064,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": "4",
@@ -3116,14 +3116,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "6",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "11",
+      "tpeRank": "8",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,

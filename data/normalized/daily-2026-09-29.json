@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T02:36:04.451Z",
+  "generatedAt": "2026-09-28T02:51:07.262Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T02:36:04.276Z",
+      "generatedAt": "2026-09-28T02:51:07.085Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -709,10 +709,12 @@
       "entryLevel": "event",
       "unitCount": 6,
       "enteredAthletes": [
+        "CHAN Hao-ching",
         "HO Chenjui",
         "HSIEH Su-wei",
         "HUANG Tsung-hao",
-        "LIANG En-shuo"
+        "LIANG En-shuo",
+        "TSENG Chun-hsin"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
