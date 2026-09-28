@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-28T06:47:41.131Z",
+  "generatedAt": "2026-09-28T10:21:07.301Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-28T06:47:41.131Z",
+  "standingsUpdatedAt": "2026-09-28T10:21:07.298Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 7,
@@ -604,7 +604,7 @@
       "athletes": [
         "LIN Yun-ju"
       ],
-      "rank": "2"
+      "rank": null
     }
   ]
 }
