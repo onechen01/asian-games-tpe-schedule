@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-28T03:57:41.604Z",
+  "generatedAt": "2026-09-28T06:47:41.131Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-28T03:57:41.602Z",
+  "standingsUpdatedAt": "2026-09-28T06:47:41.131Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 7,
-    "bronze": 21,
-    "total": 31
+    "bronze": 22,
+    "total": 32
   },
   "officialCounts": {
     "gold": 3,
     "silver": 7,
-    "bronze": 21,
-    "total": 31
+    "bronze": 22,
+    "total": 32
   },
   "missing": {
     "gold": 0,
@@ -589,6 +589,22 @@
         "CHEN Yu-Ju"
       ],
       "rank": "3"
+    },
+    {
+      "awardId": "TTE|M.SINGLES-----------|4735886",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "TTE",
+      "sportZh": "桌球",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Semifinals",
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T13:15:00+08:00",
+      "resultId": "TTE:M.SINGLES-----------.SFNL.000200--",
+      "unitId": "M.SINGLES-----------.SFNL.000200--",
+      "athletes": [
+        "LIN Yun-ju"
+      ],
+      "rank": "2"
     }
   ]
 }
