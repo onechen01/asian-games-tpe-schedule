@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T13:34:03.529Z",
+  "generatedAt": "2026-09-28T13:54:00.632Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-28T13:34:03.360Z",
+      "generatedAt": "2026-09-28T13:54:00.469Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2386,16 +2386,12 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "38.32",
-        "opponent": null,
-        "source": "results"
-      },
+      "status": "PROTESTED",
+      "result": null,
       "tpeEntrants": [],
       "tpeRank": "2",
       "orgCount": 9,
-      "tpeMedal": null,
+      "tpeMedal": "ME_SILVER",
       "tpenocResult": null,
       "rank": null,
       "note": null,
