@@ -3646,7 +3646,7 @@
       "channelId": "545",
       "channelName": "愛爾達體育MAX6台",
       "isLive": true,
-      "title": "亞運 林昱堂 田徑 跳遠決賽 9/28(原音) LIVE",
+      "title": "亞運 林昱堂 田徑 男子跳遠決賽 9/28(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-28",
@@ -3673,6 +3673,28 @@
       "note": null,
       "capturedAt": "2026-09-28",
       "broadcastEndTimeTaipei": "2026-09-29T11:55:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T09:50:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 中華VS中國 壘球 預賽 9/29(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-29T12:05:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -3756,15 +3778,82 @@
       "channelId": "105",
       "channelName": "愛爾達體育2台",
       "isLive": false,
-      "title": "亞運 陳柏任 舉重 男子110公斤級決賽 9/29(原音) D-LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 陳柏任 舉重 男子110公斤級決賽 9/29 D-LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-09-28",
       "broadcastEndTimeTaipei": "2026-09-29T18:10:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
           "CHEN Po-jen"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T17:15:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "545",
+      "channelName": "愛爾達體育MAX6台",
+      "isLive": true,
+      "title": "亞運 吳彥翰/黃湧富 田徑 男子撐竿跳決賽 9/29(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-29T19:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "WU Yan-han",
+          "HUANG Yong-fu"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T17:20:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華隊 田徑 決賽 9/29 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-29T21:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T18:00:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "546",
+      "channelName": "愛爾達體育MAX7台",
+      "isLive": true,
+      "title": "亞運 張喬茵 田徑 女子跳高決賽 9/29(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-29T20:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "JHANG Chiau-yin"
         ]
       }
     },
@@ -3787,6 +3876,28 @@
       "matchHint": {
         "athleteNames": [
           "DONG Bing-cheng"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T18:30:00+08:00",
+      "disciplineCode": "ATH",
+      "channelId": "544",
+      "channelName": "愛爾達體育MAX5台",
+      "isLive": true,
+      "title": "亞運 余雅倩 田徑 女子鏈球決賽 9/29(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-29T20:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "YU Ya-chien"
         ]
       }
     },
@@ -3921,6 +4032,28 @@
       "matchHint": {
         "phaseKeywords": [
           "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T13:00:00+08:00",
+      "disciplineCode": "HOC",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 中華VS泰國 曲棍球 女子5-8排名賽 9/30(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-28",
+      "broadcastEndTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
         ]
       }
     },
