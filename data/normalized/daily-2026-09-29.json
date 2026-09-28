@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T23:43:40.472Z",
+  "generatedAt": "2026-09-28T23:55:25.389Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-28T23:43:40.298Z",
+      "generatedAt": "2026-09-28T23:55:25.258Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -301,106 +301,6 @@
   "rows": [
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T07:15:00+08:00",
-      "startTimeJst": "2026-09-29T08:15:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Recurve Men's Individual",
-      "phase": "Recurve Men's Individual 1/24 Eliminations",
-      "unit": "Recurve Men's Individual 1/24 Elimination",
-      "athletes": [],
-      "athletesEn": [
-        "CHENG Hsiang-Hui"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": null,
-      "venueZh": null,
-      "locationCode": "OCM",
-      "locationName": null,
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
-      "result": {
-        "tpe": "",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.RINDIVID----------.R64-.000400--",
-          "id": "ARC:M.RINDIVID----------.R64-.000400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T07:15:00+08:00",
-      "startTimeJst": "2026-09-29T08:15:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Recurve Men's Individual",
-      "phase": "Recurve Men's Individual 1/24 Eliminations",
-      "unit": "Recurve Men's Individual 1/24 Elimination",
-      "athletes": [],
-      "athletesEn": [
-        "TANG Chih-Chun"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": null,
-      "venueZh": null,
-      "locationCode": "OCM",
-      "locationName": null,
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
-      "result": {
-        "tpe": "",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.RINDIVID----------.R64-.001700--",
-          "id": "ARC:M.RINDIVID----------.R64-.001700--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T08:00:00+08:00",
       "startTimeJst": "2026-09-29T09:00:00+09:00",
       "timeNote": null,
@@ -412,7 +312,7 @@
       "unit": "Recurve Men's Individual 1/16 Elimination",
       "athletes": [],
       "athletesEn": [
-        "CHENG Hsiang-hui"
+        "CHENG Hsiang-Hui"
       ],
       "opponent": "BATBAYAR Buyantushig",
       "opponentCode": "MGL",
@@ -422,8 +322,12 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -458,21 +362,25 @@
       "unit": "Recurve Men's Individual 1/16 Elimination",
       "athletes": [],
       "athletesEn": [
-        "TANG Chih-chun"
+        "TANG Chih-Chun"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "AL-SADA Ahmad",
+      "opponentCode": "QAT",
       "venue": null,
       "venueZh": null,
       "locationCode": "OCM",
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2407,22 +2315,12 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 41,
+    "resultsOnly": 39,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 50
+    "warnings": 48
   },
   "warnings": [
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:15 Recurve Men's Individual 1/24 Elimination",
-      "row": "ARC:M.RINDIVID----------.R64-.000400--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ARC 07:15 Recurve Men's Individual 1/24 Elimination",
-      "row": "ARC:M.RINDIVID----------.R64-.001700--"
-    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:00 Recurve Men's Individual 1/16 Elimination",
