@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T15:02:13.219Z",
+  "generatedAt": "2026-09-29T15:23:38.838Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-29T15:02:13.033Z",
+      "generatedAt": "2026-09-29T15:23:38.676Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -302,24 +302,6 @@
         "missing": [],
         "timezoneAnomalies": [
           {
-            "disciplineCode": "HBL",
-            "date": "2026-09-28",
-            "unitId": "M.TEAM7-------------.SFNL.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-28T15:00:00+02:00",
-            "recoveredStartTime": "2026-09-28T15:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-28",
-            "unitId": "M.TEAM7-------------.SFNL.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-28T17:30:00+02:00",
-            "recoveredStartTime": "2026-09-28T17:30:00+09:00"
-          },
-          {
             "disciplineCode": "SRF",
             "date": "2026-09-28",
             "unitId": "M.SHORTBRD----------.RND3.000100--",
@@ -390,29 +372,11 @@
             "sourceOffset": "+08:59",
             "originalStartTime": "2026-09-28T10:16:00+08:59",
             "recoveredStartTime": "2026-09-28T10:16:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-29",
-            "unitId": "M.TEAM7-------------.FNL-.000200--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-29T17:00:00+02:00",
-            "recoveredStartTime": "2026-09-29T17:00:00+09:00"
-          },
-          {
-            "disciplineCode": "HBL",
-            "date": "2026-09-29",
-            "unitId": "M.TEAM7-------------.FNL-.000100--",
-            "code": "RECOVERED_OFFICIAL_TIME",
-            "sourceOffset": "+02:00",
-            "originalStartTime": "2026-09-29T19:30:00+02:00",
-            "recoveredStartTime": "2026-09-29T19:30:00+09:00"
           }
         ],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
