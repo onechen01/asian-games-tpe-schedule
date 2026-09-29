@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T03:05:40.541Z",
+  "generatedAt": "2026-09-29T03:14:35.587Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T03:05:40.362Z",
+      "generatedAt": "2026-09-29T03:14:35.418Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -427,8 +427,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1101,8 +1101,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1354,12 +1354,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "4:02.895",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1456,12 +1456,8 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "",
-        "opponent": null,
-        "source": "results"
-      },
+      "status": "START_LIST",
+      "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 12,
@@ -1496,8 +1492,8 @@
       "unit": "Men's Canoe Single - Heats - Heats",
       "athletes": [],
       "athletesEn": [
-        "CHANG Fu-hua",
-        "WU Jung-cheng"
+        "WU Jung-cheng",
+        "CHANG Fu-hua"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1511,21 +1507,21 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "CHANG Fu-hua",
-          "registration": "5878040",
-          "result": "217.91",
-          "rank": "5",
+          "name": "WU Jung-cheng",
+          "registration": "4233921",
+          "result": "110.96",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
-          "name": "WU Jung-cheng",
-          "registration": "4233921",
-          "result": null,
-          "rank": null,
+          "name": "CHANG Fu-hua",
+          "registration": "5878040",
+          "result": "217.91",
+          "rank": "9",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "5",
+      "tpeRank": "3",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
