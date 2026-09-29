@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T05:27:54.592Z",
+  "generatedAt": "2026-09-29T05:36:32.457Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T05:27:54.405Z",
+      "generatedAt": "2026-09-29T05:36:32.344Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -807,7 +807,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.K1----------------.HEAT.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-29T05-25-01-925Z-8ed7b711b517-b8ce0059.json"
+              "data/raw/2026-09-29T05-33-44-813Z-8ed7b711b517-4c154dde.json"
             ]
           }
         }
@@ -1209,7 +1209,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/W.C1----------------.HEAT.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-29T05-25-02-926Z-6515f9b7a77e-88243aba.json"
+              "data/raw/2026-09-29T05-33-45-814Z-6515f9b7a77e-c6c7291a.json"
             ]
           }
         }

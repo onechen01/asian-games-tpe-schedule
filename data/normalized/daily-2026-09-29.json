@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T05:26:07.270Z",
+  "generatedAt": "2026-09-29T05:34:45.587Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T05:26:07.101Z",
+      "generatedAt": "2026-09-29T05:34:45.479Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -801,7 +801,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1624,56 +1624,6 @@
       "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T12:00:00+08:00",
       "startTimeJst": "2026-09-29T13:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Second Round",
-      "unit": "Men's Singles Second Round Match 8",
-      "athletes": [],
-      "athletesEn": [
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "RAKHMATOV Anvar",
-      "opponentCode": "TJK",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "013",
-      "locationName": "Indoor Court B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.R32-.000800--",
-          "id": "TEN:M.SINGLES-----------.R32-.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T12:00:00+08:00",
-      "startTimeJst": "2026-09-29T13:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "VVO",
       "sportZh": "排球",
@@ -1728,6 +1678,56 @@
         "results": {
           "unitId": "M.TEAM6-------------.GPD-.000500--",
           "id": "VVO:M.TEAM6-------------.GPD-.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T12:00:00+08:00",
+      "startTimeJst": "2026-09-29T13:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Second Round",
+      "unit": "Men's Singles Second Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "RAKHMATOV Anvar",
+      "opponentCode": "TJK",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "013",
+      "locationName": "Indoor Court B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.R32-.000800--",
+          "id": "TEN:M.SINGLES-----------.R32-.000800--"
         }
       }
     },
@@ -1941,8 +1941,8 @@
       "athletes": [],
       "athletesEn": [
         "LIU Hsuan",
-        "LIN Feng-chen",
         "YEH Kuei-ping",
+        "LIN Feng-chen",
         "LIN Chih-ying",
         "LI Szu-shih",
         "SU Yi-hsuan",
@@ -1969,7 +1969,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2116,7 +2116,7 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "5",
         "opponent": "0",
@@ -2225,7 +2225,7 @@
         "HO Chenjui",
         "HSU Yu-hsiou"
       ],
-      "opponent": "KHAN Aqeel/SHOAIB Muhammad",
+      "opponent": "KHAN Aqeel / SHOAIB Muhammad",
       "opponentCode": "PAK",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2283,7 +2283,7 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "",
         "opponent": null,
@@ -2355,6 +2355,52 @@
         "results": {
           "unitId": "W.SPRTEAM3----------.RND1.000100--",
           "id": "CTR:W.SPRTEAM3----------.RND1.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T14:00:00+08:00",
+      "startTimeJst": "2026-09-29T15:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women +87kg",
+      "phase": "Women +87kg Final",
+      "unit": "Final",
+      "athletes": [],
+      "athletesEn": [
+        "SHIH Liu Li-ling"
+      ],
+      "opponent": "KIM Minyoung",
+      "opponentCode": "KOR",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.O87KG-------------.FNL-.000100--",
+          "id": "KUR:W.O87KG-------------.FNL-.000100--"
         }
       }
     },
@@ -2523,7 +2569,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "FARZAMI Mandegar/YAZDANI Ali",
+      "opponent": "FARZAMI Mandegar / YAZDANI Ali",
       "opponentCode": "IRI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2574,7 +2620,7 @@
         "CHAN Hao-ching",
         "HO Chenjui"
       ],
-      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
+      "opponent": "ENKHJARGAL Sonom-yanzum / PUREVDORJ Undrakh",
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2930,7 +2976,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 49,
+    "resultsOnly": 50,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 55
@@ -3063,13 +3109,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Second Round Match 8",
-      "row": "TEN:M.SINGLES-----------.R32-.000800--"
+      "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 22",
+      "row": "VVO:M.TEAM6-------------.GPD-.000500--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 22",
-      "row": "VVO:M.TEAM6-------------.GPD-.000500--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Second Round Match 8",
+      "row": "TEN:M.SINGLES-----------.R32-.000800--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3130,6 +3176,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:00 Women's Team Sprint, First Round - Heat 1",
       "row": "CTR:W.SPRTEAM3----------.RND1.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 14:00 Final",
+      "row": "KUR:W.O87KG-------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3195,11 +3246,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "KUR|M.66KG--------------",
       "message": "KUR Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "KUR|W.O87KG-------------",
-      "message": "KUR Women +87kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
