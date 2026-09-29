@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T10:14:20.394Z",
+  "generatedAt": "2026-09-29T13:10:13.616Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-09-29T10:14:20.263Z",
+      "generatedAt": "2026-09-29T13:10:13.449Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -783,7 +783,7 @@
       "sportZh": "柔道",
       "sportEn": "Judo",
       "event": "Mixed Team",
-      "phase": "Mixed Team Elimination Round of 16",
+      "phase": "Mixed Team Quarterfinals",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -791,7 +791,7 @@
       "opponentCode": null,
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "locationCode": "AIA",
+      "locationCode": "",
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
@@ -806,7 +806,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 10,
       "enteredAthletes": [
         "CHANG Ling-fang",
         "CHEN Peng-yu",
