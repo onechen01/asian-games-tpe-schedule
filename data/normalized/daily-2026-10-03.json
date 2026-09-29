@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T07:14:24.486Z",
+  "generatedAt": "2026-09-29T01:13:29.285Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-09-28T07:14:24.323Z",
+      "generatedAt": "2026-09-29T01:13:29.126Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -780,6 +780,52 @@
           "eventId": "EQU|O.JUMPINDVCOMB------"
         }
       }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T12:30:00+08:00",
+      "startTimeJst": "2026-10-03T13:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Men's Individual",
+      "phase": "Recurve Men's Individual Quarterfinals",
+      "unit": "Recurve Men's Individual Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "TANG Chih-Chun"
+      ],
+      "opponent": "NAKANISHI Junya",
+      "opponentCode": "JPN",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.RINDIVID----------.QFNL.000300--",
+          "id": "ARC:M.RINDIVID----------.QFNL.000300--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -788,10 +834,21 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 0,
+    "resultsOnly": 1,
     "entered": 13,
     "unresolvedTbd": 0,
-    "warnings": 0
+    "warnings": 2
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:30 Recurve Men's Individual Quarterfinal",
+      "row": "ARC:M.RINDIVID----------.QFNL.000300--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|M.RINDIVID----------",
+      "message": "ARC Recurve Men's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    }
+  ]
 }

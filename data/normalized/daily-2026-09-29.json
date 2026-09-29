@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T00:55:57.760Z",
+  "generatedAt": "2026-09-29T01:04:57.530Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T00:55:57.594Z",
+      "generatedAt": "2026-09-29T01:04:57.375Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -628,8 +628,12 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -674,10 +678,14 @@
       "locationName": "Shotgun Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "98",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -710,8 +718,8 @@
       "unit": "Trap Women Individual - Qualification - Qualification - Day 3",
       "athletes": [],
       "athletesEn": [
-        "LIU Wan-Yu",
-        "LIN Yi-Chun"
+        "LIN Yi-Chun",
+        "LIU Wan-Yu"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -721,25 +729,25 @@
       "locationName": "Shotgun Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
-          "name": "LIU Wan-Yu",
-          "registration": "13637506",
-          "result": null,
-          "rank": null,
+          "name": "LIN Yi-Chun",
+          "registration": "4305607",
+          "result": "93",
+          "rank": "5",
           "startTimeTaipei": null
         },
         {
-          "name": "LIN Yi-Chun",
-          "registration": "4305607",
-          "result": null,
-          "rank": null,
+          "name": "LIU Wan-Yu",
+          "registration": "13637506",
+          "result": "97",
+          "rank": "7",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -786,7 +794,7 @@
       "locationName": "Indoor Court A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -959,6 +967,52 @@
     },
     {
       "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:30:00+08:00",
+      "startTimeJst": "2026-09-29T10:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women +87kg",
+      "phase": "Women +87kg Quarterfinals",
+      "unit": "Quarterfinal Bout 1",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Ya-chun"
+      ],
+      "opponent": "BARMAKI KORDKOLAEE Fatemeh",
+      "opponentCode": "IRI",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.O87KG-------------.QFNL.000100--",
+          "id": "KUR:W.O87KG-------------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T09:45:00+08:00",
       "startTimeJst": "2026-09-29T10:45:00+09:00",
       "timeNote": null,
@@ -1046,50 +1100,6 @@
         "results": {
           "unitId": "M.66KG--------------.8FNL.000600--",
           "id": "KUR:M.66KG--------------.8FNL.000600--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SBL",
-      "sportZh": "壘球",
-      "sportEn": "Softball",
-      "event": "Softball Women",
-      "phase": "Women’s Preliminary Round",
-      "unit": "Game  14",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": "People's Republic of China",
-      "opponentCode": "CHN",
-      "venue": "Anjo Softball Ground",
-      "venueZh": null,
-      "locationCode": "SB1",
-      "locationName": "Anjo Softball Ground",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TEAM9-------------.GP--.001400--",
-          "id": "SBL:W.TEAM9-------------.GP--.001400--"
         }
       }
     },
@@ -1847,6 +1857,50 @@
     },
     {
       "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T12:30:00+08:00",
+      "startTimeJst": "2026-09-29T13:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "sportEn": "Softball",
+      "event": "Softball Women",
+      "phase": "Women’s Preliminary Round",
+      "unit": "Game  14",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "Anjo Softball Ground",
+      "venueZh": null,
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RESCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM9-------------.GP--.001400--",
+          "id": "SBL:W.TEAM9-------------.GP--.001400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T13:00:00+08:00",
       "startTimeJst": "2026-09-29T14:00:00+09:00",
       "timeNote": {
@@ -2423,10 +2477,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 41,
+    "resultsOnly": 42,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 50
+    "warnings": 51
   },
   "warnings": [
     {
@@ -2496,6 +2550,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:30 Quarterfinal Bout 1",
+      "row": "KUR:W.O87KG-------------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:45 Quarterfinal Bout 2",
       "row": "KUR:W.O87KG-------------.QFNL.000200--"
     },
@@ -2503,11 +2562,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:54 Round of 16 Bout 6",
       "row": "KUR:M.66KG--------------.8FNL.000600--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  14",
-      "row": "SBL:W.TEAM9-------------.GP--.001400--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2586,6 +2640,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 12:30 Game  14",
+      "row": "SBL:W.TEAM9-------------.GP--.001400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Men's Doubles Second Round Match 6",
       "row": "TEN:M.DOUBLES-----------.8FNL.000600--"
     },
@@ -2641,13 +2700,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "KUR|M.66KG--------------",
-      "message": "KUR Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "KUR|W.O87KG-------------",
+      "message": "KUR Women +87kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "KUR|W.O87KG-------------",
-      "message": "KUR Women +87kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "KUR|M.66KG--------------",
+      "message": "KUR Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
