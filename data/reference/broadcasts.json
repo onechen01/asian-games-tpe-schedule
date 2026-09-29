@@ -4262,7 +4262,7 @@
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女子個人/團體第二輪 10/1(原音) LIVE",
+      "title": "亞運 中華隊 高爾夫 男/女個人/團體第二輪 10/1(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4390,7 +4390,7 @@
       "channelId": "115",
       "channelName": "愛爾達體育4台",
       "isLive": true,
-      "title": "亞運 林宜慧/張惠慈 角力 女子50/76公斤級 資格賽 10/2(原音) LIVE",
+      "title": "亞運 白欣平 角力 女子62公斤級 資格賽 10/1(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4398,8 +4398,7 @@
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
-          "CHANG Hui-tsz",
-          "LIN Yi-hui"
+          "PAI Hsin-ping"
         ]
       }
     },
@@ -4413,7 +4412,7 @@
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女子個人/團體第三輪 10/2(原音) LIVE",
+      "title": "亞運 中華隊 高爾夫 男/女個人/團體第三輪 10/2(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4431,7 +4430,7 @@
       "channelId": "547",
       "channelName": "愛爾達體育MAX8台",
       "isLive": true,
-      "title": "亞運 林宜慧/張惠慈 角力 女子50/76公斤級 資格賽 10/2(原音) LIVE",
+      "title": "亞運 白欣平 角力 女子62公斤級 資格賽 10/1(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4439,8 +4438,7 @@
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
-          "CHANG Hui-tsz",
-          "LIN Yi-hui"
+          "PAI Hsin-ping"
         ]
       }
     },
@@ -4485,6 +4483,29 @@
       "matchHint": {
         "phaseKeywords": [
           "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T10:25:00+08:00",
+      "disciplineCode": "ARC",
+      "channelId": "542",
+      "channelName": "愛爾達體育MAX3台",
+      "isLive": true,
+      "title": "亞運 李彩綺/許芯慈 射箭 女子個人反曲弓八強/四強/決賽 10/3 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-10-02T12:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "HSU Hsin-tzu",
+          "LI Tsai-chi"
         ]
       }
     },
@@ -4578,7 +4599,7 @@
       "channelId": "542",
       "channelName": "愛爾達體育MAX3台",
       "isLive": true,
-      "title": "亞運 林宜慧/張惠慈 角力 女子50/76公斤級 資格賽 10/2(原音) LIVE",
+      "title": "亞運 白欣平 角力 女子62公斤級 資格賽 10/1(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4586,8 +4607,7 @@
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
-          "CHANG Hui-tsz",
-          "LIN Yi-hui"
+          "PAI Hsin-ping"
         ]
       }
     },
@@ -4601,7 +4621,7 @@
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女子個人/團體第四輪 10/3(原音) LIVE",
+      "title": "亞運 中華隊 高爾夫 男/女個人/團體第四輪 10/3(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4619,7 +4639,7 @@
       "channelId": "547",
       "channelName": "愛爾達體育MAX8台",
       "isLive": true,
-      "title": "亞運 廖佩穎 角力 女子57公斤級資格賽 10/3(原音) LIVE",
+      "title": "亞運 林宜慧/張惠慈 角力 女子50/76公斤級 資格賽 10/2(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4627,7 +4647,8 @@
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
-          "LIAO Pei-ying"
+          "CHANG Hui-tsz",
+          "LIN Yi-hui"
         ]
       }
     },
@@ -4641,7 +4662,7 @@
       "channelId": "540",
       "channelName": "愛爾達體育MAX1台",
       "isLive": true,
-      "title": "亞運 湯智鈞 射箭 男子個人反曲弓八強/四強 10/3 LIVE",
+      "title": "亞運 湯智鈞 射箭 男子個人反曲弓八強/四強/決賽 10/3 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-29",
@@ -4650,6 +4671,29 @@
       "matchHint": {
         "athleteNames": [
           "TANG Chih-chun"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T17:00:00+08:00",
+      "disciplineCode": "WRE",
+      "channelId": "549",
+      "channelName": "愛爾達體育MAX10台",
+      "isLive": true,
+      "title": "亞運 林宜慧/張惠慈 角力 女子50/76公斤級 資格賽 10/2(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-10-03T20:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHANG Hui-tsz",
+          "LIN Yi-hui"
         ]
       }
     }
