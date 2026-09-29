@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T04:05:20.704Z",
+  "generatedAt": "2026-09-29T04:25:33.660Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T04:05:20.524Z",
+      "generatedAt": "2026-09-29T04:25:33.472Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1427,8 +1427,12 @@
       "locationName": "Indoor Court C",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1740,21 +1744,25 @@
       "unit": "Recurve Women's Individual 1/16 Elimination",
       "athletes": [],
       "athletesEn": [
-        "LI Tsai-chi"
+        "LI Tsai-Chi"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "TAN Joey Xing Lei",
+      "opponentCode": "MAS",
       "venue": null,
       "venueZh": null,
       "locationCode": "OCM",
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "5",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1786,21 +1794,25 @@
       "unit": "Recurve Women's Individual 1/16 Elimination",
       "athletes": [],
       "athletesEn": [
-        "HSU Hsin-tzu"
+        "HSU Hsin-Tzu"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "ALALI Aisha",
+      "opponentCode": "UAE",
       "venue": null,
       "venueZh": null,
       "locationCode": "OCM",
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "4",
+        "opponent": "4",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1950,7 +1962,7 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -3050,13 +3062,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "ARC|W.RINDIVID----------",
-      "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "SAL|M.ILCA7-------------",
+      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "SAL|M.ILCA7-------------",
-      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "ARC|W.RINDIVID----------",
+      "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
