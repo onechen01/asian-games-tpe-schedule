@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T07:06:53.386Z",
+  "generatedAt": "2026-09-29T07:30:20.225Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T07:06:53.213Z",
+      "generatedAt": "2026-09-29T07:30:20.089Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -778,11 +778,11 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -797,19 +797,7 @@
       "sources": {
         "results": {
           "unitId": "M.K1----------------.SFNL.000100--",
-          "id": "CSL:M.K1----------------.SFNL.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "M.K1----------------.HEAT.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.K1----------------.HEAT.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-29T07-04-25-425Z-8ed7b711b517-1a090bc3.json"
-            ]
-          }
+          "id": "CSL:M.K1----------------.SFNL.000100--"
         }
       }
     },
@@ -1180,11 +1168,11 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1199,19 +1187,7 @@
       "sources": {
         "results": {
           "unitId": "W.C1----------------.SFNL.000100--",
-          "id": "CSL:W.C1----------------.SFNL.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "W.C1----------------.HEAT.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/W.C1----------------.HEAT.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-29T07-04-26-426Z-6515f9b7a77e-6eebf048.json"
-            ]
-          }
+          "id": "CSL:W.C1----------------.SFNL.000100--"
         }
       }
     },
