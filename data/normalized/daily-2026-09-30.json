@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T23:03:44.153Z",
+  "generatedAt": "2026-09-29T23:17:36.706Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T23:03:43.981Z",
+      "generatedAt": "2026-09-29T23:17:36.562Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -325,25 +325,25 @@
           "name": "WANG Wei-hsuan",
           "registration": "11704760",
           "result": "-1",
-          "rank": "1",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "CHAN Shih-chang",
           "registration": "12708292",
-          "result": "0",
-          "rank": "7",
+          "result": "-1",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-yao",
           "registration": "905667",
-          "result": null,
-          "rank": null,
+          "result": "0",
+          "rank": "10",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "1",
+      "tpeRank": "3",
       "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -377,8 +377,8 @@
       "athletes": [],
       "athletesEn": [
         "HUNG Chien-yao",
-        "CHAN Shih-chang",
-        "WANG Wei-hsuan"
+        "WANG Wei-hsuan",
+        "CHAN Shih-chang"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -390,7 +390,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-1",
+        "tpe": "-2",
         "opponent": null,
         "source": "results"
       },
