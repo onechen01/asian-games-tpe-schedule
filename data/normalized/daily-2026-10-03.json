@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T01:13:29.285Z",
+  "generatedAt": "2026-09-29T04:12:29.159Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-09-29T01:13:29.126Z",
+      "generatedAt": "2026-09-29T04:12:28.991Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -179,8 +179,8 @@
   "rows": [
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T05:30:00+08:00",
-      "startTimeJst": "2026-10-03T06:30:00+09:00",
+      "startTimeTaipei": "2026-10-03T06:00:00+08:00",
+      "startTimeJst": "2026-10-03T07:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "GLF",
       "sportZh": "高爾夫",
@@ -226,8 +226,8 @@
     },
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T05:30:00+08:00",
-      "startTimeJst": "2026-10-03T06:30:00+09:00",
+      "startTimeTaipei": "2026-10-03T06:00:00+08:00",
+      "startTimeJst": "2026-10-03T07:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "GLF",
       "sportZh": "高爾夫",
@@ -268,6 +268,100 @@
       "sources": {
         "entries": {
           "eventId": "GLF|W.TEAM--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T06:55:00+08:00",
+      "startTimeJst": "2026-10-03T07:55:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "GLF",
+      "sportZh": "高爾夫",
+      "sportEn": "Golf",
+      "event": "Men's Individual Stroke Play",
+      "phase": "Men's Individual Stroke Play",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kasugai Country Club East Course",
+      "venueZh": null,
+      "locationCode": "CCE",
+      "locationName": "Kasugai Country Club East Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHAN Shih-chang",
+        "HUNG Chien-yao",
+        "WANG Wei-hsuan"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GLF|M.STROKE------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T06:55:00+08:00",
+      "startTimeJst": "2026-10-03T07:55:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "GLF",
+      "sportZh": "高爾夫",
+      "sportEn": "Golf",
+      "event": "Men's Team",
+      "phase": "Men's Team",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kasugai Country Club East Course",
+      "venueZh": null,
+      "locationCode": "CCE",
+      "locationName": "Kasugai Country Club East Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHAN Shih-chang",
+        "HUNG Chien-yao",
+        "WANG Wei-hsuan"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GLF|M.TEAM--------------"
         }
       }
     },
@@ -639,100 +733,6 @@
       "sources": {
         "entries": {
           "eventId": "JUD|X.TEAM6-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T10:20:00+08:00",
-      "startTimeJst": "2026-10-03T11:20:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Men's Individual Stroke Play",
-      "phase": "Men's Individual Stroke Play",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "Kasugai Country Club East Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|M.STROKE------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T10:20:00+08:00",
-      "startTimeJst": "2026-10-03T11:20:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Men's Team",
-      "phase": "Men's Team",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "Kasugai Country Club East Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|M.TEAM--------------"
         }
       }
     },
