@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T12:25:35.954Z",
+  "generatedAt": "2026-09-29T12:36:43.156Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T12:25:35.775Z",
+      "generatedAt": "2026-09-29T12:36:43.011Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -821,6 +821,58 @@
     },
     {
       "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T09:30:00+08:00",
+      "startTimeJst": "2026-09-30T10:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
+      "phase": "Identity V - Asian Games Version Quarter-finals",
+      "unit": "Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "CHENG Kai-sheng",
+        "CHEN Kuang-yeh",
+        "CHU Tang-yao",
+        "TANG Sheng-chun",
+        "CHANG Chun-ming",
+        "CHUANG Po-chun",
+        "SU Bin-cheng"
+      ],
+      "opponent": "Hong Kong, China",
+      "opponentCode": "HKG",
+      "venue": "",
+      "venueZh": null,
+      "locationCode": "EL6",
+      "locationName": "Aichi Sky Expo Esport Competition Room M5",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.IDV---------------.QFNL.000300--",
+          "id": "ELS:O.IDV---------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T09:30:20+08:00",
       "startTimeJst": "2026-09-30T10:30:20+09:00",
       "timeNote": null,
@@ -1523,10 +1575,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 24,
+    "resultsOnly": 25,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 36
+    "warnings": 38
   },
   "warnings": [
     {
@@ -1578,6 +1630,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CSL 09:30 Men's Kayak Single - Semifinals - Semifinal",
       "row": "CSL:M.K1----------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 3",
+      "row": "ELS:O.IDV---------------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1688,6 +1745,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CSL|M.K1----------------",
       "message": "CSL Men's Kayak Single 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ELS|O.IDV---------------",
+      "message": "ELS 1v4 asymmetrical survival game [Identity V - Asian Games Version] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
