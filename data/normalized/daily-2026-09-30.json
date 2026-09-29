@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T14:15:53.037Z",
+  "generatedAt": "2026-09-29T14:26:25.720Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T14:15:52.901Z",
+      "generatedAt": "2026-09-29T14:26:25.547Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1424,7 +1424,7 @@
       "timeNote": {
         "code": "PENDING",
         "clockTaipei": null,
-        "raw": null
+        "raw": "Starting at 12:00"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1575,7 +1575,7 @@
       "timeNote": {
         "code": "PENDING",
         "clockTaipei": null,
-        "raw": null
+        "raw": "After Rest, NB 13:30, Court TBA"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1876,9 +1876,9 @@
       "startTimeTaipei": "2026-09-30T14:00:00+08:00",
       "startTimeJst": "2026-09-30T15:00:00+09:00",
       "timeNote": {
-        "code": "FOLLOWED_BY",
+        "code": "PENDING",
         "clockTaipei": null,
-        "raw": "Followed by"
+        "raw": "After Rest, Not Before 16:30"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1983,7 +1983,7 @@
     "resultsOnly": 33,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 48
+    "warnings": 47
   },
   "warnings": [
     {
@@ -2198,11 +2198,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TEN|M.DOUBLES-----------",
-      "message": "TEN Men's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "CSL|W.C1----------------",
       "message": "CSL Women's Canoe Single 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2218,13 +2213,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "DIV|W.3M----------------",
-      "message": "DIV Women's 3m Springboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TEN|X.DOUBLES-----------",
+      "message": "TEN Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TEN|X.DOUBLES-----------",
-      "message": "TEN Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "DIV|W.3M----------------",
+      "message": "DIV Women's 3m Springboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
