@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T02:38:32.509Z",
+  "generatedAt": "2026-09-29T02:49:20.021Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T02:38:32.333Z",
+      "generatedAt": "2026-09-29T02:49:19.842Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -807,7 +807,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.K1----------------.HEAT.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-29T02-35-03-834Z-8ed7b711b517-7220c060.json"
+              "data/raw/2026-09-29T02-47-44-680Z-8ed7b711b517-79d605db.json"
             ]
           }
         }
@@ -901,51 +901,6 @@
       "sources": {
         "entries": {
           "eventId": "JUD|W.48KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Men -60kg",
-      "phase": "Men -60 kg Elimination Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "AIA",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "YANG Yung-wei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JUD|M.60KG--------------"
         }
       }
     },
@@ -1424,7 +1379,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 18,
-    "entered": 4,
+    "entered": 3,
     "unresolvedTbd": 0,
     "warnings": 25
   },
