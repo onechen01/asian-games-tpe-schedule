@@ -3952,7 +3952,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T05:15:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-30T05:25:00+08:00",
       "disciplineCode": "GLF",
       "channelId": "540",
       "channelName": "愛爾達體育MAX1台",
@@ -3975,15 +3975,15 @@
       "channelId": "543",
       "channelName": "愛爾達體育MAX4台",
       "isLive": true,
-      "title": "亞運 泰國VS中華 壘球 預賽 9/30(原音) LIVE",
+      "title": "亞運 中華VS中國 壘球 預賽 9/30(原音-原9/29保留比賽) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T08:50:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
-          "THA"
+          "CHN"
         ]
       }
     },
@@ -4014,7 +4014,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T08:55:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-30T08:50:00+08:00",
       "disciplineCode": "DIV",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
@@ -4042,16 +4042,19 @@
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 林真豪/楊勇緯 柔道 女48/52/男60/66公斤級預賽 9/30 LIVE",
+      "title": "亞運 中華隊 柔道 女48/52/男60/66公斤級預賽 9/30 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-29",
       "broadcastEndTimeTaipei": "2026-09-30T12:55:00+08:00",
-      "matchLevel": "unit",
+      "matchLevel": "discipline",
       "matchHint": {
-        "athleteNames": [
-          "LIN Chen-hao",
-          "YANG Yung-wei"
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
         ]
       }
     },
@@ -4083,7 +4086,7 @@
       "channelId": "105",
       "channelName": "愛爾達體育2台",
       "isLive": true,
-      "title": "亞運 林郁婷 拳擊 女子60公斤級四強 9/30 LIVE",
+      "title": "亞運 林郁婷 拳擊 女子51/60/75/男子55/70/90公斤級四強 9/30 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-29",
@@ -4092,6 +4095,50 @@
       "matchHint": {
         "athleteNames": [
           "LIN Yu-ting"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T12:20:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華VS泰國 壘球 預賽 9/30(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-09-30T13:50:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T12:50:00+08:00",
+      "disciplineCode": "HOC",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 泰國VS中華 曲棍球 女子5-8排名賽 9/30(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
         ]
       }
     },
@@ -4114,28 +4161,6 @@
       "matchHint": {
         "phaseKeywords": [
           "Final"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T13:00:00+08:00",
-      "disciplineCode": "HOC",
-      "channelId": "541",
-      "channelName": "愛爾達體育MAX2台",
-      "isLive": true,
-      "title": "亞運 中華VS泰國 曲棍球 女子5-8排名賽 9/30(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-09-30T15:00:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "opponentCodes": [
-          "THA"
         ]
       }
     },
