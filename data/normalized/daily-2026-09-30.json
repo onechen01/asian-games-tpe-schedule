@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T13:46:39.966Z",
+  "generatedAt": "2026-09-29T13:56:22.278Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T13:46:39.835Z",
+      "generatedAt": "2026-09-29T13:56:22.156Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -724,6 +724,53 @@
         "results": {
           "unitId": "X.TRMT--------------.QUAL.000100--",
           "id": "SHO:X.TRMT--------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
+      "startTimeJst": "2026-09-30T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Second Round",
+      "unit": "Women's Doubles Second Round Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHAN Hao-ching",
+        "WU Fang-hsien"
+      ],
+      "opponent": "ALUDO Stefi/MADIS Tennielle",
+      "opponentCode": "PHI",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "004",
+      "locationName": "Court 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.8FNL.000200--",
+          "id": "TEN:W.DOUBLES-----------.8FNL.000200--"
         }
       }
     },
@@ -1370,6 +1417,99 @@
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Third Round",
+      "unit": "Men's Singles Third Round Match 4",
+      "athletes": [],
+      "athletesEn": [
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "SURESH Dhakshineswar",
+      "opponentCode": "IND",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "008",
+      "locationName": "Court 6",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.8FNL.000400--",
+          "id": "TEN:M.SINGLES-----------.8FNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T11:00:00+08:00",
+      "startTimeJst": "2026-09-30T12:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Second Round",
+      "unit": "Women's Doubles Second Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "LIANG En-shuo"
+      ],
+      "opponent": "JEONG Boyoung/PARK Sohyun",
+      "opponentCode": "KOR",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "007",
+      "locationName": "Court 5",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.8FNL.000800--",
+          "id": "TEN:W.DOUBLES-----------.8FNL.000800--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T11:00:00+08:00",
+      "startTimeJst": "2026-09-30T12:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
       "event": "Women's Singles",
       "phase": "Women's Singles Quarter-finals",
       "unit": "Women's Singles Quarter-finals Match 1",
@@ -1405,6 +1545,53 @@
         "results": {
           "unitId": "W.SINGLES-----------.QFNL.000100--",
           "id": "TEN:W.SINGLES-----------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T12:00:00+08:00",
+      "startTimeJst": "2026-09-30T13:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Quarter-finals",
+      "unit": "Men's Doubles Quarter-finals Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "HO Chenjui",
+        "HSU Yu-hsiou"
+      ],
+      "opponent": "BHAMBRI Yuki/SURESH Dhakshineswar",
+      "opponentCode": "IND",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "006",
+      "locationName": "Court 4",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.QFNL.000300--",
+          "id": "TEN:M.DOUBLES-----------.QFNL.000300--"
         }
       }
     },
@@ -1659,6 +1846,100 @@
           "id": "HOC:W.TEAM11------------.SF51.000200--"
         }
       }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T14:00:00+08:00",
+      "startTimeJst": "2026-09-30T15:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": "Mixed Doubles Second Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
+      "opponentCode": "IND",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "002",
+      "locationName": "Show Court",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000800--",
+          "id": "TEN:X.DOUBLES-----------.8FNL.000800--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "startTimeJst": "2026-09-30T16:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": "Mixed Doubles Second Round Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHAN Hao-ching",
+        "HO Chenjui"
+      ],
+      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
+      "opponentCode": "MGL",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "006",
+      "locationName": "Court 4",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000100--",
+          "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -1667,10 +1948,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 27,
+    "resultsOnly": 33,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 40
+    "warnings": 48
   },
   "warnings": [
     {
@@ -1712,6 +1993,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Mixed Team - Qualification",
       "row": "SHO:X.TRMT--------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 09:00 Women's Doubles Second Round Match 2",
+      "row": "TEN:W.DOUBLES-----------.8FNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1780,8 +2066,23 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Men's Singles Third Round Match 4",
+      "row": "TEN:M.SINGLES-----------.8FNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Women's Doubles Second Round Match 8",
+      "row": "TEN:W.DOUBLES-----------.8FNL.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Women's Singles Quarter-finals Match 1",
       "row": "TEN:W.SINGLES-----------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Doubles Quarter-finals Match 3",
+      "row": "TEN:M.DOUBLES-----------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1807,6 +2108,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 13:00 Women Classification-1 (5th-8th) Match 2",
       "row": "HOC:W.TEAM11------------.SF51.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles Second Round Match 8",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Mixed Doubles Second Round Match 1",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -1855,6 +2166,11 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "TEN|M.DOUBLES-----------",
+      "message": "TEN Men's Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "CSL|W.C1----------------",
       "message": "CSL Women's Canoe Single 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -1872,6 +2188,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "DIV|W.3M----------------",
       "message": "DIV Women's 3m Springboard 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TEN|X.DOUBLES-----------",
+      "message": "TEN Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
