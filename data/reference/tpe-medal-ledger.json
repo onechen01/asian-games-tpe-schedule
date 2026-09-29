@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-29T02:49:21.312Z",
+  "generatedAt": "2026-09-29T03:07:08.307Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-29T02:49:21.308Z",
+  "standingsUpdatedAt": "2026-09-29T03:07:08.306Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 8,
-    "bronze": 22,
-    "total": 33
+    "bronze": 23,
+    "total": 34
   },
   "officialCounts": {
     "gold": 3,
     "silver": 8,
-    "bronze": 22,
-    "total": 33
+    "bronze": 23,
+    "total": 34
   },
   "missing": {
     "gold": 0,
@@ -587,6 +587,23 @@
         "LAI Po-hsiang",
         "HUANG Zuo-jyun",
         "CHEN Wen-pu"
+      ],
+      "rank": "2"
+    },
+    {
+      "awardId": "BDM|X.DOUBLES-----------|BDMXDOUBLES----TPE01",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "BDM",
+      "sportZh": "羽球",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Semifinals",
+      "date": "2026-09-28",
+      "startTimeTaipei": "2026-09-28T09:30:00+08:00",
+      "resultId": "BDM:X.DOUBLES-----------.SFNL.000200--",
+      "unitId": "X.DOUBLES-----------.SFNL.000200--",
+      "athletes": [
+        "YE Hong-Wei",
+        "CHAN Nicole Gonzales"
       ],
       "rank": "2"
     },
