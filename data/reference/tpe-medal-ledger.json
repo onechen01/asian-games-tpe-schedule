@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-29T06:36:11.764Z",
+  "generatedAt": "2026-09-29T07:46:38.751Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-29T06:36:11.764Z",
+  "standingsUpdatedAt": "2026-09-29T07:46:38.750Z",
   "ledgerCounts": {
     "gold": 3,
-    "silver": 9,
-    "bronze": 23,
-    "total": 35
+    "silver": 10,
+    "bronze": 24,
+    "total": 37
   },
   "officialCounts": {
     "gold": 3,
-    "silver": 9,
-    "bronze": 23,
-    "total": 35
+    "silver": 10,
+    "bronze": 24,
+    "total": 37
   },
   "missing": {
     "gold": 0,
@@ -642,6 +642,25 @@
       "rank": "2"
     },
     {
+      "awardId": "CTR|W.SPRTEAM3----------|CTRWSPRTEAM3---TPE01",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "event": "Women's Team Sprint",
+      "phase": "Women's Team Sprint, Finals",
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T15:13:00+08:00",
+      "resultId": "CTR:W.SPRTEAM3----------.FNL-.000200--",
+      "unitId": "W.SPRTEAM3----------.FNL-.000200--",
+      "athletes": [
+        "WANG Sin-ting",
+        "CHEN Ching-yun",
+        "LIU Shang-ying",
+        "QIU Jing-wen"
+      ],
+      "rank": "1"
+    },
+    {
       "awardId": "KUR|W.O87KG-------------|8048932",
       "medal": "ME_SILVER",
       "disciplineCode": "KUR",
@@ -656,6 +675,22 @@
         "SHIH Liu Li-ling"
       ],
       "rank": null
+    },
+    {
+      "awardId": "SHO|M.TRM---------------|4303935",
+      "medal": "ME_SILVER",
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "event": "Trap Men Individual",
+      "phase": "Trap Men Individual Final",
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T14:30:00+08:00",
+      "resultId": "SHO:M.TRM---------------.FNL-.000100--",
+      "unitId": "M.TRM---------------.FNL-.000100--",
+      "athletes": [
+        "YANG Kun-Pi"
+      ],
+      "rank": "2"
     }
   ]
 }

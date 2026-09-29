@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T07:28:56.790Z",
+  "generatedAt": "2026-09-29T07:44:32.823Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T07:28:56.643Z",
+      "generatedAt": "2026-09-29T07:44:32.675Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2594,7 +2594,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "49.061",
         "opponent": "49.137",
@@ -2627,8 +2627,8 @@
       "startTimeJst": "2026-09-29T17:00:00+09:00",
       "timeNote": {
         "code": "NOT_BEFORE",
-        "clockTaipei": "16:00",
-        "raw": "Not Before 17:00"
+        "clockTaipei": "17:00",
+        "raw": "Not Before 18:00"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -2669,57 +2669,6 @@
         "results": {
           "unitId": "X.DOUBLES-----------.R32-.001500--",
           "id": "TEN:X.DOUBLES-----------.R32-.001500--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T17:00:00+08:00",
-      "startTimeJst": "2026-09-29T18:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": "Mixed Doubles Second Round Match 1",
-      "athletes": [],
-      "athletesEn": [
-        "CHAN Hao-ching",
-        "HO Chenjui"
-      ],
-      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
-      "opponentCode": "MGL",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "015",
-      "locationName": "Indoor Court D",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.8FNL.000100--",
-          "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
         }
       }
     },
@@ -3048,10 +2997,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 51,
+    "resultsOnly": 50,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 56
+    "warnings": 55
   },
   "warnings": [
     {
@@ -3278,11 +3227,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 16:00 Mixed Doubles First Round Match 15",
       "row": "TEN:X.DOUBLES-----------.R32-.001500--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 17:00 Mixed Doubles Second Round Match 1",
-      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
