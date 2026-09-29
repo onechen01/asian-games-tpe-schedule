@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T04:55:23.237Z",
+  "generatedAt": "2026-09-29T05:05:45.869Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T04:55:23.104Z",
+      "generatedAt": "2026-09-29T05:05:45.670Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1539,7 +1539,7 @@
       "locationName": "Nagoya City Trade & Industry Center",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "DNF",
         "opponent": null,
@@ -1647,7 +1647,7 @@
       "locationName": "Indoor Court B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1706,7 +1706,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "1",
         "source": "results"
       },
@@ -1950,8 +1950,8 @@
         "CHIANG Ting-en",
         "HO Yi-fan",
         "KE Hsia-ai",
-        "LIN Chi-yun",
         "TU Ya-ting",
+        "LIN Chi-yun",
         "PAN Yu-ling",
         "CHU Yi-shan",
         "CHEN Ching-yu",
@@ -2116,8 +2116,12 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2163,25 +2167,25 @@
       "locationName": "Shotgun Range",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
           "name": "LIN Yi-Chun",
           "registration": "4305607",
-          "result": null,
-          "rank": null,
+          "result": "2",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
-          "result": null,
-          "rank": null,
+          "result": "2",
+          "rank": "7",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2279,8 +2283,12 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 12,
