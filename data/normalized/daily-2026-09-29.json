@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T20:21:57.578Z",
+  "generatedAt": "2026-09-29T20:59:33.049Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T20:21:57.473Z",
+      "generatedAt": "2026-09-29T20:59:32.895Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 17,
+          "recovered": 17,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -299,6 +299,60 @@
   },
   "date": "2026-09-29",
   "rows": [
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T08:00:00+08:00",
+      "startTimeJst": "2026-09-29T09:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
+      "phase": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 7",
+      "athletes": [],
+      "athletesEn": [
+        "CHIANG Chien-ting",
+        "CHEN Hong-yi",
+        "HUANG Chuan-peng",
+        "PENG Yi-xiang",
+        "CHEN Ting-yi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "",
+      "venueZh": null,
+      "locationCode": "EL1",
+      "locationName": "Aichi Sky Expo Hall D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "10",
+      "orgCount": 12,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.PUBGM-------------.FNL-.000700--",
+          "id": "ELS:O.PUBGM-------------.FNL-.000700--"
+        }
+      }
+    },
     {
       "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T08:00:00+08:00",
@@ -401,60 +455,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T08:00:00+08:00",
-      "startTimeJst": "2026-09-29T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
-      "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "Match 7",
-      "athletes": [],
-      "athletesEn": [
-        "CHIANG Chien-ting",
-        "CHEN Hong-yi",
-        "HUANG Chuan-peng",
-        "PENG Yi-xiang",
-        "CHEN Ting-yi"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "locationCode": "EL1",
-      "locationName": "Aichi Sky Expo Hall D",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "1",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "10",
-      "orgCount": 12,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "O.PUBGM-------------.FNL-.000700--",
-          "id": "ELS:O.PUBGM-------------.FNL-.000700--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T08:30:00+08:00",
       "startTimeJst": "2026-09-29T09:30:00+09:00",
       "timeNote": null,
@@ -533,7 +533,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "9",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2926,6 +2926,11 @@
   "warnings": [
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 7",
+      "row": "ELS:O.PUBGM-------------.FNL-.000700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:00 Recurve Men's Individual 1/16 Elimination",
       "row": "ARC:M.RINDIVID----------.R32-.000200--"
     },
@@ -2933,11 +2938,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:00 Recurve Men's Individual 1/16 Elimination",
       "row": "ARC:M.RINDIVID----------.R32-.000900--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 7",
-      "row": "ELS:O.PUBGM-------------.FNL-.000700--"
     },
     {
       "code": "RESULTS_ONLY",
