@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T02:06:03.034Z",
+  "generatedAt": "2026-09-29T02:16:10.737Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T02:06:02.877Z",
+      "generatedAt": "2026-09-29T02:16:10.557Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -680,7 +680,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "101",
+        "tpe": "111",
         "opponent": null,
         "source": "results"
       },
@@ -880,6 +880,56 @@
       "startTimeTaipei": "2026-09-29T09:30:00+08:00",
       "startTimeJst": "2026-09-29T10:30:00+09:00",
       "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Men's Kayak Single",
+      "phase": "Men's Kayak Single Heats",
+      "unit": "Men's Kayak Single - Heats - Heats",
+      "athletes": [],
+      "athletesEn": [
+        "LIAO Li-hong"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "104.26",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 11,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.K1----------------.HEAT.000100--",
+          "id": "CSL:M.K1----------------.HEAT.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:30:00+08:00",
+      "startTimeJst": "2026-09-29T10:30:00+09:00",
+      "timeNote": null,
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -904,7 +954,7 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -979,50 +1029,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:30:00+08:00",
-      "startTimeJst": "2026-09-29T10:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Men's Kayak Single",
-      "phase": "Men's Kayak Single Heats",
-      "unit": "Men's Kayak Single - Heats - Heats",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "Yahagigawa Canoe Slalom Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "RUNNING",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.K1----------------.HEAT.000100--",
-          "id": "CSL:M.K1----------------.HEAT.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T09:45:00+08:00",
       "startTimeJst": "2026-09-29T10:45:00+09:00",
       "timeNote": null,
@@ -1044,7 +1050,7 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "3",
         "opponent": "0",
@@ -1094,7 +1100,7 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "10",
@@ -1144,10 +1150,14 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1221,6 +1231,52 @@
       "startTimeTaipei": "2026-09-29T10:20:00+08:00",
       "startTimeJst": "2026-09-29T11:20:00+09:00",
       "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Canoe Single",
+      "phase": "Women's Canoe Single Heats",
+      "unit": "Women's Canoe Single - Heats - Heats",
+      "athletes": [],
+      "athletesEn": [
+        "CHUNG Yu-han"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 7,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.C1----------------.HEAT.000100--",
+          "id": "CSL:W.C1----------------.HEAT.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T10:20:00+08:00",
+      "startTimeJst": "2026-09-29T11:20:00+09:00",
+      "timeNote": null,
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -1268,50 +1324,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:20:00+08:00",
-      "startTimeJst": "2026-09-29T11:20:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Women's Canoe Single",
-      "phase": "Women's Canoe Single Heats",
-      "unit": "Women's Canoe Single - Heats - Heats",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "Yahagigawa Canoe Slalom Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.C1----------------.HEAT.000100--",
-          "id": "CSL:W.C1----------------.HEAT.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T10:47:00+08:00",
       "startTimeJst": "2026-09-29T11:47:00+09:00",
       "timeNote": null,
@@ -1322,7 +1334,10 @@
       "phase": "Men's Canoe Single Heats",
       "unit": "Men's Canoe Single - Heats - Heats",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHANG Fu-hua",
+        "WU Jung-cheng"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -1333,9 +1348,24 @@
       "courtPredecessorUnitId": null,
       "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHANG Fu-hua",
+          "registration": "5878040",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "WU Jung-cheng",
+          "registration": "4233921",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1416,7 +1446,10 @@
       "phase": "Women's Kayak Single Heats",
       "unit": "Women's Kayak Single - Heats - Heats",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHANG Chu-han",
+        "WU Ting-i"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -1427,9 +1460,24 @@
       "courtPredecessorUnitId": null,
       "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHANG Chu-han",
+          "registration": "4238983",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "WU Ting-i",
+          "registration": "6812784",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1876,6 +1924,52 @@
         "results": {
           "unitId": "W.TEAM9-------------.GP--.001400--",
           "id": "SBL:W.TEAM9-------------.GP--.001400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T13:00:00+08:00",
+      "startTimeJst": "2026-09-29T14:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women +87kg",
+      "phase": "Women +87kg Semifinals",
+      "unit": "Semifinal Bout 1",
+      "athletes": [],
+      "athletesEn": [
+        "SHIH Liu Li-ling"
+      ],
+      "opponent": "BARMAKI KORDKOLAEE Fatemeh",
+      "opponentCode": "IRI",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.O87KG-------------.SFNL.000100--",
+          "id": "KUR:W.O87KG-------------.SFNL.000100--"
         }
       }
     },
@@ -2505,10 +2599,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 43,
+    "resultsOnly": 44,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 52
+    "warnings": 53
   },
   "warnings": [
     {
@@ -2568,6 +2662,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 09:30 Men's Kayak Single - Heats - Heats",
+      "row": "CSL:M.K1----------------.HEAT.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 6",
       "row": "ELS:O.IDV---------------.GPA-.000600--"
     },
@@ -2575,11 +2674,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:30 Quarterfinal Bout 1",
       "row": "KUR:W.O87KG-------------.QFNL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CSL 09:30 Men's Kayak Single - Heats - Heats",
-      "row": "CSL:M.K1----------------.HEAT.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2603,13 +2697,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:20 Match 9",
-      "row": "ELS:O.PUBGM-------------.FNL-.000900--"
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:20 Women's Canoe Single - Heats - Heats",
+      "row": "CSL:W.C1----------------.HEAT.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:20 Women's Canoe Single - Heats - Heats",
-      "row": "CSL:W.C1----------------.HEAT.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:20 Match 9",
+      "row": "ELS:O.PUBGM-------------.FNL-.000900--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2670,6 +2764,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 12:30 Game  14",
       "row": "SBL:W.TEAM9-------------.GP--.001400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 13:00 Semifinal Bout 1",
+      "row": "KUR:W.O87KG-------------.SFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2748,13 +2847,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "KUR|W.O87KG-------------",
-      "message": "KUR Women +87kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "SHO|W.TRW---------------",
+      "message": "SHO Trap Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "SHO|W.TRW---------------",
-      "message": "SHO Trap Women Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "KUR|W.O87KG-------------",
+      "message": "KUR Women +87kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
