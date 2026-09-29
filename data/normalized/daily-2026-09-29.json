@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T00:47:02.556Z",
+  "generatedAt": "2026-09-29T00:55:57.760Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T00:47:02.379Z",
+      "generatedAt": "2026-09-29T00:55:57.594Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -476,7 +476,7 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "10",
         "opponent": "0",
@@ -526,7 +526,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "6",
@@ -576,7 +576,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "6",
         "opponent": "2",
@@ -1470,7 +1470,9 @@
       "phase": "Men's 110kg All Groups",
       "unit": "Men's 110kg Group A",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Po-jen"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
@@ -1483,7 +1485,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2216,7 +2218,9 @@
       "phase": "Men's +110kg All Groups",
       "unit": "Men's +110kg Group A",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "DONG Bing-cheng"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
@@ -2229,7 +2233,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
