@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T04:25:33.660Z",
+  "generatedAt": "2026-09-29T04:55:23.237Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T04:25:33.472Z",
+      "generatedAt": "2026-09-29T04:55:23.104Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -954,9 +954,9 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "1",
         "source": "results"
       },
@@ -1539,9 +1539,9 @@
       "locationName": "Nagoya City Trade & Industry Center",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "DNF",
         "opponent": null,
         "source": "results"
       },
@@ -1593,14 +1593,14 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "1",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "10",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1707,7 +1707,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1754,9 +1754,9 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "5",
+        "tpe": "7",
         "opponent": "3",
         "source": "results"
       },
@@ -1804,9 +1804,9 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "4",
+        "tpe": "6",
         "opponent": "4",
         "source": "results"
       },
@@ -1854,10 +1854,14 @@
       "locationName": "Ring 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1962,8 +1966,12 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1982,6 +1990,106 @@
         "results": {
           "unitId": "W.TEAM9-------------.GP--.001400--",
           "id": "SBL:W.TEAM9-------------.GP--.001400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T12:55:00+08:00",
+      "startTimeJst": "2026-09-29T13:55:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Women's Individual",
+      "phase": "Recurve Women's Individual 1/8 Eliminations",
+      "unit": "Recurve Women's Individual 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "LI Tsai-Chi"
+      ],
+      "opponent": "ZEMLYANOVA Alexandra",
+      "opponentCode": "KAZ",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "6",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.RINDIVID----------.8FNL.000300--",
+          "id": "ARC:W.RINDIVID----------.8FNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T12:55:00+08:00",
+      "startTimeJst": "2026-09-29T13:55:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Women's Individual",
+      "phase": "Recurve Women's Individual 1/8 Eliminations",
+      "unit": "Recurve Women's Individual 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "HSU Hsin-Tzu"
+      ],
+      "opponent": "BIDAURE Gabrielle Monica",
+      "opponentCode": "PHI",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "6",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.RINDIVID----------.8FNL.000600--",
+          "id": "ARC:W.RINDIVID----------.8FNL.000600--"
         }
       }
     },
@@ -2814,10 +2922,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 47,
+    "resultsOnly": 49,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 54
+    "warnings": 55
   },
   "warnings": [
     {
@@ -2982,6 +3090,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:55 Recurve Women's Individual 1/8 Elimination",
+      "row": "ARC:W.RINDIVID----------.8FNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:55 Recurve Women's Individual 1/8 Elimination",
+      "row": "ARC:W.RINDIVID----------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 13:00 Semifinal Bout 1",
       "row": "KUR:W.O87KG-------------.SFNL.000100--"
     },
@@ -3064,11 +3182,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SAL|M.ILCA7-------------",
       "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ARC|W.RINDIVID----------",
-      "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
