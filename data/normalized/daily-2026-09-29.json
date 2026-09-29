@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T06:55:00.877Z",
+  "generatedAt": "2026-09-29T07:05:26.911Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T06:55:00.691Z",
+      "generatedAt": "2026-09-29T07:05:26.745Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -659,60 +659,6 @@
       "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T09:00:00+08:00",
       "startTimeJst": "2026-09-29T10:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "Starting at 10:00"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Second Round",
-      "unit": "Men's Singles Second Round Match 14",
-      "athletes": [],
-      "athletesEn": [
-        "HSU Yu-hsiou"
-      ],
-      "opponent": "ALKOTOP Mohammad",
-      "opponentCode": "JOR",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "012",
-      "locationName": "Indoor Court A",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "2",
-        "opponent": "1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.R32-.001400--",
-          "id": "TEN:M.SINGLES-----------.R32-.001400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
-      "startTimeJst": "2026-09-29T10:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "SHO",
       "sportZh": "射擊",
@@ -721,7 +667,9 @@
       "phase": "Trap Men Individual Qualification",
       "unit": "Trap Men Individual - Qualification - Qualification - Day 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "YANG Kun-Pi"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
@@ -731,10 +679,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "123",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "1",
+      "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -765,7 +717,10 @@
       "phase": "Trap Women Individual Qualification",
       "unit": "Trap Women Individual - Qualification - Qualification - Day 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIN Yi-Chun",
+        "LIU Wan-Yu"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
@@ -776,9 +731,24 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "LIN Yi-Chun",
+          "registration": "4305607",
+          "result": "115",
+          "rank": "5",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "LIU Wan-Yu",
+          "registration": "13637506",
+          "result": "115",
+          "rank": "6",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "5",
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -794,6 +764,60 @@
         "results": {
           "unitId": "W.TRW---------------.QUAL.000300--",
           "id": "SHO:W.TRW---------------.QUAL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:00:00+08:00",
+      "startTimeJst": "2026-09-29T10:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "Starting at 10:00"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Second Round",
+      "unit": "Men's Singles Second Round Match 14",
+      "athletes": [],
+      "athletesEn": [
+        "HSU Yu-hsiou"
+      ],
+      "opponent": "ALKOTOP Mohammad",
+      "opponentCode": "JOR",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "012",
+      "locationName": "Indoor Court A",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.R32-.001400--",
+          "id": "TEN:M.SINGLES-----------.R32-.001400--"
         }
       }
     },
@@ -1410,7 +1434,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1600,60 +1624,6 @@
       "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T12:00:00+08:00",
       "startTimeJst": "2026-09-29T13:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Second Round",
-      "unit": "Men's Singles Second Round Match 8",
-      "athletes": [],
-      "athletesEn": [
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "RAKHMATOV Anvar",
-      "opponentCode": "TJK",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "013",
-      "locationName": "Indoor Court B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "0",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.R32-.000800--",
-          "id": "TEN:M.SINGLES-----------.R32-.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T12:00:00+08:00",
-      "startTimeJst": "2026-09-29T13:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "VVO",
       "sportZh": "排球",
@@ -1708,6 +1678,60 @@
         "results": {
           "unitId": "M.TEAM6-------------.GPD-.000500--",
           "id": "VVO:M.TEAM6-------------.GPD-.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T12:00:00+08:00",
+      "startTimeJst": "2026-09-29T13:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Second Round",
+      "unit": "Men's Singles Second Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "RAKHMATOV Anvar",
+      "opponentCode": "TJK",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "013",
+      "locationName": "Indoor Court B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.R32-.000800--",
+          "id": "TEN:M.SINGLES-----------.R32-.000800--"
         }
       }
     },
@@ -2123,6 +2147,68 @@
       "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T13:00:00+08:00",
       "startTimeJst": "2026-09-29T14:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SHO",
+      "sportZh": "射擊",
+      "sportEn": "Shooting",
+      "event": "Trap Women Individual",
+      "phase": "Trap Women Individual Final",
+      "unit": "Trap Women Individual - Final",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yi-Chun",
+        "LIU Wan-Yu"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural General Shooting Gallery",
+      "venueZh": null,
+      "locationCode": "SH5",
+      "locationName": "Shotgun Range",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "LIN Yi-Chun",
+          "registration": "4305607",
+          "result": "12",
+          "rank": "6",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "LIU Wan-Yu",
+          "registration": "13637506",
+          "result": "6",
+          "rank": "7",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "6",
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TRW---------------.FNL-.000100--",
+          "id": "SHO:W.TRW---------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T13:00:00+08:00",
+      "startTimeJst": "2026-09-29T14:00:00+09:00",
       "timeNote": {
         "code": "NOT_BEFORE",
         "clockTaipei": "13:30",
@@ -2139,7 +2225,7 @@
         "HO Chenjui",
         "HSU Yu-hsiou"
       ],
-      "opponent": "KHAN Aqeel/SHOAIB Muhammad",
+      "opponent": "KHAN Aqeel / SHOAIB Muhammad",
       "opponentCode": "PAK",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2147,7 +2233,7 @@
       "locationName": "Indoor Court A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2167,50 +2253,6 @@
         "results": {
           "unitId": "M.DOUBLES-----------.8FNL.000600--",
           "id": "TEN:M.DOUBLES-----------.8FNL.000600--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T13:00:00+08:00",
-      "startTimeJst": "2026-09-29T14:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SHO",
-      "sportZh": "射擊",
-      "sportEn": "Shooting",
-      "event": "Trap Women Individual",
-      "phase": "Trap Women Individual Final",
-      "unit": "Trap Women Individual - Final",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural General Shooting Gallery",
-      "venueZh": null,
-      "locationCode": "SH5",
-      "locationName": "Shotgun Range",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TRW---------------.FNL-.000100--",
-          "id": "SHO:W.TRW---------------.FNL-.000100--"
         }
       }
     },
@@ -2436,7 +2478,9 @@
       "phase": "Trap Men Individual Final",
       "unit": "Trap Men Individual - Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "YANG Kun-Pi"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Prefectural General Shooting Gallery",
@@ -2446,10 +2490,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
-      "result": null,
+      "result": {
+        "tpe": "24",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "1",
+      "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2494,10 +2542,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "3:59.024",
+        "opponent": "3:57.641",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2537,7 +2589,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "FARZAMI Mandegar/YAZDANI Ali",
+      "opponent": "FARZAMI Mandegar / YAZDANI Ali",
       "opponentCode": "IRI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2636,7 +2688,7 @@
         "CHAN Hao-ching",
         "HO Chenjui"
       ],
-      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
+      "opponent": "ENKHJARGAL Sonom-yanzum / PUREVDORJ Undrakh",
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -3035,11 +3087,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 09:00 Men's Singles Second Round Match 14",
-      "row": "TEN:M.SINGLES-----------.R32-.001400--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Men Individual - Qualification - Qualification - Day 3",
       "row": "SHO:M.TRM---------------.QUAL.000300--"
     },
@@ -3047,6 +3094,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Women Individual - Qualification - Qualification - Day 3",
       "row": "SHO:W.TRW---------------.QUAL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 09:00 Men's Singles Second Round Match 14",
+      "row": "TEN:M.SINGLES-----------.R32-.001400--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3125,13 +3177,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Second Round Match 8",
-      "row": "TEN:M.SINGLES-----------.R32-.000800--"
+      "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 22",
+      "row": "VVO:M.TEAM6-------------.GPD-.000500--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 22",
-      "row": "VVO:M.TEAM6-------------.GPD-.000500--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Second Round Match 8",
+      "row": "TEN:M.SINGLES-----------.R32-.000800--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3175,13 +3227,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Men's Doubles Second Round Match 6",
-      "row": "TEN:M.DOUBLES-----------.8FNL.000600--"
+      "message": "Results 確認 TPE 但中華奧會未列出：SHO 13:00 Trap Women Individual - Final",
+      "row": "SHO:W.TRW---------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SHO 13:00 Trap Women Individual - Final",
-      "row": "SHO:W.TRW---------------.FNL-.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Men's Doubles Second Round Match 6",
+      "row": "TEN:M.DOUBLES-----------.8FNL.000600--"
     },
     {
       "code": "RESULTS_ONLY",

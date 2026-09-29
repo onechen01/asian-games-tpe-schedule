@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T04:11:21.466Z",
+  "generatedAt": "2026-09-29T07:12:04.117Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-29T04:11:21.285Z",
+      "generatedAt": "2026-09-29T07:12:03.936Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1344,6 +1344,64 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T16:45:00+08:00",
+      "startTimeJst": "2026-10-02T17:45:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Women's 65kg",
+      "phase": "Women's 65KG Final",
+      "unit": "Women's 65KG - Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Nien-chin"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "locationCode": "NIS",
+      "locationName": "Ring 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.65KG--------------.FNL-.000100--",
+          "id": "BOX:W.65KG--------------.FNL-.000100--",
+          "qualification": {
+            "kind": "previous-results-qualified",
+            "previousUnitIds": [
+              "W.65KG--------------.SFNL.000100--"
+            ],
+            "urls": [
+              "https://back.results.asiangames2026.org/s/AG2026/en/BOX/results/W.65KG--------------.SFNL.000100--"
+            ],
+            "rawFiles": [
+              "data/raw/2026-09-29T07-04-24-423Z-18c2baea0cb7-07588875.json"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T17:00:00+08:00",
       "startTimeJst": "2026-10-02T18:00:00+09:00",
       "timeNote": null,
@@ -1398,10 +1456,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 7,
+    "resultsOnly": 8,
     "entered": 16,
     "unresolvedTbd": 0,
-    "warnings": 12
+    "warnings": 13
   },
   "warnings": [
     {
@@ -1438,6 +1496,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:46 Men's Madison, Final",
       "row": "CTR:M.MADISON-----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:45 Women's 65KG - Final",
+      "row": "BOX:W.65KG--------------.FNL-.000100--"
     },
     {
       "code": "PENDING_LATER_UNITS",

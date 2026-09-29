@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T04:12:29.159Z",
+  "generatedAt": "2026-09-29T07:13:34.988Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-09-29T04:12:28.991Z",
+      "generatedAt": "2026-09-29T07:13:34.828Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -457,6 +457,52 @@
     },
     {
       "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T08:15:00+08:00",
+      "startTimeJst": "2026-10-03T09:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Women's Individual",
+      "phase": "Recurve Women's Individual Quarterfinals",
+      "unit": "Recurve Women's Individual Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "LI Tsai-Chi"
+      ],
+      "opponent": "ZHU Jingyi",
+      "opponentCode": "CHN",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.RINDIVID----------.QFNL.000200--",
+          "id": "ARC:W.RINDIVID----------.QFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T08:24:00+08:00",
       "startTimeJst": "2026-10-03T09:24:00+09:00",
       "timeNote": null,
@@ -497,6 +543,52 @@
       "sources": {
         "entries": {
           "eventId": "TKW|M.68KG--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T08:30:00+08:00",
+      "startTimeJst": "2026-10-03T09:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Women's Individual",
+      "phase": "Recurve Women's Individual Quarterfinals",
+      "unit": "Recurve Women's Individual Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "HSU Hsin-Tzu"
+      ],
+      "opponent": "OH Yejin",
+      "opponentCode": "KOR",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.RINDIVID----------.QFNL.000300--",
+          "id": "ARC:W.RINDIVID----------.QFNL.000300--"
         }
       }
     },
@@ -834,16 +926,31 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 1,
+    "resultsOnly": 3,
     "entered": 13,
     "unresolvedTbd": 0,
-    "warnings": 2
+    "warnings": 5
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:15 Recurve Women's Individual Quarterfinal",
+      "row": "ARC:W.RINDIVID----------.QFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:30 Recurve Women's Individual Quarterfinal",
+      "row": "ARC:W.RINDIVID----------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:30 Recurve Men's Individual Quarterfinal",
       "row": "ARC:M.RINDIVID----------.QFNL.000300--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ARC|W.RINDIVID----------",
+      "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
