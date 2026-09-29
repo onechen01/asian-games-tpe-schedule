@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-29T03:07:08.307Z",
+  "generatedAt": "2026-09-29T06:36:11.764Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-29T03:07:08.306Z",
+  "standingsUpdatedAt": "2026-09-29T06:36:11.764Z",
   "ledgerCounts": {
     "gold": 3,
-    "silver": 8,
+    "silver": 9,
     "bronze": 23,
-    "total": 34
+    "total": 35
   },
   "officialCounts": {
     "gold": 3,
-    "silver": 8,
+    "silver": 9,
     "bronze": 23,
-    "total": 34
+    "total": 35
   },
   "missing": {
     "gold": 0,
@@ -640,6 +640,22 @@
         "LIN Yun-ju"
       ],
       "rank": "2"
+    },
+    {
+      "awardId": "KUR|W.O87KG-------------|8048932",
+      "medal": "ME_SILVER",
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "event": "Women +87kg",
+      "phase": "Women +87kg Final",
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T14:00:00+08:00",
+      "resultId": "KUR:W.O87KG-------------.FNL-.000100--",
+      "unitId": "W.O87KG-------------.FNL-.000100--",
+      "athletes": [
+        "SHIH Liu Li-ling"
+      ],
+      "rank": null
     }
   ]
 }
