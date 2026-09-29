@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T09:34:35.339Z",
+  "generatedAt": "2026-09-29T09:45:09.507Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T09:34:35.171Z",
+      "generatedAt": "2026-09-29T09:45:09.345Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -288,7 +288,7 @@
         },
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
-        "participationComplete": false
+        "participationComplete": true
       }
     },
     "tpenoc": null,
@@ -1887,52 +1887,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T12:30:00+08:00",
-      "startTimeJst": "2026-09-29T13:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Qualification Series",
-      "unit": "Race 3",
-      "athletes": [],
-      "athletesEn": [
-        "WU Tsai-chien"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "locationCode": "KY2",
-      "locationName": "Racing Area B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "RESCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 18,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.ILCA7-------------.PREL.000300--",
-          "id": "SAL:M.ILCA7-------------.PREL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T12:55:00+08:00",
       "startTimeJst": "2026-09-29T13:55:00+09:00",
       "timeNote": null,
@@ -2644,7 +2598,7 @@
         {
           "name": "WU Yan-han",
           "registration": "1123657",
-          "result": "5.05",
+          "result": "5.20",
           "rank": "1",
           "startTimeTaipei": null
         },
@@ -2652,7 +2606,7 @@
           "name": "HUANG Yong-fu",
           "registration": "1124699",
           "result": "5.05",
-          "rank": "3",
+          "rank": "4",
           "startTimeTaipei": null
         }
       ],
@@ -2939,10 +2893,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 49,
+    "resultsOnly": 48,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 54
+    "warnings": 52
   },
   "warnings": [
     {
@@ -3097,11 +3051,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SAL 12:30 Race 3",
-      "row": "SAL:M.ILCA7-------------.PREL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:55 Recurve Women's Individual 1/8 Elimination",
       "row": "ARC:W.RINDIVID----------.8FNL.000300--"
     },
@@ -3194,11 +3143,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|M.RINDIVID----------",
       "message": "ARC Recurve Men's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SAL|M.ILCA7-------------",
-      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T09:37:01.462Z",
+  "generatedAt": "2026-09-29T09:46:35.002Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T09:37:01.275Z",
+      "generatedAt": "2026-09-29T09:46:34.841Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -870,6 +870,52 @@
       "startTimeTaipei": "2026-09-30T10:00:00+08:00",
       "startTimeJst": "2026-09-30T11:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Qualification Series",
+      "unit": "Race 3",
+      "athletes": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RESCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 18,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.ILCA7-------------.PREL.000300--",
+          "id": "SAL:M.ILCA7-------------.PREL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "JUD",
       "sportZh": "柔道",
       "sportEn": "Judo",
@@ -997,51 +1043,6 @@
       "sources": {
         "entries": {
           "eventId": "JUD|M.66KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Qualification Series",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "locationCode": "KY2",
-      "locationName": "Racing Area B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 2,
-      "enteredAthletes": [
-        "WU Tsai-chien"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SAL|M.ILCA7-------------"
         }
       }
     },
@@ -1519,10 +1520,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 20,
-    "entered": 4,
+    "resultsOnly": 21,
+    "entered": 3,
     "unresolvedTbd": 0,
-    "warnings": 28
+    "warnings": 30
   },
   "warnings": [
     {
@@ -1582,6 +1583,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 3",
+      "row": "SAL:M.ILCA7-------------.PREL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：GLF 10:20 Round 1",
       "row": "GLF:W.STROKE------------.FNL-.000100--"
     },
@@ -1634,6 +1640,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|M.SPRINT------------",
       "message": "CTR Men's Sprint 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SAL|M.ILCA7-------------",
+      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
