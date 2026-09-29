@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T14:06:49.797Z",
+  "generatedAt": "2026-09-29T14:15:53.037Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T14:06:49.592Z",
+      "generatedAt": "2026-09-29T14:15:52.901Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -731,7 +731,11 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T09:00:00+08:00",
       "startTimeJst": "2026-09-30T10:00:00+09:00",
-      "timeNote": null,
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "Starting at 10:00"
+      },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1152,7 +1156,11 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T10:00:00+08:00",
       "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": null,
+      "timeNote": {
+        "code": "NOT_BEFORE",
+        "clockTaipei": "10:30",
+        "raw": "Not Before 11:30"
+      },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1413,7 +1421,11 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T11:00:00+08:00",
       "startTimeJst": "2026-09-30T12:00:00+09:00",
-      "timeNote": null,
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": null
+      },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1459,7 +1471,11 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T11:00:00+08:00",
       "startTimeJst": "2026-09-30T12:00:00+09:00",
-      "timeNote": null,
+      "timeNote": {
+        "code": "NOT_BEFORE",
+        "clockTaipei": "11:00",
+        "raw": "Not Before 12:00"
+      },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1506,7 +1522,11 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T11:00:00+08:00",
       "startTimeJst": "2026-09-30T12:00:00+09:00",
-      "timeNote": null,
+      "timeNote": {
+        "code": "NOT_BEFORE",
+        "clockTaipei": "12:00",
+        "raw": "Not Before 13:00"
+      },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1552,7 +1572,11 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T12:00:00+08:00",
       "startTimeJst": "2026-09-30T13:00:00+09:00",
-      "timeNote": null,
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": null
+      },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1851,54 +1875,11 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T14:00:00+08:00",
       "startTimeJst": "2026-09-30T15:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": "Mixed Doubles Second Round Match 8",
-      "athletes": [],
-      "athletesEn": [
-        "HSIEH Su-wei",
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
-      "opponentCode": "IND",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "002",
-      "locationName": "Show Court",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.8FNL.000800--",
-          "id": "TEN:X.DOUBLES-----------.8FNL.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T15:00:00+08:00",
-      "startTimeJst": "2026-09-30T16:00:00+09:00",
-      "timeNote": null,
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -1938,6 +1919,57 @@
         "results": {
           "unitId": "X.DOUBLES-----------.8FNL.000100--",
           "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T14:00:00+08:00",
+      "startTimeJst": "2026-09-30T15:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "After Rest, Not Before 16:30"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": "Mixed Doubles Second Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
+      "opponentCode": "IND",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "002",
+      "locationName": "Show Court",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000800--",
+          "id": "TEN:X.DOUBLES-----------.8FNL.000800--"
         }
       }
     }
@@ -2111,13 +2143,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles Second Round Match 8",
-      "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles Second Round Match 1",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Mixed Doubles Second Round Match 1",
-      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles Second Round Match 8",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
     },
     {
       "code": "PENDING_LATER_UNITS",
