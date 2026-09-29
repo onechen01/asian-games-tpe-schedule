@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T07:09:21.292Z",
+  "generatedAt": "2026-09-29T10:08:57.445Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-29T07:09:21.109Z",
+      "generatedAt": "2026-09-29T10:08:57.304Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -424,7 +424,7 @@
       "opponentCode": null,
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
-      "locationCode": "PMA",
+      "locationCode": "JJ1",
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
@@ -439,7 +439,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 62,
+      "unitCount": 32,
       "enteredAthletes": [
         "HSU Ching-chih"
       ],
@@ -604,8 +604,8 @@
       "unit": "Men's Canoe Single - Semifinals - Semifinal",
       "athletes": [],
       "athletesEn": [
-        "WU Jung-cheng",
-        "CHANG Fu-hua"
+        "CHANG Fu-hua",
+        "WU Jung-cheng"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -615,26 +615,26 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [
-        {
-          "name": "WU Jung-cheng",
-          "registration": "4233921",
-          "result": null,
-          "rank": null,
-          "startTimeTaipei": null
-        },
         {
           "name": "CHANG Fu-hua",
           "registration": "5878040",
           "result": null,
           "rank": null,
           "startTimeTaipei": null
+        },
+        {
+          "name": "WU Jung-cheng",
+          "registration": "4233921",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -649,19 +649,7 @@
       "sources": {
         "results": {
           "unitId": "M.C1----------------.SFNL.000100--",
-          "id": "CSL:M.C1----------------.SFNL.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "M.C1----------------.HEAT.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.C1----------------.HEAT.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-29T07-04-27-462Z-2dd31ab4fdd9-a5eb1f4a.json"
-            ]
-          }
+          "id": "CSL:M.C1----------------.SFNL.000100--"
         }
       }
     },
@@ -736,7 +724,7 @@
       "sportZh": "角力",
       "sportEn": "Wrestling",
       "event": "Women's Wrestling 62kg",
-      "phase": "Women's Wrestling 62kg Qualifications",
+      "phase": "Women's Wrestling 62kg 1/8 Finals",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -744,7 +732,7 @@
       "opponentCode": null,
       "venue": "Nagoya City Inae Sports Center",
       "venueZh": null,
-      "locationCode": "ISC",
+      "locationCode": "",
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
@@ -759,7 +747,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 16,
+      "unitCount": 12,
       "enteredAthletes": [
         "PAI Hsin-ping"
       ],
@@ -1014,8 +1002,8 @@
       "unit": "Women's Kayak Single - Semifinals - Semifinal",
       "athletes": [],
       "athletesEn": [
-        "CHANG Chu-han",
-        "WU Ting-i"
+        "WU Ting-i",
+        "CHANG Chu-han"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1025,26 +1013,26 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [
-        {
-          "name": "CHANG Chu-han",
-          "registration": "4238983",
-          "result": null,
-          "rank": null,
-          "startTimeTaipei": null
-        },
         {
           "name": "WU Ting-i",
           "registration": "6812784",
           "result": null,
           "rank": null,
           "startTimeTaipei": null
+        },
+        {
+          "name": "CHANG Chu-han",
+          "registration": "4238983",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
         }
       ],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1059,19 +1047,7 @@
       "sources": {
         "results": {
           "unitId": "W.K1----------------.SFNL.000100--",
-          "id": "CSL:W.K1----------------.SFNL.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "W.K1----------------.HEAT.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/W.K1----------------.HEAT.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-29T07-04-28-425Z-ae72cd783db0-a7c2c7a6.json"
-            ]
-          }
+          "id": "CSL:W.K1----------------.SFNL.000100--"
         }
       }
     },
@@ -1244,7 +1220,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 2,
+      "unitCount": 4,
       "enteredAthletes": [
         "WU Tsai-chien"
       ],
