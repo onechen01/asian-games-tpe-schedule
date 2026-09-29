@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T00:23:56.979Z",
+  "generatedAt": "2026-09-29T00:35:28.686Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T00:23:56.857Z",
+      "generatedAt": "2026-09-29T00:35:28.521Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -426,8 +426,12 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 12,
@@ -472,8 +476,12 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "5",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -520,8 +528,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
-        "opponent": "2",
+        "tpe": "2",
+        "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -570,7 +578,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "4",
         "opponent": "2",
         "source": "results"
       },
@@ -1087,56 +1095,6 @@
     },
     {
       "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T10:00:00+08:00",
-      "startTimeJst": "2026-09-29T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Second Round",
-      "unit": "Men's Singles Second Round Match 8",
-      "athletes": [],
-      "athletesEn": [
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "RAKHMATOV Anvar",
-      "opponentCode": "TJK",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "005",
-      "locationName": "Court 3",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.R32-.000800--",
-          "id": "TEN:M.SINGLES-----------.R32-.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T10:06:00+08:00",
       "startTimeJst": "2026-09-29T11:06:00+09:00",
       "timeNote": null,
@@ -1393,57 +1351,6 @@
       "startTimeTaipei": "2026-09-29T11:00:00+08:00",
       "startTimeJst": "2026-09-29T12:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest, Not Before 12:30"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Second Round",
-      "unit": "Men's Doubles Second Round Match 6",
-      "athletes": [],
-      "athletesEn": [
-        "HO Chenjui",
-        "HSU Yu-hsiou"
-      ],
-      "opponent": "KHAN Aqeel/SHOAIB Muhammad",
-      "opponentCode": "PAK",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "005",
-      "locationName": "Court 3",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DOUBLES-----------.8FNL.000600--",
-          "id": "TEN:M.DOUBLES-----------.8FNL.000600--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T11:00:00+08:00",
-      "startTimeJst": "2026-09-29T12:00:00+09:00",
-      "timeNote": {
         "code": "NOT_BEFORE",
         "clockTaipei": "11:00",
         "raw": "Not Before 12:00"
@@ -1652,27 +1559,26 @@
       "startTimeTaipei": "2026-09-29T12:00:00+08:00",
       "startTimeJst": "2026-09-29T13:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
+        "code": "FOLLOWED_BY",
         "clockTaipei": null,
-        "raw": "After Rest, Not Before 13:30"
+        "raw": "Followed by"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles First Round",
-      "unit": "Mixed Doubles First Round Match 15",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Second Round",
+      "unit": "Men's Singles Second Round Match 8",
       "athletes": [],
       "athletesEn": [
-        "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "FARZAMI Mandegar/YAZDANI Ali",
-      "opponentCode": "IRI",
+      "opponent": "RAKHMATOV Anvar",
+      "opponentCode": "TJK",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "locationCode": "006",
-      "locationName": "Court 4",
+      "locationCode": "013",
+      "locationName": "Indoor Court B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "SCHEDULED",
@@ -1693,8 +1599,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "X.DOUBLES-----------.R32-.001500--",
-          "id": "TEN:X.DOUBLES-----------.R32-.001500--"
+          "unitId": "M.SINGLES-----------.R32-.000800--",
+          "id": "TEN:M.SINGLES-----------.R32-.000800--"
         }
       }
     },
@@ -1992,6 +1898,57 @@
     },
     {
       "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T13:00:00+08:00",
+      "startTimeJst": "2026-09-29T14:00:00+09:00",
+      "timeNote": {
+        "code": "NOT_BEFORE",
+        "clockTaipei": "13:30",
+        "raw": "Not Before 14:30"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Second Round",
+      "unit": "Men's Doubles Second Round Match 6",
+      "athletes": [],
+      "athletesEn": [
+        "HO Chenjui",
+        "HSU Yu-hsiou"
+      ],
+      "opponent": "KHAN Aqeel/SHOAIB Muhammad",
+      "opponentCode": "PAK",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "012",
+      "locationName": "Indoor Court A",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.8FNL.000600--",
+          "id": "TEN:M.DOUBLES-----------.8FNL.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T13:10:00+08:00",
       "startTimeJst": "2026-09-29T14:10:00+09:00",
       "timeNote": null,
@@ -2087,6 +2044,57 @@
         "results": {
           "unitId": "O.PUBGM-------------.FNL-.001200--",
           "id": "ELS:O.PUBGM-------------.FNL-.001200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T15:00:00+08:00",
+      "startTimeJst": "2026-09-29T16:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "After Rest, Not Before 13:30"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles First Round",
+      "unit": "Mixed Doubles First Round Match 15",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "FARZAMI Mandegar/YAZDANI Ali",
+      "opponentCode": "IRI",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "015",
+      "locationName": "Indoor Court D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.R32-.001500--",
+          "id": "TEN:X.DOUBLES-----------.R32-.001500--"
         }
       }
     },
@@ -2503,11 +2511,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Men's Singles Second Round Match 8",
-      "row": "TEN:M.SINGLES-----------.R32-.000800--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 10:06 Round of 16 Bout 7",
       "row": "KUR:M.66KG--------------.8FNL.000700--"
     },
@@ -2533,11 +2536,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Men's Doubles Second Round Match 6",
-      "row": "TEN:M.DOUBLES-----------.8FNL.000600--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Women's Singles Second Round Match 6",
       "row": "TEN:W.SINGLES-----------.8FNL.000600--"
     },
@@ -2558,8 +2556,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Mixed Doubles First Round Match 15",
-      "row": "TEN:X.DOUBLES-----------.R32-.001500--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Second Round Match 8",
+      "row": "TEN:M.SINGLES-----------.R32-.000800--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2593,6 +2591,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Men's Doubles Second Round Match 6",
+      "row": "TEN:M.DOUBLES-----------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:10 Match 11",
       "row": "ELS:O.PUBGM-------------.FNL-.001100--"
     },
@@ -2600,6 +2603,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 14:20 Match 12",
       "row": "ELS:O.PUBGM-------------.FNL-.001200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Mixed Doubles First Round Match 15",
+      "row": "TEN:X.DOUBLES-----------.R32-.001500--"
     },
     {
       "code": "RESULTS_ONLY",
