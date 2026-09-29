@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T01:55:33.184Z",
+  "generatedAt": "2026-09-29T02:06:03.034Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T01:55:33.051Z",
+      "generatedAt": "2026-09-29T02:06:02.877Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -426,7 +426,7 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
         "opponent": null,
@@ -680,7 +680,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "98",
+        "tpe": "101",
         "opponent": null,
         "source": "results"
       },
@@ -718,8 +718,8 @@
       "unit": "Trap Women Individual - Qualification - Qualification - Day 3",
       "athletes": [],
       "athletesEn": [
-        "LIN Yi-Chun",
-        "LIU Wan-Yu"
+        "LIU Wan-Yu",
+        "LIN Yi-Chun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -733,17 +733,17 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "LIN Yi-Chun",
-          "registration": "4305607",
-          "result": "109",
+          "name": "LIU Wan-Yu",
+          "registration": "13637506",
+          "result": "115",
           "rank": "5",
           "startTimeTaipei": null
         },
         {
-          "name": "LIU Wan-Yu",
-          "registration": "13637506",
+          "name": "LIN Yi-Chun",
+          "registration": "4305607",
           "result": "115",
-          "rank": "6",
+          "rank": "5",
           "startTimeTaipei": null
         }
       ],
@@ -797,7 +797,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1044,7 +1044,7 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "3",
         "opponent": "0",
@@ -1094,10 +1094,14 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "10",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
