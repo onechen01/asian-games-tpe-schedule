@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T07:46:38.751Z",
+  "generatedAt": "2026-09-29T08:55:35.285Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-29T07:46:38.750Z",
+  "standingsUpdatedAt": "2026-09-29T08:55:35.285Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 10,
@@ -584,9 +584,9 @@
       "unitId": "M.4X100M------------.FNL-.000100--",
       "athletes": [
         "YANG Chun-han",
-        "LAI Po-hsiang",
+        "CHEN Wen-pu",
         "HUANG Zuo-jyun",
-        "CHEN Wen-pu"
+        "LAI Po-hsiang"
       ],
       "rank": "2"
     },
