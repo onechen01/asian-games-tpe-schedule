@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T07:54:31.137Z",
+  "generatedAt": "2026-09-29T08:05:02.182Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T07:54:31.023Z",
+      "generatedAt": "2026-09-29T08:05:02.050Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2233,8 +2233,12 @@
       "locationName": "Indoor Court A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
