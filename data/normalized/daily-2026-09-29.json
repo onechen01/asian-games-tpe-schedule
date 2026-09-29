@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T03:14:35.587Z",
+  "generatedAt": "2026-09-29T03:34:20.509Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T03:14:35.418Z",
+      "generatedAt": "2026-09-29T03:34:20.344Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -863,8 +863,8 @@
       "unit": "Trap Women Individual - Qualification - Qualification - Day 3",
       "athletes": [],
       "athletesEn": [
-        "LIU Wan-Yu",
-        "LIN Yi-Chun"
+        "LIN Yi-Chun",
+        "LIU Wan-Yu"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -878,17 +878,17 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "LIU Wan-Yu",
-          "registration": "13637506",
+          "name": "LIN Yi-Chun",
+          "registration": "4305607",
           "result": "115",
           "rank": "5",
           "startTimeTaipei": null
         },
         {
-          "name": "LIN Yi-Chun",
-          "registration": "4305607",
+          "name": "LIU Wan-Yu",
+          "registration": "13637506",
           "result": "115",
-          "rank": "5",
+          "rank": "6",
           "startTimeTaipei": null
         }
       ],
@@ -939,14 +939,14 @@
       "locationName": "Indoor Court A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1359,7 +1359,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "6",
       "orgCount": 7,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1456,8 +1456,12 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 12,
@@ -1503,25 +1507,25 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "WU Jung-cheng",
           "registration": "4233921",
           "result": "110.96",
-          "rank": "3",
+          "rank": "4",
           "startTimeTaipei": null
         },
         {
           "name": "CHANG Fu-hua",
           "registration": "5878040",
           "result": "217.91",
-          "rank": "9",
+          "rank": "10",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1615,7 +1619,7 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -1676,7 +1680,7 @@
       "locationName": "Nagoya City Trade & Industry Center",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
