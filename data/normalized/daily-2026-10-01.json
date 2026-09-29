@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T16:15:14.809Z",
+  "generatedAt": "2026-09-29T17:36:29.609Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-29T16:15:14.634Z",
+      "generatedAt": "2026-09-29T17:36:29.415Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -404,51 +404,6 @@
       "sources": {
         "entries": {
           "eventId": "GLF|W.TEAM--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T08:00:00+08:00",
-      "startTimeJst": "2026-10-01T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "JJI",
-      "sportZh": "柔術",
-      "sportEn": "Jiu Jitsu",
-      "event": "Men -69kg",
-      "phase": "Men -69kg Elimination Round of 64",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "locationCode": "JJ1",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 32,
-      "enteredAthletes": [
-        "HSU Ching-chih"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JJI|M.69KG--------------"
         }
       }
     },
@@ -1389,7 +1344,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 9,
-    "entered": 13,
+    "entered": 12,
     "unresolvedTbd": 0,
     "warnings": 14
   },
