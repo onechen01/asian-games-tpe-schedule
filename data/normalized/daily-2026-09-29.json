@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T00:13:34.593Z",
+  "generatedAt": "2026-09-29T00:23:56.979Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T00:13:34.448Z",
+      "generatedAt": "2026-09-29T00:23:56.857Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -322,7 +322,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "7",
         "opponent": "3",
@@ -372,7 +372,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "6",
         "opponent": "0",
@@ -492,6 +492,106 @@
         "results": {
           "unitId": "W.O87KG-------------.8FNL.000200--",
           "id": "KUR:W.O87KG-------------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T08:40:00+08:00",
+      "startTimeJst": "2026-09-29T09:40:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Men's Individual",
+      "phase": "Recurve Men's Individual 1/8 Eliminations",
+      "unit": "Recurve Men's Individual 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "CHENG Hsiang-Hui"
+      ],
+      "opponent": "BOMMADEVARA Dhiraj",
+      "opponentCode": "IND",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.RINDIVID----------.8FNL.000100--",
+          "id": "ARC:M.RINDIVID----------.8FNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T08:40:00+08:00",
+      "startTimeJst": "2026-09-29T09:40:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Men's Individual",
+      "phase": "Recurve Men's Individual 1/8 Eliminations",
+      "unit": "Recurve Men's Individual 1/8 Elimination",
+      "athletes": [],
+      "athletesEn": [
+        "TANG Chih-Chun"
+      ],
+      "opponent": "CHONG Evan Rich Qi Wei",
+      "opponentCode": "MAS",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.RINDIVID----------.8FNL.000500--",
+          "id": "ARC:M.RINDIVID----------.8FNL.000500--"
         }
       }
     },
@@ -674,11 +774,11 @@
       "opponentCode": "JOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "locationCode": "005",
-      "locationName": "Court 3",
+      "locationCode": "012",
+      "locationName": "Indoor Court A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1344,9 +1444,9 @@
       "startTimeTaipei": "2026-09-29T11:00:00+08:00",
       "startTimeJst": "2026-09-29T12:00:00+09:00",
       "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
+        "code": "NOT_BEFORE",
+        "clockTaipei": "11:00",
+        "raw": "Not Before 12:00"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1362,8 +1462,8 @@
       "opponentCode": "KAZ",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "locationCode": "001",
-      "locationName": "Center Court",
+      "locationCode": "014",
+      "locationName": "Indoor Court C",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "SCHEDULED",
@@ -2315,10 +2415,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 39,
+    "resultsOnly": 41,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 48
+    "warnings": 50
   },
   "warnings": [
     {
@@ -2340,6 +2440,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：KUR 08:30 Round of 16 Bout 2",
       "row": "KUR:W.O87KG-------------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:40 Recurve Men's Individual 1/8 Elimination",
+      "row": "ARC:M.RINDIVID----------.8FNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:40 Recurve Men's Individual 1/8 Elimination",
+      "row": "ARC:M.RINDIVID----------.8FNL.000500--"
     },
     {
       "code": "RESULTS_ONLY",
