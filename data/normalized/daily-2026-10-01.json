@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T16:05:34.882Z",
+  "generatedAt": "2026-09-29T16:15:14.809Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-29T16:05:34.697Z",
+      "generatedAt": "2026-09-29T16:15:14.634Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -717,6 +717,51 @@
     },
     {
       "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T09:30:00+08:00",
+      "startTimeJst": "2026-10-01T10:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 62kg",
+      "phase": "Women's Wrestling 62kg 1/8 Finals",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 12,
+      "enteredAthletes": [
+        "PAI Hsin-ping"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "WRE|W.WR62KG------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T09:40:00+08:00",
       "startTimeJst": "2026-10-01T10:40:00+09:00",
       "timeNote": null,
@@ -1344,7 +1389,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 9,
-    "entered": 12,
+    "entered": 13,
     "unresolvedTbd": 0,
     "warnings": 14
   },
