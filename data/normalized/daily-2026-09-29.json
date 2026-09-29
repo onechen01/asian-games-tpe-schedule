@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T05:05:45.869Z",
+  "generatedAt": "2026-09-29T05:14:09.003Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T05:05:45.670Z",
+      "generatedAt": "2026-09-29T05:14:08.830Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1430,7 +1430,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2016,7 +2016,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "6",
         "opponent": "2",
@@ -2066,7 +2066,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "6",
         "opponent": "2",
@@ -2116,9 +2116,9 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "3",
+        "tpe": "5",
         "opponent": "0",
         "source": "results"
       },
@@ -2173,14 +2173,14 @@
         {
           "name": "LIN Yi-Chun",
           "registration": "4305607",
-          "result": "2",
+          "result": "8",
           "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
-          "result": "2",
+          "result": "6",
           "rank": "7",
           "startTimeTaipei": null
         }
