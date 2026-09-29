@@ -3716,7 +3716,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-09-29T14:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-29T14:32:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -3774,7 +3774,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-29T14:30:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-29T14:32:00+08:00",
       "disciplineCode": "SHO",
       "channelId": "105",
       "channelName": "愛爾達體育2台",
@@ -3878,6 +3878,28 @@
         "athleteNames": [
           "WU Yan-han",
           "HUANG Yong-fu"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-29T17:49:00+08:00",
+      "disciplineCode": "SHO",
+      "channelId": "544",
+      "channelName": "愛爾達體育MAX5台",
+      "isLive": true,
+      "title": "亞運 楊昆弼 射擊 男子個人不定向飛靶決賽頒獎典禮 9/29 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-09-29T18:12:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "YANG Kun-pi"
         ]
       }
     },
@@ -4566,6 +4588,68 @@
         "athleteNames": [
           "CHANG Hui-tsz",
           "LIN Yi-hui"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T06:00:00+08:00",
+      "disciplineCode": "GLF",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 中華隊 高爾夫 男/女子個人/團體第四輪 10/3(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-10-03T16:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T09:30:00+08:00",
+      "disciplineCode": "WRE",
+      "channelId": "547",
+      "channelName": "愛爾達體育MAX8台",
+      "isLive": true,
+      "title": "亞運 廖佩穎 角力 女子57公斤級資格賽 10/3(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-10-03T13:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIAO Pei-ying"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T11:55:00+08:00",
+      "disciplineCode": "ARC",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 湯智鈞 射箭 男子個人反曲弓八強/四強 10/3 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-10-03T14:15:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "TANG Chih-chun"
         ]
       }
     }
