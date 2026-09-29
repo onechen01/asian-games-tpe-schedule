@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:16:19.510Z",
+  "generatedAt": "2026-09-29T08:25:36.640Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T08:16:19.325Z",
+      "generatedAt": "2026-09-29T08:25:36.454Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -520,18 +520,36 @@
       "sportEn": "Softball",
       "event": "Softball Women",
       "phase": "Women’s Preliminary Round",
-      "unit": "Game  17",
+      "unit": "Game  14",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": "Thailand",
-      "opponentCode": "THA",
+      "athletesEn": [
+        "LIU Hsuan",
+        "YEH Kuei-ping",
+        "LIN Feng-chen",
+        "LIN Chih-ying",
+        "LI Szu-shih",
+        "SU Yi-hsuan",
+        "CHEN Chia-yi",
+        "SHEN Chia-wen",
+        "CHIANG Ting-en",
+        "HO Yi-fan",
+        "KE Hsia-ai",
+        "TU Ya-ting",
+        "PAN Yu-ling",
+        "CHU Yi-shan",
+        "CHEN Ching-yu",
+        "LIN Chi-yun",
+        "YANG An-chi"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
       "venue": "Anjo Softball Ground",
       "venueZh": null,
       "locationCode": "SB1",
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RESCHEDULED",
+      "status": "INTERRUPTED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -549,8 +567,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "W.TEAM9-------------.GP--.001700--",
-          "id": "SBL:W.TEAM9-------------.GP--.001700--"
+          "unitId": "W.TEAM9-------------.GP--.001400--",
+          "id": "SBL:W.TEAM9-------------.GP--.001400--"
         }
       }
     },
@@ -1290,6 +1308,50 @@
     },
     {
       "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T12:30:00+08:00",
+      "startTimeJst": "2026-09-30T13:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "sportEn": "Softball",
+      "event": "Softball Women",
+      "phase": "Women’s Preliminary Round",
+      "unit": "Game  17",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": "Thailand",
+      "opponentCode": "THA",
+      "venue": "Anjo Softball Ground",
+      "venueZh": null,
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RESCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM9-------------.GP--.001700--",
+          "id": "SBL:W.TEAM9-------------.GP--.001700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T13:00:00+08:00",
       "startTimeJst": "2026-09-30T14:00:00+09:00",
       "timeNote": null,
@@ -1457,10 +1519,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 19,
+    "resultsOnly": 20,
     "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 27
+    "warnings": 28
   },
   "warnings": [
     {
@@ -1485,8 +1547,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SBL 08:00 Game  17",
-      "row": "SBL:W.TEAM9-------------.GP--.001700--"
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 08:00 Game  14",
+      "row": "SBL:W.TEAM9-------------.GP--.001400--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1542,6 +1604,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 12:30 Women's 60KG - Semifinal",
       "row": "BOX:W.60KG--------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 12:30 Game  17",
+      "row": "SBL:W.TEAM9-------------.GP--.001700--"
     },
     {
       "code": "RESULTS_ONLY",
