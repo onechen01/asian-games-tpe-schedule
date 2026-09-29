@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T02:49:20.021Z",
+  "generatedAt": "2026-09-29T02:58:19.008Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T02:49:19.842Z",
+      "generatedAt": "2026-09-29T02:58:18.828Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -807,7 +807,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.K1----------------.HEAT.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-29T02-47-44-680Z-8ed7b711b517-79d605db.json"
+              "data/raw/2026-09-29T02-54-11-217Z-8ed7b711b517-0edd0065.json"
             ]
           }
         }
@@ -901,6 +901,51 @@
       "sources": {
         "entries": {
           "eventId": "JUD|W.48KG--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -60kg",
+      "phase": "Men -60 kg Elimination Round of 16",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "AIA",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 8,
+      "enteredAthletes": [
+        "YANG Yung-wei"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "JUD|M.60KG--------------"
         }
       }
     },
@@ -1109,6 +1154,64 @@
         "results": {
           "unitId": "W.TEAM--------------.FNL-.000100--",
           "id": "GLF:W.TEAM--------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:30:00+08:00",
+      "startTimeJst": "2026-09-30T11:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Canoe Single",
+      "phase": "Women's Canoe Single Semifinals",
+      "unit": "Women's Canoe Single - Semifinals - Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "CHUNG Yu-han"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.C1----------------.SFNL.000100--",
+          "id": "CSL:W.C1----------------.SFNL.000100--",
+          "qualification": {
+            "kind": "previous-results-qualified",
+            "previousUnitIds": [
+              "W.C1----------------.HEAT.000100--"
+            ],
+            "urls": [
+              "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/W.C1----------------.HEAT.000100--"
+            ],
+            "rawFiles": [
+              "data/raw/2026-09-29T02-54-12-219Z-6515f9b7a77e-7d987d3a.json"
+            ]
+          }
         }
       }
     },
@@ -1378,10 +1481,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 18,
-    "entered": 3,
+    "resultsOnly": 19,
+    "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 25
+    "warnings": 27
   },
   "warnings": [
     {
@@ -1451,6 +1554,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:30 Women's Canoe Single - Semifinals - Semifinal",
+      "row": "CSL:W.C1----------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:30 Match 4",
       "row": "ELS:O.LOL---------------.GPB-.000400--"
     },
@@ -1493,6 +1601,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CSL|M.K1----------------",
       "message": "CSL Men's Kayak Single 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "CSL|W.C1----------------",
+      "message": "CSL Women's Canoe Single 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
