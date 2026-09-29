@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:44:30.509Z",
+  "generatedAt": "2026-09-29T22:54:16.723Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T22:44:30.342Z",
+      "generatedAt": "2026-09-29T22:54:16.549Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -324,8 +324,8 @@
         {
           "name": "WANG Wei-hsuan",
           "registration": "11704760",
-          "result": null,
-          "rank": null,
+          "result": "-1",
+          "rank": "1",
           "startTimeTaipei": null
         },
         {
@@ -343,7 +343,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -376,9 +376,9 @@
       "unit": "Round 1",
       "athletes": [],
       "athletesEn": [
-        "WANG Wei-hsuan",
         "CHAN Shih-chang",
-        "HUNG Chien-yao"
+        "HUNG Chien-yao",
+        "WANG Wei-hsuan"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -428,9 +428,9 @@
       "unit": "Compound Women's Team Semifinal",
       "athletes": [],
       "athletesEn": [
-        "HUANG I-jou",
-        "CHEN Yi-hsuan",
-        "CHEN Fang-yi"
+        "HUANG I-Jou",
+        "CHEN Yi-Hsuan",
+        "CHEN Fang-Yi"
       ],
       "opponent": "People's Republic of China",
       "opponentCode": "CHN",
@@ -1726,9 +1726,9 @@
       "unit": "Compound Men's Team Semifinal",
       "athletes": [],
       "athletesEn": [
-        "CHANG Cheng-wei",
-        "CHEN Chieh-lun",
-        "YEN Tzu-hsiang"
+        "CHANG Cheng-Wei",
+        "CHEN Chieh-Lun",
+        "YEN Tzu-Hsiang"
       ],
       "opponent": "People's Republic of China",
       "opponentCode": "CHN",
