@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T09:14:37.254Z",
+  "generatedAt": "2026-09-29T09:25:35.744Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T09:14:37.086Z",
+      "generatedAt": "2026-09-29T09:25:35.638Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2626,10 +2626,7 @@
       "phase": "Men's Pole Vault Final",
       "unit": "Men's Pole Vault Final",
       "athletes": [],
-      "athletesEn": [
-        "WU Yan-han",
-        "HUANG Yong-fu"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2638,26 +2635,11 @@
       "locationName": "National Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
+      "status": "RUNNING",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "WU Yan-han",
-          "registration": "1123657",
-          "result": null,
-          "rank": null,
-          "startTimeTaipei": null
-        },
-        {
-          "name": "HUANG Yong-fu",
-          "registration": "1124699",
-          "result": null,
-          "rank": null,
-          "startTimeTaipei": null
-        }
-      ],
+      "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 8,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2688,9 +2670,7 @@
       "phase": "Women's High Jump Final",
       "unit": "Women's High Jump Final",
       "athletes": [],
-      "athletesEn": [
-        "JHANG Chiau-yin"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2703,7 +2683,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 9,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2780,9 +2760,7 @@
       "phase": "Women's Hammer Throw Final",
       "unit": "Women's Hammer Throw Final",
       "athletes": [],
-      "athletesEn": [
-        "YU Ya-chien"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Mizuho Park Athletic Stadium",
@@ -2795,7 +2773,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 6,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2839,7 +2817,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 9,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
