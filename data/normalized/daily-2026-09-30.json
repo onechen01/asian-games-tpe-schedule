@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T12:36:43.156Z",
+  "generatedAt": "2026-09-29T13:46:39.966Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-29T12:36:43.011Z",
+      "generatedAt": "2026-09-29T13:46:39.835Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1103,6 +1103,52 @@
     },
     {
       "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Third Round",
+      "unit": "Men's Singles Third Round Match 7",
+      "athletes": [],
+      "athletesEn": [
+        "HSU Yu-hsiou"
+      ],
+      "opponent": "MATSUOKA Hayato",
+      "opponentCode": "JPN",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Center Court",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.8FNL.000700--",
+          "id": "TEN:M.SINGLES-----------.8FNL.000700--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T10:20:00+08:00",
       "startTimeJst": "2026-09-30T11:20:00+09:00",
       "timeNote": null,
@@ -1313,6 +1359,52 @@
         "results": {
           "unitId": "O.LOL---------------.GPB-.000400--",
           "id": "ELS:O.LOL---------------.GPB-.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T11:00:00+08:00",
+      "startTimeJst": "2026-09-30T12:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Women's Singles",
+      "phase": "Women's Singles Quarter-finals",
+      "unit": "Women's Singles Quarter-finals Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "GARLAND Joanna"
+      ],
+      "opponent": "EALA Alexandra",
+      "opponentCode": "PHI",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Center Court",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SINGLES-----------.QFNL.000100--",
+          "id": "TEN:W.SINGLES-----------.QFNL.000100--"
         }
       }
     },
@@ -1575,10 +1667,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 25,
+    "resultsOnly": 27,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 38
+    "warnings": 40
   },
   "warnings": [
     {
@@ -1663,6 +1755,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Men's Singles Third Round Match 7",
+      "row": "TEN:M.SINGLES-----------.8FNL.000700--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：GLF 10:20 Round 1",
       "row": "GLF:W.STROKE------------.FNL-.000100--"
     },
@@ -1680,6 +1777,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:30 Match 4",
       "row": "ELS:O.LOL---------------.GPB-.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Women's Singles Quarter-finals Match 1",
+      "row": "TEN:W.SINGLES-----------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",

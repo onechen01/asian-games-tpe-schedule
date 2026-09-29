@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T13:33:43.751Z",
+  "generatedAt": "2026-09-29T13:42:01.847Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-28/schedule-2026-09-28-AUTO.json",
-      "generatedAt": "2026-09-29T13:33:43.586Z",
+      "generatedAt": "2026-09-29T13:42:01.731Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -375,8 +375,8 @@
           }
         ],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
