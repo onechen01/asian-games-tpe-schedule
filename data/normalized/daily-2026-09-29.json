@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T00:35:28.686Z",
+  "generatedAt": "2026-09-29T00:47:02.556Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T00:35:28.521Z",
+      "generatedAt": "2026-09-29T00:47:02.379Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -476,9 +476,9 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "5",
+        "tpe": "10",
         "opponent": "0",
         "source": "results"
       },
@@ -526,14 +526,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "2",
-        "opponent": "4",
+        "opponent": "6",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -576,9 +576,9 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "4",
+        "tpe": "6",
         "opponent": "2",
         "source": "results"
       },
@@ -1470,9 +1470,7 @@
       "phase": "Men's 110kg All Groups",
       "unit": "Men's 110kg Group A",
       "athletes": [],
-      "athletesEn": [
-        "CHEN Po-jen"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
@@ -1485,7 +1483,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 6,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1850,57 +1848,6 @@
       "startTimeTaipei": "2026-09-29T13:00:00+08:00",
       "startTimeJst": "2026-09-29T14:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest, Not Before 15:30"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": "Mixed Doubles Second Round Match 1",
-      "athletes": [],
-      "athletesEn": [
-        "CHAN Hao-ching",
-        "HO Chenjui"
-      ],
-      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
-      "opponentCode": "MGL",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "008",
-      "locationName": "Court 6",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.8FNL.000100--",
-          "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T13:00:00+08:00",
-      "startTimeJst": "2026-09-29T14:00:00+09:00",
-      "timeNote": {
         "code": "NOT_BEFORE",
         "clockTaipei": "13:30",
         "raw": "Not Before 14:30"
@@ -2052,9 +1999,9 @@
       "startTimeTaipei": "2026-09-29T15:00:00+08:00",
       "startTimeJst": "2026-09-29T16:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest, Not Before 13:30"
+        "code": "NOT_BEFORE",
+        "clockTaipei": "16:00",
+        "raw": "Not Before 17:00"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -2095,6 +2042,57 @@
         "results": {
           "unitId": "X.DOUBLES-----------.R32-.001500--",
           "id": "TEN:X.DOUBLES-----------.R32-.001500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T16:00:00+08:00",
+      "startTimeJst": "2026-09-29T17:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": "Mixed Doubles Second Round Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHAN Hao-ching",
+        "HO Chenjui"
+      ],
+      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
+      "opponentCode": "MGL",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "015",
+      "locationName": "Indoor Court D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000100--",
+          "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
         }
       }
     },
@@ -2218,9 +2216,7 @@
       "phase": "Men's +110kg All Groups",
       "unit": "Men's +110kg Group A",
       "athletes": [],
-      "athletesEn": [
-        "DONG Bing-cheng"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City Trade and Industry Center",
@@ -2233,7 +2229,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 5,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2586,11 +2582,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Mixed Doubles Second Round Match 1",
-      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Men's Doubles Second Round Match 6",
       "row": "TEN:M.DOUBLES-----------.8FNL.000600--"
     },
@@ -2608,6 +2599,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Mixed Doubles First Round Match 15",
       "row": "TEN:X.DOUBLES-----------.R32-.001500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 16:00 Mixed Doubles Second Round Match 1",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
