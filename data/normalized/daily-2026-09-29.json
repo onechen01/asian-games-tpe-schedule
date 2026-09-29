@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T00:03:36.715Z",
+  "generatedAt": "2026-09-29T00:13:34.593Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T00:03:36.550Z",
+      "generatedAt": "2026-09-29T00:13:34.448Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -322,10 +322,10 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "5",
-        "opponent": "1",
+        "tpe": "7",
+        "opponent": "3",
         "source": "results"
       },
       "tpeEntrants": [],
