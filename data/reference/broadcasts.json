@@ -3738,7 +3738,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-09-29T14:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-29T16:05:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -3865,8 +3865,8 @@
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-29T17:15:00+08:00",
       "disciplineCode": "ATH",
-      "channelId": "544",
-      "channelName": "愛爾達體育MAX5台",
+      "channelId": "549",
+      "channelName": "愛爾達體育MAX10台",
       "isLive": true,
       "title": "亞運 吳彥翰/黃湧富 田徑 男子撐竿跳決賽 9/29(原音) LIVE",
       "feed": "original",
@@ -4182,6 +4182,24 @@
           "CHEN Hsin-ya"
         ]
       }
+    },
+    {
+      "date": "2026-10-01",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-01T08:30:00+08:00",
+      "disciplineCode": "GLF",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 中華隊 高爾夫 男/女子個人/團體第二輪 10/1(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-10-01T16:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
     },
     {
       "date": "2026-10-01",
