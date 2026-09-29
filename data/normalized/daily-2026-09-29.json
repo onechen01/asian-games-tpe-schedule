@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T01:04:57.530Z",
+  "generatedAt": "2026-09-29T01:45:26.492Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-29T01:04:57.375Z",
+      "generatedAt": "2026-09-29T01:45:26.320Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -628,14 +628,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "49.860",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -735,15 +735,15 @@
         {
           "name": "LIN Yi-Chun",
           "registration": "4305607",
-          "result": "93",
+          "result": "101",
           "rank": "5",
           "startTimeTaipei": null
         },
         {
           "name": "LIU Wan-Yu",
           "registration": "13637506",
-          "result": "97",
-          "rank": "7",
+          "result": "115",
+          "rank": "6",
           "startTimeTaipei": null
         }
       ],
@@ -794,8 +794,12 @@
       "locationName": "Indoor Court A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -844,8 +848,12 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 12,
@@ -890,8 +898,12 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 11,
@@ -988,10 +1000,14 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1026,19 +1042,19 @@
       "athletesEn": [
         "SHIH Liu Li-ling"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "GANBOLD Gegeen",
+      "opponentCode": "MGL",
       "venue": "Aichi Prefectural Martial Arts Hall",
       "venueZh": null,
       "locationCode": "KU2",
       "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1491,7 +1507,7 @@
       "locationName": "Nagoya City Trade & Industry Center",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1568,56 +1584,6 @@
       "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T12:00:00+08:00",
       "startTimeJst": "2026-09-29T13:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Second Round",
-      "unit": "Men's Singles Second Round Match 8",
-      "athletes": [],
-      "athletesEn": [
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "RAKHMATOV Anvar",
-      "opponentCode": "TJK",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "013",
-      "locationName": "Indoor Court B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.R32-.000800--",
-          "id": "TEN:M.SINGLES-----------.R32-.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T12:00:00+08:00",
-      "startTimeJst": "2026-09-29T13:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "VVO",
       "sportZh": "排球",
@@ -1668,6 +1634,56 @@
         "results": {
           "unitId": "M.TEAM6-------------.GPD-.000500--",
           "id": "VVO:M.TEAM6-------------.GPD-.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T12:00:00+08:00",
+      "startTimeJst": "2026-09-29T13:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Second Round",
+      "unit": "Men's Singles Second Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "RAKHMATOV Anvar",
+      "opponentCode": "TJK",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "013",
+      "locationName": "Indoor Court B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.R32-.000800--",
+          "id": "TEN:M.SINGLES-----------.R32-.000800--"
         }
       }
     },
@@ -1919,7 +1935,7 @@
         "HO Chenjui",
         "HSU Yu-hsiou"
       ],
-      "opponent": "KHAN Aqeel/SHOAIB Muhammad",
+      "opponent": "KHAN Aqeel / SHOAIB Muhammad",
       "opponentCode": "PAK",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2002,6 +2018,54 @@
     },
     {
       "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T14:00:00+08:00",
+      "startTimeJst": "2026-09-29T15:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Women's Team Sprint",
+      "phase": "Women's Team Sprint, First Round",
+      "unit": "Women's Team Sprint, First Round - Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Sin-ting",
+        "CHEN Ching-yun",
+        "LIU Shang-ying"
+      ],
+      "opponent": "India",
+      "opponentCode": "IND",
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SPRTEAM3----------.RND1.000100--",
+          "id": "CTR:W.SPRTEAM3----------.RND1.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T14:20:00+08:00",
       "startTimeJst": "2026-09-29T15:20:00+09:00",
       "timeNote": null,
@@ -2070,7 +2134,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "FARZAMI Mandegar/YAZDANI Ali",
+      "opponent": "FARZAMI Mandegar / YAZDANI Ali",
       "opponentCode": "IRI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2121,7 +2185,7 @@
         "CHAN Hao-ching",
         "HO Chenjui"
       ],
-      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
+      "opponent": "ENKHJARGAL Sonom-yanzum / PUREVDORJ Undrakh",
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2477,10 +2541,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 42,
+    "resultsOnly": 43,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 51
+    "warnings": 52
   },
   "warnings": [
     {
@@ -2610,13 +2674,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Second Round Match 8",
-      "row": "TEN:M.SINGLES-----------.R32-.000800--"
+      "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 22",
+      "row": "VVO:M.TEAM6-------------.GPD-.000500--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 22",
-      "row": "VVO:M.TEAM6-------------.GPD-.000500--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Second Round Match 8",
+      "row": "TEN:M.SINGLES-----------.R32-.000800--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2652,6 +2716,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 13:10 Match 11",
       "row": "ELS:O.PUBGM-------------.FNL-.001100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:00 Women's Team Sprint, First Round - Heat 1",
+      "row": "CTR:W.SPRTEAM3----------.RND1.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2700,11 +2769,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "KUR|W.O87KG-------------",
-      "message": "KUR Women +87kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "KUR|M.66KG--------------",
       "message": "KUR Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2717,6 +2781,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SAL|M.ILCA7-------------",
       "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "KUR|W.O87KG-------------",
+      "message": "KUR Women +87kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
