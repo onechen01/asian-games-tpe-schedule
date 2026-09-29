@@ -4213,12 +4213,12 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-01T08:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-10-01T07:55:00+08:00",
       "disciplineCode": "JJI",
-      "channelId": "544",
-      "channelName": "愛爾達體育MAX5台",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
       "isLive": true,
-      "title": "亞運 徐靖芝 柔術 男子69公斤級 64/32/16/8/4強 10/1(原音) LIVE",
+      "title": "亞運 徐靖芝 柔術 男子62/69/女子48公斤級預賽/複賽 10/1(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4235,14 +4235,36 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-01T07:55:00+08:00",
+      "disciplineCode": "TKW",
+      "channelId": "110",
+      "channelName": "愛爾達體育3台",
+      "isLive": true,
+      "title": "亞運 陳歆雅 跆拳道 女子個人品勢四強 10/1 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-10-01T10:10:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Hsin-ya"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-01T08:00:00+08:00",
       "disciplineCode": "TKW",
       "channelId": "540",
       "channelName": "愛爾達體育MAX1台",
       "isLive": true,
-      "title": "亞運 陳歆雅 跆拳道 女子品勢四強 10/1(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 陳歆雅 跆拳道 女子個人品勢四強 10/1 LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-09-29",
       "broadcastEndTimeTaipei": "2026-10-01T10:30:00+08:00",
       "matchLevel": "unit",
@@ -4257,30 +4279,12 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-01T08:30:00+08:00",
-      "disciplineCode": "GLF",
-      "channelId": "541",
-      "channelName": "愛爾達體育MAX2台",
-      "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女個人/團體第二輪 10/1(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-10-01T16:30:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {}
-    },
-    {
-      "date": "2026-10-01",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-01T09:30:00+08:00",
       "disciplineCode": "WRE",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
+      "channelId": "542",
+      "channelName": "愛爾達體育MAX3台",
       "isLive": true,
-      "title": "亞運 白欣平 角力 女子62公斤級 資格賽 10/1(原音) LIVE",
+      "title": "亞運 白欣平 角力 男子希羅式77/97/60/女子62公斤級預賽/複賽 10/1(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4297,10 +4301,58 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-01T09:55:00+08:00",
+      "disciplineCode": "JUD",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 中華隊 柔道 男子73/81/女子57/63/70公斤級預賽/複賽 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-10-01T13:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-01T11:50:00+08:00",
+      "disciplineCode": "VVO",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
+      "isLive": true,
+      "title": "亞運 吉爾吉斯VS中華 排球 男子9-16排名賽 10/2(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-29",
+      "broadcastEndTimeTaipei": "2026-10-01T14:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KGZ"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-01T11:55:00+08:00",
       "disciplineCode": "ARC",
-      "channelId": "110",
-      "channelName": "愛爾達體育3台",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
       "isLive": true,
       "title": "亞運 張正韋/陳界倫 射箭 男子個人複合弓八強/四強/決賽 10/1 LIVE",
       "feed": "main",
@@ -4341,84 +4393,22 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-01T15:25:00+08:00",
+      "broadcastStartTimeTaipei": "2026-10-01T14:25:00+08:00",
       "disciplineCode": "JJI",
       "channelId": "105",
       "channelName": "愛爾達體育2台",
       "isLive": true,
-      "title": "亞運 徐靖芝 柔術 男子69公斤級 64/32/16/8/4強 10/1(原音) LIVE",
+      "title": "亞運 徐靖芝 柔術 男子62/69/女子48公斤級預賽/複賽 10/1(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-10-01T18:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-01T16:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
           "HSU Ching-chih"
         ]
       }
-    },
-    {
-      "date": "2026-10-01",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-01T15:30:00+08:00",
-      "disciplineCode": "JJI",
-      "channelId": "544",
-      "channelName": "愛爾達體育MAX5台",
-      "isLive": true,
-      "title": "亞運 徐靖芝 柔術 男子69公斤級 銅/金牌戰 10/1(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-10-01T17:30:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "HSU Ching-chih"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-01T17:00:00+08:00",
-      "disciplineCode": "WRE",
-      "channelId": "115",
-      "channelName": "愛爾達體育4台",
-      "isLive": true,
-      "title": "亞運 白欣平 角力 女子62公斤級 資格賽 10/1(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-10-01T20:00:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "PAI Hsin-ping"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-02T06:00:00+08:00",
-      "disciplineCode": "GLF",
-      "channelId": "541",
-      "channelName": "愛爾達體育MAX2台",
-      "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女個人/團體第三輪 10/2(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-10-02T16:30:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {}
     },
     {
       "date": "2026-10-02",
@@ -4427,10 +4417,10 @@
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-02T09:30:00+08:00",
       "disciplineCode": "WRE",
-      "channelId": "547",
-      "channelName": "愛爾達體育MAX8台",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 白欣平 角力 女子62公斤級 資格賽 10/1(原音) LIVE",
+      "title": "亞運 林宜慧/張惠慈 角力 女子50/76/男子自由式65/86/125公斤級預賽/複賽 10/2(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4438,7 +4428,8 @@
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
-          "PAI Hsin-ping"
+          "CHANG Hui-tsz",
+          "LIN Yi-hui"
         ]
       }
     },
@@ -4474,7 +4465,7 @@
       "channelId": "543",
       "channelName": "愛爾達體育MAX4台",
       "isLive": true,
-      "title": "亞運 中華隊 柔道 男子90/100/100公斤以上/女子78/78公斤以上16強/復活/半決賽 10/2(原音) LIVE",
+      "title": "亞運 中華隊 柔道 男子90/100/100公斤以上/女子78/78公斤以上預賽/複賽 10/2(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4482,30 +4473,11 @@
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
-          "Final"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-02T10:25:00+08:00",
-      "disciplineCode": "ARC",
-      "channelId": "542",
-      "channelName": "愛爾達體育MAX3台",
-      "isLive": true,
-      "title": "亞運 李彩綺/許芯慈 射箭 女子個人反曲弓八強/四強/決賽 10/3 LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-10-02T12:30:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "HSU Hsin-tzu",
-          "LI Tsai-chi"
+          "Heats",
+          "Preliminar",
+          "Qualification",
+          "Round Robin",
+          "Group"
         ]
       }
     },
@@ -4590,28 +4562,6 @@
       }
     },
     {
-      "date": "2026-10-02",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-02T16:55:00+08:00",
-      "disciplineCode": "WRE",
-      "channelId": "542",
-      "channelName": "愛爾達體育MAX3台",
-      "isLive": true,
-      "title": "亞運 白欣平 角力 女子62公斤級 資格賽 10/1(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-29",
-      "broadcastEndTimeTaipei": "2026-10-02T20:00:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "PAI Hsin-ping"
-        ]
-      }
-    },
-    {
       "date": "2026-10-03",
       "providerId": "elta",
       "providerName": "愛爾達",
@@ -4639,7 +4589,7 @@
       "channelId": "547",
       "channelName": "愛爾達體育MAX8台",
       "isLive": true,
-      "title": "亞運 林宜慧/張惠慈 角力 女子50/76公斤級 資格賽 10/2(原音) LIVE",
+      "title": "亞運 林宜慧/張惠慈 角力 女子50/76/男子自由式65/86/125公斤級預賽/複賽 10/2(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
@@ -4684,7 +4634,7 @@
       "channelId": "549",
       "channelName": "愛爾達體育MAX10台",
       "isLive": true,
-      "title": "亞運 林宜慧/張惠慈 角力 女子50/76公斤級 資格賽 10/2(原音) LIVE",
+      "title": "亞運 林宜慧/張惠慈 角力 女子50/76/男子自由式65/86/125公斤級預賽/複賽 10/2(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-29",
