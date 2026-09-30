@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T13:10:43.809Z",
+  "generatedAt": "2026-09-30T16:07:04.145Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-09-30T13:10:43.642Z",
+      "generatedAt": "2026-09-30T16:07:03.977Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -367,51 +367,6 @@
     },
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T08:00:00+08:00",
-      "startTimeJst": "2026-10-03T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "TKW",
-      "sportZh": "跆拳道",
-      "sportEn": "Taekwondo",
-      "event": "Women -57kg",
-      "phase": "Women -57kg Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Toyohashi Gymnasium",
-      "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "LIN Wei-chun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "TKW|W.57KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T08:15:00+08:00",
       "startTimeJst": "2026-10-03T09:15:00+09:00",
       "timeNote": null,
@@ -464,40 +419,41 @@
       "disciplineCode": "TKW",
       "sportZh": "跆拳道",
       "sportEn": "Taekwondo",
-      "event": "Men -68kg",
-      "phase": "Men -68kg Round of 16",
-      "unit": null,
+      "event": "Women -57kg",
+      "phase": "Women -57kg Round of 16",
+      "unit": "Women -57kg Round of 16",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "LIN Wei-chun"
+      ],
+      "opponent": "BATTSEREN Munkhjin",
+      "opponentCode": "MGL",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
+      "locationCode": "TK1",
+      "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "HSU Hao-yu"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "TKW|M.68KG--------------"
+        "results": {
+          "unitId": "W.57KG--------------.8FNL.000800--",
+          "id": "TKW:W.57KG--------------.8FNL.000800--"
         }
       }
     },
@@ -627,9 +583,8 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
-        "CHEN Hung-shen",
-        "CHEN Yu-lung",
-        "WANG Chong-hao"
+        "CHEN Hung-Shen",
+        "WANG Chong-Hao"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -637,6 +592,52 @@
       "sources": {
         "entries": {
           "eventId": "EQU|O.JUMPINDVCOMA------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T08:36:00+08:00",
+      "startTimeJst": "2026-10-03T09:36:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Men -68kg",
+      "phase": "Men -68kg Round of 16",
+      "unit": "Men -68kg Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "HSU Hao-yu"
+      ],
+      "opponent": "TUBTIMDANG Banlung",
+      "opponentCode": "THA",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TK3",
+      "locationName": "Toyohashi Gymnasium Mat 3",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.68KG--------------.8FNL.000600--",
+          "id": "TKW:M.68KG--------------.8FNL.000600--"
         }
       }
     },
@@ -650,38 +651,39 @@
       "sportEn": "Taekwondo",
       "event": "Women +67kg",
       "phase": "Women +67kg Round of 16",
-      "unit": null,
+      "unit": "Women +67kg Round of 16",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "LIN Yi-chen"
+      ],
+      "opponent": "AHMADI Fatemeh",
+      "opponentCode": "IRI",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
+      "locationCode": "TK3",
+      "locationName": "Toyohashi Gymnasium Mat 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "LIN Yi-chen"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "TKW|W.O67KG-------------"
+        "results": {
+          "unitId": "W.O67KG-------------.8FNL.000600--",
+          "id": "TKW:W.O67KG-------------.8FNL.000600--"
         }
       }
     },
@@ -732,46 +734,47 @@
     },
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T09:50:00+08:00",
-      "startTimeJst": "2026-10-03T10:50:00+09:00",
+      "startTimeTaipei": "2026-10-03T09:52:00+08:00",
+      "startTimeJst": "2026-10-03T10:52:00+09:00",
       "timeNote": null,
       "disciplineCode": "TKW",
       "sportZh": "跆拳道",
       "sportEn": "Taekwondo",
       "event": "Men +80kg",
       "phase": "Men +80kg Round of 16",
-      "unit": null,
+      "unit": "Men +80kg Round of 16",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "HUANG Yu-jen"
+      ],
+      "opponent": "ZUBER Muhammad Syafiq",
+      "opponentCode": "MAS",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
+      "locationCode": "TK1",
+      "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "HUANG Yu-jen"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "TKW|M.O80KG-------------"
+        "results": {
+          "unitId": "M.O80KG-------------.8FNL.000600--",
+          "id": "TKW:M.O80KG-------------.8FNL.000600--"
         }
       }
     },
@@ -864,7 +867,7 @@
       "entryLevel": "event",
       "unitCount": 1,
       "enteredAthletes": [
-        "LIN Yun-chi"
+        "LIN Yun-Chi"
       ],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
@@ -928,16 +931,21 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 5,
-    "entered": 11,
+    "resultsOnly": 9,
+    "entered": 7,
     "unresolvedTbd": 0,
-    "warnings": 9
+    "warnings": 17
   },
   "warnings": [
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:15 Recurve Women's Individual Quarterfinal",
       "row": "ARC:W.RINDIVID----------.QFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 08:24 Women -57kg Round of 16",
+      "row": "TKW:W.57KG--------------.8FNL.000800--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -948,6 +956,21 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:30 Recurve Women's Individual Quarterfinal",
       "row": "ARC:W.RINDIVID----------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 08:36 Men -68kg Round of 16",
+      "row": "TKW:M.68KG--------------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 09:00 Women +67kg Round of 16",
+      "row": "TKW:W.O67KG-------------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 09:52 Men +80kg Round of 16",
+      "row": "TKW:M.O80KG-------------.8FNL.000600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -973,6 +996,26 @@
       "code": "PENDING_LATER_UNITS",
       "row": "JUD|X.TEAM6-------------",
       "message": "JUD Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|W.57KG--------------",
+      "message": "TKW Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|M.68KG--------------",
+      "message": "TKW Men -68kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|W.O67KG-------------",
+      "message": "TKW Women +67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|M.O80KG-------------",
+      "message": "TKW Men +80kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T13:08:40.137Z",
+  "generatedAt": "2026-09-30T16:06:08.475Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-30T13:08:39.944Z",
+      "generatedAt": "2026-09-30T16:06:08.277Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -738,6 +738,206 @@
       "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T10:00:00+08:00",
       "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -90kg",
+      "phase": "Men -90 kg Elimination Round of 16",
+      "unit": "Men -90 kg Elimination Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Peng-yu"
+      ],
+      "opponent": "JUGDERGARAV Enkhtur",
+      "opponentCode": "MGL",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD1",
+      "locationName": "AIA Tatami 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.90KG--------------.8FNL.000400--",
+          "id": "JUD:M.90KG--------------.8FNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Women +78kg",
+      "phase": "Women +78 kg Elimination Round of 16",
+      "unit": "Women +78 kg Elimination Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Ling-fang"
+      ],
+      "opponent": "KALYEVA Aidemi Imanovna",
+      "opponentCode": "KGZ",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.O78KG-------------.8FNL.000600--",
+          "id": "JUD:W.O78KG-------------.8FNL.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men +100kg",
+      "phase": "Men +100 kg Elimination Round of 16",
+      "unit": "Men +100 kg Elimination Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "DAI You-ming"
+      ],
+      "opponent": "ZHOLDOSHKAZIEV Emirkhan",
+      "opponentCode": "KGZ",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD1",
+      "locationName": "AIA Tatami 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.O100KG------------.8FNL.000200--",
+          "id": "JUD:M.O100KG------------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Women -78kg",
+      "phase": "Women -78 kg Quarterfinals",
+      "unit": "Women -78 kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "HSU WANG Shu-huei"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.78KG--------------.QFNL.000400--",
+          "id": "JUD:W.78KG--------------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "SBL",
       "sportZh": "壘球",
@@ -775,198 +975,6 @@
         "results": {
           "unitId": "W.TEAM9-------------.GP--.002600--",
           "id": "SBL:W.TEAM9-------------.GP--.002600--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
-      "startTimeJst": "2026-10-02T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Men -90kg",
-      "phase": "Men -90 kg Elimination Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD1",
-      "locationName": "AIA Tatami 1",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "CHEN Peng-yu"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JUD|M.90KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
-      "startTimeJst": "2026-10-02T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Women -78kg",
-      "phase": "Women -78 kg Elimination Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD1",
-      "locationName": "AIA Tatami 1",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 12,
-      "enteredAthletes": [
-        "HSU WANG Shu-huei"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JUD|W.78KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
-      "startTimeJst": "2026-10-02T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Women +78kg",
-      "phase": "Women +78 kg Elimination Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD1",
-      "locationName": "AIA Tatami 1",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 10,
-      "enteredAthletes": [
-        "CHANG Ling-fang"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JUD|W.O78KG-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
-      "startTimeJst": "2026-10-02T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Men +100kg",
-      "phase": "Men +100 kg Elimination Round of 16",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD1",
-      "locationName": "AIA Tatami 1",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 12,
-      "enteredAthletes": [
-        "DAI You-ming"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JUD|M.O100KG------------"
         }
       }
     },
@@ -1143,46 +1151,47 @@
     },
     {
       "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T12:30:00+08:00",
-      "startTimeJst": "2026-10-02T13:30:00+09:00",
+      "startTimeTaipei": "2026-10-02T12:42:00+08:00",
+      "startTimeJst": "2026-10-02T13:42:00+09:00",
       "timeNote": null,
       "disciplineCode": "TKW",
       "sportZh": "跆拳道",
       "sportEn": "Taekwondo",
       "event": "Women -49kg",
       "phase": "Women -49kg Round of 16",
-      "unit": null,
+      "unit": "Women -49kg Round of 16",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "WANG Chieh-ling"
+      ],
+      "opponent": "KALAWADH Fatema",
+      "opponentCode": "BRN",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
+      "locationCode": "TK1",
+      "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "WANG Chieh-ling"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "TKW|W.49KG--------------"
+        "results": {
+          "unitId": "W.49KG--------------.8FNL.000400--",
+          "id": "TKW:W.49KG--------------.8FNL.000400--"
         }
       }
     },
@@ -1290,38 +1299,39 @@
       "sportEn": "Taekwondo",
       "event": "Women -67kg",
       "phase": "Women -67kg Round of 16",
-      "unit": null,
+      "unit": "Women -67kg Round of 16",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "WANG Wei-chia"
+      ],
+      "opponent": "TRAN Thi Anh Tuyet",
+      "opponentCode": "VIE",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
+      "locationCode": "TK3",
+      "locationName": "Toyohashi Gymnasium Mat 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "WANG Wei-chia"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "TKW|W.67KG--------------"
+        "results": {
+          "unitId": "W.67KG--------------.8FNL.000200--",
+          "id": "TKW:W.67KG--------------.8FNL.000200--"
         }
       }
     },
@@ -1373,46 +1383,47 @@
     },
     {
       "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T14:20:00+08:00",
-      "startTimeJst": "2026-10-02T15:20:00+09:00",
+      "startTimeTaipei": "2026-10-02T14:44:00+08:00",
+      "startTimeJst": "2026-10-02T15:44:00+09:00",
       "timeNote": null,
       "disciplineCode": "TKW",
       "sportZh": "跆拳道",
       "sportEn": "Taekwondo",
       "event": "Men -80kg",
       "phase": "Men -80kg Round of 16",
-      "unit": null,
+      "unit": "Men -80kg Round of 16",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "HUNG Jiun-yi"
+      ],
+      "opponent": "CEA Dave",
+      "opponentCode": "PHI",
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
+      "locationCode": "TK1",
+      "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 8,
-      "enteredAthletes": [
-        "HUNG Jiun-yi"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "TKW|M.80KG--------------"
+        "results": {
+          "unitId": "M.80KG--------------.8FNL.000700--",
+          "id": "TKW:M.80KG--------------.8FNL.000700--"
         }
       }
     },
@@ -1566,10 +1577,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 11,
-    "entered": 15,
+    "resultsOnly": 18,
+    "entered": 8,
     "unresolvedTbd": 0,
-    "warnings": 16
+    "warnings": 30
   },
   "warnings": [
     {
@@ -1586,6 +1597,26 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:00 Women's Kayak Cross - Individual - Individual",
       "row": "CSL:W.X1----------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men -90 kg Elimination Round of 16",
+      "row": "JUD:M.90KG--------------.8FNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women +78 kg Elimination Round of 16",
+      "row": "JUD:W.O78KG-------------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men +100 kg Elimination Round of 16",
+      "row": "JUD:M.O100KG------------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women -78 kg Quarterfinal",
+      "row": "JUD:W.78KG--------------.QFNL.000400--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1609,8 +1640,23 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 12:42 Women -49kg Round of 16",
+      "row": "TKW:W.49KG--------------.8FNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 13:00 Recurve Men's Team Semifinal",
       "row": "ARC:M.RTEAM-------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 13:30 Women -67kg Round of 16",
+      "row": "TKW:W.67KG--------------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 14:44 Men -80kg Round of 16",
+      "row": "TKW:M.80KG--------------.8FNL.000700--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1634,6 +1680,26 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "JUD|M.90KG--------------",
+      "message": "JUD Men -90kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|W.78KG--------------",
+      "message": "JUD Women -78kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|W.O78KG-------------",
+      "message": "JUD Women +78kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|M.O100KG------------",
+      "message": "JUD Men +100kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "CTR|M.KEIRIN------------",
       "message": "CTR Men's Keirin 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -1651,6 +1717,21 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|M.RTEAM-------------",
       "message": "ARC Recurve Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|W.49KG--------------",
+      "message": "TKW Women -49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|W.67KG--------------",
+      "message": "TKW Women -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|M.80KG--------------",
+      "message": "TKW Men -80kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
