@@ -4322,7 +4322,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-10-01T14:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-01T13:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -4379,7 +4379,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-01T09:30:00+08:00",
+      "broadcastStartTimeTaipei": "2026-10-01T09:25:00+08:00",
       "disciplineCode": "WRE",
       "channelId": "542",
       "channelName": "愛爾達體育MAX3台",
@@ -4436,7 +4436,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-10-01T12:55:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-01T12:40:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -4507,28 +4507,6 @@
       "matchHint": {
         "opponentCodes": [
           "JPN"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-01T14:25:00+08:00",
-      "disciplineCode": "JJI",
-      "channelId": "105",
-      "channelName": "愛爾達體育2台",
-      "isLive": true,
-      "title": "亞運 徐靖芝 柔術 男子62/69/女子48公斤級預賽/複賽 10/1(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-10-01T16:30:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "HSU Ching-chih"
         ]
       }
     },
