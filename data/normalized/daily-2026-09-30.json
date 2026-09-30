@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T02:45:22.564Z",
+  "generatedAt": "2026-09-30T02:57:03.823Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T02:45:22.392Z",
+      "generatedAt": "2026-09-30T02:57:03.663Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -339,7 +339,7 @@
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "0",
-          "rank": "17",
+          "rank": "16",
           "startTimeTaipei": null
         }
       ],
@@ -377,8 +377,8 @@
       "athletes": [],
       "athletesEn": [
         "HUNG Chien-yao",
-        "CHAN Shih-chang",
-        "WANG Wei-hsuan"
+        "WANG Wei-hsuan",
+        "CHAN Shih-chang"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -395,7 +395,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -726,7 +726,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "89",
+        "tpe": "99",
         "opponent": null,
         "source": "results"
       },
@@ -913,56 +913,6 @@
       "startTimeTaipei": "2026-09-30T09:30:00+08:00",
       "startTimeJst": "2026-09-30T10:30:00+09:00",
       "timeNote": null,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Men's Kayak Single",
-      "phase": "Men's Kayak Single Semifinals",
-      "unit": "Men's Kayak Single - Semifinals - Semifinal",
-      "athletes": [],
-      "athletesEn": [
-        "LIAO Li-hong"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "Yahagigawa Canoe Slalom Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "118.06",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "8",
-      "orgCount": 11,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.K1----------------.SFNL.000100--",
-          "id": "CSL:M.K1----------------.SFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T09:30:00+08:00",
-      "startTimeJst": "2026-09-30T10:30:00+09:00",
-      "timeNote": null,
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -1011,6 +961,50 @@
         "results": {
           "unitId": "O.IDV---------------.QFNL.000300--",
           "id": "ELS:O.IDV---------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T09:30:00+08:00",
+      "startTimeJst": "2026-09-30T10:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Men's Kayak Single",
+      "phase": "Men's Kayak Single Semifinals",
+      "unit": "Men's Kayak Single - Semifinals - Semifinal",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.K1----------------.SFNL.000100--",
+          "id": "CSL:M.K1----------------.SFNL.000100--"
         }
       }
     },
@@ -1091,7 +1085,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "101",
         "opponent": "0",
@@ -1237,8 +1231,8 @@
       "athletesEn": [
         "YANG Yung-wei"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "KUDBUDINOV Loiq",
+      "opponentCode": "TJK",
       "venue": "Aichi International Arena",
       "venueZh": null,
       "locationCode": "JUD2",
@@ -1249,7 +1243,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1603,56 +1597,6 @@
       "startTimeTaipei": "2026-09-30T10:30:00+08:00",
       "startTimeJst": "2026-09-30T11:30:00+09:00",
       "timeNote": null,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Women's Canoe Single",
-      "phase": "Women's Canoe Single Semifinals",
-      "unit": "Women's Canoe Single - Semifinals - Semifinal",
-      "athletes": [],
-      "athletesEn": [
-        "CHUNG Yu-han"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "Yahagigawa Canoe Slalom Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "133.95",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 7,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.C1----------------.SFNL.000100--",
-          "id": "CSL:W.C1----------------.SFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:30:00+08:00",
-      "startTimeJst": "2026-09-30T11:30:00+09:00",
-      "timeNote": null,
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -1701,6 +1645,50 @@
     },
     {
       "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:30:00+08:00",
+      "startTimeJst": "2026-09-30T11:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Canoe Single",
+      "phase": "Women's Canoe Single Semifinals",
+      "unit": "Women's Canoe Single - Semifinals - Semifinal",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.C1----------------.SFNL.000100--",
+          "id": "CSL:W.C1----------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T11:00:00+08:00",
       "startTimeJst": "2026-09-30T12:00:00+09:00",
       "timeNote": {
@@ -1726,7 +1714,7 @@
       "locationName": "Court 6",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1777,10 +1765,14 @@
       "locationName": "Court 5",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1944,64 +1936,6 @@
         "results": {
           "unitId": "W.60KG--------------.SFNL.000100--",
           "id": "BOX:W.60KG--------------.SFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T12:30:00+08:00",
-      "startTimeJst": "2026-09-30T13:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Men's Kayak Single",
-      "phase": "Men's Kayak Single Final",
-      "unit": "Men's Kayak Single - Final - Final",
-      "athletes": [],
-      "athletesEn": [
-        "LIAO Li-hong"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "Yahagigawa Canoe Slalom Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 1,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.K1----------------.FNL-.000100--",
-          "id": "CSL:M.K1----------------.FNL-.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "M.K1----------------.SFNL.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.K1----------------.SFNL.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-30T02-44-11-997Z-adcffd0a0ffa-132fa823.json"
-            ]
-          }
         }
       }
     },
@@ -2474,7 +2408,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 41,
+    "resultsOnly": 40,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 51
@@ -2537,13 +2471,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CSL 09:30 Men's Kayak Single - Semifinals - Semifinal",
-      "row": "CSL:M.K1----------------.SFNL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 3",
+      "row": "ELS:O.IDV---------------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 3",
-      "row": "ELS:O.IDV---------------.QFNL.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 09:30 Men's Kayak Single - Semifinals - Semifinal",
+      "row": "CSL:M.K1----------------.SFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2602,13 +2536,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:30 Women's Canoe Single - Semifinals - Semifinal",
-      "row": "CSL:W.C1----------------.SFNL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:30 Match 4",
+      "row": "ELS:O.LOL---------------.GPB-.000400--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 10:30 Match 4",
-      "row": "ELS:O.LOL---------------.GPB-.000400--"
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:30 Women's Canoe Single - Semifinals - Semifinal",
+      "row": "CSL:W.C1----------------.SFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2634,11 +2568,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 12:30 Women's 60KG - Semifinal",
       "row": "BOX:W.60KG--------------.SFNL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CSL 12:30 Men's Kayak Single - Final - Final",
-      "row": "CSL:M.K1----------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2704,6 +2633,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "SAL|M.ILCA7-------------",
       "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "CSL|M.K1----------------",
+      "message": "CSL Men's Kayak Single 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
