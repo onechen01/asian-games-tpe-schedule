@@ -4610,7 +4610,7 @@
       "channelId": "542",
       "channelName": "愛爾達體育MAX3台",
       "isLive": true,
-      "title": "亞運 印尼VS中華 曲棍球 女子5-8排名賽 10/2(原音) LIVE",
+      "title": "亞運 印尼VS中華 曲棍球 女子第7/8排名賽 10/2(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-30",
@@ -4643,6 +4643,24 @@
           "LIN Yu-ting"
         ]
       }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T12:25:00+08:00",
+      "disciplineCode": "TKW",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 中華隊 跆拳道 女子49/67/男子58/80公斤級16強/八強 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-02T16:05:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
     },
     {
       "date": "2026-10-02",
@@ -4698,7 +4716,7 @@
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 中華隊 韻律體操 團體全能資格賽 10/2 LIVE (第 3 集)",
+      "title": "亞運 中華隊 韻律體操 團體全能資格賽 10/2 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-30",
@@ -4770,6 +4788,28 @@
       "matchHint": {
         "athleteNames": [
           "SHEN Yu-chin"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T08:50:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": true,
+      "title": "亞運 南韓VS中華 壘球 女子預賽 10/3 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-03T11:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KOR"
         ]
       }
     },
