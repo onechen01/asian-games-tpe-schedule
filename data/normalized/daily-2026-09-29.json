@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T00:42:46.472Z",
+  "generatedAt": "2026-09-30T00:54:02.611Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-30T00:42:46.339Z",
+      "generatedAt": "2026-09-30T00:54:02.445Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -411,7 +411,13 @@
       "phase": "PUBG MOBILE - Asian Games Version Finals",
       "unit": "Match 7",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIANG Chien-ting",
+        "CHEN Hong-yi",
+        "HUANG Chuan-peng",
+        "PENG Yi-xiang",
+        "CHEN Ting-yi"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "",
@@ -421,10 +427,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "1",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "10",
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -823,7 +833,13 @@
       "phase": "PUBG MOBILE - Asian Games Version Finals",
       "unit": "Match 8",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIANG Chien-ting",
+        "CHEN Hong-yi",
+        "HUANG Chuan-peng",
+        "PENG Yi-xiang",
+        "CHEN Ting-yi"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "",
@@ -833,10 +849,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "7",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "6",
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -910,56 +930,6 @@
       "startTimeTaipei": "2026-09-29T09:30:00+08:00",
       "startTimeJst": "2026-09-29T10:30:00+09:00",
       "timeNote": null,
-      "disciplineCode": "KUR",
-      "sportZh": "克拉術",
-      "sportEn": "Kurash",
-      "event": "Women +87kg",
-      "phase": "Women +87kg Quarterfinals",
-      "unit": "Quarterfinal Bout 1",
-      "athletes": [],
-      "athletesEn": [
-        "YANG Ya-chun"
-      ],
-      "opponent": "BARMAKI KORDKOLAEE Fatemeh",
-      "opponentCode": "IRI",
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "locationCode": "KU2",
-      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "3",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "5",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.O87KG-------------.QFNL.000100--",
-          "id": "KUR:W.O87KG-------------.QFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T09:30:00+08:00",
-      "startTimeJst": "2026-09-29T10:30:00+09:00",
-      "timeNote": null,
       "disciplineCode": "ELS",
       "sportZh": "電子競技",
       "sportEn": "Esports",
@@ -1008,6 +978,56 @@
         "results": {
           "unitId": "O.IDV---------------.GPA-.000600--",
           "id": "ELS:O.IDV---------------.GPA-.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T09:30:00+08:00",
+      "startTimeJst": "2026-09-29T10:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "KUR",
+      "sportZh": "克拉術",
+      "sportEn": "Kurash",
+      "event": "Women +87kg",
+      "phase": "Women +87kg Quarterfinals",
+      "unit": "Quarterfinal Bout 1",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Ya-chun"
+      ],
+      "opponent": "BARMAKI KORDKOLAEE Fatemeh",
+      "opponentCode": "IRI",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "KU2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Gilam 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "3",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.O87KG-------------.QFNL.000100--",
+          "id": "KUR:W.O87KG-------------.QFNL.000100--"
         }
       }
     },
@@ -1276,7 +1296,13 @@
       "phase": "PUBG MOBILE - Asian Games Version Finals",
       "unit": "Match 9",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIANG Chien-ting",
+        "CHEN Hong-yi",
+        "HUANG Chuan-peng",
+        "PENG Yi-xiang",
+        "CHEN Ting-yi"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "",
@@ -1286,10 +1312,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "3",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "7",
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1540,6 +1570,60 @@
       "date": "2026-09-29",
       "startTimeTaipei": "2026-09-29T12:00:00+08:00",
       "startTimeJst": "2026-09-29T13:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
+      "phase": "PUBG MOBILE - Asian Games Version Finals",
+      "unit": "Match 10",
+      "athletes": [],
+      "athletesEn": [
+        "CHIANG Chien-ting",
+        "CHEN Hong-yi",
+        "HUANG Chuan-peng",
+        "PENG Yi-xiang",
+        "CHEN Ting-yi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "",
+      "venueZh": null,
+      "locationCode": "EL1",
+      "locationName": "Aichi Sky Expo Hall D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "10",
+      "orgCount": 12,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.PUBGM-------------.FNL-.001000--",
+          "id": "ELS:O.PUBGM-------------.FNL-.001000--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "startTimeTaipei": "2026-09-29T12:00:00+08:00",
+      "startTimeJst": "2026-09-29T13:00:00+09:00",
       "timeNote": {
         "code": "FOLLOWED_BY",
         "clockTaipei": null,
@@ -1648,50 +1732,6 @@
         "results": {
           "unitId": "M.TEAM6-------------.GPD-.000500--",
           "id": "VVO:M.TEAM6-------------.GPD-.000500--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "startTimeTaipei": "2026-09-29T12:00:00+08:00",
-      "startTimeJst": "2026-09-29T13:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "ELS",
-      "sportZh": "電子競技",
-      "sportEn": "Esports",
-      "event": "Battle Royale [PUBG MOBILE - Asian Games Version]",
-      "phase": "PUBG MOBILE - Asian Games Version Finals",
-      "unit": "Match 10",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "",
-      "venueZh": null,
-      "locationCode": "EL1",
-      "locationName": "Aichi Sky Expo Hall D",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "O.PUBGM-------------.FNL-.001000--",
-          "id": "ELS:O.PUBGM-------------.FNL-.001000--"
         }
       }
     },
@@ -2124,7 +2164,13 @@
       "phase": "PUBG MOBILE - Asian Games Version Finals",
       "unit": "Match 11",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIANG Chien-ting",
+        "CHEN Hong-yi",
+        "HUANG Chuan-peng",
+        "PENG Yi-xiang",
+        "CHEN Ting-yi"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "",
@@ -2134,10 +2180,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "6",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "5",
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2270,7 +2320,13 @@
       "phase": "PUBG MOBILE - Asian Games Version Finals",
       "unit": "Match 12",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIANG Chien-ting",
+        "CHEN Hong-yi",
+        "HUANG Chuan-peng",
+        "PENG Yi-xiang",
+        "CHEN Ting-yi"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "",
@@ -2280,10 +2336,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "16",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "2",
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2926,13 +2986,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:30 Quarterfinal Bout 1",
-      "row": "KUR:W.O87KG-------------.QFNL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 6",
+      "row": "ELS:O.IDV---------------.GPA-.000600--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 09:30 Match 6",
-      "row": "ELS:O.IDV---------------.GPA-.000600--"
+      "message": "Results 確認 TPE 但中華奧會未列出：KUR 09:30 Quarterfinal Bout 1",
+      "row": "KUR:W.O87KG-------------.QFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2986,6 +3046,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 Match 10",
+      "row": "ELS:O.PUBGM-------------.FNL-.001000--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Second Round Match 8",
       "row": "TEN:M.SINGLES-----------.R32-.000800--"
     },
@@ -2993,11 +3058,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：VVO 12:00 Match 22",
       "row": "VVO:M.TEAM6-------------.GPD-.000500--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ELS 12:00 Match 10",
-      "row": "ELS:O.PUBGM-------------.FNL-.001000--"
     },
     {
       "code": "RESULTS_ONLY",

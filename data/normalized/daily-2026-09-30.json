@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T00:44:18.905Z",
+  "generatedAt": "2026-09-30T00:55:35.099Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T00:44:18.754Z",
+      "generatedAt": "2026-09-30T00:55:34.926Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -338,8 +338,8 @@
         {
           "name": "CHAN Shih-chang",
           "registration": "12708292",
-          "result": "+1",
-          "rank": "25",
+          "result": "+2",
+          "rank": "34",
           "startTimeTaipei": null
         }
       ],
@@ -443,10 +443,10 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -495,10 +495,10 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "143",
-        "opponent": "145",
+        "tpe": "229",
+        "opponent": "230",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -592,7 +592,7 @@
       "locationName": "Centro Acuático",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [
         {
