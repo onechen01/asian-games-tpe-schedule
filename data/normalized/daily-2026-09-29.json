@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T03:02:10.404Z",
+  "generatedAt": "2026-09-30T03:14:38.648Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-29/schedule-2026-09-29-AUTO.json",
-      "generatedAt": "2026-09-30T03:02:10.243Z",
+      "generatedAt": "2026-09-30T03:14:38.489Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -282,8 +282,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 4,
+          "recovered": 4,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -791,7 +791,7 @@
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "locationCode": "012",
-      "locationName": "",
+      "locationName": "Indoor Court A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
@@ -1424,7 +1424,7 @@
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "locationCode": "014",
-      "locationName": "",
+      "locationName": "Indoor Court C",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
@@ -1644,7 +1644,7 @@
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "locationCode": "013",
-      "locationName": "",
+      "locationName": "Indoor Court B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
@@ -2122,7 +2122,7 @@
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "locationCode": "012",
-      "locationName": "",
+      "locationName": "Indoor Court A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
@@ -2542,7 +2542,7 @@
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "locationCode": "015",
-      "locationName": "",
+      "locationName": "Indoor Court D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
