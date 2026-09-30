@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T04:05:35.904Z",
+  "generatedAt": "2026-09-30T04:25:17.691Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T04:05:35.781Z",
+      "generatedAt": "2026-09-30T04:25:17.586Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -332,7 +332,7 @@
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "+1",
-          "rank": "22",
+          "rank": "23",
           "startTimeTaipei": null
         },
         {
@@ -395,7 +395,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -771,7 +771,7 @@
         "CHAN Hao-ching",
         "WU Fang-hsien"
       ],
-      "opponent": "ALUDO Stefi/MADIS Tennielle",
+      "opponent": "ALUDO Stefi / MADIS Tennielle",
       "opponentCode": "PHI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -786,7 +786,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1199,7 +1199,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1S1",
         "opponent": "0S1",
@@ -1253,7 +1253,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "100S1",
         "opponent": "0",
@@ -1307,8 +1307,12 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "10",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1327,6 +1331,56 @@
         "results": {
           "unitId": "M.66KG--------------.QFNL.000300--",
           "id": "JUD:M.66KG--------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -66kg",
+      "phase": "Men -66 kg Repechage",
+      "unit": "Men -66 kg Repechage contest",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chong-you"
+      ],
+      "opponent": "XUE Ziyang",
+      "opponentCode": "CHN",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.66KG--------------.REP1.000200--",
+          "id": "JUD:M.66KG--------------.REP1.000200--"
         }
       }
     },
@@ -1503,8 +1557,12 @@
       "locationName": "Center Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1652,8 +1710,8 @@
       "athletes": [],
       "athletesEn": [
         "TSENG Ya-ni",
-        "HSU Wei-ling",
-        "CHIEN Pei-yun"
+        "CHIEN Pei-yun",
+        "HSU Wei-ling"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1670,7 +1728,14 @@
           "name": "TSENG Ya-ni",
           "registration": "8374574",
           "result": "-1",
-          "rank": "2",
+          "rank": "1",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHIEN Pei-yun",
+          "registration": "10587356",
+          "result": "+1",
+          "rank": "19",
           "startTimeTaipei": null
         },
         {
@@ -1679,16 +1744,9 @@
           "result": "+1",
           "rank": "19",
           "startTimeTaipei": null
-        },
-        {
-          "name": "CHIEN Pei-yun",
-          "registration": "10587356",
-          "result": "+2",
-          "rank": "30",
-          "startTimeTaipei": null
         }
       ],
-      "tpeRank": "2",
+      "tpeRank": "1",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1721,8 +1779,8 @@
       "unit": "Round 1",
       "athletes": [],
       "athletesEn": [
-        "HSU Wei-ling",
         "TSENG Ya-ni",
+        "HSU Wei-ling",
         "CHIEN Pei-yun"
       ],
       "opponent": null,
@@ -1740,7 +1798,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "5",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1838,10 +1896,10 @@
       "locationName": "Aichi Sky Expo Esport Competition Room L5",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "1",
+        "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1939,7 +1997,7 @@
         "HSIEH Su-wei",
         "LIANG En-shuo"
       ],
-      "opponent": "JEONG Boyoung/PARK Sohyun",
+      "opponent": "JEONG Boyoung / PARK Sohyun",
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1949,12 +2007,12 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
+        "tpe": "WO",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2044,7 +2102,7 @@
         "HO Chenjui",
         "HSU Yu-hsiou"
       ],
-      "opponent": "BHAMBRI Yuki/SURESH Dhakshineswar",
+      "opponent": "BHAMBRI Yuki / SURESH Dhakshineswar",
       "opponentCode": "IND",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2144,8 +2202,12 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 10,
@@ -2258,7 +2320,7 @@
       "locationName": "Gifu Prefectural Green Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2387,7 +2449,25 @@
       "phase": "Women’s Preliminary Round",
       "unit": "Game  17",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIU Hsuan",
+        "LIN Feng-chen",
+        "LI Szu-shih",
+        "CHEN Chia-yi",
+        "YEH Kuei-ping",
+        "SHEN Chia-wen",
+        "CHIANG Ting-en",
+        "LIN Chi-yun",
+        "HO Yi-fan",
+        "CHEN Ching-yu",
+        "PAN Yu-ling",
+        "CHU Yi-shan",
+        "LIN Chih-ying",
+        "TU Ya-ting",
+        "SU Yi-hsuan",
+        "YANG An-chi",
+        "KE Hsia-ai"
+      ],
       "opponent": "Thailand",
       "opponentCode": "THA",
       "venue": "Anjo Softball Ground",
@@ -2485,7 +2565,7 @@
         "CHAN Hao-ching",
         "HO Chenjui"
       ],
-      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
+      "opponent": "ENKHJARGAL Sonom-yanzum / PUREVDORJ Undrakh",
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2536,7 +2616,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
+      "opponent": "BHOSALE Rutuja / BHAMBRI Yuki",
       "opponentCode": "IND",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2682,10 +2762,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 45,
+    "resultsOnly": 46,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 53
+    "warnings": 54
   },
   "warnings": [
     {
@@ -2782,6 +2862,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men -66 kg Quarterfinal",
       "row": "JUD:M.66KG--------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men -66 kg Repechage contest",
+      "row": "JUD:M.66KG--------------.REP1.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2915,11 +3000,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "JUD|M.66KG--------------",
-      "message": "JUD Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "SAL|M.ILCA7-------------",
       "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2952,6 +3032,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "JUD|M.60KG--------------",
       "message": "JUD Men -60kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|M.66KG--------------",
+      "message": "JUD Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
