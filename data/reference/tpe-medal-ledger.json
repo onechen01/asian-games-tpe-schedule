@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-29T08:55:35.285Z",
+  "generatedAt": "2026-09-30T06:48:16.155Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-29T08:55:35.285Z",
+  "standingsUpdatedAt": "2026-09-30T06:48:16.151Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 10,
-    "bronze": 24,
-    "total": 37
+    "bronze": 25,
+    "total": 38
   },
   "officialCounts": {
     "gold": 3,
     "silver": 10,
-    "bronze": 24,
-    "total": 37
+    "bronze": 25,
+    "total": 38
   },
   "missing": {
     "gold": 0,
@@ -691,6 +691,24 @@
         "YANG Kun-Pi"
       ],
       "rank": "2"
+    },
+    {
+      "awardId": "ARC|M.CTEAM-------------|ARCMCTEAM------TPE01",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "event": "Compound Men's Team",
+      "phase": "Compound Men's Team Semifinals",
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T13:30:00+08:00",
+      "resultId": "ARC:M.CTEAM-------------.SFNL.000100--",
+      "unitId": "M.CTEAM-------------.SFNL.000100--",
+      "athletes": [
+        "CHANG Cheng-Wei",
+        "CHEN Chieh-Lun",
+        "YEN Tzu-Hsiang"
+      ],
+      "rank": null
     }
   ]
 }
