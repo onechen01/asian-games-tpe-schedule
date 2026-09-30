@@ -3985,7 +3985,20 @@
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-09-30T12:52:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "sessionScopes": [
+          {
+            "gender": "MEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 1
+          },
+          {
+            "gender": "MEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 1
+          }
+        ]
+      }
     },
     {
       "date": "2026-09-30",
@@ -4071,12 +4084,27 @@
       "broadcastEndTimeTaipei": "2026-09-30T13:28:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
-        "phaseKeywords": [
-          "Heats",
-          "Preliminar",
-          "Qualification",
-          "Round Robin",
-          "Group"
+        "sessionScopes": [
+          {
+            "gender": "WOMEN",
+            "weightKg": 48,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 52,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 60,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 66,
+            "stage": "ELIMINATION_SESSION"
+          }
         ]
       }
     },
@@ -4118,7 +4146,30 @@
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-09-30T12:52:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "sessionScopes": [
+          {
+            "gender": "MEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 1
+          },
+          {
+            "gender": "MEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 1
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 1
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 1
+          }
+        ]
+      }
     },
     {
       "date": "2026-09-30",
@@ -4158,7 +4209,30 @@
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-09-30T16:50:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "sessionScopes": [
+          {
+            "gender": "MEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 1
+          },
+          {
+            "gender": "MEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 1
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 1
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 1
+          }
+        ]
+      }
     },
     {
       "date": "2026-09-30",
@@ -4176,7 +4250,20 @@
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-09-30T16:55:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "sessionScopes": [
+          {
+            "gender": "WOMEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 1
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 1
+          }
+        ]
+      }
     },
     {
       "date": "2026-09-30",
@@ -4306,7 +4393,30 @@
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-10-01T16:30:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "sessionScopes": [
+          {
+            "gender": "MEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 2
+          },
+          {
+            "gender": "MEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 2
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 2
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 2
+          }
+        ]
+      }
     },
     {
       "date": "2026-10-01",
@@ -4389,10 +4499,32 @@
       "note": "原音",
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-10-01T13:00:00+08:00",
-      "matchLevel": "unit",
+      "matchLevel": "discipline",
       "matchHint": {
         "athleteNames": [
           "PAI Hsin-ping"
+        ],
+        "sessionScopes": [
+          {
+            "gender": "MEN",
+            "weightKg": 77,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 97,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 60,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 62,
+            "stage": "ELIMINATION_SESSION"
+          }
         ]
       }
     },
@@ -4413,12 +4545,32 @@
       "broadcastEndTimeTaipei": "2026-10-01T13:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
-        "phaseKeywords": [
-          "Heats",
-          "Preliminar",
-          "Qualification",
-          "Round Robin",
-          "Group"
+        "sessionScopes": [
+          {
+            "gender": "MEN",
+            "weightKg": 73,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 81,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 57,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 63,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 70,
+            "stage": "ELIMINATION_SESSION"
+          }
         ]
       }
     },
@@ -4527,7 +4679,30 @@
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-10-02T16:30:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "sessionScopes": [
+          {
+            "gender": "MEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 3
+          },
+          {
+            "gender": "MEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 3
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 3
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 3
+          }
+        ]
+      }
     },
     {
       "date": "2026-10-02",
@@ -4544,11 +4719,38 @@
       "note": "原音",
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-10-02T12:30:00+08:00",
-      "matchLevel": "unit",
+      "matchLevel": "discipline",
       "matchHint": {
         "athleteNames": [
           "CHANG Hui-tsz",
           "LIN Yi-hui"
+        ],
+        "sessionScopes": [
+          {
+            "gender": "WOMEN",
+            "weightKg": 50,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 76,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 65,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 86,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 125,
+            "stage": "ELIMINATION_SESSION"
+          }
         ]
       }
     },
@@ -4591,12 +4793,22 @@
       "broadcastEndTimeTaipei": "2026-10-02T13:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
-        "phaseKeywords": [
-          "Heats",
-          "Preliminar",
-          "Qualification",
-          "Round Robin",
-          "Group"
+        "sessionScopes": [
+          {
+            "gender": "MEN",
+            "weightKg": 90,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 100,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 78,
+            "stage": "ELIMINATION_SESSION"
+          }
         ]
       }
     },
@@ -4744,7 +4956,30 @@
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-10-03T16:30:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {}
+      "matchHint": {
+        "sessionScopes": [
+          {
+            "gender": "MEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 4
+          },
+          {
+            "gender": "MEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 4
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 4
+          },
+          {
+            "gender": "WOMEN",
+            "eventFamily": "TEAM",
+            "roundNumber": 4
+          }
+        ]
+      }
     },
     {
       "date": "2026-10-03",
@@ -4828,11 +5063,38 @@
       "note": "原音",
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-10-03T13:00:00+08:00",
-      "matchLevel": "unit",
+      "matchLevel": "discipline",
       "matchHint": {
         "athleteNames": [
           "CHANG Hui-tsz",
           "LIN Yi-hui"
+        ],
+        "sessionScopes": [
+          {
+            "gender": "WOMEN",
+            "weightKg": 50,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 76,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 65,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 86,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 125,
+            "stage": "ELIMINATION_SESSION"
+          }
         ]
       }
     },
@@ -4873,11 +5135,38 @@
       "note": "原音",
       "capturedAt": "2026-09-30",
       "broadcastEndTimeTaipei": "2026-10-03T20:00:00+08:00",
-      "matchLevel": "unit",
+      "matchLevel": "discipline",
       "matchHint": {
         "athleteNames": [
           "CHANG Hui-tsz",
           "LIN Yi-hui"
+        ],
+        "sessionScopes": [
+          {
+            "gender": "WOMEN",
+            "weightKg": 50,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 76,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 65,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 86,
+            "stage": "ELIMINATION_SESSION"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 125,
+            "stage": "ELIMINATION_SESSION"
+          }
         ]
       }
     },
