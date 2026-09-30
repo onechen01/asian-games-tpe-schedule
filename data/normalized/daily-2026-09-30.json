@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T04:43:23.886Z",
+  "generatedAt": "2026-09-30T04:54:38.892Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T04:43:23.715Z",
+      "generatedAt": "2026-09-30T04:54:38.720Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -318,7 +318,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -388,7 +388,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "-4",
         "opponent": null,
@@ -1728,7 +1728,7 @@
           "name": "TSENG Ya-ni",
           "registration": "8374574",
           "result": "-1",
-          "rank": "2",
+          "rank": "5",
           "startTimeTaipei": null
         },
         {
@@ -1746,7 +1746,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "2",
+      "tpeRank": "5",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2156,14 +2156,14 @@
       "locationName": "Ring 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
+        "tpe": "5",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2208,12 +2208,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "107.86",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
