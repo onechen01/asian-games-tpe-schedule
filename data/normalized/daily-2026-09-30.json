@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T02:36:12.831Z",
+  "generatedAt": "2026-09-30T02:45:22.564Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T02:36:12.662Z",
+      "generatedAt": "2026-09-30T02:45:22.392Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -305,7 +305,11 @@
       "phase": "Men's Individual Stroke Play",
       "unit": "Round 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Wei-hsuan",
+        "HUNG Chien-yao",
+        "CHAN Shih-chang"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -316,9 +320,31 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "WANG Wei-hsuan",
+          "registration": "11704760",
+          "result": "-5",
+          "rank": "1",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HUNG Chien-yao",
+          "registration": "905667",
+          "result": "-1",
+          "rank": "9",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHAN Shih-chang",
+          "registration": "12708292",
+          "result": "0",
+          "rank": "17",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "1",
+      "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -349,7 +375,11 @@
       "phase": "Men's Team",
       "unit": "Round 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "HUNG Chien-yao",
+        "CHAN Shih-chang",
+        "WANG Wei-hsuan"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -359,10 +389,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
-      "result": null,
+      "result": {
+        "tpe": "-6",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "1",
+      "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -697,7 +731,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "6",
+      "tpeRank": "7",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1057,8 +1091,12 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "101",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1177,6 +1215,56 @@
         "results": {
           "unitId": "W.48KG--------------.QFNL.000300--",
           "id": "JUD:W.48KG--------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -60kg",
+      "phase": "Men -60 kg Quarterfinals",
+      "unit": "Men -60 kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Yung-wei"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.60KG--------------.QFNL.000300--",
+          "id": "JUD:M.60KG--------------.QFNL.000300--"
         }
       }
     },
@@ -1400,7 +1488,11 @@
       "phase": "Women's Individual Stroke Play",
       "unit": "Round 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIEN Pei-yun",
+        "TSENG Ya-ni",
+        "HSU Wei-ling"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -1411,9 +1503,31 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHIEN Pei-yun",
+          "registration": "10587356",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "TSENG Ya-ni",
+          "registration": "8374574",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HSU Wei-ling",
+          "registration": "8390832",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1444,7 +1558,11 @@
       "phase": "Women's Team",
       "unit": "Round 1",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIEN Pei-yun",
+        "TSENG Ya-ni",
+        "HSU Wei-ling"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -1454,10 +1572,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
-      "result": null,
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1501,7 +1623,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "133.95",
         "opponent": null,
         "source": "results"
       },
@@ -1877,7 +1999,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.K1----------------.SFNL.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-30T02-34-37-901Z-adcffd0a0ffa-135b378b.json"
+              "data/raw/2026-09-30T02-44-11-997Z-adcffd0a0ffa-132fa823.json"
             ]
           }
         }
@@ -2298,6 +2420,52 @@
           "id": "DIV:W.3M----------------.FNL-.000100--"
         }
       }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T14:22:00+08:00",
+      "startTimeJst": "2026-09-30T15:22:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Men's Sprint",
+      "phase": "Men's Sprint, 1/8 Finals",
+      "unit": "Men's Sprint, 1/8 Finals - Heat 5",
+      "athletes": [],
+      "athletesEn": [
+        "KANG Shih-feng"
+      ],
+      "opponent": "ANGSUTHASAWIT Jai",
+      "opponentCode": "THA",
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SPRINT------------.8FNL.000500--",
+          "id": "CTR:M.SPRINT------------.8FNL.000500--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -2306,10 +2474,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 39,
+    "resultsOnly": 41,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 49
+    "warnings": 51
   },
   "warnings": [
     {
@@ -2396,6 +2564,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women -48 kg Quarterfinal",
       "row": "JUD:W.48KG--------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men -60 kg Quarterfinal",
+      "row": "JUD:M.60KG--------------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2508,14 +2681,19 @@
       "row": "DIV:W.3M----------------.FNL-.000100--"
     },
     {
-      "code": "PENDING_LATER_UNITS",
-      "row": "JUD|M.66KG--------------",
-      "message": "JUD Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:22 Men's Sprint, 1/8 Finals - Heat 5",
+      "row": "CTR:M.SPRINT------------.8FNL.000500--"
     },
     {
       "code": "PENDING_LATER_UNITS",
       "row": "JUD|M.60KG--------------",
       "message": "JUD Men -60kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|M.66KG--------------",
+      "message": "JUD Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
