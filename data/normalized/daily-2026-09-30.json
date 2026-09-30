@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T08:04:09.817Z",
+  "generatedAt": "2026-09-30T08:14:40.309Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T08:04:09.705Z",
+      "generatedAt": "2026-09-30T08:14:40.182Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1851,7 +1851,7 @@
           "name": "CHIEN Pei-yun",
           "registration": "10587356",
           "result": "-1",
-          "rank": "9",
+          "rank": "11",
           "startTimeTaipei": null
         },
         {
@@ -1896,8 +1896,8 @@
       "athletes": [],
       "athletesEn": [
         "HSU Wei-ling",
-        "TSENG Ya-ni",
-        "CHIEN Pei-yun"
+        "CHIEN Pei-yun",
+        "TSENG Ya-ni"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -3138,14 +3138,14 @@
       "locationName": "AIA Tatami 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "0S1",
-        "opponent": "0",
+        "tpe": "0S2",
+        "opponent": "1S1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
