@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T08:35:03.567Z",
+  "generatedAt": "2026-09-30T08:44:40.625Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T08:35:03.434Z",
+      "generatedAt": "2026-09-30T08:44:40.450Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2178,7 +2178,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2970,7 +2970,7 @@
       "timeNote": {
         "code": "PENDING",
         "clockTaipei": null,
-        "raw": "After Rest, Not Before 16:30"
+        "raw": "Not Before 19:00, Court TBA"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -3019,9 +3019,9 @@
       "startTimeTaipei": "2026-09-30T15:00:00+08:00",
       "startTimeJst": "2026-09-30T16:00:00+09:00",
       "timeNote": {
-        "code": "FOLLOWED_BY",
+        "code": "PENDING",
         "clockTaipei": null,
-        "raw": "Followed by"
+        "raw": "Time TBA"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -3192,14 +3192,14 @@
       "locationName": "AIA Tatami 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "0S2",
+        "opponent": "10S1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
