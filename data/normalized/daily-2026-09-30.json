@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T08:44:40.625Z",
+  "generatedAt": "2026-09-30T09:16:14.984Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T08:44:40.450Z",
+      "generatedAt": "2026-09-30T09:16:14.812Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -577,68 +577,6 @@
       "startTimeTaipei": "2026-09-30T09:00:00+08:00",
       "startTimeJst": "2026-09-30T10:00:00+09:00",
       "timeNote": null,
-      "disciplineCode": "DIV",
-      "sportZh": "跳水",
-      "sportEn": "Diving",
-      "event": "Women's 3m Springboard",
-      "phase": "Women's 3m Springboard Preliminary",
-      "unit": "Women's 3m Springboard Preliminary",
-      "athletes": [],
-      "athletesEn": [
-        "CHEN Barbara",
-        "CHEN Jacqueline"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokyo Aquatics Centre(Tokyo)",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "Centro Acuático",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": null,
-      "tpeEntrants": [
-        {
-          "name": "CHEN Barbara",
-          "registration": "14561657",
-          "result": "165.90",
-          "rank": "9",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "CHEN Jacqueline",
-          "registration": "7958609",
-          "result": "163.35",
-          "rank": "10",
-          "startTimeTaipei": null
-        }
-      ],
-      "tpeRank": "9",
-      "orgCount": 6,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.3M----------------.PREL.000100--",
-          "id": "DIV:W.3M----------------.PREL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
-      "startTimeJst": "2026-09-30T10:00:00+09:00",
-      "timeNote": null,
       "disciplineCode": "SBL",
       "sportZh": "壘球",
       "sportEn": "Softball",
@@ -803,6 +741,50 @@
         "results": {
           "unitId": "W.DOUBLES-----------.8FNL.000200--",
           "id": "TEN:W.DOUBLES-----------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
+      "startTimeJst": "2026-09-30T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "DIV",
+      "sportZh": "跳水",
+      "sportEn": "Diving",
+      "event": "Women's 3m Springboard",
+      "phase": "Women's 3m Springboard Preliminary",
+      "unit": "Women's 3m Springboard Preliminary",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre(Tokyo)",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Centro Acuático",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.3M----------------.PREL.000100--",
+          "id": "DIV:W.3M----------------.PREL.000100--"
         }
       }
     },
@@ -1619,14 +1601,14 @@
       "locationName": "Racing Area B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "19",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "18",
       "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1837,7 +1819,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -1907,7 +1889,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "-4",
         "opponent": null,
@@ -2175,14 +2157,14 @@
       "locationName": "Center Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2670,8 +2652,12 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2705,10 +2691,7 @@
       "phase": "Women's 3m Springboard Final",
       "unit": "Women's 3m Springboard Final",
       "athletes": [],
-      "athletesEn": [
-        "CHEN Jacqueline",
-        "CHEN Barbara"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre(Tokyo)",
@@ -2719,24 +2702,9 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "CHEN Jacqueline",
-          "registration": "7958609",
-          "result": "164.85",
-          "rank": "9",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "CHEN Barbara",
-          "registration": "14561657",
-          "result": "161.55",
-          "rank": "10",
-          "startTimeTaipei": null
-        }
-      ],
-      "tpeRank": "9",
-      "orgCount": 6,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2936,16 +2904,16 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "0",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
-      "tpeMedal": null,
+      "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -3011,57 +2979,6 @@
         "results": {
           "unitId": "X.DOUBLES-----------.8FNL.000100--",
           "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T15:00:00+08:00",
-      "startTimeJst": "2026-09-30T16:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "Time TBA"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": "Mixed Doubles Second Round Match 8",
-      "athletes": [],
-      "athletesEn": [
-        "HSIEH Su-wei",
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
-      "opponentCode": "IND",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "002",
-      "locationName": "Show Court",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.8FNL.000800--",
-          "id": "TEN:X.DOUBLES-----------.8FNL.000800--"
         }
       }
     },
@@ -3218,6 +3135,57 @@
           "id": "JUD:M.60KG--------------.REPF.000100--"
         }
       }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T16:00:00+08:00",
+      "startTimeJst": "2026-09-30T17:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "Time TBA"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": "Mixed Doubles Second Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
+      "opponentCode": "IND",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "002",
+      "locationName": "Show Court",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000800--",
+          "id": "TEN:X.DOUBLES-----------.8FNL.000800--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -3259,11 +3227,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's 3m Springboard Preliminary",
-      "row": "DIV:W.3M----------------.PREL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Game  14",
       "row": "SBL:W.TEAM9-------------.GP--.001400--"
     },
@@ -3276,6 +3239,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 09:00 Women's Doubles Second Round Match 2",
       "row": "TEN:W.DOUBLES-----------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's 3m Springboard Preliminary",
+      "row": "DIV:W.3M----------------.PREL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3484,11 +3452,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Mixed Doubles Second Round Match 8",
-      "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 15:07 Women's Keirin, Final for Gold",
       "row": "CTR:W.KEIRIN------------.FNL-.000100--"
     },
@@ -3501,6 +3464,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 16:00 Men -60 kg Contest for Bronze Medal A",
       "row": "JUD:M.60KG--------------.REPF.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 16:00 Mixed Doubles Second Round Match 8",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
     },
     {
       "code": "PENDING_LATER_UNITS",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T08:57:38.622Z",
+  "generatedAt": "2026-09-30T09:17:44.502Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T08:57:38.438Z",
+      "generatedAt": "2026-09-30T09:17:44.325Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -323,9 +323,13 @@
       "sportEn": "Golf",
       "event": "Women's Individual Stroke Play",
       "phase": "Women's Individual Stroke Play",
-      "unit": null,
+      "unit": "Round 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIEN Pei-yun",
+        "TSENG Ya-ni",
+        "HSU Wei-ling"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -334,29 +338,48 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHIEN Pei-yun",
+          "registration": "10587356",
+          "result": "-1",
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "TSENG Ya-ni",
+          "registration": "8374574",
+          "result": "+1",
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HSU Wei-ling",
+          "registration": "8390832",
+          "result": "-3",
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GLF|W.STROKE------------"
+        "results": {
+          "unitId": "W.STROKE------------.FNL-.000200--",
+          "id": "GLF:W.STROKE------------.FNL-.000200--"
         }
       }
     },
@@ -370,9 +393,13 @@
       "sportEn": "Golf",
       "event": "Women's Team",
       "phase": "Women's Team",
-      "unit": null,
+      "unit": "Round 2",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIEN Pei-yun",
+        "TSENG Ya-ni",
+        "HSU Wei-ling"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -381,29 +408,26 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "2",
+      "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GLF|W.TEAM--------------"
+        "results": {
+          "unitId": "W.TEAM--------------.FNL-.000200--",
+          "id": "GLF:W.TEAM--------------.FNL-.000200--"
         }
       }
     },
@@ -639,6 +663,51 @@
         "results": {
           "unitId": "M.OMNIUM------------.SCR-.000100--",
           "id": "CTR:M.OMNIUM------------.SCR-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T09:00:00+08:00",
+      "startTimeJst": "2026-10-01T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Qualification Series",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 4,
+      "enteredAthletes": [
+        "WU Tsai-chien"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "SAL|M.ILCA7-------------"
         }
       }
     },
@@ -1238,7 +1307,7 @@
       "venue": "Nagoya City Inae Sports Center",
       "venueZh": null,
       "locationCode": "IS1",
-      "locationName": "",
+      "locationName": "ISC  MAT A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "START_LIST",
@@ -1461,51 +1530,6 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T13:10:00+08:00",
-      "startTimeJst": "2026-10-01T14:10:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Qualification Series",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "locationCode": "KY2",
-      "locationName": "Racing Area B",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "WU Tsai-chien"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "SAL|M.ILCA7-------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T14:15:00+08:00",
       "startTimeJst": "2026-10-01T15:15:00+09:00",
       "timeNote": null,
@@ -1602,12 +1626,22 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 17,
-    "entered": 9,
+    "resultsOnly": 19,
+    "entered": 7,
     "unresolvedTbd": 0,
-    "warnings": 25
+    "warnings": 27
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 05:30 Round 2",
+      "row": "GLF:W.STROKE------------.FNL-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 05:30 Round 2",
+      "row": "GLF:W.TEAM--------------.FNL-.000200--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 08:00 Match 1",
