@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T06:48:14.988Z",
+  "generatedAt": "2026-09-30T06:58:39.409Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T06:48:14.803Z",
+      "generatedAt": "2026-09-30T06:58:39.254Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -751,25 +751,25 @@
           "name": "WANG Wei-hsuan",
           "registration": "11704760",
           "result": "-5",
-          "rank": null,
+          "rank": "1",
           "startTimeTaipei": null
         },
         {
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "+1",
-          "rank": null,
+          "rank": "23",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-yao",
           "registration": "905667",
           "result": "+2",
-          "rank": null,
+          "rank": "29",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
