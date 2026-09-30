@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T06:56:11.124Z",
+  "generatedAt": "2026-09-30T07:28:09.405Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T06:56:10.965Z",
+      "generatedAt": "2026-09-30T07:28:09.232Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1600,6 +1600,56 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T10:00:00+08:00",
       "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Qualification Series",
+      "unit": "Race 5",
+      "athletes": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY2",
+      "locationName": "Racing Area B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 18,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.ILCA7-------------.PREL.000500--",
+          "id": "SAL:M.ILCA7-------------.PREL.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
       "timeNote": {
         "code": "PENDING",
         "clockTaipei": null,
@@ -1623,14 +1673,14 @@
       "locationName": "Center Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1775,9 +1825,9 @@
       "unit": "Round 1",
       "athletes": [],
       "athletesEn": [
+        "HSU Wei-ling",
         "CHIEN Pei-yun",
-        "TSENG Ya-ni",
-        "HSU Wei-ling"
+        "TSENG Ya-ni"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1791,28 +1841,28 @@
       "result": null,
       "tpeEntrants": [
         {
+          "name": "HSU Wei-ling",
+          "registration": "8390832",
+          "result": "-2",
+          "rank": "5",
+          "startTimeTaipei": null
+        },
+        {
           "name": "CHIEN Pei-yun",
           "registration": "10587356",
-          "result": "0",
-          "rank": "12",
+          "result": "-1",
+          "rank": "10",
           "startTimeTaipei": null
         },
         {
           "name": "TSENG Ya-ni",
           "registration": "8374574",
-          "result": "0",
-          "rank": "12",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "HSU Wei-ling",
-          "registration": "8390832",
-          "result": "0",
-          "rank": "12",
+          "result": "+1",
+          "rank": "18",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "12",
+      "tpeRank": "5",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1859,12 +1909,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "-3",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "8",
+      "tpeRank": "4",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2125,8 +2175,12 @@
       "locationName": "Center Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2498,10 +2552,10 @@
         "SU Yi-hsuan",
         "HO Yi-fan",
         "KE Hsia-ai",
-        "CHEN Ching-yu",
-        "TU Ya-ting",
         "PAN Yu-ling",
-        "CHU Yi-shan"
+        "CHEN Ching-yu",
+        "CHU Yi-shan",
+        "TU Ya-ting"
       ],
       "opponent": "Thailand",
       "opponentCode": "THA",
@@ -2511,10 +2565,10 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "14",
-        "opponent": "0",
+        "tpe": "22",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2663,7 +2717,7 @@
       "locationName": "Centro Acuático",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -2826,14 +2880,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "10.445",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 3,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2910,9 +2964,9 @@
       "startTimeTaipei": "2026-09-30T15:00:00+08:00",
       "startTimeJst": "2026-09-30T16:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest, Time & Court TBA"
+        "code": "NOT_BEFORE",
+        "clockTaipei": "16:45",
+        "raw": "Not Before 17:45"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -3030,10 +3084,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "11.870",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 4,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3156,7 +3214,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 53,
+    "resultsOnly": 54,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 55
@@ -3281,6 +3339,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 4",
       "row": "SAL:M.ILCA7-------------.PREL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 5",
+      "row": "SAL:M.ILCA7-------------.PREL.000500--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3426,11 +3489,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 16:00 Men -60 kg Contest for Bronze Medal A",
       "row": "JUD:M.60KG--------------.REPF.000100--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "SAL|M.ILCA7-------------",
-      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
