@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T13:56:15.945Z",
+  "generatedAt": "2026-09-30T14:06:18.472Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T13:56:15.749Z",
+      "generatedAt": "2026-09-30T14:06:18.273Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -499,8 +499,8 @@
       "opponentCode": null,
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
+      "locationCode": "TK2",
+      "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,
@@ -514,7 +514,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 1,
+      "unitCount": 2,
       "enteredAthletes": [
         "CHEN Hsin-ya"
       ],
@@ -1275,8 +1275,8 @@
       "opponentCode": null,
       "venue": "Toyohashi Gymnasium",
       "venueZh": null,
-      "locationCode": "TYH",
-      "locationName": "",
+      "locationCode": "TK2",
+      "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": null,
@@ -1290,7 +1290,7 @@
       "note": null,
       "participationState": "TPE_ENTERED",
       "entryLevel": "event",
-      "unitCount": 1,
+      "unitCount": 2,
       "enteredAthletes": [
         "KE Hsiang-shuo"
       ],
