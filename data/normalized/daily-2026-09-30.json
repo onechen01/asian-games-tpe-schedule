@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T09:24:46.541Z",
+  "generatedAt": "2026-09-30T09:34:01.161Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T09:24:46.361Z",
+      "generatedAt": "2026-09-30T09:34:01.022Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -577,6 +577,68 @@
       "startTimeTaipei": "2026-09-30T09:00:00+08:00",
       "startTimeJst": "2026-09-30T10:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "DIV",
+      "sportZh": "跳水",
+      "sportEn": "Diving",
+      "event": "Women's 3m Springboard",
+      "phase": "Women's 3m Springboard Preliminary",
+      "unit": "Women's 3m Springboard Preliminary",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Barbara",
+        "CHEN Jacqueline"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Tokyo Aquatics Centre(Tokyo)",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Centro Acuático",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHEN Barbara",
+          "registration": "14561657",
+          "result": "165.90",
+          "rank": "9",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHEN Jacqueline",
+          "registration": "7958609",
+          "result": "163.35",
+          "rank": "10",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "9",
+      "orgCount": 6,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.3M----------------.PREL.000100--",
+          "id": "DIV:W.3M----------------.PREL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
+      "startTimeJst": "2026-09-30T10:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "SBL",
       "sportZh": "壘球",
       "sportEn": "Softball",
@@ -741,50 +803,6 @@
         "results": {
           "unitId": "W.DOUBLES-----------.8FNL.000200--",
           "id": "TEN:W.DOUBLES-----------.8FNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
-      "startTimeJst": "2026-09-30T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "DIV",
-      "sportZh": "跳水",
-      "sportEn": "Diving",
-      "event": "Women's 3m Springboard",
-      "phase": "Women's 3m Springboard Preliminary",
-      "unit": "Women's 3m Springboard Preliminary",
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Tokyo Aquatics Centre(Tokyo)",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "Centro Acuático",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.3M----------------.PREL.000100--",
-          "id": "DIV:W.3M----------------.PREL.000100--"
         }
       }
     },
@@ -2691,7 +2709,10 @@
       "phase": "Women's 3m Springboard Final",
       "unit": "Women's 3m Springboard Final",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Jacqueline",
+        "CHEN Barbara"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Tokyo Aquatics Centre(Tokyo)",
@@ -2702,9 +2723,24 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "CHEN Jacqueline",
+          "registration": "7958609",
+          "result": "164.85",
+          "rank": "9",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHEN Barbara",
+          "registration": "14561657",
+          "result": "161.55",
+          "rank": "10",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "9",
+      "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2959,7 +2995,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -3227,6 +3263,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's 3m Springboard Preliminary",
+      "row": "DIV:W.3M----------------.PREL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Game  14",
       "row": "SBL:W.TEAM9-------------.GP--.001400--"
     },
@@ -3239,11 +3280,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 09:00 Women's Doubles Second Round Match 2",
       "row": "TEN:W.DOUBLES-----------.8FNL.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：DIV 09:00 Women's 3m Springboard Preliminary",
-      "row": "DIV:W.3M----------------.PREL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
