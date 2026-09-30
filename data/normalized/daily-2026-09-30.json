@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T04:25:17.691Z",
+  "generatedAt": "2026-09-30T04:43:23.886Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T04:25:17.586Z",
+      "generatedAt": "2026-09-30T04:43:23.715Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -771,7 +771,7 @@
         "CHAN Hao-ching",
         "WU Fang-hsien"
       ],
-      "opponent": "ALUDO Stefi / MADIS Tennielle",
+      "opponent": "ALUDO Stefi/MADIS Tennielle",
       "opponentCode": "PHI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -786,7 +786,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -987,10 +987,10 @@
       "locationName": "Aichi Sky Expo Esport Competition Room M5",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "2",
+        "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1307,7 +1307,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "10",
@@ -1728,25 +1728,25 @@
           "name": "TSENG Ya-ni",
           "registration": "8374574",
           "result": "-1",
-          "rank": "1",
+          "rank": "2",
           "startTimeTaipei": null
         },
         {
           "name": "CHIEN Pei-yun",
           "registration": "10587356",
           "result": "+1",
-          "rank": "19",
+          "rank": "18",
           "startTimeTaipei": null
         },
         {
           "name": "HSU Wei-ling",
           "registration": "8390832",
           "result": "+1",
-          "rank": "19",
+          "rank": "18",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1779,8 +1779,8 @@
       "unit": "Round 1",
       "athletes": [],
       "athletesEn": [
-        "TSENG Ya-ni",
         "HSU Wei-ling",
+        "TSENG Ya-ni",
         "CHIEN Pei-yun"
       ],
       "opponent": null,
@@ -1798,7 +1798,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "6",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1950,14 +1950,14 @@
       "locationName": "Court 6",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1997,7 +1997,7 @@
         "HSIEH Su-wei",
         "LIANG En-shuo"
       ],
-      "opponent": "JEONG Boyoung / PARK Sohyun",
+      "opponent": "JEONG Boyoung/PARK Sohyun",
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2007,12 +2007,12 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
-        "tpe": "WO",
+        "tpe": "0",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2059,7 +2059,7 @@
       "locationName": "Center Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2102,7 +2102,7 @@
         "HO Chenjui",
         "HSU Yu-hsiou"
       ],
-      "opponent": "BHAMBRI Yuki / SURESH Dhakshineswar",
+      "opponent": "BHAMBRI Yuki/SURESH Dhakshineswar",
       "opponentCode": "IND",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2156,8 +2156,12 @@
       "locationName": "Ring 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2476,7 +2480,7 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RESCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2565,7 +2569,7 @@
         "CHAN Hao-ching",
         "HO Chenjui"
       ],
-      "opponent": "ENKHJARGAL Sonom-yanzum / PUREVDORJ Undrakh",
+      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2616,7 +2620,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "BHOSALE Rutuja / BHAMBRI Yuki",
+      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
       "opponentCode": "IND",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2754,6 +2758,58 @@
           "id": "CTR:M.SPRINT------------.8FNL.000500--"
         }
       }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "startTimeJst": "2026-09-30T16:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
+      "phase": "Identity V - Asian Games Version Semi-finals",
+      "unit": "Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHENG Kai-sheng",
+        "CHEN Kuang-yeh",
+        "CHU Tang-yao",
+        "TANG Sheng-chun",
+        "CHANG Chun-ming",
+        "CHUANG Po-chun",
+        "SU Bin-cheng"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "",
+      "venueZh": null,
+      "locationCode": "EL1",
+      "locationName": "Aichi Sky Expo Hall D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.IDV---------------.SFNL.000200--",
+          "id": "ELS:O.IDV---------------.SFNL.000200--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -2762,10 +2818,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 46,
+    "resultsOnly": 47,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 54
+    "warnings": 55
   },
   "warnings": [
     {
@@ -2999,6 +3055,11 @@
       "row": "CTR:M.SPRINT------------.8FNL.000500--"
     },
     {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:00 Match 2",
+      "row": "ELS:O.IDV---------------.SFNL.000200--"
+    },
+    {
       "code": "PENDING_LATER_UNITS",
       "row": "SAL|M.ILCA7-------------",
       "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
@@ -3012,11 +3073,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|M.SPRINT------------",
       "message": "CTR Men's Sprint 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ELS|O.IDV---------------",
-      "message": "ELS 1v4 asymmetrical survival game [Identity V - Asian Games Version] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -3037,6 +3093,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "JUD|M.66KG--------------",
       "message": "JUD Men -66kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "ELS|O.IDV---------------",
+      "message": "ELS 1v4 asymmetrical survival game [Identity V - Asian Games Version] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
