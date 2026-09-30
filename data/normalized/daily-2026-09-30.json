@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T10:15:50.702Z",
+  "generatedAt": "2026-09-30T10:24:35.567Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T10:15:50.563Z",
+      "generatedAt": "2026-09-30T10:24:35.395Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -771,7 +771,7 @@
         "CHAN Hao-ching",
         "WU Fang-hsien"
       ],
-      "opponent": "ALUDO Stefi/MADIS Tennielle",
+      "opponent": "ALUDO Stefi / MADIS Tennielle",
       "opponentCode": "PHI",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -786,7 +786,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1680,7 +1680,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2073,7 +2073,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2113,7 +2113,7 @@
         "HSIEH Su-wei",
         "LIANG En-shuo"
       ],
-      "opponent": "JEONG Boyoung/PARK Sohyun",
+      "opponent": "JEONG Boyoung / PARK Sohyun",
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2123,12 +2123,12 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
+        "tpe": "WO",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2182,7 +2182,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2565,7 +2565,7 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "22",
         "opponent": "1",
@@ -2662,7 +2662,7 @@
         "HO Chenjui",
         "HSU Yu-hsiou"
       ],
-      "opponent": "BHAMBRI Yuki/SURESH Dhakshineswar",
+      "opponent": "BHAMBRI Yuki / SURESH Dhakshineswar",
       "opponentCode": "IND",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2987,7 +2987,7 @@
         "CHAN Hao-ching",
         "HO Chenjui"
       ],
-      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
+      "opponent": "ENKHJARGAL Sonom-yanzum / PUREVDORJ Undrakh",
       "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -3192,7 +3192,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
+      "opponent": "BHOSALE Rutuja / BHAMBRI Yuki",
       "opponentCode": "IND",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
