@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-30T07:30:00.772Z",
+  "generatedAt": "2026-09-30T09:26:37.789Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-30T07:30:00.768Z",
+  "standingsUpdatedAt": "2026-09-30T09:26:37.786Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 10,
-    "bronze": 25,
-    "total": 38
+    "bronze": 26,
+    "total": 39
   },
   "officialCounts": {
     "gold": 3,
     "silver": 10,
-    "bronze": 25,
-    "total": 38
+    "bronze": 26,
+    "total": 39
   },
   "missing": {
     "gold": 0,
@@ -707,6 +707,28 @@
         "CHANG Cheng-Wei",
         "CHEN Chieh-Lun",
         "YEN Tzu-Hsiang"
+      ],
+      "rank": "3"
+    },
+    {
+      "awardId": "ELS|O.IDV---------------|ELSOIDV--------TPE01",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "event": "1v4 asymmetrical survival game [Identity V - Asian Games Version]",
+      "phase": "Identity V - Asian Games Version Semi-finals",
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "resultId": "ELS:O.IDV---------------.SFNL.000200--",
+      "unitId": "O.IDV---------------.SFNL.000200--",
+      "athletes": [
+        "CHENG Kai-sheng",
+        "CHEN Kuang-yeh",
+        "CHU Tang-yao",
+        "TANG Sheng-chun",
+        "CHANG Chun-ming",
+        "CHUANG Po-chun",
+        "SU Bin-cheng"
       ],
       "rank": "3"
     }

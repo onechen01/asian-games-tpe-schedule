@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T09:16:14.984Z",
+  "generatedAt": "2026-09-30T09:24:46.541Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T09:16:14.812Z",
+      "generatedAt": "2026-09-30T09:24:46.361Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2904,7 +2904,7 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "2",
@@ -3109,7 +3109,7 @@
       "locationName": "AIA Tatami 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0S2",
         "opponent": "10S1",
@@ -3197,7 +3197,7 @@
     "resultsOnly": 54,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 54
   },
   "warnings": [
     {
@@ -3469,11 +3469,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 16:00 Mixed Doubles Second Round Match 8",
       "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "ELS|O.IDV---------------",
-      "message": "ELS 1v4 asymmetrical survival game [Identity V - Asian Games Version] 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
