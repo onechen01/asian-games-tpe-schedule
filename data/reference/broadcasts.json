@@ -3805,7 +3805,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-29T16:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-29T16:06:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -3819,7 +3819,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-29T16:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-29T16:06:00+08:00",
       "disciplineCode": "WLF",
       "channelId": "105",
       "channelName": "愛爾達體育2台",
@@ -3872,7 +3872,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-29T19:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-29T19:43:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -3992,28 +3992,6 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T07:50:00+08:00",
-      "disciplineCode": "SBL",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
-      "isLive": true,
-      "title": "亞運 中華VS中國 壘球 預賽 9/30(原音-原9/29保留比賽) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T10:05:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "opponentCodes": [
-          "CHN"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-30T07:55:00+08:00",
       "disciplineCode": "ARC",
       "channelId": "110",
@@ -4059,6 +4037,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T08:50:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華VS中國 壘球 預賽 9/30(原音-原9/29保留比賽) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-09-30T09:55:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-30T09:55:00+08:00",
       "disciplineCode": "JUD",
       "channelId": "101",
@@ -4068,7 +4068,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T13:25:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T13:28:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -4183,29 +4183,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T13:20:00+08:00",
-      "disciplineCode": "SBL",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
-      "isLive": true,
-      "title": "亞運 中華VS泰國 壘球 預賽 9/30(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T14:50:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "opponentCodes": [
-          "THA"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T13:25:00+08:00",
+      "broadcastStartTimeTaipei": "2026-09-30T13:28:00+08:00",
       "disciplineCode": "ARC",
       "channelId": "101",
       "channelName": "愛爾達體育1台",
@@ -4219,6 +4197,28 @@
       "matchHint": {
         "phaseKeywords": [
           "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T13:35:00+08:00",
+      "disciplineCode": "SBL",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 中華VS泰國 壘球 預賽 9/30(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-09-30T15:05:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "THA"
         ]
       }
     },
@@ -4250,6 +4250,29 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T15:55:00+08:00",
+      "disciplineCode": "JUD",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 楊勇緯/林真豪 柔道 女48/52/男60/66公斤級決賽 9/30 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-09-30T18:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Chen-hao",
+          "YANG Yung-wei"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-09-30T18:30:00+08:00",
       "disciplineCode": "EQU",
       "channelId": "101",
@@ -4266,6 +4289,24 @@
           "Final"
         ]
       }
+    },
+    {
+      "date": "2026-10-01",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-01T05:25:00+08:00",
+      "disciplineCode": "GLF",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 中華隊 高爾夫 男/女個人/團體第二輪 10/1(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-01T16:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
     },
     {
       "date": "2026-10-01",
@@ -4316,28 +4357,6 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-01T08:00:00+08:00",
-      "disciplineCode": "TKW",
-      "channelId": "540",
-      "channelName": "愛爾達體育MAX1台",
-      "isLive": true,
-      "title": "亞運 陳歆雅 跆拳道 女子個人品勢四強 10/1 LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-10-01T10:30:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "CHEN Hsin-ya"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-01T09:30:00+08:00",
       "disciplineCode": "WRE",
       "channelId": "542",
@@ -4365,7 +4384,7 @@
       "channelId": "115",
       "channelName": "愛爾達體育4台",
       "isLive": true,
-      "title": "亞運 中華隊 柔道 男子73/81/女子57/63/70公斤級預賽/複賽 10/2 LIVE",
+      "title": "亞運 中華隊 柔道 男子73/81/女子57/63/70公斤級預賽/複賽 10/1 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-30",
@@ -4474,6 +4493,24 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T05:25:00+08:00",
+      "disciplineCode": "GLF",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 中華隊 高爾夫 男/女個人/團體第三輪 10/2(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-02T16:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-02T09:30:00+08:00",
       "disciplineCode": "WRE",
       "channelId": "541",
@@ -4563,6 +4600,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T12:00:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 林郁婷 拳擊 女子51/60/75/男子55/70/90公斤級決賽 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-02T14:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Yu-ting"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-02T12:55:00+08:00",
       "disciplineCode": "ARC",
       "channelId": "105",
@@ -4603,6 +4662,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T16:25:00+08:00",
+      "disciplineCode": "BOX",
+      "channelId": "105",
+      "channelName": "愛爾達體育2台",
+      "isLive": true,
+      "title": "亞運 陳念琴 拳擊 女子54/60/男子60/80/90公斤以上級決賽 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-02T18:20:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "CHEN Nien-chin"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-02T16:55:00+08:00",
       "disciplineCode": "GRY",
       "channelId": "101",
@@ -4637,6 +4718,28 @@
       "broadcastEndTimeTaipei": "2026-10-03T16:30:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T08:00:00+08:00",
+      "disciplineCode": "JJI",
+      "channelId": "545",
+      "channelName": "愛爾達體育MAX6台",
+      "isLive": true,
+      "title": "亞運 沈玉沁 柔術 女子63/男子85公斤級預賽/複賽/決賽 10/3(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-03T12:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "SHEN Yu-chin"
+        ]
+      }
     },
     {
       "date": "2026-10-03",
