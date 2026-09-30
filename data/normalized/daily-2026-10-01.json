@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T10:05:30.187Z",
+  "generatedAt": "2026-09-30T10:17:20.335Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T10:05:30.001Z",
+      "generatedAt": "2026-09-30T10:17:20.184Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -326,9 +326,9 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
+        "HSU Wei-ling",
         "CHIEN Pei-yun",
-        "TSENG Ya-ni",
-        "HSU Wei-ling"
+        "TSENG Ya-ni"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -342,28 +342,28 @@
       "result": null,
       "tpeEntrants": [
         {
+          "name": "HSU Wei-ling",
+          "registration": "8390832",
+          "result": "-3",
+          "rank": "3",
+          "startTimeTaipei": null
+        },
+        {
           "name": "CHIEN Pei-yun",
           "registration": "10587356",
           "result": "-1",
-          "rank": null,
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
           "name": "TSENG Ya-ni",
           "registration": "8374574",
           "result": "+1",
-          "rank": null,
-          "startTimeTaipei": null
-        },
-        {
-          "name": "HSU Wei-ling",
-          "registration": "8390832",
-          "result": "-3",
-          "rank": null,
+          "rank": "18",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
