@@ -4454,7 +4454,7 @@
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 吉爾吉斯VS中華 排球 男子9-16排名賽 10/2(原音) LIVE",
+      "title": "亞運 吉爾吉斯VS中華 排球 男子9-16排名賽 10/1(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-30",
@@ -4476,7 +4476,7 @@
       "channelId": "105",
       "channelName": "愛爾達體育2台",
       "isLive": true,
-      "title": "亞運 張正韋/陳界倫 射箭 男子個人複合弓八強/四強/決賽 10/1 LIVE",
+      "title": "亞運 張正韋/陳界綸 射箭 男子個人複合弓八強/四強/決賽 10/1 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-30",
@@ -4484,7 +4484,8 @@
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
-          "CHANG Cheng-wei"
+          "CHANG Cheng-wei",
+          "CHEN Chieh-lun"
         ]
       }
     },
