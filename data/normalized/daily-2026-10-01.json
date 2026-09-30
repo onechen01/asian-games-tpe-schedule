@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T11:25:34.722Z",
+  "generatedAt": "2026-09-30T11:56:29.816Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T11:25:34.538Z",
+      "generatedAt": "2026-09-30T11:56:29.626Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -487,51 +487,6 @@
       "startTimeTaipei": "2026-10-01T08:00:00+08:00",
       "startTimeJst": "2026-10-01T09:00:00+09:00",
       "timeNote": null,
-      "disciplineCode": "JJI",
-      "sportZh": "柔術",
-      "sportEn": "Jiu Jitsu",
-      "event": "Men -69kg",
-      "phase": "Men -69kg Elimination Round of 64",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "locationCode": "JJ1",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 32,
-      "enteredAthletes": [
-        "HSU Ching-chih"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JJI|M.69KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T08:00:00+08:00",
-      "startTimeJst": "2026-10-01T09:00:00+09:00",
-      "timeNote": null,
       "disciplineCode": "TKW",
       "sportZh": "跆拳道",
       "sportEn": "Taekwondo",
@@ -708,6 +663,52 @@
       "sources": {
         "entries": {
           "eventId": "SAL|M.ILCA7-------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T09:10:00+08:00",
+      "startTimeJst": "2026-10-01T10:10:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "JJI",
+      "sportZh": "柔術",
+      "sportEn": "Jiu Jitsu",
+      "event": "Men -69kg",
+      "phase": "Men -69kg Elimination Round of 32",
+      "unit": "Men -69kg Elimination Round of 32",
+      "athletes": [],
+      "athletesEn": [
+        "HSU Ching-chih"
+      ],
+      "opponent": "ABDYMANAPOV Argen",
+      "opponentCode": "KGZ",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "JJ1",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.69KG--------------.R32-.001200--",
+          "id": "JJI:M.69KG--------------.R32-.001200--"
         }
       }
     },
@@ -1626,10 +1627,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 19,
-    "entered": 7,
+    "resultsOnly": 20,
+    "entered": 6,
     "unresolvedTbd": 0,
-    "warnings": 27
+    "warnings": 29
   },
   "warnings": [
     {
@@ -1656,6 +1657,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 09:00 Men's Omnium, Scratch Race 1/4",
       "row": "CTR:M.OMNIUM------------.SCR-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JJI 09:10 Men -69kg Elimination Round of 32",
+      "row": "JJI:M.69KG--------------.R32-.001200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1726,6 +1732,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:48 Women's Madison, Final",
       "row": "CTR:W.MADISON-----------.FNL-.000100--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JJI|M.69KG--------------",
+      "message": "JJI Men -69kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
