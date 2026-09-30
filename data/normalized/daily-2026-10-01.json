@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T21:34:35.003Z",
+  "generatedAt": "2026-09-30T21:54:39.361Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T21:34:34.823Z",
+      "generatedAt": "2026-09-30T21:54:39.181Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -308,7 +308,7 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 252
+      "events": 246
     }
   },
   "date": "2026-10-01",
@@ -1956,7 +1956,7 @@
     "resultsOnly": 31,
     "entered": 1,
     "unresolvedTbd": 0,
-    "warnings": 45
+    "warnings": 44
   },
   "warnings": [
     {
@@ -2148,11 +2148,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "WRE|W.WR62KG------------",
       "message": "WRE Women's Wrestling 62kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "EQU|O.JUMPTEAM----------",
-      "message": "EQU Jumping Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
