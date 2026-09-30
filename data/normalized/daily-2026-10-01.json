@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:55:45.741Z",
+  "generatedAt": "2026-09-30T23:04:50.794Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T22:55:45.556Z",
+      "generatedAt": "2026-09-30T23:04:50.645Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -352,14 +352,14 @@
           "name": "CHIEN Pei-yun",
           "registration": "10587356",
           "result": "-1",
-          "rank": "9",
+          "rank": "11",
           "startTimeTaipei": null
         },
         {
           "name": "TSENG Ya-ni",
           "registration": "8374574",
           "result": "+1",
-          "rank": "17",
+          "rank": "18",
           "startTimeTaipei": null
         }
       ],
@@ -397,8 +397,8 @@
       "athletes": [],
       "athletesEn": [
         "HSU Wei-ling",
-        "CHIEN Pei-yun",
-        "TSENG Ya-ni"
+        "TSENG Ya-ni",
+        "CHIEN Pei-yun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1669,7 +1669,7 @@
       "unit": "Compound Men's Individual Quarterfinal",
       "athletes": [],
       "athletesEn": [
-        "CHANG Cheng-wei"
+        "CHANG Cheng-Wei"
       ],
       "opponent": "LIU Jinyi",
       "opponentCode": "CHN",
