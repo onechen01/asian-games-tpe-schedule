@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:07:47.420Z",
+  "generatedAt": "2026-09-30T04:10:00.192Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-29T22:07:47.221Z",
+      "generatedAt": "2026-09-30T04:10:00.037Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -302,6 +302,53 @@
   },
   "date": "2026-10-02",
   "rows": [
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T06:00:00+08:00",
+      "startTimeJst": "2026-10-02T07:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "GLF",
+      "sportZh": "高爾夫",
+      "sportEn": "Golf",
+      "event": "Men's Individual Stroke Play",
+      "phase": "Men's Individual Stroke Play",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kasugai Country Club East Course",
+      "venueZh": null,
+      "locationCode": "CCE",
+      "locationName": "Kasugai Country Club East Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHAN Shih-chang",
+        "HUNG Chien-yao",
+        "WANG Wei-hsuan"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GLF|M.STROKE------------"
+        }
+      }
+    },
     {
       "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T06:00:00+08:00",
@@ -1347,7 +1394,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/BOX/results/W.65KG--------------.SFNL.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-29T22-01-36-795Z-18c2baea0cb7-de0b108c.json"
+              "data/raw/2026-09-30T04-02-01-214Z-18c2baea0cb7-41bc70ba.json"
             ]
           }
         }
@@ -1410,7 +1457,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 8,
-    "entered": 15,
+    "entered": 16,
     "unresolvedTbd": 0,
     "warnings": 13
   },
