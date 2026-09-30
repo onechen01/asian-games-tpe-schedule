@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T04:10:00.192Z",
+  "generatedAt": "2026-09-30T07:10:16.704Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-30T04:10:00.037Z",
+      "generatedAt": "2026-09-30T07:10:16.500Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -590,51 +590,6 @@
       "disciplineCode": "WRE",
       "sportZh": "角力",
       "sportEn": "Wrestling",
-      "event": "Women's Wrestling 50kg",
-      "phase": "Women's Wrestling 50kg Qualifications",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
-      "venueZh": null,
-      "locationCode": "ISC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "LIN Yi-hui"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "WRE|W.WR50KG------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T09:30:00+08:00",
-      "startTimeJst": "2026-10-02T10:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "WRE",
-      "sportZh": "角力",
-      "sportEn": "Wrestling",
       "event": "Women's Wrestling 76kg",
       "phase": "Women's Wrestling 76kg Qualifications",
       "unit": null,
@@ -1022,6 +977,125 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:30:00+08:00",
+      "startTimeJst": "2026-10-02T11:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "HOC",
+      "sportZh": "曲棍球",
+      "sportEn": "Hockey",
+      "event": "Women",
+      "phase": "Women Classification-2 (5th-8th)",
+      "unit": "Women Classification-2 (7th-8th)",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Yu-chiu",
+        "TSAI Chen-wei",
+        "LIAO Pei-shan",
+        "HUANG Pei-Lun",
+        "CHEN Ting-Chun",
+        "PU AGUSTIN Linmey",
+        "FAN Hui-Yun",
+        "LAI Ya-Han",
+        "CHANG Tzu-ling",
+        "MAO I-Hsuan",
+        "HUANG Yu-ting",
+        "ZHU Yi-Chun",
+        "LO Tzu-Yin",
+        "WANG Shih-Han",
+        "YE Shu-Qin",
+        "CHANG Chih-Hsien",
+        "WANG Wen-Tsen",
+        "YAO Wen-Xuan"
+      ],
+      "opponent": "Indonesia",
+      "opponentCode": "INA",
+      "venue": "Gifu Prefectural Green Stadium(Gifu)",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Gifu Prefectural Green Stadium",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM11------------.SF52.000200--",
+          "id": "HOC:W.TEAM11------------.SF52.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T12:15:00+08:00",
+      "startTimeJst": "2026-10-02T13:15:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "sportEn": "Boxing",
+      "event": "Women's 60kg",
+      "phase": "Women's 60KG Final",
+      "unit": "Women's 60KG - Final",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nishio Gymnasium",
+      "venueZh": null,
+      "locationCode": "NIS",
+      "locationName": "Ring 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.60KG--------------.FNL-.000100--",
+          "id": "BOX:W.60KG--------------.FNL-.000100--",
+          "qualification": {
+            "kind": "previous-results-qualified",
+            "previousUnitIds": [
+              "W.60KG--------------.SFNL.000100--"
+            ],
+            "urls": [
+              "https://back.results.asiangames2026.org/s/AG2026/en/BOX/results/W.60KG--------------.SFNL.000100--"
+            ],
+            "rawFiles": [
+              "data/raw/2026-09-30T07-04-28-051Z-932b49bc99c2-5e1151f5.json"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T12:30:00+08:00",
       "startTimeJst": "2026-10-02T13:30:00+09:00",
       "timeNote": null,
@@ -1394,7 +1468,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/BOX/results/W.65KG--------------.SFNL.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-30T04-02-01-214Z-18c2baea0cb7-41bc70ba.json"
+              "data/raw/2026-09-30T07-02-09-580Z-18c2baea0cb7-82c7de18.json"
             ]
           }
         }
@@ -1456,10 +1530,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 8,
-    "entered": 16,
+    "resultsOnly": 10,
+    "entered": 15,
     "unresolvedTbd": 0,
-    "warnings": 13
+    "warnings": 16
   },
   "warnings": [
     {
@@ -1486,6 +1560,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:30 Men's Kayak Cross - Individual - Individual",
       "row": "CSL:M.X1----------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：HOC 10:30 Women Classification-2 (7th-8th)",
+      "row": "HOC:W.TEAM11------------.SF52.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BOX 12:15 Women's 60KG - Final",
+      "row": "BOX:W.60KG--------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1526,6 +1610,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|M.RTEAM-------------",
       "message": "ARC Recurve Men's Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "HOC|W.TEAM11------------",
+      "message": "HOC Women 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
