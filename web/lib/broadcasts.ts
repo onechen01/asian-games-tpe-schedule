@@ -13,9 +13,14 @@ export type Broadcast = {
   matchLevel:'unit'|'discipline';
   matchHint?:{ athleteNames?:string[]; opponentCodes?:string[]; opponentNames?:string[];
     phaseKeywords?:string[]; eventKeywords?:string[];
-    courtSession?:{locationLabel:string;roundKeyword:string;sourceSessionLabel:string} };
+    courtSession?:{locationLabel:string;roundKeyword:string;sourceSessionLabel:string};
+    sessionScopes?:SessionScope[] };
 };
 export type Broadcasts = { records:Broadcast[] };
+export type SessionScope = {
+  gender?:'MEN'|'WOMEN'; eventFamily?:'INDIVIDUAL'|'TEAM'; weightKg?:number;
+  roundNumber?:number; stage?:'ELIMINATION_SESSION';
+};
 
 const isRecord = (value:unknown):value is Broadcast => {
   const r = value as Broadcast;
@@ -135,13 +140,51 @@ const rowPhaseFamilies = (row:MatchRow)=>{
 // unless the title itself contains an explicit event marker; only two explicit, incompatible
 // families may trigger the conflict veto below.
 const titleEventFamilies = (r:Broadcast)=>familiesIn(r.title,EVENT_FAMILIES,'title');
+const titlePhaseFamilies = (r:Broadcast)=>{
+  const families=familiesIn(r.title,PHASE_FAMILIES,'title');
+  // "preliminaries/repechage" describes a whole combat-sport session, not one exact bracket
+  // phase. Its structured scopes below still constrain gender, weight and allowed stages; only
+  // the false PRELIM-vs-QF veto is neutralised. A plain, exact "preliminaries" title is unchanged.
+  if (r.matchHint?.sessionScopes?.some(scope=>scope.stage==='ELIMINATION_SESSION')) {
+    families.delete('PRELIM');
+  }
+  return families;
+};
 // Two non-empty family sets that share nothing are an explicit mismatch. Either side being
 // unrecognised (empty) leaves nothing to compare, so nothing is vetoed.
 const explicitConflict = (a:Set<string>, b:Set<string>)=>
   a.size>0 && b.size>0 && ![...a].some(f=>b.has(f));
 const hasExplicitConflict = (r:Broadcast, row:MatchRow)=>
   explicitConflict(titleEventFamilies(r), familiesIn(row.event,EVENT_FAMILIES,'row'))
-  || explicitConflict(familiesIn(r.title,PHASE_FAMILIES,'title'), rowPhaseFamilies(row));
+  || explicitConflict(titlePhaseFamilies(r), rowPhaseFamilies(row));
+
+const rowGender = (row:MatchRow):SessionScope['gender']|null => {
+  const text=`${row.event??''} ${row.phase??''}`;
+  if (/\bWomen(?:'s)?\b/i.test(text)) return 'WOMEN';
+  if (/\bMen(?:'s)?\b/i.test(text)) return 'MEN';
+  return null;
+};
+const rowWeightKg = (row:MatchRow)=>{
+  const hit=/\b(\d+(?:\.\d+)?)\s*kg\b/i.exec(`${row.event??''} ${row.phase??''}`);
+  return hit ? Number(hit[1]) : null;
+};
+const isEliminationSessionRow = (row:MatchRow)=>{
+  const text=`${row.phase??''} ${row.unit??''}`;
+  return /\bQualifications?\b|\bPreliminar|\bElimination\b|\bRound of (?:64|32|16)\b|\b(?:Quarter-?finals?|1\/4 Finals?)\b|\bSemi-?finals?\b|\bRepechage\b/i.test(text)
+    && !/\b(?:Gold|Bronze) Medal\b/i.test(text);
+};
+const matchesSessionScope = (row:MatchRow,scope:SessionScope)=>{
+  const completeGolf=!!scope.gender&&!!scope.eventFamily&&scope.roundNumber!==undefined;
+  const completeCombat=!!scope.gender&&scope.weightKg!==undefined&&scope.stage==='ELIMINATION_SESSION';
+  if (!completeGolf&&!completeCombat) return false;
+  if (scope.gender && rowGender(row)!==scope.gender) return false;
+  if (scope.eventFamily && !familiesIn(row.event,EVENT_FAMILIES,'row').has(scope.eventFamily)) return false;
+  if (scope.weightKg!==undefined && rowWeightKg(row)!==scope.weightKg) return false;
+  if (scope.roundNumber!==undefined
+    && !new RegExp(`\\bRound\\s+${scope.roundNumber}\\b`,'i').test(`${row.phase??''} ${row.unit??''}`)) return false;
+  if (scope.stage==='ELIMINATION_SESSION' && !isEliminationSessionRow(row)) return false;
+  return true;
+};
 
 const sameLabel = (a:string,b:string)=>a.trim().toLowerCase() === b.trim().toLowerCase();
 const anchorInsideWindow = (r:Broadcast,chain:CourtSessionChain)=>{
@@ -184,6 +227,17 @@ function matchesDirectly(r:Broadcast, row:MatchRow, chains:CourtSessionChain[]):
   if (courtSession!==null) return courtSession;
   if (hasExplicitConflict(r,row)) return false;
   const hint = r.matchHint ?? {};
+  if (hint.sessionScopes?.length) {
+    if (!hint.sessionScopes.some(scope=>matchesSessionScope(row,scope))) return false;
+    if (hint.athleteNames?.length) {
+      const names=[...(row.athletesEn??[]),...(row.enteredAthletes??[])].map(key);
+      if (!hint.athleteNames.some(name=>names.includes(key(name)))) return false;
+    }
+    // Explicit structured scope is strong evidence on its own. It intentionally supports a
+    // programme split into later broadcast segments after the competition's canonical start;
+    // time alone still never creates a match, and delayed programmes remain excluded.
+    return r.isLive!==false;
+  }
   if (hint.opponentCodes?.length) return !!row.opponentCode && hint.opponentCodes.includes(row.opponentCode);
   if (hint.athleteNames?.length) {
     const names = [...(row.athletesEn ?? []), ...(row.enteredAthletes ?? [])].map(key);
@@ -199,7 +253,7 @@ function matchesDirectly(r:Broadcast, row:MatchRow, chains:CourtSessionChain[]):
   // the shared tables don't know, e.g. "Round 2") or the shared PHASE_FAMILIES recognised
   // directly in the title — the same table the veto above already checked for conflicts, so
   // one alias list serves both. Neither is required to know about the other's vocabulary.
-  const sharedPhase = familiesIn(r.title,PHASE_FAMILIES,'title');
+  const sharedPhase = titlePhaseFamilies(r);
   const rowPhase = rowPhaseFamilies(row);
   const phaseMatch = hits(hint.phaseKeywords, row.phase)
     || (sharedPhase.size>0 && rowPhase.size>0 && [...sharedPhase].some(f=>rowPhase.has(f)));

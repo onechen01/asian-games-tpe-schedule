@@ -14,10 +14,17 @@ export type BroadcastRecord = {
   channelId:string|null; channelName:string|null; isLive:boolean|null;
   sourceUrl:string|null; capturedAt:string|null; matchLevel:'unit'|'discipline';
   matchHint:{ opponentCodes?:string[]; athleteNames?:string[]; phaseKeywords?:string[]; eventKeywords?:string[];
-    courtSession?:CourtSessionHint };
+    courtSession?:CourtSessionHint; sessionScopes?:SessionScope[] };
 };
 export type CourtSessionHint = {
   locationLabel:string; roundKeyword:string; sourceSessionLabel:string;
+};
+// A provider may explicitly describe one programme as covering several event scopes. Each scope
+// is conjunctive, while the array is disjunctive: e.g. women's 48kg OR women's 52kg, never the
+// unsafe cross product of every gender and weight mentioned anywhere in the title.
+export type SessionScope = {
+  gender?:'MEN'|'WOMEN'; eventFamily?:'INDIVIDUAL'|'TEAM'; weightKg?:number;
+  roundNumber?:number; stage?:'ELIMINATION_SESSION';
 };
 export type Unresolved = { time:string|null; title:string; reason:string };
 
@@ -29,7 +36,8 @@ export function preserveVerifiedMatchHints(next:BroadcastRecord[],previous:Broad
   const verified = new Map(previous
     .filter(r=>r.matchHint.eventKeywords?.length)
     .map(r=>[recordIdentity(r),r.matchHint]));
-  return next.map(r=>r.matchHint.eventKeywords?.length || r.matchHint.courtSession ? r
+  return next.map(r=>r.matchHint.eventKeywords?.length || r.matchHint.courtSession
+    || r.matchHint.sessionScopes?.length ? r
     : verified.has(recordIdentity(r)) ? {...r,matchHint:verified.get(recordIdentity(r))!} : r);
 }
 
@@ -87,6 +95,49 @@ export const phaseHint = (title:string)=>{
   const words = PHASE_WORDS.filter(([pattern])=>pattern.test(title)).flatMap(([,keys])=>keys);
   return words.length ? [...new Set(words)] : [];
 };
+
+const chineseRound = (value:string):number|null => {
+  if (/^\d+$/.test(value)) return Number(value);
+  const simple:Record<string,number>={一:1,二:2,三:3,四:4,五:5,六:6,七:7,八:8,九:9,十:10};
+  return simple[value] ?? null;
+};
+
+function golfSessionScopes(title:string):SessionScope[] {
+  const roundHit=/第([一二三四五六七八九十\d]+)輪/.exec(title);
+  const roundNumber=roundHit ? chineseRound(roundHit[1]) : null;
+  const genders:('MEN'|'WOMEN')[] = /男\s*[／/]\s*女/.test(title)
+    ? ['MEN','WOMEN'] : /男子/.test(title) ? ['MEN'] : /女子/.test(title) ? ['WOMEN'] : [];
+  const families:('INDIVIDUAL'|'TEAM')[]=[];
+  if (/個人/.test(title)) families.push('INDIVIDUAL');
+  if (/團體/.test(title)) families.push('TEAM');
+  if (!roundNumber || !genders.length || !families.length) return [];
+  return genders.flatMap(gender=>families.map(eventFamily=>({gender,eventFamily,roundNumber})));
+}
+
+function combatEliminationSessionScopes(title:string):SessionScope[] {
+  if (!/預賽\s*[／/]\s*複賽/.test(title)) return [];
+  const marker=/男(?:子)?|女(?:子)?/g;
+  const hits=[...title.matchAll(marker)];
+  const scopes:SessionScope[]=[];
+  for (let i=0;i<hits.length;i++) {
+    const start=hits[i].index!+hits[i][0].length;
+    const next=hits[i+1]?.index ?? title.length;
+    const kg=title.indexOf('公斤',start);
+    const end=kg>=0&&kg<next?kg:next;
+    const weights=title.slice(start,end).match(/\d+(?:\.\d+)?/g)?.map(Number)??[];
+    const gender=hits[i][0].startsWith('男')?'MEN':'WOMEN';
+    for (const weightKg of weights) scopes.push({gender,weightKg,stage:'ELIMINATION_SESSION'});
+  }
+  return scopes;
+}
+
+// Provider parsing only: these scopes describe text the broadcaster actually wrote. They are
+// never participation evidence and can only select already-existing canonical rows.
+export function structuredSessionHint(title:string,disciplineCode:string):SessionScope[] {
+  const scopes=disciplineCode==='GLF' ? golfSessionScopes(title)
+    : disciplineCode==='JUD'||disciplineCode==='WRE' ? combatEliminationSessionScopes(title) : [];
+  return [...new Map(scopes.map(scope=>[JSON.stringify(scope),scope])).values()];
+}
 
 const ordinal = (value:number)=>{
   const mod100=value%100, mod10=value%10;
@@ -155,6 +206,7 @@ export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
       const opponent = opponentOf(title, options.nocByZh ?? {});
       const named = opponent ? [] : athleteHint(title, options.athletesByZh ?? new Map());
       const courtSession = disciplineCode === 'BDM' ? badmintonCourtSessionHint(title) : null;
+      const sessionScopes = structuredSessionHint(title,disciplineCode);
       // The channel is part of "where to watch", so it travels with the record; the field is
       // generic because another provider will have its own channels or services.
       const channelId = p.cl_num === undefined || p.cl_num === null ? null : String(p.cl_num);
@@ -168,11 +220,14 @@ export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
         note:/原音/.test(title) ? '原音' : null,
         capturedAt:options.capturedAt,
         broadcastEndTimeTaipei:taipeiFromEpoch(p.end_time),
-        // A session programme is still discipline-level; the phase hint plus the official
-        // window is what allows it to cover several units, never the time alone.
-        matchLevel:courtSession ? 'discipline' : opponent || named.length ? 'unit' : 'discipline',
+        // A session programme is still discipline-level. A structured scope may cover several
+        // already-existing units; without one, the ordinary phase hint still needs its official
+        // window. Neither path lets time alone create a match.
+        matchLevel:courtSession || sessionScopes.length ? 'discipline'
+          : opponent || named.length ? 'unit' : 'discipline',
         matchHint:courtSession ? { ...(named.length ? {athleteNames:named} : {}), courtSession }
           : opponent ? { opponentCodes:[opponent] }
+          : sessionScopes.length ? { ...(named.length ? {athleteNames:named} : {}), sessionScopes }
           : named.length ? { athleteNames:named }
           : phaseHint(title).length ? { phaseKeywords:phaseHint(title) } : {},
       };

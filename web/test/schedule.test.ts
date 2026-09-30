@@ -351,6 +351,7 @@ test('the existing venue, country and athlete Chinese mappings do not regress',a
 
 import {parseBroadcasts,broadcastsForRow,disciplineBroadcasts,feedLabel} from '../lib/broadcasts.ts';
 import {loadBroadcasts} from '../lib/load.ts';
+import {structuredSessionHint} from '../../src/broadcast/elta.ts';
 
 const day21 = async ()=>parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-21.json','utf8')),'2026-09-21');
 
@@ -1204,6 +1205,100 @@ test('case B — the same inheritance holds for a second, independent day (real 
   const found = broadcastsForRow(show,'2026-09-25',row);
   assert.equal(found.length,2);
   assert.ok(found.some(b=>b.isLive === false && b.channelId === '110'));
+});
+
+test('the eight production multi-scope programmes attach only to explicitly named canonical scopes',async()=>{
+  const source=parseBroadcasts(await readFile('data/reference/broadcasts.json','utf8'));
+  const dates=['2026-09-30','2026-10-01'];
+  const programmes=source.records.filter(b=>dates.includes(b.date)
+    && structuredSessionHint(b.title??'',b.disciplineCode).length>0);
+  assert.equal(programmes.length,8);
+
+  const required=new Map<string,string[]>([
+    ['2026-09-30T05:25:00+08:00',[
+      'GLF:M.STROKE------------.FNL-.000100--','GLF:M.TEAM--------------.FNL-.000100--']],
+    ['2026-09-30T12:22:00+08:00',[
+      'GLF:M.STROKE------------.FNL-.000100--','GLF:M.TEAM--------------.FNL-.000100--',
+      'GLF:W.STROKE------------.FNL-.000100--','GLF:W.TEAM--------------.FNL-.000100--']],
+    ['2026-09-30T12:52:00+08:00|男女',[
+      'GLF:M.STROKE------------.FNL-.000100--','GLF:M.TEAM--------------.FNL-.000100--',
+      'GLF:W.STROKE------------.FNL-.000100--','GLF:W.TEAM--------------.FNL-.000100--']],
+    ['2026-09-30T12:52:00+08:00|女子',[
+      'GLF:W.STROKE------------.FNL-.000100--','GLF:W.TEAM--------------.FNL-.000100--']],
+    ['JUD|2026-09-30',[
+      'JUD:M.60KG--------------.8FNL.000500--','JUD:M.66KG--------------.8FNL.000600--',
+      'JUD:W.48KG--------------.QFNL.000300--']],
+    ['GLF|2026-10-01',[
+      'GLF:W.STROKE------------.FNL-.000200--','GLF:W.TEAM--------------.FNL-.000200--',
+      'GLF:M.STROKE------------.FNL-.000200--','GLF:M.TEAM--------------.FNL-.000200--']],
+    ['WRE|2026-10-01',['WRE:W.WR62KG------------.QFNL.000300--']],
+    ['JUD|2026-10-01',[
+      'JUD:W.57KG--------------.8FNL.000600--','JUD:W.63KG--------------.8FNL.000600--',
+      'JUD:W.70KG--------------.QFNL.000300--']],
+  ]);
+
+  for(const b of programmes){
+    const day=parseDaily(JSON.parse(await readFile(`data/normalized/daily-${b.date}.json`,'utf8')),b.date);
+    const rows=[...taiwanRows(day),...pendingRows(day)];
+    const scopes=structuredSessionHint(b.title??'',b.disciplineCode);
+    const enriched={...b,matchHint:{...b.matchHint,sessionScopes:scopes}};
+    const matched=rows.filter(r=>broadcastsForRow({records:[enriched]},b.date,r,day.sessionChains??[]).length);
+    const ids=matched.map(r=>r.sources.results?.id).filter((id):id is string=>!!id);
+    const key=b.disciplineCode==='GLF'&&b.broadcastStartTimeTaipei==='2026-09-30T12:52:00+08:00'
+      ? `${b.broadcastStartTimeTaipei}|${b.title?.includes('男/女')?'男女':'女子'}`
+      : required.has(b.broadcastStartTimeTaipei) ? b.broadcastStartTimeTaipei
+      : `${b.disciplineCode}|${b.date}`;
+    for(const id of required.get(key)??[]) assert.ok(ids.includes(id),`${b.title} 缺 ${id}`);
+    assert.ok(matched.length>0,b.title??'');
+
+    // Every attached row must satisfy one complete structured scope. No discipline-only
+    // fallback may copy the programme onto an unrelated gender, weight, event family or round.
+    for(const r of matched){
+      const text=`${r.event??''} ${r.phase??''} ${r.unit??''}`;
+      const gender=/\bWomen(?:'s)?\b/.test(text)?'WOMEN':/\bMen(?:'s)?\b/.test(text)?'MEN':null;
+      const weight=Number(/\b(\d+(?:\.\d+)?)kg\b/i.exec(text)?.[1]);
+      assert.ok(scopes.some(scope=>(!scope.gender||scope.gender===gender)
+        &&(!scope.eventFamily||(scope.eventFamily==='TEAM'?/\bTeam\b/i.test(r.event??''):/\bIndividual\b/i.test(r.event??'')))
+        &&(scope.weightKg===undefined||scope.weightKg===weight)
+        &&(scope.roundNumber===undefined||new RegExp(`\\bRound ${scope.roundNumber}\\b`,'i').test(text))),
+      `out-of-scope attachment: ${b.title} -> ${r.sources.results?.id}`);
+    }
+  }
+
+  const wrestling=programmes.find(b=>b.disciplineCode==='WRE')!;
+  const wrestlingDay=parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-10-01.json','utf8')),'2026-10-01');
+  const pai=taiwanRows(wrestlingDay).find(r=>r.sources.results?.id==='WRE:W.WR62KG------------.QFNL.000300--')!;
+  assert.equal(broadcastsForRow({records:[wrestling]},'2026-10-01',pai).length,0,
+    '舊 evidence 仍會把 session wording 誤當精確 PRELIM conflict');
+  const scoped={...wrestling,matchHint:{...wrestling.matchHint,
+    sessionScopes:structuredSessionHint(wrestling.title??'',wrestling.disciplineCode)}};
+  assert.equal(broadcastsForRow({records:[scoped]},'2026-10-01',pai).length,1,
+    'structured session wording 應允許具名選手的官方 QF');
+
+  const menGolf=programmes.find(b=>b.broadcastStartTimeTaipei==='2026-09-30T05:25:00+08:00')!;
+  const golfDay=parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-30.json','utf8')),'2026-09-30');
+  const womenGolf=taiwanRows(golfDay).find(r=>r.sources.results?.id==='GLF:W.STROKE------------.FNL-.000100--')!;
+  const scopedMen={...menGolf,matchHint:{...menGolf.matchHint,
+    sessionScopes:structuredSessionHint(menGolf.title??'',menGolf.disciplineCode)}};
+  assert.equal(broadcastsForRow({records:[scopedMen]},'2026-09-30',womenGolf).length,0,
+    '男子 scope 不得擴成整個高爾夫 day');
+
+  const malformed={...menGolf,matchHint:{sessionScopes:[{}]}};
+  assert.equal(broadcastsForRow({records:[malformed]},'2026-09-30',womenGolf).length,0,
+    '不完整 structured scope 必須 fail closed，不能退化成整個 discipline/day');
+
+  const enteredQualification={disciplineCode:'WRE',opponentCode:null,athletesEn:[],
+    enteredAthletes:['LIN Yi-hui'],event:"Women's Wrestling 50kg",
+    phase:"Women's Wrestling 50kg Qualifications",unit:null,startTimeTaipei:'2026-10-02T10:00:00+08:00',
+    participationState:'TPE_ENTERED',entryLevel:'event'};
+  const existingSession=parseBroadcasts(JSON.stringify({schemaVersion:1,records:[{
+    date:'2026-10-02',providerId:'elta',providerName:'愛爾達',isLive:true,
+    broadcastStartTimeTaipei:'2026-10-02T09:25:00+08:00',disciplineCode:'WRE',
+    title:'亞運 林宜慧/張惠慈 角力 女子50/76/男子自由式65/86/125公斤級預賽/複賽 10/2 LIVE',
+    feed:'original',matchLevel:'discipline',matchHint:{athleteNames:['LIN Yi-hui','CHANG Hui-tsz'],
+      sessionScopes:[{gender:'WOMEN',weightKg:50,stage:'ELIMINATION_SESSION'}]}}]}));
+  assert.equal(broadcastsForRow(existingSession,'2026-10-02',enteredQualification).length,1,
+    '既有 Qualifications／entries session 配對不得因 structured stage 篩選消失');
 });
 
 test('case C — a D-LIVE rerun credited to a different athlete, or covering a different round, is not inherited (real karate examples)',()=>{

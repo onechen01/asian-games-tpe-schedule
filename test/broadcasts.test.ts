@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import { extractScheduleList, toBroadcasts, gateBroadcasts, athleteHint, badmintonCourtSessionHint,
-  preserveVerifiedMatchHints, PROVIDER } from '../src/broadcast/elta.ts';
+  preserveVerifiedMatchHints, structuredSessionHint, PROVIDER } from '../src/broadcast/elta.ts';
 
 const page = (json:string)=>`<html><script>\n let schedule_list = ${json};\n</script></html>`;
 const programme = (o:Record<string,unknown>)=>({ is_taipei_team:1, ...o });
@@ -97,6 +97,40 @@ test('the real 9/28 knockout title carries athletes and a Court 2 semifinal hint
   assert.equal(record.matchLevel,'discipline');
   assert.deepEqual(record.matchHint,{athleteNames:['YE Hong-wei','CHAN Nicole Gonzales'],
     courtSession:{locationLabel:'Court 2',roundKeyword:'Semifinal',sourceSessionLabel:'四強'}});
+});
+
+test('the eight production golf, judo and wrestling session titles produce explicit structured scopes',()=>{
+  const cases:[string,string,number][]=[
+    ['GLF','亞運 中華隊 高爾夫 男子個人/團體第一輪 9/30(原音) LIVE',2],
+    ['GLF','亞運 中華隊 高爾夫 男/女個人/團體第一輪 9/30(原音) LIVE',4],
+    ['GLF','亞運 中華隊 高爾夫 男/女個人/團體第一輪 9/30(原音) LIVE',4],
+    ['GLF','亞運 中華隊 高爾夫 女子個人/團體第一輪 9/30(原音) LIVE',2],
+    ['JUD','亞運 中華隊 柔道 女48/52/男60/66公斤級預賽/複賽 9/30 LIVE',4],
+    ['GLF','亞運 中華隊 高爾夫 男/女個人/團體第二輪 10/1(原音) LIVE',4],
+    ['WRE','亞運 白欣平 角力 男子希羅式77/97/60/女子62公斤級預賽/複賽 10/1(原音) LIVE',4],
+    ['JUD','亞運 中華隊 柔道 男子73/81/女子57/63/70公斤級預賽/複賽 10/1 LIVE',5],
+  ];
+  for(const [discipline,title,count] of cases){
+    const scopes=structuredSessionHint(title,discipline);
+    assert.equal(scopes.length,count,title);
+    assert.ok(scopes.every(scope=>Object.keys(scope).length>=3),title);
+  }
+  assert.deepEqual(structuredSessionHint('亞運 中華隊 高爾夫 第一輪 LIVE','GLF'),[],
+    '缺性別與個人／團體 scope 時必須 fail closed');
+  assert.deepEqual(structuredSessionHint('亞運 中華隊 柔道 預賽/複賽 LIVE','JUD'),[],
+    '缺性別與量級 scope 時不得擴成整個 discipline/day');
+});
+
+test('a named athlete and structured session scopes coexist instead of reverting to an exact phase hint',()=>{
+  const html=page(JSON.stringify({'2026-10-01':{0:programme({format_s_time:'2026-10-01 09:25:00',
+    program_desc:'亞運 白欣平 角力 男子希羅式77/97/60/女子62公斤級預賽/複賽 10/1(原音) LIVE',
+    sport_item:{sp_name:'角力'},live_type:'LIVE'})}}));
+  const record=toBroadcasts(extractScheduleList(html),{capturedAt:'2026-10-01',
+    athletesByZh:new Map([['白欣平','PAI Hsin-ping']])}).records[0];
+  assert.equal(record.matchLevel,'discipline');
+  assert.deepEqual(record.matchHint.athleteNames,['PAI Hsin-ping']);
+  assert.equal(record.matchHint.sessionScopes?.length,4);
+  assert.equal(record.matchHint.phaseKeywords,undefined);
 });
 
 test('several programmes of one sport on one day all survive, duplicates do not',()=>{
