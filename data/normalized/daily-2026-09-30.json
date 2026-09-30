@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:14:31.294Z",
+  "generatedAt": "2026-09-30T22:33:45.548Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T22:14:31.116Z",
+      "generatedAt": "2026-09-30T22:33:45.361Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -2367,7 +2367,7 @@
       "sportEn": "Hockey",
       "event": "Women",
       "phase": "Women Classification-1 (5th-8th)",
-      "unit": "Women Classification-1 (5th-8th) Match 2",
+      "unit": "Women Classification-2 (5th-8th) Match 2",
       "athletes": [],
       "athletesEn": [
         "WANG Yu-chiu",
@@ -2419,8 +2419,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "W.TEAM11------------.SF51.000200--",
-          "id": "HOC:W.TEAM11------------.SF51.000200--"
+          "unitId": "W.TEAM11------------.SF52.000200--",
+          "id": "HOC:W.TEAM11------------.SF52.000200--"
         }
       }
     },
@@ -3436,8 +3436,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：HOC 13:00 Women Classification-1 (5th-8th) Match 2",
-      "row": "HOC:W.TEAM11------------.SF51.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：HOC 13:00 Women Classification-2 (5th-8th) Match 2",
+      "row": "HOC:W.TEAM11------------.SF52.000200--"
     },
     {
       "code": "RESULTS_ONLY",
