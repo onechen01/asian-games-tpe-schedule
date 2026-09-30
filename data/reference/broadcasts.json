@@ -4094,7 +4094,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T15:24:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -4156,7 +4156,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T16:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T16:50:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
     },
@@ -4174,7 +4174,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T16:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T16:55:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
     },
@@ -4192,7 +4192,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T15:31:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -4427,28 +4427,6 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-01T11:40:00+08:00",
-      "disciplineCode": "EQU",
-      "channelId": "545",
-      "channelName": "愛爾達體育MAX6台",
-      "isLive": true,
-      "title": "亞運 中華隊 馬術 障礙超越團體決賽第2輪 10/1(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-10-01T12:40:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {
-        "phaseKeywords": [
-          "Final"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-01T11:50:00+08:00",
       "disciplineCode": "VVO",
       "channelId": "541",
@@ -4486,6 +4464,28 @@
         "athleteNames": [
           "CHANG Cheng-wei",
           "CHEN Chieh-lun"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-01T11:55:00+08:00",
+      "disciplineCode": "EQU",
+      "channelId": "545",
+      "channelName": "愛爾達體育MAX6台",
+      "isLive": true,
+      "title": "亞運 中華隊 馬術 障礙超越團體決賽第2輪 10/1(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-01T15:05:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
         ]
       }
     },
@@ -4829,6 +4829,50 @@
         "athleteNames": [
           "CHANG Hui-tsz",
           "LIN Yi-hui"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-04T10:55:00+08:00",
+      "disciplineCode": "EQU",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華隊 馬術 障礙超越團體決賽第1輪 10/1(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-04T12:15:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-04T12:55:00+08:00",
+      "disciplineCode": "EQU",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華隊 馬術 障礙超越團體決賽第1輪 10/1(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-10-04T15:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
         ]
       }
     }
