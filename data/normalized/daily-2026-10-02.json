@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T07:10:16.704Z",
+  "generatedAt": "2026-09-30T10:07:21.406Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-30T07:10:16.500Z",
+      "generatedAt": "2026-09-30T10:07:21.213Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -590,6 +590,51 @@
       "disciplineCode": "WRE",
       "sportZh": "角力",
       "sportEn": "Wrestling",
+      "event": "Women's Wrestling 50kg",
+      "phase": "Women's Wrestling 50kg Qualifications",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "ISC",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 16,
+      "enteredAthletes": [
+        "LIN Yi-hui"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "WRE|W.WR50KG------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T09:30:00+08:00",
+      "startTimeJst": "2026-10-02T10:30:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
       "event": "Women's Wrestling 76kg",
       "phase": "Women's Wrestling 76kg Qualifications",
       "unit": null,
@@ -1050,9 +1095,11 @@
       "phase": "Women's 60KG Final",
       "unit": "Women's 60KG - Final",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "LIN Yu-ting"
+      ],
+      "opponent": "YANG Chengyu",
+      "opponentCode": "CHN",
       "venue": "Nishio Gymnasium",
       "venueZh": null,
       "locationCode": "NIS",
@@ -1063,7 +1110,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1078,19 +1125,7 @@
       "sources": {
         "results": {
           "unitId": "W.60KG--------------.FNL-.000100--",
-          "id": "BOX:W.60KG--------------.FNL-.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "W.60KG--------------.SFNL.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/BOX/results/W.60KG--------------.SFNL.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-30T07-04-28-051Z-932b49bc99c2-5e1151f5.json"
-            ]
-          }
+          "id": "BOX:W.60KG--------------.FNL-.000100--"
         }
       }
     },
@@ -1431,8 +1466,8 @@
       "athletesEn": [
         "CHEN Nien-chin"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "PARVEEN",
+      "opponentCode": "IND",
       "venue": "Nishio Gymnasium",
       "venueZh": null,
       "locationCode": "NIS",
@@ -1443,7 +1478,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1458,19 +1493,7 @@
       "sources": {
         "results": {
           "unitId": "W.65KG--------------.FNL-.000100--",
-          "id": "BOX:W.65KG--------------.FNL-.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "W.65KG--------------.SFNL.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/BOX/results/W.65KG--------------.SFNL.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-09-30T07-02-09-580Z-18c2baea0cb7-82c7de18.json"
-            ]
-          }
+          "id": "BOX:W.65KG--------------.FNL-.000100--"
         }
       }
     },
@@ -1484,42 +1507,43 @@
       "sportEn": "Rhythmic Gymnastics",
       "event": "Group All-Around",
       "phase": "Group All-Around Qualification",
-      "unit": null,
+      "unit": "Group All-Around Qualification",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LEE Yu-wen",
+        "LI Tzu-wen",
+        "CHANG Chi-yun",
+        "SUN Keng-hsin",
+        "LU Yuan-lo"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
       "venueZh": null,
-      "locationCode": "GGH",
+      "locationCode": "GRY",
       "locationName": "",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHANG Chi-yun",
-        "LEE Yu-wen",
-        "LI Tzu-wen",
-        "LU Yuan-lo",
-        "SUN Keng-hsin"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GRY|W.5AA---------------"
+        "results": {
+          "unitId": "W.5AA---------------.QUAL.A0000100",
+          "id": "GRY:W.5AA---------------.QUAL.A0000100"
         }
       }
     }
@@ -1530,10 +1554,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 10,
+    "resultsOnly": 11,
     "entered": 15,
     "unresolvedTbd": 0,
-    "warnings": 16
+    "warnings": 17
   },
   "warnings": [
     {
@@ -1585,6 +1609,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:45 Women's 65KG - Final",
       "row": "BOX:W.65KG--------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GRY 17:00 Group All-Around Qualification",
+      "row": "GRY:W.5AA---------------.QUAL.A0000100"
     },
     {
       "code": "PENDING_LATER_UNITS",
