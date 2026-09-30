@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T20:36:09.190Z",
+  "generatedAt": "2026-09-30T20:56:36.858Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-09-30T20:36:09.004Z",
+      "generatedAt": "2026-09-30T20:56:36.699Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -624,51 +624,6 @@
       "sources": {
         "entries": {
           "eventId": "WRE|W.WR50KG------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T09:30:00+08:00",
-      "startTimeJst": "2026-10-02T10:30:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "WRE",
-      "sportZh": "角力",
-      "sportEn": "Wrestling",
-      "event": "Women's Wrestling 76kg",
-      "phase": "Women's Wrestling 76kg Qualifications",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Nagoya City Inae Sports Center",
-      "venueZh": null,
-      "locationCode": "ISC",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "CHANG Hui-tsz"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "WRE|W.WR76KG------------"
         }
       }
     },
@@ -1578,7 +1533,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 18,
-    "entered": 8,
+    "entered": 7,
     "unresolvedTbd": 0,
     "warnings": 30
   },
