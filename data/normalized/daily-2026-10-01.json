@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T14:26:45.409Z",
+  "generatedAt": "2026-09-30T14:47:00.175Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T14:26:45.259Z",
+      "generatedAt": "2026-09-30T14:47:00.030Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1411,7 +1411,7 @@
       "sportEn": "Tennis",
       "event": "Men's Doubles",
       "phase": "Men's Doubles Semi-finals",
-      "unit": "Men's Doubles Semi-finals Match 2",
+      "unit": "Men's Doubles Semi-finals Match",
       "athletes": [],
       "athletesEn": [
         "HO Chenjui",
@@ -2057,7 +2057,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Men's Doubles Semi-finals Match 2",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:00 Men's Doubles Semi-finals Match",
       "row": "TEN:M.DOUBLES-----------.SFNL.000200--"
     },
     {
