@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T13:06:50.109Z",
+  "generatedAt": "2026-09-30T13:29:38.379Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T13:06:49.924Z",
+      "generatedAt": "2026-09-30T13:29:38.184Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1050,44 +1050,49 @@
       "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T10:00:00+08:00",
       "startTimeJst": "2026-10-01T11:00:00+09:00",
-      "timeNote": null,
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
       "disciplineCode": "JUD",
       "sportZh": "柔道",
       "sportEn": "Judo",
       "event": "Women -57kg",
       "phase": "Women -57 kg Elimination Round of 16",
-      "unit": null,
+      "unit": "Women -57 kg Elimination Round of 16",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "LIU Tzu-yun"
+      ],
+      "opponent": "ABDIROVA Dana",
+      "opponentCode": "KAZ",
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "locationCode": "JUD1",
-      "locationName": "AIA Tatami 1",
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "LIU Tzu-yun"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "JUD|W.57KG--------------"
+        "results": {
+          "unitId": "W.57KG--------------.8FNL.000600--",
+          "id": "JUD:W.57KG--------------.8FNL.000600--"
         }
       }
     },
@@ -1105,38 +1110,39 @@
       "sportEn": "Judo",
       "event": "Women -63kg",
       "phase": "Women -63 kg Elimination Round of 16",
-      "unit": null,
+      "unit": "Women -63 kg Elimination Round of 16",
       "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
+      "athletesEn": [
+        "YUAN Pei-chun"
+      ],
+      "opponent": "ZHANG Wen",
+      "opponentCode": "CHN",
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "locationCode": "JUD1",
-      "locationName": "AIA Tatami 1",
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 10,
-      "enteredAthletes": [
-        "YUAN Pei-chun"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "JUD|W.63KG--------------"
+        "results": {
+          "unitId": "W.63KG--------------.8FNL.000600--",
+          "id": "JUD:W.63KG--------------.8FNL.000600--"
         }
       }
     },
@@ -1153,39 +1159,40 @@
       "sportZh": "柔道",
       "sportEn": "Judo",
       "event": "Women -70kg",
-      "phase": "Women -70 kg Elimination Round of 16",
-      "unit": null,
+      "phase": "Women -70 kg Quarterfinals",
+      "unit": "Women -70 kg Quarterfinal",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIAO Yu-jung"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi International Arena",
       "venueZh": null,
-      "locationCode": "JUD1",
-      "locationName": "AIA Tatami 1",
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 1,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 14,
-      "enteredAthletes": [
-        "LIAO Yu-jung"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "JUD|W.70KG--------------"
+        "results": {
+          "unitId": "W.70KG--------------.QFNL.000300--",
+          "id": "JUD:W.70KG--------------.QFNL.000300--"
         }
       }
     },
@@ -1635,10 +1642,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 20,
-    "entered": 6,
+    "resultsOnly": 23,
+    "entered": 3,
     "unresolvedTbd": 0,
-    "warnings": 29
+    "warnings": 35
   },
   "warnings": [
     {
@@ -1703,6 +1710,21 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women -57 kg Elimination Round of 16",
+      "row": "JUD:W.57KG--------------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women -63 kg Elimination Round of 16",
+      "row": "JUD:W.63KG--------------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women -70 kg Quarterfinal",
+      "row": "JUD:W.70KG--------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:06 Women's Kayak Single - Semifinals - Semifinal",
       "row": "CSL:W.K1----------------.SFNL.000100--"
     },
@@ -1745,6 +1767,21 @@
       "code": "PENDING_LATER_UNITS",
       "row": "JJI|M.69KG--------------",
       "message": "JJI Men -69kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|W.57KG--------------",
+      "message": "JUD Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|W.63KG--------------",
+      "message": "JUD Women -63kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|W.70KG--------------",
+      "message": "JUD Women -70kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
