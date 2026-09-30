@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T03:35:31.487Z",
+  "generatedAt": "2026-09-30T03:44:08.014Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T03:35:31.302Z",
+      "generatedAt": "2026-09-30T03:44:07.839Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -325,25 +325,25 @@
           "name": "WANG Wei-hsuan",
           "registration": "11704760",
           "result": "-5",
-          "rank": "1",
+          "rank": "2",
           "startTimeTaipei": null
         },
         {
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "+1",
-          "rank": "22",
+          "rank": "21",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-yao",
           "registration": "905667",
-          "result": "+1",
-          "rank": "22",
+          "result": "+2",
+          "rank": "29",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -376,8 +376,8 @@
       "unit": "Round 1",
       "athletes": [],
       "athletesEn": [
-        "HUNG Chien-yao",
         "WANG Wei-hsuan",
+        "HUNG Chien-yao",
         "CHAN Shih-chang"
       ],
       "opponent": null,
@@ -1145,7 +1145,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "101",
         "opponent": "0",
@@ -1199,10 +1199,10 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "1S1",
+        "opponent": "0S1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1253,8 +1253,12 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1330,6 +1334,56 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T10:00:00+08:00",
       "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Women -48kg",
+      "phase": "Women -48 kg Semifinals",
+      "unit": "Women -48 kg Semifinal of Table B",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chen-hao"
+      ],
+      "opponent": "ABUZHAKYNOVA Abiba",
+      "opponentCode": "KAZ",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.48KG--------------.SFNL.000200--",
+          "id": "JUD:W.48KG--------------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "SAL",
       "sportZh": "帆船",
@@ -1377,9 +1431,9 @@
       "startTimeTaipei": "2026-09-30T10:00:00+08:00",
       "startTimeJst": "2026-09-30T11:00:00+09:00",
       "timeNote": {
-        "code": "NOT_BEFORE",
-        "clockTaipei": "10:30",
-        "raw": "Not Before 11:30"
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "Starting at 13:15"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1547,8 +1601,8 @@
       "unit": "Round 1",
       "athletes": [],
       "athletesEn": [
-        "CHIEN Pei-yun",
         "TSENG Ya-ni",
+        "CHIEN Pei-yun",
         "HSU Wei-ling"
       ],
       "opponent": null,
@@ -1563,17 +1617,17 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "CHIEN Pei-yun",
-          "registration": "10587356",
-          "result": "+1",
-          "rank": "11",
+          "name": "TSENG Ya-ni",
+          "registration": "8374574",
+          "result": "0",
+          "rank": "4",
           "startTimeTaipei": null
         },
         {
-          "name": "TSENG Ya-ni",
-          "registration": "8374574",
-          "result": null,
-          "rank": null,
+          "name": "CHIEN Pei-yun",
+          "registration": "10587356",
+          "result": "+2",
+          "rank": "26",
           "startTimeTaipei": null
         },
         {
@@ -1584,7 +1638,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "11",
+      "tpeRank": "4",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1617,8 +1671,8 @@
       "unit": "Round 1",
       "athletes": [],
       "athletesEn": [
-        "TSENG Ya-ni",
         "HSU Wei-ling",
+        "TSENG Ya-ni",
         "CHIEN Pei-yun"
       ],
       "opponent": null,
@@ -1631,12 +1685,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "+2",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "7",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1876,8 +1930,8 @@
       "startTimeJst": "2026-09-30T12:00:00+09:00",
       "timeNote": {
         "code": "NOT_BEFORE",
-        "clockTaipei": "12:00",
-        "raw": "Not Before 13:00"
+        "clockTaipei": "13:00",
+        "raw": "Not Before 14:00"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
@@ -1948,7 +2002,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2069,7 +2123,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.K1----------------.SFNL.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-09-30T03-34-19-980Z-adcffd0a0ffa-c47b70b4.json"
+              "data/raw/2026-09-30T03-42-55-509Z-adcffd0a0ffa-ed6be8e6.json"
             ]
           }
         }
@@ -2590,10 +2644,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 43,
+    "resultsOnly": 44,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 52
+    "warnings": 53
   },
   "warnings": [
     {
@@ -2690,6 +2744,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men -66 kg Quarterfinal",
       "row": "JUD:M.66KG--------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women -48 kg Semifinal of Table B",
+      "row": "JUD:W.48KG--------------.SFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2813,11 +2872,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "JUD|W.48KG--------------",
-      "message": "JUD Women -48kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "JUD|M.60KG--------------",
       "message": "JUD Men -60kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2855,6 +2909,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|W.KEIRIN------------",
       "message": "CTR Women's Keirin 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|W.48KG--------------",
+      "message": "JUD Women -48kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
