@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T12:05:32.490Z",
+  "generatedAt": "2026-09-30T12:55:38.368Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T12:05:32.331Z",
+      "generatedAt": "2026-09-30T12:55:38.177Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1054,51 +1054,6 @@
       "disciplineCode": "JUD",
       "sportZh": "柔道",
       "sportEn": "Judo",
-      "event": "Women -57kg",
-      "phase": "Women -57 kg Quarterfinals",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 16,
-      "enteredAthletes": [
-        "LIU Tzu-yun"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JUD|W.57KG--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T10:00:00+08:00",
-      "startTimeJst": "2026-10-01T11:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
       "event": "Women -63kg",
       "phase": "Women -63 kg Elimination Round of 16",
       "unit": null,
@@ -1628,7 +1583,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 20,
-    "entered": 6,
+    "entered": 5,
     "unresolvedTbd": 0,
     "warnings": 29
   },
