@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T00:03:51.535Z",
+  "generatedAt": "2026-09-30T00:14:23.625Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T00:03:51.401Z",
+      "generatedAt": "2026-09-30T00:14:23.483Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -307,8 +307,8 @@
       "athletes": [],
       "athletesEn": [
         "WANG Wei-hsuan",
-        "CHAN Shih-chang",
-        "HUNG Chien-yao"
+        "HUNG Chien-yao",
+        "CHAN Shih-chang"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -329,17 +329,17 @@
           "startTimeTaipei": null
         },
         {
-          "name": "CHAN Shih-chang",
-          "registration": "12708292",
+          "name": "HUNG Chien-yao",
+          "registration": "905667",
           "result": "-1",
           "rank": "7",
           "startTimeTaipei": null
         },
         {
-          "name": "HUNG Chien-yao",
-          "registration": "905667",
-          "result": "-1",
-          "rank": "7",
+          "name": "CHAN Shih-chang",
+          "registration": "12708292",
+          "result": "0",
+          "rank": "13",
           "startTimeTaipei": null
         }
       ],
@@ -376,8 +376,8 @@
       "unit": "Round 1",
       "athletes": [],
       "athletesEn": [
-        "CHAN Shih-chang",
         "HUNG Chien-yao",
+        "CHAN Shih-chang",
         "WANG Wei-hsuan"
       ],
       "opponent": null,
@@ -443,8 +443,12 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
