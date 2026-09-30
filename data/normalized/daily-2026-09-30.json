@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T04:54:38.892Z",
+  "generatedAt": "2026-09-30T05:06:31.570Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T04:54:38.720Z",
+      "generatedAt": "2026-09-30T05:06:31.439Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -639,72 +639,6 @@
       "startTimeTaipei": "2026-09-30T09:00:00+08:00",
       "startTimeJst": "2026-09-30T10:00:00+09:00",
       "timeNote": null,
-      "disciplineCode": "SBL",
-      "sportZh": "壘球",
-      "sportEn": "Softball",
-      "event": "Softball Women",
-      "phase": "Women’s Preliminary Round",
-      "unit": "Game  14",
-      "athletes": [],
-      "athletesEn": [
-        "LIU Hsuan",
-        "LIN Feng-chen",
-        "YEH Kuei-ping",
-        "LIN Chih-ying",
-        "LI Szu-shih",
-        "SU Yi-hsuan",
-        "YANG An-chi",
-        "CHEN Chia-yi",
-        "SHEN Chia-wen",
-        "CHIANG Ting-en",
-        "LIN Chi-yun",
-        "HO Yi-fan",
-        "TU Ya-ting",
-        "PAN Yu-ling",
-        "CHU Yi-shan",
-        "KE Hsia-ai",
-        "CHEN Ching-yu"
-      ],
-      "opponent": "People's Republic of China",
-      "opponentCode": "CHN",
-      "venue": "Anjo Softball Ground",
-      "venueZh": null,
-      "locationCode": "SB1",
-      "locationName": "Anjo Softball Ground",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "4",
-        "opponent": "5",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TEAM9-------------.GP--.001400--",
-          "id": "SBL:W.TEAM9-------------.GP--.001400--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
-      "startTimeJst": "2026-09-30T10:00:00+09:00",
-      "timeNote": null,
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
@@ -803,6 +737,72 @@
         "results": {
           "unitId": "W.DOUBLES-----------.8FNL.000200--",
           "id": "TEN:W.DOUBLES-----------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
+      "startTimeJst": "2026-09-30T10:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "sportEn": "Softball",
+      "event": "Softball Women",
+      "phase": "Women’s Preliminary Round",
+      "unit": "Game  14",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Hsuan",
+        "LIN Feng-chen",
+        "YEH Kuei-ping",
+        "LIN Chih-ying",
+        "LI Szu-shih",
+        "SU Yi-hsuan",
+        "YANG An-chi",
+        "CHEN Chia-yi",
+        "SHEN Chia-wen",
+        "CHIANG Ting-en",
+        "LIN Chi-yun",
+        "HO Yi-fan",
+        "TU Ya-ting",
+        "PAN Yu-ling",
+        "CHU Yi-shan",
+        "KE Hsia-ai",
+        "CHEN Ching-yu"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "Anjo Softball Ground",
+      "venueZh": null,
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM9-------------.GP--.001400--",
+          "id": "SBL:W.TEAM9-------------.GP--.001400--"
         }
       }
     },
@@ -1361,8 +1361,12 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1559,7 +1563,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -1727,8 +1731,8 @@
         {
           "name": "TSENG Ya-ni",
           "registration": "8374574",
-          "result": "-1",
-          "rank": "5",
+          "result": "-2",
+          "rank": "1",
           "startTimeTaipei": null
         },
         {
@@ -1746,7 +1750,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "5",
+      "tpeRank": "1",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1779,8 +1783,8 @@
       "unit": "Round 1",
       "athletes": [],
       "athletesEn": [
-        "HSU Wei-ling",
         "TSENG Ya-ni",
+        "HSU Wei-ling",
         "CHIEN Pei-yun"
       ],
       "opponent": null,
@@ -1793,7 +1797,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "-1",
         "opponent": null,
         "source": "results"
       },
@@ -2084,57 +2088,6 @@
     },
     {
       "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T12:00:00+08:00",
-      "startTimeJst": "2026-09-30T13:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest, NB 13:30, Court TBA"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Quarter-finals",
-      "unit": "Men's Doubles Quarter-finals Match 3",
-      "athletes": [],
-      "athletesEn": [
-        "HO Chenjui",
-        "HSU Yu-hsiou"
-      ],
-      "opponent": "BHAMBRI Yuki/SURESH Dhakshineswar",
-      "opponentCode": "IND",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "006",
-      "locationName": "Court 4",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.DOUBLES-----------.QFNL.000300--",
-          "id": "TEN:M.DOUBLES-----------.QFNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T12:30:00+08:00",
       "startTimeJst": "2026-09-30T13:30:00+09:00",
       "timeNote": null,
@@ -2206,14 +2159,14 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "107.86",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "5",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2261,7 +2214,7 @@
       "locationName": "Aichi Sky Expo Esport Competition Room L5",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2324,8 +2277,12 @@
       "locationName": "Gifu Prefectural Green Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2370,8 +2327,12 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 7,
@@ -2563,57 +2524,6 @@
       "sportEn": "Tennis",
       "event": "Mixed Doubles",
       "phase": "Mixed Doubles Second Round",
-      "unit": "Mixed Doubles Second Round Match 1",
-      "athletes": [],
-      "athletesEn": [
-        "CHAN Hao-ching",
-        "HO Chenjui"
-      ],
-      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
-      "opponentCode": "MGL",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "006",
-      "locationName": "Court 4",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.8FNL.000100--",
-          "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T14:00:00+08:00",
-      "startTimeJst": "2026-09-30T15:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest, Not Before 16:30"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
       "unit": "Mixed Doubles Second Round Match 8",
       "athletes": [],
       "athletesEn": [
@@ -2648,6 +2558,57 @@
         "results": {
           "unitId": "X.DOUBLES-----------.8FNL.000800--",
           "id": "TEN:X.DOUBLES-----------.8FNL.000800--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T14:00:00+08:00",
+      "startTimeJst": "2026-09-30T15:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "After Rest, Not Before 16:30"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": "Mixed Doubles Second Round Match 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHAN Hao-ching",
+        "HO Chenjui"
+      ],
+      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
+      "opponentCode": "MGL",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "006",
+      "locationName": "Court 4",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000100--",
+          "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
         }
       }
     },
@@ -2810,6 +2771,57 @@
           "id": "ELS:O.IDV---------------.SFNL.000200--"
         }
       }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "startTimeJst": "2026-09-30T16:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "After Rest, Time & Court TBA"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Quarter-finals",
+      "unit": "Men's Doubles Quarter-finals Match 3",
+      "athletes": [],
+      "athletesEn": [
+        "HO Chenjui",
+        "HSU Yu-hsiou"
+      ],
+      "opponent": "BHAMBRI Yuki/SURESH Dhakshineswar",
+      "opponentCode": "IND",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "007",
+      "locationName": "Court 5",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.DOUBLES-----------.QFNL.000300--",
+          "id": "TEN:M.DOUBLES-----------.QFNL.000300--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -2856,11 +2868,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Game  14",
-      "row": "SBL:W.TEAM9-------------.GP--.001400--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Mixed Team - Qualification",
       "row": "SHO:X.TRMT--------------.QUAL.000100--"
     },
@@ -2868,6 +2875,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 09:00 Women's Doubles Second Round Match 2",
       "row": "TEN:W.DOUBLES-----------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Game  14",
+      "row": "SBL:W.TEAM9-------------.GP--.001400--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2991,11 +3003,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Doubles Quarter-finals Match 3",
-      "row": "TEN:M.DOUBLES-----------.QFNL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 12:30 Women's 60KG - Semifinal",
       "row": "BOX:W.60KG--------------.SFNL.000100--"
     },
@@ -3036,13 +3043,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles Second Round Match 1",
-      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles Second Round Match 8",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles Second Round Match 8",
-      "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles Second Round Match 1",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3058,6 +3065,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 15:00 Match 2",
       "row": "ELS:O.IDV---------------.SFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Men's Doubles Quarter-finals Match 3",
+      "row": "TEN:M.DOUBLES-----------.QFNL.000300--"
     },
     {
       "code": "PENDING_LATER_UNITS",
