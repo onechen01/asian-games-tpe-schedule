@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T08:24:39.074Z",
+  "generatedAt": "2026-09-30T08:35:03.567Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T08:24:38.883Z",
+      "generatedAt": "2026-09-30T08:35:03.434Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1844,14 +1844,14 @@
           "name": "HSU Wei-ling",
           "registration": "8390832",
           "result": "-3",
-          "rank": "4",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "CHIEN Pei-yun",
           "registration": "10587356",
           "result": "-1",
-          "rank": "10",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
@@ -1862,7 +1862,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "4",
+      "tpeRank": "3",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1914,7 +1914,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "2",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2647,30 +2647,30 @@
       "startTimeTaipei": "2026-09-30T14:00:00+08:00",
       "startTimeJst": "2026-09-30T15:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest, Not Before 16:30"
+        "code": "NOT_BEFORE",
+        "clockTaipei": "16:45",
+        "raw": "Not Before 17:45"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": "Mixed Doubles Second Round Match 1",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Quarter-finals",
+      "unit": "Men's Doubles Quarter-finals Match 3",
       "athletes": [],
       "athletesEn": [
-        "CHAN Hao-ching",
-        "HO Chenjui"
+        "HO Chenjui",
+        "HSU Yu-hsiou"
       ],
-      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
-      "opponentCode": "MGL",
+      "opponent": "BHAMBRI Yuki/SURESH Dhakshineswar",
+      "opponentCode": "IND",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "locationCode": "006",
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2688,8 +2688,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "X.DOUBLES-----------.8FNL.000100--",
-          "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
+          "unitId": "M.DOUBLES-----------.QFNL.000300--",
+          "id": "TEN:M.DOUBLES-----------.QFNL.000300--"
         }
       }
     },
@@ -2968,23 +2968,23 @@
       "startTimeTaipei": "2026-09-30T15:00:00+08:00",
       "startTimeJst": "2026-09-30T16:00:00+09:00",
       "timeNote": {
-        "code": "NOT_BEFORE",
-        "clockTaipei": "16:45",
-        "raw": "Not Before 17:45"
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "After Rest, Not Before 16:30"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
-      "event": "Men's Doubles",
-      "phase": "Men's Doubles Quarter-finals",
-      "unit": "Men's Doubles Quarter-finals Match 3",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": "Mixed Doubles Second Round Match 1",
       "athletes": [],
       "athletesEn": [
-        "HO Chenjui",
-        "HSU Yu-hsiou"
+        "CHAN Hao-ching",
+        "HO Chenjui"
       ],
-      "opponent": "BHAMBRI Yuki/SURESH Dhakshineswar",
-      "opponentCode": "IND",
+      "opponent": "ENKHJARGAL Sonom-yanzum/PUREVDORJ Undrakh",
+      "opponentCode": "MGL",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
       "locationCode": "006",
@@ -3009,8 +3009,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "M.DOUBLES-----------.QFNL.000300--",
-          "id": "TEN:M.DOUBLES-----------.QFNL.000300--"
+          "unitId": "X.DOUBLES-----------.8FNL.000100--",
+          "id": "TEN:X.DOUBLES-----------.8FNL.000100--"
         }
       }
     },
@@ -3138,7 +3138,7 @@
       "locationName": "AIA Tatami 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0S2",
         "opponent": "1S1",
@@ -3192,8 +3192,12 @@
       "locationName": "AIA Tatami 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -3445,8 +3449,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Mixed Doubles Second Round Match 1",
-      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 14:00 Men's Doubles Quarter-finals Match 3",
+      "row": "TEN:M.DOUBLES-----------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3475,8 +3479,8 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Men's Doubles Quarter-finals Match 3",
-      "row": "TEN:M.DOUBLES-----------.QFNL.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Mixed Doubles Second Round Match 1",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
