@@ -3979,11 +3979,11 @@
       "channelId": "540",
       "channelName": "愛爾達體育MAX1台",
       "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女個人/團體第一輪 9/30(原音) LIVE",
+      "title": "亞運 中華隊 高爾夫 男子個人/團體第一輪 9/30(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T16:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T12:52:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
     },
@@ -4068,7 +4068,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T12:55:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T13:25:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -4116,7 +4116,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T16:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T12:52:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
     },
@@ -4147,22 +4147,36 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-09-30T12:55:00+08:00",
-      "disciplineCode": "ARC",
-      "channelId": "101",
-      "channelName": "愛爾達體育1台",
+      "broadcastStartTimeTaipei": "2026-09-30T12:52:00+08:00",
+      "disciplineCode": "GLF",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
       "isLive": true,
-      "title": "亞運 中華隊 射箭 男子團體複合弓四強/決賽 9/30 LIVE",
-      "feed": "main",
-      "note": null,
+      "title": "亞運 中華隊 高爾夫 男/女個人/團體第一輪 9/30(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
       "capturedAt": "2026-09-30",
-      "broadcastEndTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-30T16:30:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {
-        "phaseKeywords": [
-          "Final"
-        ]
-      }
+      "matchHint": {}
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T12:52:00+08:00",
+      "disciplineCode": "GLF",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "亞運 中華隊 高爾夫 女子個人/團體第一輪 9/30(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-09-30T16:30:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
     },
     {
       "date": "2026-09-30",
@@ -4183,6 +4197,28 @@
       "matchHint": {
         "opponentCodes": [
           "THA"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-30T13:25:00+08:00",
+      "disciplineCode": "ARC",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "亞運 中華隊 射箭 男子團體複合弓四強/決賽 9/30 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-09-30",
+      "broadcastEndTimeTaipei": "2026-09-30T15:00:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "phaseKeywords": [
+          "Final"
         ]
       }
     },
