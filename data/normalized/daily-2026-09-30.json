@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T05:06:31.570Z",
+  "generatedAt": "2026-09-30T05:17:37.887Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-09-30T05:06:31.439Z",
+      "generatedAt": "2026-09-30T05:17:37.682Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -318,7 +318,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -388,7 +388,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "-4",
         "opponent": null,
@@ -639,6 +639,72 @@
       "startTimeTaipei": "2026-09-30T09:00:00+08:00",
       "startTimeJst": "2026-09-30T10:00:00+09:00",
       "timeNote": null,
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "sportEn": "Softball",
+      "event": "Softball Women",
+      "phase": "Women’s Preliminary Round",
+      "unit": "Game  14",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Hsuan",
+        "LIN Feng-chen",
+        "YEH Kuei-ping",
+        "LIN Chih-ying",
+        "LI Szu-shih",
+        "SU Yi-hsuan",
+        "YANG An-chi",
+        "CHEN Chia-yi",
+        "SHEN Chia-wen",
+        "CHIANG Ting-en",
+        "LIN Chi-yun",
+        "HO Yi-fan",
+        "TU Ya-ting",
+        "PAN Yu-ling",
+        "CHU Yi-shan",
+        "KE Hsia-ai",
+        "CHEN Ching-yu"
+      ],
+      "opponent": "People's Republic of China",
+      "opponentCode": "CHN",
+      "venue": "Anjo Softball Ground",
+      "venueZh": null,
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "5",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM9-------------.GP--.001400--",
+          "id": "SBL:W.TEAM9-------------.GP--.001400--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
+      "startTimeJst": "2026-09-30T10:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "SHO",
       "sportZh": "射擊",
       "sportEn": "Shooting",
@@ -737,72 +803,6 @@
         "results": {
           "unitId": "W.DOUBLES-----------.8FNL.000200--",
           "id": "TEN:W.DOUBLES-----------.8FNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T09:00:00+08:00",
-      "startTimeJst": "2026-09-30T10:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "SBL",
-      "sportZh": "壘球",
-      "sportEn": "Softball",
-      "event": "Softball Women",
-      "phase": "Women’s Preliminary Round",
-      "unit": "Game  14",
-      "athletes": [],
-      "athletesEn": [
-        "LIU Hsuan",
-        "LIN Feng-chen",
-        "YEH Kuei-ping",
-        "LIN Chih-ying",
-        "LI Szu-shih",
-        "SU Yi-hsuan",
-        "YANG An-chi",
-        "CHEN Chia-yi",
-        "SHEN Chia-wen",
-        "CHIANG Ting-en",
-        "LIN Chi-yun",
-        "HO Yi-fan",
-        "TU Ya-ting",
-        "PAN Yu-ling",
-        "CHU Yi-shan",
-        "KE Hsia-ai",
-        "CHEN Ching-yu"
-      ],
-      "opponent": "People's Republic of China",
-      "opponentCode": "CHN",
-      "venue": "Anjo Softball Ground",
-      "venueZh": null,
-      "locationCode": "SB1",
-      "locationName": "Anjo Softball Ground",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "4",
-        "opponent": "5",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TEAM9-------------.GP--.001400--",
-          "id": "SBL:W.TEAM9-------------.GP--.001400--"
         }
       }
     },
@@ -1361,14 +1361,14 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "1",
-        "opponent": "0",
+        "tpe": "1S2",
+        "opponent": "2S2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "7",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1415,8 +1415,12 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0S2",
+        "opponent": "1S2",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2159,7 +2163,7 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "107.86",
         "opponent": null,
@@ -2214,8 +2218,12 @@
       "locationName": "Aichi Sky Expo Esport Competition Room L5",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2280,7 +2288,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2868,6 +2876,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Game  14",
+      "row": "SBL:W.TEAM9-------------.GP--.001400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SHO 09:00 Trap Mixed Team - Qualification",
       "row": "SHO:X.TRMT--------------.QUAL.000100--"
     },
@@ -2875,11 +2888,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 09:00 Women's Doubles Second Round Match 2",
       "row": "TEN:W.DOUBLES-----------.8FNL.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Game  14",
-      "row": "SBL:W.TEAM9-------------.GP--.001400--"
     },
     {
       "code": "RESULTS_ONLY",
