@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T04:05:39.325Z",
+  "generatedAt": "2026-10-01T04:15:30.123Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T04:05:39.150Z",
+      "generatedAt": "2026-10-01T04:15:29.945Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1105,14 +1105,14 @@
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "-1",
-          "rank": "14",
+          "rank": "16",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-yao",
           "registration": "905667",
-          "result": "+1",
-          "rank": "24",
+          "result": "0",
+          "rank": "20",
           "startTimeTaipei": null
         }
       ],
@@ -1149,8 +1149,8 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
-        "HUNG Chien-yao",
         "CHAN Shih-chang",
+        "HUNG Chien-yao",
         "WANG Wei-hsuan"
       ],
       "opponent": null,
@@ -1163,12 +1163,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-7",
+        "tpe": "-8",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "3",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1836,8 +1836,12 @@
       "locationName": "ISC  MAT C",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2138,8 +2142,12 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 8,
@@ -2680,6 +2688,52 @@
           "id": "TEN:X.DOUBLES-----------.QFNL.000400--"
         }
       }
+    },
+    {
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T18:24:00+08:00",
+      "startTimeJst": "2026-10-01T19:24:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 62kg",
+      "phase": "Women's Wrestling 62kg Bronze Medal Matches",
+      "unit": "Bronze Medal Match",
+      "athletes": [],
+      "athletesEn": [
+        "PAI Hsin-ping"
+      ],
+      "opponent": "ZHANG Qi",
+      "opponentCode": "CHN",
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "IS2",
+      "locationName": "ISC  MAT B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.WR62KG------------.REPF.000200--",
+          "id": "WRE:W.WR62KG------------.REPF.000200--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -2688,7 +2742,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 46,
+    "resultsOnly": 47,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 56
@@ -2925,6 +2979,11 @@
       "row": "TEN:X.DOUBLES-----------.QFNL.000400--"
     },
     {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WRE 18:24 Bronze Medal Match",
+      "row": "WRE:W.WR62KG------------.REPF.000200--"
+    },
+    {
       "code": "PENDING_LATER_UNITS",
       "row": "JUD|W.63KG--------------",
       "message": "JUD Women -63kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
@@ -2968,11 +3027,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|M.OMNIUM------------",
       "message": "CTR Men's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "WRE|W.WR62KG------------",
-      "message": "WRE Women's Wrestling 62kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
