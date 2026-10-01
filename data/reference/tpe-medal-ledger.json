@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-30T09:26:37.789Z",
+  "generatedAt": "2026-10-01T05:08:27.959Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-09-30T09:26:37.786Z",
+  "standingsUpdatedAt": "2026-10-01T05:08:27.956Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 10,
-    "bronze": 26,
-    "total": 39
+    "bronze": 27,
+    "total": 40
   },
   "officialCounts": {
     "gold": 3,
     "silver": 10,
-    "bronze": 26,
-    "total": 39
+    "bronze": 27,
+    "total": 40
   },
   "missing": {
     "gold": 0,
@@ -731,6 +731,23 @@
         "SU Bin-cheng"
       ],
       "rank": "3"
+    },
+    {
+      "awardId": "TEN|M.DOUBLES-----------|TENMDOUBLES----TPE02",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "event": "Men's Doubles",
+      "phase": "Men's Doubles Semi-finals",
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T11:00:00+08:00",
+      "resultId": "TEN:M.DOUBLES-----------.SFNL.000200--",
+      "unitId": "M.DOUBLES-----------.SFNL.000200--",
+      "athletes": [
+        "HO Chenjui",
+        "HSU Yu-hsiou"
+      ],
+      "rank": "2"
     }
   ]
 }
