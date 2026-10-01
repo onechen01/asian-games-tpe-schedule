@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T23:44:36.320Z",
+  "generatedAt": "2026-10-01T00:06:25.565Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-09-30T23:44:36.150Z",
+      "generatedAt": "2026-10-01T00:06:25.375Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -352,14 +352,14 @@
           "name": "CHIEN Pei-yun",
           "registration": "10587356",
           "result": "-1",
-          "rank": "11",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
           "name": "TSENG Ya-ni",
           "registration": "8374574",
           "result": "0",
-          "rank": "15",
+          "rank": "17",
           "startTimeTaipei": null
         }
       ],
@@ -415,7 +415,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "5",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -463,8 +463,12 @@
       "locationName": "Aichi Sky Expo Esport Substage (Competition Room L4)",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -509,8 +513,12 @@
       "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 8,
