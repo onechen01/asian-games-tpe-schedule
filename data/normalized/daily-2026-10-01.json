@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T06:16:00.449Z",
+  "generatedAt": "2026-10-01T06:26:17.714Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T06:16:00.293Z",
+      "generatedAt": "2026-10-01T06:26:17.530Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1105,14 +1105,14 @@
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "-2",
-          "rank": "12",
+          "rank": "13",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-yao",
           "registration": "905667",
           "result": "+2",
-          "rank": "31",
+          "rank": "29",
           "startTimeTaipei": null
         }
       ],
@@ -2424,7 +2424,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2518,7 +2518,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "145",
         "opponent": "149",
@@ -2618,7 +2618,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "",
         "opponent": null,
@@ -2684,8 +2684,12 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2730,14 +2734,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "11.911",
+        "opponent": "11.960",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2780,8 +2784,12 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 14,
@@ -2903,6 +2911,98 @@
     },
     {
       "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T15:39:00+08:00",
+      "startTimeJst": "2026-10-01T16:39:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Women's Sprint",
+      "phase": "Women's Sprint, 1/8 Finals",
+      "unit": "Women's Sprint, 1/8 Finals - Heat 1",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Ching-yun"
+      ],
+      "opponent": "YUAN Liying",
+      "opponentCode": "CHN",
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SPRINT------------.8FNL.000100--",
+          "id": "CTR:W.SPRINT------------.8FNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T15:48:00+08:00",
+      "startTimeJst": "2026-10-01T16:48:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Women's Sprint",
+      "phase": "Women's Sprint, 1/8 Finals",
+      "unit": "Women's Sprint, 1/8 Finals - Heat 4",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Shang-ying"
+      ],
+      "opponent": "MOHD FARID Nur Alyssa",
+      "opponentCode": "MAS",
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.SPRINT------------.8FNL.000400--",
+          "id": "CTR:W.SPRINT------------.8FNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T16:00:00+08:00",
       "startTimeJst": "2026-10-01T17:00:00+09:00",
       "timeNote": null,
@@ -3000,10 +3100,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 51,
+    "resultsOnly": 53,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 57
+    "warnings": 58
   },
   "warnings": [
     {
@@ -3253,6 +3353,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 15:39 Women's Sprint, 1/8 Finals - Heat 1",
+      "row": "CTR:W.SPRINT------------.8FNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 15:48 Women's Sprint, 1/8 Finals - Heat 4",
+      "row": "CTR:W.SPRINT------------.8FNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TKW 16:00 Men Individual Poomsae Gold Medal Contest",
       "row": "TKW:M.INDPOOM-----------.FNL-.000100--"
     },
@@ -3275,11 +3385,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|M.SPRINT------------",
       "message": "CTR Men's Sprint 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "JUD|W.63KG--------------",
-      "message": "JUD Women -63kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
