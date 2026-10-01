@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T04:25:51.544Z",
+  "generatedAt": "2026-10-01T04:34:58.392Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T04:25:51.399Z",
+      "generatedAt": "2026-10-01T04:34:58.219Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1097,7 +1097,7 @@
         {
           "name": "WANG Wei-hsuan",
           "registration": "11704760",
-          "result": "-7",
+          "result": "-8",
           "rank": "1",
           "startTimeTaipei": null
         },
@@ -1112,7 +1112,7 @@
           "name": "HUNG Chien-yao",
           "registration": "905667",
           "result": "0",
-          "rank": "22",
+          "rank": "21",
           "startTimeTaipei": null
         }
       ],
@@ -1163,12 +1163,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-9",
+        "tpe": "-10",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "2",
       "orgCount": 21,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1272,7 +1272,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1326,7 +1326,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1788,7 +1788,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "1",
         "source": "results"
       },
@@ -1890,7 +1890,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1941,7 +1941,7 @@
       "locationName": "Court 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1991,7 +1991,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "22",
         "opponent": null,
         "source": "results"
       },
@@ -2039,14 +2039,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "85",
-        "opponent": "88",
+        "tpe": "138",
+        "opponent": "148",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
