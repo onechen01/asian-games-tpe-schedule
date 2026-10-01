@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T13:47:29.462Z",
+  "generatedAt": "2026-10-01T14:26:05.740Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T13:47:29.276Z",
+      "generatedAt": "2026-10-01T14:26:05.582Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1923,7 +1923,7 @@
     "resultsOnly": 31,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 49
+    "warnings": 47
   },
   "warnings": [
     {
@@ -2120,16 +2120,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "WRE|W.WR76KG------------",
       "message": "WRE Women's Wrestling 76kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TEN|X.DOUBLES-----------",
-      "message": "TEN Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "VVO|M.TEAM6-------------",
-      "message": "VVO Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
