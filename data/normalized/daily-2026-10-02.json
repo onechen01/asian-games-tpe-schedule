@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T23:25:15.296Z",
+  "generatedAt": "2026-10-01T23:35:28.811Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T23:25:15.115Z",
+      "generatedAt": "2026-10-01T23:35:28.635Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -342,7 +342,7 @@
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
           "result": "-2",
-          "rank": "12",
+          "rank": "13",
           "startTimeTaipei": null
         },
         {
@@ -401,7 +401,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-11",
+        "tpe": "-10",
         "opponent": null,
         "source": "results"
       },
