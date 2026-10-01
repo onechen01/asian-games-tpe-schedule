@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-01T05:22:11.838Z",
+  "generatedAt": "2026-10-01T06:18:20.990Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-01T05:22:11.835Z",
+  "standingsUpdatedAt": "2026-10-01T06:18:20.988Z",
   "ledgerCounts": {
     "gold": 3,
-    "silver": 11,
+    "silver": 12,
     "bronze": 27,
-    "total": 41
+    "total": 42
   },
   "officialCounts": {
     "gold": 3,
-    "silver": 11,
+    "silver": 12,
     "bronze": 27,
-    "total": 41
+    "total": 42
   },
   "missing": {
     "gold": 0,
@@ -435,6 +435,22 @@
         "KUO Hsing-chun"
       ],
       "rank": "3"
+    },
+    {
+      "awardId": "ARC|M.CINDIVID----------|2036175",
+      "medal": "ME_SILVER",
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "event": "Compound Men's Individual",
+      "phase": "Compound Men's Individual Qualification Round",
+      "date": "2026-09-26",
+      "startTimeTaipei": "2026-09-26T11:30:00+08:00",
+      "resultId": "ARC:M.CINDIVID----------.QUAL.000100--",
+      "unitId": "M.CINDIVID----------.QUAL.000100--",
+      "athletes": [
+        "CHANG Cheng-wei"
+      ],
+      "rank": "7"
     },
     {
       "awardId": "ELS|O.PYO---------------|2800288",
