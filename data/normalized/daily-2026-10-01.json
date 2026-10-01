@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T03:43:04.670Z",
+  "generatedAt": "2026-10-01T03:57:58.988Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T03:43:04.536Z",
+      "generatedAt": "2026-10-01T03:57:58.842Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -338,7 +338,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -408,7 +408,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "-6",
         "opponent": null,
@@ -1097,7 +1097,7 @@
         {
           "name": "WANG Wei-hsuan",
           "registration": "11704760",
-          "result": "-5",
+          "result": "-6",
           "rank": "1",
           "startTimeTaipei": null
         },
@@ -1105,14 +1105,14 @@
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "+1",
-          "rank": "26",
+          "rank": "24",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-yao",
           "registration": "905667",
-          "result": "+2",
-          "rank": "30",
+          "result": "+1",
+          "rank": "24",
           "startTimeTaipei": null
         }
       ],
@@ -1150,8 +1150,8 @@
       "athletes": [],
       "athletesEn": [
         "HUNG Chien-yao",
-        "WANG Wei-hsuan",
-        "CHAN Shih-chang"
+        "CHAN Shih-chang",
+        "WANG Wei-hsuan"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1163,7 +1163,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-4",
+        "tpe": "-6",
         "opponent": null,
         "source": "results"
       },
@@ -1319,7 +1319,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0S1",
         "opponent": "11S1",
@@ -1778,7 +1778,7 @@
         "HO Chenjui",
         "HSU Yu-hsiou"
       ],
-      "opponent": "NAM Jisung/PARK Uisung",
+      "opponent": "NAM Jisung / PARK Uisung",
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1789,7 +1789,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "0",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1810,6 +1810,52 @@
         "results": {
           "unitId": "M.DOUBLES-----------.SFNL.000200--",
           "id": "TEN:M.DOUBLES-----------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T11:47:00+08:00",
+      "startTimeJst": "2026-10-01T12:47:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 62kg",
+      "phase": "Women's Wrestling 62kg Repechage",
+      "unit": "Repechage",
+      "athletes": [],
+      "athletesEn": [
+        "PAI Hsin-ping"
+      ],
+      "opponent": "CHEA Kanha",
+      "opponentCode": "CAM",
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "IS3",
+      "locationName": "ISC  MAT C",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.WR62KG------------.REP2.000200--",
+          "id": "WRE:W.WR62KG------------.REP2.000200--"
         }
       }
     },
@@ -1883,7 +1929,7 @@
         "HSIEH Su-wei",
         "LIANG En-shuo"
       ],
-      "opponent": "KOBORI Momoko/SHIMIZU Ayano",
+      "opponent": "KOBORI Momoko / SHIMIZU Ayano",
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1939,7 +1985,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2223,7 +2269,7 @@
         "CHAN Hao-ching",
         "WU Fang-hsien"
       ],
-      "opponent": "GUO Hanyu/ZHANG Shuai",
+      "opponent": "GUO Hanyu / ZHANG Shuai",
       "opponentCode": "CHN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2274,7 +2320,7 @@
         "CHAN Hao-ching",
         "HO Chenjui"
       ],
-      "opponent": "JIANG Xinyu/ZHANG Tianhui",
+      "opponent": "JIANG Xinyu / ZHANG Tianhui",
       "opponentCode": "CHN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2600,7 +2646,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "GUO Hanyu/WU Yibing",
+      "opponent": "GUO Hanyu / WU Yibing",
       "opponentCode": "CHN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2638,10 +2684,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 45,
+    "resultsOnly": 46,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 56
   },
   "warnings": [
     {
@@ -2786,6 +2832,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WRE 11:47 Repechage",
+      "row": "WRE:W.WR62KG------------.REP2.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Quarter-finals Match 2",
       "row": "TEN:M.SINGLES-----------.QFNL.000200--"
     },
@@ -2896,11 +2947,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "WRE|W.WR62KG------------",
-      "message": "WRE Women's Wrestling 62kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "ARC|M.CINDIVID----------",
       "message": "ARC Compound Men's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2918,6 +2964,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|M.OMNIUM------------",
       "message": "CTR Men's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "WRE|W.WR62KG------------",
+      "message": "WRE Women's Wrestling 62kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
