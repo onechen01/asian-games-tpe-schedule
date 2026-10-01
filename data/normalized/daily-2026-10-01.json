@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T09:04:40.993Z",
+  "generatedAt": "2026-10-01T09:15:07.575Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T09:04:40.848Z",
+      "generatedAt": "2026-10-01T09:15:07.393Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1568,15 +1568,15 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T10:23:00+08:00",
-      "startTimeJst": "2026-10-01T11:23:00+09:00",
+      "startTimeTaipei": "2026-10-01T10:20:00+08:00",
+      "startTimeJst": "2026-10-01T11:20:00+09:00",
       "timeNote": null,
       "disciplineCode": "CTR",
       "sportZh": "自由車場地賽",
       "sportEn": "Cycling Track",
       "event": "Women's Sprint",
       "phase": "Women's Sprint, 1/16 Finals",
-      "unit": "Women's Sprint, 1/16 Finals - Heat 8",
+      "unit": "Women's Sprint, 1/16 Finals - Heat 7",
       "athletes": [],
       "athletesEn": [
         "LIU Shang-ying"
@@ -3039,7 +3039,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "44",
         "opponent": null,
@@ -3355,7 +3355,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CTR 10:23 Women's Sprint, 1/16 Finals - Heat 8",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 10:20 Women's Sprint, 1/16 Finals - Heat 7",
       "row": "CTR:W.SPRINT------------.R32-.000700--"
     },
     {
