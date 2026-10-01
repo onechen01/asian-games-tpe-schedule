@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T07:15:20.260Z",
+  "generatedAt": "2026-10-01T07:26:53.073Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T07:15:20.078Z",
+      "generatedAt": "2026-10-01T07:26:52.870Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1097,15 +1097,15 @@
         {
           "name": "WANG Wei-hsuan",
           "registration": "11704760",
-          "result": "-8",
-          "rank": "2",
+          "result": "-9",
+          "rank": "1",
           "startTimeTaipei": null
         },
         {
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "-2",
-          "rank": "13",
+          "rank": "12",
           "startTimeTaipei": null
         },
         {
@@ -1116,7 +1116,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "2",
+      "tpeRank": "1",
       "orgCount": 25,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1149,9 +1149,9 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
+        "CHAN Shih-chang",
         "HUNG Chien-yao",
-        "WANG Wei-hsuan",
-        "CHAN Shih-chang"
+        "WANG Wei-hsuan"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1163,7 +1163,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-10",
+        "tpe": "-11",
         "opponent": null,
         "source": "results"
       },
@@ -2003,7 +2003,7 @@
       "locationName": "Court 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "1",
@@ -2635,7 +2635,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "2",
         "source": "results"
       },
