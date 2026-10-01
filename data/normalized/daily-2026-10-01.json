@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T09:44:25.753Z",
+  "generatedAt": "2026-10-01T09:55:23.086Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T09:44:25.579Z",
+      "generatedAt": "2026-10-01T09:55:22.959Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1836,7 +1836,7 @@
         "HO Chenjui",
         "HSU Yu-hsiou"
       ],
-      "opponent": "NAM Jisung/PARK Uisung",
+      "opponent": "NAM Jisung / PARK Uisung",
       "opponentCode": "KOR",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1851,7 +1851,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
@@ -1955,7 +1955,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1995,7 +1995,7 @@
         "HSIEH Su-wei",
         "LIANG En-shuo"
       ],
-      "opponent": "KOBORI Momoko/SHIMIZU Ayano",
+      "opponent": "KOBORI Momoko / SHIMIZU Ayano",
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2010,7 +2010,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "1",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2363,7 +2363,7 @@
         "CHAN Hao-ching",
         "WU Fang-hsien"
       ],
-      "opponent": "GUO Hanyu/ZHANG Shuai",
+      "opponent": "GUO Hanyu / ZHANG Shuai",
       "opponentCode": "CHN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2835,7 +2835,7 @@
         "CHAN Hao-ching",
         "HO Chenjui"
       ],
-      "opponent": "JIANG Xinyu/ZHANG Tianhui",
+      "opponent": "JIANG Xinyu / ZHANG Tianhui",
       "opponentCode": "CHN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -3148,7 +3148,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "GUO Hanyu/WU Yibing",
+      "opponent": "GUO Hanyu / WU Yibing",
       "opponentCode": "CHN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
