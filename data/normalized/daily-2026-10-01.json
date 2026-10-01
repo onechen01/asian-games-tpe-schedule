@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T11:28:36.182Z",
+  "generatedAt": "2026-10-01T11:45:12.340Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T11:28:35.993Z",
+      "generatedAt": "2026-10-01T11:45:12.211Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,13 +296,13 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
         "fetchComplete": true,
-        "participationComplete": false
+        "participationComplete": true
       }
     },
     "tpenoc": null,
@@ -1926,60 +1926,6 @@
       "startTimeTaipei": "2026-10-01T12:00:00+08:00",
       "startTimeJst": "2026-10-01T13:00:00+09:00",
       "timeNote": {
-        "code": "NOT_BEFORE",
-        "clockTaipei": "13:00",
-        "raw": "Not Before 14:00"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Men's Singles",
-      "phase": "Men's Singles Quarter-finals",
-      "unit": "Men's Singles Quarter-finals Match 2",
-      "athletes": [],
-      "athletesEn": [
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "SULTANOV Khumoyun",
-      "opponentCode": "UZB",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "006",
-      "locationName": "Court 4",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "2",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "2",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.SINGLES-----------.QFNL.000200--",
-          "id": "TEN:M.SINGLES-----------.QFNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T12:00:00+08:00",
-      "startTimeJst": "2026-10-01T13:00:00+09:00",
-      "timeNote": {
         "code": "PENDING",
         "clockTaipei": null,
         "raw": "Starting at 14:00"
@@ -2027,6 +1973,60 @@
         "results": {
           "unitId": "W.DOUBLES-----------.QFNL.000400--",
           "id": "TEN:W.DOUBLES-----------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T12:00:00+08:00",
+      "startTimeJst": "2026-10-01T13:00:00+09:00",
+      "timeNote": {
+        "code": "NOT_BEFORE",
+        "clockTaipei": "13:00",
+        "raw": "Not Before 14:00"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Men's Singles",
+      "phase": "Men's Singles Quarter-finals",
+      "unit": "Men's Singles Quarter-finals Match 2",
+      "athletes": [],
+      "athletesEn": [
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "SULTANOV Khumoyun",
+      "opponentCode": "UZB",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "006",
+      "locationName": "Court 4",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "2",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SINGLES-----------.QFNL.000200--",
+          "id": "TEN:M.SINGLES-----------.QFNL.000200--"
         }
       }
     },
@@ -2145,18 +2145,18 @@
       "unit": "Match 30",
       "athletes": [],
       "athletesEn": [
+        "WEN Yi-kai",
+        "JHANG Yun-liang",
+        "WANG Ping-hsun",
+        "CHEN Jie-ting",
+        "LIU Yu-lin",
+        "TSAI Pei-chang",
+        "HUANG Jheng-liang",
         "LU Chiang Yao-kai",
         "HUANG Yu-chen",
-        "CHEN Jie-ting",
-        "CHUANG Shao-chieh",
-        "TSAI Pei-chang",
         "CHANG Yu-chen",
-        "LIU Yu-lin",
-        "CHANG Yu-sheng",
-        "WANG Ping-hsun",
-        "JHANG Yun-liang",
-        "WEN Yi-kai",
-        "HUANG Jheng-liang"
+        "CHUANG Shao-chieh",
+        "CHANG Yu-sheng"
       ],
       "opponent": "Kyrgyzstan",
       "opponentCode": "KGZ",
@@ -2817,57 +2817,6 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T15:00:00+08:00",
-      "startTimeJst": "2026-10-01T16:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest, Court & Time TBA"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Quarter-finals",
-      "unit": "Mixed Doubles Quarter-finals Match 1",
-      "athletes": [],
-      "athletesEn": [
-        "CHAN Hao-ching",
-        "HO Chenjui"
-      ],
-      "opponent": "JIANG Xinyu/ZHANG Tianhui",
-      "opponentCode": "CHN",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "002",
-      "locationName": "Show Court",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.QFNL.000100--",
-          "id": "TEN:X.DOUBLES-----------.QFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T15:39:00+08:00",
       "startTimeJst": "2026-10-01T16:39:00+09:00",
       "timeNote": null,
@@ -3130,13 +3079,59 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T17:00:00+08:00",
-      "startTimeJst": "2026-10-01T18:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "After Rest , Court & Time TBA"
+      "startTimeTaipei": "2026-10-01T18:24:00+08:00",
+      "startTimeJst": "2026-10-01T19:24:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 62kg",
+      "phase": "Women's Wrestling 62kg Bronze Medal Matches",
+      "unit": "Bronze Medal Match",
+      "athletes": [],
+      "athletesEn": [
+        "PAI Hsin-ping"
+      ],
+      "opponent": "ZHANG Qi",
+      "opponentCode": "CHN",
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "IS2",
+      "locationName": "ISC  MAT B",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "10",
+        "source": "results"
       },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.WR62KG------------.REPF.000200--",
+          "id": "WRE:W.WR62KG------------.REPF.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T20:00:00+08:00",
+      "startTimeJst": "2026-10-01T21:00:00+09:00",
+      "timeNote": null,
       "disciplineCode": "TEN",
       "sportZh": "網球",
       "sportEn": "Tennis",
@@ -3156,7 +3151,7 @@
       "locationName": "Center Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -3181,35 +3176,32 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T18:24:00+08:00",
-      "startTimeJst": "2026-10-01T19:24:00+09:00",
+      "startTimeTaipei": "2026-10-01T20:30:00+08:00",
+      "startTimeJst": "2026-10-01T21:30:00+09:00",
       "timeNote": null,
-      "disciplineCode": "WRE",
-      "sportZh": "角力",
-      "sportEn": "Wrestling",
-      "event": "Women's Wrestling 62kg",
-      "phase": "Women's Wrestling 62kg Bronze Medal Matches",
-      "unit": "Bronze Medal Match",
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Quarter-finals",
+      "unit": "Mixed Doubles Quarter-finals Match 1",
       "athletes": [],
       "athletesEn": [
-        "PAI Hsin-ping"
+        "CHAN Hao-ching",
+        "HO Chenjui"
       ],
-      "opponent": "ZHANG Qi",
+      "opponent": "JIANG Xinyu/ZHANG Tianhui",
       "opponentCode": "CHN",
-      "venue": "Nagoya City Inae Sports Center",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
-      "locationCode": "IS2",
-      "locationName": "ISC  MAT B",
+      "locationCode": "002",
+      "locationName": "Show Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "10",
-        "source": "results"
-      },
+      "status": "START_LIST",
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3224,8 +3216,8 @@
       "matchSignals": [],
       "sources": {
         "results": {
-          "unitId": "W.WR62KG------------.REPF.000200--",
-          "id": "WRE:W.WR62KG------------.REPF.000200--"
+          "unitId": "X.DOUBLES-----------.QFNL.000100--",
+          "id": "TEN:X.DOUBLES-----------.QFNL.000100--"
         }
       }
     }
@@ -3394,13 +3386,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Quarter-finals Match 2",
-      "row": "TEN:M.SINGLES-----------.QFNL.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Women's Doubles Quarter-finals Match 4",
+      "row": "TEN:W.DOUBLES-----------.QFNL.000400--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Women's Doubles Quarter-finals Match 4",
-      "row": "TEN:W.DOUBLES-----------.QFNL.000400--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 12:00 Men's Singles Quarter-finals Match 2",
+      "row": "TEN:M.SINGLES-----------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3479,11 +3471,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Mixed Doubles Quarter-finals Match 1",
-      "row": "TEN:X.DOUBLES-----------.QFNL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 15:39 Women's Sprint, 1/8 Finals - Heat 1",
       "row": "CTR:W.SPRINT------------.8FNL.000100--"
     },
@@ -3509,13 +3496,18 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 17:00 Mixed Doubles Quarter-finals Match 4",
+      "message": "Results 確認 TPE 但中華奧會未列出：WRE 18:24 Bronze Medal Match",
+      "row": "WRE:W.WR62KG------------.REPF.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 20:00 Mixed Doubles Quarter-finals Match 4",
       "row": "TEN:X.DOUBLES-----------.QFNL.000400--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：WRE 18:24 Bronze Medal Match",
-      "row": "WRE:W.WR62KG------------.REPF.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 20:30 Mixed Doubles Quarter-finals Match 1",
+      "row": "TEN:X.DOUBLES-----------.QFNL.000100--"
     },
     {
       "code": "PENDING_LATER_UNITS",
