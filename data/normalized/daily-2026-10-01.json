@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T08:05:38.346Z",
+  "generatedAt": "2026-10-01T08:16:38.261Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T08:05:38.210Z",
+      "generatedAt": "2026-10-01T08:16:38.081Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1149,9 +1149,9 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
-        "HUNG Chien-yao",
         "WANG Wei-hsuan",
-        "CHAN Shih-chang"
+        "CHAN Shih-chang",
+        "HUNG Chien-yao"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1568,15 +1568,15 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T10:23:00+08:00",
-      "startTimeJst": "2026-10-01T11:23:00+09:00",
+      "startTimeTaipei": "2026-10-01T10:20:00+08:00",
+      "startTimeJst": "2026-10-01T11:20:00+09:00",
       "timeNote": null,
       "disciplineCode": "CTR",
       "sportZh": "自由車場地賽",
       "sportEn": "Cycling Track",
       "event": "Women's Sprint",
       "phase": "Women's Sprint, 1/16 Finals",
-      "unit": "Women's Sprint, 1/16 Finals - Heat 8",
+      "unit": "Women's Sprint, 1/16 Finals - Heat 7",
       "athletes": [],
       "athletesEn": [
         "LIU Shang-ying"
@@ -2615,13 +2615,13 @@
         "CHEN Chia-yi",
         "SHEN Chia-wen",
         "CHIANG Ting-en",
+        "SU Yi-hsuan",
         "HO Yi-fan",
         "KE Hsia-ai",
         "TU Ya-ting",
         "CHU Yi-shan",
         "CHEN Ching-yu",
         "PAN Yu-ling",
-        "SU Yi-hsuan",
         "LIN Chi-yun",
         "YANG An-chi"
       ],
@@ -2633,10 +2633,10 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
-        "opponent": "3",
+        "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -2987,12 +2987,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "9.0100",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3035,10 +3035,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 13,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3347,7 +3351,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CTR 10:23 Women's Sprint, 1/16 Finals - Heat 8",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 10:20 Women's Sprint, 1/16 Finals - Heat 7",
       "row": "CTR:W.SPRINT------------.R32-.000700--"
     },
     {
