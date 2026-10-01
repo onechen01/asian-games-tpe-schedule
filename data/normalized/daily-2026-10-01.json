@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T03:05:59.900Z",
+  "generatedAt": "2026-10-01T03:18:00.863Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T03:05:59.711Z",
+      "generatedAt": "2026-10-01T03:18:00.693Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -396,9 +396,9 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
-        "TSENG Ya-ni",
         "HSU Wei-ling",
-        "CHIEN Pei-yun"
+        "CHIEN Pei-yun",
+        "TSENG Ya-ni"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -537,51 +537,6 @@
         "results": {
           "unitId": "W.INDPOOM-----------.SFNL.000100--",
           "id": "TKW:W.INDPOOM-----------.SFNL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T08:00:00+08:00",
-      "startTimeJst": "2026-10-01T09:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "JJI",
-      "sportZh": "柔術",
-      "sportEn": "Jiu Jitsu",
-      "event": "Men -69kg",
-      "phase": "Men -69kg Elimination Round of 64",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "locationCode": "PMA",
-      "locationName": "",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 32,
-      "enteredAthletes": [
-        "HSU Ching-chih"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "JJI|M.69KG--------------"
         }
       }
     },
@@ -839,6 +794,56 @@
     },
     {
       "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T09:10:00+08:00",
+      "startTimeJst": "2026-10-01T10:10:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "JJI",
+      "sportZh": "柔術",
+      "sportEn": "Jiu Jitsu",
+      "event": "Men -69kg",
+      "phase": "Men -69kg Elimination Round of 32",
+      "unit": "Men -69kg Elimination Round of 32",
+      "athletes": [],
+      "athletesEn": [
+        "HSU Ching-chih"
+      ],
+      "opponent": "ABDYMANAPOV Argen",
+      "opponentCode": "KGZ",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "JJ1",
+      "locationName": "Aichi Prefectural Martial Arts Hall Mat 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "17",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.69KG--------------.R32-.001200--",
+          "id": "JJI:M.69KG--------------.R32-.001200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T09:18:00+08:00",
       "startTimeJst": "2026-10-01T10:18:00+09:00",
       "timeNote": null,
@@ -860,7 +865,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "",
         "opponent": null,
@@ -1057,7 +1062,7 @@
           "name": "HUNG Chien-yao",
           "registration": "905667",
           "result": "+2",
-          "rank": "29",
+          "rank": "28",
           "startTimeTaipei": null
         }
       ],
@@ -1094,8 +1099,8 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
-        "CHAN Shih-chang",
         "HUNG Chien-yao",
+        "CHAN Shih-chang",
         "WANG Wei-hsuan"
       ],
       "opponent": null,
@@ -1156,7 +1161,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "",
         "opponent": null,
@@ -1455,15 +1460,15 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T10:23:00+08:00",
-      "startTimeJst": "2026-10-01T11:23:00+09:00",
+      "startTimeTaipei": "2026-10-01T10:20:00+08:00",
+      "startTimeJst": "2026-10-01T11:20:00+09:00",
       "timeNote": null,
       "disciplineCode": "CTR",
       "sportZh": "自由車場地賽",
       "sportEn": "Cycling Track",
       "event": "Women's Sprint",
       "phase": "Women's Sprint, 1/16 Finals",
-      "unit": "Women's Sprint, 1/16 Finals - Heat 8",
+      "unit": "Women's Sprint, 1/16 Finals - Heat 7",
       "athletes": [],
       "athletesEn": [
         "LIU Shang-ying"
@@ -1526,7 +1531,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": null,
@@ -1578,12 +1583,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "8.7800",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1676,7 +1681,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "",
         "opponent": null,
@@ -1731,8 +1736,12 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2029,11 +2038,11 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2048,19 +2057,7 @@
       "sources": {
         "results": {
           "unitId": "M.C1----------------.FNL-.000100--",
-          "id": "CSL:M.C1----------------.FNL-.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "M.C1----------------.SFNL.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.C1----------------.SFNL.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-10-01T03-04-44-435Z-6f77a5d5bc35-b949c22e.json"
-            ]
-          }
+          "id": "CSL:M.C1----------------.FNL-.000100--"
         }
       }
     },
@@ -2133,11 +2130,11 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2152,19 +2149,7 @@
       "sources": {
         "results": {
           "unitId": "W.K1----------------.FNL-.000100--",
-          "id": "CSL:W.K1----------------.FNL-.000100--",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "W.K1----------------.SFNL.000100--"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/W.K1----------------.SFNL.000100--"
-            ],
-            "rawFiles": [
-              "data/raw/2026-10-01T03-04-46-435Z-7cc5b6bd5ca1-8502284e.json"
-            ]
-          }
+          "id": "CSL:W.K1----------------.FNL-.000100--"
         }
       }
     },
@@ -2603,10 +2588,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 43,
-    "entered": 1,
+    "resultsOnly": 44,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 53
+    "warnings": 55
   },
   "warnings": [
     {
@@ -2653,6 +2638,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SAL 09:00 Race 8",
       "row": "SAL:M.ILCA7-------------.PREL.000800--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JJI 09:10 Men -69kg Elimination Round of 32",
+      "row": "JJI:M.69KG--------------.R32-.001200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2711,7 +2701,7 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CTR 10:23 Women's Sprint, 1/16 Finals - Heat 8",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 10:20 Women's Sprint, 1/16 Finals - Heat 7",
       "row": "CTR:W.SPRINT------------.R32-.000700--"
     },
     {
@@ -2848,6 +2838,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|W.SPRINT------------",
       "message": "CTR Women's Sprint 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JJI|M.69KG--------------",
+      "message": "JJI Men -69kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
