@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T06:45:11.030Z",
+  "generatedAt": "2026-10-01T06:56:09.620Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T06:45:10.849Z",
+      "generatedAt": "2026-10-01T06:56:09.428Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1112,7 +1112,7 @@
           "name": "HUNG Chien-yao",
           "registration": "905667",
           "result": "+2",
-          "rank": "29",
+          "rank": "28",
           "startTimeTaipei": null
         }
       ],
@@ -1149,9 +1149,9 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
-        "WANG Wei-hsuan",
         "HUNG Chien-yao",
-        "CHAN Shih-chang"
+        "CHAN Shih-chang",
+        "WANG Wei-hsuan"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1853,7 +1853,7 @@
       "tpeEntrants": [],
       "tpeRank": "2",
       "orgCount": 2,
-      "tpeMedal": "ME_BRONZE",
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1948,14 +1948,14 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2618,9 +2618,9 @@
         "HO Yi-fan",
         "CHU Yi-shan",
         "CHEN Ching-yu",
+        "SU Yi-hsuan",
         "TU Ya-ting",
         "PAN Yu-ling",
-        "SU Yi-hsuan",
         "YANG An-chi",
         "KE Hsia-ai",
         "LIN Chi-yun"
@@ -2635,7 +2635,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -2733,7 +2733,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "8",
         "opponent": null,
@@ -2784,10 +2784,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3049,6 +3053,52 @@
     },
     {
       "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T16:03:00+08:00",
+      "startTimeJst": "2026-10-01T17:03:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Men's Omnium",
+      "phase": "Men's Omnium, Points Race 4/4",
+      "unit": "Men's Omnium, Points Race 4/4",
+      "athletes": [],
+      "athletesEn": [
+        "LI Jing-feng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 13,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.OMNIUM------------.PTS-.000100--",
+          "id": "CTR:M.OMNIUM------------.PTS-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T18:24:00+08:00",
       "startTimeJst": "2026-10-01T19:24:00+09:00",
       "timeNote": null,
@@ -3100,7 +3150,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 53,
+    "resultsOnly": 54,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 56
@@ -3368,6 +3418,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 16:03 Men's Omnium, Points Race 4/4",
+      "row": "CTR:M.OMNIUM------------.PTS-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WRE 18:24 Bronze Medal Match",
       "row": "WRE:W.WR62KG------------.REPF.000200--"
     },
@@ -3380,11 +3435,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "JJI|M.69KG--------------",
       "message": "JJI Men -69kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "CTR|M.OMNIUM------------",
-      "message": "CTR Men's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
