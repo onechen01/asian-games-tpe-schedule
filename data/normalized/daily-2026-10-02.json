@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T01:49:47.434Z",
+  "generatedAt": "2026-10-01T02:07:44.191Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T01:49:47.251Z",
+      "generatedAt": "2026-10-01T02:07:44.041Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -393,53 +393,6 @@
       "sources": {
         "entries": {
           "eventId": "GLF|M.TEAM--------------"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T07:17:00+08:00",
-      "startTimeJst": "2026-10-02T08:17:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Women's Individual Stroke Play",
-      "phase": "Women's Individual Stroke Play",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "Kasugai Country Club East Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|W.STROKE------------"
         }
       }
     },
@@ -1105,6 +1058,57 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T11:00:00+08:00",
+      "startTimeJst": "2026-10-02T12:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "ELS",
+      "sportZh": "電子競技",
+      "sportEn": "Esports",
+      "event": "MOBA [League of Legends]",
+      "phase": "League of Legends Finals",
+      "unit": "Gold Medal Match",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yu-en",
+        "LIU Jia-hao",
+        "CHIU Tzu-chuan",
+        "YU Jun-jia",
+        "TSAI Ming-hung",
+        "CHEN Yi-chin"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "",
+      "venueZh": null,
+      "locationCode": "EL1",
+      "locationName": "Aichi Sky Expo Hall D",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.LOL---------------.FNL-.000100--",
+          "id": "ELS:O.LOL---------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T12:15:00+08:00",
       "startTimeJst": "2026-10-02T13:15:00+09:00",
       "timeNote": null,
@@ -1577,10 +1581,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 18,
-    "entered": 8,
+    "resultsOnly": 19,
+    "entered": 7,
     "unresolvedTbd": 0,
-    "warnings": 30
+    "warnings": 31
   },
   "warnings": [
     {
@@ -1632,6 +1636,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：HOC 10:30 Women Classification (7th-8th)",
       "row": "HOC:W.TEAM11------------.SF51.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ELS 11:00 Gold Medal Match",
+      "row": "ELS:O.LOL---------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
