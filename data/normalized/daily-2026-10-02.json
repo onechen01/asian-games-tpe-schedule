@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T09:46:28.092Z",
+  "generatedAt": "2026-10-01T10:46:10.180Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T09:46:27.912Z",
+      "generatedAt": "2026-10-01T10:46:09.993Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -312,9 +312,13 @@
       "sportEn": "Golf",
       "event": "Men's Individual Stroke Play",
       "phase": "Men's Individual Stroke Play",
-      "unit": null,
+      "unit": "Round 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Wei-hsuan",
+        "CHAN Shih-chang",
+        "HUNG Chien-yao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -323,29 +327,48 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "WANG Wei-hsuan",
+          "registration": "11704760",
+          "result": "-9",
+          "rank": "1",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHAN Shih-chang",
+          "registration": "12708292",
+          "result": "-2",
+          "rank": "12",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HUNG Chien-yao",
+          "registration": "905667",
+          "result": "+1",
+          "rank": "27",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "1",
+      "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GLF|M.STROKE------------"
+        "results": {
+          "unitId": "M.STROKE------------.FNL-.000300--",
+          "id": "GLF:M.STROKE------------.FNL-.000300--"
         }
       }
     },
@@ -359,9 +382,13 @@
       "sportEn": "Golf",
       "event": "Men's Team",
       "phase": "Men's Team",
-      "unit": null,
+      "unit": "Round 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Wei-hsuan",
+        "CHAN Shih-chang",
+        "HUNG Chien-yao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -370,29 +397,26 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "4",
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GLF|M.TEAM--------------"
+        "results": {
+          "unitId": "M.TEAM--------------.FNL-.000300--",
+          "id": "GLF:M.TEAM--------------.FNL-.000300--"
         }
       }
     },
@@ -1743,12 +1767,22 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 26,
-    "entered": 2,
+    "resultsOnly": 28,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 43
+    "warnings": 45
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 05:30 Round 3",
+      "row": "GLF:M.STROKE------------.FNL-.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 05:30 Round 3",
+      "row": "GLF:M.TEAM--------------.FNL-.000300--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：GLF 08:19 Round 3",
