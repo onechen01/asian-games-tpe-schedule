@@ -19,7 +19,7 @@ export type Broadcast = {
 export type Broadcasts = { records:Broadcast[] };
 export type SessionScope = {
   gender?:'MEN'|'WOMEN'; eventFamily?:'INDIVIDUAL'|'TEAM'; weightKg?:number;
-  roundNumber?:number; stage?:'ELIMINATION_SESSION';
+  roundNumber?:number; stage?:'ELIMINATION_SESSION'|'ROUND_OF_16'|'QUARTERFINAL';
 };
 
 const isRecord = (value:unknown):value is Broadcast => {
@@ -173,16 +173,23 @@ const isEliminationSessionRow = (row:MatchRow)=>{
   return /\bQualifications?\b|\bPreliminar|\bElimination\b|\bRound of (?:64|32|16)\b|\b(?:Quarter-?finals?|1\/4 Finals?)\b|\bSemi-?finals?\b|\bRepechage\b/i.test(text)
     && !/\b(?:Gold|Bronze) Medal\b/i.test(text);
 };
+const matchesSessionStage = (row:MatchRow,stage:SessionScope['stage'])=>{
+  const text=`${row.phase??''} ${row.unit??''}`;
+  if (stage==='ELIMINATION_SESSION') return isEliminationSessionRow(row);
+  if (stage==='ROUND_OF_16') return /\bRound of 16\b/i.test(text);
+  if (stage==='QUARTERFINAL') return /\bQuarter-?finals?\b|\b1\/4 Finals?\b/i.test(text);
+  return false;
+};
 const matchesSessionScope = (row:MatchRow,scope:SessionScope)=>{
   const completeGolf=!!scope.gender&&!!scope.eventFamily&&scope.roundNumber!==undefined;
-  const completeCombat=!!scope.gender&&scope.weightKg!==undefined&&scope.stage==='ELIMINATION_SESSION';
+  const completeCombat=!!scope.gender&&scope.weightKg!==undefined&&!!scope.stage;
   if (!completeGolf&&!completeCombat) return false;
   if (scope.gender && rowGender(row)!==scope.gender) return false;
   if (scope.eventFamily && !familiesIn(row.event,EVENT_FAMILIES,'row').has(scope.eventFamily)) return false;
   if (scope.weightKg!==undefined && rowWeightKg(row)!==scope.weightKg) return false;
   if (scope.roundNumber!==undefined
     && !new RegExp(`\\bRound\\s+${scope.roundNumber}\\b`,'i').test(`${row.phase??''} ${row.unit??''}`)) return false;
-  if (scope.stage==='ELIMINATION_SESSION' && !isEliminationSessionRow(row)) return false;
+  if (scope.stage && !matchesSessionStage(row,scope.stage)) return false;
   return true;
 };
 

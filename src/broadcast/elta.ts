@@ -24,7 +24,7 @@ export type CourtSessionHint = {
 // unsafe cross product of every gender and weight mentioned anywhere in the title.
 export type SessionScope = {
   gender?:'MEN'|'WOMEN'; eventFamily?:'INDIVIDUAL'|'TEAM'; weightKg?:number;
-  roundNumber?:number; stage?:'ELIMINATION_SESSION';
+  roundNumber?:number; stage?:'ELIMINATION_SESSION'|'ROUND_OF_16'|'QUARTERFINAL';
 };
 export type Unresolved = { time:string|null; title:string; reason:string };
 
@@ -41,7 +41,11 @@ export function preserveVerifiedMatchHints(next:BroadcastRecord[],previous:Broad
     : verified.has(recordIdentity(r)) ? {...r,matchHint:verified.get(recordIdentity(r))!} : r);
 }
 
-const CODE_BY_ZH = Object.fromEntries(Object.entries(SPORT_ZH).map(([code,zh])=>[zh,code]));
+const CODE_BY_ZH:Record<string,string> = {
+  ...Object.fromEntries(Object.entries(SPORT_ZH).map(([code,zh])=>[zh,code])),
+  // ELTA uses the shorter common label while Results canonical calls ELS "電子競技".
+  電競:'ELS',
+};
 
 // The programme list is published as a JSON literal inside the public page. Reading it is a
 // plain GET; nothing is logged into, and no private endpoint is used.
@@ -114,11 +118,10 @@ function golfSessionScopes(title:string):SessionScope[] {
   return genders.flatMap(gender=>families.map(eventFamily=>({gender,eventFamily,roundNumber})));
 }
 
-function combatEliminationSessionScopes(title:string):SessionScope[] {
-  if (!/預賽\s*[／/]\s*複賽/.test(title)) return [];
+function genderWeightScopes(title:string):Pick<SessionScope,'gender'|'weightKg'>[] {
   const marker=/男(?:子)?|女(?:子)?/g;
   const hits=[...title.matchAll(marker)];
-  const scopes:SessionScope[]=[];
+  const scopes:Pick<SessionScope,'gender'|'weightKg'>[]=[];
   for (let i=0;i<hits.length;i++) {
     const start=hits[i].index!+hits[i][0].length;
     const next=hits[i+1]?.index ?? title.length;
@@ -126,16 +129,30 @@ function combatEliminationSessionScopes(title:string):SessionScope[] {
     const end=kg>=0&&kg<next?kg:next;
     const weights=title.slice(start,end).match(/\d+(?:\.\d+)?/g)?.map(Number)??[];
     const gender=hits[i][0].startsWith('男')?'MEN':'WOMEN';
-    for (const weightKg of weights) scopes.push({gender,weightKg,stage:'ELIMINATION_SESSION'});
+    for (const weightKg of weights) scopes.push({gender,weightKg});
   }
   return scopes;
+}
+
+function combatEliminationSessionScopes(title:string):SessionScope[] {
+  if (!/預賽\s*[／/]\s*複賽/.test(title)) return [];
+  return genderWeightScopes(title).map(scope=>({...scope,stage:'ELIMINATION_SESSION'}));
+}
+
+function taekwondoSessionScopes(title:string):SessionScope[] {
+  const stages:NonNullable<SessionScope['stage']>[]=[];
+  if (/16強/.test(title)) stages.push('ROUND_OF_16');
+  if (/八強/.test(title)) stages.push('QUARTERFINAL');
+  if (!stages.length) return [];
+  return genderWeightScopes(title).flatMap(scope=>stages.map(stage=>({...scope,stage})));
 }
 
 // Provider parsing only: these scopes describe text the broadcaster actually wrote. They are
 // never participation evidence and can only select already-existing canonical rows.
 export function structuredSessionHint(title:string,disciplineCode:string):SessionScope[] {
   const scopes=disciplineCode==='GLF' ? golfSessionScopes(title)
-    : disciplineCode==='JUD'||disciplineCode==='WRE' ? combatEliminationSessionScopes(title) : [];
+    : disciplineCode==='JUD'||disciplineCode==='WRE' ? combatEliminationSessionScopes(title)
+    : disciplineCode==='TKW' ? taekwondoSessionScopes(title) : [];
   return [...new Map(scopes.map(scope=>[JSON.stringify(scope),scope])).values()];
 }
 

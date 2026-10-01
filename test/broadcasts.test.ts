@@ -133,6 +133,26 @@ test('a named athlete and structured session scopes coexist instead of reverting
   assert.equal(record.matchHint.phaseKeywords,undefined);
 });
 
+test('taekwondo gender, weight and explicitly listed knockout stages become structured scopes',()=>{
+  const title='亞運 中華隊 跆拳道 女子49/67、男子58/80公斤級16強/八強 10/2 LIVE';
+  const scopes=structuredSessionHint(title,'TKW');
+  assert.equal(scopes.length,8);
+  assert.ok(scopes.some(scope=>scope.gender==='WOMEN'&&scope.weightKg===49&&scope.stage==='ROUND_OF_16'));
+  assert.ok(scopes.some(scope=>scope.gender==='MEN'&&scope.weightKg===80&&scope.stage==='QUARTERFINAL'));
+  assert.deepEqual(structuredSessionHint('亞運 中華隊 跆拳道 16強/八強 LIVE','TKW'),[],
+    '缺性別與量級時不得變成全日 session');
+});
+
+test('ELTA 電競 is the ELS discipline alias and its named opponent remains the unit evidence',()=>{
+  const html=page(JSON.stringify({'2026-10-02':{0:programme({format_s_time:'2026-10-02 10:55:00',
+    program_desc:'亞運 中華VS南韓 電競 英雄聯盟金牌戰 10/2(原音) LIVE',
+    sport_item:{sp_name:'電競'},live_type:'LIVE'})}}));
+  const record=toBroadcasts(extractScheduleList(html),{capturedAt:'2026-10-01',nocByZh:{南韓:'KOR'}}).records[0];
+  assert.equal(record.disciplineCode,'ELS');
+  assert.equal(record.matchLevel,'unit');
+  assert.deepEqual(record.matchHint,{opponentCodes:['KOR']});
+});
+
 test('several programmes of one sport on one day all survive, duplicates do not',()=>{
   const { records } = parse(day([
     programme({ format_s_time:'2026-09-21 08:55:00', program_desc:'亞運 空手道 預賽 9/21 LIVE', sport_item:{ sp_name:'空手道' } }),

@@ -1301,6 +1301,39 @@ test('the eight production multi-scope programmes attach only to explicitly name
     '既有 Qualifications／entries session 配對不得因 structured stage 篩選消失');
 });
 
+test('the real 10/2 taekwondo session and League of Legends final attach without broad discipline fallback',async()=>{
+  const date='2026-10-02';
+  const day=parseDaily(JSON.parse(await readFile(`data/normalized/daily-${date}.json`,'utf8')),date);
+  const rows=[...taiwanRows(day),...pendingRows(day)];
+  const source=parseBroadcasts(await readFile('data/reference/broadcasts.json','utf8'));
+  const taekwondo=source.records.find(b=>b.date===date&&b.disciplineCode==='TKW'
+    && b.title?.includes('女子49/67/男子58/80公斤級16強/八強'))!;
+  assert.ok(taekwondo);
+  assert.equal(rows.filter(r=>broadcastsForRow({records:[taekwondo]},date,r).length).length,0,
+    '舊 adapter 沒有 structured scope，維持 unmatched');
+  const scopes=structuredSessionHint(taekwondo.title??'',taekwondo.disciplineCode);
+  const scoped={...taekwondo,matchHint:{...taekwondo.matchHint,sessionScopes:scopes}};
+  const matched=rows.filter(r=>broadcastsForRow({records:[scoped]},date,r).length);
+  for(const id of [
+    'TKW:W.49KG--------------.8FNL.000400--',
+    'TKW:W.67KG--------------.8FNL.000200--',
+    'TKW:M.80KG--------------.8FNL.000700--',
+  ]) assert.ok(matched.some(r=>r.sources.results?.id===id),`缺 ${id}`);
+  assert.ok(matched.every(r=>r.disciplineCode==='TKW'
+    && /(?:Women -(?:49|67)kg|Men -(?:58|80)kg)/.test(r.event??'')
+    && /Round of 16|Quarter-?final/i.test(`${r.phase??''} ${r.unit??''}`)));
+
+  const lol=rows.find(r=>r.sources.results?.id==='ELS:O.LOL---------------.FNL-.000100--')!;
+  const show=parseBroadcasts(JSON.stringify({schemaVersion:1,records:[{
+    date,providerId:'elta',providerName:'愛爾達',isLive:true,
+    broadcastStartTimeTaipei:'2026-10-02T10:55:00+08:00',disciplineCode:'ELS',
+    title:'亞運 中華VS南韓 電競 英雄聯盟金牌戰 10/2(原音) LIVE',feed:'original',
+    matchLevel:'unit',matchHint:{opponentCodes:['KOR']}}]}));
+  assert.equal(broadcastsForRow(show,date,lol).length,1);
+  assert.equal(rows.filter(r=>r.sources.results?.id!==lol.sources.results?.id
+    && broadcastsForRow(show,date,r).length).length,0);
+});
+
 test('case C — a D-LIVE rerun credited to a different athlete, or covering a different round, is not inherited (real karate examples)',()=>{
   // 9/22: the LIVE names a specific athlete ("鍾孟宇"); the D-LIVE rerun uses the generic "中華隊"
   // label instead — a real difference in who the programme is about, not playback noise.
