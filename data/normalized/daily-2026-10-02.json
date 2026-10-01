@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T12:08:30.600Z",
+  "generatedAt": "2026-10-01T12:16:14.219Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T12:08:30.409Z",
+      "generatedAt": "2026-10-01T12:16:14.024Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1462,9 +1462,9 @@
       "startTimeTaipei": "2026-10-02T13:00:00+08:00",
       "startTimeJst": "2026-10-02T14:00:00+09:00",
       "timeNote": {
-        "code": "NOT_BEFORE",
-        "clockTaipei": "14:00",
-        "raw": "Not Before 15:00"
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "Starting at 14:30"
       },
       "disciplineCode": "TEN",
       "sportZh": "網球",
