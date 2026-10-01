@@ -4598,6 +4598,28 @@
       }
     },
     {
+      "date": "2026-10-01",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-01T16:55:00+08:00",
+      "disciplineCode": "WRE",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 白欣平 角力 男子希羅式77/97/60/女子62公斤級決賽 10/1(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-10-01",
+      "broadcastEndTimeTaipei": "2026-10-01T20:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "PAI Hsin-ping"
+        ]
+      }
+    },
+    {
       "date": "2026-10-02",
       "providerId": "elta",
       "providerName": "愛爾達",
