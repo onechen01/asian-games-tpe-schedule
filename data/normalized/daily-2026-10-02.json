@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T22:14:27.554Z",
+  "generatedAt": "2026-10-01T22:46:29.881Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T22:14:27.370Z",
+      "generatedAt": "2026-10-01T22:46:29.700Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1385,9 +1385,9 @@
       "unit": "Recurve Men's Team Semifinal",
       "athletes": [],
       "athletesEn": [
-        "TANG Chih-chun",
-        "LIN Zih-siang",
-        "CHENG Hsiang-hui"
+        "TANG Chih-Chun",
+        "LIN Zih-Siang",
+        "CHENG Hsiang-Hui"
       ],
       "opponent": "Republic of Korea",
       "opponentCode": "KOR",
