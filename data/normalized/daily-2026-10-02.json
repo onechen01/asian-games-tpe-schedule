@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T08:38:47.177Z",
+  "generatedAt": "2026-10-01T08:46:12.514Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T08:38:46.990Z",
+      "generatedAt": "2026-10-01T08:46:12.333Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -608,6 +608,52 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T09:45:00+08:00",
+      "startTimeJst": "2026-10-02T10:45:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 50kg",
+      "phase": "Women's Wrestling 50kg 1/8 Finals",
+      "unit": "Qualification",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yi-hui"
+      ],
+      "opponent": "DO Ngoc Linh",
+      "opponentCode": "VIE",
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "IS3",
+      "locationName": "ISC  MAT C",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.WR50KG------------.8FNL.000300--",
+          "id": "WRE:W.WR50KG------------.8FNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T10:00:00+08:00",
       "startTimeJst": "2026-10-02T11:00:00+09:00",
       "timeNote": null,
@@ -909,6 +955,52 @@
         "results": {
           "unitId": "W.TEAM9-------------.GP--.002600--",
           "id": "SBL:W.TEAM9-------------.GP--.002600--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:02:00+08:00",
+      "startTimeJst": "2026-10-02T11:02:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 76kg",
+      "phase": "Women's Wrestling 76kg 1/8 Finals",
+      "unit": "1/8 Final",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Hui-tsz"
+      ],
+      "opponent": "ENKH-AMAR Davaanasan",
+      "opponentCode": "MGL",
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "IS3",
+      "locationName": "ISC  MAT C",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.WR76KG------------.8FNL.000700--",
+          "id": "WRE:W.WR76KG------------.8FNL.000700--"
         }
       }
     },
@@ -1619,10 +1711,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 22,
+    "resultsOnly": 24,
     "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 35
+    "warnings": 39
   },
   "warnings": [
     {
@@ -1644,6 +1736,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 09:30 Men's Keirin, First Round - Heat 1",
       "row": "CTR:M.KEIRIN------------.RND1.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WRE 09:45 Qualification",
+      "row": "WRE:W.WR50KG------------.8FNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1674,6 +1771,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  26",
       "row": "SBL:W.TEAM9-------------.GP--.002600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WRE 10:02 1/8 Final",
+      "row": "WRE:W.WR76KG------------.8FNL.000700--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1764,6 +1866,16 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|M.KEIRIN------------",
       "message": "CTR Men's Keirin 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "WRE|W.WR50KG------------",
+      "message": "WRE Women's Wrestling 50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "WRE|W.WR76KG------------",
+      "message": "WRE Women's Wrestling 76kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
