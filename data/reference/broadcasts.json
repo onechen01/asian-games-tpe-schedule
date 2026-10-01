@@ -4476,7 +4476,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-01",
-      "broadcastEndTimeTaipei": "2026-10-01T13:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-01T14:24:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
@@ -4629,11 +4629,11 @@
       "channelId": "540",
       "channelName": "愛爾達體育MAX1台",
       "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女個人/團體第三輪 10/2(原音) LIVE",
+      "title": "亞運 中華隊 高爾夫 男子個人/團體第三輪 10/2(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-01",
-      "broadcastEndTimeTaipei": "2026-10-02T16:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T13:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
@@ -4644,16 +4644,6 @@
           },
           {
             "gender": "MEN",
-            "eventFamily": "TEAM",
-            "roundNumber": 3
-          },
-          {
-            "gender": "WOMEN",
-            "eventFamily": "INDIVIDUAL",
-            "roundNumber": 3
-          },
-          {
-            "gender": "WOMEN",
             "eventFamily": "TEAM",
             "roundNumber": 3
           }
@@ -4665,47 +4655,28 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-02T09:25:00+08:00",
-      "disciplineCode": "WRE",
+      "broadcastStartTimeTaipei": "2026-10-02T07:10:00+08:00",
+      "disciplineCode": "GLF",
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 林宜慧/張惠慈 角力 女子50/76/男子自由式65/86/125公斤級預賽/複賽 10/2(原音) LIVE",
+      "title": "亞運 中華隊 高爾夫 女子個人/團體第三輪 10/2(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-01",
-      "broadcastEndTimeTaipei": "2026-10-02T12:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T13:30:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
-        "athleteNames": [
-          "CHANG Hui-tsz",
-          "LIN Yi-hui"
-        ],
         "sessionScopes": [
           {
             "gender": "WOMEN",
-            "weightKg": 50,
-            "stage": "ELIMINATION_SESSION"
+            "eventFamily": "INDIVIDUAL",
+            "roundNumber": 3
           },
           {
             "gender": "WOMEN",
-            "weightKg": 76,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 65,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 86,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 125,
-            "stage": "ELIMINATION_SESSION"
+            "eventFamily": "TEAM",
+            "roundNumber": 3
           }
         ]
       }
@@ -4742,9 +4713,9 @@
       "channelId": "110",
       "channelName": "愛爾達體育3台",
       "isLive": true,
-      "title": "亞運 中華隊 柔道 男子90/100/100公斤以上/女子78/78公斤以上預賽/複賽 10/2(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 中華隊 柔道 男子90/100/100公斤以上/女子78/78公斤以上預賽/複賽 10/2 LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-10-01",
       "broadcastEndTimeTaipei": "2026-10-02T13:00:00+08:00",
       "matchLevel": "discipline",
@@ -4804,7 +4775,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-01",
-      "broadcastEndTimeTaipei": "2026-10-02T14:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T14:40:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -4862,7 +4833,7 @@
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 哈薩克VS中華 排球 男子排名賽 10/2 LIVE",
+      "title": "亞運 哈薩克VS中華 排球 男子9-12排名賽 10/2 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-01",
@@ -4884,7 +4855,7 @@
       "channelId": "105",
       "channelName": "愛爾達體育2台",
       "isLive": true,
-      "title": "亞運 陳念琴 拳擊 女子54/66/男子60/80/90公斤以上級決賽 10/2 LIVE",
+      "title": "亞運 陳念琴 拳擊 女子54/65/男子60/80/90公斤以上級決賽 10/2 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-01",
@@ -4910,7 +4881,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-01",
-      "broadcastEndTimeTaipei": "2026-10-02T19:45:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T20:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -4989,8 +4960,8 @@
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-03T07:55:00+08:00",
       "disciplineCode": "JJI",
-      "channelId": "541",
-      "channelName": "愛爾達體育MAX2台",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
       "isLive": true,
       "title": "亞運 沈玉沁 柔術 女子63/男子85公斤級預賽/複賽/決賽 10/3(原音) LIVE",
       "feed": "original",
@@ -5049,56 +5020,6 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T09:25:00+08:00",
-      "disciplineCode": "WRE",
-      "channelId": "542",
-      "channelName": "愛爾達體育MAX3台",
-      "isLive": true,
-      "title": "亞運 林宜慧/張惠慈 角力 女子50/76/男子自由式65/86/125公斤級預賽/複賽 10/2(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-10-01",
-      "broadcastEndTimeTaipei": "2026-10-03T13:00:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {
-        "athleteNames": [
-          "CHANG Hui-tsz",
-          "LIN Yi-hui"
-        ],
-        "sessionScopes": [
-          {
-            "gender": "WOMEN",
-            "weightKg": 50,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "WOMEN",
-            "weightKg": 76,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 65,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 86,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 125,
-            "stage": "ELIMINATION_SESSION"
-          }
-        ]
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-03T11:55:00+08:00",
       "disciplineCode": "ARC",
       "channelId": "101",
@@ -5113,56 +5034,6 @@
       "matchHint": {
         "athleteNames": [
           "TANG Chih-chun"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T16:55:00+08:00",
-      "disciplineCode": "WRE",
-      "channelId": "541",
-      "channelName": "愛爾達體育MAX2台",
-      "isLive": true,
-      "title": "亞運 林宜慧/張惠慈 角力 女子50/76/男子自由式65/86/125公斤級預賽/複賽 10/2(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-10-01",
-      "broadcastEndTimeTaipei": "2026-10-03T20:00:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {
-        "athleteNames": [
-          "CHANG Hui-tsz",
-          "LIN Yi-hui"
-        ],
-        "sessionScopes": [
-          {
-            "gender": "WOMEN",
-            "weightKg": 50,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "WOMEN",
-            "weightKg": 76,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 65,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 86,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 125,
-            "stage": "ELIMINATION_SESSION"
-          }
         ]
       }
     },
