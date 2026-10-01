@@ -396,7 +396,7 @@ test('a confirmed unit replaces the provisional row instead of doubling it',()=>
 test('timeNote survives from the Results row into the canonical daily row (display trust signal)',()=>{
   const hidden:ResultsRow = { id:'test-hidden', disciplineCode:'BDM', eventName:'Mixed Doubles',
     startTimeTaipei:'2026-09-25T08:30:00+08:00', hasTpe:true, orgs:['TPE','MAS'], sourceStatus:'SCHEDULED',
-    timeNote:{ code:'FOLLOWED_BY', clockTaipei:null, raw:'Followed by' } };
+    timeNote:{ code:'FOLLOWED_BY', clockTaipei:null, raw:'Followed by' }, estimated:true };
   const visible:ResultsRow = { id:'test-visible', disciplineCode:'BDM', eventName:'Mixed Doubles',
     startTimeTaipei:'2026-09-25T09:00:00+08:00', hasTpe:true, orgs:['TPE','MAS'], sourceStatus:'SCHEDULED',
     timeNote:null };
@@ -404,7 +404,9 @@ test('timeNote survives from the Results row into the canonical daily row (displ
     coverage:{ fetchComplete:true, missing:[] }, errors:[] }, null, null);
   assert.deepEqual(merged.rows.find(r=>r.sources.results?.id==='test-hidden')?.timeNote,
     { code:'FOLLOWED_BY', clockTaipei:null, raw:'Followed by' });
+  assert.equal(merged.rows.find(r=>r.sources.results?.id==='test-hidden')?.estimated,true);
   assert.equal(merged.rows.find(r=>r.sources.results?.id==='test-visible')?.timeNote,null);
+  assert.equal(merged.rows.find(r=>r.sources.results?.id==='test-visible')?.estimated,null);
 });
 
 // The real 9/25 badminton case this whole fix is for: 8 confirmed TPE units, all HideStartDate,

@@ -20,6 +20,10 @@ test('matchTimeLabel switches purely on timeNote.code, the one place every card 
   const at = (startTimeTaipei:string)=>({startTimeTaipei});
   assert.equal(matchTimeLabel({...at('2026-09-25T17:00:00+08:00'),
     timeNote:{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}}),'前場結束後');
+  assert.equal(matchTimeLabel({...at('2026-10-02T10:00:00+08:00'),estimated:true,
+    timeNote:{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}}),'約 10:00，前場結束後');
+  assert.equal(matchTimeLabel({...at('2026-10-02T10:00:00+08:00'),estimated:false,
+    timeNote:{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}}),'前場結束後');
   assert.equal(matchTimeLabel({...at('2026-09-25T15:50:00+08:00'),
     timeNote:{code:'NOT_BEFORE',clockTaipei:'15:00',raw:'Not Before 16:00'}}),'不早於 15:00');
   assert.equal(matchTimeLabel({...at('2026-09-23T10:30:00+08:00'),

@@ -8,6 +8,7 @@ export type TimeNote = { code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PE
 export type Row = {
   date:string; startTimeTaipei:string | null; startTimeJst:string | null;
   timeNote?:TimeNote | null;
+  estimated?:boolean | null;
   disciplineCode:string | null; sportZh:string | null; sportEn:string | null;
   event:string | null; phase:string | null; unit:string | null;
   athletes:string[]; athletesEn:string[]; opponent:string | null; opponentCode:string | null;
@@ -57,7 +58,7 @@ export function formatTaipei(value?:string|null,withDate=false){
 // the label on their own, and none of them branch on disciplineCode. The underlying
 // startTimeTaipei is still used internally for sorting and day bucketing. Broadcast matching
 // separately applies the timeNote semantics and must not treat every hidden value as exact.
-type TimeLabelRow = { startTimeTaipei?:string|null; timeNote?:TimeNote|null;
+type TimeLabelRow = { startTimeTaipei?:string|null; timeNote?:TimeNote|null; estimated?:boolean|null;
   courtSessionChainId?:string|null; courtPredecessorUnitId?:string|null;
   sources?:{results?:{unitId?:string}} };
 
@@ -80,6 +81,9 @@ export function matchTimeLabel(row:TimeLabelRow,chains:CourtSessionChain[]=[]){
       }
       if(chain?.anchorTimeKind==='LOWER_BOUND'&&chain.anchorTimeTaipei){
         return `本球場不早於 ${formatTaipei(chain.anchorTimeTaipei)} 起依序進行\n前場結束後開賽`;
+      }
+      if(row.estimated===true&&row.startTimeTaipei){
+        return `約 ${formatTaipei(row.startTimeTaipei)}，前場結束後`;
       }
       return '前場結束後';
     }

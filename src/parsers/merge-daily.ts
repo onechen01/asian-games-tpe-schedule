@@ -18,6 +18,7 @@ export type ResultsRow = {
   // here). startTimeTaipei itself remains usable for sorting/day bucketing; matcher time evidence
   // depends on the timeNote semantics.
   timeNote?:{ code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING'; clockTaipei:string | null; raw:string | null } | null;
+  estimated?:boolean;
   resultScope?:'component' | 'aggregate' | null;
   competitors?:Competitor[];
   result?:{ sourceStatus?:string; competitors?:Competitor[] };
@@ -52,6 +53,7 @@ export type DailyRow = {
   date:string; startTimeTaipei:string | null; startTimeJst:string | null;
   // See ResultsRow.timeNote above.
   timeNote:{ code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING'; clockTaipei:string | null; raw:string | null } | null;
+  estimated:boolean | null;
   disciplineCode:string | null; sportZh:string | null; sportEn:string | null;
   event:string | null; phase:string | null; unit:string | null;
   athletes:string[]; athletesEn:string[]; opponent:string | null; opponentCode:string | null;
@@ -298,6 +300,7 @@ function canonical(date:string, results:ResultsRow | null, tpenoc:TpenocMatch | 
     startTimeTaipei:results?.startTimeTaipei ?? tpenoc?.startTimeTaipei ?? null,
     startTimeJst:results?.originalStartTime ?? tpenoc?.startTimeJst ?? null,
     timeNote:results?.timeNote ?? null,
+    estimated:results?.estimated ?? null,
     disciplineCode:results?.disciplineCode ?? (tpenoc ? CODE_BY_ZH[tpenoc.sport] ?? null : null),
     // One display name per discipline, from the table above; the committee's own wording for
     // the same sport stays in sources.tpenoc.
