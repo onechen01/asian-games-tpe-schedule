@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T07:45:19.314Z",
+  "generatedAt": "2026-10-01T07:56:06.987Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T07:45:19.133Z",
+      "generatedAt": "2026-10-01T07:56:06.838Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1105,14 +1105,14 @@
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "-2",
-          "rank": "13",
+          "rank": "12",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-yao",
           "registration": "905667",
-          "result": "+2",
-          "rank": "28",
+          "result": "+1",
+          "rank": "27",
           "startTimeTaipei": null
         }
       ],
@@ -1150,8 +1150,8 @@
       "athletes": [],
       "athletesEn": [
         "HUNG Chien-yao",
-        "CHAN Shih-chang",
-        "WANG Wei-hsuan"
+        "WANG Wei-hsuan",
+        "CHAN Shih-chang"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -2935,14 +2935,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "11.728",
+        "opponent": "11.583",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
