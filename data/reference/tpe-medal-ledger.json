@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-01T09:57:26.408Z",
+  "generatedAt": "2026-10-01T10:08:51.956Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-01T09:57:26.406Z",
+  "standingsUpdatedAt": "2026-10-01T10:08:51.955Z",
   "ledgerCounts": {
     "gold": 3,
     "silver": 12,
@@ -779,7 +779,7 @@
         "HO Chenjui",
         "HSU Yu-hsiou"
       ],
-      "rank": null
+      "rank": "2"
     }
   ]
 }
