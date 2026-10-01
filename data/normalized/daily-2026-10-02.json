@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T05:57:45.950Z",
+  "generatedAt": "2026-10-01T06:09:26.573Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T05:57:45.766Z",
+      "generatedAt": "2026-10-01T06:09:26.385Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -302,53 +302,6 @@
   },
   "date": "2026-10-02",
   "rows": [
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T06:00:00+08:00",
-      "startTimeJst": "2026-10-02T07:00:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Men's Individual Stroke Play",
-      "phase": "Men's Individual Stroke Play",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "Kasugai Country Club East Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|M.STROKE------------"
-        }
-      }
-    },
     {
       "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T06:00:00+08:00",
@@ -1527,6 +1480,63 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T15:00:00+08:00",
+      "startTimeJst": "2026-10-02T16:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "VVO",
+      "sportZh": "排球",
+      "sportEn": "Volleyball",
+      "event": "Men",
+      "phase": "Men's Classification Match 9th-12th",
+      "unit": "Match 39",
+      "athletes": [],
+      "athletesEn": [
+        "WEN Yi-kai",
+        "JHANG Yun-liang",
+        "WANG Ping-hsun",
+        "CHEN Jie-ting",
+        "LIU Yu-lin",
+        "TSAI Pei-chang",
+        "HUANG Jheng-liang",
+        "LU Chiang Yao-kai",
+        "HUANG Yu-chen",
+        "CHANG Yu-chen",
+        "CHUANG Shao-chieh",
+        "CHANG Yu-sheng"
+      ],
+      "opponent": "Kazakhstan",
+      "opponentCode": "KAZ",
+      "venue": "Park Arena Komaki",
+      "venueZh": null,
+      "locationCode": "PKA",
+      "locationName": "Park Arena Komaki",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM6-------------.SF9-.000100--",
+          "id": "VVO:M.TEAM6-------------.SF9-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T16:45:00+08:00",
       "startTimeJst": "2026-10-02T17:45:00+09:00",
       "timeNote": null,
@@ -1628,10 +1638,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 19,
-    "entered": 8,
+    "resultsOnly": 20,
+    "entered": 7,
     "unresolvedTbd": 0,
-    "warnings": 31
+    "warnings": 33
   },
   "warnings": [
     {
@@ -1721,6 +1731,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：VVO 15:00 Match 39",
+      "row": "VVO:M.TEAM6-------------.SF9-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:45 Women's 65KG - Final",
       "row": "BOX:W.65KG--------------.FNL-.000100--"
     },
@@ -1728,6 +1743,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：GRY 17:00 Group All-Around Qualification",
       "row": "GRY:W.5AA---------------.QUAL.A0000100"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "VVO|M.TEAM6-------------",
+      "message": "VVO Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
