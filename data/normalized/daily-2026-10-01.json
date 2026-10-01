@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T01:06:27.171Z",
+  "generatedAt": "2026-10-01T01:15:13.211Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T01:06:27.048Z",
+      "generatedAt": "2026-10-01T01:15:13.070Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -345,25 +345,25 @@
           "name": "HSU Wei-ling",
           "registration": "8390832",
           "result": "-2",
-          "rank": "6",
+          "rank": "8",
           "startTimeTaipei": null
         },
         {
           "name": "CHIEN Pei-yun",
           "registration": "10587356",
-          "result": "0",
-          "rank": "13",
+          "result": "-1",
+          "rank": "10",
           "startTimeTaipei": null
         },
         {
           "name": "TSENG Ya-ni",
           "registration": "8374574",
           "result": "+1",
-          "rank": "17",
+          "rank": "16",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "6",
+      "tpeRank": "8",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -410,7 +410,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-3",
+        "tpe": "-4",
         "opponent": null,
         "source": "results"
       },
@@ -513,7 +513,7 @@
       "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "8.3700",
         "opponent": null,
@@ -615,7 +615,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "",
         "opponent": null,
@@ -652,9 +652,11 @@
       "sportEn": "Sailing",
       "event": "Men's Dinghy",
       "phase": "Qualification Series",
-      "unit": null,
+      "unit": "Race 6",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kaiyoh Yacht Harbor",
@@ -663,27 +665,30 @@
       "locationName": "Racing Area B",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 18,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 4,
-      "enteredAthletes": [
-        "WU Tsai-chien"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "SAL|M.ILCA7-------------"
+        "results": {
+          "unitId": "M.ILCA7-------------.PREL.000600--",
+          "id": "SAL:M.ILCA7-------------.PREL.000600--"
         }
       }
     },
@@ -1582,18 +1587,18 @@
       "unit": "Match 30",
       "athletes": [],
       "athletesEn": [
+        "WEN Yi-kai",
+        "JHANG Yun-liang",
+        "WANG Ping-hsun",
+        "CHEN Jie-ting",
+        "LIU Yu-lin",
+        "TSAI Pei-chang",
+        "HUANG Jheng-liang",
         "LU Chiang Yao-kai",
         "HUANG Yu-chen",
-        "CHEN Jie-ting",
-        "CHUANG Shao-chieh",
-        "TSAI Pei-chang",
         "CHANG Yu-chen",
-        "LIU Yu-lin",
-        "CHANG Yu-sheng",
-        "WANG Ping-hsun",
-        "JHANG Yun-liang",
-        "WEN Yi-kai",
-        "HUANG Jheng-liang"
+        "CHUANG Shao-chieh",
+        "CHANG Yu-sheng"
       ],
       "opponent": "Kyrgyzstan",
       "opponentCode": "KGZ",
@@ -1969,10 +1974,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 31,
-    "entered": 1,
+    "resultsOnly": 32,
+    "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 44
+    "warnings": 46
   },
   "warnings": [
     {
@@ -2004,6 +2009,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 09:00 Men's Omnium, Scratch Race 1/4",
       "row": "CTR:M.OMNIUM------------.SCR-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 09:00 Race 6",
+      "row": "SAL:M.ILCA7-------------.PREL.000600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2129,6 +2139,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 15:00 Mixed Doubles Quarter-finals Match 4",
       "row": "TEN:X.DOUBLES-----------.QFNL.000400--"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SAL|M.ILCA7-------------",
+      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
