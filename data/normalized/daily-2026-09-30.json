@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T01:04:02.266Z",
+  "generatedAt": "2026-10-01T01:34:31.250Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-09-30/schedule-2026-09-30-AUTO.json",
-      "generatedAt": "2026-10-01T01:04:02.152Z",
+      "generatedAt": "2026-10-01T01:34:31.076Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -276,8 +276,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1068,6 +1068,438 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T10:00:00+08:00",
       "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -60kg",
+      "phase": "Men -60 kg Elimination Round of 16",
+      "unit": "Men -60 kg Elimination Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Yung-wei"
+      ],
+      "opponent": "ALSAIARI Abdulrahman Mussabbih O",
+      "opponentCode": "KSA",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "101",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.60KG--------------.8FNL.000500--",
+          "id": "JUD:M.60KG--------------.8FNL.000500--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -66kg",
+      "phase": "Men -66 kg Elimination Round of 16",
+      "unit": "Men -66 kg Elimination Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chong-you"
+      ],
+      "opponent": "WONG Ka Ki",
+      "opponentCode": "HKG",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "101",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "7",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.66KG--------------.8FNL.000600--",
+          "id": "JUD:M.66KG--------------.8FNL.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Women -48kg",
+      "phase": "Women -48 kg Quarterfinals",
+      "unit": "Women -48 kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chen-hao"
+      ],
+      "opponent": "WONG Ka Lee",
+      "opponentCode": "HKG",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1S1",
+        "opponent": "0S1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.48KG--------------.QFNL.000300--",
+          "id": "JUD:W.48KG--------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -60kg",
+      "phase": "Men -60 kg Quarterfinals",
+      "unit": "Men -60 kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Yung-wei"
+      ],
+      "opponent": "KUDBUDINOV Loiq",
+      "opponentCode": "TJK",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "100S1",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.60KG--------------.QFNL.000300--",
+          "id": "JUD:M.60KG--------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -66kg",
+      "phase": "Men -66 kg Quarterfinals",
+      "unit": "Men -66 kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chong-you"
+      ],
+      "opponent": "KIM Channyeong",
+      "opponentCode": "KOR",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "10",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "7",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.66KG--------------.QFNL.000300--",
+          "id": "JUD:M.66KG--------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -66kg",
+      "phase": "Men -66 kg Repechage",
+      "unit": "Men -66 kg Repechage contest",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chong-you"
+      ],
+      "opponent": "XUE Ziyang",
+      "opponentCode": "CHN",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1S2",
+        "opponent": "2S2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "7",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.66KG--------------.REP1.000200--",
+          "id": "JUD:M.66KG--------------.REP1.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Women -48kg",
+      "phase": "Women -48 kg Semifinals",
+      "unit": "Women -48 kg Semifinal of Table B",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chen-hao"
+      ],
+      "opponent": "ABUZHAKYNOVA Abiba",
+      "opponentCode": "KAZ",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0S2",
+        "opponent": "1S2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.48KG--------------.SFNL.000200--",
+          "id": "JUD:W.48KG--------------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Men -60kg",
+      "phase": "Men -60 kg Semifinals",
+      "unit": "Men -60 kg Semifinal of Table B",
+      "athletes": [],
+      "athletesEn": [
+        "YANG Yung-wei"
+      ],
+      "opponent": "SMETOV Yeldos",
+      "opponentCode": "KAZ",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0S1",
+        "opponent": "10S1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.60KG--------------.SFNL.000200--",
+          "id": "JUD:M.60KG--------------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
+      "startTimeJst": "2026-09-30T11:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "SAL",
       "sportZh": "帆船",
@@ -1265,438 +1697,6 @@
         "results": {
           "unitId": "M.SINGLES-----------.8FNL.000700--",
           "id": "TEN:M.SINGLES-----------.8FNL.000700--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Men -60kg",
-      "phase": "Men -60 kg Elimination Round of 16",
-      "unit": "Men -60 kg Elimination Round of 16",
-      "athletes": [],
-      "athletesEn": [
-        "YANG Yung-wei"
-      ],
-      "opponent": "ALSAIARI Abdulrahman Mussabbih O",
-      "opponentCode": "KSA",
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD2",
-      "locationName": "AIA Tatami 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "101",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.60KG--------------.8FNL.000500--",
-          "id": "JUD:M.60KG--------------.8FNL.000500--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Men -66kg",
-      "phase": "Men -66 kg Elimination Round of 16",
-      "unit": "Men -66 kg Elimination Round of 16",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Chong-you"
-      ],
-      "opponent": "WONG Ka Ki",
-      "opponentCode": "HKG",
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD2",
-      "locationName": "AIA Tatami 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "101",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.66KG--------------.8FNL.000600--",
-          "id": "JUD:M.66KG--------------.8FNL.000600--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Women -48kg",
-      "phase": "Women -48 kg Quarterfinals",
-      "unit": "Women -48 kg Quarterfinal",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Chen-hao"
-      ],
-      "opponent": "WONG Ka Lee",
-      "opponentCode": "HKG",
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD2",
-      "locationName": "AIA Tatami 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "1S1",
-        "opponent": "0S1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.48KG--------------.QFNL.000300--",
-          "id": "JUD:W.48KG--------------.QFNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Men -60kg",
-      "phase": "Men -60 kg Quarterfinals",
-      "unit": "Men -60 kg Quarterfinal",
-      "athletes": [],
-      "athletesEn": [
-        "YANG Yung-wei"
-      ],
-      "opponent": "KUDBUDINOV Loiq",
-      "opponentCode": "TJK",
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD2",
-      "locationName": "AIA Tatami 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "100S1",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.60KG--------------.QFNL.000300--",
-          "id": "JUD:M.60KG--------------.QFNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Men -66kg",
-      "phase": "Men -66 kg Quarterfinals",
-      "unit": "Men -66 kg Quarterfinal",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Chong-you"
-      ],
-      "opponent": "KIM Channyeong",
-      "opponentCode": "KOR",
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD2",
-      "locationName": "AIA Tatami 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "10",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.66KG--------------.QFNL.000300--",
-          "id": "JUD:M.66KG--------------.QFNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Men -66kg",
-      "phase": "Men -66 kg Repechage",
-      "unit": "Men -66 kg Repechage contest",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Chong-you"
-      ],
-      "opponent": "XUE Ziyang",
-      "opponentCode": "CHN",
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD2",
-      "locationName": "AIA Tatami 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "1S2",
-        "opponent": "2S2",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.66KG--------------.REP1.000200--",
-          "id": "JUD:M.66KG--------------.REP1.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Women -48kg",
-      "phase": "Women -48 kg Semifinals",
-      "unit": "Women -48 kg Semifinal of Table B",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Chen-hao"
-      ],
-      "opponent": "ABUZHAKYNOVA Abiba",
-      "opponentCode": "KAZ",
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD2",
-      "locationName": "AIA Tatami 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0S2",
-        "opponent": "1S2",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.48KG--------------.SFNL.000200--",
-          "id": "JUD:W.48KG--------------.SFNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T10:00:00+08:00",
-      "startTimeJst": "2026-09-30T11:00:00+09:00",
-      "timeNote": {
-        "code": "FOLLOWED_BY",
-        "clockTaipei": null,
-        "raw": "Followed by"
-      },
-      "disciplineCode": "JUD",
-      "sportZh": "柔道",
-      "sportEn": "Judo",
-      "event": "Men -60kg",
-      "phase": "Men -60 kg Semifinals",
-      "unit": "Men -60 kg Semifinal of Table B",
-      "athletes": [],
-      "athletesEn": [
-        "YANG Yung-wei"
-      ],
-      "opponent": "SMETOV Yeldos",
-      "opponentCode": "KAZ",
-      "venue": "Aichi International Arena",
-      "venueZh": null,
-      "locationCode": "JUD2",
-      "locationName": "AIA Tatami 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0S1",
-        "opponent": "10S1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.60KG--------------.SFNL.000200--",
-          "id": "JUD:M.60KG--------------.SFNL.000200--"
         }
       }
     },
@@ -3076,61 +3076,6 @@
       "date": "2026-09-30",
       "startTimeTaipei": "2026-09-30T16:00:00+08:00",
       "startTimeJst": "2026-09-30T17:00:00+09:00",
-      "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
-        "raw": "Starting at 21:00"
-      },
-      "disciplineCode": "TEN",
-      "sportZh": "網球",
-      "sportEn": "Tennis",
-      "event": "Mixed Doubles",
-      "phase": "Mixed Doubles Second Round",
-      "unit": "Mixed Doubles Second Round Match 8",
-      "athletes": [],
-      "athletesEn": [
-        "HSIEH Su-wei",
-        "TSENG Chun-hsin"
-      ],
-      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
-      "opponentCode": "IND",
-      "venue": "Nagoya City Higashiyama Park Tennis Center",
-      "venueZh": null,
-      "locationCode": "001",
-      "locationName": "Center Court",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "2",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "X.DOUBLES-----------.8FNL.000800--",
-          "id": "TEN:X.DOUBLES-----------.8FNL.000800--"
-        }
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "startTimeTaipei": "2026-09-30T16:00:00+08:00",
-      "startTimeJst": "2026-09-30T17:00:00+09:00",
       "timeNote": null,
       "disciplineCode": "JUD",
       "sportZh": "柔道",
@@ -3157,7 +3102,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3211,7 +3156,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3228,6 +3173,61 @@
         "results": {
           "unitId": "M.60KG--------------.REPF.000100--",
           "id": "JUD:M.60KG--------------.REPF.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "startTimeTaipei": "2026-09-30T16:00:00+08:00",
+      "startTimeJst": "2026-09-30T17:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "Starting at 21:00"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Second Round",
+      "unit": "Mixed Doubles Second Round Match 8",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "BHOSALE Rutuja/BHAMBRI Yuki",
+      "opponentCode": "IND",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Center Court",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "1",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.8FNL.000800--",
+          "id": "TEN:X.DOUBLES-----------.8FNL.000800--"
         }
       }
     }
@@ -3316,26 +3316,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 3",
-      "row": "SAL:M.ILCA7-------------.PREL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 4",
-      "row": "SAL:M.ILCA7-------------.PREL.000400--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 5",
-      "row": "SAL:M.ILCA7-------------.PREL.000500--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Men's Singles Third Round Match 7",
-      "row": "TEN:M.SINGLES-----------.8FNL.000700--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men -60 kg Elimination Round of 16",
       "row": "JUD:M.60KG--------------.8FNL.000500--"
     },
@@ -3373,6 +3353,26 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men -60 kg Semifinal of Table B",
       "row": "JUD:M.60KG--------------.SFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 3",
+      "row": "SAL:M.ILCA7-------------.PREL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 4",
+      "row": "SAL:M.ILCA7-------------.PREL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Race 5",
+      "row": "SAL:M.ILCA7-------------.PREL.000500--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 10:00 Men's Singles Third Round Match 7",
+      "row": "TEN:M.SINGLES-----------.8FNL.000700--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3501,11 +3501,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TEN 16:00 Mixed Doubles Second Round Match 8",
-      "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 16:00 Women -48 kg Contest for Bronze Medal A",
       "row": "JUD:W.48KG--------------.REPF.000100--"
     },
@@ -3513,6 +3508,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 16:00 Men -60 kg Contest for Bronze Medal A",
       "row": "JUD:M.60KG--------------.REPF.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 16:00 Mixed Doubles Second Round Match 8",
+      "row": "TEN:X.DOUBLES-----------.8FNL.000800--"
     }
   ]
 }
