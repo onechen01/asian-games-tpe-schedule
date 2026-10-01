@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T04:34:58.392Z",
+  "generatedAt": "2026-10-01T04:45:32.667Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T04:34:58.219Z",
+      "generatedAt": "2026-10-01T04:45:32.485Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1112,7 +1112,7 @@
           "name": "HUNG Chien-yao",
           "registration": "905667",
           "result": "0",
-          "rank": "21",
+          "rank": "22",
           "startTimeTaipei": null
         }
       ],
@@ -1149,8 +1149,8 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
-        "HUNG Chien-yao",
         "CHAN Shih-chang",
+        "HUNG Chien-yao",
         "WANG Wei-hsuan"
       ],
       "opponent": null,
@@ -1373,8 +1373,12 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1786,14 +1790,14 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
