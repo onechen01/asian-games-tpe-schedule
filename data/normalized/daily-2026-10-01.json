@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T02:57:34.413Z",
+  "generatedAt": "2026-10-01T03:05:59.900Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T02:57:34.258Z",
+      "generatedAt": "2026-10-01T03:05:59.711Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -326,8 +326,8 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
-        "HSU Wei-ling",
         "CHIEN Pei-yun",
+        "HSU Wei-ling",
         "TSENG Ya-ni"
       ],
       "opponent": null,
@@ -342,15 +342,15 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "HSU Wei-ling",
-          "registration": "8390832",
-          "result": "-3",
-          "rank": "7",
+          "name": "CHIEN Pei-yun",
+          "registration": "10587356",
+          "result": "-2",
+          "rank": "10",
           "startTimeTaipei": null
         },
         {
-          "name": "CHIEN Pei-yun",
-          "registration": "10587356",
+          "name": "HSU Wei-ling",
+          "registration": "8390832",
           "result": "-2",
           "rank": "10",
           "startTimeTaipei": null
@@ -363,7 +363,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "7",
+      "tpeRank": "10",
       "orgCount": 19,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -396,9 +396,9 @@
       "unit": "Round 2",
       "athletes": [],
       "athletesEn": [
+        "TSENG Ya-ni",
         "HSU Wei-ling",
-        "CHIEN Pei-yun",
-        "TSENG Ya-ni"
+        "CHIEN Pei-yun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -415,7 +415,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "4",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -537,6 +537,51 @@
         "results": {
           "unitId": "W.INDPOOM-----------.SFNL.000100--",
           "id": "TKW:W.INDPOOM-----------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T08:00:00+08:00",
+      "startTimeJst": "2026-10-01T09:00:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "JJI",
+      "sportZh": "柔術",
+      "sportEn": "Jiu Jitsu",
+      "event": "Men -69kg",
+      "phase": "Men -69kg Elimination Round of 64",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "PMA",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 32,
+      "enteredAthletes": [
+        "HSU Ching-chih"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "JJI|M.69KG--------------"
         }
       }
     },
@@ -794,56 +839,6 @@
     },
     {
       "date": "2026-10-01",
-      "startTimeTaipei": "2026-10-01T09:10:00+08:00",
-      "startTimeJst": "2026-10-01T10:10:00+09:00",
-      "timeNote": null,
-      "disciplineCode": "JJI",
-      "sportZh": "柔術",
-      "sportEn": "Jiu Jitsu",
-      "event": "Men -69kg",
-      "phase": "Men -69kg Elimination Round of 32",
-      "unit": "Men -69kg Elimination Round of 32",
-      "athletes": [],
-      "athletesEn": [
-        "HSU Ching-chih"
-      ],
-      "opponent": "ABDYMANAPOV Argen",
-      "opponentCode": "KGZ",
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "locationCode": "JJ1",
-      "locationName": "Aichi Prefectural Martial Arts Hall Mat 1",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "0",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "17",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.69KG--------------.R32-.001200--",
-          "id": "JJI:M.69KG--------------.R32-.001200--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T09:18:00+08:00",
       "startTimeJst": "2026-10-01T10:18:00+09:00",
       "timeNote": null,
@@ -1055,7 +1050,7 @@
           "name": "CHAN Shih-chang",
           "registration": "12708292",
           "result": "+1",
-          "rank": "24",
+          "rank": "25",
           "startTimeTaipei": null
         },
         {
@@ -1531,7 +1526,7 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": null,
@@ -1736,7 +1731,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2063,7 +2058,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/M.C1----------------.SFNL.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-10-01T02-55-09-627Z-6f77a5d5bc35-0fc24c5e.json"
+              "data/raw/2026-10-01T03-04-44-435Z-6f77a5d5bc35-b949c22e.json"
             ]
           }
         }
@@ -2167,7 +2162,7 @@
               "https://back.results.asiangames2026.org/s/AG2026/en/CSL/results/W.K1----------------.SFNL.000100--"
             ],
             "rawFiles": [
-              "data/raw/2026-10-01T02-55-11-631Z-7cc5b6bd5ca1-d4560961.json"
+              "data/raw/2026-10-01T03-04-46-435Z-7cc5b6bd5ca1-8502284e.json"
             ]
           }
         }
@@ -2272,6 +2267,52 @@
         "results": {
           "unitId": "X.DOUBLES-----------.QFNL.000100--",
           "id": "TEN:X.DOUBLES-----------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T14:06:00+08:00",
+      "startTimeJst": "2026-10-01T15:06:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Men's Sprint",
+      "phase": "Men's Sprint, Finals",
+      "unit": "Men's Sprint, Final for 5th-8th Places",
+      "athletes": [],
+      "athletesEn": [
+        "KANG Shih-feng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 4,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.SPRINT------------.FNL-.000300--",
+          "id": "CTR:M.SPRINT------------.FNL-.000300--"
         }
       }
     },
@@ -2413,6 +2454,52 @@
     },
     {
       "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T14:27:00+08:00",
+      "startTimeJst": "2026-10-01T15:27:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Men's Omnium",
+      "phase": "Men's Omnium, Elimination Race 3/4",
+      "unit": "Men's Omnium, Elimination Race 3/4",
+      "athletes": [],
+      "athletesEn": [
+        "LI Jing-feng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 14,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.OMNIUM------------.ELIM.000100--",
+          "id": "CTR:M.OMNIUM------------.ELIM.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T14:48:00+08:00",
       "startTimeJst": "2026-10-01T15:48:00+09:00",
       "timeNote": null,
@@ -2516,8 +2603,8 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 42,
-    "entered": 0,
+    "resultsOnly": 43,
+    "entered": 1,
     "unresolvedTbd": 0,
     "warnings": 53
   },
@@ -2566,11 +2653,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：SAL 09:00 Race 8",
       "row": "SAL:M.ILCA7-------------.PREL.000800--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：JJI 09:10 Men -69kg Elimination Round of 32",
-      "row": "JJI:M.69KG--------------.R32-.001200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2709,6 +2791,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:06 Men's Sprint, Final for 5th-8th Places",
+      "row": "CTR:M.SPRINT------------.FNL-.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:09 Women's Sprint, 1/16 Finals Repechages - Heat 1",
       "row": "CTR:W.SPRINT------------.REP2.000100--"
     },
@@ -2721,6 +2808,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:18 Women's Sprint, 1/16 Finals Repechages - Heat 4",
       "row": "CTR:W.SPRINT------------.REP2.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:27 Men's Omnium, Elimination Race 3/4",
+      "row": "CTR:M.OMNIUM------------.ELIM.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2739,11 +2831,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "JUD|W.63KG--------------",
-      "message": "JUD Women -63kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "JUD|W.70KG--------------",
       "message": "JUD Women -70kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2754,13 +2841,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "CTR|W.SPRINT------------",
-      "message": "CTR Women's Sprint 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "JUD|W.63KG--------------",
+      "message": "JUD Women -63kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "JJI|M.69KG--------------",
-      "message": "JJI Men -69kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "CTR|W.SPRINT------------",
+      "message": "CTR Women's Sprint 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -2779,13 +2866,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "CTR|M.OMNIUM------------",
-      "message": "CTR Men's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TKW|M.INDPOOM-----------",
+      "message": "TKW Men Individual Poomsae 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TKW|M.INDPOOM-----------",
-      "message": "TKW Men Individual Poomsae 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "CTR|M.OMNIUM------------",
+      "message": "CTR Men's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
