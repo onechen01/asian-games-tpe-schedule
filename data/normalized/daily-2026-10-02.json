@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T09:31:27.673Z",
+  "generatedAt": "2026-10-01T09:46:28.092Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T09:31:27.491Z",
+      "generatedAt": "2026-10-01T09:46:27.912Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1329,40 +1329,56 @@
       "sportZh": "霹靂舞",
       "sportEn": "Breaking",
       "event": "B-Girls",
-      "phase": "B-Girls Round Robin",
-      "unit": null,
+      "phase": "B-Girls Pre-Selection",
+      "unit": "B-Girls Pre-Selection",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "Jia Li (YANG Jia-li)",
+        "Sophia (HSU Fu-ya)"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
       "locationCode": "SKEF",
-      "locationName": "",
+      "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "Jia Li (YANG Jia-li)",
+          "registration": "2839227",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "Sophia (HSU Fu-ya)",
+          "registration": "5430658",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "HSU Fu-ya",
-        "YANG Jia-li"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "BKG|W.INDIVID-----------"
+        "results": {
+          "unitId": "W.INDIVID-----------.GP--.000100--",
+          "id": "BKG:W.INDIVID-----------.GP--.000100--"
         }
       }
     },
@@ -1422,39 +1438,55 @@
       "sportEn": "Breaking",
       "event": "B-Boys",
       "phase": "B-Boys Pre-Selection",
-      "unit": null,
+      "unit": "B-Boys Pre-Selection",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "Jasper (WU Ding-jie)",
+        "Quake (SUN Chen)"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Aichi Sky Expo Hall F",
       "venueZh": null,
       "locationCode": "SKEF",
-      "locationName": "",
+      "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "Jasper (WU Ding-jie)",
+          "registration": "5426736",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "Quake (SUN Chen)",
+          "registration": "5423974",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "SUN Chen",
-        "WU Ding-jie"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "BKG|M.INDIVID-----------"
+        "results": {
+          "unitId": "M.INDIVID-----------.GP--.000100--",
+          "id": "BKG:M.INDIVID-----------.GP--.000100--"
         }
       }
     },
@@ -1711,10 +1743,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 24,
-    "entered": 4,
+    "resultsOnly": 26,
+    "entered": 2,
     "unresolvedTbd": 0,
-    "warnings": 39
+    "warnings": 43
   },
   "warnings": [
     {
@@ -1809,8 +1841,18 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:00 B-Girls Pre-Selection",
+      "row": "BKG:W.INDIVID-----------.GP--.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TKW 13:30 Women -67kg Round of 16",
       "row": "TKW:W.67KG--------------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:45 B-Boys Pre-Selection",
+      "row": "BKG:M.INDIVID-----------.GP--.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1904,6 +1946,11 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "BKG|W.INDIVID-----------",
+      "message": "BKG B-Girls 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "TKW|W.67KG--------------",
       "message": "TKW Women -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -1911,6 +1958,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TKW|M.80KG--------------",
       "message": "TKW Men -80kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BKG|M.INDIVID-----------",
+      "message": "BKG B-Boys 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
