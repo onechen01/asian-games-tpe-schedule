@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T11:46:48.749Z",
+  "generatedAt": "2026-10-01T12:08:30.600Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T11:46:48.612Z",
+      "generatedAt": "2026-10-01T12:08:30.409Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1408,6 +1408,108 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:00:00+08:00",
+      "startTimeJst": "2026-10-02T14:00:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "Starting at 14:30"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Semi-finals",
+      "unit": "Women's Doubles Semi-finals Match",
+      "athletes": [],
+      "athletesEn": [
+        "CHAN Hao-ching",
+        "WU Fang-hsien"
+      ],
+      "opponent": "CHONG Eudice/WONG Hong Yi",
+      "opponentCode": "HKG",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "006",
+      "locationName": "Court 4",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.SFNL.000100--",
+          "id": "TEN:W.DOUBLES-----------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:00:00+08:00",
+      "startTimeJst": "2026-10-02T14:00:00+09:00",
+      "timeNote": {
+        "code": "NOT_BEFORE",
+        "clockTaipei": "14:00",
+        "raw": "Not Before 15:00"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Semi-finals",
+      "unit": "Women's Doubles Semi-finals Match",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "LIANG En-shuo"
+      ],
+      "opponent": "DANILINA Anna/PUTINTSEVA Yuliya",
+      "opponentCode": "KAZ",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "007",
+      "locationName": "Court 5",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.DOUBLES-----------.SFNL.000200--",
+          "id": "TEN:W.DOUBLES-----------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T13:30:00+08:00",
       "startTimeJst": "2026-10-02T14:30:00+09:00",
       "timeNote": null,
@@ -1767,10 +1869,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 28,
+    "resultsOnly": 30,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 45
+    "warnings": 47
   },
   "warnings": [
     {
@@ -1877,6 +1979,16 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:00 B-Girls Pre-Selection",
       "row": "BKG:W.INDIVID-----------.GP--.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Women's Doubles Semi-finals Match",
+      "row": "TEN:W.DOUBLES-----------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Women's Doubles Semi-finals Match",
+      "row": "TEN:W.DOUBLES-----------.SFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
