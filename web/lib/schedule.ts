@@ -95,7 +95,7 @@ export function matchTimeLabel(row:TimeLabelRow,chains:CourtSessionChain[]=[]){
   }
 }
 
-import {athleteLabels} from './athletes.ts';
+import {athleteDisplayLabel} from './athletes.ts';
 import type {AthleteMaster} from './athletes.ts';
 import {localizeName} from './event-names.ts';
 
@@ -112,12 +112,18 @@ export const resultHeading=(row:Pick<Row,'resultScope'|'unit'>,multiple=false)=>
 export function displayNames(row:Row,master:AthleteMaster):{names:string[];fromMaster:boolean}{
  if(row.athletes.length)return {names:row.athletes,fromMaster:false};
  if(!row.athletesEn.length)return {names:[],fromMaster:false};
- return {names:athleteLabels(row.athletesEn,master,row.disciplineCode),fromMaster:true};
+ const sameName=(a:string|null,b:string)=>a?.normalize('NFKC').replace(/\s+/g,' ').trim().toUpperCase()===
+   b.normalize('NFKC').replace(/\s+/g,' ').trim().toUpperCase();
+ return {names:row.athletesEn.map(name=>{
+   const entrant=row.tpeEntrants?.find(candidate=>sameName(candidate.name,name));
+   return athleteDisplayLabel(name,master,{reg:entrant?.registration,discipline:row.disciplineCode});
+ }),fromMaster:true};
 }
 // The committee's Chinese names, when it supplied any.
 export const nameList=(row:Row)=>row.athletes;
 // Entered rows carry the officially registered athletes, same lookup rule.
-export const entryNames=(row:Row,master:AthleteMaster)=>athleteLabels(row.enteredAthletes??[],master,row.disciplineCode);
+export const entryNames=(row:Row,master:AthleteMaster)=>(row.enteredAthletes??[])
+  .map(name=>athleteDisplayLabel(name,master,{discipline:row.disciplineCode}));
 
 const STATUS:Record<string,string>={UNOFFICIAL:'暫定',OFFICIAL:'已結束',FINISHED:'已結束',RUNNING:'比賽中',LIVE:'比賽中',
   SCHEDULED:'尚未開始',START_LIST:'尚未開始',PROVISIONAL:'尚未開始',GETTING_READY:'尚未開始'};

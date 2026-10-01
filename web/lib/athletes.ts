@@ -84,5 +84,17 @@ export const athleteLabel = (officialEn:string, master:AthleteMaster,
     ? master.byDisciplineEnglish.get(opts.discipline + '|' + key(officialEn)) : undefined;
   return scoped ?? master.byEnglish.get(key(officialEn)) ?? officialEn;
 };
+// Breaking publishes a stage name followed by the registered legal name. Keep the official
+// stage name, but resolve the parenthesised identity through the same verified Reg/name master
+// used everywhere else. If that identity is not verified, preserve the official string intact.
+export const athleteDisplayLabel = (officialEn:string, master:AthleteMaster,
+  opts?:{ reg?:string|null; discipline?:string|null })=>{
+  if (opts?.discipline !== 'BKG') return athleteLabel(officialEn, master, opts);
+  const match = officialEn.match(/^(.+?)\s*[（(]\s*([^()（）]+?)\s*[)）]$/);
+  if (!match) return athleteLabel(officialEn, master, opts);
+  const legalName = match[2];
+  const localized = athleteLabel(legalName, master, opts);
+  return localized === legalName ? officialEn : `${match[1].trim()}（${localized}）`;
+};
 export const athleteLabels = (names:string[], master:AthleteMaster, discipline?:string|null)=>
   names.map(name=>athleteLabel(name, master, { discipline }));

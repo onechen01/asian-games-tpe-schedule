@@ -327,6 +327,16 @@ test('audited event and phase patterns localize without possessive-prefix damage
   assert.equal(phaseLabel('21st Round',null),'第21輪');
   assert.equal(phaseLabel("Men's Super Round",null),'男子超級循環賽');
   assert.equal(phaseLabel('Prelims',null),'預賽');
+  assert.equal(phaseLabel('B-Boys Pre-Selection','B-Boys'),'初選');
+  assert.equal(phaseLabel('Qualification Series',null),'資格系列賽');
+  assert.equal(phaseLabel('Men -60 kg Contests for Bronze Medals',null),'男子60公斤級以下銅牌戰');
+  assert.equal(phaseLabel('Women -70 kg Repechage',null),'女子70公斤級以下復活賽');
+  assert.equal(phaseLabel('Classification-2 (5th-8th)',null),'第5至8名排名賽第2場');
+  assert.equal(phaseLabel('Elimination Race 3/4',null),'淘汰賽3/4');
+  assert.equal(phaseLabel('Points Race 4/4',null),'領先計分賽4/4');
+  assert.equal(phaseLabel('Tempo Race 2/4',null),'節奏賽2/4');
+  assert.equal(phaseLabel('Discus Throw',null),'鐵餅');
+  assert.equal(phaseLabel('Gold Medal Contest',null),'金牌戰');
 
   const events = new Map<string,string>([
     ["Women's Nanquan & Nandao",'女子南拳與南刀全能'],
@@ -343,6 +353,20 @@ test('audited event and phase patterns localize without possessive-prefix damage
   for (const [official,zh] of events) assert.equal(eventLabel(official),zh);
   assert.equal(localizeName('Daoshu'),'刀術');
   assert.equal(localizeName('Taijiquan'),'太極拳');
+});
+
+test('breaking cards keep official dancer names while localizing verified legal identities',async()=>{
+  const master=parseAthleteMaster(await readFile('data/reference/tpe-athlete-master.json','utf8'));
+  const makeCard=(names:string[],registrations:string[])=>row({disciplineCode:'BKG',athletesEn:names,
+    tpeEntrants:names.map((name,index)=>({name,registration:registrations[index],result:null,rank:null}))});
+  const girls=makeCard(['Jia Li (YANG Jia-li)','Sophia (HSU Fu-ya)'],['2839227','5430658']);
+  const boys=makeCard(['Jasper (WU Ding-jie)','Quake (SUN Chen)'],['5426736','5423974']);
+  const officialGirls=[...girls.athletesEn], officialBoys=[...boys.athletesEn];
+  assert.deepEqual(displayNames(girls,master).names,['Jia Li（楊加力）','Sophia（許芙雅）']);
+  assert.deepEqual(displayNames(boys,master).names,['Jasper（吳定杰）','Quake（孫振）']);
+  // The details disclosure renders these untouched canonical arrays as the English roster.
+  assert.deepEqual(girls.athletesEn,officialGirls);
+  assert.deepEqual(boys.athletesEn,officialBoys);
 });
 
 test('the existing venue, country and athlete Chinese mappings do not regress',async()=>{
