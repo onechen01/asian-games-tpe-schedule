@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T01:15:13.211Z",
+  "generatedAt": "2026-10-01T01:23:54.070Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-01T01:15:13.070Z",
+      "generatedAt": "2026-10-01T01:23:53.896Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -358,8 +358,8 @@
         {
           "name": "TSENG Ya-ni",
           "registration": "8374574",
-          "result": "+1",
-          "rank": "16",
+          "result": "0",
+          "rank": "12",
           "startTimeTaipei": null
         }
       ],
@@ -410,12 +410,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-4",
+        "tpe": "-5",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "7",
+      "tpeRank": "5",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -567,12 +567,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "6",
+        "tpe": "10",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -615,14 +615,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "3",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -761,8 +761,12 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -808,7 +812,7 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -1049,8 +1053,12 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -1286,6 +1294,52 @@
     },
     {
       "date": "2026-10-01",
+      "startTimeTaipei": "2026-10-01T10:26:00+08:00",
+      "startTimeJst": "2026-10-01T11:26:00+09:00",
+      "timeNote": null,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Men's Omnium",
+      "phase": "Men's Omnium, Tempo Race 2/4",
+      "unit": "Men's Omnium, Tempo Race 2/4",
+      "athletes": [],
+      "athletesEn": [
+        "LI Jing-feng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 14,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.OMNIUM------------.TEMP.000100--",
+          "id": "CTR:M.OMNIUM------------.TEMP.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-01",
       "startTimeTaipei": "2026-10-01T10:30:00+08:00",
       "startTimeJst": "2026-10-01T11:30:00+09:00",
       "timeNote": null,
@@ -1399,8 +1453,12 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 6,
@@ -1974,10 +2032,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 32,
+    "resultsOnly": 33,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 46
+    "warnings": 47
   },
   "warnings": [
     {
@@ -2069,6 +2127,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:06 Women's Kayak Single - Semifinals - Semifinal",
       "row": "CSL:W.K1----------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 10:26 Men's Omnium, Tempo Race 2/4",
+      "row": "CTR:M.OMNIUM------------.TEMP.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2172,11 +2235,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "CTR|M.OMNIUM------------",
-      "message": "CTR Men's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "WRE|W.WR62KG------------",
       "message": "WRE Women's Wrestling 62kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2199,6 +2257,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|M.SPRINT------------",
       "message": "CTR Men's Sprint 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "CTR|M.OMNIUM------------",
+      "message": "CTR Men's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
