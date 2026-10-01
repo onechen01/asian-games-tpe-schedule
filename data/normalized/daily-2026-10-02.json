@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T12:16:14.219Z",
+  "generatedAt": "2026-10-01T13:31:33.176Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T12:16:14.024Z",
+      "generatedAt": "2026-10-01T13:31:32.981Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1206,6 +1206,57 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T11:30:00+08:00",
+      "startTimeJst": "2026-10-02T12:30:00+09:00",
+      "timeNote": {
+        "code": "PENDING",
+        "clockTaipei": null,
+        "raw": "After Rest, NB 16:30, Court TBA"
+      },
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "sportEn": "Tennis",
+      "event": "Mixed Doubles",
+      "phase": "Mixed Doubles Semi-finals",
+      "unit": "Mixed Doubles Semi-finals Match",
+      "athletes": [],
+      "athletesEn": [
+        "HSIEH Su-wei",
+        "TSENG Chun-hsin"
+      ],
+      "opponent": "SHIBAHARA Ena/FRIEND Jay",
+      "opponentCode": "JPN",
+      "venue": "Nagoya City Higashiyama Park Tennis Center",
+      "venueZh": null,
+      "locationCode": "001",
+      "locationName": "Center Court",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.DOUBLES-----------.SFNL.000200--",
+          "id": "TEN:X.DOUBLES-----------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T12:15:00+08:00",
       "startTimeJst": "2026-10-02T13:15:00+09:00",
       "timeNote": null,
@@ -1869,10 +1920,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 30,
+    "resultsOnly": 31,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 47
+    "warnings": 49
   },
   "warnings": [
     {
@@ -1959,6 +2010,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ELS 11:00 Gold Medal Match",
       "row": "ELS:O.LOL---------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:30 Mixed Doubles Semi-finals Match",
+      "row": "TEN:X.DOUBLES-----------.SFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2064,6 +2120,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "WRE|W.WR76KG------------",
       "message": "WRE Women's Wrestling 76kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TEN|X.DOUBLES-----------",
+      "message": "TEN Mixed Doubles 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
