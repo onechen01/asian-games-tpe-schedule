@@ -5323,7 +5323,7 @@
       "channelId": "543",
       "channelName": "愛爾達體育MAX4台",
       "isLive": true,
-      "title": "亞運 沈玉沁 柔術 女子63/男子85公斤級預賽/複賽/決賽 10/3(原音) LIVE",
+      "title": "亞運 沈玉沁 柔術 女子63公斤級預賽/複賽/決賽 10/3(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-01",
@@ -5340,59 +5340,20 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T08:55:00+08:00",
-      "disciplineCode": "TKW",
-      "channelId": "110",
-      "channelName": "愛爾達體育3台",
+      "broadcastStartTimeTaipei": "2026-10-03T09:55:00+08:00",
+      "disciplineCode": "JUD",
+      "channelId": "547",
+      "channelName": "愛爾達體育MAX8台",
       "isLive": true,
-      "title": "亞運 中華隊 跆拳道 女子57/67公斤以上/男子68/80公斤以上級16強/八強 10/3 LIVE",
-      "feed": "main",
-      "note": null,
+      "title": "亞運 中華隊 柔道 混合團體決賽 10/3(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
       "capturedAt": "2026-10-01",
-      "broadcastEndTimeTaipei": "2026-10-03T11:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T13:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
-        "sessionScopes": [
-          {
-            "gender": "WOMEN",
-            "weightKg": 57,
-            "stage": "ROUND_OF_16"
-          },
-          {
-            "gender": "WOMEN",
-            "weightKg": 57,
-            "stage": "QUARTERFINAL"
-          },
-          {
-            "gender": "WOMEN",
-            "weightKg": 67,
-            "stage": "ROUND_OF_16"
-          },
-          {
-            "gender": "WOMEN",
-            "weightKg": 67,
-            "stage": "QUARTERFINAL"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 68,
-            "stage": "ROUND_OF_16"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 68,
-            "stage": "QUARTERFINAL"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 80,
-            "stage": "ROUND_OF_16"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 80,
-            "stage": "QUARTERFINAL"
-          }
+        "phaseKeywords": [
+          "Final"
         ]
       }
     },
