@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T17:45:17.098Z",
+  "generatedAt": "2026-10-01T20:25:34.520Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T17:45:16.919Z",
+      "generatedAt": "2026-10-01T20:25:34.325Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -328,7 +328,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -399,10 +399,14 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "-11",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "6",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -448,7 +452,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -519,8 +523,12 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "-6",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": "4",
       "orgCount": 9,
