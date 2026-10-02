@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-02T18:55:14.701Z",
+  "generatedAt": "2026-10-02T23:35:28.148Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-02T18:55:14.701Z",
+  "standingsUpdatedAt": "2026-10-02T23:35:28.148Z",
   "ledgerCounts": {
     "gold": 4,
     "silver": 16,
@@ -899,7 +899,7 @@
       "athletes": [
         "HUNG Jiun-yi"
       ],
-      "rank": "2"
+      "rank": null
     },
     {
       "awardId": "TKW|W.67KG--------------|663821",
