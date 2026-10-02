@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T03:47:26.471Z",
+  "generatedAt": "2026-10-02T03:56:38.004Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T03:47:26.343Z",
+      "generatedAt": "2026-10-02T03:56:37.817Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -473,7 +473,7 @@
           "name": "CHIEN Pei-Yun",
           "registration": "10587356",
           "result": "-1",
-          "rank": "9",
+          "rank": "11",
           "startTimeTaipei": null
         }
       ],
@@ -512,8 +512,8 @@
       "athletes": [],
       "athletesEn": [
         "HSU Wei-Ling",
-        "CHIEN Pei-Yun",
-        "TSENG Ya-Ni"
+        "TSENG Ya-Ni",
+        "CHIEN Pei-Yun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -1163,8 +1163,8 @@
       "athletesEn": [
         "CHANG Ling-fang"
       ],
-      "opponent": null,
-      "opponentCode": null,
+      "opponent": "TOISHIBEKOVA Aida",
+      "opponentCode": "KAZ",
       "venue": "Aichi International Arena",
       "venueZh": null,
       "locationCode": "JUD2",
@@ -1175,7 +1175,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1625,8 +1625,12 @@
       "locationName": "Aichi Sky Expo Hall D",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2680,11 +2684,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "JUD|W.O78KG-------------",
-      "message": "JUD Women +78kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "JUD|M.O100KG------------",
       "message": "JUD Men +100kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2747,6 +2746,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "JUD|W.78KG--------------",
       "message": "JUD Women -78kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|W.O78KG-------------",
+      "message": "JUD Women +78kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
