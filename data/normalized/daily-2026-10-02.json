@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T11:16:06.036Z",
+  "generatedAt": "2026-10-02T11:26:41.498Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T11:16:05.902Z",
+      "generatedAt": "2026-10-02T11:26:41.310Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -3433,7 +3433,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "7",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3579,16 +3579,16 @@
       "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "1",
+        "tpe": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
-      "tpeMedal": null,
+      "tpeMedal": "ME_SILVER",
       "tpenocResult": null,
       "rank": null,
       "note": null,
