@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T11:46:09.740Z",
+  "generatedAt": "2026-10-02T12:08:33.673Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T11:46:09.582Z",
+      "generatedAt": "2026-10-02T12:08:33.500Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1518,11 +1518,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "VVO|M.TEAM6-------------",
-      "message": "VVO Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "JUD|X.TEAM6-------------",
       "message": "JUD Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -1565,6 +1560,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BKG|W.INDIVID-----------",
       "message": "BKG B-Girls 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "VVO|M.TEAM6-------------",
+      "message": "VVO Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
