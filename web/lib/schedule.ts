@@ -3,7 +3,7 @@ export type Result = { tpe:string | null; opponent:string | null; source:string 
 // trustworthy as-is; otherwise `code` says why and, for NOT_BEFORE/RESCHEDULED, clockTaipei is
 // the already-converted Taipei clock -- the display layer never parses English or does timezone
 // math itself.
-export type TimeNote = { code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING';
+export type TimeNote = { code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'ESTIMATED_START' | 'RESCHEDULED' | 'PENDING';
   clockTaipei:string | null; raw:string | null };
 export type Row = {
   date:string; startTimeTaipei:string | null; startTimeJst:string | null;
@@ -88,6 +88,7 @@ export function matchTimeLabel(row:TimeLabelRow,chains:CourtSessionChain[]=[]){
       return '前場結束後';
     }
     case 'NOT_BEFORE': return note.clockTaipei ? `不早於 ${note.clockTaipei}` : '時間未定';
+    case 'ESTIMATED_START': return row.estimated===true&&note.clockTaipei ? `約 ${note.clockTaipei}` : '時間未定';
     case 'RESCHEDULED': return note.clockTaipei ? `已改期至 ${note.clockTaipei}` : '時間未定';
     // Includes both a genuinely empty official note and an EstText shape this parser does not
     // yet recognise -- neither is safe to show as a precise time, so both fail safe the same way.

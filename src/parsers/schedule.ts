@@ -25,10 +25,12 @@ export type RawSchedule = {
 // A pattern this classifier does not recognise still degrades to PENDING (never invented, never
 // thrown) -- `raw` keeps the original text so a newly observed officials' phrasing can be found
 // later without a whole day's schedule failing to publish.
-export type TimeNoteCode = 'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING';
+export type TimeNoteCode = 'FOLLOWED_BY' | 'NOT_BEFORE' | 'ESTIMATED_START' | 'RESCHEDULED' | 'PENDING';
 export type TimeNote = { code: TimeNoteCode; clockTaipei: string | null; raw: string | null };
 const FOLLOWED_BY_RE = /^follow(?:ed)?\s+by$/i;
 const NOT_BEFORE_RE = /^not\s+before\s+(\d{1,2}):(\d{2})$/i;
+const AFTER_REST_NOT_BEFORE_RE = /^after\s+rest\s*,\s*nb\s+(\d{1,2}):(\d{2})(?:\s*,.*)?$/i;
+const STARTING_AT_RE = /^starting\s+at\s+(\d{1,2}):(\d{2})$/i;
 const RESCHEDULED_RE = /^new\s+start\s+time\s+(\d{1,2}):(\d{2})$/i;
 // An HH:MM read at the venue's own offset, the same assumption already used for DateTimeRaw
 // everywhere else in this parser -- not a new, unverified conversion. Exported so a per-
@@ -48,6 +50,12 @@ export function classifyTimeNote(row: RawSchedule, wallDate: string | null): Tim
   if (FOLLOWED_BY_RE.test(text)) return { code:'FOLLOWED_BY', clockTaipei:null, raw:text };
   const notBefore = NOT_BEFORE_RE.exec(text);
   if (notBefore) return { code:'NOT_BEFORE', clockTaipei:venueClockToTaipei(wallDate,notBefore[1],notBefore[2]), raw:text };
+  const afterRestNotBefore = AFTER_REST_NOT_BEFORE_RE.exec(text);
+  if (afterRestNotBefore) return { code:'NOT_BEFORE',
+    clockTaipei:venueClockToTaipei(wallDate,afterRestNotBefore[1],afterRestNotBefore[2]), raw:text };
+  const startingAt = STARTING_AT_RE.exec(text);
+  if (startingAt) return { code:'ESTIMATED_START',
+    clockTaipei:venueClockToTaipei(wallDate,startingAt[1],startingAt[2]), raw:text };
   const rescheduled = RESCHEDULED_RE.exec(text);
   if (rescheduled) return { code:'RESCHEDULED', clockTaipei:venueClockToTaipei(wallDate,rescheduled[1],rescheduled[2]), raw:text };
   // An EstText shape not seen before: never guessed, never fails the batch -- PENDING with the

@@ -26,6 +26,13 @@ test('matchTimeLabel switches purely on timeNote.code, the one place every card 
     timeNote:{code:'FOLLOWED_BY',clockTaipei:null,raw:'Followed by'}}),'前場結束後');
   assert.equal(matchTimeLabel({...at('2026-09-25T15:50:00+08:00'),
     timeNote:{code:'NOT_BEFORE',clockTaipei:'15:00',raw:'Not Before 16:00'}}),'不早於 15:00');
+  assert.equal(matchTimeLabel({...at('2026-10-02T11:30:00+08:00'),estimated:true,
+    timeNote:{code:'ESTIMATED_START',clockTaipei:'14:30',raw:'Starting at 15:30'}}),'約 14:30');
+  assert.equal(matchTimeLabel({...at('2026-10-02T11:30:00+08:00'),estimated:false,
+    timeNote:{code:'ESTIMATED_START',clockTaipei:'14:30',raw:'Starting at 15:30'}}),'時間未定');
+  // Explicit EstText evidence wins over the conflicting DateTimeRaw-derived 11:30.
+  assert.equal(matchTimeLabel({...at('2026-10-02T11:30:00+08:00'),estimated:true,
+    timeNote:{code:'NOT_BEFORE',clockTaipei:'15:30',raw:'After Rest, NB 16:30, Court TBA'}}),'不早於 15:30');
   assert.equal(matchTimeLabel({...at('2026-09-23T10:30:00+08:00'),
     timeNote:{code:'RESCHEDULED',clockTaipei:'11:10',raw:'New Start Time 12:10'}}),'已改期至 11:10');
   // PENDING covers both a genuinely blank official note and an EstText this codebase does not

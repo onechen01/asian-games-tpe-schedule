@@ -135,6 +135,16 @@ test('classifyTimeNote: "Not Before HH:MM" reads the venue clock and converts to
   const note=classifyTimeNote({Key:'k',Disc:'BDM',HideStartDate:true,Estimated:true,EstText:'Not Before 16:00'},'2026-09-25');
   assert.deepEqual(note,{code:'NOT_BEFORE',clockTaipei:'15:00',raw:'Not Before 16:00'});
 });
+test('classifyTimeNote: "Starting at HH:MM" preserves the official estimated clock in Taipei',()=>{
+  const note=classifyTimeNote({Key:'k',Disc:'TEN',HideStartDate:true,Estimated:true,
+    DateTimeRaw:'2026-10-02T12:30:00+09:00',EstText:'Starting at 15:30'},'2026-10-02');
+  assert.deepEqual(note,{code:'ESTIMATED_START',clockTaipei:'14:30',raw:'Starting at 15:30'});
+});
+test('classifyTimeNote: tennis After Rest with NB uses the explicit lower bound, not DateTimeRaw',()=>{
+  const note=classifyTimeNote({Key:'k',Disc:'TEN',HideStartDate:true,Estimated:true,
+    DateTimeRaw:'2026-10-02T12:30:00+09:00',EstText:'After Rest, NB 16:30, Court TBA'},'2026-10-02');
+  assert.deepEqual(note,{code:'NOT_BEFORE',clockTaipei:'15:30',raw:'After Rest, NB 16:30, Court TBA'});
+});
 test('classifyTimeNote: "New Start Time HH:MM" reads the venue clock and converts to Taipei',()=>{
   // Real 9/23 TST case: "New Start Time 12:10" JST -> 11:10 Taipei.
   const note=classifyTimeNote({Key:'k',Disc:'TST',HideStartDate:true,Estimated:true,EstText:'New Start Time 12:10'},'2026-09-23');
