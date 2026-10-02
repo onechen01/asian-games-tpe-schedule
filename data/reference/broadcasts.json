@@ -5499,16 +5499,16 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T07:30:00+08:00",
+      "broadcastStartTimeTaipei": "2026-10-03T07:10:00+08:00",
       "disciplineCode": "GLF",
-      "channelId": "115",
-      "channelName": "愛爾達體育4台",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
       "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女個人/團體第四輪 10/3(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 中華隊 高爾夫 男子個人/團體第四輪 10/3 LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-10-02",
-      "broadcastEndTimeTaipei": "2026-10-03T13:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T14:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
@@ -5521,7 +5521,28 @@
             "gender": "MEN",
             "eventFamily": "TEAM",
             "roundNumber": 4
-          },
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T07:30:00+08:00",
+      "disciplineCode": "GLF",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 中華隊 高爾夫 女子個人/團體第四輪 10/3(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-10-02",
+      "broadcastEndTimeTaipei": "2026-10-03T13:25:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "sessionScopes": [
           {
             "gender": "WOMEN",
             "eventFamily": "INDIVIDUAL",
@@ -5555,47 +5576,6 @@
         "athleteNames": [
           "HSU Hsin-tzu",
           "LI Tsai-chi"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T07:55:00+08:00",
-      "disciplineCode": "GLF",
-      "channelId": "101",
-      "channelName": "愛爾達體育1台",
-      "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女個人/團體第四輪 10/3 LIVE",
-      "feed": "main",
-      "note": null,
-      "capturedAt": "2026-10-02",
-      "broadcastEndTimeTaipei": "2026-10-03T14:15:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {
-        "sessionScopes": [
-          {
-            "gender": "MEN",
-            "eventFamily": "INDIVIDUAL",
-            "roundNumber": 4
-          },
-          {
-            "gender": "MEN",
-            "eventFamily": "TEAM",
-            "roundNumber": 4
-          },
-          {
-            "gender": "WOMEN",
-            "eventFamily": "INDIVIDUAL",
-            "roundNumber": 4
-          },
-          {
-            "gender": "WOMEN",
-            "eventFamily": "TEAM",
-            "roundNumber": 4
-          }
         ]
       }
     },
@@ -5702,17 +5682,13 @@
       "channelId": "545",
       "channelName": "愛爾達體育MAX6台",
       "isLive": true,
-      "title": "亞運 中華隊 柔道 混合團體決賽 10/3(原音) LIVE",
+      "title": "亞運 中華隊 柔道 混合團體複賽 10/3(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-02",
       "broadcastEndTimeTaipei": "2026-10-03T13:00:00+08:00",
       "matchLevel": "discipline",
-      "matchHint": {
-        "phaseKeywords": [
-          "Final"
-        ]
-      }
+      "matchHint": {}
     },
     {
       "date": "2026-10-03",
@@ -5733,6 +5709,28 @@
       "matchHint": {
         "athleteNames": [
           "TANG Chih-chun"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T14:00:00+08:00",
+      "disciplineCode": "ELS",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": false,
+      "title": "亞運 中華VS南韓 電競 英雄聯盟金牌戰 10/2 D-LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-02",
+      "broadcastEndTimeTaipei": "2026-10-03T17:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "opponentCodes": [
+          "KOR"
         ]
       }
     },
