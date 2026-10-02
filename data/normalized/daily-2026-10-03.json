@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T11:37:49.732Z",
+  "generatedAt": "2026-10-02T11:46:09.740Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T11:37:49.614Z",
+      "generatedAt": "2026-10-02T11:46:09.582Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1301,7 +1301,7 @@
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 1,
+      "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1316,19 +1316,7 @@
       "sources": {
         "results": {
           "unitId": "W.5AA---------------.FNL-.A0000100",
-          "id": "GRY:W.5AA---------------.FNL-.A0000100",
-          "qualification": {
-            "kind": "previous-results-qualified",
-            "previousUnitIds": [
-              "W.5AA---------------.QUAL.A0000100"
-            ],
-            "urls": [
-              "https://back.results.asiangames2026.org/s/AG2026/en/GRY/results/W.5AA---------------.QUAL.A0000100"
-            ],
-            "rawFiles": [
-              "data/raw/2026-10-02T11-36-55-135Z-c61f36220f7f-d39fc773.json"
-            ]
-          }
+          "id": "GRY:W.5AA---------------.FNL-.A0000100"
         }
       }
     },
