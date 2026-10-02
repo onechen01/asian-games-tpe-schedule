@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-02T06:59:58.988Z",
+  "generatedAt": "2026-10-02T07:06:41.441Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-02T06:59:58.988Z",
+  "standingsUpdatedAt": "2026-10-02T07:06:41.438Z",
   "ledgerCounts": {
     "gold": 4,
-    "silver": 13,
+    "silver": 14,
     "bronze": 28,
-    "total": 45
+    "total": 46
   },
   "officialCounts": {
     "gold": 4,
-    "silver": 13,
+    "silver": 14,
     "bronze": 28,
-    "total": 45
+    "total": 46
   },
   "missing": {
     "gold": 0,
@@ -814,6 +814,22 @@
         "LIN Yu-ting"
       ],
       "rank": "1"
+    },
+    {
+      "awardId": "CSL|W.X1----------------|4238983",
+      "medal": "ME_SILVER",
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "event": "Women's Kayak Cross",
+      "phase": "Women's Kayak Cross Individual",
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "resultId": "CSL:W.X1----------------.QUAL.000100--",
+      "unitId": "W.X1----------------.QUAL.000100--",
+      "athletes": [
+        "CHANG Chu-han"
+      ],
+      "rank": "3"
     },
     {
       "awardId": "ELS|O.LOL---------------|ELSOLOL--------TPE01",
