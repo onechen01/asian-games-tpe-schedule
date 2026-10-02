@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T12:36:13.188Z",
+  "generatedAt": "2026-10-02T12:46:13.067Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T12:36:13.028Z",
+      "generatedAt": "2026-10-02T12:46:12.919Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -250,8 +250,8 @@
     },
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T06:00:00+08:00",
-      "startTimeJst": "2026-10-03T07:00:00+09:00",
+      "startTimeTaipei": "2026-10-03T05:10:00+08:00",
+      "startTimeJst": "2026-10-03T06:10:00+09:00",
       "timeNote": null,
       "estimated": false,
       "disciplineCode": "GLF",
@@ -299,8 +299,8 @@
     },
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T06:55:00+08:00",
-      "startTimeJst": "2026-10-03T07:55:00+09:00",
+      "startTimeTaipei": "2026-10-03T07:15:00+08:00",
+      "startTimeJst": "2026-10-03T08:15:00+09:00",
       "timeNote": null,
       "estimated": false,
       "disciplineCode": "GLF",
@@ -370,8 +370,8 @@
     },
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T06:55:00+08:00",
-      "startTimeJst": "2026-10-03T07:55:00+09:00",
+      "startTimeTaipei": "2026-10-03T07:15:00+08:00",
+      "startTimeJst": "2026-10-03T08:15:00+09:00",
       "timeNote": null,
       "estimated": false,
       "disciplineCode": "GLF",
@@ -1398,17 +1398,17 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：GLF 06:00 Round 4",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 05:10 Round 4",
       "row": "GLF:W.TEAM--------------.FNL-.000400--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：GLF 06:55 Round 4",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 07:15 Round 4",
       "row": "GLF:M.STROKE------------.FNL-.000400--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：GLF 06:55 Round 4",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 07:15 Round 4",
       "row": "GLF:M.TEAM--------------.FNL-.000400--"
     },
     {
