@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-02T04:49:32.937Z",
+  "generatedAt": "2026-10-02T06:27:36.900Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-02T04:49:32.937Z",
+  "standingsUpdatedAt": "2026-10-02T06:27:36.900Z",
   "ledgerCounts": {
     "gold": 4,
     "silver": 12,
-    "bronze": 27,
-    "total": 43
+    "bronze": 28,
+    "total": 44
   },
   "officialCounts": {
     "gold": 4,
     "silver": 12,
-    "bronze": 27,
-    "total": 43
+    "bronze": 28,
+    "total": 44
   },
   "missing": {
     "gold": 0,
@@ -780,6 +780,24 @@
         "HSU Yu-hsiou"
       ],
       "rank": "2"
+    },
+    {
+      "awardId": "ARC|M.RTEAM-------------|ARCMRTEAM------TPE01",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "event": "Recurve Men's Team",
+      "phase": "Recurve Men's Team Finals",
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:55:00+08:00",
+      "resultId": "ARC:M.RTEAM-------------.FNL-.000200--",
+      "unitId": "M.RTEAM-------------.FNL-.000200--",
+      "athletes": [
+        "TANG Chih-Chun",
+        "LIN Zih-Siang",
+        "CHENG Hsiang-Hui"
+      ],
+      "rank": "3"
     },
     {
       "awardId": "BOX|W.60KG--------------|6116922",

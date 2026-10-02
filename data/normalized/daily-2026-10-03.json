@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T05:58:06.262Z",
+  "generatedAt": "2026-10-02T06:27:35.342Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T05:58:06.097Z",
+      "generatedAt": "2026-10-02T06:27:35.174Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -177,54 +177,6 @@
   },
   "date": "2026-10-03",
   "rows": [
-    {
-      "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T06:00:00+08:00",
-      "startTimeJst": "2026-10-03T07:00:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Women's Individual Stroke Play",
-      "phase": "Women's Individual Stroke Play",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "Kasugai Country Club East Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|W.STROKE------------"
-        }
-      }
-    },
     {
       "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T06:00:00+08:00",
@@ -521,9 +473,13 @@
       "sportEn": "Equestrian",
       "event": "Jumping,Individual Competition A(heights of 1.40-1.50m)",
       "phase": "Jumping Final",
-      "unit": null,
+      "unit": "Jumping Ind A (1.45m-1.50m) 1st Round",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHEN Hung-Shen",
+        "CHEN Yu-Lung",
+        "WANG Chong-Hao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": null,
@@ -532,28 +488,48 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
-      "tpeEntrants": [],
+      "tpeEntrants": [
+        {
+          "name": "CHEN Hung-Shen",
+          "registration": "8058786",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHEN Yu-Lung",
+          "registration": "10428682",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        },
+        {
+          "name": "WANG Chong-Hao",
+          "registration": "8119286",
+          "result": null,
+          "rank": null,
+          "startTimeTaipei": null
+        }
+      ],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHEN Hung-Shen",
-        "WANG Chong-Hao"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "EQU|O.JUMPINDVCOMA------"
+        "results": {
+          "unitId": "O.JUMPINDVCOMA------.FNL-.000100--",
+          "id": "EQU:O.JUMPINDVCOMA------.FNL-.000100--"
         }
       }
     },
@@ -858,9 +834,11 @@
       "sportEn": "Equestrian",
       "event": "Jumping,Individual Competition B(heights of up to 1.55m)",
       "phase": "Jumping Final",
-      "unit": null,
+      "unit": "Jumping Ind B (up to 1.55m) 1st Round",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIN Yun-Chi"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": null,
@@ -869,27 +847,26 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "SCHEDULED",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
-      "orgCount": 0,
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "LIN Yun-Chi"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "EQU|O.JUMPINDVCOMB------"
+        "results": {
+          "unitId": "O.JUMPINDVCOMB------.FNL-.000100--",
+          "id": "EQU:O.JUMPINDVCOMB------.FNL-.000100--"
         }
       }
     },
@@ -947,10 +924,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 9,
-    "entered": 7,
+    "resultsOnly": 11,
+    "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 17
+    "warnings": 19
   },
   "warnings": [
     {
@@ -967,6 +944,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:30 Recurve Women's Individual Quarterfinal",
       "row": "ARC:W.RINDIVID----------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：EQU 08:30 Jumping Ind A (1.45m-1.50m) 1st Round",
+      "row": "EQU:O.JUMPINDVCOMA------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -992,6 +974,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Mixed Team Elimination Round of 16",
       "row": "JUD:X.TEAM6-------------.8FNL.00060000"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：EQU 11:45 Jumping Ind B (up to 1.55m) 1st Round",
+      "row": "EQU:O.JUMPINDVCOMB------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",

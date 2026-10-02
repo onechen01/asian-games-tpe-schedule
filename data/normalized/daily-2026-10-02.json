@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T06:07:12.932Z",
+  "generatedAt": "2026-10-02T06:25:58.207Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T06:07:12.813Z",
+      "generatedAt": "2026-10-02T06:25:58.024Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -315,7 +315,11 @@
       "phase": "Men's Individual Stroke Play",
       "unit": "Round 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Wei-Hsuan",
+        "CHAN Shih-Chang",
+        "HUNG Chien-Yao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -326,9 +330,31 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "WANG Wei-Hsuan",
+          "registration": "11704760",
+          "result": "-11",
+          "rank": "2",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHAN Shih-Chang",
+          "registration": "12708292",
+          "result": "-7",
+          "rank": "8",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HUNG Chien-Yao",
+          "registration": "905667",
+          "result": "+1",
+          "rank": "23",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "2",
+      "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -360,7 +386,11 @@
       "phase": "Men's Team",
       "unit": "Round 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHAN Shih-Chang",
+        "WANG Wei-Hsuan",
+        "HUNG Chien-Yao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -370,10 +400,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "-18",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "3",
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -405,7 +439,11 @@
       "phase": "Women's Individual Stroke Play",
       "unit": "Round 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TSENG Ya-Ni",
+        "CHIEN Pei-Yun",
+        "HSU Wei-Ling"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -416,9 +454,31 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "TSENG Ya-Ni",
+          "registration": "8374574",
+          "result": "-2",
+          "rank": "8",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHIEN Pei-Yun",
+          "registration": "10587356",
+          "result": "-1",
+          "rank": "11",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HSU Wei-Ling",
+          "registration": "8390832",
+          "result": "-1",
+          "rank": "11",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "8",
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -450,7 +510,11 @@
       "phase": "Women's Team",
       "unit": "Round 3",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TSENG Ya-Ni",
+        "HSU Wei-Ling",
+        "CHIEN Pei-Yun"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -460,10 +524,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
-      "result": null,
+      "result": {
+        "tpe": "-7",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "4",
+      "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1956,6 +2024,59 @@
       "startTimeJst": "2026-10-02T14:00:00+09:00",
       "timeNote": null,
       "estimated": false,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Men's Team",
+      "phase": "Recurve Men's Team Semifinals",
+      "unit": "Recurve Men's Team Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "TANG Chih-Chun",
+        "LIN Zih-Siang",
+        "CHENG Hsiang-Hui"
+      ],
+      "opponent": "Republic of Korea",
+      "opponentCode": "KOR",
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "6",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "3",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.RTEAM-------------.SFNL.000100--",
+          "id": "ARC:M.RTEAM-------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:00:00+08:00",
+      "startTimeJst": "2026-10-02T14:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
       "disciplineCode": "BKG",
       "sportZh": "霹靂舞",
       "sportEn": "Breaking",
@@ -2042,7 +2163,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2118,59 +2239,6 @@
         "results": {
           "unitId": "W.DOUBLES-----------.SFNL.000200--",
           "id": "TEN:W.DOUBLES-----------.SFNL.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T13:00:00+08:00",
-      "startTimeJst": "2026-10-02T14:00:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "ARC",
-      "sportZh": "射箭",
-      "sportEn": "Archery",
-      "event": "Recurve Men's Team",
-      "phase": "Recurve Men's Team Semifinals",
-      "unit": "Recurve Men's Team Semifinal",
-      "athletes": [],
-      "athletesEn": [
-        "TANG Chih-Chun",
-        "LIN Zih-Siang",
-        "CHENG Hsiang-Hui"
-      ],
-      "opponent": "Republic of Korea",
-      "opponentCode": "KOR",
-      "venue": null,
-      "venueZh": null,
-      "locationCode": "OCM",
-      "locationName": null,
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "6",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.RTEAM-------------.SFNL.000100--",
-          "id": "ARC:M.RTEAM-------------.SFNL.000100--"
         }
       }
     },
@@ -2341,8 +2409,8 @@
       "unit": "B-Boys Pre-Selection",
       "athletes": [],
       "athletesEn": [
-        "Jasper (WU Ding-jie)",
-        "Quake (SUN Chen)"
+        "Quake (SUN Chen)",
+        "Jasper (WU Ding-jie)"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -2352,25 +2420,25 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
-          "name": "Jasper (WU Ding-jie)",
-          "registration": "5426736",
-          "result": null,
-          "rank": null,
+          "name": "Quake (SUN Chen)",
+          "registration": "5423974",
+          "result": "81.73",
+          "rank": "4",
           "startTimeTaipei": null
         },
         {
-          "name": "Quake (SUN Chen)",
-          "registration": "5423974",
-          "result": null,
-          "rank": null,
+          "name": "Jasper (WU Ding-jie)",
+          "registration": "5426736",
+          "result": "76.87",
+          "rank": "10",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2416,16 +2484,16 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "2",
+        "tpe": "6",
         "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
-      "tpeMedal": null,
+      "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2467,10 +2535,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "10.371",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "4",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2514,8 +2586,12 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 13,
@@ -2880,6 +2956,53 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T15:57:00+08:00",
+      "startTimeJst": "2026-10-02T16:57:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "CTR",
+      "sportZh": "自由車場地賽",
+      "sportEn": "Cycling Track",
+      "event": "Men's Keirin",
+      "phase": "Men's Keirin, Finals",
+      "unit": "Men's Keirin, Final for places 7-12",
+      "athletes": [],
+      "athletesEn": [
+        "KANG Shih-feng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Izu Velodrome(Shizuoka)",
+      "venueZh": null,
+      "locationCode": "IVD",
+      "locationName": "Izu Velodrome",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 5,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.KEIRIN------------.FNL-.000200--",
+          "id": "CTR:M.KEIRIN------------.FNL-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T16:45:00+08:00",
       "startTimeJst": "2026-10-02T17:45:00+09:00",
       "timeNote": null,
@@ -2983,7 +3106,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 51,
+    "resultsOnly": 52,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 59
@@ -3146,6 +3269,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 13:00 Recurve Men's Team Semifinal",
+      "row": "ARC:M.RTEAM-------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:00 B-Girls Pre-Selection",
       "row": "BKG:W.INDIVID-----------.GP--.000100--"
     },
@@ -3158,11 +3286,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 13:00 Women's Doubles Semi-finals Match",
       "row": "TEN:W.DOUBLES-----------.SFNL.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ARC 13:00 Recurve Men's Team Semifinal",
-      "row": "ARC:M.RTEAM-------------.SFNL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -3236,6 +3359,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CTR 15:57 Men's Keirin, Final for places 7-12",
+      "row": "CTR:M.KEIRIN------------.FNL-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:45 Women's 65KG - Final",
       "row": "BOX:W.65KG--------------.FNL-.000100--"
     },
@@ -3256,18 +3384,8 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.67KG--------------",
-      "message": "TKW Women -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "TKW|M.80KG--------------",
       "message": "TKW Men -80kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "CTR|M.KEIRIN------------",
-      "message": "CTR Men's Keirin 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -3283,6 +3401,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "CTR|W.OMNIUM------------",
       "message": "CTR Women's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|W.67KG--------------",
+      "message": "TKW Women -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
