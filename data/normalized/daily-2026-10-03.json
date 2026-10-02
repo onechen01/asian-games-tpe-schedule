@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T04:37:04.367Z",
+  "generatedAt": "2026-10-02T04:49:31.608Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T04:37:04.236Z",
+      "generatedAt": "2026-10-02T04:49:31.447Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -177,54 +177,6 @@
   },
   "date": "2026-10-03",
   "rows": [
-    {
-      "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T06:00:00+08:00",
-      "startTimeJst": "2026-10-03T07:00:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "GLF",
-      "sportZh": "高爾夫",
-      "sportEn": "Golf",
-      "event": "Women's Individual Stroke Play",
-      "phase": "Women's Individual Stroke Play",
-      "unit": null,
-      "athletes": [],
-      "athletesEn": [],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kasugai Country Club East Course",
-      "venueZh": null,
-      "locationCode": "CCE",
-      "locationName": "Kasugai Country Club East Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": null,
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHIEN Pei-yun",
-        "HSU Wei-ling",
-        "TSENG Ya-ni"
-      ],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "entries": {
-          "eventId": "GLF|W.STROKE------------"
-        }
-      }
-    },
     {
       "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T06:00:00+08:00",
@@ -948,7 +900,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 9,
-    "entered": 7,
+    "entered": 6,
     "unresolvedTbd": 0,
     "warnings": 17
   },
