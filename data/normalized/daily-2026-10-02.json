@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T00:47:28.329Z",
+  "generatedAt": "2026-10-02T00:56:27.497Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T00:47:28.172Z",
+      "generatedAt": "2026-10-02T00:56:27.312Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 3,
-          "recovered": 3,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -334,8 +334,8 @@
         {
           "name": "WANG Wei-Hsuan",
           "registration": "11704760",
-          "result": "-9",
-          "rank": "1",
+          "result": "-8",
+          "rank": "2",
           "startTimeTaipei": null
         },
         {
@@ -349,11 +349,11 @@
           "name": "HUNG Chien-Yao",
           "registration": "905667",
           "result": "+2",
-          "rank": "26",
+          "rank": "25",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -401,7 +401,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-12",
+        "tpe": "-11",
         "opponent": null,
         "source": "results"
       },
@@ -1045,7 +1045,7 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
