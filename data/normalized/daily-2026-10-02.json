@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T02:07:50.585Z",
+  "generatedAt": "2026-10-02T02:16:00.756Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T02:07:50.398Z",
+      "generatedAt": "2026-10-02T02:16:00.607Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -473,7 +473,7 @@
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
           "result": "-1",
-          "rank": "11",
+          "rank": "10",
           "startTimeTaipei": null
         }
       ],
@@ -511,8 +511,8 @@
       "unit": "Round 3",
       "athletes": [],
       "athletesEn": [
-        "HSU Wei-Ling",
         "CHIEN Pei-Yun",
+        "HSU Wei-Ling",
         "TSENG Ya-Ni"
       ],
       "opponent": null,
@@ -530,7 +530,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "2",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -785,8 +785,8 @@
         {
           "name": "CHANG Chu-han",
           "registration": "4238983",
-          "result": null,
-          "rank": null,
+          "result": "78.38",
+          "rank": "1",
           "startTimeTaipei": null
         },
         {
@@ -797,7 +797,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -845,8 +845,12 @@
       "locationName": "AIA Tatami 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1088,14 +1092,14 @@
         "LIN Feng-chen",
         "SHEN Chia-wen",
         "CHEN Chia-yi",
-        "SU Yi-hsuan",
+        "LIN Chih-ying",
         "LIN Chi-yun",
         "HO Yi-fan",
         "CHU Yi-shan",
         "CHEN Ching-yu",
         "PAN Yu-ling",
         "TU Ya-ting",
-        "LIN Chih-ying",
+        "SU Yi-hsuan",
         "LI Szu-shih",
         "YANG An-chi",
         "KE Hsia-ai"
@@ -1108,8 +1112,12 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1155,9 +1163,9 @@
       "locationName": "ISC  MAT C",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
+        "tpe": "2",
         "opponent": "4",
         "source": "results"
       },
