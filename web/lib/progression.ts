@@ -1,8 +1,8 @@
 // Derived progression: a Chinese Taipei athlete or team is only marked as advanced when the
 // official data already lists them in a later stage. Nothing is inferred from a win, a score
 // or a rank, and canonical data is never modified.
-type TimeNote = { code:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING';
-  clockTaipei:string | null; raw:string | null };
+import type {TimeNote} from './schedule';
+
 export type Row = { date:string; startTimeTaipei:string|null; timeNote?:TimeNote|null; disciplineCode:string|null;
   event:string|null; phase:string|null; athletesEn?:string[]; athletes?:string[] };
 // nextTimeNote alone carries the display decision for the next round's time -- no separate

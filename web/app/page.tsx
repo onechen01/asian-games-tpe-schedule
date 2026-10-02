@@ -1,7 +1,7 @@
 import {loadSchedule,loadAthletes,loadDisplayNames,loadSportOptions} from '../lib/load';
 import {taipeiDate,shiftDate,validDate,formatTaipei,matchTimeLabel,sportLabel,displayNames,entryNames,emptyState,isEntered,
  statusLabel,isFinished,taiwanRows,pendingRows,hasTimeConflict,resultHeading} from '../lib/schedule';
-import type {CourtSessionChain,Daily,Row} from '../lib/schedule';
+import type {CourtSessionChain,Daily,Row,TimeNote} from '../lib/schedule';
 import {athleteLabel} from '../lib/athletes';
 import type {AthleteMaster} from '../lib/athletes';
 import {orgLabel,venueLabel} from '../lib/display-names';
@@ -28,7 +28,7 @@ function EnteredCard({row,master,names:display,shows=[]}:{row:Row;master:Athlete
  const tpe=orgLabel('TPE','Chinese Taipei',display);
  return <article className="match"><div className="match-time"><time>{matchTimeLabel(row)}</time><span>本項起始・台灣時間</span></div><div className="match-main"><div className="match-top"><span className="sport">{sportLabel(row)}</span><span className="badge">待確認</span></div><h3>{eventLabel(row.event)||'待確認'}</h3>{names.length>0&&<p className="opponent">{tpe}報名：{names.slice(0,4).join('、')}{names.length>4&&` 等 ${names.length} 人`}</p>}<dl><div><dt>比賽項目</dt><dd>{eventLabel(row.event)||'待確認'}</dd></div>{row.unitCount?<div><dt>當日場次</dt><dd>{row.unitCount} 場</dd></div>:null}{venue&&<div><dt>場館</dt><dd>{venue}</dd></div>}</dl><p className="result-pending">官方尚未公布台灣選手的分組與出賽順序。{matchTimeLabel(row)} 是本項目的起始時間，不是台灣選手的出賽時間。</p><BroadcastList items={shows} heading="轉播（時間不等於台灣選手出賽時間）"/>{names.length>4&&<details className="roster"><summary>查看完整報名名單（{names.length} 人）</summary><p>{names.join('、')}</p><p>報名名單不代表全部在該場出賽，實際名單以官方公布為準。</p></details>}</div></article>
 }
-function Card({row,conflict,pending,master,names:display,shows=[],advance,chains=[]}:{row:Row;conflict:boolean;pending?:boolean;master:AthleteMaster;names:DisplayNames;shows?:Broadcast[];chains?:CourtSessionChain[];advance?:{stage:string;nextDate:string;nextTimeTaipei:string|null;nextTimeNote?:{code:'FOLLOWED_BY'|'NOT_BEFORE'|'RESCHEDULED'|'PENDING';clockTaipei:string|null;raw:string|null}|null}|null}){
+function Card({row,conflict,pending,master,names:display,shows=[],advance,chains=[]}:{row:Row;conflict:boolean;pending?:boolean;master:AthleteMaster;names:DisplayNames;shows?:Broadcast[];chains?:CourtSessionChain[];advance?:{stage:string;nextDate:string;nextTimeTaipei:string|null;nextTimeNote?:TimeNote|null}|null}){
  const {names}=displayNames(row,master),status=statusLabel(row),score=row.result;
  // An individual event can carry several Chinese Taipei entrants; each keeps their own mark.
  const solo=row.tpeEntrants??[];

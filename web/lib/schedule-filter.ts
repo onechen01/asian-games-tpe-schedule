@@ -1,3 +1,5 @@
+import type {TimeNote} from './schedule';
+
 export type StatusFilter = 'upcoming' | 'live' | 'finished';
 export type StatusCategory = StatusFilter | 'unknown';
 
@@ -14,7 +16,7 @@ export type ScheduleItemMeta = {
   sportLabel:string;
   status:string | null;
   hasBroadcast:boolean;
-  timeNoteCode?:'FOLLOWED_BY' | 'NOT_BEFORE' | 'RESCHEDULED' | 'PENDING' | null;
+  timeNoteCode?:TimeNote['code'] | null;
 };
 
 export type JumpTarget = {
