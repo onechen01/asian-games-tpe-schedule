@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T08:56:56.624Z",
+  "generatedAt": "2026-10-02T09:07:25.277Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T08:56:56.446Z",
+      "generatedAt": "2026-10-02T09:07:25.132Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -920,6 +920,53 @@
     },
     {
       "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T10:15:00+08:00",
+      "startTimeJst": "2026-10-03T11:15:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 57kg",
+      "phase": "Women's Wrestling 57kg 1/8 Finals",
+      "unit": "1/8 Final",
+      "athletes": [],
+      "athletesEn": [
+        "LIAO Pei-ying"
+      ],
+      "opponent": "BALISME Miriam Grace",
+      "opponentCode": "PHI",
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "IS3",
+      "locationName": "ISC  MAT C",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.WR57KG------------.8FNL.000300--",
+          "id": "WRE:W.WR57KG------------.8FNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T11:45:00+08:00",
       "startTimeJst": "2026-10-03T12:45:00+09:00",
       "timeNote": null,
@@ -1011,6 +1058,205 @@
           "id": "ARC:M.RINDIVID----------.QFNL.000300--"
         }
       }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T13:04:00+08:00",
+      "startTimeJst": "2026-10-03T14:04:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "BKG",
+      "sportZh": "霹靂舞",
+      "sportEn": "Breaking",
+      "event": "B-Girls",
+      "phase": "B-Girls Quarterfinals",
+      "unit": "B-Girls Quarterfinal 1",
+      "athletes": [],
+      "athletesEn": [
+        "Sophia (HSU Fu-ya)"
+      ],
+      "opponent": "Royal (GUO Pu)",
+      "opponentCode": "CHN",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "locationCode": "SKEF",
+      "locationName": "Aichi Sky Expo Hall F",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.INDIVID-----------.QFNL.000100--",
+          "id": "BKG:W.INDIVID-----------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T13:29:00+08:00",
+      "startTimeJst": "2026-10-03T14:29:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "BKG",
+      "sportZh": "霹靂舞",
+      "sportEn": "Breaking",
+      "event": "B-Girls",
+      "phase": "B-Girls Quarterfinals",
+      "unit": "B-Girls Quarterfinal 4",
+      "athletes": [],
+      "athletesEn": [
+        "Jia Li (YANG Jia-li)"
+      ],
+      "opponent": "Ayumi (FUKUSHIMA Ayumi)",
+      "opponentCode": "JPN",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "locationCode": "SKEF",
+      "locationName": "Aichi Sky Expo Hall F",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.INDIVID-----------.QFNL.000400--",
+          "id": "BKG:W.INDIVID-----------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T13:47:20+08:00",
+      "startTimeJst": "2026-10-03T14:47:20+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "BKG",
+      "sportZh": "霹靂舞",
+      "sportEn": "Breaking",
+      "event": "B-Boys",
+      "phase": "B-Boys Quarterfinals",
+      "unit": "B-Boys Quarterfinal 2",
+      "athletes": [],
+      "athletesEn": [
+        "Quake (SUN Chen)"
+      ],
+      "opponent": "Issin (HISHIKAWA Isshin)",
+      "opponentCode": "JPN",
+      "venue": "Aichi Sky Expo Hall F",
+      "venueZh": null,
+      "locationCode": "SKEF",
+      "locationName": "Aichi Sky Expo Hall F",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.INDIVID-----------.QFNL.000200--",
+          "id": "BKG:M.INDIVID-----------.QFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T18:00:00+08:00",
+      "startTimeJst": "2026-10-03T19:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "VVO",
+      "sportZh": "排球",
+      "sportEn": "Volleyball",
+      "event": "Men",
+      "phase": "Men's Classification Match 9th-12th",
+      "unit": "9th-10th Place - Match 44",
+      "athletes": [],
+      "athletesEn": [
+        "WEN Yi-kai",
+        "JHANG Yun-liang",
+        "WANG Ping-hsun",
+        "CHEN Jie-ting",
+        "LIU Yu-lin",
+        "TSAI Pei-chang",
+        "HUANG Jheng-liang",
+        "LU Chiang Yao-kai",
+        "HUANG Yu-chen",
+        "CHANG Yu-chen",
+        "CHUANG Shao-chieh",
+        "CHANG Yu-sheng"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Park Arena Komaki",
+      "venueZh": null,
+      "locationCode": "PKA",
+      "locationName": "Park Arena Komaki",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.TEAM6-------------.SF9-.000500--",
+          "id": "VVO:M.TEAM6-------------.SF9-.000500--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -1019,10 +1265,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 16,
+    "resultsOnly": 21,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 24
+    "warnings": 33
   },
   "warnings": [
     {
@@ -1097,6 +1343,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WRE 10:15 1/8 Final",
+      "row": "WRE:W.WR57KG------------.8FNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：EQU 11:45 Jumping Ind B (up to 1.55m) 1st Round",
       "row": "EQU:O.JUMPINDVCOMB------.FNL-.000100--"
     },
@@ -1104,6 +1355,26 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:30 Recurve Men's Individual Quarterfinal",
       "row": "ARC:M.RINDIVID----------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:04 B-Girls Quarterfinal 1",
+      "row": "BKG:W.INDIVID-----------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:29 B-Girls Quarterfinal 4",
+      "row": "BKG:W.INDIVID-----------.QFNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:47 B-Boys Quarterfinal 2",
+      "row": "BKG:M.INDIVID-----------.QFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：VVO 18:00 9th-10th Place - Match 44",
+      "row": "VVO:M.TEAM6-------------.SF9-.000500--"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -1114,6 +1385,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|W.RINDIVID----------",
       "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "VVO|M.TEAM6-------------",
+      "message": "VVO Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -1142,8 +1418,23 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "WRE|W.WR57KG------------",
+      "message": "WRE Women's Wrestling 57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "ARC|M.RINDIVID----------",
       "message": "ARC Recurve Men's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BKG|M.INDIVID-----------",
+      "message": "BKG B-Boys 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "BKG|W.INDIVID-----------",
+      "message": "BKG B-Girls 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
