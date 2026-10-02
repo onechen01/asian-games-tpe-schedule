@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T07:37:56.762Z",
+  "generatedAt": "2026-10-02T07:45:51.232Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T07:37:56.615Z",
+      "generatedAt": "2026-10-02T07:45:51.051Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1681,7 +1681,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "SHIBAHARA Ena/FRIEND Jay",
+      "opponent": "SHIBAHARA Ena / FRIEND Jay",
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2155,7 +2155,7 @@
         "CHAN Hao-ching",
         "WU Fang-hsien"
       ],
-      "opponent": "CHONG Eudice/WONG Hong Yi",
+      "opponent": "CHONG Eudice / WONG Hong Yi",
       "opponentCode": "HKG",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2211,7 +2211,7 @@
         "HSIEH Su-wei",
         "LIANG En-shuo"
       ],
-      "opponent": "DANILINA Anna/PUTINTSEVA Yuliya",
+      "opponent": "DANILINA Anna / PUTINTSEVA Yuliya",
       "opponentCode": "KAZ",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2219,9 +2219,9 @@
       "locationName": "Court 5",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
@@ -2795,9 +2795,9 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "-4",
+        "tpe": "-2",
         "opponent": null,
         "source": "results"
       },
@@ -3013,7 +3013,7 @@
       "status": "RUNNING",
       "result": {
         "tpe": "1",
-        "opponent": "0",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -3108,8 +3108,12 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
