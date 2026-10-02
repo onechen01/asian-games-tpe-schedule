@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T12:46:13.067Z",
+  "generatedAt": "2026-10-02T13:06:24.469Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T12:46:12.919Z",
+      "generatedAt": "2026-10-02T13:06:24.294Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1388,7 +1388,7 @@
     "resultsOnly": 23,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 35
+    "warnings": 34
   },
   "warnings": [
     {
@@ -1560,11 +1560,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BKG|W.INDIVID-----------",
       "message": "BKG B-Girls 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "VVO|M.TEAM6-------------",
-      "message": "VVO Men 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
