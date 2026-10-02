@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T00:35:58.326Z",
+  "generatedAt": "2026-10-02T00:47:28.329Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T00:35:58.137Z",
+      "generatedAt": "2026-10-02T00:47:28.172Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 3,
+          "recovered": 3,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1018,7 +1018,25 @@
       "phase": "Women’s Preliminary Round",
       "unit": "Game  26",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "LIU Hsuan",
+        "CHIANG Ting-en",
+        "YEH Kuei-ping",
+        "LIN Feng-chen",
+        "SHEN Chia-wen",
+        "CHEN Chia-yi",
+        "LIN Chi-yun",
+        "SU Yi-hsuan",
+        "HO Yi-fan",
+        "CHU Yi-shan",
+        "CHEN Ching-yu",
+        "PAN Yu-ling",
+        "TU Ya-ting",
+        "LIN Chih-ying",
+        "LI Szu-shih",
+        "YANG An-chi",
+        "KE Hsia-ai"
+      ],
       "opponent": "Republic of Korea",
       "opponentCode": "KOR",
       "venue": "Anjo Softball Ground",
