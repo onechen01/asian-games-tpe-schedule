@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T05:47:45.446Z",
+  "generatedAt": "2026-10-02T05:57:10.767Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T05:47:45.295Z",
+      "generatedAt": "2026-10-02T05:57:10.577Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -458,8 +458,8 @@
         {
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
-          "result": "-2",
-          "rank": "9",
+          "result": "-3",
+          "rank": "8",
           "startTimeTaipei": null
         },
         {
@@ -477,7 +477,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "9",
+      "tpeRank": "8",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -511,9 +511,9 @@
       "unit": "Round 3",
       "athletes": [],
       "athletesEn": [
+        "CHIEN Pei-Yun",
         "TSENG Ya-Ni",
-        "HSU Wei-Ling",
-        "CHIEN Pei-Yun"
+        "HSU Wei-Ling"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -525,7 +525,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-7",
+        "tpe": "-8",
         "opponent": null,
         "source": "results"
       },
@@ -2096,7 +2096,7 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -2163,7 +2163,7 @@
       "locationName": "Court 4",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2346,6 +2346,57 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:30:00+08:00",
+      "startTimeJst": "2026-10-02T14:30:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Women -67kg",
+      "phase": "Women -67kg Round of 16",
+      "unit": "Women -67kg Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Wei-chia"
+      ],
+      "opponent": "TRAN Thi Anh Tuyet",
+      "opponentCode": "VIE",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TK3",
+      "locationName": "Toyohashi Gymnasium Mat 3",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "0",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.67KG--------------.8FNL.000200--",
+          "id": "TKW:W.67KG--------------.8FNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T13:45:00+08:00",
       "startTimeJst": "2026-10-02T14:45:00+09:00",
       "timeNote": null,
@@ -2369,7 +2420,7 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -2433,8 +2484,12 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "GETTING_READY",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2752,6 +2807,53 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T15:20:00+08:00",
+      "startTimeJst": "2026-10-02T16:20:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Women -67kg",
+      "phase": "Women -67kg Quarterfinals",
+      "unit": "Women -67kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Wei-chia"
+      ],
+      "opponent": "XING Jiani",
+      "opponentCode": "CHN",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TK2",
+      "locationName": "Toyohashi Gymnasium Mat 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.67KG--------------.QFNL.000100--",
+          "id": "TKW:W.67KG--------------.QFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T16:45:00+08:00",
       "startTimeJst": "2026-10-02T17:45:00+09:00",
       "timeNote": null,
@@ -2855,10 +2957,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 47,
+    "resultsOnly": 49,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 58
   },
   "warnings": [
     {
@@ -3048,6 +3150,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 13:30 Women -67kg Round of 16",
+      "row": "TKW:W.67KG--------------.8FNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:45 B-Boys Pre-Selection",
       "row": "BKG:M.INDIVID-----------.GP--.000100--"
     },
@@ -3088,6 +3195,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 15:20 Women -67kg Quarterfinal",
+      "row": "TKW:W.67KG--------------.QFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BOX 16:45 Women's 65KG - Final",
       "row": "BOX:W.65KG--------------.FNL-.000100--"
     },
@@ -3110,6 +3222,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BKG|W.INDIVID-----------",
       "message": "BKG B-Girls 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|W.67KG--------------",
+      "message": "TKW Women -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
