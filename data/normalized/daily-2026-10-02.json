@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T09:46:03.547Z",
+  "generatedAt": "2026-10-02T10:05:16.956Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T09:46:03.369Z",
+      "generatedAt": "2026-10-02T10:05:16.839Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -3433,7 +3433,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "8",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3477,7 +3477,7 @@
       "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "2",
@@ -3486,7 +3486,7 @@
       "tpeEntrants": [],
       "tpeRank": "3",
       "orgCount": 2,
-      "tpeMedal": null,
+      "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -3561,7 +3561,7 @@
     "resultsOnly": 60,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 62
+    "warnings": 61
   },
   "warnings": [
     {
@@ -3863,11 +3863,6 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TKW 17:48 Men -80kg Semifinal",
       "row": "TKW:M.80KG--------------.SFNL.000200--"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.67KG--------------",
-      "message": "TKW Women -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-02T09:30:50.699Z",
+  "generatedAt": "2026-10-02T10:06:59.534Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-02T09:30:50.696Z",
+  "standingsUpdatedAt": "2026-10-02T10:06:59.532Z",
   "ledgerCounts": {
     "gold": 4,
     "silver": 15,
-    "bronze": 28,
-    "total": 47
+    "bronze": 29,
+    "total": 48
   },
   "officialCounts": {
     "gold": 4,
     "silver": 15,
-    "bronze": 28,
-    "total": 47
+    "bronze": 29,
+    "total": 48
   },
   "missing": {
     "gold": 0,
@@ -867,6 +867,22 @@
         "CHEN Yi-chin"
       ],
       "rank": "2"
+    },
+    {
+      "awardId": "TKW|W.67KG--------------|663821",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "event": "Women -67kg",
+      "phase": "Women -67kg Semifinals",
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T17:06:00+08:00",
+      "resultId": "TKW:W.67KG--------------.SFNL.000100--",
+      "unitId": "W.67KG--------------.SFNL.000100--",
+      "athletes": [
+        "WANG Wei-chia"
+      ],
+      "rank": "3"
     }
   ]
 }
