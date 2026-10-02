@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T18:34:09.973Z",
+  "generatedAt": "2026-10-02T18:44:21.446Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T18:34:09.796Z",
+      "generatedAt": "2026-10-02T18:44:21.274Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -751,69 +751,6 @@
         "results": {
           "unitId": "W.OMNIUM------------.TEMP.000100--",
           "id": "CTR:W.OMNIUM------------.TEMP.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
-      "startTimeJst": "2026-10-02T11:00:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Women's Kayak Cross",
-      "phase": "Women's Kayak Cross Individual",
-      "unit": "Women's Kayak Cross - Individual - Individual",
-      "athletes": [],
-      "athletesEn": [
-        "CHANG Chu-han",
-        "WU Ting-i"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "Yahagigawa Canoe Slalom Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": null,
-      "tpeEntrants": [
-        {
-          "name": "CHANG Chu-han",
-          "registration": "4238983",
-          "result": "78.38",
-          "rank": "3",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "WU Ting-i",
-          "registration": "6812784",
-          "result": "80.51",
-          "rank": "5",
-          "startTimeTaipei": null
-        }
-      ],
-      "tpeRank": "3",
-      "orgCount": 8,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.X1----------------.QUAL.000100--",
-          "id": "CSL:W.X1----------------.QUAL.000100--"
         }
       }
     },
@@ -1373,6 +1310,51 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Kayak Cross",
+      "phase": "Women's Kayak Cross Individual",
+      "unit": "Women's Kayak Cross - Individual - Individual",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.X1----------------.QUAL.000100--",
+          "id": "CSL:W.X1----------------.QUAL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T10:02:00+08:00",
       "startTimeJst": "2026-10-02T11:02:00+09:00",
       "timeNote": null,
@@ -1479,69 +1461,6 @@
       "startTimeJst": "2026-10-02T11:30:00+09:00",
       "timeNote": null,
       "estimated": false,
-      "disciplineCode": "CSL",
-      "sportZh": "輕艇激流",
-      "sportEn": "Canoe Slalom",
-      "event": "Men's Kayak Cross",
-      "phase": "Men's Kayak Cross Individual",
-      "unit": "Men's Kayak Cross - Individual - Individual",
-      "athletes": [],
-      "athletesEn": [
-        "LIAO Li-hong",
-        "WU Jung-cheng"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Yahagigawa Canoe Slalom Course",
-      "venueZh": null,
-      "locationCode": "YSC",
-      "locationName": "Yahagigawa Canoe Slalom Course",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": null,
-      "tpeEntrants": [
-        {
-          "name": "LIAO Li-hong",
-          "registration": "12247323",
-          "result": "76.37",
-          "rank": "7",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "WU Jung-cheng",
-          "registration": "4233921",
-          "result": "80.67",
-          "rank": "10",
-          "startTimeTaipei": null
-        }
-      ],
-      "tpeRank": "7",
-      "orgCount": 11,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.X1----------------.QUAL.000100--",
-          "id": "CSL:M.X1----------------.QUAL.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T10:30:00+08:00",
-      "startTimeJst": "2026-10-02T11:30:00+09:00",
-      "timeNote": null,
-      "estimated": false,
       "disciplineCode": "HOC",
       "sportZh": "曲棍球",
       "sportEn": "Hockey",
@@ -1601,6 +1520,51 @@
         "results": {
           "unitId": "W.TEAM11------------.SF51.000200--",
           "id": "HOC:W.TEAM11------------.SF51.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:30:00+08:00",
+      "startTimeJst": "2026-10-02T11:30:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Men's Kayak Cross",
+      "phase": "Men's Kayak Cross Individual",
+      "unit": "Men's Kayak Cross - Individual - Individual",
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.X1----------------.QUAL.000100--",
+          "id": "CSL:M.X1----------------.QUAL.000100--"
         }
       }
     },
@@ -1780,9 +1744,7 @@
       "phase": "Women's Kayak Cross Quarterfinals",
       "unit": "Women's Kayak Cross - Quarterfinals - Quarterfinal 2",
       "athletes": [],
-      "athletesEn": [
-        "WU Ting-i"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -1792,14 +1754,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "2",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "2",
-      "orgCount": 3,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1831,9 +1789,7 @@
       "phase": "Women's Kayak Cross Quarterfinals",
       "unit": "Women's Kayak Cross - Quarterfinals - Quarterfinal 3",
       "athletes": [],
-      "athletesEn": [
-        "CHANG Chu-han"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -1843,14 +1799,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "1",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 3,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1933,9 +1885,7 @@
       "phase": "Men's Kayak Cross Quarterfinals",
       "unit": "Men's Kayak Cross - Quarterfinals - Quarterfinal 3",
       "athletes": [],
-      "athletesEn": [
-        "WU Jung-cheng"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -1945,14 +1895,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "3",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "3",
-      "orgCount": 3,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1984,9 +1930,7 @@
       "phase": "Men's Kayak Cross Quarterfinals",
       "unit": "Men's Kayak Cross - Quarterfinals - Quarterfinal 4",
       "athletes": [],
-      "athletesEn": [
-        "LIAO Li-hong"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -1996,14 +1940,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "4",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "3",
-      "orgCount": 4,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2263,9 +2203,7 @@
       "phase": "Women's Kayak Cross Semifinals",
       "unit": "Women's Kayak Cross - Semifinals - Semifinal 1",
       "athletes": [],
-      "athletesEn": [
-        "WU Ting-i"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -2275,14 +2213,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "2",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "4",
-      "orgCount": 4,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2314,9 +2248,7 @@
       "phase": "Women's Kayak Cross Semifinals",
       "unit": "Women's Kayak Cross - Semifinals - Semifinal 2",
       "athletes": [],
-      "athletesEn": [
-        "CHANG Chu-han"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -2326,14 +2258,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "2",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "2",
-      "orgCount": 4,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2583,9 +2511,7 @@
       "phase": "Women's Kayak Cross Final",
       "unit": "Women's Kayak Cross - Final - Small Final",
       "athletes": [],
-      "athletesEn": [
-        "WU Ting-i"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -2595,14 +2521,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "1",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "1",
-      "orgCount": 4,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -2685,9 +2607,7 @@
       "phase": "Women's Kayak Cross Final",
       "unit": "Women's Kayak Cross - Final - Final",
       "athletes": [],
-      "athletesEn": [
-        "CHANG Chu-han"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Yahagigawa Canoe Slalom Course",
@@ -2697,15 +2617,11 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "2",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "2",
-      "orgCount": 3,
-      "tpeMedal": "ME_SILVER",
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -3661,11 +3577,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:00 Women's Kayak Cross - Individual - Individual",
-      "row": "CSL:W.X1----------------.QUAL.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men -90 kg Elimination Round of 16",
       "row": "JUD:M.90KG--------------.8FNL.000400--"
     },
@@ -3716,6 +3627,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:00 Women's Kayak Cross - Individual - Individual",
+      "row": "CSL:W.X1----------------.QUAL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WRE 10:02 1/8 Final",
       "row": "WRE:W.WR76KG------------.8FNL.000700--"
     },
@@ -3726,13 +3642,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:30 Men's Kayak Cross - Individual - Individual",
-      "row": "CSL:M.X1----------------.QUAL.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：HOC 10:30 Women Classification (7th-8th)",
+      "row": "HOC:W.TEAM11------------.SF51.000200--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：HOC 10:30 Women Classification (7th-8th)",
-      "row": "HOC:W.TEAM11------------.SF51.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 10:30 Men's Kayak Cross - Individual - Individual",
+      "row": "CSL:M.X1----------------.QUAL.000100--"
     },
     {
       "code": "RESULTS_ONLY",
