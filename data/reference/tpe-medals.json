@@ -1,12 +1,12 @@
 {
   "gold": 4,
-  "silver": 14,
+  "silver": 15,
   "bronze": 28,
-  "total": 46,
-  "updatedAt": "2026-10-02T09:01:41.663Z",
+  "total": 47,
+  "updatedAt": "2026-10-02T09:11:30.415Z",
   "source": "https://back.results.asiangames2026.org/s/AG2026/en/ALL/medals/standings",
   "rank": "15",
   "rankEq": false,
-  "rankByTotal": "8",
+  "rankByTotal": "7",
   "rankByTotalEq": false
 }
