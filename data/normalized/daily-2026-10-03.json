@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T03:28:11.436Z",
+  "generatedAt": "2026-10-02T03:48:21.844Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T03:28:11.294Z",
+      "generatedAt": "2026-10-02T03:48:21.743Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -179,6 +179,150 @@
   "rows": [
     {
       "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T06:00:00+08:00",
+      "startTimeJst": "2026-10-03T07:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "GLF",
+      "sportZh": "高爾夫",
+      "sportEn": "Golf",
+      "event": "Women's Individual Stroke Play",
+      "phase": "Women's Individual Stroke Play",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kasugai Country Club East Course",
+      "venueZh": null,
+      "locationCode": "CCE",
+      "locationName": "Kasugai Country Club East Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHIEN Pei-yun",
+        "HSU Wei-ling",
+        "TSENG Ya-ni"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GLF|W.STROKE------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T06:00:00+08:00",
+      "startTimeJst": "2026-10-03T07:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "GLF",
+      "sportZh": "高爾夫",
+      "sportEn": "Golf",
+      "event": "Women's Team",
+      "phase": "Women's Team",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kasugai Country Club East Course",
+      "venueZh": null,
+      "locationCode": "CCE",
+      "locationName": "Kasugai Country Club East Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHIEN Pei-yun",
+        "HSU Wei-ling",
+        "TSENG Ya-ni"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GLF|W.TEAM--------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T06:55:00+08:00",
+      "startTimeJst": "2026-10-03T07:55:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "GLF",
+      "sportZh": "高爾夫",
+      "sportEn": "Golf",
+      "event": "Men's Individual Stroke Play",
+      "phase": "Men's Individual Stroke Play",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kasugai Country Club East Course",
+      "venueZh": null,
+      "locationCode": "CCE",
+      "locationName": "Kasugai Country Club East Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 1,
+      "enteredAthletes": [
+        "CHAN Shih-chang",
+        "HUNG Chien-yao",
+        "WANG Wei-hsuan"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "GLF|M.STROKE------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T06:55:00+08:00",
       "startTimeJst": "2026-10-03T07:55:00+09:00",
       "timeNote": null,
@@ -321,53 +465,6 @@
     },
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T08:25:00+08:00",
-      "startTimeJst": "2026-10-03T09:25:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "JJI",
-      "sportZh": "柔術",
-      "sportEn": "Jiu Jitsu",
-      "event": "Women -63kg",
-      "phase": "Women -63kg Elimination Round of 32",
-      "unit": "Women -63kg Elimination Round of 32",
-      "athletes": [],
-      "athletesEn": [
-        "SHEN Yu-chin"
-      ],
-      "opponent": "EE Yin Jaslyn",
-      "opponentCode": "SGP",
-      "venue": "Aichi Prefectural Martial Arts Hall",
-      "venueZh": null,
-      "locationCode": "JJ2",
-      "locationName": "Aichi Prefectural Martial Arts Hall Mat 2",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.63KG--------------.R32-.001400--",
-          "id": "JJI:W.63KG--------------.R32-.001400--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T08:30:00+08:00",
       "startTimeJst": "2026-10-03T09:30:00+09:00",
       "timeNote": null,
@@ -457,6 +554,53 @@
       "sources": {
         "entries": {
           "eventId": "EQU|O.JUMPINDVCOMA------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T08:35:00+08:00",
+      "startTimeJst": "2026-10-03T09:35:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "JJI",
+      "sportZh": "柔術",
+      "sportEn": "Jiu Jitsu",
+      "event": "Women -63kg",
+      "phase": "Women -63kg Elimination Round of 32",
+      "unit": "Women -63kg Elimination Round of 32",
+      "athletes": [],
+      "athletesEn": [
+        "SHEN Yu-chin"
+      ],
+      "opponent": "EE Yin Jaslyn",
+      "opponentCode": "SGP",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "JJ2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Mat 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.63KG--------------.R32-.001400--",
+          "id": "JJI:W.63KG--------------.R32-.001400--"
         }
       }
     },
@@ -804,7 +948,7 @@
     "matched": 0,
     "tpenocOnly": 0,
     "resultsOnly": 9,
-    "entered": 4,
+    "entered": 7,
     "unresolvedTbd": 0,
     "warnings": 17
   },
@@ -821,13 +965,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：JJI 08:25 Women -63kg Elimination Round of 32",
-      "row": "JJI:W.63KG--------------.R32-.001400--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:30 Recurve Women's Individual Quarterfinal",
+      "row": "ARC:W.RINDIVID----------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:30 Recurve Women's Individual Quarterfinal",
-      "row": "ARC:W.RINDIVID----------.QFNL.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：JJI 08:35 Women -63kg Elimination Round of 32",
+      "row": "JJI:W.63KG--------------.R32-.001400--"
     },
     {
       "code": "RESULTS_ONLY",
