@@ -5458,29 +5458,19 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T05:25:00+08:00",
+      "broadcastStartTimeTaipei": "2026-10-03T05:05:00+08:00",
       "disciplineCode": "GLF",
-      "channelId": "540",
-      "channelName": "愛爾達體育MAX1台",
+      "channelId": "541",
+      "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 中華隊 高爾夫 男/女個人/團體第四輪 10/3(原音) LIVE",
+      "title": "亞運 中華隊 高爾夫 女子個人/團體第四輪 10/3(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-02",
-      "broadcastEndTimeTaipei": "2026-10-03T16:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T15:30:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
-          {
-            "gender": "MEN",
-            "eventFamily": "INDIVIDUAL",
-            "roundNumber": 4
-          },
-          {
-            "gender": "MEN",
-            "eventFamily": "TEAM",
-            "roundNumber": 4
-          },
           {
             "gender": "WOMEN",
             "eventFamily": "INDIVIDUAL",
@@ -5499,26 +5489,26 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T07:30:00+08:00",
+      "broadcastStartTimeTaipei": "2026-10-03T07:10:00+08:00",
       "disciplineCode": "GLF",
-      "channelId": "115",
-      "channelName": "愛爾達體育4台",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
       "isLive": true,
-      "title": "亞運 中華隊 高爾夫 女子個人/團體第四輪 10/3(原音) LIVE",
+      "title": "亞運 中華隊 高爾夫 男子個人/團體第四輪 10/3(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-02",
-      "broadcastEndTimeTaipei": "2026-10-03T13:25:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T16:30:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
           {
-            "gender": "WOMEN",
+            "gender": "MEN",
             "eventFamily": "INDIVIDUAL",
             "roundNumber": 4
           },
           {
-            "gender": "WOMEN",
+            "gender": "MEN",
             "eventFamily": "TEAM",
             "roundNumber": 4
           }
@@ -5696,7 +5686,25 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-02",
-      "broadcastEndTimeTaipei": "2026-10-03T13:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T12:50:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T11:25:00+08:00",
+      "disciplineCode": "TEN",
+      "channelId": "546",
+      "channelName": "愛爾達體育MAX7台",
+      "isLive": true,
+      "title": "亞運 中華隊 網球 女雙金牌戰(愛爾達自製單機轉播無比分) 10/3 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-02",
+      "broadcastEndTimeTaipei": "2026-10-03T14:30:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
     },
@@ -5729,14 +5737,14 @@
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-03T17:50:00+08:00",
       "disciplineCode": "VVO",
-      "channelId": "544",
-      "channelName": "愛爾達體育MAX5台",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
       "isLive": true,
       "title": "亞運 中華VS越南 排球 男子9-10排名賽 10/3 LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-02",
-      "broadcastEndTimeTaipei": "2026-10-03T20:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T20:00:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
