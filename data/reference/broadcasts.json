@@ -5131,7 +5131,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-02",
-      "broadcastEndTimeTaipei": "2026-10-02T15:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T15:25:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "opponentCodes": [
@@ -5158,6 +5158,134 @@
       "matchHint": {
         "athleteNames": [
           "LIN Yu-ting"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T12:30:00+08:00",
+      "disciplineCode": "TKW",
+      "channelId": "542",
+      "channelName": "愛爾達體育MAX3台",
+      "isLive": true,
+      "title": "亞運 王薇嘉 跆拳道 女子49/67/男子58/80公斤級16強/八強 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-02",
+      "broadcastEndTimeTaipei": "2026-10-02T13:50:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "athleteNames": [
+          "WANG Wei-chia"
+        ],
+        "sessionScopes": [
+          {
+            "gender": "WOMEN",
+            "weightKg": 49,
+            "stage": "ROUND_OF_16"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 49,
+            "stage": "QUARTERFINAL"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 67,
+            "stage": "ROUND_OF_16"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 67,
+            "stage": "QUARTERFINAL"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 58,
+            "stage": "ROUND_OF_16"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 58,
+            "stage": "QUARTERFINAL"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 80,
+            "stage": "ROUND_OF_16"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 80,
+            "stage": "QUARTERFINAL"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T12:35:00+08:00",
+      "disciplineCode": "TKW",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 王薇嘉 跆拳道 女子49/67/男子58/80公斤級16強/八強 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-02",
+      "broadcastEndTimeTaipei": "2026-10-02T16:05:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {
+        "athleteNames": [
+          "WANG Wei-chia"
+        ],
+        "sessionScopes": [
+          {
+            "gender": "WOMEN",
+            "weightKg": 49,
+            "stage": "ROUND_OF_16"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 49,
+            "stage": "QUARTERFINAL"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 67,
+            "stage": "ROUND_OF_16"
+          },
+          {
+            "gender": "WOMEN",
+            "weightKg": 67,
+            "stage": "QUARTERFINAL"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 58,
+            "stage": "ROUND_OF_16"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 58,
+            "stage": "QUARTERFINAL"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 80,
+            "stage": "ROUND_OF_16"
+          },
+          {
+            "gender": "MEN",
+            "weightKg": 80,
+            "stage": "QUARTERFINAL"
+          }
         ]
       }
     },
@@ -5233,6 +5361,28 @@
       "matchHint": {
         "opponentCodes": [
           "KAZ"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T16:05:00+08:00",
+      "disciplineCode": "TKW",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 王薇嘉 跆拳道 女子49/67/男子58/80公斤級四強 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-02",
+      "broadcastEndTimeTaipei": "2026-10-02T18:15:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "WANG Wei-chia"
         ]
       }
     },
