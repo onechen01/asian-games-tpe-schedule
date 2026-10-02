@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T01:26:26.798Z",
+  "generatedAt": "2026-10-02T01:36:44.056Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T01:26:26.610Z",
+      "generatedAt": "2026-10-02T01:36:43.862Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -472,8 +472,8 @@
         {
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
-          "result": "0",
-          "rank": "13",
+          "result": "-1",
+          "rank": "12",
           "startTimeTaipei": null
         }
       ],
@@ -512,8 +512,8 @@
       "athletes": [],
       "athletesEn": [
         "CHIEN Pei-Yun",
-        "TSENG Ya-Ni",
-        "HSU Wei-Ling"
+        "HSU Wei-Ling",
+        "TSENG Ya-Ni"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -530,7 +530,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "3",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -625,10 +625,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "10.558",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 6,
       "tpeMedal": null,
       "tpenocResult": null,
