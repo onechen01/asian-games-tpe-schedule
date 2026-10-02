@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T07:04:12.069Z",
+  "generatedAt": "2026-10-02T07:16:17.832Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T07:04:11.888Z",
+      "generatedAt": "2026-10-02T07:16:17.641Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2743,7 +2743,7 @@
       "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "0",
@@ -2797,12 +2797,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "15",
+        "tpe": "16",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2846,14 +2846,14 @@
       "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2959,8 +2959,12 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
