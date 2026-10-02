@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T12:25:04.954Z",
+  "generatedAt": "2026-10-02T12:36:13.188Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T12:25:04.828Z",
+      "generatedAt": "2026-10-02T12:36:13.028Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -179,8 +179,8 @@
   "rows": [
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T06:00:00+08:00",
-      "startTimeJst": "2026-10-03T07:00:00+09:00",
+      "startTimeTaipei": "2026-10-03T05:10:00+08:00",
+      "startTimeJst": "2026-10-03T06:10:00+09:00",
       "timeNote": null,
       "estimated": false,
       "disciplineCode": "GLF",
@@ -1393,7 +1393,7 @@
   "warnings": [
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：GLF 06:00 Round 4",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 05:10 Round 4",
       "row": "GLF:W.STROKE------------.FNL-.000400--"
     },
     {
