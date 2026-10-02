@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T11:05:27.729Z",
+  "generatedAt": "2026-10-02T11:16:06.036Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T11:05:27.535Z",
+      "generatedAt": "2026-10-02T11:16:05.902Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -3579,8 +3579,12 @@
       "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
