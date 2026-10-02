@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T03:18:21.363Z",
+  "generatedAt": "2026-10-02T03:28:11.436Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T03:18:21.194Z",
+      "generatedAt": "2026-10-02T03:28:11.294Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -186,8 +186,8 @@
       "disciplineCode": "GLF",
       "sportZh": "高爾夫",
       "sportEn": "Golf",
-      "event": "Men's Individual Stroke Play",
-      "phase": "Men's Individual Stroke Play",
+      "event": "Men's Team",
+      "phase": "Men's Team",
       "unit": null,
       "athletes": [],
       "athletesEn": [],
@@ -221,7 +221,7 @@
       "matchSignals": [],
       "sources": {
         "entries": {
-          "eventId": "GLF|M.STROKE------------"
+          "eventId": "GLF|M.TEAM--------------"
         }
       }
     },

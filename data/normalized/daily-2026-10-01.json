@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T02:33:53.829Z",
+  "generatedAt": "2026-10-02T03:24:10.031Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-01/schedule-2026-10-01-AUTO.json",
-      "generatedAt": "2026-10-02T02:33:53.660Z",
+      "generatedAt": "2026-10-02T03:24:09.893Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -296,8 +296,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1849,8 +1849,8 @@
       "startTimeTaipei": "2026-10-01T11:00:00+08:00",
       "startTimeJst": "2026-10-01T12:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
+        "code": "ESTIMATED_START",
+        "clockTaipei": "11:00",
         "raw": "Starting at 12:00"
       },
       "estimated": true,
@@ -1956,8 +1956,8 @@
       "startTimeTaipei": "2026-10-01T12:00:00+08:00",
       "startTimeJst": "2026-10-01T13:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
+        "code": "ESTIMATED_START",
+        "clockTaipei": "13:00",
         "raw": "Starting at 14:00"
       },
       "estimated": true,

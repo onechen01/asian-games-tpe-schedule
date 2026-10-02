@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T03:16:24.603Z",
+  "generatedAt": "2026-10-02T03:25:54.466Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T03:16:24.419Z",
+      "generatedAt": "2026-10-02T03:25:54.324Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -342,7 +342,7 @@
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
           "result": "-5",
-          "rank": "8",
+          "rank": "10",
           "startTimeTaipei": null
         },
         {
@@ -459,13 +459,13 @@
           "name": "HSU Wei-Ling",
           "registration": "8390832",
           "result": "-4",
-          "rank": "6",
+          "rank": "5",
           "startTimeTaipei": null
         },
         {
           "name": "CHIEN Pei-Yun",
           "registration": "10587356",
-          "result": "-2",
+          "result": "-1",
           "rank": "8",
           "startTimeTaipei": null
         },
@@ -473,11 +473,11 @@
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
           "result": "-1",
-          "rank": "9",
+          "rank": "8",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "6",
+      "tpeRank": "5",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -512,8 +512,8 @@
       "athletes": [],
       "athletesEn": [
         "HSU Wei-Ling",
-        "CHIEN Pei-Yun",
-        "TSENG Ya-Ni"
+        "TSENG Ya-Ni",
+        "CHIEN Pei-Yun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -900,7 +900,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
         "opponent": "0S1",
@@ -955,7 +955,7 @@
       "locationName": "AIA Tatami 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0S2",
         "opponent": "100S2",
@@ -1010,10 +1010,10 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "0S1",
-        "opponent": "0",
+        "opponent": "10",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1085,6 +1085,57 @@
         "results": {
           "unitId": "W.O78KG-------------.QFNL.000300--",
           "id": "JUD:W.O78KG-------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "estimated": true,
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Women -78kg",
+      "phase": "Women -78 kg Repechage",
+      "unit": "Women -78 kg Repechage contest",
+      "athletes": [],
+      "athletesEn": [
+        "HSU WANG Shu-huei"
+      ],
+      "opponent": "TOKAREVA Ekaterina",
+      "opponentCode": "KAZ",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.78KG--------------.REP1.000200--",
+          "id": "JUD:W.78KG--------------.REP1.000200--"
         }
       }
     },
@@ -1232,7 +1283,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "1",
+        "tpe": "3",
         "opponent": "1",
         "source": "results"
       },
@@ -1547,8 +1598,8 @@
       "startTimeTaipei": "2026-10-02T11:30:00+08:00",
       "startTimeJst": "2026-10-02T12:30:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
+        "code": "NOT_BEFORE",
+        "clockTaipei": "15:30",
         "raw": "After Rest, NB 16:30, Court TBA"
       },
       "estimated": true,
@@ -1805,8 +1856,8 @@
       "startTimeTaipei": "2026-10-02T13:00:00+08:00",
       "startTimeJst": "2026-10-02T14:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
+        "code": "ESTIMATED_START",
+        "clockTaipei": "14:30",
         "raw": "Starting at 15:30"
       },
       "estimated": true,
@@ -1857,8 +1908,8 @@
       "startTimeTaipei": "2026-10-02T13:00:00+08:00",
       "startTimeJst": "2026-10-02T14:00:00+09:00",
       "timeNote": {
-        "code": "PENDING",
-        "clockTaipei": null,
+        "code": "ESTIMATED_START",
+        "clockTaipei": "13:30",
         "raw": "Starting at 14:30"
       },
       "estimated": true,
@@ -2366,10 +2417,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 38,
+    "resultsOnly": 39,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 54
+    "warnings": 55
   },
   "warnings": [
     {
@@ -2441,6 +2492,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women +78 kg Quarterfinal",
       "row": "JUD:W.O78KG-------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women -78 kg Repechage contest",
+      "row": "JUD:W.78KG--------------.REP1.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2569,11 +2625,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "JUD|W.78KG--------------",
-      "message": "JUD Women -78kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "JUD|M.O100KG------------",
       "message": "JUD Men +100kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2631,6 +2682,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "JUD|M.90KG--------------",
       "message": "JUD Men -90kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "JUD|W.78KG--------------",
+      "message": "JUD Women -78kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
