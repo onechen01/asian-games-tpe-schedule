@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T00:15:14.155Z",
+  "generatedAt": "2026-10-02T00:26:52.285Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T00:15:14.035Z",
+      "generatedAt": "2026-10-02T00:26:52.170Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -341,15 +341,15 @@
         {
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
-          "result": "-3",
-          "rank": "11",
+          "result": "-2",
+          "rank": "15",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-Yao",
           "registration": "905667",
           "result": "+2",
-          "rank": "25",
+          "rank": "26",
           "startTimeTaipei": null
         }
       ],
@@ -401,7 +401,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-12",
+        "tpe": "-11",
         "opponent": null,
         "source": "results"
       },
@@ -951,6 +951,53 @@
         "results": {
           "unitId": "W.78KG--------------.QFNL.000400--",
           "id": "JUD:W.78KG--------------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Final",
+      "unit": "Final 1",
+      "athletes": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY5",
+      "locationName": "Racing Area E",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 10,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.ILCA7-------------.FNL-.000100--",
+          "id": "SAL:M.ILCA7-------------.FNL-.000100--"
         }
       }
     },
@@ -1955,10 +2002,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 31,
+    "resultsOnly": 32,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 47
+    "warnings": 49
   },
   "warnings": [
     {
@@ -2020,6 +2067,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women -78 kg Quarterfinal",
       "row": "JUD:W.78KG--------------.QFNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Final 1",
+      "row": "SAL:M.ILCA7-------------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2140,6 +2192,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "JUD|M.O100KG------------",
       "message": "JUD Men +100kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "SAL|M.ILCA7-------------",
+      "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
