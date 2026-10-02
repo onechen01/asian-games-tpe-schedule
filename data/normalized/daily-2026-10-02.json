@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T23:54:52.606Z",
+  "generatedAt": "2026-10-02T00:07:44.798Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-01T23:54:52.428Z",
+      "generatedAt": "2026-10-02T00:07:44.645Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -342,14 +342,14 @@
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
           "result": "-3",
-          "rank": "12",
+          "rank": "11",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-Yao",
           "registration": "905667",
           "result": "+2",
-          "rank": "25",
+          "rank": "24",
           "startTimeTaipei": null
         }
       ],
