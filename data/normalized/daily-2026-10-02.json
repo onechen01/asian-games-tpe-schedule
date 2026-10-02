@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T04:26:33.076Z",
+  "generatedAt": "2026-10-02T04:36:08.940Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T04:26:32.918Z",
+      "generatedAt": "2026-10-02T04:36:08.796Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -335,7 +335,7 @@
           "name": "WANG Wei-Hsuan",
           "registration": "11704760",
           "result": "-11",
-          "rank": "1",
+          "rank": "2",
           "startTimeTaipei": null
         },
         {
@@ -353,7 +353,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "1",
+      "tpeRank": "2",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -465,7 +465,7 @@
         {
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
-          "result": "-1",
+          "result": "-2",
           "rank": "9",
           "startTimeTaipei": null
         },
@@ -512,8 +512,8 @@
       "athletes": [],
       "athletesEn": [
         "HSU Wei-Ling",
-        "CHIEN Pei-Yun",
-        "TSENG Ya-Ni"
+        "TSENG Ya-Ni",
+        "CHIEN Pei-Yun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -525,7 +525,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-7",
+        "tpe": "-8",
         "opponent": null,
         "source": "results"
       },
@@ -1120,7 +1120,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0S1",
         "opponent": "110",
@@ -1175,10 +1175,14 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "101",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "7",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1573,7 +1577,7 @@
       "locationName": "Gifu Prefectural Green Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
         "opponent": "1",
@@ -1732,14 +1736,14 @@
       "locationName": "Ring 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "0",
+        "tpe": "5",
         "opponent": "0",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2335,18 +2339,18 @@
       "unit": "Match 39",
       "athletes": [],
       "athletesEn": [
+        "WEN Yi-kai",
+        "JHANG Yun-liang",
+        "WANG Ping-hsun",
+        "CHEN Jie-ting",
+        "LIU Yu-lin",
+        "TSAI Pei-chang",
+        "HUANG Jheng-liang",
         "LU Chiang Yao-kai",
         "HUANG Yu-chen",
-        "CHEN Jie-ting",
-        "CHUANG Shao-chieh",
-        "TSAI Pei-chang",
         "CHANG Yu-chen",
-        "LIU Yu-lin",
-        "CHANG Yu-sheng",
-        "WANG Ping-hsun",
-        "JHANG Yun-liang",
-        "WEN Yi-kai",
-        "HUANG Jheng-liang"
+        "CHUANG Shao-chieh",
+        "CHANG Yu-sheng"
       ],
       "opponent": "Kazakhstan",
       "opponentCode": "KAZ",
@@ -2697,11 +2701,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "WRE|W.WR76KG------------",
-      "message": "WRE Women's Wrestling 76kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "CSL|M.X1----------------",
       "message": "CSL Men's Kayak Cross 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2769,6 +2768,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "WRE|W.WR50KG------------",
       "message": "WRE Women's Wrestling 50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "WRE|W.WR76KG------------",
+      "message": "WRE Women's Wrestling 76kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
