@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T04:06:37.473Z",
+  "generatedAt": "2026-10-02T04:17:04.322Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T04:06:37.291Z",
+      "generatedAt": "2026-10-02T04:17:04.168Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -342,7 +342,7 @@
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
           "result": "-7",
-          "rank": "6",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
@@ -441,8 +441,8 @@
       "athletes": [],
       "athletesEn": [
         "HSU Wei-Ling",
-        "CHIEN Pei-Yun",
-        "TSENG Ya-Ni"
+        "TSENG Ya-Ni",
+        "CHIEN Pei-Yun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -458,15 +458,8 @@
         {
           "name": "HSU Wei-Ling",
           "registration": "8390832",
-          "result": "-4",
+          "result": "-3",
           "rank": "7",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "CHIEN Pei-Yun",
-          "registration": "10587356",
-          "result": "-1",
-          "rank": "9",
           "startTimeTaipei": null
         },
         {
@@ -474,6 +467,13 @@
           "registration": "8374574",
           "result": "-1",
           "rank": "9",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHIEN Pei-Yun",
+          "registration": "10587356",
+          "result": "0",
+          "rank": "12",
           "startTimeTaipei": null
         }
       ],
@@ -512,8 +512,8 @@
       "athletes": [],
       "athletesEn": [
         "HSU Wei-Ling",
-        "CHIEN Pei-Yun",
-        "TSENG Ya-Ni"
+        "TSENG Ya-Ni",
+        "CHIEN Pei-Yun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -525,7 +525,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-8",
+        "tpe": "-7",
         "opponent": null,
         "source": "results"
       },
@@ -821,175 +821,6 @@
       "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T10:00:00+08:00",
       "startTimeJst": "2026-10-02T11:00:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Final",
-      "unit": "Final 1",
-      "athletes": [],
-      "athletesEn": [
-        "WU Tsai-chien"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "locationCode": "KY5",
-      "locationName": "Racing Area E",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
-      "result": {
-        "tpe": "9",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "9",
-      "orgCount": 10,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.ILCA7-------------.FNL-.000100--",
-          "id": "SAL:M.ILCA7-------------.FNL-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
-      "startTimeJst": "2026-10-02T11:00:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "SAL",
-      "sportZh": "帆船",
-      "sportEn": "Sailing",
-      "event": "Men's Dinghy",
-      "phase": "Final",
-      "unit": "Final 2",
-      "athletes": [],
-      "athletesEn": [
-        "WU Tsai-chien"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": "Kaiyoh Yacht Harbor",
-      "venueZh": null,
-      "locationCode": "KY5",
-      "locationName": "Racing Area E",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
-      "result": {
-        "tpe": "5",
-        "opponent": null,
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "5",
-      "orgCount": 10,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.ILCA7-------------.FNL-.000200--",
-          "id": "SAL:M.ILCA7-------------.FNL-.000200--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
-      "startTimeJst": "2026-10-02T11:00:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "SBL",
-      "sportZh": "壘球",
-      "sportEn": "Softball",
-      "event": "Softball Women",
-      "phase": "Women’s Preliminary Round",
-      "unit": "Game  26",
-      "athletes": [],
-      "athletesEn": [
-        "LIU Hsuan",
-        "CHIANG Ting-en",
-        "YEH Kuei-ping",
-        "LIN Feng-chen",
-        "SHEN Chia-wen",
-        "CHEN Chia-yi",
-        "LIN Chih-ying",
-        "LIN Chi-yun",
-        "HO Yi-fan",
-        "TU Ya-ting",
-        "CHU Yi-shan",
-        "CHEN Ching-yu",
-        "PAN Yu-ling",
-        "SU Yi-hsuan",
-        "LI Szu-shih",
-        "YANG An-chi",
-        "KE Hsia-ai"
-      ],
-      "opponent": "Republic of Korea",
-      "opponentCode": "KOR",
-      "venue": "Anjo Softball Ground",
-      "venueZh": null,
-      "locationCode": "SB1",
-      "locationName": "Anjo Softball Ground",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "11",
-        "opponent": "1",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TEAM9-------------.GP--.002600--",
-          "id": "SBL:W.TEAM9-------------.GP--.002600--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
-      "startTimeJst": "2026-10-02T11:00:00+09:00",
       "timeNote": {
         "code": "FOLLOWED_BY",
         "clockTaipei": null,
@@ -1021,7 +852,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1131,7 +962,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1289,8 +1120,12 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1360,6 +1195,175 @@
         "results": {
           "unitId": "W.O78KG-------------.REP1.000200--",
           "id": "JUD:W.O78KG-------------.REP1.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Final",
+      "unit": "Final 1",
+      "athletes": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY5",
+      "locationName": "Racing Area E",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "9",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "9",
+      "orgCount": 10,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.ILCA7-------------.FNL-.000100--",
+          "id": "SAL:M.ILCA7-------------.FNL-.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "SAL",
+      "sportZh": "帆船",
+      "sportEn": "Sailing",
+      "event": "Men's Dinghy",
+      "phase": "Final",
+      "unit": "Final 2",
+      "athletes": [],
+      "athletesEn": [
+        "WU Tsai-chien"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Kaiyoh Yacht Harbor",
+      "venueZh": null,
+      "locationCode": "KY5",
+      "locationName": "Racing Area E",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "5",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 10,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.ILCA7-------------.FNL-.000200--",
+          "id": "SAL:M.ILCA7-------------.FNL-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T10:00:00+08:00",
+      "startTimeJst": "2026-10-02T11:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "sportEn": "Softball",
+      "event": "Softball Women",
+      "phase": "Women’s Preliminary Round",
+      "unit": "Game  26",
+      "athletes": [],
+      "athletesEn": [
+        "LIU Hsuan",
+        "CHIANG Ting-en",
+        "YEH Kuei-ping",
+        "LIN Feng-chen",
+        "SHEN Chia-wen",
+        "CHEN Chia-yi",
+        "LIN Chih-ying",
+        "LIN Chi-yun",
+        "HO Yi-fan",
+        "TU Ya-ting",
+        "CHU Yi-shan",
+        "CHEN Ching-yu",
+        "PAN Yu-ling",
+        "SU Yi-hsuan",
+        "LI Szu-shih",
+        "YANG An-chi",
+        "KE Hsia-ai"
+      ],
+      "opponent": "Republic of Korea",
+      "opponentCode": "KOR",
+      "venue": "Anjo Softball Ground",
+      "venueZh": null,
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "11",
+        "opponent": "1",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM9-------------.GP--.002600--",
+          "id": "SBL:W.TEAM9-------------.GP--.002600--"
         }
       }
     },
@@ -1569,14 +1573,14 @@
       "locationName": "Gifu Prefectural Green Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "1",
         "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2479,7 +2483,7 @@
     "resultsOnly": 40,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 55
+    "warnings": 56
   },
   "warnings": [
     {
@@ -2529,21 +2533,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Final 1",
-      "row": "SAL:M.ILCA7-------------.FNL-.000100--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Final 2",
-      "row": "SAL:M.ILCA7-------------.FNL-.000200--"
-    },
-    {
-      "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  26",
-      "row": "SBL:W.TEAM9-------------.GP--.002600--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Men -90 kg Elimination Round of 16",
       "row": "JUD:M.90KG--------------.8FNL.000400--"
     },
@@ -2576,6 +2565,21 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Women +78 kg Repechage contest",
       "row": "JUD:W.O78KG-------------.REP1.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Final 1",
+      "row": "SAL:M.ILCA7-------------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SAL 10:00 Final 2",
+      "row": "SAL:M.ILCA7-------------.FNL-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 10:00 Game  26",
+      "row": "SBL:W.TEAM9-------------.GP--.002600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2681,6 +2685,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：GRY 17:00 Group All-Around Qualification",
       "row": "GRY:W.5AA---------------.QUAL.A0000100"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "WRE|W.WR50KG------------",
+      "message": "WRE Women's Wrestling 50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
