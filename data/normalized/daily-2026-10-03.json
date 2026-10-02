@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T23:04:23.446Z",
+  "generatedAt": "2026-10-02T23:15:07.043Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T23:04:23.284Z",
+      "generatedAt": "2026-10-02T23:15:06.880Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -192,8 +192,8 @@
       "athletes": [],
       "athletesEn": [
         "TSENG Ya-Ni",
-        "HSU Wei-Ling",
-        "CHIEN Pei-Yun"
+        "CHIEN Pei-Yun",
+        "HSU Wei-Ling"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -210,25 +210,25 @@
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
           "result": "-1",
-          "rank": "10",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "HSU Wei-Ling",
-          "registration": "8390832",
-          "result": "-1",
-          "rank": "10",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
           "name": "CHIEN Pei-Yun",
           "registration": "10587356",
           "result": "0",
-          "rank": "12",
+          "rank": "11",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HSU Wei-Ling",
+          "registration": "8390832",
+          "result": "0",
+          "rank": "11",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "10",
+      "tpeRank": "9",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -262,8 +262,8 @@
       "unit": "Round 4",
       "athletes": [],
       "athletesEn": [
-        "HSU Wei-Ling",
         "TSENG Ya-Ni",
+        "HSU Wei-Ling",
         "CHIEN Pei-Yun"
       ],
       "opponent": null,
@@ -276,7 +276,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-6",
+        "tpe": "-5",
         "opponent": null,
         "source": "results"
       },
