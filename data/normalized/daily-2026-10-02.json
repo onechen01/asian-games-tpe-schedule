@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T02:16:00.756Z",
+  "generatedAt": "2026-10-02T02:26:59.981Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T02:16:00.607Z",
+      "generatedAt": "2026-10-02T02:26:59.782Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -334,7 +334,7 @@
         {
           "name": "WANG Wei-Hsuan",
           "registration": "11704760",
-          "result": "-9",
+          "result": "-11",
           "rank": "1",
           "startTimeTaipei": null
         },
@@ -401,7 +401,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-12",
+        "tpe": "-14",
         "opponent": null,
         "source": "results"
       },
@@ -530,7 +530,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "3",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -727,14 +727,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
+        "tpe": "2",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "6",
       "orgCount": 13,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -779,25 +779,25 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "CHANG Chu-han",
           "registration": "4238983",
           "result": "78.38",
-          "rank": "1",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
           "name": "WU Ting-i",
           "registration": "6812784",
-          "result": null,
-          "rank": null,
+          "result": "80.51",
+          "rank": "5",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "1",
+      "tpeRank": "3",
       "orgCount": 8,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -845,14 +845,14 @@
       "locationName": "AIA Tatami 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "0",
-        "opponent": "0",
+        "tpe": "0S2",
+        "opponent": "10S1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1214,10 +1214,14 @@
       "locationName": "Izu Velodrome",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "10.540",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 5,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1341,7 +1345,7 @@
       "locationName": "Gifu Prefectural Green Stadium",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1437,7 +1441,7 @@
         "HSIEH Su-wei",
         "TSENG Chun-hsin"
       ],
-      "opponent": "SHIBAHARA Ena/FRIEND Jay",
+      "opponent": "SHIBAHARA Ena / FRIEND Jay",
       "opponentCode": "JPN",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1695,7 +1699,7 @@
         "CHAN Hao-ching",
         "WU Fang-hsien"
       ],
-      "opponent": "CHONG Eudice/WONG Hong Yi",
+      "opponent": "CHONG Eudice / WONG Hong Yi",
       "opponentCode": "HKG",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -1747,7 +1751,7 @@
         "HSIEH Su-wei",
         "LIANG En-shuo"
       ],
-      "opponent": "DANILINA Anna/PUTINTSEVA Yuliya",
+      "opponent": "DANILINA Anna / PUTINTSEVA Yuliya",
       "opponentCode": "KAZ",
       "venue": "Nagoya City Higashiyama Park Tennis Center",
       "venueZh": null,
@@ -2324,11 +2328,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "JUD|M.90KG--------------",
-      "message": "JUD Men -90kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "JUD|W.78KG--------------",
       "message": "JUD Women -78kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2344,18 +2343,23 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
+      "row": "JUD|M.90KG--------------",
+      "message": "JUD Men -90kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
       "row": "SAL|M.ILCA7-------------",
       "message": "SAL Men's Dinghy 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "WRE|W.WR76KG------------",
-      "message": "WRE Women's Wrestling 76kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "WRE|W.WR50KG------------",
+      "message": "WRE Women's Wrestling 50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "WRE|W.WR50KG------------",
-      "message": "WRE Women's Wrestling 50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "WRE|W.WR76KG------------",
+      "message": "WRE Women's Wrestling 76kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
