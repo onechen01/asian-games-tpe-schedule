@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T07:16:17.832Z",
+  "generatedAt": "2026-10-02T07:37:56.762Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T07:16:17.641Z",
+      "generatedAt": "2026-10-02T07:37:56.615Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -452,7 +452,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -523,7 +523,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "-6",
         "opponent": null,
@@ -2701,7 +2701,7 @@
       "tpeEntrants": [],
       "tpeRank": "2",
       "orgCount": 3,
-      "tpeMedal": null,
+      "tpeMedal": "ME_SILVER",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -2797,12 +2797,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "16",
+        "tpe": "-4",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "7",
       "orgCount": 11,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -2846,7 +2846,7 @@
       "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
         "opponent": "2",
@@ -2910,7 +2910,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "1",
         "opponent": "0",
         "source": "results"
       },
@@ -2959,14 +2959,14 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "2",
+        "opponent": "1",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "1",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3010,8 +3010,12 @@
       "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -3723,13 +3727,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.49KG--------------",
-      "message": "TKW Women -49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TKW|W.67KG--------------",
+      "message": "TKW Women -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.67KG--------------",
-      "message": "TKW Women -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TKW|W.49KG--------------",
+      "message": "TKW Women -49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }

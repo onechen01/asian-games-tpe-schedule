@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T07:21:37.183Z",
+  "generatedAt": "2026-10-02T07:39:53.601Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T07:21:37.001Z",
+      "generatedAt": "2026-10-02T07:39:53.472Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 6,
-          "recovered": 6,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -284,9 +284,13 @@
       "sportEn": "Golf",
       "event": "Men's Individual Stroke Play",
       "phase": "Men's Individual Stroke Play",
-      "unit": null,
+      "unit": "Round 4",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Wei-Hsuan",
+        "CHAN Shih-Chang",
+        "HUNG Chien-Yao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -295,29 +299,48 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": null,
+      "status": "START_LIST",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "WANG Wei-Hsuan",
+          "registration": "11704760",
+          "result": "-11",
+          "rank": "2",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHAN Shih-Chang",
+          "registration": "12708292",
+          "result": "-7",
+          "rank": "8",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HUNG Chien-Yao",
+          "registration": "905667",
+          "result": "+1",
+          "rank": "23",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "2",
+      "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
-      "participationState": "TPE_ENTERED",
-      "entryLevel": "event",
-      "unitCount": 1,
-      "enteredAthletes": [
-        "CHAN Shih-chang",
-        "HUNG Chien-yao",
-        "WANG Wei-hsuan"
-      ],
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
       "matchStatus": "RESULTS_ONLY",
       "matchConfidence": "none",
       "matchSignals": [],
       "sources": {
-        "entries": {
-          "eventId": "GLF|M.STROKE------------"
+        "results": {
+          "unitId": "M.STROKE------------.FNL-.000400--",
+          "id": "GLF:M.STROKE------------.FNL-.000400--"
         }
       }
     },
@@ -724,6 +747,52 @@
     },
     {
       "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T09:30:00+08:00",
+      "startTimeJst": "2026-10-03T10:30:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 57kg",
+      "phase": "Women's Wrestling 57kg Qualifications",
+      "unit": null,
+      "athletes": [],
+      "athletesEn": [],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "ISC",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": null,
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_ENTERED",
+      "entryLevel": "event",
+      "unitCount": 16,
+      "enteredAthletes": [
+        "LIAO Pei-ying"
+      ],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "entries": {
+          "eventId": "WRE|W.WR57KG------------"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T09:52:00+08:00",
       "startTimeJst": "2026-10-03T10:52:00+09:00",
       "timeNote": null,
@@ -926,12 +995,17 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 11,
+    "resultsOnly": 12,
     "entered": 4,
     "unresolvedTbd": 0,
-    "warnings": 19
+    "warnings": 20
   },
   "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GLF 06:55 Round 4",
+      "row": "GLF:M.STROKE------------.FNL-.000400--"
+    },
     {
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 08:15 Recurve Women's Individual Quarterfinal",
