@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T01:56:52.783Z",
+  "generatedAt": "2026-10-02T02:07:50.585Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T01:56:52.599Z",
+      "generatedAt": "2026-10-02T02:07:50.398Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -473,7 +473,7 @@
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
           "result": "-1",
-          "rank": "12",
+          "rank": "11",
           "startTimeTaipei": null
         }
       ],
@@ -511,8 +511,8 @@
       "unit": "Round 3",
       "athletes": [],
       "athletesEn": [
-        "CHIEN Pei-Yun",
         "HSU Wei-Ling",
+        "CHIEN Pei-Yun",
         "TSENG Ya-Ni"
       ],
       "opponent": null,
@@ -779,7 +779,7 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -1088,8 +1088,8 @@
         "LIN Feng-chen",
         "SHEN Chia-wen",
         "CHEN Chia-yi",
-        "LIN Chi-yun",
         "SU Yi-hsuan",
+        "LIN Chi-yun",
         "HO Yi-fan",
         "CHU Yi-shan",
         "CHEN Ching-yu",
@@ -1155,8 +1155,12 @@
       "locationName": "ISC  MAT C",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "4",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2337,13 +2341,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "WRE|W.WR50KG------------",
-      "message": "WRE Women's Wrestling 50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "WRE|W.WR76KG------------",
+      "message": "WRE Women's Wrestling 76kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "WRE|W.WR76KG------------",
-      "message": "WRE Women's Wrestling 76kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "WRE|W.WR50KG------------",
+      "message": "WRE Women's Wrestling 50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
