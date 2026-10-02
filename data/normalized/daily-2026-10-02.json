@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T08:35:14.461Z",
+  "generatedAt": "2026-10-02T08:46:03.584Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T08:35:14.272Z",
+      "generatedAt": "2026-10-02T08:46:03.407Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -2908,9 +2908,9 @@
       "locationName": "Park Arena Komaki",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "2",
+        "tpe": "3",
         "opponent": "1",
         "source": "results"
       },
@@ -3221,7 +3221,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "7",
+      "tpeRank": "8",
       "orgCount": 13,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3363,14 +3363,14 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -3487,6 +3487,53 @@
           "id": "TKW:W.67KG--------------.SFNL.000100--"
         }
       }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T17:48:00+08:00",
+      "startTimeJst": "2026-10-02T18:48:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Men -80kg",
+      "phase": "Men -80kg Semifinals",
+      "unit": "Men -80kg Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "HUNG Jiun-yi"
+      ],
+      "opponent": "TOLEUGALI Batyrkhan",
+      "opponentCode": "KAZ",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TK2",
+      "locationName": "Toyohashi Gymnasium Mat 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.80KG--------------.SFNL.000200--",
+          "id": "TKW:M.80KG--------------.SFNL.000200--"
+        }
+      }
     }
   ],
   "sessionChains": [],
@@ -3495,10 +3542,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 59,
+    "resultsOnly": 60,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 62
+    "warnings": 63
   },
   "warnings": [
     {
@@ -3797,9 +3844,9 @@
       "row": "TKW:W.67KG--------------.SFNL.000100--"
     },
     {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TKW|M.80KG--------------",
-      "message": "TKW Men -80kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 17:48 Men -80kg Semifinal",
+      "row": "TKW:M.80KG--------------.SFNL.000200--"
     },
     {
       "code": "PENDING_LATER_UNITS",
@@ -3810,6 +3857,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TKW|W.67KG--------------",
       "message": "TKW Women -67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|M.80KG--------------",
+      "message": "TKW Men -80kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
