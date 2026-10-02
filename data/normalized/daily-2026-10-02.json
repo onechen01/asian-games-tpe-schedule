@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T04:58:08.057Z",
+  "generatedAt": "2026-10-02T05:25:03.237Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-02/schedule-2026-10-02-AUTO.json",
-      "generatedAt": "2026-10-02T04:58:07.882Z",
+      "generatedAt": "2026-10-02T05:25:03.046Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -285,8 +285,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -328,7 +328,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -387,8 +387,8 @@
       "unit": "Round 3",
       "athletes": [],
       "athletesEn": [
-        "WANG Wei-Hsuan",
         "CHAN Shih-Chang",
+        "WANG Wei-Hsuan",
         "HUNG Chien-Yao"
       ],
       "opponent": null,
@@ -399,14 +399,14 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "-18",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "2",
+      "tpeRank": "3",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -440,9 +440,9 @@
       "unit": "Round 3",
       "athletes": [],
       "athletesEn": [
-        "HSU Wei-Ling",
         "TSENG Ya-Ni",
-        "CHIEN Pei-Yun"
+        "CHIEN Pei-Yun",
+        "HSU Wei-Ling"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -456,28 +456,28 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "HSU Wei-Ling",
-          "registration": "8390832",
-          "result": "-3",
-          "rank": "7",
-          "startTimeTaipei": null
-        },
-        {
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
           "result": "-2",
-          "rank": "9",
+          "rank": "8",
           "startTimeTaipei": null
         },
         {
           "name": "CHIEN Pei-Yun",
           "registration": "10587356",
-          "result": "0",
-          "rank": "12",
+          "result": "-1",
+          "rank": "10",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HSU Wei-Ling",
+          "registration": "8390832",
+          "result": "-1",
+          "rank": "10",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "7",
+      "tpeRank": "8",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -511,9 +511,9 @@
       "unit": "Round 3",
       "athletes": [],
       "athletesEn": [
+        "CHIEN Pei-Yun",
         "TSENG Ya-Ni",
-        "HSU Wei-Ling",
-        "CHIEN Pei-Yun"
+        "HSU Wei-Ling"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -525,7 +525,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-8",
+        "tpe": "-7",
         "opponent": null,
         "source": "results"
       },
@@ -1175,7 +1175,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "101",
@@ -1787,7 +1787,7 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": null,
@@ -1838,7 +1838,7 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
         "opponent": null,
@@ -1889,7 +1889,7 @@
       "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "0",
@@ -1940,7 +1940,7 @@
       "locationName": "Yahagigawa Canoe Slalom Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "3",
         "opponent": null,
@@ -1964,6 +1964,57 @@
         "results": {
           "unitId": "M.X1----------------.QFNL.000300--",
           "id": "CSL:M.X1----------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T12:58:00+08:00",
+      "startTimeJst": "2026-10-02T13:58:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Men's Kayak Cross",
+      "phase": "Men's Kayak Cross Quarterfinals",
+      "unit": "Men's Kayak Cross - Quarterfinals - Quarterfinal 4",
+      "athletes": [],
+      "athletesEn": [
+        "LIAO Li-hong"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "4",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "3",
+      "orgCount": 4,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.X1----------------.QFNL.000400--",
+          "id": "CSL:M.X1----------------.QFNL.000400--"
         }
       }
     },
@@ -1993,8 +2044,12 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "6",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -2041,7 +2096,7 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -2160,7 +2215,7 @@
       "locationName": "Court 5",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "GETTING_READY",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -2180,6 +2235,108 @@
         "results": {
           "unitId": "W.DOUBLES-----------.SFNL.000200--",
           "id": "TEN:W.DOUBLES-----------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:14:00+08:00",
+      "startTimeJst": "2026-10-02T14:14:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Kayak Cross",
+      "phase": "Women's Kayak Cross Semifinals",
+      "unit": "Women's Kayak Cross - Semifinals - Semifinal 1",
+      "athletes": [],
+      "athletesEn": [
+        "WU Ting-i"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 4,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.X1----------------.SFNL.000100--",
+          "id": "CSL:W.X1----------------.SFNL.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:18:00+08:00",
+      "startTimeJst": "2026-10-02T14:18:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "CSL",
+      "sportZh": "輕艇激流",
+      "sportEn": "Canoe Slalom",
+      "event": "Women's Kayak Cross",
+      "phase": "Women's Kayak Cross Semifinals",
+      "unit": "Women's Kayak Cross - Semifinals - Semifinal 2",
+      "athletes": [],
+      "athletesEn": [
+        "CHANG Chu-han"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Yahagigawa Canoe Slalom Course",
+      "venueZh": null,
+      "locationCode": "YSC",
+      "locationName": "Yahagigawa Canoe Slalom Course",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 4,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.X1----------------.SFNL.000200--",
+          "id": "CSL:W.X1----------------.SFNL.000200--"
         }
       }
     },
@@ -2290,6 +2447,55 @@
         "results": {
           "unitId": "M.INDIVID-----------.GP--.000100--",
           "id": "BKG:M.INDIVID-----------.GP--.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T13:55:00+08:00",
+      "startTimeJst": "2026-10-02T14:55:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "ARC",
+      "sportZh": "射箭",
+      "sportEn": "Archery",
+      "event": "Recurve Men's Team",
+      "phase": "Recurve Men's Team Finals",
+      "unit": "Recurve Men's Team Bronze Medal Match",
+      "athletes": [],
+      "athletesEn": [
+        "TANG Chih-Chun",
+        "LIN Zih-Siang",
+        "CHENG Hsiang-Hui"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "OCM",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.RTEAM-------------.FNL-.000200--",
+          "id": "ARC:M.RTEAM-------------.FNL-.000200--"
         }
       }
     },
@@ -2484,6 +2690,53 @@
     },
     {
       "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T14:56:00+08:00",
+      "startTimeJst": "2026-10-02T15:56:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Women -49kg",
+      "phase": "Women -49kg Quarterfinals",
+      "unit": "Women -49kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "WANG Chieh-ling"
+      ],
+      "opponent": "MANGIN Tachiana Keizha",
+      "opponentCode": "PHI",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TK1",
+      "locationName": "Toyohashi Gymnasium Mat 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.49KG--------------.QFNL.000200--",
+          "id": "TKW:W.49KG--------------.QFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
       "startTimeTaipei": "2026-10-02T15:00:00+08:00",
       "startTimeJst": "2026-10-02T16:00:00+09:00",
       "timeNote": null,
@@ -2496,18 +2749,18 @@
       "unit": "Match 39",
       "athletes": [],
       "athletesEn": [
+        "WEN Yi-kai",
+        "JHANG Yun-liang",
+        "WANG Ping-hsun",
+        "CHEN Jie-ting",
+        "LIU Yu-lin",
+        "TSAI Pei-chang",
+        "HUANG Jheng-liang",
         "LU Chiang Yao-kai",
         "HUANG Yu-chen",
-        "CHEN Jie-ting",
-        "CHUANG Shao-chieh",
-        "TSAI Pei-chang",
         "CHANG Yu-chen",
-        "LIU Yu-lin",
-        "CHANG Yu-sheng",
-        "WANG Ping-hsun",
-        "JHANG Yun-liang",
-        "WEN Yi-kai",
-        "HUANG Jheng-liang"
+        "CHUANG Shao-chieh",
+        "CHANG Yu-sheng"
       ],
       "opponent": "Kazakhstan",
       "opponentCode": "KAZ",
@@ -2645,10 +2898,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 43,
+    "resultsOnly": 48,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 56
+    "warnings": 58
   },
   "warnings": [
     {
@@ -2803,6 +3056,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 12:58 Men's Kayak Cross - Quarterfinals - Quarterfinal 4",
+      "row": "CSL:M.X1----------------.QFNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：ARC 13:00 Recurve Men's Team Semifinal",
       "row": "ARC:M.RTEAM-------------.SFNL.000100--"
     },
@@ -2823,6 +3081,16 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 13:14 Women's Kayak Cross - Semifinals - Semifinal 1",
+      "row": "CSL:W.X1----------------.SFNL.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：CSL 13:18 Women's Kayak Cross - Semifinals - Semifinal 2",
+      "row": "CSL:W.X1----------------.SFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TKW 13:30 Women -67kg Round of 16",
       "row": "TKW:W.67KG--------------.8FNL.000200--"
     },
@@ -2830,6 +3098,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:45 B-Boys Pre-Selection",
       "row": "BKG:M.INDIVID-----------.GP--.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 13:55 Recurve Men's Team Bronze Medal Match",
+      "row": "ARC:M.RTEAM-------------.FNL-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2850,6 +3123,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：CTR 14:46 Men's Madison, Final",
       "row": "CTR:M.MADISON-----------.FNL-.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 14:56 Women -49kg Quarterfinal",
+      "row": "TKW:W.49KG--------------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -2883,11 +3161,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.49KG--------------",
-      "message": "TKW Women -49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "BKG|W.INDIVID-----------",
       "message": "BKG B-Girls 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -2908,28 +3181,18 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "JUD|W.O78KG-------------",
-      "message": "JUD Women +78kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "JUD|M.O100KG------------",
-      "message": "JUD Men +100kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "BKG|M.INDIVID-----------",
       "message": "BKG B-Boys 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "CTR|W.OMNIUM------------",
-      "message": "CTR Women's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "TKW|W.49KG--------------",
+      "message": "TKW Women -49kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "WRE|W.WR50KG------------",
-      "message": "WRE Women's Wrestling 50kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "CTR|W.OMNIUM------------",
+      "message": "CTR Women's Omnium 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
