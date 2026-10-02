@@ -5127,9 +5127,9 @@
       "channelId": "545",
       "channelName": "愛爾達體育MAX6台",
       "isLive": true,
-      "title": "亞運 中華VS南韓 電競 英雄聯盟金牌戰 10/2(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
+      "title": "亞運 中華VS南韓 電競 英雄聯盟金牌戰 10/2 LIVE",
+      "feed": "main",
+      "note": null,
       "capturedAt": "2026-10-02",
       "broadcastEndTimeTaipei": "2026-10-02T15:25:00+08:00",
       "matchLevel": "unit",
@@ -5400,7 +5400,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-02",
-      "broadcastEndTimeTaipei": "2026-10-02T18:15:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T18:30:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -5428,6 +5428,28 @@
       "matchHint": {
         "phaseKeywords": [
           "Qualification"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-02T18:30:00+08:00",
+      "disciplineCode": "TKW",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 洪俊義 跆拳道 女子49/67/男子58/80公斤級金牌戰 10/2 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-02",
+      "broadcastEndTimeTaipei": "2026-10-02T20:30:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "HUNG Jiun-yi"
         ]
       }
     },
