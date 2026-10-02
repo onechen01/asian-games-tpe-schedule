@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-02T07:06:41.441Z",
+  "generatedAt": "2026-10-02T09:30:50.699Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-02T07:06:41.438Z",
+  "standingsUpdatedAt": "2026-10-02T09:30:50.696Z",
   "ledgerCounts": {
     "gold": 4,
-    "silver": 14,
+    "silver": 15,
     "bronze": 28,
-    "total": 46
+    "total": 47
   },
   "officialCounts": {
     "gold": 4,
-    "silver": 14,
+    "silver": 15,
     "bronze": 28,
-    "total": 46
+    "total": 47
   },
   "missing": {
     "gold": 0,
@@ -814,6 +814,22 @@
         "LIN Yu-ting"
       ],
       "rank": "1"
+    },
+    {
+      "awardId": "BOX|W.65KG--------------|6112606",
+      "medal": "ME_SILVER",
+      "disciplineCode": "BOX",
+      "sportZh": "拳擊",
+      "event": "Women's 65kg",
+      "phase": "Women's 65KG Final",
+      "date": "2026-10-02",
+      "startTimeTaipei": "2026-10-02T16:45:00+08:00",
+      "resultId": "BOX:W.65KG--------------.FNL-.000100--",
+      "unitId": "W.65KG--------------.FNL-.000100--",
+      "athletes": [
+        "CHEN Nien-chin"
+      ],
+      "rank": "2"
     },
     {
       "awardId": "CSL|W.X1----------------|4238983",
