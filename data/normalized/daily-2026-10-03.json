@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T11:28:53.471Z",
+  "generatedAt": "2026-10-02T11:37:49.732Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T11:28:53.307Z",
+      "generatedAt": "2026-10-02T11:37:49.614Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -1275,6 +1275,69 @@
       "startTimeJst": "2026-10-03T19:00:00+09:00",
       "timeNote": null,
       "estimated": false,
+      "disciplineCode": "GRY",
+      "sportZh": "韻律體操",
+      "sportEn": "Rhythmic Gymnastics",
+      "event": "Group All-Around",
+      "phase": "Group All-Around Final",
+      "unit": "Group All-Around Final",
+      "athletes": [],
+      "athletesEn": [
+        "LEE Yu-wen",
+        "LI Tzu-wen",
+        "CHANG Chi-yun",
+        "SUN Keng-hsin",
+        "LU Yuan-lo"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": "Nagoya City General Gymnasium [Rainbow Hall]",
+      "venueZh": null,
+      "locationCode": "GRY",
+      "locationName": "",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 1,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.5AA---------------.FNL-.A0000100",
+          "id": "GRY:W.5AA---------------.FNL-.A0000100",
+          "qualification": {
+            "kind": "previous-results-qualified",
+            "previousUnitIds": [
+              "W.5AA---------------.QUAL.A0000100"
+            ],
+            "urls": [
+              "https://back.results.asiangames2026.org/s/AG2026/en/GRY/results/W.5AA---------------.QUAL.A0000100"
+            ],
+            "rawFiles": [
+              "data/raw/2026-10-02T11-36-55-135Z-c61f36220f7f-d39fc773.json"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T18:00:00+08:00",
+      "startTimeJst": "2026-10-03T19:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
       "disciplineCode": "VVO",
       "sportZh": "排球",
       "sportEn": "Volleyball",
@@ -1334,10 +1397,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 22,
+    "resultsOnly": 23,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 34
+    "warnings": 35
   },
   "warnings": [
     {
@@ -1444,6 +1507,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:47 B-Boys Quarterfinal 2",
       "row": "BKG:M.INDIVID-----------.QFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：GRY 18:00 Group All-Around Final",
+      "row": "GRY:W.5AA---------------.FNL-.A0000100"
     },
     {
       "code": "RESULTS_ONLY",
