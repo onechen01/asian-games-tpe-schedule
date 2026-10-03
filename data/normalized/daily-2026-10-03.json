@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T07:36:12.793Z",
+  "generatedAt": "2026-10-03T08:04:42.595Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T07:36:12.633Z",
+      "generatedAt": "2026-10-03T08:04:42.458Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1408,7 +1408,7 @@
       ],
       "tpeRank": "2",
       "orgCount": 1,
-      "tpeMedal": null,
+      "tpeMedal": "ME_SILVER",
       "tpenocResult": null,
       "rank": null,
       "note": null,
