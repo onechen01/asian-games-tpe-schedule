@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T06:57:08.850Z",
+  "generatedAt": "2026-10-03T07:06:27.030Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T06:57:08.686Z",
+      "generatedAt": "2026-10-03T07:06:26.857Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1902,7 +1902,7 @@
     "resultsOnly": 31,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 37
+    "warnings": 36
   },
   "warnings": [
     {
@@ -2079,11 +2079,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BKG|W.INDIVID-----------",
       "message": "BKG B-Girls 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.O67KG-------------",
-      "message": "TKW Women +67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
