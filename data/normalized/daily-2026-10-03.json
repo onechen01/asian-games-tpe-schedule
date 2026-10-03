@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T03:06:42.070Z",
+  "generatedAt": "2026-10-03T03:15:53.969Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T03:06:41.909Z",
+      "generatedAt": "2026-10-03T03:15:53.819Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -1066,8 +1066,8 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
-        "opponent": "1",
+        "tpe": "2",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1190,6 +1190,57 @@
         "results": {
           "unitId": "W.57KG--------------.QFNL.000400--",
           "id": "TKW:W.57KG--------------.QFNL.000400--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T10:52:00+08:00",
+      "startTimeJst": "2026-10-03T11:52:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Men +80kg",
+      "phase": "Men +80kg Quarterfinals",
+      "unit": "Men +80kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "HUANG Yu-jen"
+      ],
+      "opponent": "MAVLONOV Marat",
+      "opponentCode": "UZB",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TK3",
+      "locationName": "Toyohashi Gymnasium Mat 3",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "1",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "5",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "M.O80KG-------------.QFNL.000300--",
+          "id": "TKW:M.O80KG-------------.QFNL.000300--"
         }
       }
     },
@@ -1707,10 +1758,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 28,
+    "resultsOnly": 29,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 38
+    "warnings": 39
   },
   "warnings": [
     {
@@ -1805,6 +1856,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 10:52 Men +80kg Quarterfinal",
+      "row": "TKW:M.O80KG-------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WRE 11:28 1/4 Final",
       "row": "WRE:W.WR57KG------------.QFNL.000200--"
     },
@@ -1880,16 +1936,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TKW|M.68KG--------------",
-      "message": "TKW Men -68kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.O67KG-------------",
-      "message": "TKW Women +67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "TKW|M.O80KG-------------",
       "message": "TKW Men +80kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -1902,6 +1948,16 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TKW|W.57KG--------------",
       "message": "TKW Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|M.68KG--------------",
+      "message": "TKW Men -68kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|W.O67KG-------------",
+      "message": "TKW Women +67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
