@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T00:34:59.486Z",
+  "generatedAt": "2026-10-03T00:44:37.461Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T00:34:59.341Z",
+      "generatedAt": "2026-10-03T00:44:37.303Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -210,7 +210,7 @@
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
           "result": "-2",
-          "rank": "9",
+          "rank": "10",
           "startTimeTaipei": null
         },
         {
@@ -228,7 +228,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "9",
+      "tpeRank": "10",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -263,8 +263,8 @@
       "athletes": [],
       "athletesEn": [
         "TSENG Ya-Ni",
-        "CHIEN Pei-Yun",
-        "HSU Wei-Ling"
+        "HSU Wei-Ling",
+        "CHIEN Pei-Yun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -456,7 +456,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "6",
+      "tpeRank": "7",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -500,7 +500,7 @@
       "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "0",
@@ -551,14 +551,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "1",
-        "opponent": "3",
+        "tpe": "4",
+        "opponent": "6",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "5",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -673,8 +673,12 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "3",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1000,6 +1004,53 @@
         "results": {
           "unitId": "W.WR57KG------------.8FNL.000300--",
           "id": "WRE:W.WR57KG------------.8FNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T10:16:00+08:00",
+      "startTimeJst": "2026-10-03T11:16:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Quarterfinals",
+      "unit": "Women -57kg Quarterfinal",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Wei-chun"
+      ],
+      "opponent": "KIYANICHANDEH Nahid",
+      "opponentCode": "IRI",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TK1",
+      "locationName": "Toyohashi Gymnasium Mat 1",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.57KG--------------.QFNL.000400--",
+          "id": "TKW:W.57KG--------------.QFNL.000400--"
         }
       }
     },
@@ -1423,10 +1474,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 23,
+    "resultsOnly": 24,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 34
+    "warnings": 35
   },
   "warnings": [
     {
@@ -1506,6 +1557,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 10:16 Women -57kg Quarterfinal",
+      "row": "TKW:W.57KG--------------.QFNL.000400--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TEN 11:30 Women's Doubles Finals Gold Medal Match",
       "row": "TEN:W.DOUBLES-----------.FNL-.000100--"
     },
@@ -1561,11 +1617,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.57KG--------------",
-      "message": "TKW Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "TKW|M.68KG--------------",
       "message": "TKW Men -68kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -1588,6 +1639,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "ARC|M.RINDIVID----------",
       "message": "ARC Recurve Men's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|W.57KG--------------",
+      "message": "TKW Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
