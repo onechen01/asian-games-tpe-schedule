@@ -4989,7 +4989,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-03",
-      "broadcastEndTimeTaipei": "2026-10-02T13:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T13:30:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
@@ -5020,7 +5020,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-03",
-      "broadcastEndTimeTaipei": "2026-10-02T13:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T14:30:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
@@ -5073,7 +5073,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-03",
-      "broadcastEndTimeTaipei": "2026-10-02T13:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T13:18:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
@@ -5316,7 +5316,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-02T13:00:00+08:00",
+      "broadcastStartTimeTaipei": "2026-10-02T13:18:00+08:00",
       "disciplineCode": "GLF",
       "channelId": "110",
       "channelName": "愛爾達體育3台",
@@ -5445,7 +5445,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-03",
-      "broadcastEndTimeTaipei": "2026-10-02T20:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-02T20:43:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
