@@ -5543,28 +5543,6 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T07:55:00+08:00",
-      "disciplineCode": "JJI",
-      "channelId": "543",
-      "channelName": "愛爾達體育MAX4台",
-      "isLive": true,
-      "title": "亞運 沈玉沁 柔術 女子63公斤級預賽/複賽 10/3(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-10-03",
-      "broadcastEndTimeTaipei": "2026-10-03T10:45:00+08:00",
-      "matchLevel": "unit",
-      "matchHint": {
-        "athleteNames": [
-          "SHEN Yu-chin"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-03T08:00:00+08:00",
       "disciplineCode": "GLF",
       "channelId": "101",
@@ -5598,6 +5576,28 @@
             "eventFamily": "TEAM",
             "roundNumber": 4
           }
+        ]
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T08:00:00+08:00",
+      "disciplineCode": "JJI",
+      "channelId": "543",
+      "channelName": "愛爾達體育MAX4台",
+      "isLive": true,
+      "title": "亞運 沈玉沁 柔術 女子63公斤級預賽/複賽 10/3(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-10-03",
+      "broadcastEndTimeTaipei": "2026-10-03T10:45:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "SHEN Yu-chin"
         ]
       }
     },
@@ -5757,7 +5757,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-03",
-      "broadcastEndTimeTaipei": "2026-10-03T16:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T16:38:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
@@ -5814,7 +5814,7 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T17:15:00+08:00",
+      "broadcastStartTimeTaipei": "2026-10-03T17:18:00+08:00",
       "disciplineCode": "GLF",
       "channelId": "545",
       "channelName": "愛爾達體育MAX6台",
@@ -5823,7 +5823,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-03",
-      "broadcastEndTimeTaipei": "2026-10-03T19:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T18:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {}
     },
