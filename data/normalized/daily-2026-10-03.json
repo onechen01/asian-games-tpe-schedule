@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T07:06:27.030Z",
+  "generatedAt": "2026-10-03T07:14:21.828Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T07:06:26.857Z",
+      "generatedAt": "2026-10-03T07:14:21.666Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -327,13 +327,13 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "WANG Wei-Hsuan",
           "registration": "11704760",
-          "result": "-10",
+          "result": "-11",
           "rank": "5",
           "startTimeTaipei": null
         },
@@ -386,9 +386,9 @@
       "unit": "Round 4",
       "athletes": [],
       "athletesEn": [
-        "WANG Wei-Hsuan",
         "HUNG Chien-Yao",
-        "CHAN Shih-Chang"
+        "CHAN Shih-Chang",
+        "WANG Wei-Hsuan"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -398,7 +398,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "-22",
         "opponent": null,
