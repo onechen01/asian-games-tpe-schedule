@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T00:44:37.461Z",
+  "generatedAt": "2026-10-03T00:55:30.379Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T00:44:37.303Z",
+      "generatedAt": "2026-10-03T00:55:30.215Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -209,8 +209,8 @@
         {
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
-          "result": "-2",
-          "rank": "10",
+          "result": "-3",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
@@ -223,12 +223,12 @@
         {
           "name": "HSU Wei-Ling",
           "registration": "8390832",
-          "result": "+1",
-          "rank": "13",
+          "result": "+2",
+          "rank": "14",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "10",
+      "tpeRank": "7",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -263,8 +263,8 @@
       "athletes": [],
       "athletesEn": [
         "TSENG Ya-Ni",
-        "HSU Wei-Ling",
-        "CHIEN Pei-Yun"
+        "CHIEN Pei-Yun",
+        "HSU Wei-Ling"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -276,7 +276,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-7",
+        "tpe": "-8",
         "opponent": null,
         "source": "results"
       },
@@ -610,7 +610,7 @@
         {
           "name": "CHEN Hung-Shen",
           "registration": "8058786",
-          "result": null,
+          "result": "0",
           "rank": null,
           "startTimeTaipei": null
         },
@@ -724,10 +724,14 @@
       "locationName": "Toyohashi Gymnasium Mat 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -854,6 +858,53 @@
         "results": {
           "unitId": "W.O67KG-------------.8FNL.000600--",
           "id": "TKW:W.O67KG-------------.8FNL.000600--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T09:31:00+08:00",
+      "startTimeJst": "2026-10-03T10:31:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "JJI",
+      "sportZh": "柔術",
+      "sportEn": "Jiu Jitsu",
+      "event": "Women -63kg",
+      "phase": "Women -63kg Elimination Round of 16",
+      "unit": "Women -63kg Elimination Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "SHEN Yu-chin"
+      ],
+      "opponent": "ISHAKAT Maya",
+      "opponentCode": "JOR",
+      "venue": "Aichi Prefectural Martial Arts Hall",
+      "venueZh": null,
+      "locationCode": "JJ2",
+      "locationName": "Aichi Prefectural Martial Arts Hall Mat 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.63KG--------------.8FNL.000700--",
+          "id": "JJI:W.63KG--------------.8FNL.000700--"
         }
       }
     },
@@ -1474,10 +1525,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 24,
+    "resultsOnly": 25,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 35
+    "warnings": 36
   },
   "warnings": [
     {
@@ -1539,6 +1590,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TKW 09:00 Women +67kg Round of 16",
       "row": "TKW:W.O67KG-------------.8FNL.000600--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JJI 09:31 Women -63kg Elimination Round of 16",
+      "row": "JJI:W.63KG--------------.8FNL.000700--"
     },
     {
       "code": "RESULTS_ONLY",
