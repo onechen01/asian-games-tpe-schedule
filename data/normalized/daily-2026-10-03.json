@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T23:45:23.507Z",
+  "generatedAt": "2026-10-03T00:05:34.073Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-02T23:45:23.351Z",
+      "generatedAt": "2026-10-03T00:05:33.906Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -191,8 +191,8 @@
       "unit": "Round 4",
       "athletes": [],
       "athletesEn": [
-        "TSENG Ya-Ni",
         "CHIEN Pei-Yun",
+        "TSENG Ya-Ni",
         "HSU Wei-Ling"
       ],
       "opponent": null,
@@ -207,15 +207,15 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "TSENG Ya-Ni",
-          "registration": "8374574",
-          "result": "-1",
-          "rank": "9",
+          "name": "CHIEN Pei-Yun",
+          "registration": "10587356",
+          "result": "0",
+          "rank": "11",
           "startTimeTaipei": null
         },
         {
-          "name": "CHIEN Pei-Yun",
-          "registration": "10587356",
+          "name": "TSENG Ya-Ni",
+          "registration": "8374574",
           "result": "0",
           "rank": "11",
           "startTimeTaipei": null
@@ -228,7 +228,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "9",
+      "tpeRank": "11",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -263,8 +263,8 @@
       "athletes": [],
       "athletesEn": [
         "TSENG Ya-Ni",
-        "HSU Wei-Ling",
-        "CHIEN Pei-Yun"
+        "CHIEN Pei-Yun",
+        "HSU Wei-Ling"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -276,12 +276,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-5",
+        "tpe": "-4",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "5",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -405,7 +405,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -592,7 +592,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [
         {
@@ -744,7 +744,25 @@
       "phase": "Women’s Finals",
       "unit": "Bronze Medal",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "YEH Kuei-ping",
+        "LIN Feng-chen",
+        "LIU Hsuan",
+        "LI Szu-shih",
+        "SHEN Chia-wen",
+        "CHEN Chia-yi",
+        "CHIANG Ting-en",
+        "LIN Chih-ying",
+        "HO Yi-fan",
+        "KE Hsia-ai",
+        "LIN Chi-yun",
+        "SU Yi-hsuan",
+        "TU Ya-ting",
+        "PAN Yu-ling",
+        "CHU Yi-shan",
+        "CHEN Ching-yu",
+        "YANG An-chi"
+      ],
       "opponent": "Philippines",
       "opponentCode": "PHI",
       "venue": "Anjo Softball Ground",
