@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T05:41:44.245Z",
+  "generatedAt": "2026-10-03T05:54:15.480Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T05:41:44.075Z",
+      "generatedAt": "2026-10-03T05:54:15.338Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -341,7 +341,7 @@
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
           "result": "-8",
-          "rank": "7",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
@@ -757,57 +757,6 @@
       "startTimeJst": "2026-10-03T10:00:00+09:00",
       "timeNote": null,
       "estimated": false,
-      "disciplineCode": "TKW",
-      "sportZh": "跆拳道",
-      "sportEn": "Taekwondo",
-      "event": "Women +67kg",
-      "phase": "Women +67kg Round of 16",
-      "unit": "Women +67kg Round of 16",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Yi-chen"
-      ],
-      "opponent": "AHMADI Fatemeh",
-      "opponentCode": "IRI",
-      "venue": "Toyohashi Gymnasium",
-      "venueZh": null,
-      "locationCode": "TK3",
-      "locationName": "Toyohashi Gymnasium Mat 3",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "OFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "2",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": "9",
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.O67KG-------------.8FNL.000600--",
-          "id": "TKW:W.O67KG-------------.8FNL.000600--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T09:00:00+08:00",
-      "startTimeJst": "2026-10-03T10:00:00+09:00",
-      "timeNote": null,
-      "estimated": false,
       "disciplineCode": "SBL",
       "sportZh": "壘球",
       "sportEn": "Softball",
@@ -866,6 +815,57 @@
         "results": {
           "unitId": "W.TEAM9-------------.FNL-.000200--",
           "id": "SBL:W.TEAM9-------------.FNL-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T09:00:00+08:00",
+      "startTimeJst": "2026-10-03T10:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Women +67kg",
+      "phase": "Women +67kg Round of 16",
+      "unit": "Women +67kg Round of 16",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yi-chen"
+      ],
+      "opponent": "AHMADI Fatemeh",
+      "opponentCode": "IRI",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TK3",
+      "locationName": "Toyohashi Gymnasium Mat 3",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "9",
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.O67KG-------------.8FNL.000600--",
+          "id": "TKW:W.O67KG-------------.8FNL.000600--"
         }
       }
     },
@@ -1394,7 +1394,7 @@
         {
           "name": "CHAN Hao-ching/WU Fang-hsien",
           "registration": "TENWDOUBLES----TPE02",
-          "result": "0",
+          "result": "1",
           "rank": null,
           "startTimeTaipei": null
         },
@@ -1603,7 +1603,7 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "2",
@@ -1654,7 +1654,7 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "2",
@@ -1705,8 +1705,12 @@
       "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1752,8 +1756,12 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1949,13 +1957,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TKW 09:00 Women +67kg Round of 16",
-      "row": "TKW:W.O67KG-------------.8FNL.000600--"
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Bronze Medal",
+      "row": "SBL:W.TEAM9-------------.FNL-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Bronze Medal",
-      "row": "SBL:W.TEAM9-------------.FNL-.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 09:00 Women +67kg Round of 16",
+      "row": "TKW:W.O67KG-------------.8FNL.000600--"
     },
     {
       "code": "RESULTS_ONLY",
