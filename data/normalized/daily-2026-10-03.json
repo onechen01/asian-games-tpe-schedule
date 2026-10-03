@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T00:55:30.379Z",
+  "generatedAt": "2026-10-03T01:06:10.296Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T00:55:30.215Z",
+      "generatedAt": "2026-10-03T01:06:10.153Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -210,13 +210,13 @@
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
           "result": "-3",
-          "rank": "7",
+          "rank": "8",
           "startTimeTaipei": null
         },
         {
           "name": "CHIEN Pei-Yun",
           "registration": "10587356",
-          "result": "-1",
+          "result": "0",
           "rank": "11",
           "startTimeTaipei": null
         },
@@ -228,7 +228,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "7",
+      "tpeRank": "8",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -276,7 +276,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-8",
+        "tpe": "-7",
         "opponent": null,
         "source": "results"
       },
@@ -673,7 +673,7 @@
       "locationName": "Aichi Prefectural Martial Arts Hall Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "3",
         "opponent": "0",
@@ -724,14 +724,10 @@
       "locationName": "Toyohashi Gymnasium Mat 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
-      "result": {
-        "tpe": "0",
-        "opponent": "1",
-        "source": "results"
-      },
+      "status": "START_LIST",
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "9",
+      "tpeRank": null,
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -791,8 +787,12 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -838,10 +838,14 @@
       "locationName": "Toyohashi Gymnasium Mat 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1673,11 +1677,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TKW|M.68KG--------------",
-      "message": "TKW Men -68kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "TKW|W.O67KG-------------",
       "message": "TKW Women +67kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -1705,6 +1704,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BKG|M.INDIVID-----------",
       "message": "BKG B-Boys 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|M.68KG--------------",
+      "message": "TKW Men -68kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
