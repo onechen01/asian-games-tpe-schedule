@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T01:06:10.296Z",
+  "generatedAt": "2026-10-03T01:17:16.415Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T01:06:10.153Z",
+      "generatedAt": "2026-10-03T01:17:16.252Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -209,14 +209,14 @@
         {
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
-          "result": "-3",
-          "rank": "8",
+          "result": "-4",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "CHIEN Pei-Yun",
           "registration": "10587356",
-          "result": "0",
+          "result": "-1",
           "rank": "11",
           "startTimeTaipei": null
         },
@@ -224,11 +224,11 @@
           "name": "HSU Wei-Ling",
           "registration": "8390832",
           "result": "+2",
-          "rank": "14",
+          "rank": "13",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "8",
+      "tpeRank": "6",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -276,12 +276,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-7",
+        "tpe": "-9",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "4",
+      "tpeRank": "3",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -348,7 +348,7 @@
           "name": "HUNG Chien-Yao",
           "registration": "905667",
           "result": "+1",
-          "rank": "23",
+          "rank": "24",
           "startTimeTaipei": null
         }
       ],
@@ -724,10 +724,14 @@
       "locationName": "Toyohashi Gymnasium Mat 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "2",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "9",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -789,7 +793,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "0",
+        "tpe": "2",
         "opponent": "0",
         "source": "results"
       },
@@ -838,7 +842,7 @@
       "locationName": "Toyohashi Gymnasium Mat 3",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "2",
