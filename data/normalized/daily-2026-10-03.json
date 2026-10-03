@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T02:35:50.458Z",
+  "generatedAt": "2026-10-03T02:45:31.237Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T02:35:50.292Z",
+      "generatedAt": "2026-10-03T02:45:31.065Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -209,8 +209,8 @@
         {
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
-          "result": "-3",
-          "rank": "10",
+          "result": "-4",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
@@ -228,7 +228,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "10",
+      "tpeRank": "9",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -263,8 +263,8 @@
       "athletes": [],
       "athletesEn": [
         "TSENG Ya-Ni",
-        "HSU Wei-Ling",
-        "CHIEN Pei-Yun"
+        "CHIEN Pei-Yun",
+        "HSU Wei-Ling"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -276,7 +276,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-9",
+        "tpe": "-10",
         "opponent": null,
         "source": "results"
       },
@@ -334,25 +334,25 @@
           "name": "WANG Wei-Hsuan",
           "registration": "11704760",
           "result": "-11",
-          "rank": "3",
+          "rank": "4",
           "startTimeTaipei": null
         },
         {
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
           "result": "-8",
-          "rank": "5",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-Yao",
           "registration": "905667",
-          "result": "+2",
-          "rank": "26",
+          "result": "+1",
+          "rank": "25",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -611,14 +611,14 @@
           "name": "CHEN Hung-Shen",
           "registration": "8058786",
           "result": "4",
-          "rank": "9",
+          "rank": "11",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yu-Lung",
           "registration": "10428682",
           "result": "4",
-          "rank": "7",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
@@ -629,7 +629,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "9",
+      "tpeRank": "11",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1002,7 +1002,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "4",
         "opponent": "0",
@@ -1162,7 +1162,7 @@
       "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "2",
         "opponent": "1",
@@ -1542,6 +1542,53 @@
     },
     {
       "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T13:44:00+08:00",
+      "startTimeJst": "2026-10-03T14:44:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "sportEn": "Taekwondo",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Semifinals",
+      "unit": "Women -57kg Semifinal",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Wei-chun"
+      ],
+      "opponent": "ZHANG Chuling",
+      "opponentCode": "CHN",
+      "venue": "Toyohashi Gymnasium",
+      "venueZh": null,
+      "locationCode": "TK2",
+      "locationName": "Toyohashi Gymnasium Mat 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.57KG--------------.SFNL.000200--",
+          "id": "TKW:W.57KG--------------.SFNL.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T13:47:20+08:00",
       "startTimeJst": "2026-10-03T14:47:20+09:00",
       "timeNote": null,
@@ -1703,10 +1750,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 28,
+    "resultsOnly": 29,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 38
+    "warnings": 39
   },
   "warnings": [
     {
@@ -1836,6 +1883,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 13:44 Women -57kg Semifinal",
+      "row": "TKW:W.57KG--------------.SFNL.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：BKG 13:47 B-Boys Quarterfinal 2",
       "row": "BKG:M.INDIVID-----------.QFNL.000200--"
     },
@@ -1871,11 +1923,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.57KG--------------",
-      "message": "TKW Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "BKG|M.INDIVID-----------",
       "message": "BKG B-Boys 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -1898,6 +1945,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BKG|W.INDIVID-----------",
       "message": "BKG B-Girls 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "TKW|W.57KG--------------",
+      "message": "TKW Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
