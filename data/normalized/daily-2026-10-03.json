@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T03:46:24.415Z",
+  "generatedAt": "2026-10-03T03:56:28.125Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T03:46:24.247Z",
+      "generatedAt": "2026-10-03T03:56:27.958Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -203,7 +203,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -274,7 +274,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "-10",
         "opponent": null,
@@ -347,8 +347,8 @@
         {
           "name": "HUNG Chien-Yao",
           "registration": "905667",
-          "result": "0",
-          "rank": "23",
+          "result": "-1",
+          "rank": "19",
           "startTimeTaipei": null
         }
       ],
@@ -400,7 +400,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-21",
+        "tpe": "-22",
         "opponent": null,
         "source": "results"
       },
@@ -1126,8 +1126,12 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "3",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1493,7 +1497,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1769,18 +1773,18 @@
       "unit": "9th-10th Place - Match 44",
       "athletes": [],
       "athletesEn": [
+        "WEN Yi-kai",
+        "JHANG Yun-liang",
+        "WANG Ping-hsun",
+        "CHEN Jie-ting",
+        "LIU Yu-lin",
+        "TSAI Pei-chang",
+        "HUANG Jheng-liang",
         "LU Chiang Yao-kai",
         "HUANG Yu-chen",
-        "CHEN Jie-ting",
-        "CHUANG Shao-chieh",
-        "TSAI Pei-chang",
         "CHANG Yu-chen",
-        "LIU Yu-lin",
-        "CHANG Yu-sheng",
-        "WANG Ping-hsun",
-        "JHANG Yun-liang",
-        "WEN Yi-kai",
-        "HUANG Jheng-liang"
+        "CHUANG Shao-chieh",
+        "CHANG Yu-sheng"
       ],
       "opponent": "Vietnam",
       "opponentCode": "VIE",
@@ -1823,7 +1827,7 @@
     "resultsOnly": 30,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 40
+    "warnings": 41
   },
   "warnings": [
     {
@@ -2015,6 +2019,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TKW|M.68KG--------------",
       "message": "TKW Men -68kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "GLF|W.STROKE------------",
+      "message": "GLF Women's Individual Stroke Play 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
