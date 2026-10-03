@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-03T06:05:40.968Z",
+  "generatedAt": "2026-10-03T06:57:10.944Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-03T06:05:40.966Z",
+  "standingsUpdatedAt": "2026-10-03T06:57:10.943Z",
   "ledgerCounts": {
     "gold": 5,
     "silver": 17,
-    "bronze": 32,
-    "total": 54
+    "bronze": 33,
+    "total": 55
   },
   "officialCounts": {
     "gold": 5,
     "silver": 17,
-    "bronze": 32,
-    "total": 54
+    "bronze": 33,
+    "total": 55
   },
   "missing": {
     "gold": 0,
@@ -932,6 +932,38 @@
         "CHIEN Pei-yun",
         "TSENG Ya-ni",
         "HSU Wei-ling"
+      ],
+      "rank": "3"
+    },
+    {
+      "awardId": "SBL|W.TEAM9-------------|SBLWTEAM9------TPE01",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "event": "Softball Women",
+      "phase": "Women’s Finals",
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T09:00:00+08:00",
+      "resultId": "SBL:W.TEAM9-------------.FNL-.000200--",
+      "unitId": "W.TEAM9-------------.FNL-.000200--",
+      "athletes": [
+        "LI Szu-shih",
+        "YANG An-chi",
+        "KE Hsia-ai",
+        "LIN Chi-yun",
+        "LIN Chih-ying",
+        "HO Yi-fan",
+        "SHEN Chia-wen",
+        "LIU Hsuan",
+        "SU Yi-hsuan",
+        "LIN Feng-chen",
+        "CHIANG Ting-en",
+        "TU Ya-ting",
+        "CHEN Chia-yi",
+        "PAN Yu-ling",
+        "CHU Yi-shan",
+        "CHEN Ching-yu",
+        "YEH Kuei-ping"
       ],
       "rank": "3"
     },
