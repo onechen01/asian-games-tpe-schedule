@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T04:45:50.507Z",
+  "generatedAt": "2026-10-03T04:53:29.219Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T04:45:50.339Z",
+      "generatedAt": "2026-10-03T04:53:29.052Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -348,7 +348,7 @@
           "name": "HUNG Chien-Yao",
           "registration": "905667",
           "result": "-2",
-          "rank": "18",
+          "rank": "17",
           "startTimeTaipei": null
         }
       ],
@@ -1126,7 +1126,7 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "0",
         "opponent": "4",
@@ -1401,7 +1401,7 @@
         {
           "name": "HSIEH Su-wei/LIANG En-shuo",
           "registration": "TENWDOUBLES----TPE01",
-          "result": "0",
+          "result": "1",
           "rank": null,
           "startTimeTaipei": null
         }
@@ -1501,8 +1501,12 @@
       "locationName": "ISC  MAT A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "",
+        "opponent": "",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1882,7 +1886,7 @@
     "resultsOnly": 31,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 40
+    "warnings": 41
   },
   "warnings": [
     {
@@ -2084,6 +2088,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TKW|M.O80KG-------------",
       "message": "TKW Men +80kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "WRE|W.WR57KG------------",
+      "message": "WRE Women's Wrestling 57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
