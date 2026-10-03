@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T00:05:34.073Z",
+  "generatedAt": "2026-10-03T00:16:50.595Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T00:05:33.906Z",
+      "generatedAt": "2026-10-03T00:16:50.465Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 1,
-          "recovered": 1,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -209,15 +209,15 @@
         {
           "name": "CHIEN Pei-Yun",
           "registration": "10587356",
-          "result": "0",
-          "rank": "11",
+          "result": "-1",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
           "name": "TSENG Ya-Ni",
           "registration": "8374574",
           "result": "0",
-          "rank": "11",
+          "rank": "12",
           "startTimeTaipei": null
         },
         {
@@ -228,7 +228,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "11",
+      "tpeRank": "9",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -263,8 +263,8 @@
       "athletes": [],
       "athletesEn": [
         "TSENG Ya-Ni",
-        "CHIEN Pei-Yun",
-        "HSU Wei-Ling"
+        "HSU Wei-Ling",
+        "CHIEN Pei-Yun"
       ],
       "opponent": null,
       "opponentCode": null,
@@ -276,12 +276,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-4",
+        "tpe": "-5",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "5",
+      "tpeRank": "4",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -449,8 +449,12 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -592,7 +596,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
+      "status": "RUNNING",
       "result": null,
       "tpeEntrants": [
         {
@@ -771,7 +775,7 @@
       "locationName": "Anjo Softball Ground",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [],
       "tpeRank": null,
@@ -1534,13 +1538,13 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "JJI|W.63KG--------------",
-      "message": "JJI Women -63kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "ARC|W.RINDIVID----------",
+      "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "ARC|W.RINDIVID----------",
-      "message": "ARC Recurve Women's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+      "row": "JJI|W.63KG--------------",
+      "message": "JJI Women -63kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
