@@ -5628,55 +5628,6 @@
       "providerId": "elta",
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
-      "broadcastStartTimeTaipei": "2026-10-03T09:25:00+08:00",
-      "disciplineCode": "WRE",
-      "channelId": "542",
-      "channelName": "愛爾達體育MAX3台",
-      "isLive": true,
-      "title": "亞運 廖佩穎 角力 女子53/57/男子自由式57/74/97公斤級預賽/複賽 10/3(原音) LIVE",
-      "feed": "original",
-      "note": "原音",
-      "capturedAt": "2026-10-03",
-      "broadcastEndTimeTaipei": "2026-10-03T13:00:00+08:00",
-      "matchLevel": "discipline",
-      "matchHint": {
-        "athleteNames": [
-          "LIAO Pei-ying"
-        ],
-        "sessionScopes": [
-          {
-            "gender": "WOMEN",
-            "weightKg": 53,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "WOMEN",
-            "weightKg": 57,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 57,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 74,
-            "stage": "ELIMINATION_SESSION"
-          },
-          {
-            "gender": "MEN",
-            "weightKg": 97,
-            "stage": "ELIMINATION_SESSION"
-          }
-        ]
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "providerId": "elta",
-      "providerName": "愛爾達",
-      "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-03T09:55:00+08:00",
       "disciplineCode": "JUD",
       "channelId": "545",
@@ -5733,6 +5684,24 @@
           "Final"
         ]
       }
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T11:52:00+08:00",
+      "disciplineCode": "TEN",
+      "channelId": "115",
+      "channelName": "愛爾達體育4台",
+      "isLive": true,
+      "title": "亞運 中華隊 網球 女雙金牌戰  (愛爾達自製轉播) 10/3 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-03",
+      "broadcastEndTimeTaipei": "2026-10-03T14:07:00+08:00",
+      "matchLevel": "discipline",
+      "matchHint": {}
     },
     {
       "date": "2026-10-03",
@@ -5802,6 +5771,28 @@
       "providerName": "愛爾達",
       "sourceUrl": "https://eltaott.tv/asg2026/",
       "broadcastStartTimeTaipei": "2026-10-03T13:25:00+08:00",
+      "disciplineCode": "TKW",
+      "channelId": "547",
+      "channelName": "愛爾達體育MAX8台",
+      "isLive": true,
+      "title": "亞運 林唯均 跆拳道 女子57/67公斤以上/男子68/80公斤以上級四強/金牌戰 10/3 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-03",
+      "broadcastEndTimeTaipei": "2026-10-03T17:00:00+08:00",
+      "matchLevel": "unit",
+      "matchHint": {
+        "athleteNames": [
+          "LIN Wei-chun"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-03T14:07:00+08:00",
       "disciplineCode": "TKW",
       "channelId": "115",
       "channelName": "愛爾達體育4台",
