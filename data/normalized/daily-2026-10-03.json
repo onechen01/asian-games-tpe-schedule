@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T04:53:29.219Z",
+  "generatedAt": "2026-10-03T05:04:51.470Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T04:53:29.052Z",
+      "generatedAt": "2026-10-03T05:04:51.361Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -203,7 +203,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -274,7 +274,7 @@
       "locationName": "Kasugai Country Club East Course",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "-10",
         "opponent": null,
@@ -283,7 +283,7 @@
       "tpeEntrants": [],
       "tpeRank": "3",
       "orgCount": 9,
-      "tpeMedal": null,
+      "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -348,7 +348,7 @@
           "name": "HUNG Chien-Yao",
           "registration": "905667",
           "result": "-2",
-          "rank": "17",
+          "rank": "19",
           "startTimeTaipei": null
         }
       ],
@@ -1457,7 +1457,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "7",
+      "tpeRank": "8",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1501,10 +1501,10 @@
       "locationName": "ISC  MAT A",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "2",
+        "opponent": "5",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1554,12 +1554,12 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "",
+        "tpe": "5",
         "opponent": null,
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
