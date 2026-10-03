@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T04:24:49.521Z",
+  "generatedAt": "2026-10-03T04:37:25.988Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T04:24:49.362Z",
+      "generatedAt": "2026-10-03T04:37:25.827Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -340,7 +340,7 @@
         {
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
-          "result": "-9",
+          "result": "-8",
           "rank": "6",
           "startTimeTaipei": null
         },
@@ -348,7 +348,7 @@
           "name": "HUNG Chien-Yao",
           "registration": "905667",
           "result": "-2",
-          "rank": "17",
+          "rank": "18",
           "startTimeTaipei": null
         }
       ],
@@ -400,7 +400,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-23",
+        "tpe": "-22",
         "opponent": null,
         "source": "results"
       },
@@ -1450,10 +1450,14 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "6",
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "7",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
