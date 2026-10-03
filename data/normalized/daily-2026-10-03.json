@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T02:16:42.679Z",
+  "generatedAt": "2026-10-03T02:35:50.458Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T02:16:42.514Z",
+      "generatedAt": "2026-10-03T02:35:50.292Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 1,
+          "recovered": 1,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -191,8 +191,8 @@
       "unit": "Round 4",
       "athletes": [],
       "athletesEn": [
-        "CHIEN Pei-Yun",
         "TSENG Ya-Ni",
+        "CHIEN Pei-Yun",
         "HSU Wei-Ling"
       ],
       "opponent": null,
@@ -207,17 +207,17 @@
       "result": null,
       "tpeEntrants": [
         {
-          "name": "CHIEN Pei-Yun",
-          "registration": "10587356",
+          "name": "TSENG Ya-Ni",
+          "registration": "8374574",
           "result": "-3",
           "rank": "10",
           "startTimeTaipei": null
         },
         {
-          "name": "TSENG Ya-Ni",
-          "registration": "8374574",
-          "result": "-3",
-          "rank": "10",
+          "name": "CHIEN Pei-Yun",
+          "registration": "10587356",
+          "result": "-2",
+          "rank": "11",
           "startTimeTaipei": null
         },
         {
@@ -276,7 +276,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-10",
+        "tpe": "-9",
         "opponent": null,
         "source": "results"
       },
@@ -334,7 +334,7 @@
           "name": "WANG Wei-Hsuan",
           "registration": "11704760",
           "result": "-11",
-          "rank": "2",
+          "rank": "3",
           "startTimeTaipei": null
         },
         {
@@ -348,11 +348,11 @@
           "name": "HUNG Chien-Yao",
           "registration": "905667",
           "result": "+2",
-          "rank": "27",
+          "rank": "26",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "2",
+      "tpeRank": "3",
       "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -611,14 +611,14 @@
           "name": "CHEN Hung-Shen",
           "registration": "8058786",
           "result": "4",
-          "rank": "7",
+          "rank": "9",
           "startTimeTaipei": null
         },
         {
           "name": "CHEN Yu-Lung",
           "registration": "10428682",
           "result": "4",
-          "rank": "5",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
@@ -629,7 +629,7 @@
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": "7",
+      "tpeRank": "9",
       "orgCount": 14,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -757,6 +757,73 @@
       "startTimeJst": "2026-10-03T10:00:00+09:00",
       "timeNote": null,
       "estimated": false,
+      "disciplineCode": "SBL",
+      "sportZh": "壘球",
+      "sportEn": "Softball",
+      "event": "Softball Women",
+      "phase": "Women’s Finals",
+      "unit": "Bronze Medal",
+      "athletes": [],
+      "athletesEn": [
+        "YEH Kuei-ping",
+        "LIN Feng-chen",
+        "LIU Hsuan",
+        "LI Szu-shih",
+        "YANG An-chi",
+        "SHEN Chia-wen",
+        "CHEN Chia-yi",
+        "CHIANG Ting-en",
+        "LIN Chih-ying",
+        "HO Yi-fan",
+        "LIN Chi-yun",
+        "TU Ya-ting",
+        "KE Hsia-ai",
+        "PAN Yu-ling",
+        "CHU Yi-shan",
+        "CHEN Ching-yu",
+        "SU Yi-hsuan"
+      ],
+      "opponent": "Philippines",
+      "opponentCode": "PHI",
+      "venue": "Anjo Softball Ground",
+      "venueZh": null,
+      "locationCode": "SB1",
+      "locationName": "Anjo Softball Ground",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "12",
+        "opponent": "2",
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.TEAM9-------------.FNL-.000200--",
+          "id": "SBL:W.TEAM9-------------.FNL-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T09:00:00+08:00",
+      "startTimeJst": "2026-10-03T10:00:00+09:00",
+      "timeNote": null,
+      "estimated": false,
       "disciplineCode": "TKW",
       "sportZh": "跆拳道",
       "sportEn": "Taekwondo",
@@ -799,73 +866,6 @@
         "results": {
           "unitId": "W.O67KG-------------.8FNL.000600--",
           "id": "TKW:W.O67KG-------------.8FNL.000600--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T09:00:00+08:00",
-      "startTimeJst": "2026-10-03T10:00:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "SBL",
-      "sportZh": "壘球",
-      "sportEn": "Softball",
-      "event": "Softball Women",
-      "phase": "Women’s Finals",
-      "unit": "Bronze Medal",
-      "athletes": [],
-      "athletesEn": [
-        "YEH Kuei-ping",
-        "LIN Feng-chen",
-        "LIU Hsuan",
-        "LI Szu-shih",
-        "YANG An-chi",
-        "SHEN Chia-wen",
-        "CHEN Chia-yi",
-        "CHIANG Ting-en",
-        "LIN Chih-ying",
-        "HO Yi-fan",
-        "LIN Chi-yun",
-        "TU Ya-ting",
-        "KE Hsia-ai",
-        "PAN Yu-ling",
-        "CHU Yi-shan",
-        "CHEN Ching-yu",
-        "SU Yi-hsuan"
-      ],
-      "opponent": "Philippines",
-      "opponentCode": "PHI",
-      "venue": "Anjo Softball Ground",
-      "venueZh": null,
-      "locationCode": "SB1",
-      "locationName": "Anjo Softball Ground",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "RUNNING",
-      "result": {
-        "tpe": "12",
-        "opponent": "2",
-        "source": "results"
-      },
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "W.TEAM9-------------.FNL-.000200--",
-          "id": "SBL:W.TEAM9-------------.FNL-.000200--"
         }
       }
     },
@@ -1111,8 +1111,12 @@
       "locationName": "ISC  MAT C",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "10",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1158,8 +1162,12 @@
       "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "2",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1225,6 +1233,53 @@
         "results": {
           "unitId": "M.O80KG-------------.QFNL.000300--",
           "id": "TKW:M.O80KG-------------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T11:28:00+08:00",
+      "startTimeJst": "2026-10-03T12:28:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 57kg",
+      "phase": "Women's Wrestling 57kg 1/4 Finals",
+      "unit": "1/4 Final",
+      "athletes": [],
+      "athletesEn": [
+        "LIAO Pei-ying"
+      ],
+      "opponent": "HONG Kexin",
+      "opponentCode": "CHN",
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "IS3",
+      "locationName": "ISC  MAT C",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.WR57KG------------.QFNL.000200--",
+          "id": "WRE:W.WR57KG------------.QFNL.000200--"
         }
       }
     },
@@ -1648,7 +1703,7 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 27,
+    "resultsOnly": 28,
     "entered": 0,
     "unresolvedTbd": 0,
     "warnings": 38
@@ -1706,13 +1761,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TKW 09:00 Women +67kg Round of 16",
-      "row": "TKW:W.O67KG-------------.8FNL.000600--"
+      "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Bronze Medal",
+      "row": "SBL:W.TEAM9-------------.FNL-.000200--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：SBL 09:00 Bronze Medal",
-      "row": "SBL:W.TEAM9-------------.FNL-.000200--"
+      "message": "Results 確認 TPE 但中華奧會未列出：TKW 09:00 Women +67kg Round of 16",
+      "row": "TKW:W.O67KG-------------.8FNL.000600--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1748,6 +1803,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：TKW 10:52 Men +80kg Quarterfinal",
       "row": "TKW:M.O80KG-------------.QFNL.000300--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WRE 11:28 1/4 Final",
+      "row": "WRE:W.WR57KG------------.QFNL.000200--"
     },
     {
       "code": "RESULTS_ONLY",
@@ -1798,11 +1858,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "JUD|X.TEAM6-------------",
       "message": "JUD Mixed Team 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "JJI|W.63KG--------------",
-      "message": "JJI Women -63kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",
