@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T01:46:42.528Z",
+  "generatedAt": "2026-10-03T01:57:00.078Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T01:46:42.352Z",
+      "generatedAt": "2026-10-03T01:56:59.964Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -223,7 +223,7 @@
         {
           "name": "HSU Wei-Ling",
           "registration": "8390832",
-          "result": "0",
+          "result": "-1",
           "rank": "12",
           "startTimeTaipei": null
         }
@@ -281,7 +281,7 @@
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": "3",
+      "tpeRank": "4",
       "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -341,14 +341,14 @@
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
           "result": "-8",
-          "rank": "5",
+          "rank": "6",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-Yao",
           "registration": "905667",
-          "result": "+2",
-          "rank": "27",
+          "result": "+1",
+          "rank": "25",
           "startTimeTaipei": null
         }
       ],
@@ -400,7 +400,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-18",
+        "tpe": "-19",
         "opponent": null,
         "source": "results"
       },
@@ -774,8 +774,8 @@
         "CHIANG Ting-en",
         "LIN Chih-ying",
         "HO Yi-fan",
-        "KE Hsia-ai",
         "LIN Chi-yun",
+        "KE Hsia-ai",
         "SU Yi-hsuan",
         "TU Ya-ting",
         "PAN Yu-ling",
@@ -793,7 +793,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "8",
+        "tpe": "12",
         "opponent": "0",
         "source": "results"
       },
@@ -944,8 +944,12 @@
       "locationName": "Toyohashi Gymnasium Mat 1",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "1",
+        "opponent": "0",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
