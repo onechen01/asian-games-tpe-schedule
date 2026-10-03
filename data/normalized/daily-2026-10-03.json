@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T02:45:31.237Z",
+  "generatedAt": "2026-10-03T03:06:42.070Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T02:45:31.065Z",
+      "generatedAt": "2026-10-03T03:06:41.909Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -223,8 +223,8 @@
         {
           "name": "HSU Wei-Ling",
           "registration": "8390832",
-          "result": "-1",
-          "rank": "12",
+          "result": "-2",
+          "rank": "11",
           "startTimeTaipei": null
         }
       ],
@@ -341,14 +341,14 @@
           "name": "CHAN Shih-Chang",
           "registration": "12708292",
           "result": "-8",
-          "rank": "6",
+          "rank": "7",
           "startTimeTaipei": null
         },
         {
           "name": "HUNG Chien-Yao",
           "registration": "905667",
-          "result": "+1",
-          "rank": "25",
+          "result": "0",
+          "rank": "22",
           "startTimeTaipei": null
         }
       ],
@@ -400,7 +400,7 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": {
-        "tpe": "-19",
+        "tpe": "-20",
         "opponent": null,
         "source": "results"
       },
@@ -604,7 +604,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -624,8 +624,8 @@
         {
           "name": "WANG Chong-Hao",
           "registration": "8119286",
-          "result": null,
-          "rank": null,
+          "result": "8",
+          "rank": "14",
           "startTimeTaipei": null
         }
       ],
@@ -1064,8 +1064,12 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "RUNNING",
+      "result": {
+        "tpe": "0",
+        "opponent": "1",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1191,53 +1195,6 @@
     },
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T10:52:00+08:00",
-      "startTimeJst": "2026-10-03T11:52:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "TKW",
-      "sportZh": "跆拳道",
-      "sportEn": "Taekwondo",
-      "event": "Men +80kg",
-      "phase": "Men +80kg Quarterfinals",
-      "unit": "Men +80kg Quarterfinal",
-      "athletes": [],
-      "athletesEn": [
-        "HUANG Yu-jen"
-      ],
-      "opponent": "MAVLONOV Marat",
-      "opponentCode": "UZB",
-      "venue": "Toyohashi Gymnasium",
-      "venueZh": null,
-      "locationCode": "TK3",
-      "locationName": "Toyohashi Gymnasium Mat 3",
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 2,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "M.O80KG-------------.QFNL.000300--",
-          "id": "TKW:M.O80KG-------------.QFNL.000300--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T11:28:00+08:00",
       "startTimeJst": "2026-10-03T12:28:00+09:00",
       "timeNote": null,
@@ -1354,53 +1311,6 @@
     },
     {
       "date": "2026-10-03",
-      "startTimeTaipei": "2026-10-03T11:45:00+08:00",
-      "startTimeJst": "2026-10-03T12:45:00+09:00",
-      "timeNote": null,
-      "estimated": false,
-      "disciplineCode": "EQU",
-      "sportZh": "馬術",
-      "sportEn": "Equestrian",
-      "event": "Jumping,Individual Competition B(heights of up to 1.55m)",
-      "phase": "Jumping Final",
-      "unit": "Jumping Ind B (up to 1.55m) 1st Round",
-      "athletes": [],
-      "athletesEn": [
-        "LIN Yun-Chi"
-      ],
-      "opponent": null,
-      "opponentCode": null,
-      "venue": null,
-      "venueZh": null,
-      "locationCode": "EQP",
-      "locationName": null,
-      "courtSessionChainId": null,
-      "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
-      "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 10,
-      "tpeMedal": null,
-      "tpenocResult": null,
-      "rank": null,
-      "note": null,
-      "participationState": "TPE_CONFIRMED",
-      "entryLevel": "unit",
-      "unitCount": null,
-      "enteredAthletes": [],
-      "matchStatus": "RESULTS_ONLY",
-      "matchConfidence": "none",
-      "matchSignals": [],
-      "sources": {
-        "results": {
-          "unitId": "O.JUMPINDVCOMB------.FNL-.000100--",
-          "id": "EQU:O.JUMPINDVCOMB------.FNL-.000100--"
-        }
-      }
-    },
-    {
-      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T12:30:00+08:00",
       "startTimeJst": "2026-10-03T13:30:00+09:00",
       "timeNote": null,
@@ -1443,6 +1353,53 @@
         "results": {
           "unitId": "M.RINDIVID----------.QFNL.000300--",
           "id": "ARC:M.RINDIVID----------.QFNL.000300--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T12:40:00+08:00",
+      "startTimeJst": "2026-10-03T13:40:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "EQU",
+      "sportZh": "馬術",
+      "sportEn": "Equestrian",
+      "event": "Jumping,Individual Competition B(heights of up to 1.55m)",
+      "phase": "Jumping Final",
+      "unit": "Jumping Ind B (up to 1.55m) 1st Round",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yun-Chi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "EQP",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "SCHEDULED",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 10,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.JUMPINDVCOMB------.FNL-.000100--",
+          "id": "EQU:O.JUMPINDVCOMB------.FNL-.000100--"
         }
       }
     },
@@ -1750,10 +1707,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 29,
+    "resultsOnly": 28,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 39
+    "warnings": 38
   },
   "warnings": [
     {
@@ -1848,11 +1805,6 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：TKW 10:52 Men +80kg Quarterfinal",
-      "row": "TKW:M.O80KG-------------.QFNL.000300--"
-    },
-    {
-      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：WRE 11:28 1/4 Final",
       "row": "WRE:W.WR57KG------------.QFNL.000200--"
     },
@@ -1863,13 +1815,13 @@
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：EQU 11:45 Jumping Ind B (up to 1.55m) 1st Round",
-      "row": "EQU:O.JUMPINDVCOMB------.FNL-.000100--"
+      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:30 Recurve Men's Individual Quarterfinal",
+      "row": "ARC:M.RINDIVID----------.QFNL.000300--"
     },
     {
       "code": "RESULTS_ONLY",
-      "message": "Results 確認 TPE 但中華奧會未列出：ARC 12:30 Recurve Men's Individual Quarterfinal",
-      "row": "ARC:M.RINDIVID----------.QFNL.000300--"
+      "message": "Results 確認 TPE 但中華奧會未列出：EQU 12:40 Jumping Ind B (up to 1.55m) 1st Round",
+      "row": "EQU:O.JUMPINDVCOMB------.FNL-.000100--"
     },
     {
       "code": "RESULTS_ONLY",
