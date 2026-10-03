@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-03T06:57:10.944Z",
+  "generatedAt": "2026-10-03T08:36:44.100Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-03T06:57:10.943Z",
+  "standingsUpdatedAt": "2026-10-03T08:36:44.100Z",
   "ledgerCounts": {
     "gold": 5,
     "silver": 17,
@@ -933,7 +933,7 @@
         "TSENG Ya-ni",
         "HSU Wei-ling"
       ],
-      "rank": "3"
+      "rank": null
     },
     {
       "awardId": "SBL|W.TEAM9-------------|SBLWTEAM9------TPE01",

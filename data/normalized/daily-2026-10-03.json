@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T08:04:42.595Z",
+  "generatedAt": "2026-10-03T08:36:42.427Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T08:04:42.458Z",
+      "generatedAt": "2026-10-03T08:36:42.262Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 0,
-          "recovered": 0,
+          "initialMissing": 2,
+          "recovered": 2,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -190,11 +190,7 @@
       "phase": "Women's Individual Stroke Play",
       "unit": "Round 4",
       "athletes": [],
-      "athletesEn": [
-        "TSENG Ya-Ni",
-        "CHIEN Pei-Yun",
-        "HSU Wei-Ling"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -205,31 +201,9 @@
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "TSENG Ya-Ni",
-          "registration": "8374574",
-          "result": "-4",
-          "rank": "9",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "CHIEN Pei-Yun",
-          "registration": "10587356",
-          "result": "-2",
-          "rank": "11",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "HSU Wei-Ling",
-          "registration": "8390832",
-          "result": "-2",
-          "rank": "11",
-          "startTimeTaipei": null
-        }
-      ],
-      "tpeRank": "9",
-      "orgCount": 10,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -261,11 +235,7 @@
       "phase": "Women's Team",
       "unit": "Round 4",
       "athletes": [],
-      "athletesEn": [
-        "CHIEN Pei-Yun",
-        "TSENG Ya-Ni",
-        "HSU Wei-Ling"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -275,15 +245,11 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "OFFICIAL",
-      "result": {
-        "tpe": "-10",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "3",
-      "orgCount": 9,
-      "tpeMedal": "ME_BRONZE",
+      "tpeRank": null,
+      "orgCount": 0,
+      "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -314,11 +280,7 @@
       "phase": "Men's Individual Stroke Play",
       "unit": "Round 4",
       "athletes": [],
-      "athletesEn": [
-        "WANG Wei-Hsuan",
-        "CHAN Shih-Chang",
-        "HUNG Chien-Yao"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -329,31 +291,9 @@
       "courtPredecessorUnitId": null,
       "status": "UNOFFICIAL",
       "result": null,
-      "tpeEntrants": [
-        {
-          "name": "WANG Wei-Hsuan",
-          "registration": "11704760",
-          "result": "-11",
-          "rank": "5",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "CHAN Shih-Chang",
-          "registration": "12708292",
-          "result": "-8",
-          "rank": "8",
-          "startTimeTaipei": null
-        },
-        {
-          "name": "HUNG Chien-Yao",
-          "registration": "905667",
-          "result": "-2",
-          "rank": "17",
-          "startTimeTaipei": null
-        }
-      ],
-      "tpeRank": "5",
-      "orgCount": 17,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -385,11 +325,7 @@
       "phase": "Men's Team",
       "unit": "Round 4",
       "athletes": [],
-      "athletesEn": [
-        "HUNG Chien-Yao",
-        "CHAN Shih-Chang",
-        "WANG Wei-Hsuan"
-      ],
+      "athletesEn": [],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -399,14 +335,10 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "UNOFFICIAL",
-      "result": {
-        "tpe": "-22",
-        "opponent": null,
-        "source": "results"
-      },
+      "result": null,
       "tpeEntrants": [],
-      "tpeRank": "4",
-      "orgCount": 12,
+      "tpeRank": null,
+      "orgCount": 0,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
