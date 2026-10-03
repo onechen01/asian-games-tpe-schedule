@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T04:14:25.058Z",
+  "generatedAt": "2026-10-03T04:24:49.521Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T04:14:24.961Z",
+      "generatedAt": "2026-10-03T04:24:49.362Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -160,8 +160,8 @@
         "missing": [],
         "timezoneAnomalies": [],
         "recovery": {
-          "initialMissing": 2,
-          "recovered": 2,
+          "initialMissing": 0,
+          "recovered": 0,
           "remaining": 0
         },
         "unrecoveredTimezone": 0,
@@ -190,7 +190,11 @@
       "phase": "Women's Individual Stroke Play",
       "unit": "Round 4",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "TSENG Ya-Ni",
+        "CHIEN Pei-Yun",
+        "HSU Wei-Ling"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -201,9 +205,31 @@
       "courtPredecessorUnitId": null,
       "status": "UNOFFICIAL",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "TSENG Ya-Ni",
+          "registration": "8374574",
+          "result": "-4",
+          "rank": "9",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHIEN Pei-Yun",
+          "registration": "10587356",
+          "result": "-2",
+          "rank": "11",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HSU Wei-Ling",
+          "registration": "8390832",
+          "result": "-2",
+          "rank": "11",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "9",
+      "orgCount": 10,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -235,7 +261,11 @@
       "phase": "Women's Team",
       "unit": "Round 4",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "CHIEN Pei-Yun",
+        "TSENG Ya-Ni",
+        "HSU Wei-Ling"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -245,10 +275,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "UNOFFICIAL",
-      "result": null,
+      "result": {
+        "tpe": "-10",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "3",
+      "orgCount": 9,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -280,7 +314,11 @@
       "phase": "Men's Individual Stroke Play",
       "unit": "Round 4",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Wei-Hsuan",
+        "CHAN Shih-Chang",
+        "HUNG Chien-Yao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -291,9 +329,31 @@
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
       "result": null,
-      "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeEntrants": [
+        {
+          "name": "WANG Wei-Hsuan",
+          "registration": "11704760",
+          "result": "-11",
+          "rank": "5",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHAN Shih-Chang",
+          "registration": "12708292",
+          "result": "-9",
+          "rank": "6",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "HUNG Chien-Yao",
+          "registration": "905667",
+          "result": "-2",
+          "rank": "17",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "5",
+      "orgCount": 17,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -325,7 +385,11 @@
       "phase": "Men's Team",
       "unit": "Round 4",
       "athletes": [],
-      "athletesEn": [],
+      "athletesEn": [
+        "WANG Wei-Hsuan",
+        "CHAN Shih-Chang",
+        "HUNG Chien-Yao"
+      ],
       "opponent": null,
       "opponentCode": null,
       "venue": "Kasugai Country Club East Course",
@@ -335,10 +399,14 @@
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
       "status": "RUNNING",
-      "result": null,
+      "result": {
+        "tpe": "-23",
+        "opponent": null,
+        "source": "results"
+      },
       "tpeEntrants": [],
-      "tpeRank": null,
-      "orgCount": 0,
+      "tpeRank": "3",
+      "orgCount": 12,
       "tpeMedal": null,
       "tpenocResult": null,
       "rank": null,
@@ -1407,6 +1475,53 @@
     },
     {
       "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T12:30:00+08:00",
+      "startTimeJst": "2026-10-03T13:30:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "WRE",
+      "sportZh": "角力",
+      "sportEn": "Wrestling",
+      "event": "Women's Wrestling 57kg",
+      "phase": "Women's Wrestling 57kg Repechage",
+      "unit": "Repechage",
+      "athletes": [],
+      "athletesEn": [
+        "LIAO Pei-ying"
+      ],
+      "opponent": "PORUTHOTAGE Nethmi Ahinsa Fernando",
+      "opponentCode": "SRI",
+      "venue": "Nagoya City Inae Sports Center",
+      "venueZh": null,
+      "locationCode": "IS1",
+      "locationName": "ISC  MAT A",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "W.WR57KG------------.REP2.000100--",
+          "id": "WRE:W.WR57KG------------.REP2.000100--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
       "startTimeTaipei": "2026-10-03T12:40:00+08:00",
       "startTimeJst": "2026-10-03T13:40:00+09:00",
       "timeNote": null,
@@ -1756,10 +1871,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 30,
+    "resultsOnly": 31,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 40
+    "warnings": 41
   },
   "warnings": [
     {
@@ -1879,6 +1994,11 @@
     },
     {
       "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：WRE 12:30 Repechage",
+      "row": "WRE:W.WR57KG------------.REP2.000100--"
+    },
+    {
+      "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：EQU 12:40 Jumping Ind B (up to 1.55m) 1st Round",
       "row": "EQU:O.JUMPINDVCOMB------.FNL-.000100--"
     },
@@ -1919,11 +2039,6 @@
     },
     {
       "code": "PENDING_LATER_UNITS",
-      "row": "WRE|W.WR57KG------------",
-      "message": "WRE Women's Wrestling 57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
       "row": "ARC|M.RINDIVID----------",
       "message": "ARC Recurve Men's Individual 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
@@ -1961,6 +2076,11 @@
       "code": "PENDING_LATER_UNITS",
       "row": "TKW|M.O80KG-------------",
       "message": "TKW Men +80kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
+    },
+    {
+      "code": "PENDING_LATER_UNITS",
+      "row": "WRE|W.WR57KG------------",
+      "message": "WRE Women's Wrestling 57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
   ]
 }
