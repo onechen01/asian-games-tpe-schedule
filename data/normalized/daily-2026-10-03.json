@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T05:54:15.480Z",
+  "generatedAt": "2026-10-03T06:05:39.317Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T05:54:15.338Z",
+      "generatedAt": "2026-10-03T06:05:39.210Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -333,7 +333,7 @@
         {
           "name": "WANG Wei-Hsuan",
           "registration": "11704760",
-          "result": "-10",
+          "result": "-11",
           "rank": "5",
           "startTimeTaipei": null
         },
@@ -1388,25 +1388,25 @@
       "locationName": "Center Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
           "name": "CHAN Hao-ching/WU Fang-hsien",
           "registration": "TENWDOUBLES----TPE02",
           "result": "1",
-          "rank": null,
+          "rank": "2",
           "startTimeTaipei": null
         },
         {
           "name": "HSIEH Su-wei/LIANG En-shuo",
           "registration": "TENWDOUBLES----TPE01",
-          "result": "1",
-          "rank": null,
+          "result": "2",
+          "rank": "1",
           "startTimeTaipei": null
         }
       ],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 1,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1705,16 +1705,16 @@
       "locationName": "Toyohashi Gymnasium Mat 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "OFFICIAL",
       "result": {
         "tpe": "1",
-        "opponent": "1",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "3",
       "orgCount": 2,
-      "tpeMedal": null,
+      "tpeMedal": "ME_BRONZE",
       "tpenocResult": null,
       "rank": null,
       "note": null,
@@ -1756,14 +1756,14 @@
       "locationName": "Aichi Sky Expo Hall F",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
-        "tpe": "",
-        "opponent": "",
+        "tpe": "0",
+        "opponent": "2",
         "source": "results"
       },
       "tpeEntrants": [],
-      "tpeRank": null,
+      "tpeRank": "2",
       "orgCount": 2,
       "tpeMedal": null,
       "tpenocResult": null,
@@ -1902,7 +1902,7 @@
     "resultsOnly": 31,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 39
+    "warnings": 38
   },
   "warnings": [
     {
@@ -2079,11 +2079,6 @@
       "code": "PENDING_LATER_UNITS",
       "row": "BKG|W.INDIVID-----------",
       "message": "BKG B-Girls 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
-    },
-    {
-      "code": "PENDING_LATER_UNITS",
-      "row": "TKW|W.57KG--------------",
-      "message": "TKW Women -57kg 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     },
     {
       "code": "PENDING_LATER_UNITS",

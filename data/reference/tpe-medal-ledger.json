@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-03T05:04:53.257Z",
+  "generatedAt": "2026-10-03T06:05:40.968Z",
   "completeness": "complete",
   "standingsVerified": true,
-  "standingsUpdatedAt": "2026-10-03T05:04:53.257Z",
+  "standingsUpdatedAt": "2026-10-03T06:05:40.966Z",
   "ledgerCounts": {
-    "gold": 4,
-    "silver": 16,
-    "bronze": 31,
-    "total": 51
+    "gold": 5,
+    "silver": 17,
+    "bronze": 32,
+    "total": 54
   },
   "officialCounts": {
-    "gold": 4,
-    "silver": 16,
-    "bronze": 31,
-    "total": 51
+    "gold": 5,
+    "silver": 17,
+    "bronze": 32,
+    "total": 54
   },
   "missing": {
     "gold": 0,
@@ -932,6 +932,56 @@
         "CHIEN Pei-yun",
         "TSENG Ya-ni",
         "HSU Wei-ling"
+      ],
+      "rank": "3"
+    },
+    {
+      "awardId": "TEN|W.DOUBLES-----------|TENWDOUBLES----TPE01",
+      "medal": "ME_GOLD",
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Finals",
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T11:30:00+08:00",
+      "resultId": "TEN:W.DOUBLES-----------.FNL-.000100--",
+      "unitId": "W.DOUBLES-----------.FNL-.000100--",
+      "athletes": [
+        "HSIEH Su-wei",
+        "LIANG En-shuo"
+      ],
+      "rank": "1"
+    },
+    {
+      "awardId": "TEN|W.DOUBLES-----------|TENWDOUBLES----TPE02",
+      "medal": "ME_SILVER",
+      "disciplineCode": "TEN",
+      "sportZh": "網球",
+      "event": "Women's Doubles",
+      "phase": "Women's Doubles Finals",
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T11:30:00+08:00",
+      "resultId": "TEN:W.DOUBLES-----------.FNL-.000100--",
+      "unitId": "W.DOUBLES-----------.FNL-.000100--",
+      "athletes": [
+        "CHAN Hao-ching",
+        "WU Fang-hsien"
+      ],
+      "rank": "2"
+    },
+    {
+      "awardId": "TKW|W.57KG--------------|10187608",
+      "medal": "ME_BRONZE",
+      "disciplineCode": "TKW",
+      "sportZh": "跆拳道",
+      "event": "Women -57kg",
+      "phase": "Women -57kg Semifinals",
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T13:44:00+08:00",
+      "resultId": "TKW:W.57KG--------------.SFNL.000200--",
+      "unitId": "W.57KG--------------.SFNL.000200--",
+      "athletes": [
+        "LIN Wei-chun"
       ],
       "rank": "3"
     }
