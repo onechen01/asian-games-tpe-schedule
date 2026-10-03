@@ -5903,15 +5903,16 @@
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 中華隊 馬術 障礙超越個人決賽A組第2輪 10/4(原音) LIVE",
+      "title": "亞運 陳御龍/陳紘紳 馬術 障礙超越個人決賽A組第2輪 10/4(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-03",
       "broadcastEndTimeTaipei": "2026-10-04T10:00:00+08:00",
-      "matchLevel": "discipline",
+      "matchLevel": "unit",
       "matchHint": {
-        "phaseKeywords": [
-          "Final"
+        "athleteNames": [
+          "CHEN Yu-lung",
+          "CHEN Hung-shen"
         ]
       }
     },
@@ -5925,15 +5926,15 @@
       "channelId": "541",
       "channelName": "愛爾達體育MAX2台",
       "isLive": true,
-      "title": "亞運 中華隊 馬術 障礙超越個人決賽B組第2輪 10/4(原音) LIVE",
+      "title": "亞運 林筠淇 馬術 障礙超越個人決賽B組第2輪 10/4(原音) LIVE",
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-03",
       "broadcastEndTimeTaipei": "2026-10-04T12:30:00+08:00",
-      "matchLevel": "discipline",
+      "matchLevel": "unit",
       "matchHint": {
-        "phaseKeywords": [
-          "Final"
+        "athleteNames": [
+          "LIN Yun-chi"
         ]
       }
     },
@@ -5947,15 +5948,16 @@
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": false,
-      "title": "亞運 中華隊 馬術 障礙超越個人決賽A組第2輪 10/4 D-LIVE",
+      "title": "亞運 陳御龍/陳紘紳 馬術 障礙超越個人決賽A組第2輪 10/4 D-LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-03",
       "broadcastEndTimeTaipei": "2026-10-04T12:15:00+08:00",
-      "matchLevel": "discipline",
+      "matchLevel": "unit",
       "matchHint": {
-        "phaseKeywords": [
-          "Final"
+        "athleteNames": [
+          "CHEN Yu-lung",
+          "CHEN Hung-shen"
         ]
       }
     },
@@ -5969,15 +5971,15 @@
       "channelId": "101",
       "channelName": "愛爾達體育1台",
       "isLive": false,
-      "title": "亞運 中華隊 馬術 障礙超越個人決賽B組第2輪 10/4 D-LIVE",
+      "title": "亞運 林筠淇 馬術 障礙超越個人決賽B組第2輪 10/4 D-LIVE",
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-03",
       "broadcastEndTimeTaipei": "2026-10-04T15:00:00+08:00",
-      "matchLevel": "discipline",
+      "matchLevel": "unit",
       "matchHint": {
-        "phaseKeywords": [
-          "Final"
+        "athleteNames": [
+          "LIN Yun-chi"
         ]
       }
     }
