@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T03:15:53.969Z",
+  "generatedAt": "2026-10-03T03:24:40.143Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-03T03:15:53.819Z",
+      "generatedAt": "2026-10-03T03:24:39.978Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -262,8 +262,8 @@
       "unit": "Round 4",
       "athletes": [],
       "athletesEn": [
-        "TSENG Ya-Ni",
         "CHIEN Pei-Yun",
+        "TSENG Ya-Ni",
         "HSU Wei-Ling"
       ],
       "opponent": null,
@@ -348,7 +348,7 @@
           "name": "HUNG Chien-Yao",
           "registration": "905667",
           "result": "0",
-          "rank": "22",
+          "rank": "21",
           "startTimeTaipei": null
         }
       ],
@@ -604,7 +604,7 @@
       "locationName": null,
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "UNOFFICIAL",
+      "status": "OFFICIAL",
       "result": null,
       "tpeEntrants": [
         {
@@ -1064,10 +1064,10 @@
       "locationName": "AIA Tatami 2",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "RUNNING",
+      "status": "UNOFFICIAL",
       "result": {
         "tpe": "2",
-        "opponent": "2",
+        "opponent": "4",
         "source": "results"
       },
       "tpeEntrants": [],
@@ -1088,6 +1088,64 @@
         "results": {
           "unitId": "X.TEAM6-------------.QFNL.00030000",
           "id": "JUD:X.TEAM6-------------.QFNL.00030000"
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "startTimeTaipei": "2026-10-03T10:00:00+08:00",
+      "startTimeJst": "2026-10-03T11:00:00+09:00",
+      "timeNote": {
+        "code": "FOLLOWED_BY",
+        "clockTaipei": null,
+        "raw": "Followed by"
+      },
+      "estimated": true,
+      "disciplineCode": "JUD",
+      "sportZh": "柔道",
+      "sportEn": "Judo",
+      "event": "Mixed Team",
+      "phase": "Mixed Team Repechage",
+      "unit": "Mixed Team Repechage",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Chong-you",
+        "CHEN Peng-yu",
+        "DAI You-ming",
+        "LIU Tzu-yun",
+        "YUAN Pei-chun",
+        "LIAO Yu-jung",
+        "HSU WANG Shu-huei",
+        "CHANG Ling-fang"
+      ],
+      "opponent": "Uzbekistan",
+      "opponentCode": "UZB",
+      "venue": "Aichi International Arena",
+      "venueZh": null,
+      "locationCode": "JUD2",
+      "locationName": "AIA Tatami 2",
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "START_LIST",
+      "result": null,
+      "tpeEntrants": [],
+      "tpeRank": null,
+      "orgCount": 2,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "X.TEAM6-------------.REP1.00020000",
+          "id": "JUD:X.TEAM6-------------.REP1.00020000"
         }
       }
     },
@@ -1268,8 +1326,12 @@
       "locationName": "ISC  MAT C",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "START_LIST",
-      "result": null,
+      "status": "UNOFFICIAL",
+      "result": {
+        "tpe": "0",
+        "opponent": "10",
+        "source": "results"
+      },
       "tpeEntrants": [],
       "tpeRank": null,
       "orgCount": 2,
@@ -1322,7 +1384,7 @@
       "locationName": "Center Court",
       "courtSessionChainId": null,
       "courtPredecessorUnitId": null,
-      "status": "SCHEDULED",
+      "status": "START_LIST",
       "result": null,
       "tpeEntrants": [
         {
@@ -1758,10 +1820,10 @@
   "summary": {
     "matched": 0,
     "tpenocOnly": 0,
-    "resultsOnly": 29,
+    "resultsOnly": 30,
     "entered": 0,
     "unresolvedTbd": 0,
-    "warnings": 39
+    "warnings": 40
   },
   "warnings": [
     {
@@ -1843,6 +1905,11 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Mixed Team Quarterfinal",
       "row": "JUD:X.TEAM6-------------.QFNL.00030000"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：JUD 10:00 Mixed Team Repechage",
+      "row": "JUD:X.TEAM6-------------.REP1.00020000"
     },
     {
       "code": "RESULTS_ONLY",
