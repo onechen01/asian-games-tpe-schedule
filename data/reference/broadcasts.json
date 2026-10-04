@@ -5467,7 +5467,7 @@
       "feed": "original",
       "note": "原音",
       "capturedAt": "2026-10-04",
-      "broadcastEndTimeTaipei": "2026-10-03T15:30:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T13:00:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
@@ -5529,7 +5529,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-04",
-      "broadcastEndTimeTaipei": "2026-10-03T10:15:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T10:20:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -5687,7 +5687,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-04",
-      "broadcastEndTimeTaipei": "2026-10-03T14:55:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T13:55:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "sessionScopes": [
@@ -5748,7 +5748,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-04",
-      "broadcastEndTimeTaipei": "2026-10-03T14:15:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T14:05:00+08:00",
       "matchLevel": "unit",
       "matchHint": {
         "athleteNames": [
@@ -5876,7 +5876,7 @@
       "feed": "main",
       "note": null,
       "capturedAt": "2026-10-04",
-      "broadcastEndTimeTaipei": "2026-10-03T20:00:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-03T20:12:00+08:00",
       "matchLevel": "discipline",
       "matchHint": {
         "phaseKeywords": [
