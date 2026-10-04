@@ -1,4 +1,6 @@
 export type Result = { tpe:string | null; opponent:string | null; source:string };
+import {parseSpecialEvent} from '../../src/special-events.ts';
+import type {SpecialEvent} from '../../src/special-events.ts';
 // The single source of truth for how a card should show its time. Null means startTimeTaipei is
 // trustworthy as-is; otherwise `code` says why and, for NOT_BEFORE/RESCHEDULED, clockTaipei is
 // the already-converted Taipei clock -- the display layer never parses English or does timezone
@@ -38,7 +40,7 @@ export type Daily = {
   schemaVersion:number; date:string; generatedAt:string; timezone:string;
   // Set by the merge step only when the official sync finished cleanly and found nobody.
   officialNoCompetition?:boolean; coverageComplete?:boolean;
-  rows:Row[]; warnings:Warning[]; sessionChains?:CourtSessionChain[];
+  rows:Row[]; specialEvents?:SpecialEvent[]; warnings:Warning[]; sessionChains?:CourtSessionChain[];
   summary:{ matched:number; tpenocOnly:number; resultsOnly:number; unresolvedTbd:number; warnings:number };
   sources:{ results?:{ path:string; coverage?:{ sports?:string[]; fetchComplete?:boolean } } | null;
     tpenoc?:{ path:string; sourceFileName?:string; updatedAtJst?:string | null } | null };
@@ -167,6 +169,11 @@ export function parseDaily(value:unknown,date:string):Daily{
   }
   if(d.rows.some(r=>!r||typeof r.participationState!=='string'||!Array.isArray(r.athletes)||!Array.isArray(r.athletesEn))){
     throw Error('賽事欄位不完整');
+  }
+  if(d.specialEvents!==undefined){
+    if(!Array.isArray(d.specialEvents))throw Error('特殊活動欄位不完整');
+    d.specialEvents=d.specialEvents.map(parseSpecialEvent);
+    if(d.specialEvents.some(event=>event.date!==date))throw Error('特殊活動日期不符');
   }
   return d;
 }

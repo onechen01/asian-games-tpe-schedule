@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T07:44:01.977Z",
+  "generatedAt": "2026-10-04T06:48:14.029Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
-      "path": "data/staging/2026-09-19/schedule-2026-09-19-AUTO.json",
+      "path": "data/normalized/schedule-2026-09-19-AUTO.json",
       "generatedAt": "2026-09-20T07:44:00.651Z",
       "coverage": {
         "sports": [
@@ -171,11 +171,16 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 248
+      "events": 228
+    },
+    "specialEvents": {
+      "path": "data/reference/special-events.json",
+      "count": 1
     }
   },
   "date": "2026-09-19",
   "rows": [],
+  "sessionChains": [],
   "coverageComplete": true,
   "officialNoCompetition": true,
   "summary": {
@@ -186,5 +191,27 @@
     "unresolvedTbd": 0,
     "warnings": 0
   },
-  "warnings": []
+  "warnings": [],
+  "specialEvents": [
+    {
+      "id": "ceremony-opening-2026-09-19",
+      "kind": "CEREMONY",
+      "ceremonyType": "OPENING",
+      "titleZh": "開幕典禮",
+      "date": "2026-09-19",
+      "originalStartTime": "2026-09-19T18:00:00+09:00",
+      "startTimeTaipei": "2026-09-19T17:00:00+08:00",
+      "originalTimezone": "Asia/Tokyo",
+      "displayTimezone": "Asia/Taipei",
+      "source": {
+        "sourceKind": "OFFICIAL_CEREMONY_SCHEDULE",
+        "publisher": "Aichi-Nagoya 2026 Asian Games Organising Committee",
+        "documentTitle": "Opening Ceremony / Closing Ceremony — Ticketing Guide",
+        "sourceUrl": "https://www.aichi-nagoya2026.org/files/common/260219_ticketsales/ticketingguide_asia_en",
+        "fetchedAt": null,
+        "checkedAt": "2026-10-04T08:00:00Z",
+        "rawFile": null
+      }
+    }
+  ]
 }

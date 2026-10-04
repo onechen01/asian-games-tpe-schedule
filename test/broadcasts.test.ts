@@ -1,6 +1,7 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import { extractScheduleList, toBroadcasts, gateBroadcasts, athleteHint, badmintonCourtSessionHint,
   preserveVerifiedMatchHints, structuredSessionHint, PROVIDER } from '../src/broadcast/elta.ts';
+import type {SpecialEvent} from '../src/special-events.ts';
 
 const page = (json:string)=>`<html><script>\n let schedule_list = ${json};\n</script></html>`;
 const programme = (o:Record<string,unknown>)=>({ is_taipei_team:1, ...o });
@@ -177,6 +178,34 @@ test('programmes that are not flagged as Chinese Taipei are never added',()=>{
     { is_taipei_team:0, format_s_time:'2026-09-21 08:30:00', program_desc:'亞運 鐵人三項 混合接力', sport_item:{ sp_name:'鐵人三項' } }]));
   assert.equal(records.length,0);
   assert.equal(unresolved.length,0);
+});
+
+test('only registered opening and closing ceremonies bypass the Chinese Taipei sport gate',()=>{
+  const specialEvents=[
+    {id:'ceremony-opening-2026-09-19',kind:'CEREMONY',ceremonyType:'OPENING',date:'2026-09-19'},
+    {id:'ceremony-closing-2026-10-04',kind:'CEREMONY',ceremonyType:'CLOSING',date:'2026-10-04'},
+  ] as SpecialEvent[];
+  const html=page(JSON.stringify({
+    '2026-09-19':{0:{is_taipei_team:0,format_s_time:'2026-09-19 16:50:00',
+      program_desc:'亞運 開幕典禮 9/19 LIVE',sport_item:{sp_name:''},live_type:'LIVE'}},
+    '2026-10-03':{0:{is_taipei_team:1,format_s_time:'2026-10-03 15:00:00',
+      program_desc:'亞運 高爾夫 頒獎典禮 10/3 LIVE',sport_item:{sp_name:'高爾夫'}}},
+    '2026-10-04':{
+      0:{is_taipei_team:0,format_s_time:'2026-10-04 16:50:00',program_desc:'亞運 閉幕典禮 10/4 LIVE',sport_item:{sp_name:''},live_type:'LIVE'},
+      1:{is_taipei_team:0,format_s_time:'2026-10-04 16:50:00',program_desc:'亞運 閉幕典禮 10/4(原音) LIVE',sport_item:{sp_name:''},live_type:'LIVE'},
+    },
+  }));
+  const result=toBroadcasts(extractScheduleList(html),{capturedAt:'2026-10-04',specialEvents});
+  const ceremonies=result.records.filter(record=>record.specialEventId);
+  assert.deepEqual(ceremonies.map(record=>record.specialEventId),[
+    'ceremony-opening-2026-09-19','ceremony-closing-2026-10-04','ceremony-closing-2026-10-04',
+  ]);
+  assert.ok(ceremonies.every(record=>record.disciplineCode===null&&record.matchLevel==='special-event'));
+  assert.deepEqual(ceremonies.slice(1).map(record=>record.feed),['main','original']);
+  const award=result.records.find(record=>record.title?.includes('頒獎典禮'))!;
+  assert.equal(award.specialEventId,undefined);
+  assert.equal(award.disciplineCode,'GLF');
+  assert.equal(gateBroadcasts(result.records,[]).pass,true);
 });
 
 test('unparsable time or unknown sport is reported, never guessed',()=>{

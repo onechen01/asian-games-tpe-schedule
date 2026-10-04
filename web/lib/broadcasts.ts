@@ -2,15 +2,16 @@
 // It never supplies a competition time, an opponent, a result or a participation state — those
 // come from the Results canonical alone. Any number of providers may cover the same event.
 import type {CourtSessionChain} from './schedule.ts';
+import type {SpecialEvent} from '../../src/special-events.ts';
 
 export type Broadcast = {
   date:string; providerId:string; providerName:string; broadcastStartTimeTaipei:string;
   broadcastEndTimeTaipei?:string|null;
-  disciplineCode:string; title:string|null; feed:'main'|'original'|null; note:string|null;
+  disciplineCode:string|null; specialEventId?:string; title:string|null; feed:'main'|'original'|null; note:string|null;
   // Where to watch: a channel, service or stream name, whatever the provider publishes.
   channelId?:string|null; channelName?:string|null; isLive?:boolean|null;
   sourceUrl:string|null; capturedAt:string|null;
-  matchLevel:'unit'|'discipline';
+  matchLevel:'unit'|'discipline'|'special-event';
   matchHint?:{ athleteNames?:string[]; opponentCodes?:string[]; opponentNames?:string[];
     phaseKeywords?:string[]; eventKeywords?:string[];
     courtSession?:{locationLabel:string;roundKeyword:string;sourceSessionLabel:string};
@@ -28,8 +29,9 @@ const isRecord = (value:unknown):value is Broadcast => {
   return !!r && typeof r.date === 'string' && typeof r.providerId === 'string'
     && typeof r.providerName === 'string' && typeof r.broadcastStartTimeTaipei === 'string'
     && Number.isFinite(Date.parse(r.broadcastStartTimeTaipei))
-    && typeof r.disciplineCode === 'string'
-    && (r.matchLevel === 'unit' || r.matchLevel === 'discipline');
+    && ((typeof r.specialEventId === 'string' && r.disciplineCode === null && r.matchLevel === 'special-event')
+      || (!r.specialEventId && typeof r.disciplineCode === 'string'
+        && (r.matchLevel === 'unit' || r.matchLevel === 'discipline')));
 };
 
 export function parseBroadcasts(text:string|null):Broadcasts {
@@ -244,6 +246,7 @@ function matchesBdmCourtSession(r:Broadcast,row:MatchRow,chains:CourtSessionChai
 // programme (phase evidence only) additionally requires the broadcast to be live — matching
 // times alone is never evidence, and a session's real extent is unknown once it is delayed.
 function matchesDirectly(r:Broadcast, row:MatchRow, chains:CourtSessionChain[]):boolean {
+  if (r.specialEventId) return false;
   if (r.disciplineCode !== row.disciplineCode) return false;
   const courtSession=matchesBdmCourtSession(r,row,chains);
   if (courtSession!==null) return courtSession;
@@ -315,6 +318,13 @@ export function broadcastsForRow(all:Broadcasts, date:string, row:MatchRow,
   return sameDate.filter(r=>matchesDirectly(r,row,chains) || inheritsFromLive(r,row,sameDate,chains));
 }
 
+// Ceremonies never enter the competition matcher. The provider adapter must resolve an exact
+// registry id first; date or time proximity alone can never attach a programme.
+export function broadcastsForSpecialEvent(all:Broadcasts,event:SpecialEvent):Broadcast[] {
+  return forDate(all,event.date).filter(record=>record.matchLevel==='special-event'
+    && record.specialEventId===event.id);
+}
+
 // Programmes that could not be tied to one unit, grouped per discipline so they are shown once.
 export function disciplineBroadcasts(all:Broadcasts, date:string, rows:MatchRow[],
   chains:CourtSessionChain[]=[]):Map<string,Broadcast[]> {
@@ -322,6 +332,7 @@ export function disciplineBroadcasts(all:Broadcasts, date:string, rows:MatchRow[
     .map(r=>r.providerId + '|' + r.broadcastStartTimeTaipei + '|' + r.disciplineCode));
   const out = new Map<string,Broadcast[]>();
   for (const r of forDate(all,date)) {
+    if (r.specialEventId || !r.disciplineCode) continue;
     if (attached.has(r.providerId + '|' + r.broadcastStartTimeTaipei + '|' + r.disciplineCode)) continue;
     out.set(r.disciplineCode, [...(out.get(r.disciplineCode) ?? []), r]);
   }

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T05:54:43.328Z",
+  "generatedAt": "2026-10-04T06:49:47.815Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
-      "path": "data/staging/2026-10-04/schedule-2026-10-04-AUTO.json",
-      "generatedAt": "2026-10-04T05:54:42.683Z",
+      "path": "data/normalized/schedule-2026-10-04-AUTO.json",
+      "generatedAt": "2026-10-04T06:49:23.653Z",
       "coverage": {
         "sports": [
           "EQU"
@@ -40,7 +40,11 @@
     "tpenoc": null,
     "entries": {
       "path": "data/normalized/tpe-entries.json",
-      "events": 246
+      "events": 228
+    },
+    "specialEvents": {
+      "path": "data/reference/special-events.json",
+      "count": 1
     }
   },
   "date": "2026-10-04",
@@ -181,6 +185,28 @@
       "code": "RESULTS_ONLY",
       "message": "Results 確認 TPE 但中華奧會未列出：EQU 10:45 Jumping Ind B (up to 1.55m) 2nd Round",
       "row": "EQU:O.JUMPINDVCOMB------.FNL-.000200--"
+    }
+  ],
+  "specialEvents": [
+    {
+      "id": "ceremony-closing-2026-10-04",
+      "kind": "CEREMONY",
+      "ceremonyType": "CLOSING",
+      "titleZh": "閉幕典禮",
+      "date": "2026-10-04",
+      "originalStartTime": "2026-10-04T18:00:00+09:00",
+      "startTimeTaipei": "2026-10-04T17:00:00+08:00",
+      "originalTimezone": "Asia/Tokyo",
+      "displayTimezone": "Asia/Taipei",
+      "source": {
+        "sourceKind": "OFFICIAL_CEREMONY_SCHEDULE",
+        "publisher": "Aichi-Nagoya 2026 Asian Games Organising Committee",
+        "documentTitle": "Opening Ceremony / Closing Ceremony — Ticketing Guide",
+        "sourceUrl": "https://www.aichi-nagoya2026.org/files/common/260219_ticketsales/ticketingguide_asia_en",
+        "fetchedAt": null,
+        "checkedAt": "2026-10-04T08:00:00Z",
+        "rawFile": null
+      }
     }
   ]
 }

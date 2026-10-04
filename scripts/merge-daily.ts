@@ -6,6 +6,7 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { mergeDaily } from '../src/parsers/merge-daily.ts';
 import { parseTpeEntries, entryIndex } from '../src/parsers/entries.ts';
+import { parseSpecialEvents, specialEventsForDate } from '../src/special-events.ts';
 import { validateDate } from '../src/utils/timezone.ts';
 import { save, ROOT } from '../src/utils/storage.ts';
 
@@ -14,6 +15,7 @@ const read = async (relative:string)=>JSON.parse(await readFile(resolve(ROOT,rel
 const scheduleDir = process.env.SCHEDULE_OUT_DIR ?? 'data/normalized';
 const resultsPath = `${scheduleDir}/schedule-${date}-AUTO.json`;
 const tpenocPath = `data/normalized/tpenoc-${date}.json`;
+const specialEventsPath = 'data/reference/special-events.json';
 
 let results;
 try { results = await read(resultsPath); }
@@ -27,6 +29,7 @@ catch { console.error(`注意：沒有可用的 ${entriesPath}，未編組場次
 let tpenoc = null;
 try { tpenoc = await read(tpenocPath); }
 catch { console.error(`注意：沒有 ${tpenocPath}，本次只有 Results 單一來源，中文姓名與中華奧會核對缺席。`); }
+const specialEvents=specialEventsForDate(parseSpecialEvents(await read(specialEventsPath)),date);
 
 const merged = mergeDaily(results, tpenoc, entries);
 const report = { schemaVersion:1, generatedAt:new Date().toISOString(), timezone:'Asia/Taipei',
@@ -35,8 +38,9 @@ const report = { schemaVersion:1, generatedAt:new Date().toISOString(), timezone
     results:{ path:resultsPath, generatedAt:results.generatedAt, coverage:results.coverage },
     tpenoc:tpenoc ? { path:tpenocPath, generatedAt:tpenoc.generatedAt,
       sourceFileName:tpenoc.sourceFileName, updatedAtJst:tpenoc.updatedAtJst } : null,
-    entries:entries ? { path:entriesPath, events:entries.size } : null },
-  ...merged };
+    entries:entries ? { path:entriesPath, events:entries.size } : null,
+    specialEvents:{ path:specialEventsPath, count:specialEvents.length } },
+  ...merged, specialEvents };
 const output = `${process.env.DAILY_OUT_DIR ?? 'data/normalized'}/daily-${date}.json`;
 await save(output, report);
 

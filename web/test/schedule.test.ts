@@ -384,9 +384,10 @@ test('the existing venue, country and athlete Chinese mappings do not regress',a
   assert.equal(athleteLabel('CHENG I-ching',master,{discipline:'TTE'}),'鄭怡靜');
 });
 
-import {parseBroadcasts,broadcastsForRow,disciplineBroadcasts,feedLabel} from '../lib/broadcasts.ts';
+import {parseBroadcasts,broadcastsForRow,broadcastsForSpecialEvent,disciplineBroadcasts,feedLabel} from '../lib/broadcasts.ts';
 import {loadBroadcasts} from '../lib/load.ts';
 import {structuredSessionHint} from '../../src/broadcast/elta.ts';
+import {parseSpecialEvents} from '../../src/special-events.ts';
 
 const day21 = async ()=>parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-21.json','utf8')),'2026-09-21');
 
@@ -404,6 +405,41 @@ test('broadcast records never supply a competition time',async()=>{
   assert.notEqual(box.startTimeTaipei,matched[0].broadcastStartTimeTaipei);
   // Nothing in the canonical row carries a broadcast field.
   assert.ok(!Object.keys(box).some(k=>/broadcast/i.test(k)));
+});
+
+test('ceremony broadcasts attach by exact special-event id and never enter competition matching',async()=>{
+  const [opening,closing]=parseSpecialEvents(JSON.parse(
+    await readFile('data/reference/special-events.json','utf8')));
+  const shows=parseBroadcasts(JSON.stringify({schemaVersion:1,records:[
+    {date:'2026-09-19',providerId:'elta',providerName:'愛爾達',broadcastStartTimeTaipei:'2026-09-19T16:50:00+08:00',
+      disciplineCode:null,specialEventId:opening.id,title:'亞運 開幕典禮 LIVE',feed:'main',note:null,
+      sourceUrl:'x',capturedAt:'2026-10-04',matchLevel:'special-event'},
+    {date:'2026-10-04',providerId:'elta',providerName:'愛爾達',broadcastStartTimeTaipei:'2026-10-04T16:50:00+08:00',
+      disciplineCode:null,specialEventId:closing.id,title:'亞運 閉幕典禮 LIVE',feed:'main',note:null,
+      sourceUrl:'x',capturedAt:'2026-10-04',matchLevel:'special-event'},
+    {date:'2026-10-04',providerId:'elta',providerName:'愛爾達',broadcastStartTimeTaipei:'2026-10-04T16:50:00+08:00',
+      disciplineCode:null,specialEventId:closing.id,title:'亞運 閉幕典禮(原音) LIVE',feed:'original',note:'原音',
+      sourceUrl:'x',capturedAt:'2026-10-04',matchLevel:'special-event'},
+  ]}));
+  assert.equal(broadcastsForSpecialEvent(shows,opening).length,1);
+  assert.equal(broadcastsForSpecialEvent(shows,closing).length,2);
+  assert.equal(broadcastsForRow(shows,'2026-10-04',{disciplineCode:'EQU',opponentCode:null}).length,0);
+  assert.equal(disciplineBroadcasts(shows,'2026-10-04',[]).size,0);
+});
+
+test('the published 9/19 and 10/4 daily files carry ceremonies beside unchanged competition rows',async()=>{
+  const shows=await loadBroadcasts();
+  const openingDay=parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-09-19.json','utf8')),'2026-09-19');
+  const closingDay=parseDaily(JSON.parse(await readFile('data/normalized/daily-2026-10-04.json','utf8')),'2026-10-04');
+  assert.equal(openingDay.officialNoCompetition,true);
+  assert.equal(openingDay.rows.length,0);
+  assert.equal(openingDay.specialEvents?.[0].startTimeTaipei,'2026-09-19T17:00:00+08:00');
+  assert.equal(broadcastsForSpecialEvent(shows,openingDay.specialEvents![0]).length,1);
+  assert.equal(closingDay.rows.length,2);
+  assert.ok(closingDay.rows.every(row=>row.disciplineCode==='EQU'));
+  assert.equal(closingDay.specialEvents?.[0].startTimeTaipei,'2026-10-04T17:00:00+08:00');
+  assert.deepEqual(broadcastsForSpecialEvent(shows,closingDay.specialEvents![0]).map(show=>show.feed),
+    ['main','original']);
 });
 
 test('the verified 9/23 karate and table tennis programmes attach only to their named cards',async()=>{
@@ -1402,14 +1438,15 @@ test('repechage, equestrian group rounds and NOT_BEFORE use only their explicit 
     'NOT_BEFORE 不得越過 event conflict');
 });
 
-test('the real 10/3 and 10/4 production broadcasts leave only ceremony and cross-day replay unmatched',async()=>{
+test('the real 10/3 and 10/4 production broadcasts attach ceremonies exactly and leave only known sport orphans',async()=>{
   const shows=parseBroadcasts(await readFile('data/reference/broadcasts.json','utf8'));
-  const identity=(b:{providerId:string;broadcastStartTimeTaipei:string;disciplineCode:string;title:string|null})=>
+  const identity=(b:{providerId:string;broadcastStartTimeTaipei:string;disciplineCode:string|null;title:string|null})=>
     [b.providerId,b.broadcastStartTimeTaipei,b.disciplineCode,b.title].join('|');
   const audit=async(date:string)=>{
     const day=parseDaily(JSON.parse(await readFile(`data/normalized/daily-${date}.json`,'utf8')),date);
     const rows=[...taiwanRows(day),...pendingRows(day)],attached=new Set<string>();
     for(const row of rows) for(const b of broadcastsForRow(shows,date,row,day.sessionChains??[])) attached.add(identity(b));
+    for(const event of day.specialEvents??[]) for(const b of broadcastsForSpecialEvent(shows,event)) attached.add(identity(b));
     return {day,rows,unmatched:shows.records.filter(b=>b.date===date&&!attached.has(identity(b)))};
   };
   const oct3=await audit('2026-10-03');

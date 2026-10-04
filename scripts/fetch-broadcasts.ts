@@ -7,6 +7,7 @@ import { resolve } from 'node:path';
 import { save, ROOT } from '../src/utils/storage.ts';
 import { extractScheduleList, toBroadcasts, gateBroadcasts, preserveVerifiedMatchHints, PROVIDER } from '../src/broadcast/elta.ts';
 import type { BroadcastRecord } from '../src/broadcast/elta.ts';
+import {parseSpecialEvents} from '../src/special-events.ts';
 
 const argv = process.argv.slice(2);
 const provider = argv.find(a=>a.startsWith('--provider='))?.slice('--provider='.length) ?? 'elta';
@@ -38,10 +39,12 @@ const nocDoc = JSON.parse(await readFile(resolve(ROOT,'data/reference/noc-zh.jso
 const orgs = (nocDoc.orgs ?? nocDoc) as Record<string,string>;
 const nocByZh = Object.fromEntries(Object.entries(orgs)
   .filter(([,zh])=>typeof zh === 'string').map(([code,zh])=>[zh,code]));
+const specialEvents=parseSpecialEvents(JSON.parse(await readFile(
+  resolve(ROOT,'data/reference/special-events.json'),'utf8')));
 
 let batch;
 try { batch = toBroadcasts(extractScheduleList(html),
-  { capturedAt:new Date().toISOString().slice(0,10), dates, athletesByZh, nocByZh }); }
+  { capturedAt:new Date().toISOString().slice(0,10), dates, athletesByZh, nocByZh, specialEvents }); }
 catch (error) {
   console.error(`${provider} parse failed: ${(error as Error).message}；保留既有資料`);
   process.exit(1);

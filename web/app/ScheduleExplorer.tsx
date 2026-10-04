@@ -17,8 +17,8 @@ const STATUS_OPTIONS:{value:StatusFilter;label:string}[]=[
 const sameFilters=(a:FilterState,b:FilterState)=>JSON.stringify(a)===JSON.stringify(b);
 
 export default function ScheduleExplorer({date,sports,initialFilters,jumpRequested,items,baseSummary,
-  emptyContent,children}:{date:string;sports:SportOption[];initialFilters:FilterState;jumpRequested:boolean;
-  items:ScheduleItemMeta[];baseSummary:string|null;emptyContent?:ReactNode;children:ReactNode}){
+  emptyContent,listHeading='台灣出賽',children}:{date:string;sports:SportOption[];initialFilters:FilterState;jumpRequested:boolean;
+  items:ScheduleItemMeta[];baseSummary:string|null;emptyContent?:ReactNode;listHeading?:string;children:ReactNode}){
   const router=useRouter();
   const [filters,setFilters]=useState(initialFilters);
   const [announcement,setAnnouncement]=useState('');
@@ -117,7 +117,7 @@ export default function ScheduleExplorer({date,sports,initialFilters,jumpRequest
       <button className="jump-button" type="button" onClick={jump}>跳到目前進行／即將開始的賽程</button>
     </div>
     <p className="visually-hidden" aria-live="polite">{announcement}</p>
-    <div className="list-heading"><h2>台灣出賽</h2>{items.length>0&&<span>{active?`${visible.length} / ${items.length} 筆符合`:baseSummary}</span>}</div>
+    <div className="list-heading"><h2>{listHeading}</h2>{items.length>0&&<span>{active?`${visible.length} / ${items.length} 筆符合`:baseSummary}</span>}</div>
     {items.length===0?emptyContent:<>
       {visible.length===0&&<section className="empty filtered-empty"><span className="empty-symbol">—</span><h3>目前沒有符合篩選條件的賽程</h3><p>已保留目前的篩選條件。</p><button type="button" onClick={clear}>清除所有篩選</button></section>}
       <div className="matches">{pairs.map(({item,card})=><div key={item.id} className="schedule-item" hidden={!visibleIds.has(item.id)}

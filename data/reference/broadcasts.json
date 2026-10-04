@@ -250,6 +250,25 @@
       }
     },
     {
+      "date": "2026-09-19",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-09-19T16:50:00+08:00",
+      "broadcastEndTimeTaipei": "2026-09-19T19:30:00+08:00",
+      "disciplineCode": null,
+      "specialEventId": "ceremony-opening-2026-09-19",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "2026愛知-名古屋亞運 開幕典禮. LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-04",
+      "matchLevel": "special-event",
+      "matchHint": {}
+    },
+    {
       "date": "2026-09-20",
       "providerId": "elta",
       "providerName": "愛爾達",
@@ -6019,6 +6038,44 @@
           }
         ]
       }
+    },
+    {
+      "date": "2026-10-04",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-04T16:50:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-04T19:00:00+08:00",
+      "disciplineCode": null,
+      "specialEventId": "ceremony-closing-2026-10-04",
+      "channelId": "101",
+      "channelName": "愛爾達體育1台",
+      "isLive": true,
+      "title": "2026愛知-名古屋亞運 閉幕典禮 LIVE",
+      "feed": "main",
+      "note": null,
+      "capturedAt": "2026-10-04",
+      "matchLevel": "special-event",
+      "matchHint": {}
+    },
+    {
+      "date": "2026-10-04",
+      "providerId": "elta",
+      "providerName": "愛爾達",
+      "sourceUrl": "https://eltaott.tv/asg2026/",
+      "broadcastStartTimeTaipei": "2026-10-04T16:50:00+08:00",
+      "broadcastEndTimeTaipei": "2026-10-04T19:00:00+08:00",
+      "disciplineCode": null,
+      "specialEventId": "ceremony-closing-2026-10-04",
+      "channelId": "540",
+      "channelName": "愛爾達體育MAX1台",
+      "isLive": true,
+      "title": "2026愛知-名古屋亞運 閉幕典禮(原音) LIVE",
+      "feed": "original",
+      "note": "原音",
+      "capturedAt": "2026-10-04",
+      "matchLevel": "special-event",
+      "matchHint": {}
     }
   ]
 }

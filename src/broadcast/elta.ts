@@ -2,6 +2,7 @@
 // schema. It is one provider among others — nothing here may leak into the generic layer,
 // and nothing here may touch a competition time, an opponent or a result.
 import { SPORT_ZH, NOC_BY_ZH } from '../parsers/merge-daily.ts';
+import type {SpecialEvent} from '../special-events.ts';
 
 export const PROVIDER = { providerId:'elta', providerName:'愛爾達',
   sourceUrl:'https://eltaott.tv/asg2026/' } as const;
@@ -10,9 +11,9 @@ export type BroadcastRecord = {
   date:string; providerId:string; providerName:string; broadcastStartTimeTaipei:string;
   // The broadcaster publishes its own end; it is never derived from the next programme.
   broadcastEndTimeTaipei:string|null;
-  disciplineCode:string; title:string|null; feed:'main'|'original'|null; note:string|null;
+  disciplineCode:string|null; specialEventId?:string; title:string|null; feed:'main'|'original'|null; note:string|null;
   channelId:string|null; channelName:string|null; isLive:boolean|null;
-  sourceUrl:string|null; capturedAt:string|null; matchLevel:'unit'|'discipline';
+  sourceUrl:string|null; capturedAt:string|null; matchLevel:'unit'|'discipline'|'special-event';
   matchHint:{ opponentCodes?:string[]; athleteNames?:string[]; phaseKeywords?:string[]; eventKeywords?:string[];
     courtSession?:CourtSessionHint; sessionScopes?:SessionScope[] };
 };
@@ -31,6 +32,7 @@ export type Unresolved = { time:string|null; title:string; reason:string };
 
 const recordIdentity = (r:BroadcastRecord)=>JSON.stringify([
   r.providerId,r.date,r.broadcastStartTimeTaipei,r.disciplineCode,r.title ?? '',
+  r.specialEventId ?? '',
 ]);
 
 export function preserveVerifiedMatchHints(next:BroadcastRecord[],previous:BroadcastRecord[]):BroadcastRecord[] {
@@ -208,7 +210,7 @@ export function athleteHint(title:string, byZh:Map<string,string>):string[] {
 
 export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
   options:{ capturedAt:string; dates?:string[]; athletesByZh?:Map<string,string>;
-    nocByZh?:Record<string,string> }):{ records:BroadcastRecord[]; unresolved:Unresolved[] } {
+    nocByZh?:Record<string,string>; specialEvents?:SpecialEvent[] }):{ records:BroadcastRecord[]; unresolved:Unresolved[] } {
   const records:BroadcastRecord[] = [], unresolved:Unresolved[] = [];
   const seen = new Set<string>();
   for (const [date, programmes] of Object.entries(scheduleList)) {
@@ -220,11 +222,39 @@ export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
       const raw = typeof p.format_s_time === 'string' ? p.format_s_time
         : typeof p.start_datetime === 'string' ? p.start_datetime : null;
       if (!title) continue;
+      const ceremonyType=/開幕典禮/.test(title)?'OPENING':/閉幕典禮/.test(title)?'CLOSING':null;
+      const ceremonyCandidates=ceremonyType ? (options.specialEvents??[])
+        .filter(event=>event.date===date&&event.ceremonyType===ceremonyType) : [];
+      if (ceremonyType && ceremonyCandidates.length!==1) {
+        unresolved.push({time:raw,title,reason:`special-event-${ceremonyCandidates.length?'ambiguous':'unregistered'}`});
+        continue;
+      }
       // Only programmes the broadcaster itself marks as Chinese Taipei are taken. A guess
       // from the title alone would quietly add competitions Taiwan is not in.
-      if (String(p.is_taipei_team) !== '1') continue;
+      // Opening/closing ceremonies are the sole exception: they are admitted only through an
+      // exact, date-scoped registry entry above, never by relaxing the competition rule.
+      if (!ceremonyType && String(p.is_taipei_team) !== '1') continue;
       if (!raw || !/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}/.test(raw)) {
         unresolved.push({ time:raw, title, reason:'time-unparsable' });
+        continue;
+      }
+      const startsOn = raw.slice(0,10);
+      const broadcastStartTimeTaipei = `${startsOn}T${raw.slice(11,16)}:00+08:00`;
+      const ceremony=ceremonyCandidates[0];
+      if (ceremony) {
+        const rawChannel = typeof p.cl_title === 'string' ? p.cl_title.replace(/\s+/g,'') : '';
+        const liveType = typeof p.live_type === 'string' ? p.live_type.toUpperCase() : '';
+        const record:BroadcastRecord={
+          date:startsOn,...PROVIDER,broadcastStartTimeTaipei,broadcastEndTimeTaipei:taipeiFromEpoch(p.end_time),
+          disciplineCode:null,specialEventId:ceremony.id,
+          channelId:p.cl_num===undefined||p.cl_num===null?null:String(p.cl_num),
+          channelName:rawChannel?`${PROVIDER.providerName}${rawChannel}`:null,
+          isLive:liveType?liveType==='LIVE':null,title,feed:/原音/.test(title)?'original':'main',
+          note:/原音/.test(title)?'原音':null,capturedAt:options.capturedAt,
+          matchLevel:'special-event',matchHint:{},
+        };
+        const identity=[record.date,record.broadcastStartTimeTaipei,record.specialEventId,record.title].join('|');
+        if (!seen.has(identity)) { seen.add(identity); records.push(record); }
         continue;
       }
       const sportZh = typeof p.sport_item?.sp_name === 'string' ? p.sport_item.sp_name.trim() : '';
@@ -233,8 +263,6 @@ export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
         unresolved.push({ time:raw, title, reason:`unknown-sport:${sportZh || 'none'}` });
         continue;
       }
-      const startsOn = raw.slice(0,10);
-      const broadcastStartTimeTaipei = `${startsOn}T${raw.slice(11,16)}:00+08:00`;
       const opponent = opponentOf(title, options.nocByZh ?? {});
       const named = opponent ? [] : athleteHint(title, options.athletesByZh ?? new Map());
       const courtSession = disciplineCode === 'BDM' ? badmintonCourtSessionHint(title) : null;
@@ -270,7 +298,7 @@ export function toBroadcasts(scheduleList:Record<string,Record<string,unknown>>,
     }
   }
   records.sort((a,b)=>a.broadcastStartTimeTaipei.localeCompare(b.broadcastStartTimeTaipei)
-    || a.disciplineCode.localeCompare(b.disciplineCode));
+    || (a.disciplineCode??'').localeCompare(b.disciplineCode??''));
   return { records, unresolved };
 }
 
@@ -284,7 +312,14 @@ export function gateBroadcasts(next:BroadcastRecord[], previous:BroadcastRecord[
     if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\+08:00$/.test(r.broadcastStartTimeTaipei)) { reasons.push('invalid-time'); break; }
   }
   for (const r of next) {
-    if (!SPORT_ZH[r.disciplineCode]) { reasons.push(`invalid-discipline:${r.disciplineCode}`); break; }
+    if (r.specialEventId) {
+      if (r.disciplineCode!==null || r.matchLevel!=='special-event'
+        || !/^ceremony-(?:opening|closing)-2026-\d{2}-\d{2}$/.test(r.specialEventId)) {
+        reasons.push('invalid-special-event-target'); break;
+      }
+    } else if (!r.disciplineCode || !SPORT_ZH[r.disciplineCode] || r.matchLevel==='special-event') {
+      reasons.push(`invalid-discipline:${r.disciplineCode}`); break;
+    }
     if (r.providerId !== PROVIDER.providerId) { reasons.push('wrong-provider'); break; }
     if (r.date < '2026-09-10' || r.date > '2026-10-04') { reasons.push(`date-out-of-range:${r.date}`); break; }
   }
