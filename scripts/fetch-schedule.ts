@@ -14,9 +14,9 @@ import { readFile } from 'node:fs/promises';
 import { setTimeout as pause } from 'node:timers/promises';
 import { resolve } from 'node:path';
 import type { Meta, Failure } from '../src/api/asianGames.ts';
+import { GAMES_LAST } from '../src/games-period.ts';
 
 const date = validateDate(process.argv[2]);
-const GAMES_LAST = '2026-10-04';
 // Discipline codes come from the official ALL/disc/list index saved by npm run fetch:disciplines,
 // never from guessing. Run that first; codes not in the index are rejected.
 const indexPath = 'data/normalized/disciplines.json';

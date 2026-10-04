@@ -9,10 +9,10 @@ import { resolve } from 'node:path';
 import { save, ROOT } from '../src/utils/storage.ts';
 import { qualityGate, changed, isAutomationFailure, runExitCode } from '../src/parsers/publish-gate.ts';
 import { nextDay } from '../src/utils/timezone.ts';
+import { GAMES_FIRST, GAMES_LAST } from '../src/games-period.ts';
 
 // The official schedule matrix spans these venue days; outside them the Games are over and
 // the updater exits without a single request.
-const GAMES_FIRST = '2026-09-10', GAMES_LAST = '2026-10-04';
 const taipeiToday = ()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei',
   year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const shift = (date:string,days:number)=>new Date(Date.parse(date+'T12:00:00Z')+days*86400000).toISOString().slice(0,10);
