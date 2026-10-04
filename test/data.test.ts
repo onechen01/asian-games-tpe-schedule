@@ -5,6 +5,12 @@ import { deflateSync } from 'node:zlib';
 import { decode, safeData } from '../src/api/asianGames.ts';
 import { normalize, parseDaily, initialEventPhases, qualificationPredecessors,
   wushuResultTarget, classifyTimeNote } from '../src/parsers/schedule.ts';
+import {venueDaysForTaipeiDate} from '../src/utils/timezone.ts';
+
+test('the final Taipei competition day does not require a nonexistent next matrix day',()=>{
+  assert.deepEqual(venueDaysForTaipeiDate('2026-10-03','2026-10-04'),['2026-10-03','2026-10-04']);
+  assert.deepEqual(venueDaysForTaipeiDate('2026-10-04','2026-10-04'),['2026-10-04']);
+});
 
 test('official event structure identifies first phases without reading Final or PhaseOrder literally',()=>{
   const event='M.TEAM--------------',disc='GAR';

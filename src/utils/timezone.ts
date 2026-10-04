@@ -36,3 +36,7 @@ export function validateDate(value: string | undefined): string {
   return value;
 }
 export const nextDay = (date: string): string => new Date(Date.parse(date) + 86400000).toISOString().slice(0,10);
+// A Taipei day normally spans this venue day and the next one. The final competition day has
+// no following day in the official matrix, so that absent date must not become a coverage gap.
+export const venueDaysForTaipeiDate = (date:string, gamesLast:string):string[] =>
+  [date,nextDay(date)].filter(day=>day<=gamesLast);

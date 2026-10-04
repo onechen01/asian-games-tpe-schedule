@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-04T05:54:43.328Z",
+  "timezone": "Asia/Taipei",
+  "editorialVerification": "pending",
+  "sources": {
+    "results": {
+      "path": "data/staging/2026-10-04/schedule-2026-10-04-AUTO.json",
+      "generatedAt": "2026-10-04T05:54:42.683Z",
+      "coverage": {
+        "sports": [
+          "EQU"
+        ],
+        "allSports": false,
+        "selection": {
+          "mode": "schedule-matrix",
+          "japaneseDays": [
+            "2026-10-04"
+          ],
+          "targets": [
+            {
+              "code": "EQU",
+              "date": "2026-10-04",
+              "medalDay": true
+            }
+          ]
+        },
+        "missing": [],
+        "timezoneAnomalies": [],
+        "recovery": {
+          "initialMissing": 0,
+          "recovered": 0,
+          "remaining": 0
+        },
+        "unrecoveredTimezone": 0,
+        "fetchComplete": true,
+        "participationComplete": true
+      }
+    },
+    "tpenoc": null,
+    "entries": {
+      "path": "data/normalized/tpe-entries.json",
+      "events": 246
+    }
+  },
+  "date": "2026-10-04",
+  "rows": [
+    {
+      "date": "2026-10-04",
+      "startTimeTaipei": "2026-10-04T08:30:00+08:00",
+      "startTimeJst": "2026-10-04T09:30:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "EQU",
+      "sportZh": "馬術",
+      "sportEn": "Equestrian",
+      "event": "Jumping,Individual Competition A(heights of 1.40-1.50m)",
+      "phase": "Jumping Final",
+      "unit": "Jumping Ind A (1.45m-1.50m) 2nd Round",
+      "athletes": [],
+      "athletesEn": [
+        "CHEN Hung-Shen",
+        "CHEN Yu-Lung"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "EQP",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": null,
+      "tpeEntrants": [
+        {
+          "name": "CHEN Hung-Shen",
+          "registration": "8058786",
+          "result": "4",
+          "rank": "5",
+          "startTimeTaipei": null
+        },
+        {
+          "name": "CHEN Yu-Lung",
+          "registration": "10428682",
+          "result": "8",
+          "rank": "7",
+          "startTimeTaipei": null
+        }
+      ],
+      "tpeRank": "5",
+      "orgCount": 13,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.JUMPINDVCOMA------.FNL-.000200--",
+          "id": "EQU:O.JUMPINDVCOMA------.FNL-.000200--"
+        }
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "startTimeTaipei": "2026-10-04T10:45:00+08:00",
+      "startTimeJst": "2026-10-04T11:45:00+09:00",
+      "timeNote": null,
+      "estimated": false,
+      "disciplineCode": "EQU",
+      "sportZh": "馬術",
+      "sportEn": "Equestrian",
+      "event": "Jumping,Individual Competition B(heights of up to 1.55m)",
+      "phase": "Jumping Final",
+      "unit": "Jumping Ind B (up to 1.55m) 2nd Round",
+      "athletes": [],
+      "athletesEn": [
+        "LIN Yun-Chi"
+      ],
+      "opponent": null,
+      "opponentCode": null,
+      "venue": null,
+      "venueZh": null,
+      "locationCode": "EQP",
+      "locationName": null,
+      "courtSessionChainId": null,
+      "courtPredecessorUnitId": null,
+      "status": "OFFICIAL",
+      "result": {
+        "tpe": "17",
+        "opponent": null,
+        "source": "results"
+      },
+      "tpeEntrants": [],
+      "tpeRank": "8",
+      "orgCount": 10,
+      "tpeMedal": null,
+      "tpenocResult": null,
+      "rank": null,
+      "note": null,
+      "participationState": "TPE_CONFIRMED",
+      "entryLevel": "unit",
+      "unitCount": null,
+      "enteredAthletes": [],
+      "matchStatus": "RESULTS_ONLY",
+      "matchConfidence": "none",
+      "matchSignals": [],
+      "sources": {
+        "results": {
+          "unitId": "O.JUMPINDVCOMB------.FNL-.000200--",
+          "id": "EQU:O.JUMPINDVCOMB------.FNL-.000200--"
+        }
+      }
+    }
+  ],
+  "sessionChains": [],
+  "coverageComplete": true,
+  "officialNoCompetition": false,
+  "summary": {
+    "matched": 0,
+    "tpenocOnly": 0,
+    "resultsOnly": 2,
+    "entered": 0,
+    "unresolvedTbd": 0,
+    "warnings": 2
+  },
+  "warnings": [
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：EQU 08:30 Jumping Ind A (1.45m-1.50m) 2nd Round",
+      "row": "EQU:O.JUMPINDVCOMA------.FNL-.000200--"
+    },
+    {
+      "code": "RESULTS_ONLY",
+      "message": "Results 確認 TPE 但中華奧會未列出：EQU 10:45 Jumping Ind B (up to 1.55m) 2nd Round",
+      "row": "EQU:O.JUMPINDVCOMB------.FNL-.000200--"
+    }
+  ]
+}

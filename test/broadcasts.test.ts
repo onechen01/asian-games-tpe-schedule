@@ -143,6 +143,15 @@ test('taekwondo gender, weight and explicitly listed knockout stages become stru
     '缺性別與量級時不得變成全日 session');
 });
 
+test('judo repechage and equestrian competition-group rounds become complete structured scopes',()=>{
+  assert.deepEqual(structuredSessionHint('亞運 中華隊 柔道 混合團體複賽 10/3 LIVE','JUD'),
+    [{eventFamily:'TEAM',stage:'REPECHAGE'}]);
+  assert.deepEqual(structuredSessionHint('亞運 中華隊 馬術 障礙超越個人決賽A組第2輪 LIVE','EQU'),
+    [{competitionGroup:'A',roundNumber:2}]);
+  assert.deepEqual(structuredSessionHint('亞運 中華隊 馬術 障礙超越個人決賽第2輪 LIVE','EQU'),[],
+    '缺 competition group 時必須 fail closed');
+});
+
 test('ELTA 電競 is the ELS discipline alias and its named opponent remains the unit evidence',()=>{
   const html=page(JSON.stringify({'2026-10-02':{0:programme({format_s_time:'2026-10-02 10:55:00',
     program_desc:'亞運 中華VS南韓 電競 英雄聯盟金牌戰 10/2(原音) LIVE',

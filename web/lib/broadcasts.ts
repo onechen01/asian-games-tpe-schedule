@@ -19,7 +19,8 @@ export type Broadcast = {
 export type Broadcasts = { records:Broadcast[] };
 export type SessionScope = {
   gender?:'MEN'|'WOMEN'; eventFamily?:'INDIVIDUAL'|'TEAM'; weightKg?:number;
-  roundNumber?:number; stage?:'ELIMINATION_SESSION'|'ROUND_OF_16'|'QUARTERFINAL';
+  roundNumber?:number; competitionGroup?:'A'|'B';
+  stage?:'ELIMINATION_SESSION'|'ROUND_OF_16'|'QUARTERFINAL'|'REPECHAGE';
 };
 
 const isRecord = (value:unknown):value is Broadcast => {
@@ -56,6 +57,7 @@ type MatchRow = { disciplineCode:string|null; opponentCode:string|null;
   // own startTimeTaipei is otherwise the unit's, which for a sequential-entry session can be a
   // different competitor's slot entirely. See hasWindowEvidence below.
   tpeEntrants?:{ registration?:string|null; startTimeTaipei?:string|null }[];
+  timeNote?:{code?:string|null;clockTaipei?:string|null}|null;
   // An entered row's time is the event window's start, not a Taiwan start time.
   participationState?:string|null; entryLevel?:string|null };
 const key = (name:string)=>name.replace(/[^A-Za-z]/g,'').toUpperCase();
@@ -78,6 +80,10 @@ const insideWindow = (r:Broadcast, row:MatchRow)=>timeIsInsideWindow(r, row.star
 const hasWindowEvidence = (r:Broadcast, row:MatchRow)=>{
   const withTime = (row.tpeEntrants ?? []).filter(e=>typeof e.startTimeTaipei === 'string');
   if (withTime.length) return withTime.some(e=>timeIsInsideWindow(r, e.startTimeTaipei));
+  if (row.timeNote?.code==='NOT_BEFORE') {
+    const lower=Date.parse(row.startTimeTaipei??''),end=Date.parse(r.broadcastEndTimeTaipei??'');
+    return Number.isFinite(lower)&&Number.isFinite(end)&&end>lower;
+  }
   return insideWindow(r, row);
 };
 export const isProvisional = (row:MatchRow)=>
@@ -178,17 +184,26 @@ const matchesSessionStage = (row:MatchRow,stage:SessionScope['stage'])=>{
   if (stage==='ELIMINATION_SESSION') return isEliminationSessionRow(row);
   if (stage==='ROUND_OF_16') return /\bRound of 16\b/i.test(text);
   if (stage==='QUARTERFINAL') return /\bQuarter-?finals?\b|\b1\/4 Finals?\b/i.test(text);
+  if (stage==='REPECHAGE') return /\bRepechage\b/i.test(text);
   return false;
 };
 const matchesSessionScope = (row:MatchRow,scope:SessionScope)=>{
   const completeGolf=!!scope.gender&&!!scope.eventFamily&&scope.roundNumber!==undefined;
   const completeCombat=!!scope.gender&&scope.weightKg!==undefined&&!!scope.stage;
-  if (!completeGolf&&!completeCombat) return false;
+  const completeTeamStage=scope.eventFamily==='TEAM'&&scope.stage==='REPECHAGE';
+  const completeEquestrian=!!scope.competitionGroup&&scope.roundNumber!==undefined;
+  if (!completeGolf&&!completeCombat&&!completeTeamStage&&!completeEquestrian) return false;
   if (scope.gender && rowGender(row)!==scope.gender) return false;
   if (scope.eventFamily && !familiesIn(row.event,EVENT_FAMILIES,'row').has(scope.eventFamily)) return false;
   if (scope.weightKg!==undefined && rowWeightKg(row)!==scope.weightKg) return false;
-  if (scope.roundNumber!==undefined
-    && !new RegExp(`\\bRound\\s+${scope.roundNumber}\\b`,'i').test(`${row.phase??''} ${row.unit??''}`)) return false;
+  if (scope.roundNumber!==undefined) {
+    const round=scope.competitionGroup
+      ? new RegExp(`\\b(?:Round\\s+${scope.roundNumber}|${scope.roundNumber}(?:st|nd|rd|th)\\s+Round)\\b`,'i')
+      : new RegExp(`\\bRound\\s+${scope.roundNumber}\\b`,'i');
+    if (!round.test(`${row.phase??''} ${row.unit??''}`)) return false;
+  }
+  if (scope.competitionGroup
+    && !new RegExp(`\\b(?:Competition|Ind)\\s+${scope.competitionGroup}\\b`,'i').test(`${row.event??''} ${row.unit??''}`)) return false;
   if (scope.stage && !matchesSessionStage(row,scope.stage)) return false;
   return true;
 };

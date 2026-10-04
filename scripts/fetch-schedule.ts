@@ -7,7 +7,7 @@ import { confirmFromQualifiedCompetitors, officialQualifiedCompetitors,
 import { entryIndex, parseTpeEntries } from '../src/parsers/entries.ts';
 import { parseMatrix, activeDisciplineDays } from '../src/parsers/matrix.ts';
 import type { Schedule, CourtSessionChain } from '../src/parsers/schedule.ts';
-import { validateDate, nextDay } from '../src/utils/timezone.ts';
+import { validateDate, venueDaysForTaipeiDate } from '../src/utils/timezone.ts';
 import { save, ROOT } from '../src/utils/storage.ts';
 import { recoverMissing } from '../src/utils/recovery.ts';
 import { readFile } from 'node:fs/promises';
@@ -16,6 +16,7 @@ import { resolve } from 'node:path';
 import type { Meta, Failure } from '../src/api/asianGames.ts';
 
 const date = validateDate(process.argv[2]);
+const GAMES_LAST = '2026-10-04';
 // Discipline codes come from the official ALL/disc/list index saved by npm run fetch:disciplines,
 // never from guessing. Run that first; codes not in the index are rejected.
 const indexPath = 'data/normalized/disciplines.json';
@@ -29,7 +30,7 @@ const argument = process.argv[3] || 'BKB,SWM';
 // one small request plus the active disciplines, instead of every discipline blindly.
 // A Taiwan day covers two Japanese days, so both are used and the result is their union.
 const requests:Meta[] = [];
-const days = [date, nextDay(date)];
+const days = venueDaysForTaipeiDate(date,GAMES_LAST);
 type Target = { code:string; date:string; medalDay?:boolean };
 let matrixNote = '';
 // AUTO asks the matrix which discipline competes on which Japanese day and requests only

@@ -1369,6 +1369,69 @@ test('the real 10/2 taekwondo session and League of Legends final attach without
     && broadcastsForRow(show,date,r).length).length,0);
 });
 
+test('repechage, equestrian group rounds and NOT_BEFORE use only their explicit evidence',()=>{
+  const show=(record:Record<string,unknown>)=>parseBroadcasts(JSON.stringify({schemaVersion:1,records:[{
+    date:'2026-10-03',providerId:'elta',providerName:'愛爾達',isLive:true,
+    broadcastStartTimeTaipei:'2026-10-03T10:00:00+08:00',broadcastEndTimeTaipei:'2026-10-03T12:00:00+08:00',
+    feed:'main',matchLevel:'discipline',...record}]}));
+
+  const judo=show({disciplineCode:'JUD',title:'亞運 中華隊 柔道 混合團體複賽 10/3 LIVE',
+    matchHint:{sessionScopes:[{eventFamily:'TEAM',stage:'REPECHAGE'}]}});
+  const team={disciplineCode:'JUD',opponentCode:'UZB',athletesEn:[],event:'Mixed Team',
+    phase:'Mixed Team Repechage',unit:'Mixed Team Repechage',startTimeTaipei:'2026-10-03T10:00:00+08:00'};
+  assert.equal(broadcastsForRow(judo,'2026-10-03',team).length,1);
+  assert.equal(broadcastsForRow(judo,'2026-10-03',{...team,phase:'Mixed Team Quarterfinals',unit:'Mixed Team Quarterfinal'}).length,0);
+
+  const equ=show({disciplineCode:'EQU',title:'亞運 中華隊 馬術 障礙超越個人決賽A組第1輪 10/3 LIVE',
+    matchHint:{sessionScopes:[{competitionGroup:'A',roundNumber:1}]}});
+  const round={disciplineCode:'EQU',opponentCode:null,athletesEn:[],event:'Jumping,Individual Competition A',
+    phase:'Jumping Final',unit:'Jumping Ind A 1st Round',startTimeTaipei:'2026-10-03T08:30:00+08:00'};
+  assert.equal(broadcastsForRow(equ,'2026-10-03',round).length,1,'structured scope 不依賴過早的 unit start');
+  assert.equal(broadcastsForRow(equ,'2026-10-03',{...round,event:'Jumping,Individual Competition B',unit:'Jumping Ind B 1st Round'}).length,0);
+  assert.equal(broadcastsForRow(equ,'2026-10-03',{...round,unit:'Jumping Ind A 2nd Round'}).length,0);
+
+  const tennis=show({disciplineCode:'TEN',title:'亞運 中華隊 網球 女雙金牌戰 10/3 LIVE',
+    broadcastStartTimeTaipei:'2026-10-03T11:52:00+08:00',broadcastEndTimeTaipei:'2026-10-03T14:30:00+08:00',matchHint:{}});
+  const final={disciplineCode:'TEN',opponentCode:null,athletesEn:[],event:"Women's Doubles",
+    phase:"Women's Doubles Finals",unit:"Women's Doubles Finals Gold Medal Match",
+    startTimeTaipei:'2026-10-03T11:30:00+08:00',timeNote:{code:'NOT_BEFORE',clockTaipei:'11:30'}};
+  assert.equal(broadcastsForRow(tennis,'2026-10-03',final).length,1);
+  assert.equal(broadcastsForRow(tennis,'2026-10-03',{...final,timeNote:null}).length,0,
+    '普通精確時間仍維持原本 window gate');
+  assert.equal(broadcastsForRow(tennis,'2026-10-03',{...final,event:"Women's Singles"}).length,0,
+    'NOT_BEFORE 不得越過 event conflict');
+});
+
+test('the real 10/3 and 10/4 production broadcasts leave only ceremony and cross-day replay unmatched',async()=>{
+  const shows=parseBroadcasts(await readFile('data/reference/broadcasts.json','utf8'));
+  const identity=(b:{providerId:string;broadcastStartTimeTaipei:string;disciplineCode:string;title:string|null})=>
+    [b.providerId,b.broadcastStartTimeTaipei,b.disciplineCode,b.title].join('|');
+  const audit=async(date:string)=>{
+    const day=parseDaily(JSON.parse(await readFile(`data/normalized/daily-${date}.json`,'utf8')),date);
+    const rows=[...taiwanRows(day),...pendingRows(day)],attached=new Set<string>();
+    for(const row of rows) for(const b of broadcastsForRow(shows,date,row,day.sessionChains??[])) attached.add(identity(b));
+    return {day,rows,unmatched:shows.records.filter(b=>b.date===date&&!attached.has(identity(b)))};
+  };
+  const oct3=await audit('2026-10-03');
+  assert.deepEqual(oct3.unmatched.map(b=>b.title),[
+    '亞運 中華隊 高爾夫 頒獎典禮 10/3(原音) LIVE',
+    '亞運 中華VS南韓 電競 英雄聯盟金牌戰 10/2 D-LIVE',
+  ]);
+  const oct4=await audit('2026-10-04');
+  assert.equal(oct4.unmatched.length,0);
+  const expected=new Map([
+    ['EQU:O.JUMPINDVCOMA------.FNL-.000200--',['A組第2輪','A組第2輪']],
+    ['EQU:O.JUMPINDVCOMB------.FNL-.000200--',['B組第2輪','B組第2輪']],
+  ]);
+  for(const row of oct4.rows){
+    const id=row.sources.results?.id,labels=id?expected.get(id):undefined;
+    if (!labels) continue;
+    const titles=broadcastsForRow(shows,'2026-10-04',row,oct4.day.sessionChains??[]).map(b=>b.title??'');
+    assert.equal(titles.length,2,id);
+    assert.ok(titles.every(title=>labels.some(label=>title.includes(label))),`${id} 串到其他 group/round`);
+  }
+});
+
 test('case C — a D-LIVE rerun credited to a different athlete, or covering a different round, is not inherited (real karate examples)',()=>{
   // 9/22: the LIVE names a specific athlete ("鍾孟宇"); the D-LIVE rerun uses the generic "中華隊"
   // label instead — a real difference in who the programme is about, not playback noise.

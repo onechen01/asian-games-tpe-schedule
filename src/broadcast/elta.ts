@@ -24,7 +24,8 @@ export type CourtSessionHint = {
 // unsafe cross product of every gender and weight mentioned anywhere in the title.
 export type SessionScope = {
   gender?:'MEN'|'WOMEN'; eventFamily?:'INDIVIDUAL'|'TEAM'; weightKg?:number;
-  roundNumber?:number; stage?:'ELIMINATION_SESSION'|'ROUND_OF_16'|'QUARTERFINAL';
+  roundNumber?:number; competitionGroup?:'A'|'B';
+  stage?:'ELIMINATION_SESSION'|'ROUND_OF_16'|'QUARTERFINAL'|'REPECHAGE';
 };
 export type Unresolved = { time:string|null; title:string; reason:string };
 
@@ -139,6 +140,13 @@ function combatEliminationSessionScopes(title:string):SessionScope[] {
   return genderWeightScopes(title).map(scope=>({...scope,stage:'ELIMINATION_SESSION'}));
 }
 
+function judoRepechageScopes(title:string):SessionScope[] {
+  if (!/複賽/.test(title) || /預賽\s*[／/]\s*複賽/.test(title)) return [];
+  const weighted=genderWeightScopes(title);
+  if (weighted.length) return weighted.map(scope=>({...scope,stage:'REPECHAGE'}));
+  return /團體/.test(title) ? [{eventFamily:'TEAM',stage:'REPECHAGE'}] : [];
+}
+
 function taekwondoSessionScopes(title:string):SessionScope[] {
   const stages:NonNullable<SessionScope['stage']>[]=[];
   if (/16強/.test(title)) stages.push('ROUND_OF_16');
@@ -147,12 +155,19 @@ function taekwondoSessionScopes(title:string):SessionScope[] {
   return genderWeightScopes(title).flatMap(scope=>stages.map(stage=>({...scope,stage})));
 }
 
+function equestrianSessionScopes(title:string):SessionScope[] {
+  const hit=/([AB])組第(\d+)輪/.exec(title);
+  return hit ? [{competitionGroup:hit[1] as 'A'|'B',roundNumber:Number(hit[2])}] : [];
+}
+
 // Provider parsing only: these scopes describe text the broadcaster actually wrote. They are
 // never participation evidence and can only select already-existing canonical rows.
 export function structuredSessionHint(title:string,disciplineCode:string):SessionScope[] {
   const scopes=disciplineCode==='GLF' ? golfSessionScopes(title)
-    : disciplineCode==='JUD'||disciplineCode==='WRE' ? combatEliminationSessionScopes(title)
-    : disciplineCode==='TKW' ? taekwondoSessionScopes(title) : [];
+    : disciplineCode==='JUD' ? [...combatEliminationSessionScopes(title),...judoRepechageScopes(title)]
+    : disciplineCode==='WRE' ? combatEliminationSessionScopes(title)
+    : disciplineCode==='TKW' ? taekwondoSessionScopes(title)
+    : disciplineCode==='EQU' ? equestrianSessionScopes(title) : [];
   return [...new Map(scopes.map(scope=>[JSON.stringify(scope),scope])).values()];
 }
 
