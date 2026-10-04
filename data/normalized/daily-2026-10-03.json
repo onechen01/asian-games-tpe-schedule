@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T10:12:26.455Z",
+  "generatedAt": "2026-10-04T11:22:43.800Z",
   "timezone": "Asia/Taipei",
   "editorialVerification": "pending",
   "sources": {
     "results": {
       "path": "data/staging/2026-10-03/schedule-2026-10-03-AUTO.json",
-      "generatedAt": "2026-10-04T10:12:26.326Z",
+      "generatedAt": "2026-10-04T11:22:43.636Z",
       "coverage": {
         "sports": [
           "ARC",
@@ -173,6 +173,10 @@
     "entries": {
       "path": "data/normalized/tpe-entries.json",
       "events": 246
+    },
+    "specialEvents": {
+      "path": "data/reference/special-events.json",
+      "count": 0
     }
   },
   "date": "2026-10-03",
@@ -2083,5 +2087,6 @@
       "row": "BKG|M.INDIVID-----------",
       "message": "BKG B-Boys 當日尚有未編組場次，官方公布後才知道中華隊是否出賽"
     }
-  ]
+  ],
+  "specialEvents": []
 }
